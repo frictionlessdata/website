@@ -1,11 +1,12 @@
 ---
 title: Job - Pull Dataset
 sidebar: false
+description: Get raw data from a source to your environment quickly and repeatedly.
 ---
 
 # {{ $page.frontmatter.title }}
 
-**Get raw data from a source to your environment quickly and repeatedly.**
+**{{ $page.frontmatter.description }}**
 
 ![Icon]()
 
