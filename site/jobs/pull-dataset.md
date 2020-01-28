@@ -3,7 +3,7 @@ title: Job - Pull Dataset
 sidebar: false
 ---
 
-# Job - Pull Dataset
+# {{ $page.frontmatter.title }}
 
 **Get raw data from a source to your environment quickly and repeatedly.**
 
