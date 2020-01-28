@@ -1,0 +1,17 @@
+{
+  "name": "frictionlessdata.io",
+  "version": "1.0.0",
+  "description": "Frictionless Data Website",
+  "dependencies": {
+    "markdown-it-footnote": "",
+    "mermaid": "^8.0.0"
+  },
+  "devDependencies": {
+    "vuepress": "^1.2.0",
+    "@vuepress/plugin-google-analytics": "^1.1.0"
+  },
+  "scripts": {
+    "start": "npx vuepress dev site",
+    "build": "npx vuepress build site"
+  }
+}
