@@ -2,6 +2,7 @@
 title: Validating Data
 pub_date: 2016-06-24
 doc_category: validating-data
+sidebar: false
 ---
 
 Tabular data (e.g. data stored in [CSV](/docs/csv/) and Excel worksheets) is one of the most common forms of data available on the web. This guide will walk through validating tabular data using Frictionless Data software.

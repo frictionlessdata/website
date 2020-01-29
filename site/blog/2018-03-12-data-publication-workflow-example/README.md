@@ -5,6 +5,7 @@ ft_img: workflow.png
 required:
 tools: Data Package Creator, goodtables.io
 sort_key: 6
+sidebar: false
 ---
 
 

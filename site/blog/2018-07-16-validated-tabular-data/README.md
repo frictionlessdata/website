@@ -4,7 +4,8 @@ intro: When it comes to validating tabular data, you have some great tools at yo
 ft_img: valid.png
 required: Command-line
 tools: try.goodtables.io, Goodtables CLI
-sort_key: 3
+sort_key: 
+sidebar: false
 ---
 
 Errors in data are not uncommon. They also often get in the way of quick and timely data analysis for many data users. What if there was a way to quickly identify errors in your data to accelerate the process by which you fix them before sharing your data or using it for analysis?
