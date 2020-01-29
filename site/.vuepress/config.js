@@ -25,5 +25,13 @@ module.exports = {
       { text: "About", link: "/about/" },
       { text: "Specs", link: "/specs/" }
     ]
-  }
+  },
+  plugins: [
+    [
+      '@vuepress/plugin-google-analytics',
+      {
+        'ga': 'UA-33874954-38'
+      }
+    ]
+  ]
 };
