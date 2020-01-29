@@ -52,3 +52,5 @@ package.get_resource('resource').read()
 [Full Specification](/specs/data-package)
 
 [Tutorials](/blog/data-package)
+
+[How to write a Data Package](/blog/2018-03-07-well-packaged-datasets)
