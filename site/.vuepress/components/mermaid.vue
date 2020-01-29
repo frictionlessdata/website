@@ -1,11 +1,10 @@
 // .vuepress/components/mermaid.vue
 
-<template>
-</template>
+<template> </template>
 
 <style>
 div.language-mermaid {
-  background-color: inherit
+  background-color: inherit;
 }
 </style>
 
@@ -16,7 +15,7 @@ export default {
       m.initialize({
         startOnLoad: true
       });
-      m.init('div.language-mermaid>pre>code');
+      m.init("div.language-mermaid>pre>code");
     });
   }
 };

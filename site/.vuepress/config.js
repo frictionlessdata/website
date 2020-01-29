@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'Frictionless Data',
-  description: 'Bringing simplicity and gracefulness to the data experience',
+  title: "Frictionless Data",
+  description: "Bringing simplicity and gracefulness to the data experience",
   markdown: {
     linkify: true,
     typographer: true,
@@ -10,15 +10,15 @@ module.exports = {
       includeLevel: [2, 3]
     },
     extendMarkdown: md => {
-      md.use(require('markdown-it-footnote'))
+      md.use(require("markdown-it-footnote"));
     }
   },
   themeConfig: {
-    repo: 'https://github.com/frictionlessdata/website',
-    repoLabel: 'Contribute!',
+    repo: "https://github.com/frictionlessdata/website",
+    repoLabel: "Contribute!",
     // defaults to false, set to true to enable
     editLinks: true,
-    sidebar: 'auto',
+    sidebar: "auto",
     nav: [
       { text: "Home", link: "/" },
       { text: "About", link: "/about/" },
