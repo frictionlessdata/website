@@ -5,6 +5,7 @@ ft_img: used.png
 required: Command-line
 tools: Data Package Creator, goodtables.io
 sort_key: 4
+sidebar: false
 ---
 
 
