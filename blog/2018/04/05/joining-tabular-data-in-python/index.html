@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Joining Tabular Data | Frictionless Data</title>
+    <meta name="description" content="Bringing simplicity and gracefulness to the data experience">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.e33ca001.css" as="style"><link rel="preload" href="/assets/js/app.1df5a819.js" as="script"><link rel="preload" href="/assets/js/12.c558c03c.js" as="script"><link rel="preload" href="/assets/js/29.a45a7783.js" as="script"><link rel="prefetch" href="/assets/js/10.7412d3a1.js"><link rel="prefetch" href="/assets/js/11.15b9a67e.js"><link rel="prefetch" href="/assets/js/13.e412175a.js"><link rel="prefetch" href="/assets/js/14.39bb58f4.js"><link rel="prefetch" href="/assets/js/15.4c245120.js"><link rel="prefetch" href="/assets/js/16.5a56c5f7.js"><link rel="prefetch" href="/assets/js/17.21919b11.js"><link rel="prefetch" href="/assets/js/18.3484a598.js"><link rel="prefetch" href="/assets/js/19.60f852f6.js"><link rel="prefetch" href="/assets/js/2.a30aa7e7.js"><link rel="prefetch" href="/assets/js/20.f4ff9d61.js"><link rel="prefetch" href="/assets/js/21.df12c663.js"><link rel="prefetch" href="/assets/js/22.82e293f2.js"><link rel="prefetch" href="/assets/js/23.7f8ab810.js"><link rel="prefetch" href="/assets/js/24.630114c6.js"><link rel="prefetch" href="/assets/js/25.7ec35d06.js"><link rel="prefetch" href="/assets/js/26.d755a1c5.js"><link rel="prefetch" href="/assets/js/27.bace403e.js"><link rel="prefetch" href="/assets/js/28.3ec75662.js"><link rel="prefetch" href="/assets/js/3.b2556bbc.js"><link rel="prefetch" href="/assets/js/30.26177ac7.js"><link rel="prefetch" href="/assets/js/31.4de75702.js"><link rel="prefetch" href="/assets/js/32.d5c8776f.js"><link rel="prefetch" href="/assets/js/33.17d63c39.js"><link rel="prefetch" href="/assets/js/34.f91793e9.js"><link rel="prefetch" href="/assets/js/35.baa368e3.js"><link rel="prefetch" href="/assets/js/36.132918fd.js"><link rel="prefetch" href="/assets/js/37.498bc08f.js"><link rel="prefetch" href="/assets/js/38.4ec8e04f.js"><link rel="prefetch" href="/assets/js/39.7b278ab6.js"><link rel="prefetch" href="/assets/js/4.2dffc5ca.js"><link rel="prefetch" href="/assets/js/40.59e38ed5.js"><link rel="prefetch" href="/assets/js/41.88131d1c.js"><link rel="prefetch" href="/assets/js/42.cd69da31.js"><link rel="prefetch" href="/assets/js/43.1033aa79.js"><link rel="prefetch" href="/assets/js/44.44f4bf91.js"><link rel="prefetch" href="/assets/js/45.c9961db4.js"><link rel="prefetch" href="/assets/js/46.cc161031.js"><link rel="prefetch" href="/assets/js/47.fd3bac9e.js"><link rel="prefetch" href="/assets/js/5.4da66893.js"><link rel="prefetch" href="/assets/js/6.444d0094.js"><link rel="prefetch" href="/assets/js/7.3f31a55f.js"><link rel="prefetch" href="/assets/js/8.02db9595.js"><link rel="prefetch" href="/assets/js/9.822a8965.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e33ca001.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><h1>Joining Tabular Data</h1> <div class="content__default"><p>In a <a href="/docs/joining-data-in-python/">separate guide</a>, I walked through joining<br>
+a tabular dataset with one containing geographic information.  In this<br>
+guide, I will demonstrate an example of joining two tabular datasets.</p> <p>!! There are, of course, various, more robust ways of joining<br>
+tabular data.  The example listed below is intended to demonstrate<br>
+how the current libraries and specifications work together to perform<br>
+this common task.</p> <h2 id="data"><a href="#data" class="header-anchor">#</a> Data</h2> <p>In this case, we want to join a dataset containing the <em>nominal</em> Gross<br>
+Domestic Product (GDP) per country per year with the Consumer Price<br>
+Index (CPI) per country per year.  By adjusting a given GDP measure by<br>
+the CPI, a measure of inflation, one can yield the <em>real</em> GDP, a<br>
+measure of economic output adjusted for price changes over time.  To<br>
+do that, of course, we need to join these independent datasets on the<br>
+common values “Country Code” and “Year”.</p> <h3 id="gdp"><a href="#gdp" class="header-anchor">#</a> GDP</h3> <table><thead><tr><th>Country Name</th> <th>Country Code</th> <th>Year</th> <th>Value</th></tr></thead> <tbody><tr><td>Afghanistan</td> <td>AFG</td> <td>2004</td> <td>5285461999.33739</td></tr> <tr><td>Afghanistan</td> <td>AFG</td> <td>2005</td> <td>6275076016.47174</td></tr> <tr><td>Afghanistan</td> <td>AFG</td> <td>2006</td> <td>7057598406.61553</td></tr> <tr><td>Afghanistan</td> <td>AFG</td> <td>2007</td> <td>9843842455.48323</td></tr> <tr><td>Afghanistan</td> <td>AFG</td> <td>2008</td> <td>10190529882.4878</td></tr></tbody></table> <h3 id="cpi"><a href="#cpi" class="header-anchor">#</a> CPI</h3> <table><thead><tr><th>Country Name</th> <th>Country Code</th> <th>Year</th> <th>CPI</th></tr></thead> <tbody><tr><td>Afghanistan</td> <td>AFG</td> <td>2004</td> <td>63.1318927309</td></tr> <tr><td>Afghanistan</td> <td>AFG</td> <td>2005</td> <td>71.1409742918</td></tr> <tr><td>Afghanistan</td> <td>AFG</td> <td>2006</td> <td>76.3021776777</td></tr> <tr><td>Afghanistan</td> <td>AFG</td> <td>2007</td> <td>82.7748069188</td></tr> <tr><td>Afghanistan</td> <td>AFG</td> <td>2008</td> <td>108.0666000101</td></tr></tbody></table> <h2 id="loading-the-data"><a href="#loading-the-data" class="header-anchor">#</a> Loading the Data</h2> <p>As usual, the first step is to load the Data Packages library<br> <code>datapackage</code>.  We also need to import <code>DictWriter</code> to write our<br>
+merged rows to a new CSV.</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">import</span> datapackage
+<span class="token keyword">from</span> csv <span class="token keyword">import</span> DictWriter
+
+cpi_dp <span class="token operator">=</span> datapackage<span class="token punctuation">.</span>DataPackage<span class="token punctuation">(</span><span class="token string">'https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/cpi/datapackage.json'</span><span class="token punctuation">)</span>
+gdp_dp <span class="token operator">=</span> datapackage<span class="token punctuation">.</span>DataPackage<span class="token punctuation">(</span><span class="token string">'https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/gross-domestic-product-all/datapackage.json'</span><span class="token punctuation">)</span>
+</code></pre></div><p>Given that our source data has already been packaged in<br> <a href="/docs/tabular-data-package/">Tabular Data Package</a> format, we know<br>
+that we have a <a href="/docs/table-schema/"><em>schema</em></a> for each CSV<br>
+which specifies useful information for each column.  We’d like to<br>
+merge and preserve this schema information as we’ll need it for<br>
+specifying the combined schema in our new Data Package.  Note that<br>
+we’re also adding a new derived column named ‘Real GDP’ and giving it<br>
+a type of <code>number</code>.</p> <div class="language-python extra-class"><pre class="language-python"><code>field_info <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">]</span>
+field_info<span class="token punctuation">.</span>extend<span class="token punctuation">(</span>cpi_dp<span class="token punctuation">.</span>resources<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>descriptor<span class="token punctuation">[</span><span class="token string">'schema'</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">'fields'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+field_info<span class="token punctuation">.</span>extend<span class="token punctuation">(</span>gdp_dp<span class="token punctuation">.</span>resources<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>descriptor<span class="token punctuation">[</span><span class="token string">'schema'</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">'fields'</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+field_info<span class="token punctuation">.</span>append<span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">'name'</span><span class="token punctuation">:</span> <span class="token string">'Real GDP'</span><span class="token punctuation">,</span> <span class="token string">'type'</span><span class="token punctuation">:</span> <span class="token string">'number'</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+</code></pre></div><p>Now that we have this information, we can generate a <code>fieldnames</code><br>
+array containing only the names of the columns to eventually pass to<br> <code>DictWriter</code> when we’re ready write out our new CSV.</p> <div class="language-python extra-class"><pre class="language-python"><code>fieldnames <span class="token operator">=</span> <span class="token punctuation">[</span>f<span class="token punctuation">[</span><span class="token string">'name'</span><span class="token punctuation">]</span> <span class="token keyword">for</span> f <span class="token keyword">in</span> field_info<span class="token punctuation">]</span>
+</code></pre></div><h2 id="joining-the-data"><a href="#joining-the-data" class="header-anchor">#</a> Joining the Data</h2> <p>What follows is a fairly simple example of iterating through each row<br>
+of each CSV and creating a new <code>merged_row</code> when ‘Year’ and ‘Country<br>
+Code’ match on the two datasets.  We are also calculating our derived<br>
+‘Real GDP’ column based in the information found in the original<br>
+columns.</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'real_gdp.csv'</span><span class="token punctuation">,</span> <span class="token string">'w'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> csvfile<span class="token punctuation">:</span>
+    writer <span class="token operator">=</span> DictWriter<span class="token punctuation">(</span>csvfile<span class="token punctuation">,</span>fieldnames<span class="token operator">=</span>fieldnames<span class="token punctuation">)</span>
+    writer<span class="token punctuation">.</span>writeheader<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    <span class="token keyword">for</span> gdp_row <span class="token keyword">in</span> gdp_dp<span class="token punctuation">.</span>resources<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>data<span class="token punctuation">:</span>
+        <span class="token keyword">for</span> cpi_row <span class="token keyword">in</span> cpi_dp<span class="token punctuation">.</span>resources<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>data<span class="token punctuation">:</span>
+            <span class="token keyword">if</span> gdp_row<span class="token punctuation">[</span><span class="token string">'Year'</span><span class="token punctuation">]</span> <span class="token operator">==</span> cpi_row<span class="token punctuation">[</span><span class="token string">'Year'</span><span class="token punctuation">]</span> <span class="token keyword">and</span> gdp_row<span class="token punctuation">[</span><span class="token string">'Country Code'</span><span class="token punctuation">]</span> <span class="token operator">==</span> cpi_row<span class="token punctuation">[</span><span class="token string">'Country Code'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+                merged_row <span class="token operator">=</span> gdp_row<span class="token punctuation">.</span>copy<span class="token punctuation">(</span><span class="token punctuation">)</span>
+                merged_row<span class="token punctuation">.</span>update<span class="token punctuation">(</span>cpi_row<span class="token punctuation">)</span>
+                merged_row<span class="token punctuation">.</span>update<span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token string">'Real GDP'</span><span class="token punctuation">:</span> <span class="token number">100</span><span class="token operator">*</span><span class="token punctuation">(</span><span class="token builtin">float</span><span class="token punctuation">(</span>gdp_row<span class="token punctuation">[</span><span class="token string">'Value'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token operator">/</span><span class="token builtin">float</span><span class="token punctuation">(</span>cpi_row<span class="token punctuation">[</span><span class="token string">'CPI'</span><span class="token punctuation">]</span><span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">}</span><span class="token punctuation">)</span>
+                writer<span class="token punctuation">.</span>writerow<span class="token punctuation">(</span>merged_row<span class="token punctuation">)</span>
+
+</code></pre></div><h2 id="creating-a-new-data-package"><a href="#creating-a-new-data-package" class="header-anchor">#</a> Creating a New Data Package</h2> <p>Now that we’ve created our new CSV <code>real_gdp.csv</code>, we can use the Data<br>
+Package library to package it up with some useful metadata.  Note that<br>
+we are passing the merged <code>field_info</code> array into our <code>schema</code><br>
+definition.  Given that we are generating this Data Package “by hand”,<br>
+we need to run the <code>validate</code> method on the new Data Package object to<br>
+make sure that we are, indeed, creating a valid Data Package.  After<br>
+validating the Data Package metadata, we can either write the Data<br>
+Package directly or save the whole thing as a zip file using the<br> <code>save</code> method.</p> <div class="language-python extra-class"><pre class="language-python"><code>dp <span class="token operator">=</span> datapackage<span class="token punctuation">.</span>Package<span class="token punctuation">(</span><span class="token punctuation">)</span>
+dp<span class="token punctuation">.</span>descriptor<span class="token punctuation">[</span><span class="token string">'name'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'real-gdp'</span>
+    <span class="token punctuation">{</span>
+     <span class="token string">'name'</span><span class="token punctuation">:</span> <span class="token string">'data'</span><span class="token punctuation">,</span>
+     <span class="token string">'path'</span><span class="token punctuation">:</span> <span class="token string">'real_gdp.csv'</span><span class="token punctuation">,</span>
+     <span class="token string">'format'</span><span class="token punctuation">:</span> <span class="token string">'csv'</span><span class="token punctuation">,</span>
+     <span class="token string">'schema'</span><span class="token punctuation">:</span> <span class="token punctuation">{</span>
+        <span class="token string">'fields'</span><span class="token punctuation">:</span> field_info
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+
+resource <span class="token operator">=</span> dp<span class="token punctuation">.</span>resources<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span>
+resource<span class="token punctuation">.</span>descriptor<span class="token punctuation">[</span><span class="token string">'path'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'real_gdp.csv'</span>
+
+dp<span class="token punctuation">.</span>validate<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+<span class="token keyword">with</span> <span class="token builtin">open</span><span class="token punctuation">(</span><span class="token string">'datapackage.json'</span><span class="token punctuation">,</span> <span class="token string">'w'</span><span class="token punctuation">)</span> <span class="token keyword">as</span> f<span class="token punctuation">:</span>
+    f<span class="token punctuation">.</span>write<span class="token punctuation">(</span>dp<span class="token punctuation">.</span>to_json<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+<span class="token comment"># dp.save(&quot;real_gdp.zip&quot;)</span>
+</code></pre></div></div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.1df5a819.js" defer></script><script src="/assets/js/12.c558c03c.js" defer></script><script src="/assets/js/29.a45a7783.js" defer></script>
+  </body>
+</html>

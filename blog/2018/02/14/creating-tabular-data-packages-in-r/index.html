@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Creating Data Packages in R | Frictionless Data</title>
+    <meta name="description" content="Bringing simplicity and gracefulness to the data experience">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.e33ca001.css" as="style"><link rel="preload" href="/assets/js/app.1df5a819.js" as="script"><link rel="preload" href="/assets/js/12.c558c03c.js" as="script"><link rel="preload" href="/assets/js/22.82e293f2.js" as="script"><link rel="prefetch" href="/assets/js/10.7412d3a1.js"><link rel="prefetch" href="/assets/js/11.15b9a67e.js"><link rel="prefetch" href="/assets/js/13.e412175a.js"><link rel="prefetch" href="/assets/js/14.39bb58f4.js"><link rel="prefetch" href="/assets/js/15.4c245120.js"><link rel="prefetch" href="/assets/js/16.5a56c5f7.js"><link rel="prefetch" href="/assets/js/17.21919b11.js"><link rel="prefetch" href="/assets/js/18.3484a598.js"><link rel="prefetch" href="/assets/js/19.60f852f6.js"><link rel="prefetch" href="/assets/js/2.a30aa7e7.js"><link rel="prefetch" href="/assets/js/20.f4ff9d61.js"><link rel="prefetch" href="/assets/js/21.df12c663.js"><link rel="prefetch" href="/assets/js/23.7f8ab810.js"><link rel="prefetch" href="/assets/js/24.630114c6.js"><link rel="prefetch" href="/assets/js/25.7ec35d06.js"><link rel="prefetch" href="/assets/js/26.d755a1c5.js"><link rel="prefetch" href="/assets/js/27.bace403e.js"><link rel="prefetch" href="/assets/js/28.3ec75662.js"><link rel="prefetch" href="/assets/js/29.a45a7783.js"><link rel="prefetch" href="/assets/js/3.b2556bbc.js"><link rel="prefetch" href="/assets/js/30.26177ac7.js"><link rel="prefetch" href="/assets/js/31.4de75702.js"><link rel="prefetch" href="/assets/js/32.d5c8776f.js"><link rel="prefetch" href="/assets/js/33.17d63c39.js"><link rel="prefetch" href="/assets/js/34.f91793e9.js"><link rel="prefetch" href="/assets/js/35.baa368e3.js"><link rel="prefetch" href="/assets/js/36.132918fd.js"><link rel="prefetch" href="/assets/js/37.498bc08f.js"><link rel="prefetch" href="/assets/js/38.4ec8e04f.js"><link rel="prefetch" href="/assets/js/39.7b278ab6.js"><link rel="prefetch" href="/assets/js/4.2dffc5ca.js"><link rel="prefetch" href="/assets/js/40.59e38ed5.js"><link rel="prefetch" href="/assets/js/41.88131d1c.js"><link rel="prefetch" href="/assets/js/42.cd69da31.js"><link rel="prefetch" href="/assets/js/43.1033aa79.js"><link rel="prefetch" href="/assets/js/44.44f4bf91.js"><link rel="prefetch" href="/assets/js/45.c9961db4.js"><link rel="prefetch" href="/assets/js/46.cc161031.js"><link rel="prefetch" href="/assets/js/47.fd3bac9e.js"><link rel="prefetch" href="/assets/js/5.4da66893.js"><link rel="prefetch" href="/assets/js/6.444d0094.js"><link rel="prefetch" href="/assets/js/7.3f31a55f.js"><link rel="prefetch" href="/assets/js/8.02db9595.js"><link rel="prefetch" href="/assets/js/9.822a8965.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e33ca001.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><h1>Creating Data Packages in R</h1> <div class="content__default"><p>! <a href="http://okfn.gr/" target="_blank" rel="noopener noreferrer">Open Knowledge Greece<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> was one of 2017’s <a href="https://toolfund.frictionlessdata.io" target="_blank" rel="noopener noreferrer">Frictionless Data Tool Fund<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> grantees tasked with extending implementation of core Frictionless Data libraries in R programming language. You can read more about this in <a href="https://frictionlessdata.io/articles/open-knowledge-greece/" target="_blank" rel="noopener noreferrer">their grantee profile<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>. In this tutorial, <a href="https://twitter.com/Kleanthis_k10" target="_blank" rel="noopener noreferrer">Kleanthis Koupidis<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>, a Data Scientist and Statistician at Open Knowledge Greece, explains how to create Data Packages in R.</p> <p>This tutorial will show you how to install the R library for working with Data Packages and Table Schema, load a CSV file, infer its schema, and write a Tabular Data Package.</p> <h2 id="setup"><a href="#setup" class="header-anchor">#</a> Setup</h2> <p>For this tutorial, we will need the Data Package R library (<a href="https://github.com/frictionlessdata/datapackage-r" target="_blank" rel="noopener noreferrer">datapackage.r<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>).</p> <p><a href="https://cran.r-project.org/package=devtools" target="_blank" rel="noopener noreferrer">devtools library<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> is required to install the <code>datapackage.r</code> library from github.</p> <div class="language- extra-class"><pre class="language-text"><code>    # Install devtools package if not already
+    install.packages(&quot;devtools&quot;)
+</code></pre></div><p>And then install the development version of <a href="https://github.com/frictionlessdata/datapackage-r" target="_blank" rel="noopener noreferrer">datapackage.r<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> from github.</p> <div class="language- extra-class"><pre class="language-text"><code>    devtools::install_github(&quot;frictionlessdata/datapackage-r&quot;)
+</code></pre></div><h2 id="load"><a href="#load" class="header-anchor">#</a> Load</h2> <p>You can start using the library by loading <code>datapackage.r</code>.</p> <div class="language-r extra-class"><pre class="language-r"><code>    library<span class="token punctuation">(</span>datapackage.r<span class="token punctuation">)</span>
+</code></pre></div><p>You can add useful metadata by adding keys to metadata dict attribute. Below, we are adding the required <code>name</code> key as well as a human-readable <code>title</code> key. For the keys supported, please consult the full <a href="/specs/data-package/">Data Package spec</a>. Note, we will be creating the required <code>resources</code> key further down below.</p> <div class="language-r extra-class"><pre class="language-r"><code>    dataPackage <span class="token operator">=</span> Package.load<span class="token punctuation">(</span><span class="token punctuation">)</span>
+    dataPackage<span class="token operator">$</span>descriptor<span class="token punctuation">[</span><span class="token string">'name'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'period-table'</span>
+    dataPackage<span class="token operator">$</span>descriptor<span class="token punctuation">[</span><span class="token string">'title'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'Periodic Table'</span>
+    <span class="token comment"># commit the changes to Package class</span>
+    dataPackage<span class="token operator">$</span>commit<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token comment">## [1] TRUE</span>
+</code></pre></div><h2 id="infer-a-csv-schema"><a href="#infer-a-csv-schema" class="header-anchor">#</a> Infer a CSV Schema</h2> <p>We will use periodic-table data from <a href="https://raw.githubusercontent.com/frictionlessdata/datapackage-r/9eed05d1710fd69a0cb74f7941c7f142563f571b/vignettes/example_data/data.csv" target="_blank" rel="noopener noreferrer">remote path<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p> <table><thead><tr><th>atomic.number</th> <th>symbol</th> <th>name</th> <th>atomic.mass</th> <th>metal.or.nonmetal.</th></tr></thead> <tbody><tr><td>1</td> <td>H</td> <td>Hydrogen</td> <td>1.00794</td> <td>nonmetal</td></tr> <tr><td>2</td> <td>He</td> <td>Helium</td> <td>4.002602</td> <td>noble gas</td></tr> <tr><td>3</td> <td>Li</td> <td>Lithium</td> <td>6.941</td> <td>alkali metal</td></tr> <tr><td>4</td> <td>Be</td> <td>Beryllium</td> <td>9.012182</td> <td>alkaline earth metal</td></tr> <tr><td>5</td> <td>B</td> <td>Boron</td> <td>10.811</td> <td>metalloid</td></tr> <tr><td>6</td> <td>C</td> <td>Carbon</td> <td>12.0107</td> <td>nonmetal</td></tr> <tr><td>7</td> <td>N</td> <td>Nitrogen</td> <td>14.0067</td> <td>nonmetal</td></tr> <tr><td>8</td> <td>O</td> <td>Oxygen</td> <td>15.9994</td> <td>nonmetal</td></tr> <tr><td>9</td> <td>F</td> <td>Fluorine</td> <td>18.9984032</td> <td>halogen</td></tr> <tr><td>10</td> <td>Ne</td> <td>Neon</td> <td>20.1797</td> <td>noble gas</td></tr></tbody></table> <p>We can guess our CSV’s <a href="/docs/table-schema/">schema</a> by using <code>infer</code> from the Table Schema library. We pass directly the remote link to the infer function, the result of which is an inferred schema. For example, if the processor detects only integers in a given column, it will assign <code>integer</code> as a column type.</p> <div class="language-r extra-class"><pre class="language-r"><code>    filepath <span class="token operator">=</span> <span class="token string">'https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/example_data/data.csv'</span>
+
+    schema <span class="token operator">=</span> tableschema.r<span class="token operator">::</span>infer<span class="token punctuation">(</span>filepath<span class="token punctuation">)</span>
+</code></pre></div><p>Once we have a schema, we are now ready to add a <code>resource</code> key to the Data Package which points to the resource path and its newly created schema. Below we define resources with three ways, using json text format with usual assignment operator in R list objects and directly using <code>addResource</code> function of <code>Package</code> class:</p> <div class="language-r extra-class"><pre class="language-r"><code>    <span class="token comment"># define resources using json text</span>
+    resources <span class="token operator">=</span> helpers.from.json.to.list<span class="token punctuation">(</span>
+      '<span class="token punctuation">[</span><span class="token punctuation">{</span>
+        <span class="token string">&quot;name&quot;</span><span class="token operator">:</span> <span class="token string">&quot;data&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;path&quot;</span><span class="token operator">:</span> <span class="token string">&quot;filepath&quot;</span><span class="token punctuation">,</span>
+        <span class="token string">&quot;schema&quot;</span><span class="token operator">:</span> <span class="token string">&quot;schema&quot;</span>
+      <span class="token punctuation">}</span><span class="token punctuation">]</span>'
+    <span class="token punctuation">)</span>
+    resources<span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token operator">$</span>schema <span class="token operator">=</span> schema
+    resources<span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token punctuation">]</span><span class="token operator">$</span>path <span class="token operator">=</span> filepath
+
+    <span class="token comment"># or define resources using list object</span>
+    resources <span class="token operator">=</span> list<span class="token punctuation">(</span>list<span class="token punctuation">(</span>
+      name <span class="token operator">=</span> <span class="token string">&quot;data&quot;</span><span class="token punctuation">,</span>
+      path <span class="token operator">=</span> filepath<span class="token punctuation">,</span>
+      schema <span class="token operator">=</span> schema
+      <span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><p>And now, add resources to the Data Package:</p> <div class="language-r extra-class"><pre class="language-r"><code>    dataPackage<span class="token operator">$</span>descriptor<span class="token punctuation">[</span><span class="token punctuation">[</span><span class="token string">'resources'</span><span class="token punctuation">]</span><span class="token punctuation">]</span> <span class="token operator">=</span> resources
+    dataPackage<span class="token operator">$</span>commit<span class="token punctuation">(</span><span class="token punctuation">)</span>
+
+    <span class="token comment">## [1] TRUE</span>
+</code></pre></div><p>Or you can directly add resources using <code>addResources</code> function of <code>Package</code> class:</p> <div class="language-r extra-class"><pre class="language-r"><code>    resources <span class="token operator">=</span> list<span class="token punctuation">(</span>list<span class="token punctuation">(</span>
+      name <span class="token operator">=</span> <span class="token string">&quot;data&quot;</span><span class="token punctuation">,</span>
+      path <span class="token operator">=</span> filepath<span class="token punctuation">,</span>
+      schema <span class="token operator">=</span> schema
+      <span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+    dataPackage<span class="token operator">$</span>addResource<span class="token punctuation">(</span>resources<span class="token punctuation">)</span>
+</code></pre></div><p>Now we are ready to write our <code>datapackage.json</code> file to the current working directory.</p> <div class="language-r extra-class"><pre class="language-r"><code>    dataPackage<span class="token operator">$</span>save<span class="token punctuation">(</span><span class="token string">'example_data'</span><span class="token punctuation">)</span>
+</code></pre></div><p>The <code>datapackage.json</code> (<a href="https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/example_data/package.json" target="_blank" rel="noopener noreferrer">download<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>) is inlined below. Note that atomic number has been correctly inferred as an <code>integer</code> and atomic mass as a <code>number</code> (float) while every other column is a <code>string</code>.</p> <div class="language- extra-class"><pre class="language-text"><code>    jsonlite::prettify(helpers.from.list.to.json(dataPackage$descriptor))
+
+    ## {
+    ##     &quot;profile&quot;: &quot;data-package&quot;,
+    ##     &quot;name&quot;: &quot;period-table&quot;,
+    ##     &quot;title&quot;: &quot;Periodic Table&quot;,
+    ##     &quot;resources&quot;: [
+    ##         {
+    ##             &quot;name&quot;: &quot;data&quot;,
+    ##             &quot;path&quot;: &quot;https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/example_data/data.csv&quot;,
+    ##             &quot;schema&quot;: {
+    ##                 &quot;fields&quot;: [
+    ##                     {
+    ##                         &quot;name&quot;: &quot;atomic number&quot;,
+    ##                         &quot;type&quot;: &quot;integer&quot;,
+    ##                         &quot;format&quot;: &quot;default&quot;
+    ##                     },
+    ##                     {
+    ##                         &quot;name&quot;: &quot;symbol&quot;,
+    ##                         &quot;type&quot;: &quot;string&quot;,
+    ##                         &quot;format&quot;: &quot;default&quot;
+    ##                     },
+    ##                     {
+    ##                         &quot;name&quot;: &quot;name&quot;,
+    ##                         &quot;type&quot;: &quot;string&quot;,
+    ##                         &quot;format&quot;: &quot;default&quot;
+    ##                     },
+    ##                     {
+    ##                         &quot;name&quot;: &quot;atomic mass&quot;,
+    ##                         &quot;type&quot;: &quot;number&quot;,
+    ##                         &quot;format&quot;: &quot;default&quot;
+    ##                     },
+    ##                     {
+    ##                         &quot;name&quot;: &quot;metal or nonmetal?&quot;,
+    ##                         &quot;type&quot;: &quot;string&quot;,
+    ##                         &quot;format&quot;: &quot;default&quot;
+    ##                     }
+    ##                 ],
+    ##                 &quot;missingValues&quot;: [
+    ##                     &quot;&quot;
+    ##                 ]
+    ##             },
+    ##             &quot;profile&quot;: &quot;data-resource&quot;,
+    ##             &quot;encoding&quot;: &quot;utf-8&quot;
+    ##         }
+    ##     ]
+    ## }
+    ##
+</code></pre></div><h2 id="publishing"><a href="#publishing" class="header-anchor">#</a> Publishing</h2> <p>Now that you have created your Data Package, you might want to <a href="/guides/publish-online/">publish your data online</a> so that you can share it with others.</p> <p>!! Now that you have created a data package in R, <a href="/docs/using-data-packages-in-r/">find out how to use data packages in R in this tutorial</a>.</p></div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.1df5a819.js" defer></script><script src="/assets/js/12.c558c03c.js" defer></script><script src="/assets/js/22.82e293f2.js" defer></script>
+  </body>
+</html>

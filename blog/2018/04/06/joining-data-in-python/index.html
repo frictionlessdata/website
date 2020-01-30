@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Joining Data | Frictionless Data</title>
+    <meta name="description" content="Bringing simplicity and gracefulness to the data experience">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.e33ca001.css" as="style"><link rel="preload" href="/assets/js/app.1df5a819.js" as="script"><link rel="preload" href="/assets/js/12.c558c03c.js" as="script"><link rel="preload" href="/assets/js/30.26177ac7.js" as="script"><link rel="prefetch" href="/assets/js/10.7412d3a1.js"><link rel="prefetch" href="/assets/js/11.15b9a67e.js"><link rel="prefetch" href="/assets/js/13.e412175a.js"><link rel="prefetch" href="/assets/js/14.39bb58f4.js"><link rel="prefetch" href="/assets/js/15.4c245120.js"><link rel="prefetch" href="/assets/js/16.5a56c5f7.js"><link rel="prefetch" href="/assets/js/17.21919b11.js"><link rel="prefetch" href="/assets/js/18.3484a598.js"><link rel="prefetch" href="/assets/js/19.60f852f6.js"><link rel="prefetch" href="/assets/js/2.a30aa7e7.js"><link rel="prefetch" href="/assets/js/20.f4ff9d61.js"><link rel="prefetch" href="/assets/js/21.df12c663.js"><link rel="prefetch" href="/assets/js/22.82e293f2.js"><link rel="prefetch" href="/assets/js/23.7f8ab810.js"><link rel="prefetch" href="/assets/js/24.630114c6.js"><link rel="prefetch" href="/assets/js/25.7ec35d06.js"><link rel="prefetch" href="/assets/js/26.d755a1c5.js"><link rel="prefetch" href="/assets/js/27.bace403e.js"><link rel="prefetch" href="/assets/js/28.3ec75662.js"><link rel="prefetch" href="/assets/js/29.a45a7783.js"><link rel="prefetch" href="/assets/js/3.b2556bbc.js"><link rel="prefetch" href="/assets/js/31.4de75702.js"><link rel="prefetch" href="/assets/js/32.d5c8776f.js"><link rel="prefetch" href="/assets/js/33.17d63c39.js"><link rel="prefetch" href="/assets/js/34.f91793e9.js"><link rel="prefetch" href="/assets/js/35.baa368e3.js"><link rel="prefetch" href="/assets/js/36.132918fd.js"><link rel="prefetch" href="/assets/js/37.498bc08f.js"><link rel="prefetch" href="/assets/js/38.4ec8e04f.js"><link rel="prefetch" href="/assets/js/39.7b278ab6.js"><link rel="prefetch" href="/assets/js/4.2dffc5ca.js"><link rel="prefetch" href="/assets/js/40.59e38ed5.js"><link rel="prefetch" href="/assets/js/41.88131d1c.js"><link rel="prefetch" href="/assets/js/42.cd69da31.js"><link rel="prefetch" href="/assets/js/43.1033aa79.js"><link rel="prefetch" href="/assets/js/44.44f4bf91.js"><link rel="prefetch" href="/assets/js/45.c9961db4.js"><link rel="prefetch" href="/assets/js/46.cc161031.js"><link rel="prefetch" href="/assets/js/47.fd3bac9e.js"><link rel="prefetch" href="/assets/js/5.4da66893.js"><link rel="prefetch" href="/assets/js/6.444d0094.js"><link rel="prefetch" href="/assets/js/7.3f31a55f.js"><link rel="prefetch" href="/assets/js/8.02db9595.js"><link rel="prefetch" href="/assets/js/9.822a8965.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.e33ca001.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><h1>Joining Data</h1> <div class="content__default"><p>Joining multiple datasets on a common value or set of values is a<br>
+common data wrangling task.  For instance, one might have a dataset<br>
+listing Gross Domestic Product (GDP) per country and a separate<br>
+dataset containing geographic outlines of country borders.  If these<br>
+independent datasets have a shared property (for instance, the<br>
+three-letter country code as<br> <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3" target="_blank" rel="noopener noreferrer">defined in ISO 3166-1<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>),<br>
+we should be able to create one consolidated dataset to generate a map<br>
+of GDP per country.  This guide will walk through this simple use<br>
+case.</p> <h2 id="example-data"><a href="#example-data" class="header-anchor">#</a> Example Data</h2> <p>For this example, we are going to use two example Data Packages from<br>
+our<br> <a href="https://github.com/frictionlessdata/example-data-packages/" target="_blank" rel="noopener noreferrer">example data packages repository<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a><br>
+with the properties described above. The first is an example of Data<br>
+Package containing a GeoJSON file. <a href="http://geojson.org/" target="_blank" rel="noopener noreferrer">GeoJSON<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> is<br>
+a format for representing geographical features in<br> <a href="http://json.org/" target="_blank" rel="noopener noreferrer">JSON<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>.  This particular GeoJSON file lists<br>
+countries on its <code>features</code> array and specifies the country code as a<br>
+property on each “feature”.  In this case, the country code is stored<br>
+on the key “ISO_A3” of the feature’s <code>properties</code> object.</p> <div class="language- extra-class"><pre class="language-text"><code>{
+  &quot;type&quot;: &quot;FeatureCollection&quot;,
+  &quot;features&quot;: [
+    {
+      &quot;type&quot;: &quot;Feature&quot;,
+      &quot;properties&quot;: {
+        &quot;ADMIN&quot;: &quot;Ukraine&quot;,
+        &quot;ISO_A3&quot;: &quot;UKR&quot;
+      },
+      &quot;geometry&quot;: {
+        &quot;type&quot;: &quot;Polygon&quot;,
+        &quot;coordinates&quot;: [
+        ...
+        ]
+      }
+    }
+  ]
+}
+</code></pre></div><p>The second Data Package is a typical<br> <a href="/docs/tabular-data-package/">Tabular Data Package</a> containing a GDP<br>
+measure for each country in the world for the year 2014.  Country<br>
+codes are stored, naturally, on the “Country Code” column.</p> <p>|  Country Name                                   | Country Code | Year | Value             |<br>
+|-------------------------------------------------------------------------------------------|<br>
+|  Ukraine                                        | UKR          | 2014 | 131805126738.287  |<br>
+|  United Arab Emirates                           | ARE          | 2014 | 401646583173.427  |<br>
+|  United Kingdom                                 | GBR          | 2014 | 2941885537461.48  |<br>
+|  United States                                  | USA          | 2014 | 17419000000000    |<br>
+|  Uruguay                                        | URY          | 2014 | 57471277325.1312  |</p> <h2 id="reading-and-joining-data"><a href="#reading-and-joining-data" class="header-anchor">#</a> Reading and Joining Data</h2> <p>As in our<br> <a href="/docs/using-data-packages-in-python">Using Data Packages in Python guide</a>,<br>
+the first step before joining is to read the data for each Data<br>
+Package onto our computer.  We do this by importing the <code>datapackage</code><br>
+library and passing the Data Package url to its <code>DataPackage</code> method.<br>
+We are also importing the standard Python <code>json</code> library to read and<br>
+write our GeoJSON file.</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">import</span> json
+<span class="token keyword">import</span> datapackage
+
+countries_url <span class="token operator">=</span> <span class="token string">'https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/geo-countries/datapackage.json'</span>
+gdp_url <span class="token operator">=</span> <span class="token string">'https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/gross-domestic-product-2014/datapackage.json'</span>
+
+countries_dp <span class="token operator">=</span> datapackage<span class="token punctuation">.</span>Package<span class="token punctuation">(</span>countries_url<span class="token punctuation">)</span>
+gdp_dp <span class="token operator">=</span> datapackage<span class="token punctuation">.</span>Package<span class="token punctuation">(</span>gdp_url<span class="token punctuation">)</span>
+
+world <span class="token operator">=</span> json<span class="token punctuation">.</span>loads<span class="token punctuation">(</span>countries_dp<span class="token punctuation">.</span>get_resource<span class="token punctuation">(</span><span class="token string">'countries'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>raw_read<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>decode<span class="token punctuation">(</span><span class="token string">'UTF-8'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+
+</code></pre></div><p>!!! Learn more about creating data packages in Python <a href="/docs/creating-tabular-data-packages-in-python">in this tutorial</a>.</p> <p>Our GeoJSON data is stored as a <code>bytes</code> object in the <code>data</code> attribute<br>
+of the first (and only) element of the Data Package <code>resources</code> array.<br>
+To create our <code>world</code> GeoJSON dict, we first need to decode this<br> <code>bytes</code> object to a UTF-8 string and pass it to <code>json.loads</code>.</p> <div class="language-python extra-class"><pre class="language-python"><code>world <span class="token operator">=</span> json<span class="token punctuation">.</span>loads<span class="token punctuation">(</span>countries_dp<span class="token punctuation">.</span>get_resource<span class="token punctuation">(</span><span class="token string">'countries'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>raw_read<span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">.</span>decode<span class="token punctuation">(</span><span class="token string">'UTF-8'</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+</code></pre></div><p>At this point, joining the data can be accomplished by iterating<br>
+through each country in the <code>world['features']</code> array and adding a<br>
+property “GDP (2014)” if “Country Code” on the <code>gdp_dp</code> Data Package<br>
+object matches “ISO_A3” on the given GeoJSON feature.  The value of<br>
+“GDP (2014)” is derived from the “Value” column on the <code>gdp_dp</code> Data<br>
+Package object.</p> <div class="language-python extra-class"><pre class="language-python"><code><span class="token keyword">for</span> feature <span class="token keyword">in</span> world<span class="token punctuation">[</span><span class="token string">'features'</span><span class="token punctuation">]</span><span class="token punctuation">:</span>
+    matches <span class="token operator">=</span> <span class="token punctuation">[</span>gdp<span class="token punctuation">[</span><span class="token string">'Value'</span><span class="token punctuation">]</span> <span class="token keyword">for</span> gdp <span class="token keyword">in</span> gdp_dp<span class="token punctuation">.</span>resources<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">.</span>data <span class="token keyword">if</span> gdp<span class="token punctuation">[</span><span class="token string">'Country Code'</span><span class="token punctuation">]</span> <span class="token operator">==</span> feature<span class="token punctuation">[</span><span class="token string">'properties'</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">'ISO_A3'</span><span class="token punctuation">]</span><span class="token punctuation">]</span>
+    <span class="token keyword">if</span> matches<span class="token punctuation">:</span>
+        feature<span class="token punctuation">[</span><span class="token string">'properties'</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">'GDP (2014)'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token builtin">float</span><span class="token punctuation">(</span>matches<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token punctuation">)</span>
+    <span class="token keyword">else</span><span class="token punctuation">:</span>
+        feature<span class="token punctuation">[</span><span class="token string">'properties'</span><span class="token punctuation">]</span><span class="token punctuation">[</span><span class="token string">'GDP (2014)'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token number">0</span>
+</code></pre></div><p>Finally, we can output our consolidated GeoJSON dataset into a new<br>
+file called “world_gdp_2014.geojson” using <code>json.dump</code> and create a<br>
+new Data Package container for it.  For a more thorough walkthrough on<br>
+creating a Data Package, please consult the<br> <a href="/docs/creating-tabular-data-packages-in-python/">Creating Data Packages in Python</a><br>
+guide.</p> <div class="language-python extra-class"><pre class="language-python"><code>new_dp <span class="token operator">=</span> datapackage<span class="token punctuation">.</span>Package<span class="token punctuation">(</span><span class="token punctuation">)</span>
+new_dp<span class="token punctuation">.</span>descriptor<span class="token punctuation">[</span><span class="token string">'name'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token string">'consolidated-dataset'</span>
+new_dp<span class="token punctuation">.</span>descriptor<span class="token punctuation">[</span><span class="token string">'resources'</span><span class="token punctuation">]</span> <span class="token operator">=</span> <span class="token punctuation">[</span>
+  <span class="token punctuation">{</span>
+    <span class="token string">'name'</span><span class="token punctuation">:</span> <span class="token string">'data'</span><span class="token punctuation">,</span>
+    <span class="token string">'path'</span><span class="token punctuation">:</span> <span class="token string">'world_gdp_2014.geojson'</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">]</span>
+new_dp<span class="token punctuation">.</span>commit<span class="token punctuation">(</span><span class="token punctuation">)</span>
+new_dp<span class="token punctuation">.</span>save<span class="token punctuation">(</span><span class="token string">'datapackage.zip'</span><span class="token punctuation">)</span>
+</code></pre></div><p>We can now quickly render this GeoJSON file into a<br> <a href="https://en.wikipedia.org/wiki/Choropleth_map" target="_blank" rel="noopener noreferrer">chloropleth map<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> using<br> <a href="http://qgis.org/en/site/" target="_blank" rel="noopener noreferrer">QGIS<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>:</p> <p><img src="gdp_map_example.png" alt="GDP Map Example"></p> <p>Or we can rely on GitHub to render our GeoJSON for us.  When you click<br>
+a country, it’s property list will show up featuring “ADMIN”,<br>
+“ISO_A3”, and the newly added “GDP (2014)” property.</p></div></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.1df5a819.js" defer></script><script src="/assets/js/12.c558c03c.js" defer></script><script src="/assets/js/30.26177ac7.js" defer></script>
+  </body>
+</html>
