@@ -145,5 +145,3 @@ We can now quickly render this GeoJSON file into a
 Or we can rely on GitHub to render our GeoJSON for us.  When you click
 a country, it's property list will show up featuring "ADMIN",
 "ISO_A3", and the newly added "GDP (2014)" property.
-
-<script src="https://embed.github.com/view/geojson/frictionlessdata/example-data-packages/master/_other_example_files/world_gdp_2014.geojson"></script>
