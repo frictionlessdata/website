@@ -1,7 +1,6 @@
 module.exports = {
   title: "Frictionless Data",
   description: "Bringing simplicity and gracefulness to the data experience",
-  base: "/website-v2/",
   markdown: {
     linkify: true,
     typographer: true,
