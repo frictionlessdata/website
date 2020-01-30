@@ -1,16 +1,19 @@
 ---
-title: Job - Pull Dataset
+title: Pull Dataset
 sidebar: false
-description: Get raw data from a source to your environment quickly and repeatedly.
+tagline: Get raw data from a source to your environment quickly and repeatedly.
+description: In the process of getting from data to insight, you need to download data from external sources.
+pain: Initially, you may get data using just the browser or curl. Over time, you will want to pull using a CLI or library compatible with the Data Package specification.
+context: Together with finding good datasets, it's one of the first steps of every data project.
 ---
 
 # {{ $page.frontmatter.title }}
 
-**{{ $page.frontmatter.description }}**
+**{{ $page.frontmatter.tagline }}**
 
-![Icon]()
+{{ $page.frontmatter.description }}
 
-## One step further from
+## Examples
 
 Click the download link on the website
 
@@ -18,33 +21,16 @@ Click the download link on the website
 $ wget <insert download link>"
 ```
 
-## Problems
-
-![]()
-Nothing standardized
-
-![]()
-A lot of manual work
-
-![]()
-Data cleaning needed
-
 ## Solutions
 
-![]()
-data-cli
-
-It gives you ways of pulling and pushing data packages via the command line. Everything goes to DataHub.io, a free directory for datasets of public interest.
-[Learn More](https://github.com/datopian/data-cli)
-
-![]()
-Tabulator
-
-From the command line or a Python application, Tabulator provides an interface to read and write tabular data via streams. It works with CSV, XLS, and JSON.
-[Learn More](https://github.com/frictionlessdata/tabulator-py)
-
-![]()
-Tabulator
-
-From the command line or a Python application, Tabulator provides an interface to read and write tabular data via streams. It works with CSV, XLS, and JSON.
-[Learn More]()
+**data-cli**
+CLI tool for interacting with datasets hosted in DataHub.
+ 
+**Tabulator**
+It creates consistent streams for interacting with datasets available via HTTP, FTP, and Amazon S3.
+ 
+**DataFlows**
+Declare this task as a step in a data pipeline.
+ 
+**Data Package Pipelines**
+Declare this task as a step in a data pipeline.
