@@ -74,6 +74,7 @@
             <i class="fa fa-globe"></i>
             <span class="sr-only">Languages</span>
           </dt>
+          <!-- TODO: this could now just be a v-for given that we refactored the code to remove using browser lang choice -->
           <dd v-html="languageListHtml" class="language-list"></dd>
         </template>
         <template v-if="profile.links">
@@ -178,36 +179,11 @@ export default {
     },
     languageListHtml: function () {
       var vm = this
-      var nav = window.navigator
       if (!vm.profile.languages) return ''
-      var preferredLanguageCode = nav.languages
-        // The preferred language set in the browser
-        ? nav.languages[0]
-        : (
-            // The system language in IE
-            nav.userLanguage ||
-            // The language in the current page
-            nav.language
-          )
       return (
         '<ul><li>' +
         vm.profile.languages.map(function (languageCode, index) {
           var language = languageNameFor[languageCode]
-          if (
-            languageCode !== 'en' &&
-            preferredLanguageCode &&
-            languageCode === preferredLanguageCode.slice(0, 2)
-          ) {
-            return (
-              '<span ' +
-                'class="user-match" ' +
-                'title="' +
-                  vm.profile.name +
-                  ' can give technical talks in your preferred language.' +
-                '"' +
-              '\>' + language + '</span>'
-            )
-          }
           return language
         }).join('</li><li>') +
         '</li></ul>'
