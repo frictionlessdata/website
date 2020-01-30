@@ -32,6 +32,22 @@ module.exports = {
       {
         'ga': 'UA-33874954-38'
       }
+    ],
+    [
+      '@vuepress/blog',
+      {
+        directories: [
+          {
+            // Unique ID of current classification
+            id: 'post',
+            // Target directory
+            dirname: 'blog',
+            // Path of the `entry page` (or `list page`)
+            path: '/blog/',
+            itemPermalink: '/blog/:year/:month/:day/:slug'
+          },
+        ],
+      },
     ]
   ]
 };

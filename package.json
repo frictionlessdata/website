@@ -4,12 +4,12 @@
   "description": "Frictionless Data Website",
   "dependencies": {
     "markdown-it-footnote": "",
-    "mermaid": "^8.0.0",
-    "yarn": "^1.21.1"
+    "mermaid": "^8.0.0"
   },
   "devDependencies": {
-    "vuepress": "^1.2.0",
-    "@vuepress/plugin-google-analytics": "^1.1.0"
+    "@vuepress/plugin-blog": "^1.9.2",
+    "@vuepress/plugin-google-analytics": "^1.1.0",
+    "vuepress": "^1.2.0"
   },
   "scripts": {
     "start": "npx vuepress dev site",
