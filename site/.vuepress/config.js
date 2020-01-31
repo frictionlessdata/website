@@ -14,6 +14,7 @@ module.exports = {
     }
   },
   themeConfig: {
+    logo: "/img/logo.svg",
     repo: "https://github.com/frictionlessdata/website",
     repoLabel: "Contribute!",
     // defaults to false, set to true to enable
