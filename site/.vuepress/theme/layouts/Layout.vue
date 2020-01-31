@@ -29,7 +29,7 @@
       />
     </Sidebar>
 
-    <Home v-if="$page.frontmatter.home"/>
+    <Home v-if="$page.frontmatter.layout == 'home'"/>
 
     <Page
       v-else
@@ -84,7 +84,7 @@ export default {
     shouldShowSidebar () {
       const { frontmatter } = this.$page
       return (
-        !frontmatter.home
+        !frontmatter.layout == 'home'
         && frontmatter.sidebar !== false
         && this.sidebarItems.length
       )

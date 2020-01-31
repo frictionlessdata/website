@@ -1,5 +1,5 @@
 ---
-home: true
+layout: home
 footer: Copyright © 2007-present Open Knowledge and Datopian
 ---
 
