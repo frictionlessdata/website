@@ -9,10 +9,14 @@
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.2",
     "@vuepress/plugin-google-analytics": "^1.1.0",
+    "cypress": "^3.8.3",
+    "start-server-and-test": "^1.10.8",
     "vuepress": "^1.2.0"
   },
   "scripts": {
+    "build": "npx vuepress build site",
     "start": "npx vuepress dev site",
-    "build": "npx vuepress build site"
+    "test": "./node_modules/.bin/cypress run",
+    "ci:test": "start-server-and-test start 8080 test"
   }
 }
