@@ -44,8 +44,8 @@ In terms of other potential use cases, it would be useful to create a python-bas
 In terms of the next steps for us, we are currently working on a SaaS implementation of Zegami which will dramatically reduce the effort required in order to start working with Zegami. We are then planning on developing a series of APIs so developers can create their own data transformation pipelines. One of our developers, Andrew Stretton, will be running Frictionless Data sessions at PyData London[^pydata] on Tuesday, October 3 and PyCon UK[^pyconuk] on Friday, October 27.
 
 [^messytables]: Library for parsing messy tabular data: <https://github.com/okfn/messytables>
-[^specs]: Frictionless Data Specifications: </specs/>
-[^tableschema]: Table Schema: </specs/table-schema/>
+[^specs]: Frictionless Data Specifications: [/specs](/specs)
+[^tableschema]: Table Schema: [/specs/table-schema](/specs/table-schema)
 [^tabulator]:Tabulator:  library for reading and writing tabular data <https://github.com/frictionlessdata/tabulator-py>
 [^polyglot]: Polyglot Persistence: <https://en.wikipedia.org/wiki/Polyglot_persistence>
 [^tableschemapy]: Table Schema Python Library: <https://github.com/frictionlessdata/tableschema-py>
@@ -53,7 +53,7 @@ In terms of the next steps for us, we are currently working on a SaaS implementa
 [^handsontable]: Handsontable: Javascript spreadsheet component for web apps: <https://handsontable.com>
 [^dpp]: Data Package Pipelines: <https://github.com/frictionlessdata/datapackage-pipelines>
 [^dask]:Dask Custom Graphs: <http://dask.pydata.org/en/latest/custom-graphs.html>
-[^datapackage]: Data Packages: </data-packages/>
+[^datapackage]: Data Packages: [/data-packages](/data-packages)
 [^dreamfactory]: Dream Factory: <https://www.dreamfactory.com/>
 [wqio]: https://wq.io/
 [^ckan]: CKAN: Open Source Data Portal Platform: <https://ckan.org>

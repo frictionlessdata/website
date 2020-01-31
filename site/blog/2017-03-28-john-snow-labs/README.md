@@ -25,7 +25,7 @@ We are working with [Open Knowledge International](http://www.okfn.org/) on open
 
 The core use case we see for Frictionless Data specs is making data ready for analytics. There is a lot of Open Data out there, but a lot of effort is still required to make it usable. This single use case expands into as many variations as there are BI & data management tools, so we have many years of work ahead of us to address this one core use case.
 
-[^datapackage]: Data Package: </data-packages/>
-[^specs]: Frictionless Data Specifications </specs/>
+[^datapackage]: Data Package: [/data-packages](/data-packages)
+[^specs]: Frictionless Data Specifications [/specs](/specs)
 [^elasticsearch]: Elastic Search <https://www.elastic.co/>
 [^kibana]: kibana <https://www.elastic.co/products/kibana>

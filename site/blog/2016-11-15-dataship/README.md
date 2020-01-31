@@ -14,7 +14,7 @@ One of the main challenges we face with data is that it’s hard to share it wit
 
 Every notebook on Dataship is also a Data Package[^datapackage]. Like other Data Packages it can be downloaded, along with its data, just by giving its URL to software like data-cli[^data-cli]. Additionally, working with existing Data Packages is easy. Just as you can fork other notebooks, you can also fork existing Data Packages, even when they’re located somewhere else, like GitHub.
 
-![Dataship GIF](dataship.gif) <br/> *Dataship in action*
+![Dataship GIF](./dataship.gif) <br/> *Dataship in action*
 
 Every cell in a notebook is represented by a resource entry[^resource] in an underlying Data Package. This also allows for interesting possibilities. One of these is executable Data Packages. Since the code is included inline and its dependencies are explicit and bounded, very simple software could be written to execute a Data Package-based notebook from the command line, printing the results to the console and writing images to the current directory.
 

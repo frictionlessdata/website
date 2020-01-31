@@ -40,12 +40,12 @@ The Frictionless Data specifications line up better with our approach to data[^p
 Community contributions to our work are welcome. We work hard to make all of our development efforts open and inclusive (see our [Code of Conduct](https://github.com/weecology/retriever/blob/master/docs/code_of_conduct.rst)) and love it when new developers, data scientists, and domain specialists [contribute](http://www.data-retriever.org/#contribute). A contribution can be as easy as adding a new dataset by following [a set of prompts](https://retriever.readthedocs.io/en/latest/scripts.html) to create a new JSON file and submitting a [PR](https://help.github.com/articles/about-pull-requests/) on GitHub, or even just opening an issue to tell us about a dataset that would be useful to you. So, [open an issue](http://github.com/weecology/retriever/issues/new), submit a PR, or stop by our [Gitter chat channel](https://gitter.im/weecology/retriever) and say "Hi". We also participate in [Google Summer of Code](https://developers.google.com/open-source/gsoc/), which is a great opportunity for students interested in being directly supported to work on the project.
 
 [^pandas]: Pandas: Python package for data analysis: <http://pandas.pydata.org/>
-[^datapackage]: Data Package: </specs/data-package/>
-[^software]: Frictionless Data Software: </software/>
+[^datapackage]: Data Package: [/specs/data-package](/specs/data-package)
+[^software]: Frictionless Data Software: [/software](/software)
 [^xml]: Extensible Markup Language: <https://en.wikipedia.org/wiki/XML>
-[^tdp]: Tabular Data Package: </specs/tabular-data-package/>
-[^tableschema]: Table Schema: </specs/table-schema/>
-[^philosophy]: Design Philosophy: </specs/#design-philosophy>
+[^tdp]: Tabular Data Package: [/specs/tabular-data-package](/specs/tabular-data-package)
+[^tableschema]: Table Schema: [/specs/table-schema](/specs/table-schema)
+[^philosophy]: Design Philosophy: [/specs/#design-philosophy](/specs/#design-philosophy)
 [^python]: Data Package-aware libraries in Python: <https://github.com/frictionlessdata/datapackage-py>, <https://github.com/frictionlessdata/tableschema-py>, <https://github.com/frictionlessdata/goodtables-py>
-[^version]: Data Package version field: </specs/#version>
+[^version]: Data Package version field: [/specs/#version](/specs/#version)
 [^yaml]: YAML Ain't Markup Language: <https://en.wikipedia.org/wiki/YAML>
