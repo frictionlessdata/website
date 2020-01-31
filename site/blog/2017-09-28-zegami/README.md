@@ -12,11 +12,9 @@ summary:  As a visual data exploration and analytics platform, Zegami makes the 
 
 ![imagesearch](./zegami-2.gif) <br/> *image search on Zegami*
 
-
 It provides a more powerful tool for visual data than what’s possible with spreadsheets or typical business intelligence tools. By presenting data within a single field of view, Zegami enables users to easily discover patterns and correlations. Facilitating new insights and discoveries that would otherwise not be possible.
 
 ![metadatasearch](./zegami-3.gif) <br/> *metadata search on Zegami*
-
 
 For Zegami to shine, our users need to be able to easily import their data so they can get actionable insight with minimal fuss. In building an analytics platform we face the unique challenge of having to support a wide variety of data sources and formats. The challenge is compounded by the fact that the data we deal with is rarely clean.
 
