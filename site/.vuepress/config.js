@@ -1,6 +1,12 @@
 module.exports = {
   title: "Frictionless Data",
   description: "Bringing simplicity and gracefulness to the data experience",
+  postcss: {
+    plugins: [
+      require("tailwindcss")("./tailwind.config.js"),
+      require("autoprefixer")
+    ]
+  },
   markdown: {
     linkify: true,
     typographer: true,

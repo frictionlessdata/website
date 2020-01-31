@@ -23,3 +23,7 @@ We are here for the data wranglers and the data geeks. The people who work with 
 
 We work with, add to and enhance your existing tooling (progressive enhancement). We're lightweight and coherent. We have a big vision and small tools. We cover the whole data journey to and from the end user -- our patterns and tools can apply to Excel as well as Hadoop.
 
+## Test for styling
+
+<p class="text-teal-300">Hello</p>
+
