@@ -26,7 +26,7 @@ Data Curator enables open data producers to define all this information using th
 
 Data Curator uses the [Frictionless Data specification](/specs/) and [software](/software/ "Frictionless Data platforms, applications, and software libraries") to package the data and supporting information in a [Tabular Data Package](/specs/tabular-data-package/ "Tabular Data Package specification").
 
-![Data Curator screenshot](data-curator.png)
+![Data Curator screenshot](./data-curator.png)
 
 ## Using Data Curator
 
@@ -68,7 +68,7 @@ Data Curator lets you add provenance information to help people understand why a
 
 Provenance information can be entered using [Markdown](http://commonmark.org "Markdown specification"). You can preview the Markdown formatting in Data Curator.  
 
-![Add provenance information screenshot](data-curator-2.png)
+![Add provenance information screenshot](./data-curator-2.png)
 
 You should follow the [Readme FAQ](/docs/publish-faq/#readme "Publishing Data Packages - FAQ") when writing provenance information or, even easier, cut and paste from this [sample](https://github.com/ODIQueensland/data-curator/blob/develop/test/features/tools/sample-provenance-information.md "Sample Provenance Information Markdown file on GitHub").
 
@@ -88,7 +88,7 @@ Data Curator lets you save data as a comma, semicolon, or tab separated value fi
 
 Applying a license, waiver, or public domain mark to a [data package](/specs/data-package/#licenses "The licenses property in the Data Package specification") and its [resources](/specs/data-resource/#optional-properties "The licenses property in the Data Resource specification") helps people understand how they can use, modify, and share the contents of the data package.
 
-![Apply open license to data package screenshot](data-curator-3.png)
+![Apply open license to data package screenshot](./data-curator-3.png)
 
 Although there are many ways to [apply a licence, waiver or public domain mark](/docs/applying-licenses/ "Guide to applying licenses, waivers or public domain marks to data packages") to a data package, Data Curator only allows you to use open licences - after all, its purpose is to share usable open data.
 
