@@ -1,10 +1,8 @@
 ---
 title: Data Package
-sidebar: false
 description: A simple way of putting collections of data and their descriptions in one place so that they can be easily shared and used.
+layout: Product
 ---
-
-# {{ $page.frontmatter.title }}
 
 **{{ $page.frontmatter.description }}**
 
