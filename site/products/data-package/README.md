@@ -1,14 +1,11 @@
 ---
 title: Data Package
 tagline: A simple and intuitive way to define and ship metadata with your data that works with your existing tools.
-layout: Product
+heroImage: /data-package-diagram.png
+layout: product
 ---
 
-**{{ $page.frontmatter.tagline }}**
-
----
-
-![](./data-package-diagram.png)
+![](/data-package-diagram.png)
 
 ---
 
