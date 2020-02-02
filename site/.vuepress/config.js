@@ -50,7 +50,10 @@ module.exports = {
             dirname: 'blog',
             // Path of the `entry page` (or `list page`)
             path: '/blog/',
-            itemPermalink: '/blog/:year/:month/:day/:slug'
+            itemPermalink: '/blog/:year/:month/:day/:slug',
+            pagination: {
+            lengthPerPage: 10,
+            }
           },
         ],
       },

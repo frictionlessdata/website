@@ -2,10 +2,12 @@
 title: Used and useful data
 intro: Concerned that your data is just not being used? We've got some great tips, and best practices to improve the uptake in your data use
 ft_img: used.png
+tags: ["example", "hello"]
 required: Command-line
 tools: Data Package Creator, goodtables.io
 sort_key: 4
 sidebar: false
+pub_date: 2019-05-20
 ---
 
 
