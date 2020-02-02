@@ -1,27 +1,27 @@
 <template>
-  <div class="fluer">
-    <div class="avatar">
-      <img v-if="profile.imageUrl"
+  <div class="fluer md:flex pt-8">
+    <div class="avatar rounded-full p-6">
+      <img class="rounded-full" v-if="profile.imageUrl"
         :src="profile.imageUrl"
         :alt="profile.name" width=80 height=80>
-      <img v-else-if="profile.github"
+      <img class="rounded-full" v-else-if="profile.github"
         :src="'https://github.com/' + profile.github + '.png'"
         :alt="profile.name" width=80 height=80>
-      <img v-else-if="profile.twitter"
+      <img class="rounded-full" v-else-if="profile.twitter"
         :src="'https://avatars.io/twitter/' + profile.twitter"
         :alt="profile.name" width=80 height=80>
     </div>
-    <div class="profile">
-      <h3 :data-official-title="profile.title">
+    <div class="profile bg-white team-font pt-6 text-sm leading-loose">
+      <h3 class="text-lg" :data-official-title="profile.title">
         {{ profile.name }}
         <sup v-if="profile.title && titleVisible" v-html="profile.title"></sup>
       </h3>
       <dl>
         <template v-if="profile.reposOfficial">
-          <dt>Core focus</dt>
-          <dd>
+          <dt class="pt-2 team-core-font inline">Core focus</dt>
+          <dd class="inline-block">
             <ul>
-              <li v-for="repo in profile.reposOfficial">
+              <li class="inline text-sm text-blue-500 flex-initial" v-for="repo in profile.reposOfficial">
                 <a :href="githubUrl('fluejs', repo)" target=_blank rel="noopener noreferrer">{{ repo.name || repo }}</a>
               </li>
             </ul>
@@ -75,7 +75,7 @@
             <span class="sr-only">Languages</span>
           </dt>
           <!-- TODO: this could now just be a v-for given that we refactored the code to remove using browser lang choice -->
-          <dd v-html="languageListHtml" class="language-list"></dd>
+          <dd v-html="languageListHtml" class="language-list inline"></dd>
         </template>
         <template v-if="profile.links">
           <dt>
@@ -221,3 +221,16 @@ export default {
 }
 </script>
 
+<style scoped>
+
+.team-core-font {
+  text-transform: uppercase;
+  font-size: 0.84em;
+  font-weight: 500;
+}
+
+.team-font {
+  font-family: "Source Sans Pro",;
+}
+
+</style>
