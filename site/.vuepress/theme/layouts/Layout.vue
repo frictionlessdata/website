@@ -31,6 +31,9 @@
 
     <Home v-if="$page.frontmatter.layout === 'home'"/>
     <Product v-else-if="$page.frontmatter.layout === 'product'"/>
+    <BlogIndex v-else-if="$page.frontmatter.title === 'Post'"/>
+    <BlogPost v-else-if="$page.frontmatter.layout === 'Post'"/>
+
     <Page
       v-else
       :sidebar-items="sidebarItems"
@@ -44,19 +47,23 @@
         slot="bottom"
       />
     </Page>
+
+    <p>Frontmatter {{ $page.frontmatter }}</p>
   </div>
 </template>
 
 <script>
 import Home from '@theme/components/Home.vue'
 import Product from '../components/Product.vue'
+import BlogIndex from '../components/BlogIndex.vue'
+import BlogPost from '../components/BlogPost.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  components: { Home, Product, Page, Sidebar, Navbar },
+  components: { Home, Product, BlogIndex, BlogPost, Page, Sidebar, Navbar },
 
   data () {
     return {
