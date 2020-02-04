@@ -13,8 +13,7 @@ The development of Frictionless and its ecosystem is guided by an international 
 <TeamProfile
 	v-for="profile in team"
 	:key="profile.name"
-	:profile="profile"
-	:title-visible="titleVisible" />
+	:profile="profile" />
 
 
 <h2 class="text-2xl pb-4 pt-4">Core Team Emeriti</h2>
@@ -25,8 +24,7 @@ Here we honor some no-longer-active core team members who have made valuable con
 <TeamProfile
 	v-for="profile in teamEmeriti"
 	:key="profile.name"
-	:profile="profile"
-	:title-visible="titleVisible" />
+	:profile="profile" />
 
 
 <h2 class="text-2xl pb-4 pt-4">Community Partners</h2>
@@ -37,9 +35,7 @@ Some members of the Frictionless community have so enriched it, that they deserv
 <TeamProfile
 	v-for="profile in partners"
 	:key="profile.name"
-	:profile="profile"
-	:title-visible="titleVisible" />
-
+	:profile="profile" />
 
 <script>
 // import data from './data.json'
@@ -55,7 +51,7 @@ var team = [{
 		org: 'FrictionlessData'
 	},
 	reposOfficial: [
-		'frictionlessdata/*', ' • ', 'datopian/*'
+		'frictionlessdata/*', 'datopian/*'
 	],
 	links: [
 		'https://rufuspollock.com/'
@@ -96,7 +92,7 @@ export default {
 		return {
 			team: team,
 			teamEmeriti: [],
-			partners: partners
+			partners: partners,
 		}
   }
 }

@@ -18,10 +18,10 @@
       </h3>
       <dl>
         <template v-if="profile.reposOfficial">
-          <dt class="pt-2 team-core-font inline">Core focus</dt>
+          <dt class="team-core-font inline">Core focus</dt>
           <dd class="inline-block">
             <ul>
-              <li class="inline text-sm text-blue-500 flex-initial" v-for="repo in profile.reposOfficial">
+              <li class="inline text-sm text-blue-500 pl-2 flex-initial" v-for="repo in profile.reposOfficial">
                 <a :href="githubUrl('fluejs', repo)" target=_blank rel="noopener noreferrer">{{ repo.name || repo }}</a>
               </li>
             </ul>
@@ -42,7 +42,8 @@
             <i class="fa fa-briefcase"></i>
             <span class="sr-only">Work</span>
           </dt>
-          <dd v-html="workHtml"></dd>
+          <img src="https://image.flaticon.com/icons/png/512/86/86081.png" class="inline w-4 h-auto py-1"/>
+          <dd class="inline pl-2" v-html="workHtml"></dd>
         </template>
         <span v-if="profile.distanceInKm" class="distance">
           <dt>
@@ -65,7 +66,8 @@
             <i class="fa fa-map-marker"></i>
             <span class="sr-only">City</span>
           </dt>
-          <dd>
+          <img src="https://image.flaticon.com/icons/png/512/67/67347.png" class="inline w-4 h-auto pb-1"/>
+          <dd class="inline pl-2">
             {{ profile.city }}
           </dd>
         </template>
@@ -75,38 +77,49 @@
             <span class="sr-only">Languages</span>
           </dt>
           <!-- TODO: this could now just be a v-for given that we refactored the code to remove using browser lang choice -->
-          <dd v-html="languageListHtml" class="language-list inline"></dd>
+          <div class="container inline-flex py-1">
+            <img src="https://image.flaticon.com/icons/png/512/115/115809.png" class="w-4 h-auto py-1"/>
+            <dd v-html="languageListHtml" class="language-list pl-2">
+            </dd>
+          </div>
         </template>
         <template v-if="profile.links">
           <dt>
             <i class="fa fa-link"></i>
             <span class="sr-only">Links</span>
           </dt>
-          <dd>
+          <dd class="inline-flex pb-2">
+          <img src="https://image.flaticon.com/icons/png/512/126/126481.png" class="flex-1 w-4 h-auto py-1"/>
             <ul>
-              <li v-for="link in profile.links">
+              <li class="flex-1 pl-2" v-for="link in profile.links">
                 <a :href="link" target=_blank>{{ minimizeLink(link) }}</a>
               </li>
             </ul>
           </dd>
         </template>
-        <footer v-if="hasSocialLinks" class="social">
-          <a class=github v-if="profile.github" :href="githubUrl(profile.github)">
+        <footer class="social" v-if="hasSocialLinks">
+          <div class="inline-flex">
+          <a class="github flex-1" v-if="profile.github" :href="githubUrl(profile.github)">
+            <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" class="w-6 h-auto pt-1"/>
             <i class="fa fa-github"></i>
             <span class="sr-only">Github</span>
           </a>
-          <a class=twitter v-if="profile.twitter" :href="'https://twitter.com/' + profile.twitter">
+          <a class="twitter flex-1 pl-2" v-if="profile.twitter" :href="'https://twitter.com/' + profile.twitter">
+            <img src="https://www.stickpng.com/assets/images/58e9196deb97430e819064f6.png" class="w-6 h-auto pt-1"/>
             <i class="fa fa-twitter"></i>
             <span class="sr-only">Twitter</span>
           </a>
-          <a class=codepen v-if="profile.codepen" :href="'https://codepen.io/' + profile.codepen">
+          <a class="codepen flex-1 pl-2" v-if="profile.codepen" :href="'https://codepen.io/' + profile.codepen">
+            <img src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-32-512.png" class="w-6 h-auto pt-1"/>
             <i class="fa fa-codepen"></i>
             <span class="sr-only">CodePen</span>
           </a>
-          <a class=linkedin v-if="profile.linkedin" :href="'https://www.linkedin.com/in/' + profile.linkedin">
+          <a class="linkedin flex-1 pl-2" v-if="profile.linkedin" :href="'https://www.linkedin.com/in/' + profile.linkedin">
+            <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/linkedin-512.png" class="w-6 h-auto pt-1"/>
             <i class="fa fa-linkedin"></i>
             <span class="sr-only">LinkedIn</span>
           </a>
+          </div>
         </footer>
       </dl>
     </div>
@@ -185,7 +198,7 @@ export default {
         vm.profile.languages.map(function (languageCode, index) {
           var language = languageNameFor[languageCode]
           return language
-        }).join('</li><li>') +
+        }).join(' • ') +
         '</li></ul>'
       )
     },
