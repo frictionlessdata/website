@@ -3,7 +3,7 @@ title: University of Cambridge - Retinal Mosaics
 author: Stephen Eglen (University of Cambridge), Dan Fowler (OKI)
 category: pilots
 subject_context: Stephen Eglen is a Reader in Computational Neuroscience at the University of Cambridge. Together, we are trialling software for packaging and reading data to support computational techniques to investigate development of the nervous system.
-subject_img: cambridge.png
+image: cambridge.png
 summary: Investigating the applicability of the Data Package concept to facilitate data reuse in the field of Computational Neuroscience.
 ---
 

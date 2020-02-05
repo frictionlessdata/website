@@ -3,7 +3,7 @@ title: Data Curator
 interviewee: Stephen Gates
 category: case-studies
 subject_context: Data Curator makes use of the Frictionless Data Specifications to allow users to define information about their data using their desktop computer, prior to publishing it on the Internet
-subject_img: data-curator-logo.png
+image: data-curator-logo.png
 summary: Data Curator is a simple desktop editor to help describe, validate, and share usable open data.
 ---
 
