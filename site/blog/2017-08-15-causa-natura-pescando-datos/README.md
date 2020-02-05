@@ -1,7 +1,6 @@
 ---
 title: Causa Natura - Pescando Datos
 author: Gabriela Rodriguez (Causa Natura/Engine Room), Adrià Mercader (OKI), Jo Barratt (OKI), Eduardo Rolón (Causa Natura)
-pub_date: 2017-08-15
 article_type: pilots
 subject_context: Eduardo Rolón is the Executive Director of Causa Natura and Gabriela Rodriguez from Causa Natura/Engine Room is working on the Pescando Datos platform. Together, we explored use of data validation software in the project to improve quality of data to support fisher communities and advocacy groups.
 subject_img: causanatura.png

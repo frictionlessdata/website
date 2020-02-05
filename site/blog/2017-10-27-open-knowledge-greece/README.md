@@ -1,6 +1,5 @@
 ---
 title: Open Knowledge Greece
-date: 2017-10-27
 article_type: grantee-profiles
 summary: Tool Fund Grantee - R
 image: open-knowledge-greece-logo.png

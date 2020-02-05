@@ -1,6 +1,5 @@
 ---
 title: Creating Data Packages in Python
-pub_date: 2016-07-21
 doc_category: working-with-data-packages
 tags: Python
 ---

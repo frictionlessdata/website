@@ -1,6 +1,5 @@
 ---
 title: Frictionless DarwinCore developed by André Heughebaert
-date: 2020-01-22
 article_type: grantee-profiles-2019
 summary: Tool Fund - Frictionless DarwinCore
 subject_img: fdwc.png

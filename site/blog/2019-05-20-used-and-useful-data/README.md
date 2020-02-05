@@ -6,7 +6,6 @@ tags: ["example", "hello"]
 required: Command-line
 tools: Data Package Creator, goodtables.io
 sort_key: 4
-pub_date: 2019-05-20
 ---
 
 

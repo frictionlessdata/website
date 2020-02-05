@@ -1,6 +1,5 @@
 ---
 title: Using Data Packages in Python
-pub_date: 2016-08-29
 doc_category: working-with-data-packages
 tags: Python
 ---

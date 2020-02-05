@@ -1,6 +1,5 @@
 ---
 title: John Snow Labs
-date: 2017-03-28
 interviewee: Ida Lucente
 article_type: case-studies
 subject_context: John Snow Labs uses Frictionless Data specifications to avail data to users for analysis

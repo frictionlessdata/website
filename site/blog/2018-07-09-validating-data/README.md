@@ -1,6 +1,5 @@
 ---
 title: Validating Data
-pub_date: 2016-06-24
 doc_category: validating-data
 ---
 

@@ -1,6 +1,5 @@
 ---
 title: Cell Migration Standardization Organization
-date: 2017-05-23
 interviewee: Paola Masuzzo
 article_type: case-studies
 image: cmso-logo.png

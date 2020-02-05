@@ -1,7 +1,6 @@
 ---
 title: Data Curator
 interviewee: Stephen Gates
-pub_date: 2019-03-01
 article_type: case-studies
 subject_context: Data Curator makes use of the Frictionless Data Specifications to allow users to define information about their data using their desktop computer, prior to publishing it on the Internet
 subject_img: data-curator-logo.png
