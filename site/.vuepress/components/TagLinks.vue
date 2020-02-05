@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <img class="w-6 h-6 inline text-lg" src="https://www.pngkey.com/png/full/349-3495832_tag-icon-png-file-tag-icon-grey.png"/>
+    <img class="w-4 h-4 inline text-lg" src="https://image.flaticon.com/icons/png/512/94/94699.png"/>
     <router-link
       v-for="tag in $page.frontmatter.tags"
       :key="tag"
