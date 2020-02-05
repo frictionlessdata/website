@@ -1,8 +1,6 @@
 ---
 title: Publish Tabular Data as a Data Package
-pub_date: 2016-07-21
-doc_category: publishing-data
-sidebar: false
+category: publishing-data
 ---
 
 Here's how to publish your tabular data as [Tabular Data

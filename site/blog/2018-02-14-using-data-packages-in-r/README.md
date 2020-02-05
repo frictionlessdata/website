@@ -1,9 +1,7 @@
 ---
 title: Using Data Packages in R
-pub_date: 2018-02-14
-doc_category: working-with-data-packages
-tags: R
-sidebar: false
+category: working-with-data-packages
+tags: ["R"]
 ---
 
 

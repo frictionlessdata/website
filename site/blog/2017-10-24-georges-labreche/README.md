@@ -1,7 +1,6 @@
 ---
 title: Georges Labrèche
-date: 2017-10-24   
-article_type: grantee-profiles
+category: grantee-profiles
 summary: Tool Fund Grantee - Java
 image: georges-labreche-image.png
 github: https://github.com/georgeslabreche

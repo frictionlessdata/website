@@ -1,9 +1,7 @@
 ---
 title: Creating Data Packages in R
-pub_date: 2018-02-14
-doc_category: working-with-data-packages
-tags: R
-sidebar: false
+category: working-with-data-packages
+tags: ["R"]
 ---
 
 ! [Open Knowledge Greece][okgreece] was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in R programming language. You can read more about this in [their grantee profile][toolfund-okgreece]. In this tutorial, [Kleanthis Koupidis](https://twitter.com/Kleanthis_k10), a Data Scientist and Statistician at Open Knowledge Greece, explains how to create Data Packages in R.

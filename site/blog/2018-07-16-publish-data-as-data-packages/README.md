@@ -1,7 +1,6 @@
 ---
 title: Packaging your Data
-doc_category: working-with-data-packages
-sidebar: false
+category: working-with-data-packages
 ---
 
 

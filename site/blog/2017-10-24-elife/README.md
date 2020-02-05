@@ -1,10 +1,9 @@
 ---
 title: eLife
 author: Naomi Penfold (eLife), Adrià Mercader (OKI), and Jo Barratt (OKI)
-pub_date: 2017-10-24
-article_type: pilots
+category: pilots
 subject_context: Naomi Penfold is an Innovation Officer at eLife. Together, we explored use of goodtables library to validate all scientific research datasets hosted by eLife and make a case for open data reuse in the field of Life and BioMedical sciences.
-subject_img: elife-logo.png
+image: elife-logo.png
 summary: Investigating the applicability of the goodtables library to facilitate data validation in the field of Life and Biomedical Sciences and make a case for the reusability of data shared with eLife as additional or supporting files.
 ---
 

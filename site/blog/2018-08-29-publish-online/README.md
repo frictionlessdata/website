@@ -1,8 +1,6 @@
 ---
 title: Publish Your Data Package Online
-pub_date: 2016-08-29
-doc_category: publishing-data
-sidebar: false
+category: publishing-data
 ---
 
 body: This tutorial is about how to publish your Data Package online for others to

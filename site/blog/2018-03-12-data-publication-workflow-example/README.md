@@ -1,11 +1,8 @@
 ---
 title: Data publication workflow example
-intro: There's a lot to see in the world of Frictionless Data. If you're confused about how it all comes together, take a look at our publication workflow example.
-ft_img: workflow.png
-required:
-tools: Data Package Creator, goodtables.io
-sort_key: 6
-sidebar: false
+summary: There's a lot to see in the world of Frictionless Data. If you're confused about how it all comes together, take a look at our publication workflow example.
+image: workflow.png
+tags: ["Data Package Creator", "goodtables.io"]
 ---
 
 

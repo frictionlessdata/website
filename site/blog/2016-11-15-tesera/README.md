@@ -1,8 +1,7 @@
 ---
 title: Tesera
-date: 2016-11-15
 interviewee: Spencer Cox
-article_type: case-studies
+category: case-studies
 subject_context: Tesera uses Frictionless Data specifications to package data in readiness for use in different systems and components.
 imgage: tesera-logo.png
 summary: Creating data-driven applications in the cloud.
