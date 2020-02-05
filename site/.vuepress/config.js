@@ -34,29 +34,29 @@ module.exports = {
   },
   plugins: [
     [
-      '@vuepress/plugin-google-analytics',
+      "@vuepress/plugin-google-analytics",
       {
-        'ga': 'UA-33874954-38'
+        ga: "UA-33874954-38"
       }
     ],
     [
-      '@vuepress/blog',
+      "@vuepress/blog",
       {
         directories: [
           {
             // Unique ID of current classification
-            id: 'post',
+            id: "post",
             // Target directory
-            dirname: 'blog',
+            dirname: "blog",
             // Path of the `entry page` (or `list page`)
-            path: '/blog/',
-            itemPermalink: '/blog/:year/:month/:day/:slug',
+            path: "/blog/",
+            itemPermalink: "/blog/:year/:month/:day/:slug",
             pagination: {
-            lengthPerPage: 10,
+              lengthPerPage: 10
             }
-          },
-        ],
-      },
+          }
+        ]
+      }
     ]
   ]
 };
