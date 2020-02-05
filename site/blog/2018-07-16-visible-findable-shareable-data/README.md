@@ -1,10 +1,8 @@
 ---
 title: Visible, findable, shareable data
-intro: Getting your data out into the world is a crucial step towards its being used and useful. We walk through the steps to publishing on the top data platforms.
-ft_img: visible.png
-required:
-tools: Goodtables
-sort_key: 2
+summary: Getting your data out into the world is a crucial step towards its being used and useful. We walk through the steps to publishing on the top data platforms.
+image: visible.png
+tags: Goodtables
 ---
 
 
