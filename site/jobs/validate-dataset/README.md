@@ -7,6 +7,12 @@ pain: Initially, you may do validation by hand or in a simple script. Over time,
 context: It becomes a requirements when external changes often breaks your pipeline.
 ---
 
+<div class="jobs-diagram"></div>
+
+<script>
+  console.log(SVG);
+</script>
+
 ## Examples
 
 ```
