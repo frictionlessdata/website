@@ -1,5 +1,6 @@
 ---
 title: Oleg Lavrovsky
+date: 2018-07-16
 category: grantee-profiles
 summary: Tool Fund Grantee - Julia
 image: oleg-lavrovsky-image.jpg

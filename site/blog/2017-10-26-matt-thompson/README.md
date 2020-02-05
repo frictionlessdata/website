@@ -1,6 +1,7 @@
 ---
 title: Matt Thompson
-category: grantee-profiles
+article_type: grantee-profiles
+date: 2017-10-26  
 summary: Tool Fund Grantee - Clojure
 image: matt-thompson-image.png
 github: https://github.com/cblop

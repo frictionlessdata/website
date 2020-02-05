@@ -1,5 +1,6 @@
 ---
 title: data.world
+date: 2017-04-11
 interviewee: Bryon Jacob
 category: case-studies
 image: data-world-logo.png

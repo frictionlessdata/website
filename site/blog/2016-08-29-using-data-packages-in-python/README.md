@@ -2,6 +2,7 @@
 title: Using Data Packages in Python
 category: working-with-data-packages
 tags: ["Python"]
+date: 2016-08-29
 ---
 
 

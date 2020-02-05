@@ -1,6 +1,7 @@
 ---
 title: Creating Data Packages in R
 category: working-with-data-packages
+date: 2018-02-14
 tags: ["R"]
 ---
 

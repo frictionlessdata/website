@@ -1,5 +1,6 @@
 ---
 title: Collections as Data Facets - Carnegie Museum of Art Collection Data
+date: 2017-08-09
 interviewee: David Newbury and Dan Fowler
 category: case-studies
 image: cmoa-logo.png

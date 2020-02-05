@@ -1,5 +1,6 @@
 ---
 title: Data Management for TEDDINET
+date: 2017-12-19
 author: Julian Padget (DM4T), Dan Fowler (OKI), Evgeny Kariv (OKI), Paul Walsh (OKI), Jo Barratt (OKI)
 category: pilots
 subject_context: Open Knowledge International and Data Management for TEDDINET project (DM4T) have worked together on a proof-of-concept pilot using Frictionless Data specifications to address some of the data management challenges faced by DM4T.

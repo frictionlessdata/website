@@ -1,6 +1,7 @@
 ---
 title: Using Data Packages in Java
 category: working-with-data-packages
+date: 2018-04-28
 tags: ["Java"]
 ---
 

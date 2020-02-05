@@ -1,6 +1,7 @@
 ---
 title: Using Data Packages in Go
 category: working-with-data-packages
+date: 2018-02-16
 tags: ["Go"]
 ---
 
