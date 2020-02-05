@@ -1,6 +1,6 @@
 ---
 title: Using Data Packages in Clojure
-doc_category: working-with-data-packages
+category: working-with-data-packages
 tags: Clojure
 ---
 

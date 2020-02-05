@@ -1,6 +1,6 @@
 ---
 title: Using Data Packages in Go
-doc_category: working-with-data-packages
+category: working-with-data-packages
 tags: Go
 ---
 

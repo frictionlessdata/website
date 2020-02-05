@@ -1,6 +1,6 @@
 ---
 title: Publishing Geospatial Data as a Data Package
-doc_category: publishing-data
+category: publishing-data
 ---
     
 Publishing your Geodata as Data Packages is very easy.

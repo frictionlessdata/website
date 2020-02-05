@@ -1,6 +1,6 @@
 ---
 title: Publish Data as Data Packages - Overview
-doc_category: publishing-data
+category: publishing-data
 ---
 
 You can publish **any kind of data** as a Data Package.

@@ -1,6 +1,6 @@
 ---
 title: Creating Data Packages in JavaScript
-doc_category: working-with-data-packages
+category: working-with-data-packages
 tags: JavaScript
 ---
 

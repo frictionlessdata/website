@@ -1,6 +1,6 @@
 ---
 title: Using Data Packages in Java
-doc_category: working-with-data-packages
+category: working-with-data-packages
 tags: Java
 ---
 

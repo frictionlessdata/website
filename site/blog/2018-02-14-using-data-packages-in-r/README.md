@@ -1,6 +1,6 @@
 ---
 title: Using Data Packages in R
-doc_category: working-with-data-packages
+category: working-with-data-packages
 tags: R
 ---
 

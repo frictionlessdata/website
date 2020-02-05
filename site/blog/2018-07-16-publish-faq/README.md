@@ -1,6 +1,6 @@
 ---
 title: Publishing Data Packages - FAQ
-doc_category: publishing-data
+category: publishing-data
 ---
 
 FAQs and best practice patterns for publishing data packages.

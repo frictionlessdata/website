@@ -1,6 +1,6 @@
 ---
 title: Applying licenses, waivers or public domain marks
-doc_category: publishing-data
+category: publishing-data
 ---
 
 frictionlessdata.io
