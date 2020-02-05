@@ -21,15 +21,33 @@ module.exports = {
   },
   themeConfig: {
     logo: "/img/logo.svg",
-    repo: "https://github.com/frictionlessdata/website",
-    repoLabel: "Contribute!",
+    repo: "https://github.com/frictionlessdata",
+    repoLabel: "GitHub",
     // defaults to false, set to true to enable
     editLinks: true,
     sidebar: "auto",
     nav: [
-      { text: "Home", link: "/" },
-      { text: "About", link: "/about/" },
-      { text: "Specs", link: "/specs/" }
+      { text: "About", link: "/about" },
+      {
+        text: "Products",
+        items: [
+          { text: "Data Package", link: "/products/data-package/" },
+          { text: "Table Schema", link: "/products/table-schema/" },
+          { text: "Tabulator", link: "/products/tabulator/" },
+          { text: "GoodTables", link: "/products/goodtables/" },
+          {
+            text: "Data Package Pipelines",
+            link: "/products/data-package-pipelines/"
+          },
+          { text: "DataHub", link: "/products/datahub/" },
+          {
+            items: [{ text: "Labs", link: "/products/labs/" }]
+          }
+        ]
+      },
+      { text: "Specifications", link: "http://specs.frictionlessdata.io" },
+      { text: "Contribute", link: "/contribute/" },
+      { text: "Blog", link: "/blog/" }
     ]
   },
   plugins: [
