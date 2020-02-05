@@ -1,7 +1,7 @@
 ---
 title: Using Data Packages in Java
 category: working-with-data-packages
-tags: Java
+tags: ["Java"]
 ---
 
 ! Georges Labrèche was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in Java programming language. You can read more about this in [his grantee profile](/articles/georges-labreche/).

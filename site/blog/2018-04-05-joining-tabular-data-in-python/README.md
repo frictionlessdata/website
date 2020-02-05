@@ -1,7 +1,7 @@
 ---
 title: Joining Tabular Data
 category: working-with-data-packages
-tags: Python
+tags: ["Python"]
 ---
 
 In a [separate guide](/docs/joining-data-in-python/), I walked through joining

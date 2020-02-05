@@ -1,7 +1,7 @@
 ---
 title: Using Data Packages in Go
 category: working-with-data-packages
-tags: Go
+tags: ["Go"]
 ---
 
 

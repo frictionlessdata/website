@@ -1,7 +1,7 @@
 ---
 title: Using Data Packages in R
 category: working-with-data-packages
-tags: R
+tags: ["R"]
 ---
 
 

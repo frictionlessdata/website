@@ -1,7 +1,7 @@
 ---
 title: Using Data Packages in Python
 category: working-with-data-packages
-tags: Python
+tags: ["Python"]
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: Joining Data
 category: working-with-data-packages
-tags: Python
+tags: ["Python"]
 ---
 
 

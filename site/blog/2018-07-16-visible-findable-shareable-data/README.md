@@ -2,7 +2,7 @@
 title: Visible, findable, shareable data
 summary: Getting your data out into the world is a crucial step towards its being used and useful. We walk through the steps to publishing on the top data platforms.
 image: visible.png
-tags: Goodtables
+tags: ["Goodtables"]
 ---
 
 
