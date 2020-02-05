@@ -1,7 +1,6 @@
 ---
 title: Developer Guide
 doc_category: contributing
-sidebar: false
 ---
 
 

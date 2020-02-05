@@ -5,7 +5,6 @@ ft_img: ./well-packaged.png
 required:
 tools: Data Package Creator
 sort_key: 1
-sidebar: false
 ---
 
 When sharing multiple datasets on a specific subject with a varied audience, it is important to ensure that whoever accesses the data understands the context around it, and can quickly access licensing and other attribution information.

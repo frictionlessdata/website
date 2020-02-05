@@ -2,7 +2,6 @@
 title: Publish Data as Data Packages - Overview
 pub_date: 2016-08-30
 doc_category: publishing-data
-sidebar: false
 ---
 
 You can publish **any kind of data** as a Data Package.

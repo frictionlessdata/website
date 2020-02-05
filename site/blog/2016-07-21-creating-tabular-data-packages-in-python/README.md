@@ -3,7 +3,6 @@ title: Creating Data Packages in Python
 pub_date: 2016-07-21
 doc_category: working-with-data-packages
 tags: Python
-sidebar: false
 ---
 
 This tutorial will show you how to install the Python library for working with Data Packages and Table Schema, load a CSV file, infer its schema, and write a Tabular Data Package.

@@ -5,7 +5,6 @@ ft_img: visible.png
 required:
 tools: Goodtables
 sort_key: 2
-sidebar: false
 ---
 
 

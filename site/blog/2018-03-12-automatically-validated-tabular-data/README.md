@@ -5,7 +5,6 @@ ft_img: auto-validate.png
 required: 
 tools: goodtables.io
 sort_key: 5
-sidebar: false
 ---
 
 

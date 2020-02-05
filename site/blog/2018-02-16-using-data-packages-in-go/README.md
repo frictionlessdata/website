@@ -3,7 +3,6 @@ title: Using Data Packages in Go
 pub_date: 2018-02-16
 doc_category: working-with-data-packages
 tags: Go
-sidebar: no
 ---
 
 

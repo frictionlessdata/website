@@ -2,7 +2,6 @@
 title: Joining Data
 doc_category: working-with-data-packages
 tags: Python
-sidebars: false
 ---
 
 

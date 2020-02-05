@@ -2,7 +2,6 @@
 title: Creating Data Packages in JavaScript
 doc_category: working-with-data-packages
 tags: JavaScript
-sidebar: false
 ---
 
 This tutorial will show you how to install the JavaScript libraries for working with Data Packages and Table Schema, load a CSV file, infer its schema, and write a Tabular Data Package.

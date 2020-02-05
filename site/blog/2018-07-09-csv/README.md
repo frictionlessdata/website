@@ -1,7 +1,6 @@
 ---
 title: CSV - Comma Separated Values
 doc_category: general
-sidebar: false
 ---
 
 
