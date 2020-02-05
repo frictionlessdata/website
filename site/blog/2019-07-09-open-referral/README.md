@@ -1,6 +1,6 @@
 ---
 title: Greg Bloom and Shelby Switzer
-article_type: grantee-profiles-2019
+category: grantee-profiles-2019
 Check out our github org: https://github.com/openreferral/
 summary: Tool Fund Grantee - Open Referral
 image: OpenReferral.png

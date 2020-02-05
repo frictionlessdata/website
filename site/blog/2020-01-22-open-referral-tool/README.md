@@ -1,6 +1,6 @@
 ---
 title: Frictionless Open Referral developed by Shelby Switzer and Greg Bloom
-article_type: grantee-profiles-2019
+category: grantee-profiles-2019
 summary: Tool Fund - Frictionless Open Referral
 image: OpenReferral.png
 ---

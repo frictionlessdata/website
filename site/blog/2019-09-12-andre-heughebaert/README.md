@@ -1,6 +1,6 @@
 ---
 title: André Heughebaert
-article_type: grantee-profiles-2019
+category: grantee-profiles-2019
 summary: Tool Fund Grantee - Andre Heughebaert
 image: andre.png
 ---

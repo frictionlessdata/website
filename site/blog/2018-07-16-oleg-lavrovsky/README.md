@@ -1,6 +1,6 @@
 ---
 title: Oleg Lavrovsky
-article_type: grantee-profiles
+category: grantee-profiles
 summary: Tool Fund Grantee - Julia
 image: oleg-lavrovsky-image.jpg
 github: http://github.com/loleg

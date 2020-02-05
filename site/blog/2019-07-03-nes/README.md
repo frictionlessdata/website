@@ -1,6 +1,6 @@
 ---
 title: Carlos Eduardo Ribas and João Alexandre Peschanski
-article_type: grantee-profiles-2019
+category: grantee-profiles-2019
 summary: Tool Fund Grantee - NES
 subject1_img: carlos.jpg
 subject2_img: Joao.jpg

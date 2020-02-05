@@ -1,7 +1,7 @@
 ---
 title: The Data Retriever
 interviewee: Ethan White
-article_type: case-studies
+category: case-studies
 subject_context: Data Retriever uses Frictionless Data specifications to generate and package metadata for publicly available data
 image: data-retriever-logo.png
 summary: The Data Retriever is a package manager for data. It downloads, cleans, and stores publicly available data, so that analysts spend less time cleaning and managing data, and more time analyzing it.

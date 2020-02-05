@@ -1,7 +1,7 @@
 ---
 title: Dataship
 interviewee: Waylon Flinn
-article_type: case-studies
+category: case-studies
 subject_context: Dataship is using Frictionless Data specifications as the basis for its easy to execute, edit and share notebooks for data analysis.
 subject_img: dataship-logo.png
 summary: A way to share data and analysis, from simple charts to complex machine learning, with anyone in the world easily and for free.
