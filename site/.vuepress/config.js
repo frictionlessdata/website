@@ -63,7 +63,7 @@ module.exports = {
         directories: [
           {
             // Unique ID of current classification
-            id: "post",
+            id: "blog",
             // Target directory
             dirname: "blog",
             // Path of the `entry page` (or `list page`)
