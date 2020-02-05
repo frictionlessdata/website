@@ -12,7 +12,7 @@ You have two options for publishing your geodata:
 * **Geo Data Package** (Recommended). This is a basic Data Package with the
   requirement that data be in GeoJSON and with a few special additions to the
   metadata for geodata. See the next section for instructions on how to do
-  this.
+  this - test
 * **Generic Data Package**. This allows you to publish geodata in any kind of
   format (KML, Shapefiles, Spatialite etc). If you choose this option you will
   want to follow the standard [instructions for packaging any kind of data as a
