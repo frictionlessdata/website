@@ -7,7 +7,7 @@
           <div class="container pb-20">
             <router-link class="text-2xl page-link" :to="page.path">{{ page.title }}</router-link>
             <p class="text-xl"> {{ page.frontmatter.intro }}</p>
-            <p class="text-sm italic inline "> {{ page.frontmatter.pub_date }} by Max Exampleman </p>
+            <p class="text-sm italic inline "> {{ page.frontmatter.date }} by Max Exampleman </p>
             <TagLinks class="inline pl-3"/>
             <img class="" :src="page.frontmatter.image"/>
 
