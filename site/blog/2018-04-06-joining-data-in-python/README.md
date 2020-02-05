@@ -2,6 +2,7 @@
 title: Joining Data
 category: working-with-data-packages
 tags: ["Python"]
+date: 2018-04-06
 ---
 
 

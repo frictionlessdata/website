@@ -3,6 +3,7 @@ title: Validated tabular data
 summary: When it comes to validating tabular data, you have some great tools at your disposal. We take a look at a couple of ways to utilise goodtables.
 image: valid.png
 tags: ["try.goodtables.io", "Goodtables CLI"]
+date: 2018-07-16
 ---
 
 Errors in data are not uncommon. They also often get in the way of quick and timely data analysis for many data users. What if there was a way to quickly identify errors in your data to accelerate the process by which you fix them before sharing your data or using it for analysis?

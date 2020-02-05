@@ -1,6 +1,6 @@
 ---
 title: Pacific Northwest National Laboratory - Active Data Biology
-pub_date: 2017-06-26
+date: 2017-06-26
 author: Sam Payne (PNNL), Joon-Yong Lee (PNNL), Dan Fowler (OKI)
 category: pilots
 subject_context: Sam Payne and Joon-Yong Lee work at the Pacific Northwest National Laboratory. Together, we explored use of Frictionless Data's specifications and software to generate schema for tabular data and validate metadata stored as part of a biological application on GitHub.

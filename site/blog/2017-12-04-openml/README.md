@@ -1,6 +1,6 @@
 ---
 title: OpenML
-pub_date: 2017-12-04
+date: 2017-12-04
 interviewee: Heidi Seibold, Joaquin Vanschoren
 category: case-studies
 image: openml-logo.png

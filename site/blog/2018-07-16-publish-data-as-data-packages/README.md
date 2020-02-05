@@ -1,6 +1,7 @@
 ---
 title: Packaging your Data
 category: working-with-data-packages
+date: 2018-07-16
 ---
 
 

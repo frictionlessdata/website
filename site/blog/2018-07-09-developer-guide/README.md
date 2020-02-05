@@ -1,6 +1,7 @@
 ---
 title: Developer Guide
 category: contributing
+date: 2018-07-09
 ---
 
 
