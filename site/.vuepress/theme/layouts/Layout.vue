@@ -31,7 +31,7 @@
 
     <Home v-if="$page.frontmatter.layout === 'home'"/>
     <Product v-else-if="$page.frontmatter.layout === 'product'"/>
-    <BlogIndex v-else-if="$page.frontmatter.title.match(/(?:Page \d+ \| )?Blog/)"/>
+    <BlogIndex v-else-if="isBlogIndexPage"/>
     <BlogPost v-else-if="$page.frontmatter.layout === 'Post'"/>
 
     <Page
@@ -119,6 +119,13 @@ export default {
         layoutClass,
         userPageClass
       ]
+    },
+
+    isBlogIndexPage() {
+      return !!(
+        this.$page.frontmatter.title &&
+        this.$page.frontmatter.title.match(/(?:Page \d+ \| )?Blog/)
+      );
     }
   },
 
