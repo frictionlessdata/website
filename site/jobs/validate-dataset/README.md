@@ -7,8 +7,7 @@ pain: Initially, you may do validation by hand or in a simple script. Over time,
 context: It becomes a requirements when external changes often breaks your pipeline.
 ---
 
-<div class="jobs-diagram"></div>
-
+<div class="jobs-diagram" style="height: 280px"></div>
 <script>
 const gridSize = [8, 3];
 const titlesAndURLs = [
@@ -16,26 +15,26 @@ const titlesAndURLs = [
   ["", undefined],
   ["", undefined],
   ["", undefined],
-  ["Document Dataset", "/jobs/"],
+  ["Document Dataset", "/jobs/document-dataset/"],
   ["", undefined],
-  ["Have a Data Hub", "/jobs/"],
+  ["Have a Data Hub", "/jobs/have-a-data-hub/"],
   ["", undefined],
-  ["Find Datasets", "/jobs/"],
-  ["Pull Dataset", "/jobs/"],
-  ["Version Dataset", "/jobs/"],
-  ["Validate Dataset", "/jobs/"],
-  ["Pipeline\nTransformations", "/jobs/"],
-  ["Publish Dataset", "/jobs/"],
-  ["Do Analysis &\nMachine Learning", "/jobs/"],
-  ["Scale Scope", "/jobs/"],
-  ["Data Audit", "/jobs/"],
-  ["Do Initial\nData Exploration", "/jobs/"],
-  ["Quickly\nEdit Dataset", "/jobs/"],
-  ["Store Dataset", "/jobs/"],
-  ["Data API", "/jobs/"],
-  ["Create\nVisualization", "/jobs/"],
-  ["Orchestrate\nData Platform", "/jobs/"],
-  ["Scale Size", "/jobs/"],
+  ["Find Datasets", "/jobs/find-datasets/"],
+  ["Pull Dataset", "/jobs/pull-dataset/"],
+  ["Version Dataset", "/jobs/version-dataset/"],
+  ["Validate Dataset", "/jobs/validate-dataset/"],
+  ["Pipeline\nTransformations", "/jobs/pipeline-transformations/"],
+  ["Publish Dataset", "/jobs/publish-dataset/"],
+  ["Do Analysis &\nMachine Learning", "/jobs/do-analysis-and-machine-learning/"],
+  ["Scale Scope", "/jobs/scale-scope/"],
+  ["Data Audit", "/jobs/data-audit/"],
+  ["Do Initial\nData Exploration", "/jobs/do-initial-data-exploration/"],
+  ["Quickly\nEdit Dataset", "/jobs/quickly-edit-dataset/"],
+  ["Store Dataset", "/jobs/store-dataset/"],
+  ["Data API", "/jobs/data-api/"],
+  ["Create\nVisualization", "/jobs/create-visualization/"],
+  ["Orchestrate\nData Platform", "/jobs/orchestrate-data-platform/"],
+  ["Scale Size", "/jobs/scale-size/"],
   ["", undefined],
   ["", undefined],
   ["", undefined],
@@ -45,10 +44,9 @@ const titlesAndURLs = [
   ["", undefined],
   ["", undefined]
 ];
-
-const draw = SVG(document.body);
+const draw = SVG(document.body.querySelector(".jobs-diagram"));
 const Hex = Honeycomb.extendHex({
-  size: 70,
+  size: 52,
   orientation: "flat",
   currentIndex() {
     const position = this.toPoint();
@@ -62,25 +60,20 @@ const Hex = Honeycomb.extendHex({
     const hexPos = Grid.pointToHex([position.x, position.y]);
     const corners = this.corners();
     const index = this.currentIndex();
-
     let stroke = { width: 1, color: "#999" };
     if (titlesAndURLs[index][0] === "") {
       stroke = {};
     }
-
     this.draw = draw
       .polygon(corners.map(({ x, y }) => `${x},${y}`))
       .fill("none")
       .stroke(stroke)
       .translate(x, y);
-
-    const fontSize = 14;
+    const fontSize = 10;
     const title = titlesAndURLs[index][0];
-
     const yPosition = title.includes("\n")
       ? centerPosition.y - fontSize * 2
       : centerPosition.y - fontSize;
-    
     draw
       .text(title)
       .font({
@@ -91,22 +84,18 @@ const Hex = Honeycomb.extendHex({
       })
       .translate(centerPosition.x, yPosition);
   },
-
   openAnchor() {
     const index = this.currentIndex();
     if (titlesAndURLs[index][0] === "") {
       return;
     }
-    
-    window.open(titlesAndURLs[index][1], "_blank");
+    window.open(titlesAndURLs[index][1]);
   },
-
   highlight() {
     const index = this.currentIndex();
     if (titlesAndURLs[index][0] === "") {
       return;
     }
-
     this.draw
       .stop(true, true)
       .fill({ opacity: 0.2, color: "#6a8bad" })
@@ -122,25 +111,20 @@ const grid = Grid.rectangle({
     hex.render(draw);
   }
 });
-
 document.addEventListener("click", ({ offsetX, offsetY }) => {
   const hexCoordinates = Grid.pointToHex([offsetX, offsetY]);
   const hex = grid.get(hexCoordinates);
-
   if (hex) {
     hex.openAnchor();
   }
 });
-
 document.addEventListener("mouseover", ({ offsetX, offsetY }) => {
   const hexCoordinates = Grid.pointToHex([offsetX, offsetY]);
   const hex = grid.get(hexCoordinates);
-
   if (hex) {
     hex.highlight();
   }
 });
-
 </script>
 
 ## Examples
