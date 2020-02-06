@@ -27,3 +27,12 @@ It validates if a dataset complies to a Table Schema.
  
 **Data Quality Dashboard**
 It builds on top of GoodTables to provide a dashboard showing the state of multiple datasets
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>
