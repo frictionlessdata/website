@@ -5,7 +5,7 @@
       <p class="description">{{ data.tagline }}</p>
     </header>
 
-    <JobsDiagram selected="create-visualizations"></JobsDiagram>
+    <JobsDiagram></JobsDiagram>
 
     <p>{{ data.description }}</p>
 

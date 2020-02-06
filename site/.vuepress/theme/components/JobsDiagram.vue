@@ -150,10 +150,6 @@ class Diagram {
 }
 
 export default {
-  props: {
-    selected: String
-  },
-
   mounted() {
     const diagram = new Diagram(this.$refs["diagram"]);
     diagram.setup();
