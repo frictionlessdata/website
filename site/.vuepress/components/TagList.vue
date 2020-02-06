@@ -1,4 +1,3 @@
-<!-- .vuepress/components/TagList.vue -->
 <template lang="html">
   <div>
     <span v-for="tag in Object.keys(tags)">
@@ -38,4 +37,7 @@ export default {
     }
   }
 }
+
+
 </script>
+

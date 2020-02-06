@@ -15,9 +15,9 @@
           <hr class="">
         </li>
       </ul>
-      <div id="pagination">
+      <div class="pt-12" id="pagination">
         <router-link v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
-        <router-link v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
+        <router-link class="pl-6" v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
       </div>
     </div>
   </main>
