@@ -7,6 +7,8 @@ pain: Although convenient, Excel may cause multiple issues when opening and savi
 context: It isn't needed in every project. When it is, you may not have time to research the best tools.
 ---
 
+<JobsDiagram selected="quickly-edit-dataset"></JobsDiagram>
+
 ## Examples
 
 Spreadsheets: Edit a cell in the sheet
@@ -18,3 +20,12 @@ Edit CSV and XLS files without unintentionally changing the raw data. Also, auto
  
 **Delimiter**
 Edit and sync CSV files with GitHub directly in the browser.
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>

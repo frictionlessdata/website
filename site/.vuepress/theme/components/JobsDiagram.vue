@@ -28,7 +28,7 @@ const titlesAndURLs = [
   ["Quickly\nEdit Dataset", "/jobs/quickly-edit-dataset/"],
   ["Store Dataset", "/jobs/store-dataset/"],
   ["Data API", "/jobs/data-api/"],
-  ["Create\nVisualization", "/jobs/create-visualization/"],
+  ["Create\nVisualizations", "/jobs/create-visualizations/"],
   ["Orchestrate\nData Platform", "/jobs/orchestrate-data-platform/"],
   ["Scale Size", "/jobs/scale-size/"],
   ["", undefined],
@@ -150,6 +150,10 @@ class Diagram {
 }
 
 export default {
+  props: {
+    selected: String
+  },
+
   mounted() {
     const diagram = new Diagram(this.$refs["diagram"]);
     diagram.setup();

@@ -7,6 +7,8 @@ pain: Initially, you may do this with a Unix tool such as sed or open in Excel. 
 context: It's part of the task of starting to work with a new dataset.
 ---
 
+<JobsDiagram selected="do-initial-data-exploration"></JobsDiagram>
+
 ## Examples
 
 ```
@@ -22,3 +24,12 @@ It already provides simple visualizations for every dataset, right from the web.
  
 **Data Curator**
 Quickly analyze datasets in a simple desktop application.
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>

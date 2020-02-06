@@ -7,9 +7,20 @@ pain: The Machine Learning ecosystem may sound scary for people without mathemat
 context: You will hardly do this before having a complete data pipeline already in place.
 ---
 
+<JobsDiagram selected="do-analysis-and-machine-learning"></JobsDiagram>
+
 ## Examples
 
 ```
 import scikit
 ...
 ```
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>

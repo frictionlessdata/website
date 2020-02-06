@@ -7,6 +7,8 @@ pain: Initially, you may have some datasets at hand. Over time, you will want to
 context: Often, it's one of the first requirements of data projects.
 ---
 
+<JobsDiagram selected="find-datasets"></JobsDiagram>
+
 ## Examples
 
 Google: "Rainfall in the Amazon CSV"
@@ -15,3 +17,12 @@ Google: "Rainfall in the Amazon CSV"
 
 **DataHub**
 Created by the original authors of Frictionless Data, it's a place for finding datasets of public interest. Everything is containerized using Data Packages.
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>

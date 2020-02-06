@@ -7,6 +7,8 @@ pain: Often done in quick-and-dirty scripts, it works well enough in short explo
 context: Not every project needs versioning from the start. When the necessity appears, it is in the start of the data pipeline.
 ---
 
+<JobsDiagram selected="version-dataset"></JobsDiagram>
+
 ## Examples
 
 ```
@@ -19,3 +21,12 @@ git checkout --tag v1.0
 
 **Data Package**
 This specification tracks schema and business-specific changes. Everything in a datapackage.json file that goes with existing datasets.
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>

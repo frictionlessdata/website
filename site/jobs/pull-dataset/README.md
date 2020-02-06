@@ -7,6 +7,8 @@ pain: Initially, you may get data using just the browser or curl. Over time, you
 context: Together with finding good datasets, it's one of the first steps of every data project.
 ---
 
+<JobsDiagram selected="pull-dataset"></JobsDiagram>
+
 # {{ $page.frontmatter.title }}
 
 **{{ $page.frontmatter.tagline }}**
@@ -34,3 +36,12 @@ Declare this task as a step in a data pipeline.
  
 **Data Package Pipelines**
 Declare this task as a step in a data pipeline.
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>

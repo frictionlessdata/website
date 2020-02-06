@@ -7,6 +7,8 @@ pain: Initially, you may do this in functions inside a single script file. Over 
 context: It's a task part of every data project. The difference is just the complexity.
 ---
 
+<JobsDiagram selected="pipeline-transformations"></JobsDiagram>
+
 ## Examples
 
 ```
@@ -20,3 +22,12 @@ cat mydata.csv
 
 **Data Package Pipelines**
 Write transformations in declarative files.
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>

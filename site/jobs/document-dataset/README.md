@@ -7,6 +7,8 @@ pain: Initially, you may do this in a Google Doc or in a Markdown file versioned
 context: Generally neglected, you should start thinking about this as soon as the project starts. Your future self will thank you.
 ---
 
+<JobsDiagram selected="document-dataset"></JobsDiagram>
+
 ## Examples
 
 ```
@@ -20,3 +22,12 @@ You may follow this specification to distribute a datapackage.json with schema a
  
 **Data Package Creator**
 Online tool to guide you through your first Data Package.
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>
