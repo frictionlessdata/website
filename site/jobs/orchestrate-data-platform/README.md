@@ -7,6 +7,8 @@ pain: Initially, you may do this in a single machine, scheduling tasks using cro
 context: You usually add orchestration when it's proven that the project will continue to scale over time.
 ---
 
+<JobsDiagram selected="orchestrate-data-platform"></JobsDiagram>
+
 ## Examples
 
 ```
@@ -14,3 +16,12 @@ python my-pipeline-as-script.py
  
 cron *   *   *  * my-pipeline-as-script.py
 ```
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>

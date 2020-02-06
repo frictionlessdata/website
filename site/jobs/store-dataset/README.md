@@ -7,6 +7,8 @@ pain: The problem depends a lot on how you're using the data. When the size grow
 context: Storing data is a necessity from the beginning of every project.
 ---
 
+<JobsDiagram selected="store-dataset"></JobsDiagram>
+
 ## Examples
 
 ```
@@ -20,3 +22,12 @@ Compatible with Data Packages, it offers a cloud space for storing datasets.
  
 **Tabulator**
 You may use Tabulator to generate and use streams of data from multiple file formats.
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>

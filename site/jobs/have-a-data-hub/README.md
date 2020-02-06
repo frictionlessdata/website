@@ -7,6 +7,8 @@ pain: There are multiple solutions for public interest datasets. In the private 
 context: It's one of the last steps when building a data pipeline.
 ---
 
+<JobsDiagram selected="have-a-data-hub"></JobsDiagram>
+
 ## Examples
 
 ```
@@ -17,3 +19,12 @@ datahub-cli publish my-data-package/
 
 **DataHub**
 It's a free and open source data hub. Built to work seamlessly with other Frictionless Data tools.
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>
