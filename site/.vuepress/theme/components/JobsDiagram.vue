@@ -51,7 +51,7 @@ class Diagram {
     let that = this;
 
     const Hex = Honeycomb.extendHex({
-      size: 52,
+      size: 71,
       orientation: "flat",
 
       currentIndex() {
@@ -165,7 +165,7 @@ export default {
 
 <style scoped>
 .jobs-diagram {
-  height: 280px;
+  height: 370px;
 }
 
 polygon,

@@ -33,6 +33,7 @@
     <Product v-else-if="$page.frontmatter.layout === 'product'"/>
     <BlogIndex v-else-if="isBlogIndexPage"/>
     <BlogPost v-else-if="$page.frontmatter.layout === 'Post'"/>
+    <Job v-else-if="$page.frontmatter.layout === 'job'"/>
 
     <Page
       v-else
@@ -57,13 +58,14 @@ import Home from '@theme/components/Home.vue'
 import Product from '../components/Product.vue'
 import BlogIndex from '../components/BlogIndex.vue'
 import BlogPost from '../components/BlogPost.vue'
+import Job from '../components/Job.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  components: { Home, Product, BlogIndex, BlogPost, Page, Sidebar, Navbar },
+  components: { Home, Product, BlogIndex, BlogPost, Job, Page, Sidebar, Navbar },
 
   data () {
     return {

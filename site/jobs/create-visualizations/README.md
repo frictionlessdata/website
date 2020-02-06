@@ -1,13 +1,11 @@
 ---
 title: Create Visualizations
-sidebar: false
 tagline: Present data in visual form such as graphs, tables etc
 description: You want to easily visualize and interact with data.
 pain: The ecosystem is quite diverse. Generally, creating interactive and beautiful visualizations takes a lot of effort.
 context: Even for human-readable formats, people like to have the option to visualize datasets in multiple ways.
+layout: job
 ---
-
-<JobsDiagram selected="create-visualizations"></JobsDiagram>
 
 ## Examples
 
@@ -26,12 +24,3 @@ Distribute recommended ways of viewing a dataset in declarative ways.
  
 **data-package-render-js**
 Render Data Package Views in Javascript applications.
-
-
-<script>
-import JobsDiagram from "@theme/components/JobsDiagram.vue";
-
-export default {
-  components: { JobsDiagram }
-};
-</script>

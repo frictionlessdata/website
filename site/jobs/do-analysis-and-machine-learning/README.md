@@ -1,13 +1,11 @@
 ---
 title: Do Analysis & Machine Learning
-sidebar: false
 tagline: Analysis of data including statistical models and machine learning.
 description: Once you have access to proper data that fits your purpose, you want to leverage Artificial Intelligence techniques to get deeper insights or provide new features to users.
 pain: The Machine Learning ecosystem may sound scary for people without mathematical training. It doesn't have to be like this.
 context: You will hardly do this before having a complete data pipeline already in place.
+layout: job
 ---
-
-<JobsDiagram selected="do-analysis-and-machine-learning"></JobsDiagram>
 
 ## Examples
 
@@ -15,12 +13,3 @@ context: You will hardly do this before having a complete data pipeline already 
 import scikit
 ...
 ```
-
-
-<script>
-import JobsDiagram from "@theme/components/JobsDiagram.vue";
-
-export default {
-  components: { JobsDiagram }
-};
-</script>
