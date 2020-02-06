@@ -33,11 +33,10 @@ tagline: Bringing simplicity & grace to the data experience
   <div class="banner bg-white">
     <h2 class="text-2xl mx-40 py-16">
       Problems that we solve
-      <br />
-      <br />
-      INSERT Hexagons etc
     </h2>
   </div>
+
+  <JobsDiagram></JobsDiagram>
 
   <div class="banner bg-white py-24">
     <h2 class="text-2xl mx-40">Trusted by</h2>
@@ -126,3 +125,12 @@ tagline: Bringing simplicity & grace to the data experience
   </div>
 
 </div>
+
+
+<script>
+import JobsDiagram from "@theme/components/JobsDiagram.vue";
+
+export default {
+  components: { JobsDiagram }
+};
+</script>
