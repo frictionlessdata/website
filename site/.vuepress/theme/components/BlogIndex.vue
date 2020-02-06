@@ -25,13 +25,17 @@
 
 <script>
 import moment from 'moment'
+import TagLinks from './TagLinks'
 
 export default {
-        methods: {
-            formatDate(date, format = 'MMM D, YYYY') {
-                return moment(date).format(format)
-            }
-        }
+  components: { 
+    TagLinks
+  },
+  methods: {
+    formatDate(date, format = 'MMM D, YYYY') {
+        return moment(date).format(format)
+    }
+  }
 }
 </script>
 
