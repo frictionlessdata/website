@@ -1,5 +1,5 @@
 ---
-title: Have a DataHub
+title: Have a Data Hub
 sidebar: false
 tagline: A hub for managing/storing multiple datasets with access for machines and humans.
 description: You want to easily share data, metadata, and related documentation with other people.
