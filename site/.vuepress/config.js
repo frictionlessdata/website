@@ -1,5 +1,5 @@
 module.exports = {
-  title: "Frictionless Data",
+  title: "",
   description: "Bringing simplicity and gracefulness to the data experience",
   postcss: {
     plugins: [
@@ -20,7 +20,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: "/img/logo.svg",
+    logo: "/img/frictionless-data-blue-logo-text.png",
     repo: "https://github.com/frictionlessdata",
     repoLabel: "GitHub",
     // defaults to false, set to true to enable

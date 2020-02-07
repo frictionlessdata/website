@@ -5,7 +5,7 @@
     <h1 class="text-3xl pt-6 pb-4  ">{{ $page.frontmatter.title }}</h1>
     <p class="text-xl pb-12">{{ $page.frontmatter.summary }} </p>
     <time class="italic"> {{ formatDate($page.frontmatter.date) }} by Max Examplemann </time>
-    <TagLinks class="pt-2"/>
+    <TagLinks class="pt-2 text-blue-500"/>
     <Content class="pt-12" />
     
     </div>

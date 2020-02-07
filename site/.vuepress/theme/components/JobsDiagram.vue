@@ -1,5 +1,5 @@
 <template>
-  <div class="jobs-diagram" ref="diagram"></div>
+  <div class="jobs-diagram px-48 pt-12" ref="diagram"></div>
 </template>
 
 <script>
@@ -161,7 +161,7 @@ export default {
 
 <style scoped>
 .jobs-diagram {
-  height: 370px;
+  height:470px;
 }
 
 polygon,
