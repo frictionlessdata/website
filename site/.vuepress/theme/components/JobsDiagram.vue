@@ -1,5 +1,5 @@
 <template>
-  <div class="jobs-diagram px-48 pt-12" ref="diagram"></div>
+  <div class="jobs-diagram" ref="diagram"></div>
 </template>
 
 <script>
@@ -76,7 +76,7 @@ class Diagram {
           .fill("none")
           .stroke(stroke)
           .translate(x, y);
-        const fontSize = 10;
+        const fontSize = 13;
         const title = titlesAndURLs[index][0];
         const yPosition = title.includes("\n")
           ? centerPosition.y - fontSize * 2
