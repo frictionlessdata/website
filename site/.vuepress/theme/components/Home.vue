@@ -50,9 +50,4 @@ export default {
   color: white;
 }
 
-body {
-  background: rgb(255,255,255);
-  background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(233,246,255,1) 100%);
-}
-
 </style>
