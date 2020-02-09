@@ -25,7 +25,7 @@ module.exports = {
     repoLabel: "GitHub",
     // defaults to false, set to true to enable
     editLinks: true,
-    sidebar: "auto",
+    sidebar: 'auto',
     nav: [
       { text: "About", link: "/about/" },
       {

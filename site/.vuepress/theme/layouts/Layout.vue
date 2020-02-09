@@ -92,7 +92,7 @@ export default {
     shouldShowSidebar () {
       const { frontmatter } = this.$page
       return (
-        !frontmatter.layout == 'home'
+        !(frontmatter.layout == 'home')
         && frontmatter.sidebar !== false
         && this.sidebarItems.length
       )
