@@ -8,38 +8,38 @@ tagline: Bringing simplicity & grace to the data experience
 
 <div class="flex flex-row flex-wrap">
   <div class="w-1/3 mx-auto">
-    <div class="text-gray-800 text-right p-6">
+    <div class="text-gray-800 text-center p-6">
       <img class="forwho mx-auto py-12" src="/img/for-researchers.svg"></img>
       <h2 class="text-3xl">For Researchers</h2>
-      <p class="text-gray-800 text-xl pt-2 font-light pb-12">Easily create reproducible research</p>
+      <p class="text-gray-800 text-xl pt-2 font-light pb-12">Easily create reproducible<br> research</p>
     </div>
   </div>
   <div class="w-1/3 mx-auto">
     <div class="text-gray-800 text-center p-6">
       <img class="forwho mx-auto py-12" src="/img/for-data-scientists.svg"></img>
       <h2 class="text-3xl">For Data Scientists</h2>
-      <p class="text-gray-800 text-xl pt-2 font-light pb-12">Create pipelines without effort</p>
+      <p class="text-gray-800 text-xl pt-2 font-light pb-12">Create pipelines without<br> effort</p>
     </div>
   </div>
   <div class="w-1/3 mx-auto">
-    <div class="text-gray-800 text-left p-6">
+    <div class="text-gray-800 text-center p-6">
       <img class="forwho mx-auto py-12" src="/img/for-data-engineers.svg"></img>
       <h2 class="text-3xl">For Data Engineers</h2>
-      <p class="text-gray-800 text-xl pt-2 font-light pb-12">Standardize data platforms</p>
+      <p class="text-gray-800 text-xl pt-2 font-light pb-12">Standardize data<br> platforms</p>
     </div>
   </div>
 </div>
 
 <div class="banner problems pt-12 pb-24">
-  <h2 class="text-3xl pt-32">
+  <h2 class="text-3xl pt-32 pl-8">
     Problems that we solve
   </h2>
-  <p class="description text-lg font-light pt-4">Those are the problems that we solve..</p>
+  <p class="description text-lg font-light pt-4 pl-8">Those are the problems that we solve..</p>
   <JobsDiagram class="px-48 pt-12"></JobsDiagram>
 </div>
 
 <div class="banner py-24">
-  <h2 class="text-3xl">Some of Our Tooling</h2>
+  <h2 class="text-3xl pl-8">Some of Our Tooling</h2>
   <div class="banner flex flex-row flex-wrap pt-12">
     <div class="w-1/4 text-center mx-auto p-8">
       <img class="w-32 mx-auto py-12" src="/img/data-package.svg"></img>
@@ -68,9 +68,9 @@ tagline: Bringing simplicity & grace to the data experience
   </div>
 </div>
 
-<div class="banner pt-24 pb-40 ">
+<div class="banner pt-24 pb-40">
   <div class="flex flex-row flex-wrap mx-auto">
-    <div class="w-1/2">
+    <div class="w-1/2 pl-8">
       <img src="/img/json-file-dp.png" class="shadow-xl"/>
     </div>
     <div class="w-1/2 pl-20">
