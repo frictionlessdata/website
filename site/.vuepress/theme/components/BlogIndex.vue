@@ -7,7 +7,7 @@
           <div class="container mt-6 pb-6 shadow-lg inline-block">
             <div class="container pt-8 pb-4">
             <router-link class="text-2xl pt-4 page-link pl-4" :to="page.path">{{ page.title }}</router-link><br>
-            <p class="text-sm italic inline-block pt-2 pl-4"> {{ formatDate($page.frontmatter.date) }} by Frictionless Data </p>
+            <p class="text-sm italic inline-block pt-2 pl-4"> {{ formatDate(page.frontmatter.date) }} by Frictionless Data </p>
             <TagLinks class="inline pl-3 pl-4" /> 
             <p class="pt-4 text-xl pl-4"> {{ page.frontmatter.summary }}</p>
           </div>
@@ -24,7 +24,7 @@
 </template>
 
 <script>
-import moment from 'moment'
+import { formatDate } from '../util'
 import TagLinks from './TagLinks'
 
 export default {
@@ -32,9 +32,7 @@ export default {
     TagLinks
   },
   methods: {
-    formatDate(date, format = 'MMM D, YYYY') {
-        return moment(date).format(format)
-    }
+    formatDate
   }
 }
 </script>

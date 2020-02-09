@@ -3,6 +3,12 @@ export const extRE = /\.(md|html)$/
 export const endingSlashRE = /\/$/
 export const outboundRE = /^(https?:|mailto:|tel:|[a-zA-Z]{4,}:)/
 
+export function formatDate(date) {
+  var options = { year: 'numeric', month: 'long', day: 'numeric' };
+  const d = new Date(date);
+  return d.toLocaleDateString("en-US", options)
+}
+
 export function normalize (path) {
   return decodeURI(path)
     .replace(hashRE, '')

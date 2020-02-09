@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import moment from 'moment'
+import { formatDate } from '../util'
 import TagLinks from './TagLinks'
 
 export default {
@@ -21,9 +21,7 @@ export default {
     TagLinks
   },
   methods: {
-      formatDate(date, format = 'MMM D, YYYY') {
-          return moment(date).format(format)
-    }
+    formatDate
   }
 }
 </script>
