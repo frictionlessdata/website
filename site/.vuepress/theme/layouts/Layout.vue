@@ -93,6 +93,7 @@ export default {
       const { frontmatter } = this.$page
       return (
         !(frontmatter.layout == 'home')
+        && !this.isBlogIndexPage
         && frontmatter.sidebar !== false
         && this.sidebarItems.length
       )

@@ -1,8 +1,8 @@
 <template>
   <main class="blog-home" aria-labelledby="main-title">
     <div class="container">  
-      <h1 class="text-3xl pt-48 pb-20">Frictionless Blog</h1>
-      <ul id="default-layout" class="flex flex-col">
+      <h1>Frictionless Blog</h1>
+      <ul class="flex flex-col">
         <li class="" v-for="page in $pagination.pages">
           <div class="container mt-6 pb-6 shadow-lg inline-block">
             <div class="container pt-8 pb-4">
@@ -40,6 +40,14 @@ export default {
 <style lang="stylus">
 .blog-home
   padding $navbarHeight 2rem 0
-  max-width 960px
+  max-width 720px
   margin 0px auto
+
+h1
+  font-size 3rem
+  margin 1.8rem auto
+  text-align center
+
+ul
+  list-style-type none
 </style>
