@@ -1,5 +1,5 @@
 module.exports = {
-  title: "",
+  title: "Frictionless Data",
   description: "Bringing simplicity and gracefulness to the data experience",
   postcss: {
     plugins: [
@@ -27,7 +27,7 @@ module.exports = {
     editLinks: true,
     sidebar: "auto",
     nav: [
-      { text: "About", link: "/about" },
+      { text: "About", link: "/about/" },
       {
         text: "Products",
         items: [
