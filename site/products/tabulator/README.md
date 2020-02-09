@@ -1,7 +1,7 @@
 ---
 title: Tabulator
 tagline: A consistent interface for reading and writing streams of tabular data, in Python and on the command line.
-layout: Product
+layout: product
 ---
  
 **{{ $page.frontmatter.tagline }}**

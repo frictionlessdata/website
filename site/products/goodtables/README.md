@@ -1,7 +1,7 @@
 ---
 title: GoodTables
 tagline: A simple yet powerful tool to ensure the quality of tabular data, in Python and on the command line.
-layout: Product
+layout: product
 ---
  
 **{{ $page.frontmatter.tagline }}**

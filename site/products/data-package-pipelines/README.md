@@ -1,7 +1,7 @@
 ---
 title: Data Package Pipelines
 tagline: A framework for processing data packages in pipelines of modular components.
-layout: Product
+layout: product
 ---
  
 **{{ $page.frontmatter.tagline }}**

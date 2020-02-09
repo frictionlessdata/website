@@ -1,7 +1,7 @@
 ---
 title: Table Schema
 tagline: A simple and intuitive way to declare a schema for your tabular data that works with your existing tools.
-layout: Product
+layout: product
 ---
  
 **{{ $page.frontmatter.tagline }}**

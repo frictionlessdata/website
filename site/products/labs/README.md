@@ -1,7 +1,7 @@
 ---
 title: Frictionless Data Labs
 tagline: Tooling and approaches to data that are in varied stages of maturity.
-layout: Product
+layout: product
 ---
  
 **{{ $page.frontmatter.tagline }}**
