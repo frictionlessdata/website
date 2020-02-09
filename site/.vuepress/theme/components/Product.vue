@@ -1,26 +1,28 @@
 <template>
-  <main aria-labelledby="main-title">
-    <header class="hero">
-      <h1 id="main-title">{{ data.title || 'Product ...' }}</h1>
+  <main aria-labelledby="main-title" class="page">
+    <div class="theme-default-content">
+      <header class="hero">
+        <h1 id="main-title">{{ data.title || 'Product ...' }}</h1>
 
-      <img
-        v-if="data.heroImage"
-        :src="$withBase(data.heroImage)"
-        :alt="data.heroAlt || 'hero'"
-      >
+        <img
+          v-if="data.heroImage"
+          :src="$withBase(data.heroImage)"
+          :alt="data.heroAlt || 'hero'"
+        >
 
-      <p class="description">
-        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
-      </p>
+        <p class="description">
+          {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+        </p>
 
-      <p
-        class="action"
-        v-if="data.actionText && data.actionLink"
-      >
-      </p>
-    </header>
+        <p
+          class="action"
+          v-if="data.actionText && data.actionLink"
+        >
+        </p>
+      </header>
 
-    <Content class="theme-default-content custom"/>
+      <Content />
+    </div>
   </main>
 </template>
 
@@ -36,10 +38,6 @@ export default {
 
 <style lang="stylus">
 .product
-  padding $navbarHeight 2rem 0
-  max-width 960px
-  margin 0px auto
-  display block
   .hero
     text-align center
     img

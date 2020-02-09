@@ -1,19 +1,21 @@
 <template>
-  <main aria-labelledby="main-title">
-    <header class="hero">
-      <h1 id="main-title">{{ data.title }}</h1>
-      <p class="description">{{ data.tagline }}</p>
-    </header>
+  <main aria-labelledby="main-title" class="page">
+    <div class="theme-default-content">
+      <header class="hero">
+        <h1 id="main-title">{{ data.title }}</h1>
+        <p class="description">{{ data.tagline }}</p>
+      </header>
 
-    <JobsDiagram></JobsDiagram>
+      <JobsDiagram></JobsDiagram>
 
-    <p>{{ data.description }}</p>
+      <p>{{ data.description }}</p>
 
-    <h2>Context</h2>
-    <p>{{ data.context }}</p>
-    <p>{{ data.pain }}</p>
+      <h2>Context</h2>
+      <p>{{ data.context }}</p>
+      <p>{{ data.pain }}</p>
 
-    <Content />
+      <Content />
+    </div>
   </main>
 </template>
 
@@ -33,10 +35,6 @@ export default {
 
 <style lang="stylus">
 .job
-  padding $navbarHeight 2rem 0
-  max-width 960px
-  margin 0px auto
-  display block
   .hero
     text-align center
     img
