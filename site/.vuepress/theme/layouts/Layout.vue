@@ -48,8 +48,6 @@
         slot="bottom"
       />
     </Page>
-
-    <p>Frontmatter {{ $page.frontmatter }}</p>
   </div>
 </template>
 
