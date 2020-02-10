@@ -3,7 +3,7 @@ title: Cell Migration Standardization Organization
 date: 2017-05-23
 interviewee: Paola Masuzzo
 category: case-studies
-image: cmso-logo.png
+image: /cmso-logo.png
 subject_context: CMSO uses Frictionless Data specs to package cell migration data and load it into Pandas for data analysis and creation of visualizations.
 summary: Building standards for cell migration data in order to enable data sharing in the field.
 ---

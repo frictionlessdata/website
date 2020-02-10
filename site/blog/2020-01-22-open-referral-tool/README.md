@@ -3,7 +3,7 @@ title: Frictionless Open Referral developed by Shelby Switzer and Greg Bloom
 category: grantee-profiles-2019
 date: 2020-01-22
 summary: Tool Fund - Frictionless Open Referral
-image: OpenReferral.png
+image: /OpenReferral.png
 ---
 
 **This blog is part of a series showcasing projects developed during the 2019 Tool Fund. Originally published at [https://blog.okfn.org/2020/01/15/frictionless-data-tool-fund-update-shelby-switzer-and-greg-bloom-open-referral/](https://blog.okfn.org/2020/01/15/frictionless-data-tool-fund-update-shelby-switzer-and-greg-bloom-open-referral/)**

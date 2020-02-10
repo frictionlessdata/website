@@ -1,7 +1,7 @@
 ---
 title: Validated tabular data
 summary: When it comes to validating tabular data, you have some great tools at your disposal. We take a look at a couple of ways to utilise goodtables.
-image: valid.png
+image: /valid.png
 tags: ["try.goodtables.io", "Goodtables CLI"]
 date: 2018-07-16
 ---

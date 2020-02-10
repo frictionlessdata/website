@@ -30,7 +30,7 @@ tagline: Bringing simplicity & grace to the data experience
   </div>
 </div>
 
-<div class="banner problems pt-12 pb-24">
+<div class="banner problems pb-24">
   <h2 class="text-3xl pt-32 pl-8">
     Problems that we solve
   </h2>
@@ -38,9 +38,9 @@ tagline: Bringing simplicity & grace to the data experience
   <JobsDiagram class="px-48 pt-12"></JobsDiagram>
 </div>
 
-<div class="banner py-24">
+<div class="banner">
   <h2 class="text-3xl pl-8">Some of Our Tooling</h2>
-  <div class="banner flex flex-row flex-wrap pt-12">
+  <div class="banner flex flex-row pt-12">
     <div class="w-1/4 text-center mx-auto p-8">
       <img class="w-32 mx-auto py-12" src="/img/data-package.svg"></img>
       <h2 class="text-xl">Data Package</h2>
@@ -69,22 +69,22 @@ tagline: Bringing simplicity & grace to the data experience
 </div>
 
 <div class="banner pt-24 pb-40">
-  <div class="flex flex-row flex-wrap mx-auto">
-    <div class="w-1/2 pl-8">
+  <div class="flex flex-row mx-auto">
+    <div class="w-1/2 pt-12 pl-8">
       <img src="/img/json-file-dp.png" class="shadow-xl"/>
     </div>
-    <div class="w-1/2 pl-20">
-      <h2 class="text-3xl font-light pt-12 pb-4">Any dataset format,<br> compatible with <span class="highlighted"> everything </span> </h2>
+    <div class="w-1/2 pl-20 pt-6">
+      <h2 class="text-3xl font-light pb-4">Any dataset format,<br> compatible with <span class="highlighted"> everything </span> </h2>
     </div>
   </div>
 </div>
 
-<div class="banner pt-12 pb-40 ">
-  <div class="flex flex-row flex-wrap mx-auto text-right">
+<div class="banner pb-40 ">
+  <div class="flex flex-row mx-auto text-right">
     <div class="w-1/2 pr-20">
-      <h2 class="text-3xl font-light pt-12 pb-4">Declarative <span class="highlighted">pipelines</span></h2>
+      <h2 class="text-3xl font-light pt-6 pb-4">Declarative <span class="highlighted">pipelines</span></h2>
     </div>
-    <div class="w-1/2">
+    <div class="w-1/2 pt-12">
       <img src="/img/json-file-dp.png" class="shadow-xl"/>
     </div>
   </div>

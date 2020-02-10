@@ -1,5 +1,6 @@
 ---
 title: Contribute
+layout: Layout 
 ---
 
 # Contribute

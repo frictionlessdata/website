@@ -4,7 +4,7 @@ date: 2017-06-26
 author: Sam Payne (PNNL), Joon-Yong Lee (PNNL), Dan Fowler (OKI)
 category: pilots
 subject_context: Sam Payne and Joon-Yong Lee work at the Pacific Northwest National Laboratory. Together, we explored use of Frictionless Data's specifications and software to generate schema for tabular data and validate metadata stored as part of a biological application on GitHub.
-image: pnnl.png
+image: /pnnl.png
 summary: Using goodtables to validate metadata stored as part of an biological application on GitHub.
 ---
 

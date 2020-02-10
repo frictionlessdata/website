@@ -1,10 +1,10 @@
 <template lang="html">
   <div>
     <img class="w-4 h-4 inline text-lg" src="https://image.flaticon.com/icons/png/512/94/94699.png"/>
-    <router-link
+    <router-link class="pl-2"
       v-for="tag in $page.frontmatter.tags"
       :key="tag"
-      :to="{ path: `/tags.html#${tag}`}">
+      :to="{ path: ``}">
       {{tag}}
     </router-link>
   </div>

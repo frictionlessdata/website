@@ -3,7 +3,7 @@ title: Ori Hoch
 date: 2018-07-16
 category: grantee-profiles
 summary: Tool Fund Grantee - PHP
-image: ori-hoch-image.png
+image: /ori-hoch-image.png
 github: https://github.com/OriHoch
 twitter: https://twitter.com/OriHoch
 website: https://www.linkedin.com/in/ori-hoch-bb62b033/

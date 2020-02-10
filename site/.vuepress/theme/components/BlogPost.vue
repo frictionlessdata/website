@@ -2,14 +2,14 @@
   <main aria-labelledby="main-title" class="page">
     <div class="theme-default-content">
       <header>
-        <h1 class="text-3xl pt-6 pb-4  ">{{ $page.frontmatter.title }}</h1>
-        <p class="text-xl pb-12">{{ $page.frontmatter.summary }} </p>
-        <time class="italic"> {{ formatDate($page.frontmatter.date) }} by Max Examplemann </time>
-        <TagLinks class="pt-2 text-blue-500"/>
+        <h1 class="text-3xl pt-6">{{ $page.frontmatter.title }}</h1>
+        <p class="text-xl pb-6">{{ $page.frontmatter.summary }} </p>
+        <time class="italic"> {{ formatDate($page.frontmatter.date) }} by {{ $page.frontmatter.author || "Frictionless Data" }} </time>
+        <TagLinks class="pt-4 text-blue-500 pb-6"/>
       </header>
       <Content />
       <footer>
-        <a href="/blog/" class="font-light"> < Go back</a>
+        <a href="/blog/"> < Go back</a>
       </footer>
       </div>
     </div>
