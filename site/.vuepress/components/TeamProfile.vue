@@ -94,7 +94,7 @@
           </dt>
           <div class="container pb-2 inline-flex">
           <img src="https://image.flaticon.com/icons/png/512/126/126481.png" class="w-4 h-auto py-1 pb-4"/>
-            <div class="pl-3 pb-2" v-for="link in profile.links">
+            <div class="pl-3" v-for="link in profile.links">
                 <a :href="link" target=_blank>{{ minimizeLink(link) }}</a>
             </div>
           </div>
@@ -102,22 +102,22 @@
         <footer class="social" v-if="hasSocialLinks">
           <div class="inline-flex">
           <a class="github flex-1" v-if="profile.github" :href="githubUrl(profile.github)">
-            <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" class="w-6 h-auto pt-1"/>
+            <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" class="w-6 h-auto"/>
             <i class="fa fa-github"></i>
             <span class="sr-only">Github</span>
           </a>
           <a class="twitter flex-1 pl-2" v-if="profile.twitter" :href="'https://twitter.com/' + profile.twitter">
-            <img src="https://www.stickpng.com/assets/images/58e9196deb97430e819064f6.png" class="w-6 h-auto pt-1"/>
+            <img src="https://www.stickpng.com/assets/images/58e9196deb97430e819064f6.png" class="w-6 h-auto"/>
             <i class="fa fa-twitter"></i>
             <span class="sr-only">Twitter</span>
           </a>
           <a class="codepen flex-1 pl-2" v-if="profile.codepen" :href="'https://codepen.io/' + profile.codepen">
-            <img src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-32-512.png" class="w-6 h-auto pt-1"/>
+            <img src="https://cdn0.iconfinder.com/data/icons/social-media-2091/100/social-32-512.png" class="w-6 h-auto"/>
             <i class="fa fa-codepen"></i>
             <span class="sr-only">CodePen</span>
           </a>
           <a class="linkedin flex-1 pl-2" v-if="profile.linkedin" :href="'https://www.linkedin.com/in/' + profile.linkedin">
-            <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/linkedin-512.png" class="w-6 h-auto pt-1"/>
+            <img src="https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/linkedin-512.png" class="w-6 h-auto"/>
             <i class="fa fa-linkedin"></i>
             <span class="sr-only">LinkedIn</span>
           </a>
