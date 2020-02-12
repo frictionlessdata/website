@@ -11,21 +11,21 @@
         :src="'https://avatars.io/twitter/' + profile.twitter"
         :alt="profile.name" width=80 height=80>
     </div>
-    <div class="profile bg-white team-font pt-6 text-sm leading-loose">
+    <div class="profile team-font pt-6 text-sm leading-loose">
       <h3 class="text-lg" :data-official-title="profile.title">
         {{ profile.name }}
         <sup v-if="profile.title && titleVisible" v-html="profile.title"></sup>
       </h3>
       <dl>
         <template v-if="profile.reposOfficial">
-          <dt class="team-core-font inline">Core focus</dt>
-          <dd class="inline-block">
+          <div class="container inline-flex">
+          <dt class="team-core-font">Core focus</dt>
             <ul>
-              <li class="inline text-sm text-blue-500 pl-2 flex-initial" v-for="repo in profile.reposOfficial">
+              <li class="inline text-sm text-blue-500 pl-2" v-for="repo in profile.reposOfficial">
                 <a :href="githubUrl('fluejs', repo)" target=_blank rel="noopener noreferrer">{{ repo.name || repo }}</a>
               </li>
             </ul>
-          </dd>
+          </div>
         </template>
         <template v-if="profile.github && profile.reposPersonal">
           <dt>Ecosystem</dt>
@@ -42,8 +42,10 @@
             <i class="fa fa-briefcase"></i>
             <span class="sr-only">Work</span>
           </dt>
-          <img src="https://image.flaticon.com/icons/png/512/86/86081.png" class="inline w-4 h-auto py-1"/>
-          <dd class="inline pl-2" v-html="workHtml"></dd>
+          <div class="container pb-1">
+            <img src="https://image.flaticon.com/icons/png/512/86/86081.png" class="inline w-4 h-auto pt-1"/>
+            <div class="inline pl-2" v-html="workHtml"></div>
+          </div>
         </template>
         <span v-if="profile.distanceInKm" class="distance">
           <dt>
@@ -66,10 +68,12 @@
             <i class="fa fa-map-marker"></i>
             <span class="sr-only">City</span>
           </dt>
-          <img src="https://image.flaticon.com/icons/png/512/67/67347.png" class="inline w-4 h-auto pb-1"/>
-          <dd class="inline pl-2">
-            {{ profile.city }}
-          </dd>
+          <div class="container pb-0">
+            <img src="https://image.flaticon.com/icons/png/512/67/67347.png" class="inline w-4 h-auto"/>
+            <div class="inline pl-2">
+              {{ profile.city }}
+            </div>
+          </div>
         </template>
         <template v-if="profile.languages">
           <dt>
@@ -78,9 +82,9 @@
           </dt>
           <!-- TODO: this could now just be a v-for given that we refactored the code to remove using browser lang choice -->
           <div class="container inline-flex py-1">
-            <img src="https://image.flaticon.com/icons/png/512/115/115809.png" class="w-4 h-auto py-1"/>
-            <dd v-html="languageListHtml" class="language-list pl-2">
-            </dd>
+            <img src="https://image.flaticon.com/icons/png/512/115/115809.png" class="w-4 h-auto pt-1 pb-2"/>
+            <div v-html="languageListHtml" class="pl-3">
+            </div>
           </div>
         </template>
         <template v-if="profile.links">
@@ -88,14 +92,12 @@
             <i class="fa fa-link"></i>
             <span class="sr-only">Links</span>
           </dt>
-          <dd class="inline-flex pb-2">
-          <img src="https://image.flaticon.com/icons/png/512/126/126481.png" class="flex-1 w-4 h-auto py-1"/>
-            <ul>
-              <li class="flex-1 pl-2" v-for="link in profile.links">
+          <div class="container pb-2 inline-flex">
+          <img src="https://image.flaticon.com/icons/png/512/126/126481.png" class="w-4 h-auto py-1 pb-4"/>
+            <div class="pl-3 pb-2" v-for="link in profile.links">
                 <a :href="link" target=_blank>{{ minimizeLink(link) }}</a>
-              </li>
-            </ul>
-          </dd>
+            </div>
+          </div>
         </template>
         <footer class="social" v-if="hasSocialLinks">
           <div class="inline-flex">
@@ -194,12 +196,10 @@ export default {
       var vm = this
       if (!vm.profile.languages) return ''
       return (
-        '<ul><li>' +
         vm.profile.languages.map(function (languageCode, index) {
           var language = languageNameFor[languageCode]
           return language
-        }).join(' • ') +
-        '</li></ul>'
+        }).join(' ') 
       )
     },
     hasSocialLinks: function () {
@@ -242,8 +242,12 @@ export default {
   font-weight: 500;
 }
 
-.team-font {
-  font-family: "Source Sans Pro",;
+ul {
+  list-style-type: none;
+}
+
+.list {
+  list-style-type: none;
 }
 
 </style>
