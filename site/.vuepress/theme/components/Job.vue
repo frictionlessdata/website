@@ -6,7 +6,7 @@
         <p class="description">{{ data.tagline }}</p>
       </header>
 
-      <JobsDiagram></JobsDiagram>
+      <JobsDiagramSmall class="pt-12"></JobsDiagramSmall>
 
       <p>{{ data.description }}</p>
 
@@ -20,10 +20,10 @@
 </template>
 
 <script>
-import JobsDiagram from "@theme/components/JobsDiagram.vue";
+import JobsDiagramSmall from "@theme/components/JobsDiagramSmall.vue";
 
 export default {
-  components: { JobsDiagram },
+  components: { JobsDiagramSmall },
 
   computed: {
     data() {
