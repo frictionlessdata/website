@@ -12,6 +12,8 @@ summary: A way to share data and analysis, from simple charts to complex machine
 
 [Dataship](https://dataship.io/) is a way to share data and analysis, from simple charts to complex machine learning, with anyone in the world easily and for free. It allows you to create notebooks that hold and deliver your data, as well as text, images and inline scripts for doing analysis and visualization. The people you share it with can read, execute and even edit a copy of your notebook and publish the remixed version as a fork.
 
+<!-- more -->
+
 One of the main challenges we face with data is that it’s hard to share it with others. Tools like Jupyter (iPython notebook)[^jupyter] make it much easier and more affordable to do analysis (with the help of open source projects like numpy[^numpy] and pandas[^pandas]). What they don’t do is allow you to *cheaply and easily share that with the world*. **If it were as easy to share data and analysis as it is to share pictures of your breakfast, the world would be a more enlightened place.** Dataship is helping to build that world.
 
 Every notebook on Dataship is also a Data Package[^datapackage]. Like other Data Packages it can be downloaded, along with its data, just by giving its URL to software like data-cli[^data-cli]. Additionally, working with existing Data Packages is easy. Just as you can fork other notebooks, you can also fork existing Data Packages, even when they’re located somewhere else, like GitHub.

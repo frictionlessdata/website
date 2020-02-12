@@ -12,7 +12,8 @@
               <p class="text-sm italic inline"> {{ formatDate(page.frontmatter.date) }} by {{ page.frontmatter.author || "Frictionless Data" }} </p>
               <TagLinks class="inline pl-4" /> 
             </div>
-            <p class="pt-2 text-xl mr-12"> {{ page.frontmatter.summary }}</p>
+            <p class="pt-2 text-xl mr-12" v-if="page.frontmatter.summary"> {{ page.frontmatter.summary }} </p>
+            <p class="pt-2 text-xl mr-12" v-else-if="!page.frontmatter.summary" v-html="page.excerpt"></p>
           </div>
           <div class="container pl-6 w-1/3 pt-2">
             <img class="w-56 shadow-md" :src=" page.frontmatter.image || page.frontmatter.heroImage || 'https://i.ytimg.com/vi/lWHKVXxuci0/maxresdefault.jpg'" />

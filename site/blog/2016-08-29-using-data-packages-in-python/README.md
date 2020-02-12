@@ -5,8 +5,9 @@ tags: ["Python"]
 date: 2016-08-29
 ---
 
-
 This tutorial will show you how to install the Python libraries for working with Tabular Data Packages and demonstrate a very simple example of loading a Tabular Data Package from the web and pushing it directly into a local SQL database. Short examples of pushing your dataset to Google’s BigQuery and Amazon’s RedShift follow.
+
+<!-- more -->
 
 ## Setup
 

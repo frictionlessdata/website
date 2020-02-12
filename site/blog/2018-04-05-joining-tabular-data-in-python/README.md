@@ -6,8 +6,9 @@ date: 2018-04-05
 ---
 
 In a [separate guide](/docs/joining-data-in-python/), I walked through joining
-a tabular dataset with one containing geographic information.  In this
-guide, I will demonstrate an example of joining two tabular datasets.
+a tabular dataset with one containing geographic information.  In this guide, I will demonstrate an example of joining two tabular datasets.
+
+<!-- more -->
 
 !! There are, of course, various, more robust ways of joining
  tabular data.  The example listed below is intended to demonstrate
