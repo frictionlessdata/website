@@ -1,12 +1,10 @@
 ---
 title: Data Package
 tagline: A simple and intuitive way to define and ship metadata with your data that works with your existing tools.
-heroImage: /data-package-diagram.png
+github: datapackage-py, datapackage-js
+hexagon: Data Audit, Data API
+image: /data-package-diagram.png
 layout: product
----
-
-![](/data-package-diagram.png)
-
 ---
 
 ![](../../job-stories.png)
