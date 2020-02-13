@@ -4,7 +4,7 @@ date: 2017-12-12
 author: Brook Elgie (OKI), Paul Walsh (OKI)
 category: pilots
 subject_context: The UK Data Service collection includes major UK government-sponsored surveys, cross-national surveys, longitudinal studies, UK census data, international aggregate, business data, and qualitative data. Together, we used Frictionless Data software to assess and report on data quality, and make a case for generating visualisations with ensuing data and metadata.
-image: /ukds-logo.png
+image: /img/blog/ukds-logo.png
 summary: Using Frictionless Data software to assess and report on data quality and make a case for generating visualizations with ensuing data and metadata.
 ---
 

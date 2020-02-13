@@ -3,7 +3,7 @@ title: Neuroscience Experiments System Tool Fund
 category: grantee-profiles-2019
 date: 2020-01-23
 summary: Tool Fund - Frictionless Neuroscience Experiments System Tool
-image: /nes_logo.png
+image: /img/blog/nes_logo.png
 ---
 
 **This blog is part of a series showcasing projects developed during the 2019 Tool Fund. Originally published at [https://blog.okfn.org/2019/12/16/neuroscience-experiments-system-frictionless-tool/](https://blog.okfn.org/2019/12/16/neuroscience-experiments-system-frictionless-tool/)**
