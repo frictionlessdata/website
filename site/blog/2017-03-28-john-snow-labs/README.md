@@ -4,7 +4,7 @@ date: 2017-03-28
 interviewee: Ida Lucente
 category: case-studies
 subject_context: John Snow Labs uses Frictionless Data specifications to avail data to users for analysis
-image: /john-snow-labs-logo.png
+image: /img/blog/john-snow-labs-logo.png
 summary: Turnkey data to data science, analytics and software teams in healthcare industry.
 ---
 

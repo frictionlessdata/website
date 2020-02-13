@@ -4,7 +4,7 @@ date: 2016-11-15
 interviewee: Lion Hirth and Ingmar Schlecht
 category: case-studies
 subject_context: Open Power System Data uses Frictionless Data specifications to avail energy data for analysis and modeling
-image: /opsd-logo.svg
+image: /img/blog/opsd-logo.svg
 summary: A free-of-charge and open platform providing the data needed for power system analysis and modeling.
 ---
 

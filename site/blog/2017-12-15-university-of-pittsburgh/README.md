@@ -4,7 +4,7 @@ date: 2017-12-15
 author: Adria Mecarder (OKI)
 category: pilots
 subject_context: In this pilot study, we set out to showcase a possible implementation that expounds on quality and description of datasets in CKAN-based open data portals. The Western Pennsylvania Regional Data Center is part of The University of Pittsburgh Center for Urban and Social Research.
-image: /uop-logo.jpg
+image: /img/blog/uop-logo.jpg
 summary: Using ckanext-validation extension to highlight quality of datasets in CKAN-based open data portals.
 ---
 
