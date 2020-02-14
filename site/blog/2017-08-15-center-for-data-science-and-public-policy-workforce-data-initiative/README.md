@@ -5,7 +5,7 @@ interviewee: Matt Bauman
 category: case-studies
 subject_context: The Workforce Data Initiative uses Frictionless Data specifications and software to support collection and distribution of workforce data and statistics in the US.
 image: /img/blog/chicago.png
-summary: Supporting state and local workforce boards in managing and publishing data.
+description: Supporting state and local workforce boards in managing and publishing data.
 ---
 
 The Workforce Data Initiative aims to modernize the US workforce through the use of data. One aspect of this initiative is to help state and local workforce boards collect, aggregate, and distribute statistics on the effectiveness of training providers and the programs they offer. The US Department of Labor mandates that every eligible training provider (ETP) work with state workforce

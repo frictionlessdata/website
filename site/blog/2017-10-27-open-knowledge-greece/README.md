@@ -2,7 +2,7 @@
 title: Open Knowledge Greece
 category: grantee-profiles
 date: 2017-10-27
-summary: Tool Fund Grantee - R
+description: Tool Fund Grantee - R
 image: /img/blog/open-knowledge-greece-logo.png
 github: https://github.com/okgreece
 twitter: https://twitter.com/okfngr

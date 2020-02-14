@@ -5,7 +5,7 @@ interviewee: Roger Noble and Andrew Stretton
 category: case-studies
 subject_context: Zegami is using Frictionless Data specifications for data management and syntactic analysis on their visual data analysis platform
 image: /img/blog/zegami-logo.png
-summary:  As a visual data exploration and analytics platform, Zegami makes the exploration of large collections of image rich information quick and simple.
+description:  As a visual data exploration and analytics platform, Zegami makes the exploration of large collections of image rich information quick and simple.
 ---
 
 [Zegami](https://www.zegami.com) makes information more visual and accessible, enabling intuitive exploration, search and discovery of large data sets. Zegami combines the power of machine learning and human pattern recognition to reveal hidden insights and new perspectives.

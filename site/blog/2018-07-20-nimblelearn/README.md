@@ -5,7 +5,7 @@ category: case-studies
 date: 2018-07-20
 image: /img/blog/nimblelearn-logo.png
 subject_context: Nimble Learn is the Business Intelligence (BI) and Advanced Analytics consultancy behind datapackage-m, a set of functions for working with Tabular Data Packages in Power BI Desktop and Power Query for Excel.
-summary: Nimble Learn's datapackage-m is a set of functions for working with Tabular Data Packages in Power BI Desktop and Power Query for Excel.
+description: Nimble Learn's datapackage-m is a set of functions for working with Tabular Data Packages in Power BI Desktop and Power Query for Excel.
 ---
 
 [Data Package M](https://github.com/nimblelearn/datapackage-m), also known as *datapackage-m*, is a set of functions written in [Power Query M](https://msdn.microsoft.com/query-bi/m/power-query-m-reference) for working with Tabular Data Packages in [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/) and [Power Query for Excel](https://support.office.com/en-us/article/introduction-to-microsoft-power-query-for-excel-6e92e2f4-2079-4e1f-bad5-89f6269cd605) (also known as 'Get & Transform Data' in Excel 2016).

@@ -2,7 +2,7 @@
 title: Neuroscience Experiments System Tool Fund
 category: grantee-profiles-2019
 date: 2020-01-23
-summary: Tool Fund - Frictionless Neuroscience Experiments System Tool
+description: Tool Fund - Frictionless Neuroscience Experiments System Tool
 image: /img/blog/nes_logo.png
 ---
 

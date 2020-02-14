@@ -1,6 +1,6 @@
 ---
 title: Automatically validated tabular data
-summary: Automatic validation means you'll be the first to know if a change in your data causes a problem. Learn how to incorporate automatic validation into your workflow.
+description: Automatic validation means you'll be the first to know if a change in your data causes a problem. Learn how to incorporate automatic validation into your workflow.
 image: /img/blog/auto-validate.png
 tags: ["goodtables.io"]
 date: 2018-03-12
