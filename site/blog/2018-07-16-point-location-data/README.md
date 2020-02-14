@@ -1,7 +1,8 @@
 ---
 title: Point location data in CSV files
-category: publishing-data
 date: 2018-07-16
+tags:
+category: publishing-data
 ---
 
 

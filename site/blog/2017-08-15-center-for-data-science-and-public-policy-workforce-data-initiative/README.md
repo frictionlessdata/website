@@ -1,8 +1,9 @@
 ---
 title: Center for Data Science and Public Policy, Workforce Data Initiative
 date: 2017-08-15
-interviewee: Matt Bauman
+tags:
 category: case-studies
+interviewee: Matt Bauman
 subject_context: The Workforce Data Initiative uses Frictionless Data specifications and software to support collection and distribution of workforce data and statistics in the US.
 image: /img/blog/chicago.png
 description: Supporting state and local workforce boards in managing and publishing data.

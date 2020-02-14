@@ -1,10 +1,11 @@
 ---
 title: Nimble Learn - Data Package Connector (datapackage-connector)
-interviewee: Michael Amadi
-category: case-studies
-image: /img/blog/nimblelearn-logo.png
 date: 2019-07-22
+tags:
+category: case-studies
+interviewee: Michael Amadi
 subject_context: Nimble Learn is the Business Intelligence (BI) and Advanced Analytics consultancy behind datapackage-connector, a Power BI Custom Connector for loading tables directly from Tabular Data Packages into Power BI through the 'Get Data' experience.
+image: /img/blog/nimblelearn-logo.png
 description: Nimble Learn's datapackage-connector is a Power BI Custom Connector for loading tables directly from Tabular Data Packages into Power BI through the 'Get Data' experience.
 ---
 

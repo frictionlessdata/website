@@ -1,10 +1,11 @@
 ---
 title: OpenML
 date: 2017-12-04
-interviewee: Heidi Seibold, Joaquin Vanschoren
+tags:
 category: case-studies
-image: /img/blog/openml-logo.png
+interviewee: Heidi Seibold, Joaquin Vanschoren
 subject_context: OpenML is an online platform that automatically organizes data sets, machine learning algorithms, and experiments into a coherent whole, connected to the people who created them.
+image: /img/blog/openml-logo.png
 description: OpenML is an online platform dedicated to creating an open, online ecosystem for machine learning
 ---
 

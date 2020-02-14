@@ -1,9 +1,10 @@
 ---
 title: Used and useful data
-description: Concerned that your data is just not being used? We've got some great tips, and best practices to improve the uptake in your data use
-image: /img/blog/used.png
-tags: ["Data Package Creator", "goodtables.io", "Command-line"]
 date: 2019-05-20
+tags: ["Data Package Creator", "goodtables.io", "Command-line"]
+category:
+image: /img/blog/used.png
+description: Concerned that your data is just not being used? We've got some great tips, and best practices to improve the uptake in your data use
 ---
 
 ## Include a data schema

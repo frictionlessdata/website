@@ -1,7 +1,8 @@
 ---
 title: Publish Any Kind of Data as a Data Package
-category: publishing-data
 date: 2016-07-21
+tags:
+category: publishing-data
 ---
 
 

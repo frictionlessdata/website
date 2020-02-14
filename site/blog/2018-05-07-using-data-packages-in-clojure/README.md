@@ -1,8 +1,8 @@
 ---
 title: Using Data Packages in Clojure
-category: working-with-data-packages
-tags: ["Clojure"]
 date: 2018-05-07
+tags: ["Clojure"]
+category: working-with-data-packages
 ---
 
 ! Matt Thompson was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data [data package][dp-clj] and [table schema][ts-clj] libraries in Clojure programming language. You can read more about this in [his grantee profile][toolfund-matt]. In this post, Thompson will show you how to set up and use the [Clojure](http://clojure.org) libraries for working with [Tabular Data Packages][tdp].

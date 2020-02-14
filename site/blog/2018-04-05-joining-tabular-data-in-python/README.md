@@ -1,8 +1,8 @@
 ---
 title: Joining Tabular Data
-category: working-with-data-packages
-tags: ["Python"]
 date: 2018-04-05
+tags: ["Python"]
+category: working-with-data-packages
 ---
 
 In a [separate guide](/docs/joining-data-in-python/), I walked through joining

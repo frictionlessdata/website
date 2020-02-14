@@ -1,12 +1,13 @@
 ---
 title: Daniel Fireman
 date: 2017-11-01
-description: Tool Fund Grantee - Go
+tags:
+category: grantee-profiles
 image: /img/blog/daniel-fireman-image.jpg
+description: Tool Fund Grantee - Go
 github: https://github.com/danielfireman
 twitter: https://twitter.com/daniellfireman
 website: https://linkedin.com/in/danielfireman/
-category: grantee-profiles
 ---
 
 I was born in [Maceió](https://www.google.com/search?site=&tbm=isch&source=hp&biw=1600&bih=783&q=Macei%C3%B3&oq=Macei%C3%B3&gs_l=img.3..0l7j0i30k1l3.707.4892.0.5214.9.7.0.0.0.0.245.904.0j1j3.4.0....0...1.1.64.img..5.4.903.0..35i39k1.p1SYqvZtcYw), a sunny coastal city in the Northeast of Brazil. It was 20th century still when I had a first contact with an Intel 80386 and installed Conectiva Linux Guarani 3.0. A lot has happened since, for instance, a bachelor's degree in Computer Science at UFCG after three years as a research assistant in the Distributed Systems Lab (LSD). It was already the 21st century when I realized that distributed and scalable systems were the way to go. I kept on studying the field and pursued a MSc at UFMG. From there I joined Google and spent 6 happy years working at multiple offices (NYC, ZRH, BHZ).  I’ve got the chance to work on a myriad of projects, ranging from social networks to Google's default Java HTTP/RPC server framework. Currently, I'm back to UFCG doing a Ph.D. in cloud computing performance. It is easy to find me at hackathons and other efforts to increase transparency of public data. I have also been busy working on projects like [contratospublicos.info](http://contratospublicos.info/) and Frictionless Data, using Go to improve data transparency in Brazil and around the world.
