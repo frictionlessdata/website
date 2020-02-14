@@ -5,7 +5,7 @@ date: 2017-08-15
 category: pilots
 subject_context: Eduardo Rolón is the Executive Director of Causa Natura and Gabriela Rodriguez from Causa Natura/Engine Room is working on the Pescando Datos platform. Together, we explored use of data validation software in the project to improve quality of data to support fisher communities and advocacy groups.
 image: /img/blog/causanatura.png
-summary: Using goodtables to improve quality of data to support fisher communities and advocacy groups.
+description: Using goodtables to improve quality of data to support fisher communities and advocacy groups.
 ---
 
 ## Context

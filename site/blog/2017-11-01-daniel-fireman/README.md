@@ -1,7 +1,7 @@
 ---
 title: Daniel Fireman
 date: 2017-11-01
-summary: Tool Fund Grantee - Go
+description: Tool Fund Grantee - Go
 image: /img/blog/daniel-fireman-image.jpg
 github: https://github.com/danielfireman
 twitter: https://twitter.com/daniellfireman

@@ -7,7 +7,7 @@ category: case-studies
 interviewee: Waylon Flinn
 subject_context: Dataship is using Frictionless Data specifications as the basis for its easy to execute, edit and share notebooks for data analysis.
 image: /img/blog/dataship-logo.png
-summary: A way to share data and analysis, from simple charts to complex machine learning, with anyone in the world easily and for free.
+description: A way to share data and analysis, from simple charts to complex machine learning, with anyone in the world easily and for free.
 ---
 
 [Dataship](https://dataship.io/) is a way to share data and analysis, from simple charts to complex machine learning, with anyone in the world easily and for free. It allows you to create notebooks that hold and deliver your data, as well as text, images and inline scripts for doing analysis and visualization. The people you share it with can read, execute and even edit a copy of your notebook and publish the remixed version as a fork.

@@ -1,6 +1,6 @@
 ---
 title: Used and useful data
-summary: Concerned that your data is just not being used? We've got some great tips, and best practices to improve the uptake in your data use
+description: Concerned that your data is just not being used? We've got some great tips, and best practices to improve the uptake in your data use
 image: /img/blog/used.png
 tags: ["Data Package Creator", "goodtables.io", "Command-line"]
 date: 2019-05-20

@@ -5,7 +5,7 @@ interviewee: David Newbury and Dan Fowler
 category: case-studies
 image: /img/blog/cmoa-logo.png
 subject_context: In this ‘Always Already Computational - Collections as Data’ facet, Open Knowledge International’s Dan Fowler and Carnegie Museum of Arts’ (CMOA) David Newbury document the release of CMOA data on Github for public access and creative use, and use of Frictionless Data’s set of specifications in the process.
-summary: Use of Frictionless Data specifications in the release of Carnegie Museum of Arts’ Collection Data for public access & creative use
+description: Use of Frictionless Data specifications in the release of Carnegie Museum of Arts’ Collection Data for public access & creative use
 ---
 
 This blog post was [originally published as part of the Collections as Data Facets document collections](https://collectionsasdata.github.io/facet2/) on the Always Already Computational - Collections as Data website.

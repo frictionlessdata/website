@@ -2,7 +2,7 @@
 title: Stephan Max
 date: 2019-07-02
 category: grantee-profiles-2019
-summary: Tool Fund Grantee - Stephan Max
+description: Tool Fund Grantee - Stephan Max
 image: /img/blog/stephanmax.jpg
 ---
 
