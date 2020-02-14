@@ -4,6 +4,7 @@ tagline: Present data in visual form such as graphs, tables etc
 description: You want to easily visualize and interact with data.
 pain: The ecosystem is quite diverse. Generally, creating interactive and beautiful visualizations takes a lot of effort.
 context: Even for human-readable formats, people like to have the option to visualize datasets in multiple ways.
+hexagon: create visualizations
 layout: job
 ---
 
