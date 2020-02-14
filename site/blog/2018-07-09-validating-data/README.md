@@ -1,6 +1,7 @@
 ---
 title: Validating Data
 date: 2016-06-24
+tags:
 category: validating-data
 ---
 

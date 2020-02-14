@@ -1,6 +1,7 @@
 ---
 title: Publish Tabular Data as a Data Package
 date: 2016-07-21
+tags:
 category: publishing-data
 ---
 

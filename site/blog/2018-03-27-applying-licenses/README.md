@@ -1,7 +1,8 @@
 ---
 title: Applying licenses, waivers or public domain marks
-category: publishing-data
 date: 2018-03-27
+tags:
+category: publishing-data
 ---
 
 frictionlessdata.io

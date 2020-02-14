@@ -1,7 +1,8 @@
 ---
 title: CSV - Comma Separated Values
-category: general
 date: 2018-07-09
+tags:
+category: general
 ---
 
 
