@@ -1,6 +1,8 @@
 ---
 title: Data Package Pipelines
 tagline: A framework for processing data packages in pipelines of modular components.
+hexagon: 
+github: datapackage-pipelines, datapackage-pipelines-aws, datapackage-pipelines-elasticsearch, datapackage-pipelines-github, datapackage-pipelines-spss, datapackage-pipelines-ckan, datapackage-pipelines-sourcespec-registry, datapackage-pipelines-goodtables
 layout: product
 ---
  

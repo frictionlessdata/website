@@ -4,6 +4,7 @@ tagline: Get raw data from a source to your environment quickly and repeatedly.
 description: In the process of getting from data to insight, you need to download data from external sources.
 pain: Initially, you may get data using just the browser or curl. Over time, you will want to pull using a CLI or library compatible with the Data Package specification.
 context: Together with finding good datasets, it's one of the first steps of every data project.
+hexagon: pull dataset
 layout: job
 ---
 
