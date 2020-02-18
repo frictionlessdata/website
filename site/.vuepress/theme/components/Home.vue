@@ -5,15 +5,15 @@
       <main class="container relative mx-auto">
         <header class="hero h-screen flex flex-row items-center">
           <div class="container m-12">
-            <h2 class="text-5xl pb-2 text-white font-medium pl-6"> {{ $page.frontmatter.heroText }} </h2>
+            <h1 class="text-5xl pb-2 text-white font-medium pl-6"> {{ data.heroText || "Frictionless Data" }} </h1>
             <p class="description pl-6 pb-6 text-white text-2xl">
               {{ $page.frontmatter.tagline || $description || 'Welcome to Frictionless Data' }}
             </p>
             <div class="container inline pl-6">
-              <button class="button w-48 rounded-full button-hero h-16 font-medium text-xl shadow-lg">Learn more</button>
+              <button class="w-48 rounded-full button-hero h-16 font-medium text-xl shadow-lg">Learn more</button>
             </div>
             <div class="container inline pl-6">
-              <button class="button w-48 rounded-full button-hero h-16 font-medium text-xl shadow-lg">Get started</button>
+              <button class="w-48 rounded-full button-hero h-16 font-medium text-xl shadow-lg">Get started</button>
              </div>
           </div>
           <div class="container">
