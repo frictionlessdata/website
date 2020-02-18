@@ -2,7 +2,7 @@
 layout: home
 footer: Copyright © 2007-present Open Knowledge and Datopian
 heroImage: '/hero.svg'
-heroText:
+heroText: Frictionless Data
 tagline: Frictionless Data brings simplicity and grace to the data experience by providing a suite of open source tools that  help you at every step of your data journey.
 ---
 
