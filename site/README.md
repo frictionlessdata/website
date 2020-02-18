@@ -6,8 +6,6 @@ heroText: Frictionless Data
 tagline: Frictionless Data brings simplicity and grace to the data experience by providing a suite of open source tools that  help you at every step of your data journey.
 ---
 
-<!-- A suite of open tools to help you at every step of the data journey. -->
-
 <div class="container w-full mx-auto">
 
 <div class="flex flex-row flex-wrap">
