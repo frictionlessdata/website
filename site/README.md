@@ -6,7 +6,7 @@ heroText: A suite of open tools to help you at every step of the data journey.
 tagline: Frictionless Data brings simplicity and grace to the data experience by providing a suite of open source tools that  help you at every step of your data journey.
 ---
 
-<div class="container w-full mx-auto">
+<!-- <div class="container w-full mx-auto">
 
 <div class="flex flex-row flex-wrap">
   <div class="w-1/3 pt-20 mx-auto">
@@ -33,11 +33,11 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
   </div>
 </div>
 
-</div>
-
+</div> -->
+<!-- 
 <div class="banner py-32 w-full gradient-section">
   <p class="text-center text-white text-4xl font-light"> Bringing simplicity and gr ace to the messy world of data</p>
-</div>
+</div> -->
 
 <div class="container w-full mx-auto">
 
@@ -75,39 +75,39 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
 
 </div>
 
-<div class="banner py-32 w-full gradient-section">
+<!-- <div class="banner py-32 w-full gradient-section">
   <p class="text-center text-white text-4xl m-12 font-light"> Frictionless Data brings simplicity to the data experience <br> by providing a suite of tools that can help you at every step of your data journey.
 </p>
-</div>
+</div> -->
 
 <div class="banner gradient-section-lower-op">
 
 <div class="container mx-auto">
   <h2 class="text-3xl font-normal pt-12 pl-8 ">Some of Our Tooling</h2>
-  <div class="banner flex flex-row pt-12">
+  <div class="banner flex flex-row py-12">
     <div class="w-1/4 text-center mx-auto p-8">
-      <img class="w-32 mx-auto py-12" src="/img/home/data-package-icon-2.svg"></img>
-      <h2 class="text-xl font-medium">Data Package</h2>
+      <img class="w-24 mx-auto py-12" src="/img/home/data-package-icon-2.svg"></img>
+      <h2 class="text-xl pt-4 font-medium">Data Package</h2>
       <p class="text-lg font-light pt-4">Data Package is a simple container format used to describe and package a collection of data.</p>
-      <a href="www.github.com" class="links-github">GitHub <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+      <a href="www.github.com" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
     </div>
       <div class="w-1/4 mx-auto text-center p-8">
       <img class="w-24 mx-auto py-12" src="/img/home/goodtables-icon.svg"></img>
       <h2 class="text-xl pt-4 font-medium">GoodTables</h2>
       <p class="text-lg font-light pt-4">GoodTables allows you to validate your data on every change, so you catch errors before your users.</p>
-      <a href="www.github.com" class="links-github">GitHub <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+      <a href="www.github.com" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
     </div>
       <div class="w-1/4 mx-auto text-center p-8">
       <img class="w-24 mx-auto py-12" src="/img/home/datahub-icon.svg"></img>
       <h2 class="text-xl pt-4 font-medium">DataHub</h2>
       <p class="text-lg font-light pt-4">Datahub provides important, commonly-used data as high quality, easy-to-use and open data packages.</p>
-      <a href="www.github.com" class="links-github">GitHub <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+      <a href="www.github.com" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
     </div>
       <div class="w-1/4 mx-auto text-center p-8">
       <img class="w-24 mx-auto py-12" src="/img/home/dataflows-icon.svg"></img>
       <h2 class="text-xl pt-4 font-medium">DataFlows</h2>
       <p class="text-lg font-light pt-4">DataFlows is a simple, intuitive lightweight framework for building data processing flows in python.</p>
-      <a href="www.github.com" class="links-github">GitHub <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+      <a href="www.github.com" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
     </div>
   </div>
 </div>
@@ -122,7 +122,7 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
       <img src="/img/json-file-dp.png" class="shadow-xl"/>
     </div>
     <div class="w-1/2 pl-20 pt-6">
-      <h2 class="text-3xl font-light pb-4">Any dataset format,<br> compatible with <span class="highlighted"> everything </span> </h2>
+      <h2 class="text-3xl font-light pb-4">Any dataset format,<br> compatible with everything. </h2>
     </div>
   </div>
 </div>
@@ -130,7 +130,7 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
 <div class="banner pb-40 ">
   <div class="flex flex-row mx-auto text-right">
     <div class="w-1/2 pr-20">
-      <h2 class="text-3xl font-light pt-6 pb-4">Declarative <span class="highlighted">pipelines</span></h2>
+      <h2 class="text-3xl font-light pt-6 pb-4">Declarative pipelines.</h2>
     </div>
     <div class="w-1/2 pt-12">
       <img src="/img/json-file-dp.png" class="shadow-xl"/>
@@ -138,8 +138,12 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
   </div>
 </div>
 
-<div class="banner py-12">
-  <h2 class="text-3xl font-normal">Trusted by</h2>
+</div>
+
+<div class="banner gradient-section-lower-op">
+
+<div class="container mx-auto py-12">
+  <h2 class="text-3xl font-normal">Used by</h2>
   <div class="banner flex flex-row flex-wrap mx-40">
     <div class="w-1/5 mx-auto pt-12">
       <img class="w-32 mx-auto py-16" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png"></img>
@@ -160,6 +164,7 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
 </div>
 
 </div>
+
 
 <footer class="banner fd-footer py-16"> 
   <div class="banner flex flex-row">
@@ -222,7 +227,7 @@ export default {
 
 .gradient-section-lower-op {
   background: rgb(148,93,214);
-  background: linear-gradient(223deg, rgba(148,93,214,0.2015406846332283) 0%, rgba(30,162,255,0.2) 100%);
+  background: linear-gradient(223deg, rgba(148,93,214,0.015406846332283) 0%, rgba(30,162,255,0.1) 100%);
 }
 
 .forwho {

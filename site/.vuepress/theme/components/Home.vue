@@ -1,21 +1,22 @@
 <template>
   <div>
-    <div class="banner image-section">
+    <div class="banner hero-section">
       <div class="banner">
       <main class="container relative mx-auto">
-        <header class="hero h-screen flex flex-row items-center">
-          <div class="container m-12">
-            <h1 class="text-5xl pb-2 text-white font-medium pl-6" v-if="data.heroText !=='null'"> {{ data.heroText || 'Frictionless Data' }} </h1>
-            <p class="description pl-6 pb-6 text-white text-2xl">
+        <header class="hero flex flex-row items-center">
+          <div class="container pt-32 pb-16 pl-6">
+            <h1 class="text-5xl pb-2 text-white font-medium pt-" v-if="data.heroText !=='null'"> {{ data.heroText || 'Frictionless Data' }} </h1>
+            <p class="description pb-6 text-white text-2xl">
               {{ $page.frontmatter.tagline || $description || 'Welcome to Frictionless Data' }}
             </p>
-            <div class="container inline pl-6">
+            <div class="container inline">
               <button class="w-48 rounded-full button-hero h-16 font-medium text-xl shadow-lg">Learn more</button>
             </div>
-            <div class="container inline pl-6">
-              <button class="w-48 rounded-full button-hero h-16 font-medium text-xl shadow-lg">Get started</button>
+            <div class="container pl-4 inline">
+              <button class="w-48 rounded-full button-hero2 h-16 font-medium text-xl shadow-lg">Get started</button>
              </div>
           </div>
+         
           <div class="container">
             <!-- <img class="pl-48"
               v-if="data.heroImage"
@@ -23,7 +24,37 @@
               :alt="data.heroAlt || 'hero'"
             > -->
           </div>
+          
         </header>
+        
+        <div class="banner pl-6 pr-12">
+          <hr>
+        </div>
+          <div class="flex flex-row flex-wrap">
+            <div class="w-1/3">
+              <div class="pt-20 text-left p-6">
+                <!-- <img class="h-24 pb-4" src="/img/home/dot-light-blue.svg"></img> -->
+                <h1 class="text-2xl font-normal text-white">Approachable</h1>
+                <p class="text-xl text-white font-light pb-12">We keep things as simple as possible. Read the guide and start using and building  in no time!</p>
+              </div>
+            </div>
+            <div class="w-1/3">
+              <div class="pt-20 text-left p-6">
+                <!-- <img class="h-24 pb-4" src="/img/home/dot-dark-blue.svg"></img> -->
+                <h1 class="text-2xl font-normal text-white">Versatile</h1>
+                <p class="text-xl text-white font-light pb-12">An incrementally adoptable ecosystem that scales between a library and a full-featured framework and which works whether you are wrangling an Excel file or working with Terabytes.
+                </p>
+              </div>
+            </div>
+            <div class="w-1/3">
+              <div class="pt-20 text-left p-6">
+                <!-- <img class="h-24 pb-4" src="/img/home/dot-violet.svg"></img> -->
+                <h1 class="text-2xl font-normal text-white">Progressive</h1>
+                <p class="text-xl text-white font-light pb-12">We work with your existing tooling and data, enhancing and adding to it. – not replacing it!</p>
+              </div>
+            </div>
+          </div>
+
       </main>
       </div>
     </div>
@@ -58,8 +89,15 @@ export default {
 
 .button-hero {
   background-color: white;
-    color: #1A98FF;
-    border-style: solid;
+  color: #1A98FF;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.button-hero2 {
+  background-color: #1A98FF;
+  color: white;
+  border-style: solid;
   cursor: pointer;
 }
 
