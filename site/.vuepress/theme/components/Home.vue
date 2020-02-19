@@ -4,7 +4,7 @@
       <div class="banner">
       <main class="container relative mx-auto">
         <header class="hero flex flex-row items-center">
-          <div class="container pt-32 pb-16 pl-6">
+          <div class="container w-2/3 pt-32 pb-16 pl-8">
             <h1 class="text-5xl pb-2 text-white font-medium pt-" v-if="data.heroText !=='null'"> {{ data.heroText || 'Frictionless Data' }} </h1>
             <p class="description pb-6 text-white text-2xl">
               {{ $page.frontmatter.tagline || $description || 'Welcome to Frictionless Data' }}
@@ -17,7 +17,7 @@
              </div>
           </div>
          
-          <div class="container">
+          <div class="container w-1/3">
             <!-- <img class="pl-48"
               v-if="data.heroImage"
               :src="$withBase(data.heroImage)"
@@ -27,19 +27,19 @@
           
         </header>
         
-        <div class="banner pl-6 pr-12">
+        <div class="banner pl-8 pr-16">
           <hr>
         </div>
           <div class="flex flex-row flex-wrap">
             <div class="w-1/3">
-              <div class="pt-20 text-left p-6">
+              <div class="pt-20 text-left p-8">
                 <!-- <img class="h-24 pb-4" src="/img/home/dot-light-blue.svg"></img> -->
                 <h1 class="text-2xl font-normal text-white">Approachable</h1>
                 <p class="text-xl text-white font-light pb-12">We keep things as simple as possible. Read the guide and start using and building  in no time!</p>
               </div>
             </div>
             <div class="w-1/3">
-              <div class="pt-20 text-left p-6">
+              <div class="pt-20 text-left p-8">
                 <!-- <img class="h-24 pb-4" src="/img/home/dot-dark-blue.svg"></img> -->
                 <h1 class="text-2xl font-normal text-white">Versatile</h1>
                 <p class="text-xl text-white font-light pb-12">An incrementally adoptable ecosystem that scales between a library and a full-featured framework and which works whether you are wrangling an Excel file or working with Terabytes.
@@ -47,7 +47,7 @@
               </div>
             </div>
             <div class="w-1/3">
-              <div class="pt-20 text-left p-6">
+              <div class="pt-20 text-left p-8">
                 <!-- <img class="h-24 pb-4" src="/img/home/dot-violet.svg"></img> -->
                 <h1 class="text-2xl font-normal text-white">Progressive</h1>
                 <p class="text-xl text-white font-light pb-12">We work with your existing tooling and data, enhancing and adding to it. – not replacing it!</p>
