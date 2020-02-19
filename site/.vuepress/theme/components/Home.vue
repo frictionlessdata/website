@@ -95,7 +95,7 @@ export default {
 }
 
 .button-hero2 {
-  background-color: #1A98FF;
+  background-color: #8665db;
   color: white;
   border-style: solid;
   cursor: pointer;
@@ -109,7 +109,7 @@ export default {
 
 .hero-section {
   background: rgb(148,93,214);
-  background: linear-gradient(223deg, rgba(148,93,214,0.8015406846332283) 0%, rgba(30,162,255,0.8) 100%);
+  background: linear-gradient(223deg, rgba(148,93,214,0.8) 0%, rgba(30,162,255,1.0) 60%);
 
 }
 
