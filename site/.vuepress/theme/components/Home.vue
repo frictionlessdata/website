@@ -1,11 +1,11 @@
 <template>
   <div>
-    <div class="banner hero-section bg-yellow-400">
+    <div class="banner image-section">
       <div class="banner">
       <main class="container relative mx-auto">
         <header class="hero h-screen flex flex-row items-center">
           <div class="container m-12">
-            <h1 class="text-5xl pb-2 text-white font-medium pl-6" v-if="data.heroText !=='null'"> {{ data.heroText || "A suite of open tools to help you at every step of the data journey." }} </h1>
+            <h1 class="text-5xl pb-2 text-white font-medium pl-6" v-if="data.heroText !=='null'"> {{ data.heroText || 'Frictionless Data' }} </h1>
             <p class="description pl-6 pb-6 text-white text-2xl">
               {{ $page.frontmatter.tagline || $description || 'Welcome to Frictionless Data' }}
             </p>
@@ -58,16 +58,15 @@ export default {
 
 .button-hero {
   background-color: white;
-  color: #1A98FF;
-  border-style: solid;
+    color: #1A98FF;
+    border-style: solid;
   cursor: pointer;
 }
 
 .image-section {
-  background-image: url("/river-flowing.jpg");
+  background-image: url("/img/home/hero-background-lower-op.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 0.1;
 }
 
 .hero-section {
