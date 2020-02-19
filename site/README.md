@@ -44,22 +44,22 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
 <div class="flex flex-row flex-wrap">
   <div class="w-1/3 py-20 mx-auto">
     <div class="text-gray-800 pt-20 text-center p-6">
-      <img class="mx-auto h-56 py-12" src="/img/home/for-researchers.svg"></img>
-      <h2 class="text-3xl font-normal forwho">For Researchers</h2>
+      <img class="mx-auto h-48 py-12" src="/img/home/for-researchers.svg"></img>
+      <h2 class="text-2xl font-normal forwho">For Researchers</h2>
       <p class="text-gray-800 text-xl font-light pb-12">Easily create reproducible<br> research</p>
     </div>
   </div>
   <div class="w-1/3 mx-auto py-20">
     <div class="text-gray-800 pt-20 text-center p-6">
-      <img class="mx-auto h-56 py-12" src="/img/home/for-data-scientists.svg"></img>
-      <h2 class="text-3xl font-normal forwho">For Data Scientists</h2>
+      <img class="mx-auto h-48 py-12" src="/img/home/for-data-scientists.svg"></img>
+      <h2 class="text-2xl font-normal forwho">For Data Scientists</h2>
       <p class="text-gray-800 text-xl font-light pb-12">Create pipelines without<br> effort</p>
     </div>
   </div>
   <div class="w-1/3 mx-auto py-20">
     <div class="text-gray-800 pt-20 text-center p-6">
-      <img class="mx-auto py-12 h-56" src="/img/home/for-data-engineers.svg"></img>
-      <h2 class="text-3xl font-normal forwho">For Data Engineers</h2>
+      <img class="mx-auto py-12 h-48" src="/img/home/for-data-engineers.svg"></img>
+      <h2 class="text-2xl font-normal forwho">For Data Engineers</h2>
       <p class="text-gray-800 text-xl font-light pb-12">Standardize data<br> platforms</p>
     </div>
   </div>
@@ -82,32 +82,32 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
 
 <div class="banner gradient-section-lower-op">
 
-<div class="container mx-auto">
-  <h2 class="text-3xl font-normal pt-12 pl-8 ">Some of Our Tooling</h2>
-  <div class="banner flex flex-row py-12">
-    <div class="w-1/4 text-center mx-auto p-8">
+<div class="container mx-auto py-24">
+  <h2 class="text-3xl font-normal">Some of Our Tooling</h2>
+  <div class="container flex flex-row py-12">
+    <div class="w-1/4 text-center mx-auto">
       <img class="w-24 mx-auto py-12" src="/img/home/data-package-icon-2.svg"></img>
       <h2 class="text-xl pt-4 font-medium">Data Package</h2>
       <p class="text-lg font-light pt-4">Data Package is a simple container format used to describe and package a collection of data.</p>
-      <a href="www.github.com" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+      <a href="https://github.com/frictionlessdata/datapackage-py" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
     </div>
-      <div class="w-1/4 mx-auto text-center p-8">
+      <div class="w-1/4 mx-auto text-center pl-8">
       <img class="w-24 mx-auto py-12" src="/img/home/goodtables-icon.svg"></img>
       <h2 class="text-xl pt-4 font-medium">GoodTables</h2>
       <p class="text-lg font-light pt-4">GoodTables allows you to validate your data on every change, so you catch errors before your users.</p>
-      <a href="www.github.com" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+      <a href="https://github.com/frictionlessdata/goodtables-py" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
     </div>
-      <div class="w-1/4 mx-auto text-center p-8">
+      <div class="w-1/4 mx-auto text-center pl-8">
       <img class="w-24 mx-auto py-12" src="/img/home/datahub-icon.svg"></img>
       <h2 class="text-xl pt-4 font-medium">DataHub</h2>
       <p class="text-lg font-light pt-4">Datahub provides important, commonly-used data as high quality, easy-to-use and open data packages.</p>
-      <a href="www.github.com" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+      <a href="https://datahub.io/" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
     </div>
-      <div class="w-1/4 mx-auto text-center p-8">
+      <div class="w-1/4 mx-auto text-center pl-8">
       <img class="w-24 mx-auto py-12" src="/img/home/dataflows-icon.svg"></img>
       <h2 class="text-xl pt-4 font-medium">DataFlows</h2>
       <p class="text-lg font-light pt-4">DataFlows is a simple, intuitive lightweight framework for building data processing flows in python.</p>
-      <a href="www.github.com" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+      <a href="https://github.com/datahq/dataflows" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
     </div>
   </div>
 </div>
@@ -144,21 +144,18 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
 
 <div class="container mx-auto py-12">
   <h2 class="text-3xl font-normal">Used by</h2>
-  <div class="banner flex flex-row flex-wrap mx-40">
-    <div class="w-1/5 mx-auto pt-12">
-      <img class="w-32 mx-auto py-16" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png"></img>
+  <div class="banner flex content-center flex-wrap mx-40">
+    <div class="w-2/12 mx-auto self-center">
+      <img class="w-32" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png"></img>
     </div>
-    <div class="w-1/5 mx-auto pt-12">
-      <img class="w-64 mx-auto py-16" src="https://numfocus.org/wp-content/uploads/2016/07/pandas-logo-300.png"></img>
+    <div class="w-2/12 mx-auto self-center">
+      <img class="w-64" src="https://numfocus.org/wp-content/uploads/2016/07/pandas-logo-300.png"></img>
     </div>
-    <div class="w-1/5 mx-auto pt-12">
-      <img class="w-32 mx-auto py-16" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png"></img>
+    <div class="w-2/12 mx-auto self-center">
+      <img class="w-32" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png"></img>
     </div>
-    <div class="w-1/5 mx-auto pt-12">
-      <img class="w-64 mx-auto py-16" src="https://numfocus.org/wp-content/uploads/2016/07/pandas-logo-300.png"></img>
-    </div>
-    <div class="w-1/5 mx-auto pt-12">
-      <img class="w-32 mx-auto py-16" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png"></img>
+    <div class="w-2/12 mx-auto self-center">
+      <img class="w-64" src="https://numfocus.org/wp-content/uploads/2016/07/pandas-logo-300.png"></img>
     </div>
   </div>
 </div>
@@ -172,26 +169,26 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
       <img class="" src="/img/home/logo-white-thicker.svg"></img>
     </div>
     <div class="container flex flex-row justify-end pr-20 pl-64">
-      <div class="text-center px-20">
+      <div class="text-left px-20">
         <h2 class="text-xl font-normal text-white">Supported by</h2>
         <div><img class="w-32 mx-auto py-8" src="/img/home/alfred.svg"></img></div>
         <div><img class="w-32 mx-auto" src="/img/home/open-data-institute.svg"></img></div>
       </div>
-      <div class="text-center px-20">
+      <div class="text-left px-20">
         <h2 class="text-xl text-white font-normal">About</h2>
         <div class="pt-6"><a href="www.github.com" class="text-white font-light text-lg">About</a></div>
         <div class="pt-6"><a href="www.github.com" class="text-white font-light text-lg">Contact</a></div>
         <div class="pt-6"><a href="www.github.com" class="text-white font-light text-lg">Privacy Policy</a></div>
         <div class="pt-6"><a href="www.github.com" class="text-white font-light text-lg">Terms of Use</a></div>
       </div>
-      <div class="text-center px-20">
+      <div class="text-left px-20">
         <h2 class="text-xl text-white font-normal">Help</h2>
         <div class="pt-6"><a href="www.github.com" class="text-white font-light text-lg">Support</a></div>
         <div class="pt-6"><a href="www.github.com" class="text-white font-light text-lg">Get started</a></div>
         <div class="pt-6"><a href="www.github.com" class="text-white font-light text-lg">Community</a></div>
         <div class="pt-6"><a href="www.github.com" class="text-white font-light text-lg">Documentation</a></div>
       </div>
-      <div class="text-center px-20">
+      <div class="text-left px-20">
         <h2 class="text-xl text-white font-normal">Social</h2>
         <div class="pt-4">
           <img class="w-8 inline-block align-middle" src="/img/home/github.svg"></img>
