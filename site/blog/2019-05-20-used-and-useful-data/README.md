@@ -35,47 +35,31 @@ Our [Gross Domestic Product dataset for all countries (1960 - 2014)](https://git
 
 !!! Obtain a link to the raw CSV file by clicking on the Raw button at the top right corner of the GitHub file preview page, as shown in figure 1 below. The resulting hyperlink looks like https://raw.githubusercontent.com/…
 
-<figure>
-  <img src="figure-1.png" alt="Above, raw button highlighted in red">
-  <figcaption>
-    Figure 1: Above, raw button highlighted in red.
-  </figcaption>
-</figure>
+![Above, raw button highlighted in red](./figure-1.png)
+*Figure 1: Above, raw button highlighted in red.*
 
 Paste your hyperlink in the *Path* section and click on the *Load* button. Each column in your table translates to a *field*. You should be prompted to add all fields identified in your data resource, as in Figure 2 below. Click on the prompt to load the fields.
 
-<figure>
-  <img src="figure-2.png" alt="annotated in red, a prompt to add all fields inferred from your data resource">
-  <figcaption>
-    Figure 2: annotated in red, a prompt to add all fields inferred from your data resource.
-  </figcaption>
-</figure>
+![annotated in red, a prompt to add all fields inferred from your data resource](./figure-2.png)
+*Figure 2: annotated in red, a prompt to add all fields inferred from your data resource.*
 
 The page that follows looks like Figure 3 below. Each column from the GDP dataset has been mapped to a *field*. The data type for each column has been inferred correctly, and we can preview data under each field by hovering over the field name. It is also possible to edit all sections of our data resource’s fields as we can see below.
 
-<figure>
-  <img src="figure-3.png" alt="all fields inferred from your data resource">
-  <figcaption>
-    Figure 3: all fields inferred from your data resource.
-  </figcaption>
-</figure>
+![all fields inferred from your data resource](./figure-3.png)
+*Figure 3: all fields inferred from your data resource.*
 
 You can now edit data types and formats as necessary, and optionally add titles and descriptive information to your fields. For example, the data type for our {Year} field should be ***year*** and not ***integer***. Our {Value} column has numeric information with decimal places.
 
 By definition, values under the ***integer*** data type are whole numbers. The ***number*** data type is more appropriate for the {Value} column. When in doubt about what data type to use, consult the [Table Schema data types cheat sheet](/specs/table-schema/#types-and-formats).
 
-Click on the ![](settings.png) icon to pick a suitable profile for your data resource. [Here’s more information about Frictionless Data profiles](/specs/profiles/).
+Click on the ![](./settings.png) icon to pick a suitable profile for your data resource. [Here’s more information about Frictionless Data profiles](/specs/profiles/).
 
 If your dataset has other data resources, add them by scrolling to the bottom of the page, clicking on Add Resource, and repeating the same process as we just did.
 
 If your dataset has other data resources, add them by scrolling to the bottom of the page, clicking on **Add Resource**, and repeating the same process as we just did.
 
-<figure>
-  <img src="figure-4.png" alt="Prompt to add more data resources">
-  <figcaption>
-    Figure 4: Prompt to add more data resources.
-  </figcaption>
-</figure>
+![Prompt to add more data resources](./figure-4.png)
+*Figure 4: Prompt to add more data resources.*
 
 
 ----
@@ -85,9 +69,7 @@ If your dataset has other data resources, add them by scrolling to the bottom of
 
 In the previous section, we described metadata for each of our datasets, but we're still missing metadata for our collection of datasets. You can add it via the **Metadata** section on the left side bar, describing things like the dataset name, description, author, license, etc.
 
-<figure>
-  <img src="figure-5.png" alt="Add Data Package Metadata ">
-</figure>
+![Add Data Package Metadata](./figure-5.png)
 
 The **Profile** section under metadata allows us to specify what kind of data collection we are packaging.
 * *Data Package*
@@ -106,15 +88,11 @@ Now that we have created a Data Package, we can **Validate** or **Download** it.
 
 The **Validate** button allows us to confirm whether we chose the correct Profile for our Data Package. The two possible outcomes at this stage are:
 
-<figure>
-  <img src="figure-6.png" alt="Data Package is Invalid">
-</figure>
+![Data Package is Invalid](./figure-6.png)
 
 This message appears when there is some validation error like if we miss some required attribute (e.g. the data package name), or have picked an incorrect profile (e.g. Tabular Data Package with geographical data).. Review the metadata and profiles to find the mistake and try validating again.
 
-<figure>
-  <img src="figure-7.png" alt="Data Package is Valid">
-</figure>
+![Data Package is Valid](./figure-7.png)
 
 All good! This message means that your data package is valid, and we can download it.
 
@@ -178,13 +156,8 @@ To automatically validate tabular data on CKAN, enable the [ckanext-validation](
 * Adds a badge next to each dataset showing the status of their validation (valid or invalid), and
 * allows users to access the validation report, making it possible for errors to be identified and fixed.
 
-<figure>
-  <img src="figure-8.png" alt="annotated in red, automated validation checks on datasets in CKAN">
-  <figcaption>
-    Figure 8: annotated in red, automated validation checks on datasets in CKAN.
-  </figcaption>
-</figure>
-
+![annotated in red, automated validation checks on datasets in CKAN](./figure-8.png)
+*Figure 8: annotated in red, automated validation checks on datasets in CKAN.*
 
 The installation and usage instructions for [ckanext-validation](https://github.com/frictionlessdata/ckanext-validation) extension are available on [Github](https://github.com/frictionlessdata/ckanext-validation).
 

@@ -40,7 +40,7 @@ Here are some high-level statistics for the process:
 
 We analyzed 3910 articles, 1085 of which had data files. The most common format was Microsoft Excel Open XML Format Spreadsheet (xlsx), with 89% of all 4318 files being published on this format. Older versions of Excel and CSV files made up the rest.
 
-![datasets analysed by eLife image](elife1.png) *A summary of the eLife research articles analysed as part of the Frictionless Data pilot work*
+![datasets analysed by eLife image](./elife1.png) *A summary of the eLife research articles analysed as part of the Frictionless Data pilot work*
 
 In terms of  validation, more than 75% of the articles analyzed contained at least one invalid file. Of course valid data is an arbitrary term based on the tests that are set within goodtables and results need to be reviewed to adjust  the checks performed. For instance errors raised by blank rows are really common on Excel files as people add a title on the first row, leaving an empty row before the data, or empty rows are detected at the end of the sheet.
 
@@ -61,7 +61,7 @@ Other errors raised that might actually point to genuine errors included duplica
 ### How Effective Was It
 Following analysis of a sample of the results, the vast majority of the errors appear to be due to the data being presented in nice-looking tables, using formatting to make particular elements more visually clear, as opposed to a machine-readable format:
 
-![example tables image shared by Naomi](elife3.png) *Data from Maddox et al. was shared in a machine-readable format (top), and adapted here to demonstrate how such data are often shared in a format that looks nice to the human reader (bottom).
+![example tables image shared by Naomi](./elife3.png) *Data from Maddox et al. was shared in a machine-readable format (top), and adapted here to demonstrate how such data are often shared in a format that looks nice to the human reader (bottom).
 Source: Source data
 The data file is presented as is and adapted from Maddox et al. eLife 2015;4:e04995 under the Creative Commons Attribution License (CC BY 4.0).*
 

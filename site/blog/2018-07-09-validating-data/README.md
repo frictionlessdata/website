@@ -26,23 +26,23 @@ its *structure*, and, optionally, its adherence to a specified *schema*. Where t
 !! goodtables will give quick and simple feedback on where your tabular
 data may not yet be quite perfect.
 
-![goodtables screenshot](goodtables-screenshot.png)
+![goodtables screenshot](./goodtables-screenshot.png)
 
 To get started with one-off validation of your tabular datasets, use [try.goodtables.io](http://try.goodtables.io). All you need to do is upload or provide a link to a CSV
 file and hit the "Validate" button.
 
-![goodtables Provide URL](goodtables-provide-data.png)
+![goodtables Provide URL](./goodtables-provide-data.png)
 
-![goodtables Validate button](goodtables-validate.png)
+![goodtables Validate button](./goodtables-validate.png)
 
 If your data is structurally valid, you should receive the following
 result:
 
-![goodtables Valid](goodtables-valid.png)
+![goodtables Valid](./goodtables-valid.png)
 
 If not...
 
-![goodtables Invalid](goodtables-invalid.png)
+![goodtables Invalid](./goodtables-invalid.png)
 
 The report should highlight the structural issues found in your data
 for correction.  For instance, a poorly structured tabular dataset may
@@ -52,7 +52,7 @@ compared to of data rows with an equal amount of columns.
 You can also provide a schema for your tabular data defined using JSON
 Table Schema.
 
-![goodtables Provide Schema](goodtables-provide-schema.png)
+![goodtables Provide Schema](./goodtables-provide-schema.png)
 
 Briefly, the format allows users to specify not only
 the types of information within each column in a tabular dataset, but
@@ -96,7 +96,7 @@ report = validate('data.csv', schema='schema.json', order_fields=True)
 
 In a bid to streamline the process of data validation and ensure seamless integration is possible in different publishing workflows, we have set up a continuous data validation hosted service that builds on top of Frictionless Data libraries. goodtables.io provides support for different backends. At this time, users can use it to check any datasets hosted on GitHub and Amazon S3 buckets, automatically running validation against data files every time they are updated, and providing a user friendly report of any issues found.
 
-![Data Valid](goodtables-continuous-validation.png)
+![Data Valid](./goodtables-continuous-validation.png)
 
 Start your continuous data validation here: <https://goodtables.io>
 

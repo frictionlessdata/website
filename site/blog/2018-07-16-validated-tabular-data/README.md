@@ -50,12 +50,8 @@ In this section we will illustrate how to check tabular data for structural erro
 
 Copy and paste the file's URL to the **{Source}** input. When you click on the **{Validate}** button, [try.goodtables.io](https://try.goodtables.io/) presents an exhaustive list of structural errors in your dataset.
 
-<figure>
-  <img src="figure-1.png" alt="Add dataset link in the Source field, or select the Upload file option">
-  <figcaption>
-    Figure 1: Add dataset link in the Source field, or select the Upload file option.
-  </figcaption>
-</figure>
+![Add dataset link in the Source field, or select the Upload file option](./figure-1.png)
+*Figure 1: Add dataset link in the Source field, or select the Upload file option.*
 
 If needed, you can disable two types of validation checks:
 
@@ -67,21 +63,13 @@ If needed, you can disable two types of validation checks:
 
  We will leave all boxes unchecked for our example. On validate, we receive a list of 12 errors as we can see in figure 7 below.
 
- <figure>
-   <img src="figure-2.png" alt="dataset errors outlined on try.goodtables.io">
-   <figcaption>
-     Figure 2: dataset errors outlined on try.goodtables.io.
-   </figcaption>
- </figure>
+![dataset errors outlined on try.goodtables.io](./figure-2.png)
+*Figure 2: dataset errors outlined on try.goodtables.io.*
 
 [try.goodtables.io](https://try.goodtables.io) points us to specific cells containing errors so they can be fixed easily. We can use this list as a guide to fix all errors in our data manually, and run a second validation test to confirm that all issues are resolved. If there no validations could be found, the ensuing message will be as in figure 8 below:
 
-<figure>
-  <img src="figure-3.png" alt="valid data message on goodtables.io">
-  <figcaption>
-    Figure 3: valid data message on goodtables.io.
-  </figcaption>
-</figure>
+![valid data message on goodtables.io](./figure-3.png)
+*Figure 3: valid data message on goodtables.io.*
 
 Improving data quality is an iterative process that should involve data publishers and maintainers. Tools such as [try.goodtables.io](https://try.goodtables.io) allow you to focus on complex errors like if the presented data is correct, instead of wasting time with simple (but very common) errors like incorrect date formats.
 
@@ -108,23 +96,15 @@ For this section, you will need:
 
 Once Python is set up, open your **Terminal** and install goodtables using the package manager, PIP. The command `pip install goodtables`.
 
-<figure>
-  <img src="figure-4.gif" alt="installing goodtables command-line tool with pip in Terminal">
-  <figcaption>
-    Figure 4: installing goodtables command-line tool with pip in Terminal.
-  </figcaption>
-</figure>
+![installing goodtables command-line tool with pip in Terminal](./figure-4.gif)
+*Figure 4: installing goodtables command-line tool with pip in Terminal.*
 
 To validate a data file, type goodtables followed by the path to your file i.e. `goodtables path/to/file.csv`. You can pass multiple file paths one after the other, or even the path to a *datapackage.json* file.
 
 For our first example, we will download and check [this simple location CSV data file](https://github.com/frictionlessdata/datapackage-py/blob/master/data/data.csv) for errors. In the second instance, we will validate this [Department of Data Expenses dataset, that contains errors](https://raw.githubusercontent.com/frictionlessdata/goodtables-py/bc6470a970aacf65f20a3ddb7f71eb05a2a31c70/data/invalid-on-structure.csv).
 
-<figure>
-  <img src="figure-5.gif" alt="Validating data files using goodtables in Terminal">
-  <figcaption>
-    Figure 5: Validating data files using goodtables in Terminal.
-  </figcaption>
-</figure>
+![Validating data files using goodtables in Terminal](./figure-5.gif)
+*Figure 5: Validating data files using goodtables in Terminal.*
 
 You can see the list of options by running `goodtables --help`. The full documentation, including the list of validation checks that can be run, is available [on the goodtables-py repository on GitHub](https://github.com/frictionlessdata/goodtables-py).
 
