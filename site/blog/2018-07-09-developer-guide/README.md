@@ -31,7 +31,8 @@ This entity diagram gives an overview of how the main different objects fit toge
 
 This guide will focus on [Tabular Data Packages][tdp] as that is the most commonly used form of Data Packages and is suited to most tools.
 
-![overview of data packages and tabular data packages](overview-of-data-packages.png)
+![overview of data packages and tabular data packages](./overview-of-data-packages.png)
+*overview of data packages and tabular data packages*
 
 This guide will assume you already have some high-level familiarity with the [Data Package family of specifications][dp-main]. Please a take a few minutes to take a look at the [overview][dp-main] if you are not yet familiar with those specs.
 
@@ -41,7 +42,8 @@ Here's a diagram that illustrates some of the core components of a full Data Pac
 
 The *italicised items* are there to indicate that this functionality is less important and is often not included in implementations.
 
-![core components of a full Data Package implementation](data-package-core-components.png)
+![core components of a full Data Package implementation](./data-package-core-components.png)
+*core components of a full Data Package implementation*
 
 ### General Introduction
 
@@ -181,7 +183,8 @@ Additional functionality such as TS and TS integration:
 
 Here's an overview of the Python libraries available and how they fit together:
 
-![how the different tableschema libraries in python fit together](tableschema-python.png)
+![how the different tableschema libraries in python fit together](./tableschema-python.png)
+*how the different tableschema libraries in python fit together*
 
 ### Javascript
 

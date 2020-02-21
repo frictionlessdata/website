@@ -17,7 +17,7 @@ description: Investigating the applicability of the Data Package concept to faci
 Stephen Eglen was looking to investigate the applicability of the Data Package concept to facilitate data reuse in the field of Computational Neuroscience. The following figure describes the kind of data he is collecting.  He was eventually seeking to get around 100–160 fields like this.
 Each circle is a cell drawn approximately to scale. The units of measurement are microns (micrometers).
 
-![ADBio](camimage1.png)
+![ADBio](./camimage1.png)
 
 The basic data are quite simple: two columns of numbers that describes the center of each circle where each circle represents a
 [retinal ganglion cell](https://en.wikipedia.org/wiki/Retinal_ganglion_cell).  The metadata that adds context to this data are as
