@@ -193,7 +193,7 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
         <div class="pt-4">
           <img class="w-8 inline-block align-middle" src="/img/home/github.svg"></img>
           <a href="https://github.com/frictionlessdata/" class="text-white inline pl-2 font-light text-lg">GitHub</a>
-        </div>
+        </div>  
         <div class="pt-6">
           <img class="w-8 inline-block align-middle" src="/img/home/twitter.svg"></img>
           <a href="https://twitter.com/hashtag/frictionlessdata" class="text-white pl-2 inline font-light text-lg">Twitter</a>
