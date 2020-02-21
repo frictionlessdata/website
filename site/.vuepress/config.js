@@ -23,6 +23,8 @@ module.exports = {
     logo: "/img/frictionless-data-blue-logo-text.png",
     repo: "https://github.com/frictionlessdata",
     repoLabel: "GitHub",
+    docsRepo: "https://github.com/frictionlessdata/website-v2",
+    docsDir: "site",
     // defaults to false, set to true to enable
     editLinks: true,
     sidebar: 'auto',
