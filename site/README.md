@@ -177,16 +177,16 @@ tagline: Frictionless Data brings simplicity and grace to the data experience by
       <div class="w-1/4 text-left pr-20">
         <h2 class="text-xl text-white font-normal">About</h2>
         <div class="pt-6"><a href="/about/" class="text-white font-light text-lg">About</a></div>
-        <div class="pt-6"><a href="/contact/" class="text-white font-light text-lg">Contact</a></div>
-        <div class="pt-6"><a href="/privacy-policy/" class="text-white font-light text-lg">Privacy Policy</a></div>
-        <div class="pt-6"><a href="/terms-of-use/" class="text-white font-light text-lg">Terms of Use</a></div>
+        <div class="pt-6"><a href="/team/" class="text-white font-light text-lg">Contact</a></div>
+        <div class="pt-6"><a href="https://okfn.org/privacy-policy/" class="text-white font-light text-lg">Privacy Policy</a></div>
+        <div class="pt-6"><a href="https://okfn.org/terms-of-use/" class="text-white font-light text-lg">Terms of Use</a></div>
       </div>
       <div class="w-1/4 text-left pr-20">
         <h2 class="text-xl text-white font-normal">Help</h2>
         <div class="pt-6"><a href="/contribute/" class="text-white font-light text-lg">Support</a></div>
         <div class="pt-6"><a href="/home/" class="text-white font-light text-lg">Get started</a></div>
         <div class="pt-6"><a href="/team/" class="text-white font-light text-lg">Community</a></div>
-        <div class="pt-6"><a href="/documentation/" class="text-white font-light text-lg">Documentation</a></div>
+        <!-- <div class="pt-6"><a href="/documentation/" class="text-white font-light text-lg">Documentation</a></div> -->
       </div>
       <div class="w-1/4 text-left pr-20">
         <h2 class="text-xl text-white font-normal">Social</h2>
