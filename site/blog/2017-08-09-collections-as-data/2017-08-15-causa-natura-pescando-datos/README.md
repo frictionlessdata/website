@@ -37,15 +37,15 @@ On top of that, Open Knowledge International has developed goodtables.io, a web 
 
 Let’s see how goodtables.io has helped to identify source and structural errors in the  Causa Natura pilot dataset:
 
-![ADBio](pescandodatos1.png)
+![ADBio](./pescandodatos1.png)
 
 After we’ve signed in, we synchronize our GitHub repositories and activate the repository we want to validate (https://github.com/frictionlessdata/pilot-causanatura):
 
-![ADBio](pescandodatos2.png)
+![ADBio](./pescandodatos2.png)
 
 Once the repository is activated, every time there is an update on the data hosted on GitHub, the service will generate a validation report. This is how one of these reports looks like:
 
-![ADBio](pescandodatos3.png)
+![ADBio](./pescandodatos3.png)
 
 Here, we see that there are 59 valid tables, but the report has  identified source and structural errors in 41 of the other tables hosted on the repository, including:
 
@@ -58,15 +58,15 @@ The full list of checks exercised by goodtables.io can be found in the [Data Qua
 
 After identifying errors we went back do a manual cleanup of the data. As we mentioned, there is no need to run goodtables.io validation manually - it happens on any GitHub push for all activated repositories:
 
-![ADBio](pescandodatos4.png)
+![ADBio](./pescandodatos4.png)
 
 If we need to customize a validation process we can put a goodtables.yml configuration file on the repository root, allowing us to tweak settings like the actual checks to perform, limit of rows to check, etc:
 
-![ADBio](pescandodatos5.png)
+![ADBio](./pescandodatos5.png)
 
 And instant feedback is available via GitHub commit statuses and a goodtables.io badge that can be included in the README file:
 
-![ADBio](pescandodatos6.png)
+![ADBio](./pescandodatos6.png)
 
 ## Review
 

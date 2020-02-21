@@ -209,9 +209,9 @@ table.save('data', storage='bigquery', service=service, project=project, dataset
 If everything is in place, you should now be able to inspect your
 dataset on BigQuery.
 
-![BigQuery Schema](bigquery-schema.png)
+![BigQuery Schema](./bigquery-schema.png)
 
-![BigQuery Preview](bigquery-preview.png)
+![BigQuery Preview](./bigquery-preview.png)
 
 ## Loading into Amazon RedShift
 
@@ -225,7 +225,7 @@ SQLAlchemy.
 is optional as the `postgres://` dialect is sufficient to load your
 table into AWS RedShift.
 
-![AWS RedShift](aws-redshift-cluster-endpoint.png)
+![AWS RedShift](./aws-redshift-cluster-endpoint.png)
 
 ```python
 # create the database connection (using SQLAlchemy)

@@ -26,7 +26,8 @@ As we can see, there are some numeric fields, both integers (atomic number) and 
 
 The easiest way to create a data package is using the [Data Package Creator][dp:creator]. It provides a graphical interface to describe the data package's metadata, add resources, and define the schema for tabular resources. This is what you should see when you first open it:
 
-![Data Package Creator](dp-creator.png)
+![Data Package Creator](./dp-creator.png)
+*Data Package Creator*
 
 The left side bar contains the metadata for the Data Package as a whole, and the main part on the right contains the metadata for each specific resource.
 
@@ -72,7 +73,7 @@ After this, we're only missing metadata for the data package as a whole, availab
 * **License**: CC0-1.0
 * **Author**: (blank)
 
-![](dp-creator-filled.png)
+![](./dp-creator-filled.png)
 
 Let's validate the data package, to ensure we haven't missed anything. Just click on the *Validate* button on the bottom left, and you should see a green message "Data package is valid!". This means that the data package is valid, but not necessarily its contents (we'll check them in the next step).
 
@@ -91,7 +92,8 @@ We now have a data package with our CSV file, including with a table schema desc
 
 After a few seconds, you should see:
 
-![try.goodtables](try-goodtables.png)
+![try.goodtables](./try-goodtables.png)
+*try.goodtables*
 
 This means that:
 
@@ -113,13 +115,14 @@ Our final step is to publish the dataset. The specifics instructions will vary d
 
 After you're logged in, go to the [datasets list page][datahub:dataset-list] and click on the [Import Data Package][datahub:import-dp] button. On this form, click on "Upload", select the `datapackage.json` file we created in the previous step, and choose your organisation. We'll keep the visibility as private for now, so we can review the dataset before it's made public.
 
-![Importing a data packate to the DataHub](datahub-import-datapackage.png)
+![Importing a data packate to the DataHub](./datahub-import-datapackage.png)
+*Importing a data packate to the DataHub*
 
 !! If you don't see the "Import Data Package" button in your CKAN instance, install the [ckanext-datapackager][ckanext-datapackager] extension to add support for importing and exporting your datasets as data packages.
 
 You will be redirected to the newly created dataset on CKAN, with its metadata and resource extracted from the data package. Double check if everything seems fine, and when you're finished, click on the "Manage" button and change the visibility to "Public".
 
-[![Data package in CKAN](datahub-dataset.png)][datahub:dataset]
+[![Data package in CKAN](./datahub-dataset.png)][datahub:dataset]
 
 That's it! CKAN supports data packages via the [ckanext-datapackager][ckanext-datapackager] extension, so importing (and exporting) data packages is trivial, as all the work on describing the dataset was done while creating the data package.
 

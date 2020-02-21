@@ -24,15 +24,8 @@ If you don't use any of these platforms, you can still setup the validation usin
 
 If you do use some of these platforms, the data validation report look like:
 
-<figure>
-  <a href="https://goodtables.io/github/vitorbaptista/birmingham_schools/jobs/3" rel="external">
-    <img src="goodtablesio-screenshot.png" alt="Figure 1: Goodtables.io tabular data validation report">
-  </a>
-  <figcaption>
-    Figure 1: Goodtables.io tabular data validation report.
-  </figcaption>
-</figure>
-
+[![Figure 1: Goodtables.io tabular data validation report](./goodtablesio-screenshot.png)](https://goodtables.io/github/vitorbaptista/birmingham_schools/jobs/3)
+*Figure 1: Goodtables.io tabular data validation report.*
 
 ## Validate tabular data automatically on CKAN
 
@@ -43,12 +36,8 @@ To automatically validate tabular data on CKAN, enable the [ckanext-validation](
 * Adds a badge next to each dataset showing the status of their validation (valid or invalid), and
 * Allows users to access the validation report, making it possible for errors to be identified and fixed.
 
-<figure>
-  <img src="ckan-validation.png" alt="Figure 2: Annotated in red, automated validation checks on datasets in CKAN">
-  <figcaption>
-    Figure 2: Annotated in red, automated validation checks on datasets in CKAN.
-  </figcaption>
-</figure>
+![Figure 2: Annotated in red, automated validation checks on datasets in CKAN](./ckan-validation.png)
+*Figure 2: Annotated in red, automated validation checks on datasets in CKAN.*
 
 The installation and usage instructions for [ckanext-validation](https://github.com/frictionlessdata/ckanext-validation) extension are available on [Github](https://github.com/frictionlessdata/ckanext-validation).
 
