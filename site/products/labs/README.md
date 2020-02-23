@@ -6,11 +6,7 @@ github: data-quality-cli
 layout: product
 ---
  
-**{{ $page.frontmatter.tagline }}**
- 
 Under the Frictionless Data umbrella, there are several useful tools and ideas that are contributed by the core team and the wider community, but that are not yet fully fleshed out as stable solutions. In general, we take an approach of rough consensus and running code, and any or all of these tools could be further developed as we as a community work on new projects and use cases that require a "frictionless" approach to data.
- 
-[IMAGE]
  
 ## Labs tools
  

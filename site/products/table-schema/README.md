@@ -6,8 +6,6 @@ github: tableschema-js, tableschema-py, tableschema-sql-py, tableschema-go, tabl
 layout: product
 ---
  
-**{{ $page.frontmatter.tagline }}**
- 
 Table Schema provides a way to declare types, formats, and constraints for fields in a tabular data set. The data set can be in any format, from a simple text file to a database, and the Table Schema descriptor can be represented as JSON or any other simple data format that a programming language supports.
  
 Working with data invariably means moving data between systems and serialization formats. The lifecycle of a dataset may mean it moves from Excel, to CSV, to a database, to a search index, to a visualization framework, and so on.
@@ -21,8 +19,6 @@ Table Schema is part of [Frictionless Data](https://frictionlessdata.io), a proj
 - Data quality
 - Data interoperability
  
-[IMAGE]
- 
 ## Check it out
  
 - [Read the specification](https://frictionlessdata.io/specs/table-schema/)
@@ -31,8 +27,6 @@ Table Schema is part of [Frictionless Data](https://frictionlessdata.io), a proj
 ## Where it is used
  
 Table Schema is a useful solution at various stages of data work. Ensuring your data is well-formed towards a set of expectations is critical to doing meaningful work with data, and is exactly the role Table Schema can play.
- 
-[HEXAGONS: highlight the steps that are related to this solution]
  
 In addition to the core software we develop for Frictionless Data, Table Schema has seen adoption among widely used tools for working with data such as [Pandas](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.io.json.build_table_schema.html).
  

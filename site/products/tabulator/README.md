@@ -6,8 +6,6 @@ github: tabulator-py
 layout: product
 ---
  
-**{{ $page.frontmatter.tagline }}**
- 
 Data comes in a multitude of formats. When dealing with data flows from heterogeneous sources, we often work with data that is human generated as well as machine generated, and need to handle a range of issues related to encoding, formatting, and markup. Tabulator is a tool designed exactly for this problem. It provides great abstractions for just about any Tabulator data source, smoothing over the inconsistencies and idiosyncrasies and gives you a clean, structured stream of data to work with. From Excel to SQL, from CSV to S3, Tabulator makes working with raw data a breeze.
  
 Tabulator is part of [Frictionless Data](https://frictionlessdata.io), a project funded and maintained by the [Open Knowledge Foundation](https://okfn.org) and [Datopian](https://datopian.com).
@@ -26,8 +24,6 @@ Tabulator is part of [Frictionless Data](https://frictionlessdata.io), a project
 ## Where it is used
  
 Tabulator is useful as the core building block for your data fetching and data processing code.
- 
-[HEXAGONS: highlight the steps that are related to this solution]
  
 Tabulator is used at the core of several other Frictionless Data tools, such as [GoodTables](https://frictionlessdata.io/goodtables) and [DataFlows](https://frictionlessdata.io/data-flows).
  
