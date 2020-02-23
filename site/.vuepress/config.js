@@ -21,30 +21,50 @@ module.exports = {
   },
   themeConfig: {
     logo: "/img/frictionless-data-blue-logo-text.png",
-    repo: "https://github.com/frictionlessdata",
-    repoLabel: "GitHub",
+    // don't want navbar item for this atm
+    // repo: "https://github.com/frictionlessdata",
+    // repoLabel: "GitHub",
     docsRepo: "https://github.com/frictionlessdata/website-v2",
     docsDir: "site",
     // defaults to false, set to true to enable
     editLinks: true,
     sidebar: 'auto',
     nav: [
-      { text: "About", link: "/about/" },
       {
-        text: "Products",
+        text: "Learn",
         items: [
-          { text: "Data Package", link: "/products/data-package/" },
-          { text: "Table Schema", link: "/products/table-schema/" },
+          { text: "Guide", link: "/guide/" },
+          { text: "Table Schema", link: "/table-schema/" },
+          { text: "Data Package", link: "/data-package/" },
+        ]
+      },
+      {
+        text: "Tooling",
+        items: [
+          { text: "Table Schema Libs", link: "/products/table-schema/" },
+          { text: "Data Package Libs", link: "/products/data-package/" },
           { text: "Tabulator", link: "/products/tabulator/" },
           { text: "GoodTables", link: "/products/goodtables/" },
-          {
-            text: "Data Package Pipelines",
-            link: "/products/data-package-pipelines/"
-          },
+          { text: "Data Package Pipelines", link: "/products/data-package-pipelines/" },
           { text: "DataHub", link: "/products/datahub/" },
           {
             items: [{ text: "Labs", link: "/products/labs/" }]
           }
+        ]
+      },
+      {
+        text: "Specs",
+        items: [
+          { text: "Table Schema", link: "https://specs.frictionlessdata.io/table-schema/" },
+          { text: "Data Package", link: "https://specs.frictionlessdata.io/data-package/" },
+        ]
+      },
+      {
+        text: "Help",
+        items: [
+          { text: "Chat", link: "https://gitter.im/frictionlessdata/chat" },
+          { text: "Forum", link: "https://github.com/frictionlessdata/forum/issues" },
+          { text: "Support", link: "/support/" },
         ]
       },
       // {
@@ -68,9 +88,9 @@ module.exports = {
       //     { text: "Version dataset", link: "/jobs/version-dataset/" }
       //   ]
       // },
-      { text: "Specifications", link: "http://specs.frictionlessdata.io" },
       { text: "Contribute", link: "/contribute/" },
       { text: "Team", link: "/team/" },
+      { text: "About", link: "/about/" },
       { text: "Blog", link: "/blog/" }
     ]
   },
