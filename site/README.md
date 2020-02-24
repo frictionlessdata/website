@@ -77,25 +77,25 @@ Source -> Transform -> Push / Store
     <img class="w-24 mx-auto" src="/img/home/data-package-icon-2.svg"></img>
     <h2 class="text-xl pt-4 font-medium">Data Package</h2>
     <p class="text-lg font-light pt-4">Simple container format to describe and package data.</p>
-    <a href="https://github.com/frictionlessdata/datapackage-py" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+    <a href="/products/data-package/" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
   </div>
     <div class="w-1/4 mx-auto text-center pl-8">
     <img class="w-24 mx-auto" src="/img/home/goodtables-icon.svg"></img>
     <h2 class="text-xl pt-4 font-medium">GoodTables</h2>
     <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
-    <a href="https://github.com/frictionlessdata/goodtables-py" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+    <a href="/products/goodtables/" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
   </div>
     <div class="w-1/4 mx-auto text-center pl-8">
     <img class="w-24 mx-auto" src="/img/home/datahub-icon.svg"></img>
     <h2 class="text-xl pt-4 font-medium">DataHub</h2>
     <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
-    <a href="https://datahub.io/" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+    <a href="/products/datahub/" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
   </div>
     <div class="w-1/4 mx-auto text-center pl-8">
     <img class="w-24 mx-auto" src="/img/home/dataflows-icon.svg"></img>
     <h2 class="text-xl pt-4 font-medium">DataFlows</h2>
     <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
-    <a href="https://github.com/datahq/dataflows" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
+    <a href="/products/data-package-pipelines/" class="links-github">Read more <img src="https://image.flaticon.com/icons/png/512/724/724827.png" class="w-4 h-4 inline"/></a>
   </div>
 </div>
 
