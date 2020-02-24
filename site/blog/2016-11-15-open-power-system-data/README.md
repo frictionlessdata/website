@@ -16,7 +16,7 @@ All of our project members are energy researchers.  We struggled collecting this
 On one hand, people who are interested in European power systems are lucky because a lot of data needed for that research is available.  If you work on, say, Chinese systems, and you are not employed at the Chinese power company, you probably won’t find anything.  On the other hand, if you search long enough (and you know where to look), you can find stuff online (and usually free of charge) on European power systems---not everything you want, but a
 big chunk, so in that respect, we are all lucky.  However, this data is quite problematic for many reasons.
 
-[![Available Data](opsd-1.png)](http://data.open-power-system-data.org/)
+[![Available Data](./opsd-1.png)](http://data.open-power-system-data.org/)
 
 *Data availability overview on the platform*
 
