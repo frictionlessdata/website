@@ -15,12 +15,18 @@ features:
 footer: Copyright © 2007-present Rufus Pollock, Open Knowledge and Datopian
 ---
 
-# Zen = simple, minimal, clean, powerful
+<!-- # Zen = simple, minimal, clean, powerful -->
 
-<h1 class="text-center">Users Include</h1>
-<img class="w-64" src="https://numfocus.org/wp-content/uploads/2016/07/pandas-logo-300.png" />
-<img class="w-32" src="https://upload.wikimedia.org/wikipedia/commons/7/7c/Kaggle_logo.png" />
+<h1 class="text-center pt-6">Adopted by</h1>
 
+<div class="container h-32 flex items-stretch">
+<img class="w-1/6 self-center" src="/img/home/pandas.png" />
+<img class="w-1/6 self-center pl-8" src="/img/home/kaggle.png" />
+<img class="w-1/5 self-center pl-8" src="/img/home/openrefine.png" />
+<img class="w-1/5 self-center pl-8" src="/img/home/data-gov-uk.png" />
+<img class="w-1/12 self-center pl-8" src="/img/home/18f.png" />
+<img class="w-1/5 self-center pl-8" src="/img/home/data-gouv-fr.png" />
+</div>
 
 <h1 class="text-center" id="more">For anyone who works with data<br/><small>Especially diverse data and/or across tools or teams</small></h1>
 
@@ -42,7 +48,7 @@ footer: Copyright © 2007-present Rufus Pollock, Open Knowledge and Datopian
   </div>
 </div>
 
-<h1 class="text-center">Data Integration and Management</h1>
+<h1 class="text-center pt-6 pb-6">Data Integration and Management</h1>
 
 ### What is data integration
 
@@ -62,9 +68,9 @@ Conversely, data management often requires some data cleaning (integration)
 
 Source -> Transform -> Push / Store
 
-<JobsDiagram class="px-48 pt-12"></JobsDiagram>
+<!-- <JobsDiagram class="px-48 pt-12"></JobsDiagram> -->
 
-<h1 class="text-center">Some of Our Tooling</h1>
+<h1 class="text-center pt-6">Some of Our Tooling</h1>
 
 <div class="container flex flex-row py-12">
   <div class="w-1/4 text-center mx-auto">
