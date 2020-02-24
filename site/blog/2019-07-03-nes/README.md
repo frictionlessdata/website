@@ -1,5 +1,5 @@
 ---
-title: Carlos Eduardo Ribas and João Alexandre Peschanski
+title: "Tool Fund Grantee: Carlos Eduardo Ribas and João Alexandre Peschanski"
 date: 2019-07-03
 tags:
 category: grantee-profiles-2019

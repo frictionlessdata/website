@@ -1,5 +1,5 @@
 ---
-title: Open Knowledge Greece
+title: "Tool Fund Grantee: Open Knowledge Greece"
 date: 2017-10-27
 tags:
 category: grantee-profiles

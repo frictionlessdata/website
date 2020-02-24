@@ -1,5 +1,5 @@
 ---
-title: Greg Bloom and Shelby Switzer
+title: "Tool Fund Grantee: Greg Bloom and Shelby Switzer"
 date: 2019-07-09
 tags:
 category: grantee-profiles-2019

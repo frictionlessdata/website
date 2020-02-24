@@ -1,5 +1,5 @@
 ---
-title: Georges Labrèche
+title: "Tool Fund Grantee: Georges Labrèche"
 date: 2017-10-24
 tags:
 category: grantee-profiles

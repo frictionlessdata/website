@@ -1,5 +1,5 @@
 ---
-title: Ori Hoch
+title: "Tool Fund Grantee: Ori Hoch"
 date: 2018-07-16
 tags:
 category: grantee-profiles
