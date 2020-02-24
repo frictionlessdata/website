@@ -7,7 +7,11 @@
         :alt="data.heroAlt || 'hero'"
       >
 
-      <h1 v-if="data.heroText !== null" id="main-title">{{ data.heroText || $title || 'Hello' }}</h1>
+      <h1>
+        The
+        <span class="tooltip" data-tooltip="zen = simple, minimal, clean, powerful">zen</span>
+        framework for data integration
+      </h1>
 
       <p class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
@@ -130,6 +134,38 @@ export default {
     border-top 1px solid $borderColor
     text-align center
     color lighten($textColor, 25%)
+
+.tooltip
+  position relative
+  border-bottom: 1px dotted #6a8cad;
+
+.tooltip::before, .tooltip::after
+  position absolute
+  opacity 0
+  left 30%
+  transition all ease 0.3s
+
+.tooltip::before
+  content ""
+  border-width 10px 8px 0 8px
+  border-style solid
+  border-color rgba(0,0,0,0.3) transparent transparent transparent
+  top -5px
+
+.tooltip::after
+  content: attr(data-tooltip)
+  background rgba(0,0,0,0.3)
+  font-size 14px
+  top -5px
+  transform translateY(-100%)
+  margin-left -120px
+  width 230px
+  border-radius 10px
+  color #222
+  padding 14px
+
+.tooltip:hover::before, .tooltip:hover::after
+  opacity 1
 
 @media (max-width: $MQMobile)
   .home

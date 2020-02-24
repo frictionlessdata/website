@@ -1,7 +1,6 @@
 ---
 layout: home
 heroImage: /img/frictionless-data-blue-logo-text.png
-heroText: The zen framework for data integration
 tagline: Frictionless Data is a lean, progressive, incrementally adoptable open-source data framework that brings simplicity and grace to the data experience whether you're wrangling a CSV or engineering complex pipelines with terabytes. Its core is a set of ultra-simple patterns for describing data that make it much easier to a) move data between tools and people b) assemble pipelines, validate data and carry out many other aspects of data integration c) create new tools for doing the above.
 actionText: Get Started →
 actionLink: /#more
