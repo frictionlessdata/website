@@ -1,8 +1,8 @@
 <template>
-  <footer class="banner footer-background py-16"> 
+  <footer class="banner footer-sb py-10"> 
     <div class="banner flex flex-row">
-      <div class="w-1/3 text-center pl-10">
-        <img class="w-64" src="/img/home/logo-white-thicker.svg"></img>
+      <div class="w-2/3 text-center pl-20">
+        <img class="w-56" src="/img/home/logo-white-thicker.svg"></img>
       </div>
       <div class="container w-2/3 flex justify-center flex-row px-10">
         <div class="w-1/4 text-left pr-20">
@@ -26,17 +26,17 @@
         </div>
         <div class="w-1/4 text-left pr-20">
           <h2 class="text-xl text-white font-normal">Social</h2>
-          <div class="pt-4">
-            <img class="w-8 inline-block align-middle" src="/img/home/github.svg"></img>
-            <a href="https://github.com/frictionlessdata/" class="text-white inline pl-2 font-light text-lg">GitHub</a>
+          <div class="pt-4 flex flex-row">
+            <img class="w-8 align-middle" src="/img/home/github.svg"></img>
+            <a href="https://github.com/frictionlessdata/" class="text-white pl-2 pt-2 font-light text-lg">GitHub</a>
           </div>  
-          <div class="pt-6">
-            <img class="w-8 inline-block align-middle" src="/img/home/twitter.svg"></img>
-            <a href="https://twitter.com/hashtag/frictionlessdata" class="text-white pl-2 inline font-light text-lg">Twitter</a>
+          <div class="pt-6 flex flex-row">
+            <img class="w-8 align-middle" src="/img/home/twitter.svg"></img>
+            <a href="https://twitter.com/hashtag/frictionlessdata" class="text-white pl-2 pt-2 font-light text-lg">Twitter</a>
           </div>
-          <div class="pt-6 pr-10">
-            <img class="w-8 inline-block align-middle" src="/img/home/gitter.svg"></img>
-            <a href="https://gitter.im/frictionlessdata/chat" class="text-white pl-2 inline font-light text-lg">Gitter</a>
+          <div class="pt-6 pr-10 flex flex-row">
+            <img class="w-8 align-middle" src="/img/home/gitter.svg"></img>
+            <a href="https://gitter.im/frictionlessdata/chat" class="text-white pl-2 pt-2 font-light text-lg">Gitter</a>
           </div>
         </div>
       </div>
@@ -46,7 +46,7 @@
 
 <style scoped>
 
-.footer-background {
-  background-color: yellow;
+.footer-sb {
+  background-color: #1A98FF;
 }
 </style>
