@@ -8,12 +8,18 @@
           <div class="container flex flex-col w-2/3">
             <router-link class="text-xl page-link pr-12" :to="page.path">{{ page.title }}
             </router-link>
-            <div class="container pt-2">
-              <p class="text-sm italic inline"> {{ formatDate(page.frontmatter.date) }} by {{ page.frontmatter.author || "Frictionless Data" }} </p>
-              <TagLinks class="inline pl-4 mr-12" /> 
+            <p class="text-sm italic"> {{ formatDate(page.frontmatter.date) }} by {{ page.frontmatter.author || "Frictionless Data" }} </p>
+              <div v-if="page.frontmatter.tags" class="container flex flex-row">
+                <TagLinks/>
+                <router-link class="pl-2 inline font-normal"
+                v-for="tag in page.frontmatter.tags"
+                :key="tag"
+                :to="{ path: ``}">
+                {{tag}}
+              </router-link> 
             </div>
-            <p class="pt-2 text-base mr-12" v-if="page.frontmatter.description"> {{ page.frontmatter.description }} </p>
-            <p class="pt-2 text-base mr-12" v-else-if="!page.frontmatter.description" v-html="page.excerpt"></p>
+            <p class="text-base mr-12" v-if="page.frontmatter.description"> {{ page.frontmatter.description }} </p>
+            <p class="text-base mr-12" v-else-if="!page.frontmatter.description" v-html="page.excerpt"></p>
           </div>
           <div class="flex items-stretch pl-6 w-1/3 py-2">
             <img class="w-48 self-center" :src=" page.frontmatter.image || page.frontmatter.heroImage || 'https://i.ytimg.com/vi/lWHKVXxuci0/maxresdefault.jpg'" />
