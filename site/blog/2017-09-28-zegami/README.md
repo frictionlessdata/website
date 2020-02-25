@@ -38,7 +38,7 @@ Moving forward it would be interesting to see tableschema and tabulator as a com
 
 We are also keen to know more about repositories around the world that use datapackages[^datapackage] so that we can import the data and show users and owners of those repositories the benefits of browsing and visualising data in Zegami.
 
-In terms of other potential use cases, it would be useful to create a python-based alternative to the dreamfactory API server[^dreamfactory]. [wq.io][wqio] is one example, but it is quite hard to use and a lighter version would be great. Perhaps CKAN[^ckan] datastore could be licensed in a more open way?
+In terms of other potential use cases, it would be useful to create a python-based alternative to the dreamfactory API server[^dreamfactory]. [wqio](http://wq.io/) is one example, but it is quite hard to use and a lighter version would be great. Perhaps CKAN[^ckan] datastore could be licensed in a more open way?
 
 In terms of the next steps for us, we are currently working on a SaaS implementation of Zegami which will dramatically reduce the effort required in order to start working with Zegami. We are then planning on developing a series of APIs so developers can create their own data transformation pipelines. One of our developers, Andrew Stretton, will be running Frictionless Data sessions at PyData London[^pydata] on Tuesday, October 3 and PyCon UK[^pyconuk] on Friday, October 27.
 

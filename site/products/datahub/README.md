@@ -6,7 +6,9 @@ github:
 layout: product
 ---
  
-DataHub.io provides data wranglers and publishers with a simple platform to share data, and to discover high quality, curated datasets. It is software-as-a-service that allows significant free usage, and has plans for more advanced storage and functionality requirements. Data on DataHub.io is described with [Data Package](https://frcitionlessdata.io/data-package) and [Table Schema](https://frictionlessdata.io/table-schema).
+**{{ $page.frontmatter.tagline }}**
+ 
+DataHub.io provides data wranglers and publishers with a simple platform to share data, and to discover high quality, curated datasets. It is software-as-a-service that allows significant free usage, and has plans for more advanced storage and functionality requirements. Data on DataHub.io is described with [Data Package](https://specs.frictionlessdata.io/data-package/) and [Table Schema](https://next.frictionlessdata.io/products/table-schema/).
  
 Publishing data publicly often involves a great deal of friction. It is easy to publish on code sharing platforms such as GitHub, but those are not optimized for display and discovery of data. DataHub.io seeks to address this need by providing a simple, easy to use platform for publishing data, with core functionality such as visualization and access.
  

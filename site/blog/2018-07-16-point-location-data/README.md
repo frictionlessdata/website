@@ -19,7 +19,7 @@ First, some key concepts:
 * Representing locations other than points in a CSV can be complicated as the shape is represented by many coordinate pairs that combine to make the shape (think joining the dots).
 * A coordinate pair is inadequate to accurately show a location on a map. You also need a [coordinate reference system](https://en.wikipedia.org/wiki/Spatial_reference_system) and sometimes a date.
 * A coordinate reference system describes the <a href="https://en.wikipedia.org/wiki/Datum_(geodesy)">datum</a>, [geoid](https://en.wikipedia.org/wiki/Geoid), [coordinate system](https://en.wikipedia.org/wiki/Coordinate_system), and [map projection](https://en.wikipedia.org/wiki/Map_projection) of the location data.
-* Dates detailing when the location was recorded are also important because things change over time, e.g. the shape of an [electoral boundary](https://www.ecq.qld.gov.au/__data/assets/pdf_file/0009/70956/26.5.17_Extraordinary-Gazette_QRC-Final-Determination.pdf), or the [location of a continent](http://www.icsm.gov.au/datum/what-gda2020).
+* Dates detailing when the location was recorded are also important because things change over time, e.g. the shape of an [electoral boundary](https://web.archive.org/web/20171029095929/http://ecq.qld.gov.au/__data/assets/pdf_file/0009/70956/26.5.17_Extraordinary-Gazette_QRC-Final-Determination.pdf), or the [location of a continent](http://www.icsm.gov.au/datum/what-gda2020).
 
 The key information to describe a point location is a:
 

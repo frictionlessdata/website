@@ -221,4 +221,4 @@ For example, at the time of writing:
   * does not upload the README.md file in a data package. If you have described licence information in the README.md file, this will be lost ([issue #60](https://github.com/frictionlessdata/ckanext-datapackager/issues/60))
   * does not display license information in the datapackage.json file correctly ([issue #62](https://github.com/frictionlessdata/ckanext-datapackager/issues/62))
 
-* [Data Curator](http://data-curator.io) only allows the user to select from a limited set of open licenses to describe the data package and data resource licenses.
+* [Data Curator](https://next.frictionlessdata.io/blog/2019/03/01/datacurator/) only allows the user to select from a limited set of open licenses to describe the data package and data resource licenses.

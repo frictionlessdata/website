@@ -131,7 +131,7 @@ Open data consumers will be able to read the data package with one of the [many 
 
 Data Curator was made possible with funding from  the [Queensland Government](https://www.qld.gov.au) and the guidance of the Open Data Policy team within the Department of Housing and Public Works. We're grateful for the ideas and testing provided by open data champions in the  Department of Environment and Science, and the  Department of Transport and Main Roads. 
 
-The project was led by [Stephen Gates](https://theodi.org.au/stephen-gates/) from the [ODI Australian Network](https://theodi.org.au). Software development was coordinated by Gavin Kennedy and performed by Matt Mulholland from the [Queensland Cyber Infrastructure Foundation](https://www.qcif.edu.au) (QCIF).
+The project was led by [Stephen Gates](https://theodi.org/article/open-data-pathway-introducing-country-level-statistics/) from the [ODI Australian Network](https://www.linkedin.com/company/odiaustraliannetwork/about/). Software development was coordinated by Gavin Kennedy and performed by Matt Mulholland from the [Queensland Cyber Infrastructure Foundation](https://www.qcif.edu.au) (QCIF).
 
 Data Curator uses the [Frictionless Data software libraries](/software/) maintained by [Open Knowledge International](https://okfn.org) and we're extremely grateful for the support provided by [the team](https://github.com/orgs/frictionlessdata/teams/core/members).
 

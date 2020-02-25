@@ -102,7 +102,7 @@ Bad alignment:
 
 Please make sure to have your `datapackage.json` well structured to ease the
 understanding of your Data Package content. The [Online DataPackage.json
-Creator](http://data.okfn.org/tools/create) can help you create the general
+Creator](https://packagist.org/) can help you create the general
 structure.
 
 ### Contributors fields

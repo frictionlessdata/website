@@ -9,9 +9,9 @@ image: /img/blog/tesera-logo.png
 description: Creating data-driven applications in the cloud.
 ---
 
-Tesera is an employee-owned company, founded in 1997.  Our focus is helping our clients create data-driven applications in the cloud.  We also maintain two core product lines in addition to our consulting practice.  [MRAT.ca](http://www.mrat.ca/) helps municipalities identify risk of basement flooding, while [forestinventory.ca](http://www.forestinventory.ca/) (High Resolution Inventory Services) enables forest and natural resource companies to access a new level of accuracy and precision in resource inventories and carbon measurement.
+Tesera is an employee-owned company, founded in 1997.  Our focus is helping our clients create data-driven applications in the cloud.  We also maintain two core product lines in addition to our consulting practice.  [MRAT.ca](https://www.linkedin.com/showcase/municipal-risk-assessment-tool/about/) helps municipalities identify risk of basement flooding, while [forestinventory.ca](https://cran.r-project.org/web/packages/forestinventory/index.html) (High Resolution Inventory Services) enables forest and natural resource companies to access a new level of accuracy and precision in resource inventories and carbon measurement.
 
-[![MRAT + HRIS](./mrathris.png)](http://tesera.com/) <br/> *MRAT.ca and forestinventory.ca*
+[![MRAT + HRIS](./mrathris.png)](http://tesera.com/) <br/> *[MRAT.ca](https://www.linkedin.com/showcase/municipal-risk-assessment-tool/about/) and forestinventory.ca*
 
 We deal with data from a variety of sources ranging from sample plots to in situ sensors. We grab samples and measurements to remotely sensed information from LiDAR, colour infrared and others.  Many proprietary specifications exist across those data sources, and to work around this, we’ve adopted CSV as our universal format.  We use Data Packages[^datapackages], CSV files, and  Table Schema[^tableschema] to create database tables, validate data schemas and domains, import data from S3[^amazons3] to PostgreSQL, DynamoDB[^amazondynamodb], and Elastic[^elastic].  In some cases we also use these Frictionless Data specs to move between application components, in particular where multiple technologies (Python, R, Javascript, and other) are utilized in a workflow.
 

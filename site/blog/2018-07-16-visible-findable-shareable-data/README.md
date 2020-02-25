@@ -31,7 +31,7 @@ If don't need your own data portal, there are many platforms where you can publi
 CKAN is an open source platform for publishing data that makes it easy to discover, use and share data. [datahub.ckan.io](http://datahub.ckan.io) is a public instance of CKAN that allows anyone to publish their data.
 
 Here’s why you should consider creating an organization on [datahub.ckan.io](http://datahub.ckan.io) and publishing datasets therein:
-* [datahub.ckan.io](http://datahub.ckan.ioo) is free for all to use! The file upload size limit on the platform is currently 100mb.
+* [datahub.ckan.io](https://datahub.ckan.io/) is free for all to use! The file upload size limit on the platform is currently 100mb.
 * The decision on whether to publicly or privately publish datasets rests with data publishers.
 * [datahub.ckan.io](http://datahub.ckan.io) organizations allow for multiple users to collaborate with varied privileges:
  * **Admin**: Can add/edit and delete datasets, as well as manage organization members.
