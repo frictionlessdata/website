@@ -4,19 +4,19 @@
       <h1 class="pb-6">Frictionless Blog</h1>
       <ul class="flex flex-col">
         <li class="" v-for="page in $pagination.pages">
-          <div class="container shadow-md pl-6 pt-6 flex flex-row pb-6">
+          <div class="container shadow-md pl-6 flex flex-row py-4">
           <div class="container flex flex-col w-2/3">
-            <router-link class="text-2xl page-link pr-12" :to="page.path">{{ page.title }}
+            <router-link class="text-xl page-link pr-12" :to="page.path">{{ page.title }}
             </router-link>
             <div class="container pt-2">
               <p class="text-sm italic inline"> {{ formatDate(page.frontmatter.date) }} by {{ page.frontmatter.author || "Frictionless Data" }} </p>
-              <TagLinks class="inline pl-4" /> 
+              <TagLinks class="inline pl-4 mr-12" /> 
             </div>
-            <p class="pt-2 text-lg mr-12" v-if="page.frontmatter.description"> {{ page.frontmatter.description }} </p>
-            <p class="pt-2 text-lg mr-12" v-else-if="!page.frontmatter.description" v-html="page.excerpt"></p>
+            <p class="pt-2 text-base mr-12" v-if="page.frontmatter.description"> {{ page.frontmatter.description }} </p>
+            <p class="pt-2 text-base mr-12" v-else-if="!page.frontmatter.description" v-html="page.excerpt"></p>
           </div>
-          <div class="container pl-6 w-1/3 pt-2">
-            <img class="w-56" :src=" page.frontmatter.image || page.frontmatter.heroImage || 'https://i.ytimg.com/vi/lWHKVXxuci0/maxresdefault.jpg'" />
+          <div class="flex items-stretch pl-6 w-1/3 py-2">
+            <img class="w-48 self-center" :src=" page.frontmatter.image || page.frontmatter.heroImage || 'https://i.ytimg.com/vi/lWHKVXxuci0/maxresdefault.jpg'" />
           </div>
           </div>
           <hr>
