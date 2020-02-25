@@ -17,7 +17,7 @@ The Data Retriever is primarily focused on *tabular* data, but we’re starting 
 
 ![Diagram](./data-retriever-install.gif) <br/> *The Data Retriever automatically installing the [BBS (USGS North American Breeding Bird Survey)](https://www.pwrc.usgs.gov/bbs/) dataset*
 
-Data is often messy and needs cleaning and restructuring before it can be effectively used. It is often not feasible to modify and redistribute the data due to licensing and other limitations (Editor's note: see our [Open Power System Data case study](/articles/open-power-system-data/) for more on this).
+Data is often messy and needs cleaning and restructuring before it can be effectively used. It is often not feasible to modify and redistribute the data due to licensing and other limitations (Editor's note: see our [Open Power System Data case study](/blog/2016/11/15/open-power-system-data/) for more on this).
 
 We need to make it as easy as possible for contributors to [add new datasets](https://retriever.readthedocs.io/en/latest/retriever.lib.html#retriever-lib-package). For relatively clean datasets this means having a simple, easy-to-work-with metadata standard to describe existing data. The description for each dataset is written in a single file which gets read by our plugin infrastructure.
 

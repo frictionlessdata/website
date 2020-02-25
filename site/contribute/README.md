@@ -8,7 +8,7 @@ Report issues with projects in their own issue tracker, on GitHub. Doubts on whe
  
 ## Documentation 
 
-Talking about getting yourself heard, we welcome contributions seeking to advocate and educate people in the data space. Given that we work on specifications and tools for a Frictionless Data experience, you may decide that [writing tutorials](./blog), [improving documentation](./docs), or even speaking at conferences is your favorite way of contributing. You don't have to ask permission to talk about Frictionless Data, but we love hearing when people tell us beforehand because we can try to help on sharing the news with a wider audience.
+Talking about getting yourself heard, we welcome contributions seeking to advocate and educate people in the data space. Given that we work on specifications and tools for a Frictionless Data experience, you may decide that [writing tutorials](/contribute/), [improving documentation](/contribute/), or even speaking at conferences is your favorite way of contributing. You don't have to ask permission to talk about Frictionless Data, but we love hearing when people tell us beforehand because we can try to help on sharing the news with a wider audience.
  
 ## Coding
 

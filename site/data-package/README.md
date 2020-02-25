@@ -59,12 +59,12 @@ For more information on each specification, see below:
 
 - [Full Specification][spec-csvddf]
 
-[dp]: /docs/data-package
-[dp-main]: /data-packages
-[tdp]: /docs/tabular-data-package/
-[ts]: /docs/table-schema/
+[dp]: /products/data-package
+[dp-main]: /data-package
+[tdp]: /blog/2016/07/21/publish-tabular/
+[ts]: /products/table-schema/
 [ts-types]: /specs/table-schema/#field-descriptors
-[csv]: /docs/csv/
+[csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
 
 [spec-dp]: /specs/data-package/
@@ -73,10 +73,10 @@ For more information on each specification, see below:
 [spec-csvddf]: /specs/csv-dialect/
 
 [publish]: /docs/publish/
-[pub-tabular]: /docs/publish-tabular/
-[pub-online]: /docs/publish-online/
-[pub-any]: /docs/publish-any/
-[pub-geo]: /docs/publish-geo/
+[pub-tabular]: /blog/2016/07/21/publish-tabular/
+[pub-online]: /blog/2018/08/29/publish-online/
+[pub-any]: /blog/2016/07/21/publish-any/
+[pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /docs/publish-faq/
 
 [tools]: /software/
@@ -106,7 +106,7 @@ or analyzing the data) and other material may be provided but are not required.
 :::tip
 There is a full **[RFC-style specification of Data Package format](/specs/data-package/)** to complement this quick introduction.
 
-The [Tabular Data Package](/docs/tabular-data-package/) format extends Data Packages for tabular data. It supports providing additional information such as data types of columns.
+The [Tabular Data Package](/blog/2016/07/21/publish-tabular/) format extends Data Packages for tabular data. It supports providing additional information such as data types of columns.
 :::
 
 ### datapackage.json
@@ -276,12 +276,12 @@ DataHub does not currently support the TopoJSON format. You can use “Vega Grap
 [vega]: https://vega.github.io/vega/
 [ISO 3166-2 country codes]: https://github.com/datasets/country-codes
 
-[dp]: /docs/data-package
-[dp-main]: /data-packages
-[tdp]: /docs/tabular-data-package/
-[ts]: /docs/table-schema/
+[dp]: /products/data-package
+[dp-main]: /data-package
+[tdp]: /blog/2016/07/21/publish-tabular/
+[ts]: /products/table-schema/
 [ts-types]: /specs/table-schema/#field-descriptors
-[csv]: /docs/csv/
+[csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
 
 [spec-dp]: /specs/data-package/
@@ -290,10 +290,10 @@ DataHub does not currently support the TopoJSON format. You can use “Vega Grap
 [spec-csvddf]: /specs/csv-dialect/
 
 [publish]: /docs/publish/
-[pub-tabular]: /docs/publish-tabular/
-[pub-online]: /docs/publish-online/
-[pub-any]: /docs/publish-any/
-[pub-geo]: /docs/publish-geo/
+[pub-tabular]: /blog/2016/07/21/publish-tabular/
+[pub-online]: /blog/2018/08/29/publish-online/
+[pub-any]: /blog/2016/07/21/publish-any/
+[pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /docs/publish-faq/
 
 [tools]: /software/

@@ -195,10 +195,10 @@ We welcome your feedback and questions via our [Frictionless Data Gitter chat][f
 [dp]: /specs/data-package/
 [tdp]: /specs/tabular-data-package/
 [toolfund]: https://toolfund.frictionlessdata.io
-[toolfund-daniel]:/articles/daniel-fireman/
+[toolfund-daniel]:/blog/2017/11/01/daniel-fireman/
 [dp-go]: https://github.com/frictionlessdata/datapackage-go
 [ts-go]: https://github.com/frictionlessdata/tableschema-go
-[ts]: /docs/table-schema/
+[ts]: /table-schema/
 [dp-go-resource]:https://godoc.org/github.com/frictionlessdata/datapackage-go/datapackage#Resource
 [fd-gitter]: http://gitter.im/frictionlessdata/chat
 [dp-go-issues]: https://github.com/frictionlessdata/datapackage-go/issues

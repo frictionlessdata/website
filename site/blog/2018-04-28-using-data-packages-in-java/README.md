@@ -5,7 +5,7 @@ tags: ["Java"]
 category: working-with-data-packages
 ---
 
-! Georges Labrèche was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in Java programming language. You can read more about this in [his grantee profile](/articles/georges-labreche/).
+! Georges Labrèche was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in Java programming language. You can read more about this in [his grantee profile](/blog/2017/10/24/georges-labreche/).
 
 In this post, Labrèche will show you how to install and use the [Java](https://www.java.com/en/) libraries for working with [Tabular Data Packages][tdp].
 
@@ -136,7 +136,7 @@ We also welcome your feedback and questions via our [Frictionless Data Gitter ch
 
 [dp]: https://frictionlessdata.io/specs/data-package/
 [tdp]: https://frictionlessdata.io/specs/tabular-data-package/
-[ts]: https://frictionlessdata.io/docs/table-schema/
+[ts]: https://frictionlessdata.io/table-schema/
 [toolfund]: https://toolfund.frictionlessdata.io
 [dp-java]: https://github.com/frictionlessdata/datapackage-java
 [ts-java]: https://github.com/frictionlessdata/tableschema-java

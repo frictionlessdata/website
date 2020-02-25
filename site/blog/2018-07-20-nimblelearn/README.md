@@ -13,14 +13,14 @@ description: Nimble Learn's datapackage-m is a set of functions for working with
 
 datapackage-m makes use of the Data Package, Data Resource, Tabular Data Package, Tabular Data Resource, and Table Schema specifications, enabling you to go from data to insight in Power BI and Excel, faster.
 
-In 2014, while searching the web for high quality open data, we stumbled across the Frictionless Data project. On learning about [Data Packages](/data-packages/), we spent some time getting acquainted with the specs and began to use Tabular Data Packages for some internal projects. datapackage-m then started off as an internal tool at Nimble Learn for working with Tabular Data Packages.
+In 2014, while searching the web for high quality open data, we stumbled across the Frictionless Data project. On learning about [Data Packages](/data-package/), we spent some time getting acquainted with the specs and began to use Tabular Data Packages for some internal projects. datapackage-m then started off as an internal tool at Nimble Learn for working with Tabular Data Packages.
 
 ![](./datapackage-m-power-bi.gif)
 *How datapackage-m works in Power BI*
 
 datapackage-m now implements [v1 of the Frictionless Data specs](https://blog.okfn.org/2017/09/05/frictionless-data-v1-0/) from a Tabular Data Package consumption perspective. By implementing a broad number of the specs, datapackage-m is able to extract the tables from most [Tabular Data Packages](/specs/tabular-data-package/), or Data Packages with tabular resources, in seconds. These tables can be quickly loaded into a Power BI Data Model or an Excel Worksheet (or Data Model), ready for you to analyse.  datapackage-m currently handles Gzip compressed resources and we’re looking into support for Zip. We have  successfully tested datapackage-m with several Data Packages from [Datahub](https://datahub.io/core) and the Frictionless Data [Example Data Packages](https://github.com/frictionlessdata/example-data-packages) GitHub repository.
 
-In working with data, there are often many repetitive tasks required to get data into a state that can be analysed. Even when the requirement is just to profile and assess whether a new dataset is suitable for a given use case, a lot of time can be wasted getting it into good tabular shape. [Data Packages](/data-packages/) are designed to alleviate this issue, and datapackage-m makes them available for use in Power BI and Excel.
+In working with data, there are often many repetitive tasks required to get data into a state that can be analysed. Even when the requirement is just to profile and assess whether a new dataset is suitable for a given use case, a lot of time can be wasted getting it into good tabular shape. [Data Packages](/data-package/) are designed to alleviate this issue, and datapackage-m makes them available for use in Power BI and Excel.
 
 We find that the Frictionless Data specs are simple to use from both a data publisher and data consumer perspective. We’ve seen a great number of other specifications that are feature-rich but too verbose. In contrast to these, the Frictionless Data specs are minimalist and support use cases where Data Packages are created using one’s favourite text editor.
 

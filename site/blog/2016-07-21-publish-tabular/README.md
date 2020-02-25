@@ -10,7 +10,7 @@ Packages][tdp]. There are 4 simple steps:
 
 1. Create a folder (directory) - this folder will hold your "data package"
 2. Put your data into [CSV (comma-separated values)][csv]
-[csv]: /docs/csv/
+[csv]: /blog/2018/07/09/csv/
    files and add them to that folder
 3. Add a `datapackage.json` file to hold some information about the data
    package and the data in it e.g. a title, who created it, how other people
@@ -36,7 +36,7 @@ spreadsheets like Excel and databases like MySQL or Postgresql.
 
 You can find out more about CSVs and how to produce them in our [guide to
 CSV][csv] or by doing a quick search online for CSV + the name of your tool.
-[csv]: /docs/csv/
+[csv]: /blog/2018/07/09/csv/
 
 ### 3. Add a datapackage.json file
 
@@ -57,8 +57,8 @@ datapackage.json for you to include in your project
 **Option 2:** Do it yourself - if you're familiar with JSON you can just create
 this yourself. Take a look at the [Data Package][dp] and [Tabular Data
 Format][tdp] specs.
-[dp]: /docs/data-package/
-[tdp]: /docs/tabular-data-package/
+[dp]: /data-package/
+[tdp]: /data-package/#tabular-data-package
 
 **Option 3:** Use the [Python][dp-py], [JavaScript][dp-js], [PHP][dp-php], [Julia][dp-jl], [R][dp-r], [Clojure][dp-clj], [Java][dp-java], [Ruby][dp-rb] or [Go][dp-go] libraries for working with data packages.
 
@@ -80,12 +80,12 @@ Pay special attention to the scripts directory (and look at the commit logs!)
 !! Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
 
 
-[[dp]: /docs/data-package
-[dp-main]: /data-packages
-[tdp]: /docs/tabular-data-package/
-[ts]: /docs/table-schema/
+[[dp]: /data-package
+[dp-main]: /data-package
+[tdp]: /data-package/#tabular-data-package
+[ts]: /table-schema/
 [ts-types]: /specs/table-schema/#field-descriptors
-[csv]: /docs/csv/
+[csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
 
 [spec-dp]: /specs/data-package/
@@ -94,12 +94,12 @@ Pay special attention to the scripts directory (and look at the commit logs!)
 [spec-csvddf]: /specs/csv-dialect/
 
 [publish]: /docs/publish/
-[pub-tabular]: /docs/publish-tabular/
-[pub-online]: /docs/publish-online/
-[pub-any]: /docs/publish-any/
-[pub-geo]: /docs/publish-geo/
+[pub-tabular]: /blog/2016/07/21/publish-tabular/
+[pub-online]: /blog/2018/08/29/publish-online/
+[pub-any]: /blog/2016/07/21/publish-any/
+[pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /docs/publish-faq/
-[field-guide]: /field-guide
+[field-guide]: /data-package
 
 [tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io

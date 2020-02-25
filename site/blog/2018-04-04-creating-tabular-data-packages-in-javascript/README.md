@@ -33,5 +33,5 @@ This creates a `datapackage.json` file in this directory.
 ## Publishing
 
 Now that you have created your Data Package, you might want to
-[publish your data online](/docs/publish-online/) so that you can
+[publish your data online](/blog/2018/08/29/publish-online/) so that you can
 share it with others.

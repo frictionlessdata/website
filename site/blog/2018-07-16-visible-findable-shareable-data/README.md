@@ -8,7 +8,7 @@ description: Getting your data out into the world is a crucial step towards its 
 ---
 
 
-This section requires knowledge on how to [write a Table Schema](/field-guide/well-packaged-datasets/#write-a-table-schema) and [attach descriptive metadata](/field-guide/well-packaged-datasets/#add-your-dataset-s-metadata) to your data collection.
+This section requires knowledge on how to [write a Table Schema](/blog/2018/03/07/well-packaged-datasets/#write-a-table-schema) and [attach descriptive metadata](/blog/2018/03/07/well-packaged-datasets/#add-your-dataset-s-metadata) to your data collection.
 
 Creating and Sharing Data Packages is important for both data publishers and data users because it provides a common and open specification to describe your dataset's metadata. This facilitates data reuse, as users don't need to understand each data publisher's specific metadata format, and as the specification is machine-readable, it also allows tools to parse the metadata. This enables software to:
 
@@ -155,7 +155,7 @@ To summarize, these are the folders, files, and their respective contents in thi
 
 ** (Optional) Step 3. Enable automatic tabular data validation **
 
-You can automatically validate your tabular data files using [goodtables.io][gt.io]. This will take only a few minutes, and will ensure you'll always know when there are errors with your dataset, maintaining its quality. [Read the walkthrough here](/field-guide/automatically-validated-tabular-data).
+You can automatically validate your tabular data files using [goodtables.io][gt.io]. This will take only a few minutes, and will ensure you'll always know when there are errors with your dataset, maintaining its quality. [Read the walkthrough here](/blog/2018/03/12/automatically-validated-tabular-data).
 
 The sample datasets used in this example, that is, List of schools in Birmingham, UK are available [in this repository](https://github.com/vitorbaptista/birmingham_schools).
 

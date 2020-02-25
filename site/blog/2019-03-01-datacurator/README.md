@@ -70,7 +70,7 @@ Provenance information can be entered using [Markdown](http://commonmark.org "Ma
 
 ![Add provenance information screenshot](./data-curator-2.png)
 
-You should follow the [Readme FAQ](/docs/publish-faq/#readme "Publishing Data Packages - FAQ") when writing provenance information or, even easier, cut and paste from this [sample](https://github.com/ODIQueensland/data-curator/blob/develop/test/features/tools/sample-provenance-information.md "Sample Provenance Information Markdown file on GitHub").
+You should follow the [Readme FAQ](/blog/2018/07/16/publish-faq/ "Publishing Data Packages - FAQ") when writing provenance information or, even easier, cut and paste from this [sample](https://github.com/ODIQueensland/data-curator/blob/develop/test/features/tools/sample-provenance-information.md "Sample Provenance Information Markdown file on GitHub").
 
 ### Explain the meaning of codes
 
@@ -90,7 +90,7 @@ Applying a license, waiver, or public domain mark to a [data package](/specs/dat
 
 ![Apply open license to data package screenshot](./data-curator-3.png)
 
-Although there are many ways to [apply a licence, waiver or public domain mark](/docs/applying-licenses/ "Guide to applying licenses, waivers or public domain marks to data packages") to a data package, Data Curator only allows you to use open licences - after all, its purpose is to share usable open data.
+Although there are many ways to [apply a licence, waiver or public domain mark](/blog/2018/03/27/applying-licenses/ "Guide to applying licenses, waivers or public domain marks to data packages") to a data package, Data Curator only allows you to use open licences - after all, its purpose is to share usable open data.
 
 ### Export the data package
 

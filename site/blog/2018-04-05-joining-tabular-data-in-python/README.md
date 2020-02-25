@@ -5,7 +5,7 @@ tags: ["Python"]
 category: working-with-data-packages
 ---
 
-In a [separate guide](/docs/joining-data-in-python/), I walked through joining
+In a [separate guide](/blog/2018/04/06/joining-data-in-python/), I walked through joining
 a tabular dataset with one containing geographic information.  In this guide, I will demonstrate an example of joining two tabular datasets.
 
 <!-- more -->
@@ -61,8 +61,8 @@ gdp_dp = datapackage.DataPackage('https://raw.githubusercontent.com/frictionless
 ```
 
 Given that our source data has already been packaged in
-[Tabular Data Package](/docs/tabular-data-package/) format, we know
-that we have a [*schema*](/docs/table-schema/) for each CSV
+[Tabular Data Package](/data-package/#tabular-data-package) format, we know
+that we have a [*schema*](/table-schema/) for each CSV
 which specifies useful information for each column.  We'd like to
 merge and preserve this schema information as we'll need it for
 specifying the combined schema in our new Data Package.  Note that

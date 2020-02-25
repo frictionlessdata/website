@@ -12,7 +12,7 @@ Making existing data into a Data Package is very simple.
 And once you have packaged up your data making it available for others is as
 simple as [putting it online][online] or sending an email.
 
-[online]: /docs/publish-online/
+[online]: /blog/2018/08/29/publish-online/
 
 ## I want to package up and publish data that is &hellip;
 
@@ -20,20 +20,20 @@ simple as [putting it online][online] or sending an email.
 
 Rows and columns like in a spreadsheet? It's tabular &hellip;
 
-[Here's a tutorial on publishing tabular data](/docs/publish-tabular)
+[Here's a tutorial on publishing tabular data](/blog/2016/07/21/publish-tabular)
 
 ### Geospatial
 
 Map or location related? It's geospatial &hellip;
 
-[Here's a tutorial on publishing geodata](/docs/publish-geo)
+[Here's a tutorial on publishing geodata](/blog/2016/04/30/publish-geo)
 
 ### Any Kind
 
 Any kind of data you have - graph, binary, RDF &hellip;
 
-[Here's a tutorial on publishing other types of data](/docs/publish-any)
+[Here's a tutorial on publishing other types of data](/blog/2016/07/21/publish-any)
 
 !! Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
 
-[field-guide]: /field-guide
+[field-guide]: /data-package

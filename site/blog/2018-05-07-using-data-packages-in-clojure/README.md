@@ -133,11 +133,11 @@ We welcome your feedback and questions via our [Frictionless Data Gitter chat][f
 
 [dp]: /specs/data-package/
 [tdp]: /specs/tabular-data-package/
-[ts]: /docs/table-schema/
+[ts]: /table-schema/
 [toolfund]: https://toolfund.frictionlessdata.io
 [dp-clj]: https://github.com/frictionlessdata/datapackage-clj
 [ts-clj]: https://github.com/frictionlessdata/tableschema-clj
 [fd-gitter]: http://gitter.im/frictionlessdata/chat
 [dp-clj-issues]: https://github.com/frictionlessdata/datapackage-clj/issues
 [datapackage.json]: https://raw.githubusercontent.com/frictionlessdata/example-data-packages/62d47b454d95a95b6029214b9533de79401e953a/periodic-table/datapackage.json
-[toolfund-matt]: /articles/matt-thompson/
+[toolfund-matt]: /blog/2017/10/26/matt-thompson/

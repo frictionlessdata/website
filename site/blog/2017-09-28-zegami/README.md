@@ -52,7 +52,7 @@ In terms of the next steps for us, we are currently working on a SaaS implementa
 [^handsontable]: Handsontable: Javascript spreadsheet component for web apps: <https://handsontable.com>
 [^dpp]: Data Package Pipelines: <https://github.com/frictionlessdata/datapackage-pipelines>
 [^dask]:Dask Custom Graphs: <http://dask.pydata.org/en/latest/custom-graphs.html>
-[^datapackage]: Data Packages: [/data-packages](/data-packages)
+[^datapackage]: Data Packages: [/data-package](/data-package)
 [^dreamfactory]: Dream Factory: <https://www.dreamfactory.com/>
 [wqio]: https://wq.io/
 [^ckan]: CKAN: Open Source Data Portal Platform: <https://ckan.org>

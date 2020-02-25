@@ -370,7 +370,7 @@ Use a field of type [GeoJSON](/specs/table-schema/#geojson) to represent locatio
 ### Frictionless data
 
 * [Table Schema](/specs/table-schema/)
-* [Publishing Geospatial Data as a Data Package](/docs/publish-geo/)
+* [Publishing Geospatial Data as a Data Package](/blog/2016/04/30/publish-geo/)
 * [Spatial Data Package investigation - research and report by Steve Bennett](https://research.okfn.org/spatial-data-package-investigation/)
 
 ### World Wide Web Consortium (W3C)
@@ -394,12 +394,12 @@ The Open Geospatial Consortium - [OpenGIS Simple Feature Access](http://www.open
 
 !! Recommended reading: We recently commissioned research work to determine how necessary and useful it would be to create a Geo Data Package as a core Frictionless Data offering. Follow the discussions [here on Discuss](https://discuss.okfn.org/t/geo-data-package/6143) and read [the final report into the spatial data package investigation by Steve Bennett](https://research.okfn.org/spatial-data-package-investigation/). Examples following the recommendations in this research will be added in due course.
 
-[dp]: /docs/data-package
-[dp-main]: /data-packages
-[tdp]: /docs/tabular-data-package/
-[ts]: /docs/table-schema/
+[dp]: /data-package
+[dp-main]: /data-package
+[tdp]: /data-package/#tabular-data-package
+[ts]: /table-schema/
 [ts-types]: /specs/table-schema/#field-descriptors
-[csv]: /docs/csv/
+[csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
 
 [spec-dp]: /specs/data-package/
@@ -408,10 +408,10 @@ The Open Geospatial Consortium - [OpenGIS Simple Feature Access](http://www.open
 [spec-csvddf]: /specs/csv-dialect/
 
 [publish]: /docs/publish/
-[pub-tabular]: /docs/publish-tabular/
-[pub-online]: /docs/publish-online/
-[pub-any]: /docs/publish-any/
-[pub-geo]: /docs/publish-geo/
+[pub-tabular]: /blog/2016/07/21/publish-tabular/
+[pub-online]: /blog/2018/08/29/publish-online/
+[pub-any]: /blog/2016/07/21/publish-any/
+[pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /docs/publish-faq/
 
 [tools]: /software/
