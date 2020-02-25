@@ -120,7 +120,7 @@ Now we are ready to write our `datapackage.json` file to the current working dir
     dataPackage$save('example_data')
 ```
 
-The `datapackage.json` ([download](https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/example_data/package.json)) is inlined below. Note that atomic number has been correctly inferred as an `integer` and atomic mass as a `number` (float) while every other column is a `string`.
+The `datapackage.json` ([download](https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/exampledata/package.json)) is inlined below. Note that atomic number has been correctly inferred as an `integer` and atomic mass as a `number` (float) while every other column is a `string`.
 
 ```
     jsonlite::prettify(helpers.from.list.to.json(dataPackage$descriptor))

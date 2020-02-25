@@ -24,7 +24,7 @@ Energy Data
 - Frictionless Data specs: http://specs.frictionlessdata.io/
 - Data Package Pipelines: https://github.com/frictionlessdata/datapackage-pipelines
 - Goodtables: https://github.com/frictionlessdata/goodtables-py
-- Packagist: http://packagist.io/
+- Packagist: https://packagist.org/
 
 !! packagist.io has now moved to [create.frictionlessdata.io](http://create.frictionlessdata.io)
 

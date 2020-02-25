@@ -53,7 +53,7 @@ In this case, we are using an example Tabular Data Package containing the period
 Data Packages can be loaded either from a local path or directly from the web.
 
 ```r
-    url = 'https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/example_data/package.json'
+    url = 'https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/exampledata/package.json'
     datapackage = Package.load(url)
     datapackage$resources[[1]]$descriptor$profile = 'tabular-data-resource' # tabular resource descriptor profile
     datapackage$resources[[1]]$commit() # commit changes

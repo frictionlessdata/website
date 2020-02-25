@@ -9,7 +9,7 @@ image: /img/blog/john-snow-labs-logo.png
 description: Turnkey data to data science, analytics and software teams in healthcare industry.
 ---
 
-[John Snow Labs](http://www.johnsnowlabs.com/) accelerates data science and analytics teams, by providing clean, rich and current data sets for analysis. Our customers typically license between 50 and 500 data sets for a given project, so providing both data and metadata in a simple, standard format that is easily usable with a wide range of tools is important.
+[John Snow Labs](https://www.johnsnowlabs.com/) accelerates data science and analytics teams, by providing clean, rich and current data sets for analysis. Our customers typically license between 50 and 500 data sets for a given project, so providing both data and metadata in a simple, standard format that is easily usable with a wide range of tools is important.
 
 Each data set we license is curated by a domain expert, which then goes through both an automated DataOps platform and a manual review process. This is done in order to deal with a string of data challenges. First, it’s often hard to find the right data sets for a given problem. Second, data files come in different formats, and include dirty and missing data. Data types are inconsistent across different files, making it hard to join multiple data sets in one analysis. Null values, dates, currencies, units and identifiers are represented differently. Datasets aren’t updated on a standard or public schedule, which often requires manual labor to know when they’ve been updated. And then, data sets from different sources have different licenses - we use over 100 data sources which means well over 100 different
 data licenses that we help our clients be compliant with.
