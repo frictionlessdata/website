@@ -50,11 +50,11 @@
       />
     </Page>
 
-  <FooterSidebar v-if="$page.frontmatter.layout !== 'home'"/>
+  <FooterSidebar v-if="$page.frontmatter.layout !== 'home' && !this.isBlogIndexPage" />
 
   </div>
 
-  <Footer v-if="$page.frontmatter.layout === 'home'"/>
+  <Footer v-if="$page.frontmatter.layout === 'home' || this.isBlogIndexPage" />
 </div>
 </template>
 
