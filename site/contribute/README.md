@@ -1,11 +1,6 @@
----
-title: Contribute
-layout: Layout 
----
-
 # Contribute
  
-Even considering the fact that Frictionless Data is a software community, you don't have to be a software developer to contribute. The first step to become a Frictionless Data contributor is to become a Frictionless Data user. You may use it as an "end-user," or as a developer of a library that relies on Data Packages, for instance. Once you start following the features, ideas for expansion will come easily.
+We welcome contributions -- and you don't have to be a software developer to get involved. The first step to become a Frictionless Data contributor is to become a Frictionless Data user. You may use it as an "end-user," or as a developer of a library that relies on Data Packages, for instance.
  
 ## Issues
 
@@ -15,13 +10,7 @@ Report issues with projects in their own issue tracker, on GitHub. Doubts on whe
 
 Talking about getting yourself heard, we welcome contributions seeking to advocate and educate people in the data space. Given that we work on specifications and tools for a Frictionless Data experience, you may decide that [writing tutorials](./blog), [improving documentation](./docs), or even speaking at conferences is your favorite way of contributing. You don't have to ask permission to talk about Frictionless Data, but we love hearing when people tell us beforehand because we can try to help on sharing the news with a wider audience.
  
-## Fund
+## Coding
 
-Last, but not least, you may decide that you want to fund Frictionless Data with money. Please do it through donations to Open Knowledge International, in the name of the project, or contact us for commercial contracts.
+Look for issues with "help wanted" or "first-time contributor."
  
-* List issues "help wanted" "first-time contributor."
- 
-## Help
- 
-* Free support e.g., Stack Overflow, Gitter, GitHub issues.
-* Paid support.

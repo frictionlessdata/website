@@ -1,5 +1,5 @@
 ---
-title: André Heughebaert
+title: "Tool Fund Grantee: André Heughebaert"
 date: 2019-09-12
 tags:
 category: grantee-profiles-2019

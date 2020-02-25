@@ -1,5 +1,5 @@
 ---
-title: Matt Thompson
+title: "Tool Fund Grantee: Matt Thompson"
 date: 2017-10-26  
 tags:
 category: grantee-profiles

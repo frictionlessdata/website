@@ -7,8 +7,6 @@ github: datapackage-py, datapackage-js, datapackage-ui, datapackage-php, datapac
 layout: product
 ---
 
-![](../../job-stories.png)
-
 Data Package provides a way to declare metadata for one or many datasets. The Data Package descriptor can be represented as JSON or any other simple data format that a programming language supports.
  
 Metadata about a dataset is arguably as important as the data itself. Metadata allows us to understand something about the context of the data, and this is critical to our understanding of what we know about the data we are working with (is it from a reliable source?), and how it can be used.
@@ -24,8 +22,6 @@ Data Package is part of [Frictionless Data](https://frictionlessdata.io), a proj
 - Metadata conventions
 - Data provenance
 - Relationships between datasets
- 
-[IMAGE]
  
 ## Check it out
  

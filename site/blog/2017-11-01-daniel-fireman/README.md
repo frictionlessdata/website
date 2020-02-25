@@ -1,5 +1,5 @@
 ---
-title: Daniel Fireman
+title: "Tool Fund Grantee: Daniel Fireman"
 date: 2017-11-01
 tags:
 category: grantee-profiles

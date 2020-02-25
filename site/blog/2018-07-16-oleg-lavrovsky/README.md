@@ -1,5 +1,5 @@
 ---
-title: Oleg Lavrovsky
+title: "Tool Fund Grantee: Oleg Lavrovsky"
 date: 2018-07-16
 tags:
 category: grantee-profiles

@@ -1,67 +1,56 @@
 <template>
-  <div>
-    <div class="banner hero-section">
-      <div class="banner">
-      <main class="container relative mx-auto">
-        <header class="hero flex flex-row items-center">
-          <div class="container w-2/3 pt-32 pb-16 pl-8">
-            <h1 class="text-5xl pb-2 text-white font-medium pt-" v-if="data.heroText !=='null'"> {{ data.heroText || 'Frictionless Data' }} </h1>
-            <p class="description pb-6 text-white text-2xl">
-              {{ $page.frontmatter.tagline || $description || 'Welcome to Frictionless Data' }}
-            </p>
-            <div class="container inline">
-              <button class="w-48 rounded-full button-hero h-16 font-medium text-xl shadow-lg">Learn more</button>
-            </div>
-            <div class="container pl-4 inline">
-              <button class="w-48 rounded-full button-hero2 h-16 font-medium text-xl shadow-lg">Get started</button>
-             </div>
-          </div>
-         
-          <div class="container w-1/3">
-            <!-- <img class="pl-48"
-              v-if="data.heroImage"
-              :src="$withBase(data.heroImage)"
-              :alt="data.heroAlt || 'hero'"
-            > -->
-          </div>
-          
-        </header>
-        
-        <div class="banner pl-8 pr-16">
-          <hr>
-        </div>
-          <div class="flex flex-row flex-wrap">
-            <div class="w-1/3">
-              <div class="pt-20 text-left p-8">
-                <!-- <img class="h-24 pb-4" src="/img/home/dot-light-blue.svg"></img> -->
-                <h1 class="text-2xl font-normal text-white">Approachable</h1>
-                <p class="text-xl text-white font-light pb-12">We keep things as simple as possible. Read the guide and start using and building  in no time!</p>
-              </div>
-            </div>
-            <div class="w-1/3">
-              <div class="pt-20 text-left p-8">
-                <!-- <img class="h-24 pb-4" src="/img/home/dot-dark-blue.svg"></img> -->
-                <h1 class="text-2xl font-normal text-white">Versatile</h1>
-                <p class="text-xl text-white font-light pb-12">An incrementally adoptable ecosystem that scales between a library and a full-featured framework and which works whether you are wrangling an Excel file or working with Terabytes.
-                </p>
-              </div>
-            </div>
-            <div class="w-1/3">
-              <div class="pt-20 text-left p-8">
-                <!-- <img class="h-24 pb-4" src="/img/home/dot-violet.svg"></img> -->
-                <h1 class="text-2xl font-normal text-white">Progressive</h1>
-                <p class="text-xl text-white font-light pb-12">We work with your existing tooling and data, enhancing and adding to it. – not replacing it!</p>
-              </div>
-            </div>
-          </div>
+  <main class="home" aria-labelledby="main-title">
+    <header class="hero">
+      <img
+        v-if="data.heroImage"
+        :src="$withBase(data.heroImage)"
+        :alt="data.heroAlt || 'hero'"
+      >
 
-      </main>
+      <h1>
+        The
+        <span class="tooltip" data-tooltip="zen = simple, minimal, clean, powerful">zen</span>
+        framework for data integration
+      </h1>
+
+      <p class="description">
+        {{ data.tagline || $description || 'Welcome to your VuePress site' }}
+      </p>
+
+      <p
+        class="action"
+        v-if="data.actionText && data.actionLink"
+      >
+        <NavLink
+          class="action-button"
+          :item="actionLink"
+        />
+      </p>
+    </header>
+
+    <div
+      class="features"
+      v-if="data.features && data.features.length"
+    >
+      <div
+        class="feature"
+        v-for="(feature, index) in data.features"
+        :key="index"
+      >
+        <h2>{{ feature.title }}</h2>
+        <p>{{ feature.details }}</p>
       </div>
     </div>
-    <div class="banner">
+
     <Content class="theme-default-content custom"/>
+
+    <div
+      class="footer"
+      v-if="data.footer"
+    >
+      {{ data.footer }}
     </div>
-  </div>  
+  </main>
 </template>
 
 <script>
@@ -86,31 +75,125 @@ export default {
 </script>
 
 <style lang="stylus">
+.home
+  padding $navbarHeight 2rem 0
+  max-width 960px
+  margin 0px auto
+  display block
+  .hero
+    text-align center
+    img
+      max-width: 100%
+      max-height 280px
+      display block
+      margin 3rem auto 1.5rem
+    h1
+      font-size 3rem
+    h1, .description, .action
+      margin 1.8rem auto
+    .description
+      max-width 35rem
+      font-size 1.6rem
+      line-height 1.3
+      color lighten($textColor, 40%)
+    .action-button
+      display inline-block
+      font-size 1.2rem
+      color #fff
+      background-color $accentColor
+      padding 0.8rem 1.6rem
+      border-radius 4px
+      transition background-color .1s ease
+      box-sizing border-box
+      border-bottom 1px solid darken($accentColor, 10%)
+      &:hover
+        background-color lighten($accentColor, 10%)
+  .features
+    border-top 1px solid $borderColor
+    padding 1.2rem 0
+    margin-top 2.5rem
+    display flex
+    flex-wrap wrap
+    align-items flex-start
+    align-content stretch
+    justify-content space-between
+  .feature
+    flex-grow 1
+    flex-basis 30%
+    max-width 30%
+    h2
+      font-size 1.4rem
+      font-weight 500
+      border-bottom none
+      padding-bottom 0
+      color lighten($textColor, 10%)
+    p
+      color lighten($textColor, 25%)
+  .footer
+    padding 2.5rem
+    border-top 1px solid $borderColor
+    text-align center
+    color lighten($textColor, 25%)
 
-.button-hero {
-  background-color: white;
-  color: #1A98FF;
-  border-style: solid;
-  cursor: pointer;
-}
+.tooltip
+  position relative
+  border-bottom: 1px dotted #6a8cad;
 
-.button-hero2 {
-  background-color: #8665db;
-  color: white;
-  border-style: solid;
-  cursor: pointer;
-}
+.tooltip::before, .tooltip::after
+  position absolute
+  opacity 0
+  left 30%
+  transition all ease 0.3s
 
-.image-section {
-  background-image: url("/img/home/hero-background-lower-op.svg");
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+.tooltip::before
+  content ""
+  border-width 10px 8px 0 8px
+  border-style solid
+  border-color rgba(0,0,0,0.3) transparent transparent transparent
+  top -5px
 
-.hero-section {
-  background: rgb(148,93,214);
-  background: linear-gradient(223deg, rgba(148,93,214,0.8) 0%, rgba(30,162,255,1.0) 60%);
+.tooltip::after
+  content: attr(data-tooltip)
+  background rgba(0,0,0,0.3)
+  font-size 14px
+  top -5px
+  transform translateY(-100%)
+  margin-left -120px
+  width 230px
+  border-radius 10px
+  color #222
+  padding 14px
 
-}
+.tooltip:hover::before, .tooltip:hover::after
+  opacity 1
 
+@media (max-width: $MQMobile)
+  .home
+    .features
+      flex-direction column
+    .feature
+      max-width 100%
+      padding 0 2.5rem
+
+@media (max-width: $MQMobileNarrow)
+  .home
+    padding-left 1.5rem
+    padding-right 1.5rem
+    .hero
+      img
+        max-height 210px
+        margin 2rem auto 1.2rem
+      h1
+        font-size 2rem
+      h1, .description, .action
+        margin 1.2rem auto
+      .description
+        font-size 1.2rem
+      .action-button
+        font-size 1rem
+        padding 0.6rem 1.2rem
+    .feature
+      h2
+        font-size 1.25rem
 </style>
+

@@ -2,9 +2,9 @@
 title: Team
 ---
 
-<h1 class="text-3xl text-semibold">Team</h1>
+# Team
 
-<h2 class="text-2xl pb-4">Active Core Team Members</h2>
+## Active Core Team Members
 
 The development of Frictionless and its ecosystem is guided by an international team, some of whom have chosen to be featured below.
 
@@ -14,7 +14,7 @@ The development of Frictionless and its ecosystem is guided by an international 
 	:profile="profile" />
 
 
-<h2 class="text-2xl pb-4 pt-4">Core Team Emeriti</h2>
+## Core Team EmeritiS
 
 Here we honor some no-longer-active core team members who have made valuable contributions in the past.
 
@@ -24,7 +24,7 @@ Here we honor some no-longer-active core team members who have made valuable con
 	:profile="profile" />
 
 
-<h2 class="text-2xl pb-4 pt-4">Community Partners</h2>
+## Community Partners
 
 Some members of the Frictionless community have so enriched it, that they deserve special mention. We've developed a more intimate relationship with these key partners, often coordinating with them on upcoming features and news.
 

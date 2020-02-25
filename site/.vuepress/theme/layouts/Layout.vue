@@ -1,4 +1,5 @@
 <template>
+<div class="banner w-full bg-yellow">
   <div
     class="theme-container"
     :class="pageClasses"
@@ -48,7 +49,13 @@
         slot="bottom"
       />
     </Page>
+
+  <FooterSidebar v-if="$page.frontmatter.layout !== 'home'"/>
+
   </div>
+
+  <Footer v-if="$page.frontmatter.layout === 'home'"/>
+</div>
 </template>
 
 <script>
@@ -60,10 +67,12 @@ import Job from '../components/Job.vue'
 import Navbar from '@theme/components/Navbar.vue'
 import Page from '@theme/components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
+import Footer from '../components/Footer.vue'
+import FooterSidebar from '../components/FooterSidebar.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  components: { Home, Product, BlogIndex, BlogPost, Job, Page, Sidebar, Navbar },
+  components: { Home, Product, BlogIndex, BlogPost, Job, Page, Sidebar, Navbar, Footer, FooterSidebar },
 
   data () {
     return {
