@@ -29,8 +29,8 @@ In a certain sense, a Tabular Data Package is sort of like an open-source, cross
 
 To read more about Data Package integration at [data.world][dataworld], read our post: [Try This: Frictionless data.world](https://meta.data.world/try-this-frictionless-data-world-ad36b6422ceb#.rbbf8k40t).  Sign up, and starting playing with data.
 
-[^package]: Tabular Data Package: [/docs/tabular-data-package](/docs/tabular-data-package)
-[^datapackage]: Data Packages: [/data-packages](/data-packages)
+[^package]: Tabular Data Package: [/data-package/#tabular-data-package](/data-package/#tabular-data-package)
+[^datapackage]: Data Packages: [/data-package](/data-package)
 [^rdf]: RDF: Resource Description Framework: <https://www.w3.org/RDF/>
 [^tdp]: Tabular Data Package specifications: [/specs/tabular-data-package](/specs/tabular-data-package)
 [^skos]: SKOS: Simple Knowledge Organization System: <https://www.w3.org/2004/02/skos/>

@@ -12,7 +12,7 @@ Under the Frictionless Data umbrella, there are several useful tools and ideas t
  
 ### Data Curator
  
-Data Curator is a simple desktop data editor to help describe, validate and share usable open data. It uses [Table Schema](https://frictionlessdata.io/table-schema) and [Data Package](https://frictionlessdata.io/data-package) to import and export data, and also for the internal representation of data.
+Data Curator is a simple desktop data editor to help describe, validate and share usable open data. It uses [Table Schema](/products/table-schema/) and [Data Package](/products/data-package/) to import and export data, and also for the internal representation of data.
  
 [Find out more](https://github.com/ODIQueensland/data-curator)
  

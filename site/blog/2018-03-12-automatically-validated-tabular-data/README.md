@@ -12,7 +12,7 @@ One-off validation of your tabular datasets can be hectic, especially where plen
 
 Running continuous checks on data provides regular feedback and contributes to better data quality as errors can be flagged and fixed early on. This section introduces you to tools that continually check your data for errors and flag content and structural issues as they arise. By eliminating the need to run manual checks on tabular datasets every time they are updated, they make your data workflow more efficient.
 
-In this section, you will learn how to setup automatic tabular data validation using goodtables, so your data is validated every time it's updated. Although not strictly necessary, it's useful to [know about Data Packages and Table Schema](/field-guide/well-packaged-datasets) before proceeding, as they allow you to describe your data in more detail, allowing more advanced validations.
+In this section, you will learn how to setup automatic tabular data validation using goodtables, so your data is validated every time it's updated. Although not strictly necessary, it's useful to [know about Data Packages and Table Schema](/blog/2018/03/07/well-packaged-datasets/) before proceeding, as they allow you to describe your data in more detail, allowing more advanced validations.
 
 We will show how to set up automated tabular data validations for data published on:
 
@@ -54,7 +54,7 @@ Once you have tabular data in your Github repository:
 1. Once we've synchronized your repository list, go to the [Manage Sources](https://goodtables.io/settings) page and enable the repository with the data you want to validate.
     * If you can't find the repository, try clicking on the Refresh button on the Manage Sources page
 
-Goodtables will then validate all tabular data files (CSV, XLS, XLSX, ODS) and [data packages](/data-packages/) in the repository. These validations will be executed on every change, including pull requests.
+Goodtables will then validate all tabular data files (CSV, XLS, XLSX, ODS) and [data packages](/data-package/) in the repository. These validations will be executed on every change, including pull requests.
 
 
 ## Validate tabular data automatically on Amazon S3
@@ -81,7 +81,7 @@ The instructions on how to do this are technical, and can be found on [https://g
 [bucket-overview]: https://s3.console.aws.amazon.com/s3/buckets/ "Amazon S3 Bucket list"
 [gh-new-repo]: https://help.github.com/articles/create-a-repo/ "GitHub: Create new repository tutorial"
 [gtio-managesources]: https://goodtables.io/settings "Goodtables.io: Manage sources"
-[datapackage]: /data-packages/ "Data Package"
+[datapackage]: /data-package/ "Data Package"
 [gtio-dataschema]: writing_data_schema.html "Writing a data schema"
 [gtio-configuring]: configuring.html "Configuring goodtables.io"
 [gt-py]: https://github.com/frictionlessdata/goodtables-py

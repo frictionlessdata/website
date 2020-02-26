@@ -52,7 +52,7 @@ on the key "ISO_A3" of the feature's `properties` object.
 ```
 
 The second Data Package is a typical
-[Tabular Data Package](/docs/tabular-data-package/) containing a GDP
+[Tabular Data Package](/data-package/#tabular-data-package) containing a GDP
 measure for each country in the world for the year 2014.  Country
 codes are stored, naturally, on the "Country Code" column.
 
@@ -67,7 +67,7 @@ codes are stored, naturally, on the "Country Code" column.
 ## Reading and Joining Data
 
 As in our
-[Using Data Packages in Python guide](/docs/using-data-packages-in-python),
+[Using Data Packages in Python guide](/blog/2016/08/29/using-data-packages-in-python/),
 the first step before joining is to read the data for each Data
 Package onto our computer.  We do this by importing the `datapackage`
 library and passing the Data Package url to its `DataPackage` method.
@@ -88,7 +88,7 @@ world = json.loads(countries_dp.get_resource('countries').raw_read().decode('UTF
 
 ```
 
-!!! Learn more about creating data packages in Python [in this tutorial](/docs/creating-tabular-data-packages-in-python).
+!!! Learn more about creating data packages in Python [in this tutorial](/blog/2016/07/21/creating-tabular-data-packages-in-python/).
 
 Our GeoJSON data is stored as a `bytes` object in the `data` attribute
 of the first (and only) element of the Data Package `resources` array.
@@ -120,7 +120,7 @@ Finally, we can output our consolidated GeoJSON dataset into a new
 file called "world_gdp_2014.geojson" using `json.dump` and create a
 new Data Package container for it.  For a more thorough walkthrough on
 creating a Data Package, please consult the
-[Creating Data Packages in Python](/docs/creating-tabular-data-packages-in-python/)
+[Creating Data Packages in Python](/blog/2016/07/21/creating-tabular-data-packages-in-python/)
 guide.
 
 ```python

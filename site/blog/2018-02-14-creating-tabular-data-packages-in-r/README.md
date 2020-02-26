@@ -175,7 +175,7 @@ The `datapackage.json` ([download](https://raw.githubusercontent.com/okgreece/da
 
 ## Publishing
 
-Now that you have created your Data Package, you might want to [publish your data online](/guides/publish-online/) so that you can share it with others.
+Now that you have created your Data Package, you might want to [publish your data online](/blog/2016/08/29/publish-online/) so that you can share it with others.
 
 !! Now that you have created a data package in R, [find out how to use data packages in R in this tutorial][use-r].
 
@@ -185,9 +185,9 @@ Now that you have created your Data Package, you might want to [publish your dat
 [toolfund]: https://toolfund.frictionlessdata.io
 [toolfund-okgreece]:https://frictionlessdata.io/articles/open-knowledge-greece/
 [dp-r]: https://github.com/frictionlessdata/datapackage-r
-[ts]: /docs/table-schema/
+[ts]: /table-schema/
 [r-devtools]: https://cran.r-project.org/package=devtools
 [fd-gitter]: http://gitter.im/frictionlessdata/chat
 [dp-r-issues]: https://github.com/frictionlessdata/datapackage-r/issues
 
-[use-r]: /docs/using-data-packages-in-r/
+[use-r]: /blog/2018/02/14/using-data-packages-in-r/

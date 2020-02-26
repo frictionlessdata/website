@@ -57,7 +57,7 @@ folder
 
 It is recommended that the licence is provided in [markdown](http://commonmark.org) format to simplify its display in data platforms and other software.
 
-The license can be a separate file or included in the README.md file. If license information is included in the README.md file, it is recommended that it follows the [guide for formatting a README file](/guides/publish-faq/#readme).
+The license can be a separate file or included in the README.md file. If license information is included in the README.md file, it is recommended that it follows the [guide for formatting a README file](/blog/2018/07/16/publish-faq/#readme).
 
 ## Applying a license
 

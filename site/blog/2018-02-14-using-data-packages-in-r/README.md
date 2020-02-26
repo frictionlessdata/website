@@ -170,9 +170,9 @@ We welcome your feedback and questions via our [Frictionless Data Gitter chat][f
 [toolfund]: https://toolfund.frictionlessdata.io
 [toolfund-okgreece]:https://frictionlessdata.io/articles/open-knowledge-greece/
 [dp-r]: https://github.com/frictionlessdata/datapackage-r
-[ts]: /docs/table-schema/
+[ts]: /table-schema/
 [r-devtools]: https://cran.r-project.org/package=devtools
 [fd-gitter]: http://gitter.im/frictionlessdata/chat
 [dp-r-issues]: https://github.com/frictionlessdata/datapackage-r/issues
 
-[create-r]: /docs/creating-tabular-data-packages-in-r/
+[create-r]: /blog/2018/02/14/creating-tabular-data-packages-in-r/

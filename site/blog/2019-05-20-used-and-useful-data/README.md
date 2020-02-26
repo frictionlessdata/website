@@ -137,7 +137,7 @@ Congratulations! You have now created a schema for your data, and combined it wi
 
 Running continuous checks on data provides regular feedback and contributes to better data quality as errors can be flagged and fixed early on.
 
-In this section, you will learn how to setup automatic tabular data validation using goodtables, so your data is validated every time it's updated. Although not strictly necessary, it's useful to [know about Data Packages and Table Schema](/field-guide/well-packaged-datasets) before proceeding, as they allow you to describe your data in more detail, allowing more advanced validations.
+In this section, you will learn how to setup automatic tabular data validation using goodtables, so your data is validated every time it's updated. Although not strictly necessary, it's useful to [know about Data Packages and Table Schema](/blog/2018/03/07/well-packaged-datasets/) before proceeding, as they allow you to describe your data in more detail, allowing more advanced validations.
 
 We will show how to set up automated tabular data validations for data published on:
 
@@ -174,7 +174,7 @@ Once you have tabular data in your Github repository:
 1. Once we've synchronized your repository list, go to the [Manage Sources](https://goodtables.io/settings) page and enable the repository with the data you want to validate.
     * If you can't find the repository, try clicking on the Refresh button on the Manage Sources page
 
-Goodtables will then validate all tabular data files (CSV, XLS, XLSX, ODS) and [data packages](/data-packages/) in the repository. These validations will be executed on every change, including pull requests.
+Goodtables will then validate all tabular data files (CSV, XLS, XLSX, ODS) and [data packages](/data-package/) in the repository. These validations will be executed on every change, including pull requests.
 
 ### Validate tabular data automatically on Amazon S3
 
@@ -309,7 +309,7 @@ README.md
 * **docs/**: Images, sample analysis, and other documentation files regarding the dataset. The main documentation is in `README.md`, but in this folder you can add any images used in the README, and other writings about the dataset.
 * **scripts/**: All scripts are contained in this folder. There could be scripts to scrape the data, join different files, clean them, etc. Depending on the programming language you use, you might also add requirements files like `requirements.txt` for Python, or `package.json` for NodeJS.
 * **Makefile**: The scripts are only part of the puzzle, we also need to know how to run them. In which order they should be executed, which one should I run to update the data, and so on. You could document this information textually in the `README.md` file, but the `Makefile` allows you to have executable documentation. You can think of it as a script to run the scripts. If you have never written a Makefile, read [Why Use Make](https://bost.ocks.org/mike/make/).
-* **datapackage.json**: This file describes the dataset's metadata. For example, what is the dataset, where are its files, what they contain, what each column means (for tabular data), what's the source, license, and authors, and so on. As it's a machine-readable specification, other software can import and validate your files. See [how to create a data package](/field-guide/well-packaged-datasets) on instructions on writing this file.
+* **datapackage.json**: This file describes the dataset's metadata. For example, what is the dataset, where are its files, what they contain, what each column means (for tabular data), what's the source, license, and authors, and so on. As it's a machine-readable specification, other software can import and validate your files. See [how to create a data package](/blog/2018/03/07/well-packaged-datasets/) on instructions on writing this file.
 * **README.md**: This is where the dataset is described for humans. We recommend the following sections:
   * **Introduction**: A short description of the dataset, what it contains, the time or geographical area it covers
   * **Data**: What the data structure? Does it use any codes? How do you define missing values (e.g. 'N/A' or '-1')
@@ -338,7 +338,7 @@ To summarize, these are the folders, files, and their respective contents in thi
 
 ** (Optional) Step 3. Enable automatic tabular data validation **
 
-You can automatically validate your tabular data files using [goodtables.io][gt.io]. This will take only a few minutes, and will ensure you'll always know when there are errors with your dataset, maintaining its quality. [Read the walkthrough here](/field-guide/automatically-validated-tabular-data).
+You can automatically validate your tabular data files using [goodtables.io][gt.io]. This will take only a few minutes, and will ensure you'll always know when there are errors with your dataset, maintaining its quality. [Read the walkthrough here](/blog/2018/03/12/automatically-validated-tabular-data).
 
 The sample datasets used in this example, that is, List of schools in Birmingham, UK are available [in this repository](https://github.com/vitorbaptista/birmingham_schools).
 
@@ -423,6 +423,6 @@ Finally, to maintain an active community of data users as a data publisher:
 [bucket-overview]: https://s3.console.aws.amazon.com/s3/buckets/ "Amazon S3 Bucket list"
 [gh-new-repo]: https://help.github.com/articles/create-a-repo/ "GitHub: Create new repository tutorial"
 [gtio-managesources]: https://goodtables.io/settings "Goodtables.io: Manage sources"
-[datapackage]: /data-packages/ "Data Package"
+[datapackage]: /data-package/ "Data Package"
 [gtio-dataschema]: writing_data_schema.html "Writing a data schema"
 [gtio-configuring]: configuring.html "Configuring goodtables.io"

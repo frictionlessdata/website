@@ -5,7 +5,7 @@ tags:
 category: validating-data
 ---
 
-Tabular data (e.g. data stored in [CSV](/docs/csv/) and Excel worksheets) is one of the most common forms of data available on the web. This guide will walk through validating tabular data using Frictionless Data software.
+Tabular data (e.g. data stored in [CSV](/blog/2018/07/09/csv/) and Excel worksheets) is one of the most common forms of data available on the web. This guide will walk through validating tabular data using Frictionless Data software.
 
 This guide show how you can validate your tabular data and check both:
 
@@ -57,7 +57,7 @@ Table Schema.
 Briefly, the format allows users to specify not only
 the types of information within each column in a tabular dataset, but
 also expected values.  For more information, see the
-[Table Schema guide](/docs/table-schema/) or
+[Table Schema guide](/table-schema/) or
 [the full standard](/specs/table-schema/).
 
 ## Python + goodtables
@@ -106,14 +106,14 @@ See the `README.md` for more information.
 
 !! Find more examples on validating tabular data in the [Frictionless Data Field Guide][field-guide]
 
-[dp]: /docs/data-package
-[dp-main]: /data-packages
-[tdp]: /docs/tabular-data-package/
-[ts]: /docs/table-schema/
+[dp]: /data-package
+[dp-main]: /data-package
+[tdp]: /data-package/#tabular-data-package
+[ts]: /table-schema/
 [ts-types]: /specs/table-schema/#field-descriptors
-[csv]: /docs/csv/
+[csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
-[field-guide]: /field-guide
+[field-guide]: /data-package
 
 [spec-dp]: /specs/data-package/
 [spec-tdp]: /specs/tabular-data-package/
@@ -121,10 +121,10 @@ See the `README.md` for more information.
 [spec-csvddf]: /specs/csv-dialect/
 
 [publish]: /docs/publish/
-[pub-tabular]: /docs/publish-tabular/
-[pub-online]: /docs/publish-online/
-[pub-any]: /docs/publish-any/
-[pub-geo]: /docs/publish-geo/
+[pub-tabular]: /blog/2016/07/21/publish-tabular/
+[pub-online]: /blog/2018/08/29/publish-online/
+[pub-any]: /blog/2016/07/21/publish-any/
+[pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /docs/publish-faq/
 
 [tools]: /software/

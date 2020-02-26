@@ -9,7 +9,7 @@ body: This tutorial is about how to publish your Data Package online for others 
 find and use.
 
 It assumes you have already finished packaging up your data as a Data Package
-(if not, [check out the instructions here](/docs/publish-data-as-data-packages/)).
+(if not, [check out the instructions here](/blog/2018/07/16/publish-data-as-data-packages/)).
 
 ## It's Just Files Online
 
@@ -119,4 +119,4 @@ mind:
 
 !! Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
 
-[field-guide]: /field-guide
+[field-guide]: /data-package

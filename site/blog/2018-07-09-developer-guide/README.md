@@ -198,12 +198,12 @@ Following "Node" style we have partitioned the Javascript library into pieces, s
 
 Related blog post: <http://okfnlabs.org/blog/2017/10/05/frictionless-data-specs-v1-updates.html>
 
-[dp]: /docs/data-package
-[dp-main]: /data-packages
-[tdp]: /docs/tabular-data-package/
-[ts]: /docs/table-schema/
+[dp]: /data-package
+[dp-main]: /data-package
+[tdp]: /data-package/#tabular-data-package
+[ts]: /table-schema/
 [ts-types]: /specs/table-schema/#field-descriptors
-[csv]: /docs/csv/
+[csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
 
 [spec-dp]: /specs/data-package/
@@ -212,10 +212,10 @@ Related blog post: <http://okfnlabs.org/blog/2017/10/05/frictionless-data-specs-
 [spec-csvddf]: /specs/csv-dialect/
 
 [publish]: /docs/publish/
-[pub-tabular]: /docs/publish-tabular/
-[pub-online]: /docs/publish-online/
-[pub-any]: /docs/publish-any/
-[pub-geo]: /docs/publish-geo/
+[pub-tabular]: /blog/2016/07/21/publish-tabular/
+[pub-online]: /blog/2018/08/29/publish-online/
+[pub-any]: /blog/2016/07/21/publish-any/
+[pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /docs/publish-faq/
 
 [tools]: /software/

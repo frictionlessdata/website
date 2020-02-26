@@ -13,7 +13,7 @@ In this section, we will learn how to carry out one-time data validation using
 * a free web tool called [try.goodtables.io](https://try.goodtables.io),
 * the goodtables command line tool which you use in your local machine.
 
-Our working assumption is that you already know what a data schema and a data package are, and how to create them. If not, [start here](/field-guide/well-packaged-datasets).
+Our working assumption is that you already know what a data schema and a data package are, and how to create them. If not, [start here](/blog/2018/03/07/well-packaged-datasets/).
 
 ## One-time data validation with try.goodtables.io
 
@@ -83,7 +83,7 @@ To test how this works, you can use:
 
 In any given Data Package, the *datapackage.json* file contains the schema and the data folder contains tabular data to be validated against the schema.
 
-Often, you will find that you may be working in workflows that involve many datasets, which are updated regularly. In cases such as this, one-time validation on try.goodtables.io is probably not the answer. But fear not! Goodtables has the ability to automate the validation process so that errors are checked for continually.  Find out more in our continuous and [automated data validation section](/field-guide/automatically-validated-tabular-data).
+Often, you will find that you may be working in workflows that involve many datasets, which are updated regularly. In cases such as this, one-time validation on try.goodtables.io is probably not the answer. But fear not! Goodtables has the ability to automate the validation process so that errors are checked for continually.  Find out more in our continuous and [automated data validation section](/blog/2018/03/12/automatically-validated-tabular-data).
 
 ## One-time data validation with goodtables command line tool
 
@@ -110,4 +110,4 @@ You can see the list of options by running `goodtables --help`. The full documen
 
 Congratulations, you now know how to validate your tabular data using the command-line!
 
-If you regularly update your data or maintain many different datasets, running the validations manually can be time-consuming. The solution is to automate this process, so the data is validated every time it changes, ensuring the errors are caught as soon as possible. Find out how to do it in the "[Automating the validation checks](/field-guide/automatically-validated-tabular-data)" section.
+If you regularly update your data or maintain many different datasets, running the validations manually can be time-consuming. The solution is to automate this process, so the data is validated every time it changes, ensuring the errors are caught as soon as possible. Find out how to do it in the "[Automating the validation checks](/blog/2018/03/12/automatically-validated-tabular-data)" section.

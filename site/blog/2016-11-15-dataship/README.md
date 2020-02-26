@@ -34,6 +34,6 @@ As for additional use cases, the volume of personal data is growing exponentiall
 [^resource]: Data Package Resource: </specs/data-package/#resource-information>
 [^numpy]: NumPy: Python package for scientific computing: <http://www.numpy.org>
 [^pandas]: Pandas: Python package for data analysis: <http://pandas.pydata.org/>
-[^datapackage]: Data Packages: </data-packages/>
+[^datapackage]: Data Packages: </data-package>
 [^data-cli]: DataHub's data commandline tool: <https://github.com/datahq/data-cli>
 [^goodtables]: goodtables: <http://try.goodtables.io>
