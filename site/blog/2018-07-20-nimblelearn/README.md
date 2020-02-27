@@ -27,7 +27,7 @@ We find that the Frictionless Data specs are simple to use from both a data publ
 ![](./datapackage-m-excel.gif)
 *How datapackage-m works  in Excel*
 
-There’s an ongoing discussion around a Data Resource compression pattern which is important from a data publishing perspective i.e. due to ongoing file storage and bandwidth costs. Once this pattern is agreed upon and published, it would be good to see this added to the [Data Resource](/https://specs.frictionlessdata.io/data-resource/) and [Tabular Data Resource](https://specs.frictionlessdata.io/tabular-data-resource/) specs not too long after.
+There’s an ongoing discussion around a Data Resource compression pattern which is important from a data publishing perspective i.e. due to ongoing file storage and bandwidth costs. Once this pattern is agreed upon and published, it would be good to see this added to the [Data Resource](https://specs.frictionlessdata.io/data-resource/) and [Tabular Data Resource](https://specs.frictionlessdata.io/tabular-data-resource/) specs not too long after.
 
 Other than this, we would like to see another Data Package profile that extends the Tabular Data Package with semantic layer metadata. In addition to the Tabular Data Profile properties, this ‘Semantic Data Package’ would have properties for measure definitions, attribute hierarchies, and other semantic layer metadata. Something like this could be used to programmatically generate [Semantic Data Models](https://en.wikipedia.org/wiki/Semantic_data_model) in a data analytics tool of choice and populate it with data from the tabular data directly.
 

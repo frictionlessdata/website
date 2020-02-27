@@ -86,7 +86,7 @@ Data Curator lets you save data as a comma, semicolon, or tab separated value fi
 
 ### Apply an open license 
 
-Applying a license, waiver, or public domain mark to a [data package](https://specs.frictionlessdata.io/data-package/#licenses "The licenses property in the Data Package specification") and its [resources](/https://specs.frictionlessdata.io/data-resource/#optional-properties "The licenses property in the Data Resource specification") helps people understand how they can use, modify, and share the contents of the data package.
+Applying a license, waiver, or public domain mark to a [data package](https://specs.frictionlessdata.io/data-package/#licenses "The licenses property in the Data Package specification") and its [resources](https://specs.frictionlessdata.io/data-resource/#optional-properties "The licenses property in the Data Resource specification") helps people understand how they can use, modify, and share the contents of the data package.
 
 ![Apply open license to data package screenshot](./data-curator-3.png)
 

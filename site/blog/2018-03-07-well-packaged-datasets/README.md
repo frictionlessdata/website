@@ -68,7 +68,7 @@ You can now edit data types and formats as necessary, and optionally add titles 
 
 By definition, values under the ***integer*** data type are whole numbers. The ***number*** data type is more appropriate for the {Value} column. When in doubt about what data type to use, consult the [Table Schema data types cheat sheet](https://specs.frictionlessdata.io/table-schema/#types-and-formats).
 
-Click on the ![settings](./settings.png) icon to pick a suitable profile for your data resource. [Here’s more information about Frictionless Data profiles](/https://specs.frictionlessdata.io/profiles/).
+Click on the ![settings](./settings.png) icon to pick a suitable profile for your data resource. [Here’s more information about Frictionless Data profiles](https://specs.frictionlessdata.io/profiles/).
 
 If your dataset has other data resources, add them by scrolling to the bottom of the page, clicking on Add Resource, and repeating the same process as we just did.
 
