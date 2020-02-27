@@ -4,7 +4,7 @@
       <div class="w-1/3 text-center"> 
       </div>
       <div class="">
-        <img class="w-48 pr-20" src="/img/home/logo-white-thicker.svg"></img>
+        <img class="w-48 pt-2 pr-20" src="/img/home/logo-white-thicker.svg"></img>
       </div>
       <div class="container w-2/3 flex justify-center flex-row px-10">
         <div class="w-1/4 text-left pr-20">
