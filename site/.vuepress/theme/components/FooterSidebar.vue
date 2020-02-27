@@ -1,12 +1,14 @@
 <template>
   <footer class="banner footer-sb py-10"> 
     <div class="banner flex flex-row">
-      <div class="w-2/3 text-center pl-20">
-        <img class="w-56" src="/img/home/logo-white-thicker.svg"></img>
+      <div class="w-1/3 text-center"> 
+      </div>
+      <div class="">
+        <img class="w-48 pr-20" src="/img/home/logo-white-thicker.svg"></img>
       </div>
       <div class="container w-2/3 flex justify-center flex-row px-10">
         <div class="w-1/4 text-left pr-20">
-          <h2 class="text-xl font-normal text-white">Supported by</h2>
+          <h2 class="text-lg font-normal text-white">Supported by</h2>
           <div><img class="w-32 mx-auto py-8" src="/img/home/alfred.svg"></img></div>
           <div><img class="w-32 mx-auto" src="/img/home/open-data-institute.svg"></img></div>
         </div>
