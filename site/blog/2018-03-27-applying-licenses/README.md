@@ -6,17 +6,17 @@ category: publishing-data
 ---
 
 frictionlessdata.io
-Applying licenses, waivers or public domain marks to [data packages](https://specs.frictionlessdata.io/data-package/) and [data resources](/https://specs.frictionlessdata.io/data-resource/) helps people understand how they can use, modify and share the contents of a data package.
+Applying licenses, waivers or public domain marks to [data packages](https://specs.frictionlessdata.io/data-package/) and [data resources](https://specs.frictionlessdata.io/data-resource/) helps people understand how they can use, modify and share the contents of a data package.
 
 It is recommended to that you apply a license, waiver or public domain mark to a data package using the [`licenses`](https://specs.frictionlessdata.io/data-package/#licenses) property. The value assigned to the data package `licenses` property applies to all the data, files and metadata in the data package unless specified otherwise.
 
-You can optionally apply a license to a data resource. This allows a license that differs from the data package license to be applied to the data resource. If the data resource [`licenses`](/https://specs.frictionlessdata.io/data-resource/#optional-properties) property is not specified, it inherits the data package `licenses`.
+You can optionally apply a license to a data resource. This allows a license that differs from the data package license to be applied to the data resource. If the data resource [`licenses`](https://specs.frictionlessdata.io/data-resource/#optional-properties) property is not specified, it inherits the data package `licenses`.
 
 ## Specifying a license
 The Frictionless Data specification states that a [license](https://specs.frictionlessdata.io/data-package/#licenses) must contain a `name` property and/or a `path` property, and may contain a `title` property.
 
 > * `name`: The name MUST be an [Open Definition license ID](http://licenses.opendefinition.org)
-> * `path`: A [url-or-path](/https://specs.frictionlessdata.io/data-resource/#url-or-path) string, that is a fully qualified HTTP address, or a relative POSIX path
+> * `path`: A [url-or-path](https://specs.frictionlessdata.io/data-resource/#url-or-path) string, that is a fully qualified HTTP address, or a relative POSIX path
 > * `title`: A human-readable title
 
 You can specify the location of a license using a URL or a Path.
