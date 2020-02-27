@@ -201,8 +201,7 @@ const redirectList= [
   },
   {
     path: "/docs/publish-online/",
-    redirect: "/blog/2018/08/29/publish-online/"
-    
+    redirect: "/blog/2016/08/29/publish-online/"
   },
   {
     path: "/docs/publish-any/",
@@ -218,7 +217,7 @@ const redirectList= [
   },
   {
     path: "/docs/publish-faq/",
-    redirect: "/blog/2018/07/16/publish-faq/"
+    redirect: "/blog/2016/04/20/publish-faq/"
   },
   {
     path: "/docs/point-location-data/",
@@ -230,7 +229,7 @@ const redirectList= [
   },
   {
     path: "/docs/validating-data/",
-    redirect: "/blog/2018/07/09/validating-data/"
+    redirect: "/blog/2016/06/24/validating-data/"
   },
   {
     path: "/field-guide/well-packaged-datasets/",

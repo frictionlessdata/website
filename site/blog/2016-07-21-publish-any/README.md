@@ -47,21 +47,21 @@ See the [step-by-step instructions for putting your Data Package online][pub-onl
 [dp-main]: /data-package
 [tdp]: /data-package/#tabular-data-package
 [ts]: /table-schema/
-[ts-types]: /specs/table-schema/#field-descriptors
+[ts-types]: https://specs.frictionlessdata.io/table-schema/#field-descriptors
 [csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
 
-[spec-dp]: /specs/data-package/
-[spec-tdp]: /specs/tabular-data-package/
-[spec-ts]: /specs/table-schema/
-[spec-csvddf]: /specs/csv-dialect/
+[spec-dp]: https://specs.frictionlessdata.io/data-package/
+[spec-tdp]: https://specs.frictionlessdata.io/tabular-data-package/
+[spec-ts]: https://specs.frictionlessdata.io/table-schema/
+[spec-csvddf]: https://specs.frictionlessdata.io/csv-dialect/
 
 [publish]: /docs/publish/
 [pub-tabular]: /blog/2016/07/21/publish-tabular/
-[pub-online]: /blog/2018/08/29/publish-online/
+[pub-online]: /blog/2016/08/29/publish-online/
 [pub-any]: /blog/2016/07/21/publish-any/
 [pub-geo]: /blog/2016/04/30/publish-geo/
-[pub-faq]: /docs/publish-faq/
+[pub-faq]: /blog/2016/04/20/publish-faq/
 [field-guide]: /data-package
 
 [tools]: /software/

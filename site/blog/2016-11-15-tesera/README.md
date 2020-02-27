@@ -119,12 +119,12 @@ There are many ways to monitor the environment, but bringing the data together a
 ![Mackenzie DataStream summary statistics](./mackenzie-4.png) <br/> *Mackenzie DataStream summary statistics*
 
 [^jupyter]: Jupyter Notebook: <http://jupyter.org/>
-[^resource]: Data Package Resource: </specs/data-package/#resource-information>
+[^resource]: Data Package Resource: <https://specs.frictionlessdata.io/data-package/#resource-information>
 [^numpy]: NumPy: Python package for scientific computing: <http://www.numpy.org>
 [^pandas]: Pandas: Python package for data analysis: <http://pandas.pydata.org/>
-[^datapackages]: Data Packages: </specs/data-package/>
+[^datapackages]: Data Packages: <https://specs.frictionlessdata.io/data-package/>
 [^goodtables]: goodtables: <http://try.goodtables.io>
-[^tableschema]: Table Schema: </specs/table-schema/>
+[^tableschema]: Table Schema: <https://specs.frictionlessdata.io/table-schema/>
 [^amazons3]: Amazon Simple Storage Service (Amazon S3): <https://aws.amazon.com/s3/>
 [^amazonlambda]: Amazon AWS Lambda: <https://aws.amazon.com/lambda/>
 [^github]: GitHub: <https://github.com/>
@@ -133,5 +133,5 @@ There are many ways to monitor the environment, but bringing the data together a
 [^elastic]: Elastic Search: <https://www.elastic.co/products/elasticsearch>
 [^kibana]: Kibana: <https://www.elastic.co/products/kibana>
 [^r]: The R Project for Statistical Computing: <https://www.r-project.org/>
-[^tsconstraints]: Table Schema Field Constraints: </specs/table-schema/#constraints>
+[^tsconstraints]: Table Schema Field Constraints: <https://specs.frictionlessdata.io/table-schema/#constraints>
 [^wehub]: Water and Environmental Hub: <http://watercanada.net/2013/water-and-environmental-hub/>

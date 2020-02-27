@@ -44,7 +44,7 @@ There are two default modes for performing the data validation when creating or 
 ![](./data-validation-on-upload.png)
 *data validation on upload or linking to a new tabular file on CKAN*
 
-The extension adds functionality to provide a [schema](/specs/table-schema/) for the data that describes the expected fields and types as well as other constraints, allowing to perform validation on the actual contents of the data. Additionally the schema is also stored with the resource metadata, so it can be displayed in the UI or accessed via the API.
+The extension adds functionality to provide a [schema](https://specs.frictionlessdata.io/table-schema/) for the data that describes the expected fields and types as well as other constraints, allowing to perform validation on the actual contents of the data. Additionally the schema is also stored with the resource metadata, so it can be displayed in the UI or accessed via the API.
 
 The extension also provides some utility commands for CKAN maintainers, including the generation of [reports](https://github.com/frictionlessdata/ckanext-validation#data-validation-reports) showing the number of valid and invalid tabular files, a breakdown of the error types and links to the individual resources. This gives maintainers a snapshot of the general quality of  the data hosted in their CKAN instance at any given moment in time.
 

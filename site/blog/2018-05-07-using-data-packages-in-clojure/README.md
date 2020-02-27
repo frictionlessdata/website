@@ -131,8 +131,8 @@ This concludes our simple tutorial for using the Clojure libraries for Frictionl
 
 We welcome your feedback and questions via our [Frictionless Data Gitter chat][fd-gitter] or via [GitHub issues][dp-clj-issues] on the [datapackage-clj][dp-clj] repository.
 
-[dp]: /specs/data-package/
-[tdp]: /specs/tabular-data-package/
+[dp]: https://specs.frictionlessdata.io/data-package/
+[tdp]: https://specs.frictionlessdata.io/tabular-data-package/
 [ts]: /table-schema/
 [toolfund]: https://toolfund.frictionlessdata.io
 [dp-clj]: https://github.com/frictionlessdata/datapackage-clj

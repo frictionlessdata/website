@@ -39,9 +39,9 @@ This was a valuable pilot for several reasons.  For one, the researchers interes
 
 ### Data
 
-The `metadata.tsv` file is specially formatted compared to other TSV (tab-separated values) files in that it contains two extra rows below the header for describing a column’s *methods* and *descriptions*. While this is a neat way of storing metadata for each column, it is not particularly standard as ordinarily, we would expect all rows below the header contain actual data.  Nevertheless, it provided a great start to the development of a custom schema.  We used the information stored in these rows to generate a [Table Schema](/specs/table-schema/) for the data compatible with our software ([the schema](https://github.com/frictionlessdata/ADB-User-Study/blob/master/metadata-schema.json)).
+The `metadata.tsv` file is specially formatted compared to other TSV (tab-separated values) files in that it contains two extra rows below the header for describing a column’s *methods* and *descriptions*. While this is a neat way of storing metadata for each column, it is not particularly standard as ordinarily, we would expect all rows below the header contain actual data.  Nevertheless, it provided a great start to the development of a custom schema.  We used the information stored in these rows to generate a [Table Schema](https://specs.frictionlessdata.io/table-schema/) for the data compatible with our software ([the schema](https://github.com/frictionlessdata/ADB-User-Study/blob/master/metadata-schema.json)).
 
-For instance, if a column in the original metadata.tsv file had the text `categorical` in its `#methods` row, we knew that this translated very well to our [enum (short for enumerated list) constraint](/specs/table-schema/#constraints). However, this was not enough.  We had to infer from the values below in the dataset which values were actually valid categorical values for that column.  So, for example, the `PlatinumStatus` column could only be one of `Resistant`, `Sensitive`, or `Tooearly` leading to the following constraint definition in Table Schema:
+For instance, if a column in the original metadata.tsv file had the text `categorical` in its `#methods` row, we knew that this translated very well to our [enum (short for enumerated list) constraint](https://specs.frictionlessdata.io/table-schema/#constraints). However, this was not enough.  We had to infer from the values below in the dataset which values were actually valid categorical values for that column.  So, for example, the `PlatinumStatus` column could only be one of `Resistant`, `Sensitive`, or `Tooearly` leading to the following constraint definition in Table Schema:
 
 ```
 "constraints": {
@@ -53,7 +53,7 @@ For instance, if a column in the original metadata.tsv file had the text `catego
 }
 ```
 
-More straightforward was the translation of the `#descriptions` row; each description was translated directly into a [description attribute](/specs/table-schema/#description) on the column:
+More straightforward was the translation of the `#descriptions` row; each description was translated directly into a [description attribute](https://specs.frictionlessdata.io/table-schema/#description) on the column:
 
 ```
 "description": "It describes whether the patient was resistant to platinum (chemotherapy) treatment",

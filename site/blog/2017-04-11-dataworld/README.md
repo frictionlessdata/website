@@ -32,7 +32,7 @@ To read more about Data Package integration at [data.world][dataworld], read our
 [^package]: Tabular Data Package: [/data-package/#tabular-data-package](/data-package/#tabular-data-package)
 [^datapackage]: Data Packages: [/data-package](/data-package)
 [^rdf]: RDF: Resource Description Framework: <https://www.w3.org/RDF/>
-[^tdp]: Tabular Data Package specifications: [/specs/tabular-data-package](/specs/tabular-data-package)
+[^tdp]: Tabular Data Package specifications: [https://specs.frictionlessdata.io/tabular-data-package](https://specs.frictionlessdata.io/tabular-data-package)
 [^skos]: SKOS: Simple Knowledge Organization System: <https://www.w3.org/2004/02/skos/>
 [^owl]: OWL Web Ontology Language: <https://www.w3.org/TR/owl-ref/>
 [dataworld]: https://data.world/

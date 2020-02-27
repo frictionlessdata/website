@@ -24,7 +24,7 @@ Open data is more likely to be used if data consumers can:
 
 Data Curator enables open data producers to define all this information using their desktop computer, prior to publishing it on the Internet.
 
-Data Curator uses the [Frictionless Data specification](/specs/) and [software](/software/ "Frictionless Data platforms, applications, and software libraries") to package the data and supporting information in a [Tabular Data Package](/specs/tabular-data-package/ "Tabular Data Package specification").
+Data Curator uses the [Frictionless Data specification](https://specs.frictionlessdata.io/) and [software](/software/ "Frictionless Data platforms, applications, and software libraries") to package the data and supporting information in a [Tabular Data Package](https://specs.frictionlessdata.io/tabular-data-package/ "Tabular Data Package specification").
 
 ![Data Curator screenshot](./data-curator.png)
 
@@ -41,7 +41,7 @@ Here's how to use Data Curator to share usable open data in a data package:
 
 ### Describe the data
 
-The Frictionless Data specification allows you to describe tabular data using a [Table Schema](/specs/table-schema/ "Table Schema specification").  A Table Schema allows each field in the data to be given:
+The Frictionless Data specification allows you to describe tabular data using a [Table Schema](https://specs.frictionlessdata.io/table-schema/ "Table Schema specification").  A Table Schema allows each field in the data to be given:
 - a `name`, `title` and `description`
 - a data `type` (e.g. `string`, `integer`) and `format` (e.g. `uri`, `email`) 
 - one or more `constraints` (e.g. `required`, `unique`) to limit data values and improve data validation
@@ -70,23 +70,23 @@ Provenance information can be entered using [Markdown](http://commonmark.org "Ma
 
 ![Add provenance information screenshot](./data-curator-2.png)
 
-You should follow the [Readme FAQ](/blog/2018/07/16/publish-faq/ "Publishing Data Packages - FAQ") when writing provenance information or, even easier, cut and paste from this [sample](https://github.com/ODIQueensland/data-curator/blob/develop/test/features/tools/sample-provenance-information.md "Sample Provenance Information Markdown file on GitHub").
+You should follow the [Readme FAQ](/blog/2016/04/20/publish-faq/ "Publishing Data Packages - FAQ") when writing provenance information or, even easier, cut and paste from this [sample](https://github.com/ODIQueensland/data-curator/blob/develop/test/features/tools/sample-provenance-information.md "Sample Provenance Information Markdown file on GitHub").
 
 ### Explain the meaning of codes
 
 Data Curator supports foreign key relationships between data. Often a set of codes is used in a column of data and the list of valid codes and their description is in another table. The Frictionless Data specification enables linking this data within a table or across two tables in the same data package. 
 
-We've implemented the [Foreign Keys to Data Packages pattern](/specs/patterns/#table-schema:-foreign-keys-to-data-packages "The Foreign Keys to Data Packages pattern") so you can have foreign key relationships across two data packages. This is really useful if you want to share code-lists across organisations.
+We've implemented the [Foreign Keys to Data Packages pattern](https://specs.frictionlessdata.io/patterns/#table-schema:-foreign-keys-to-data-packages "The Foreign Keys to Data Packages pattern") so you can have foreign key relationships across two data packages. This is really useful if you want to share code-lists across organisations.
 
 You can define foreign key relationships in Data Curator in the table properties and the relationships are checked when you validate the data.
 
 ### Save the data in an open format
 
-Data Curator lets you save data as a comma, semicolon, or tab separated value file. A matching [CSV Dialect](/specs/csv-dialect/ "The CSV Dialect specification") is added to the data package.
+Data Curator lets you save data as a comma, semicolon, or tab separated value file. A matching [CSV Dialect](https://specs.frictionlessdata.io/csv-dialect/ "The CSV Dialect specification") is added to the data package.
 
 ### Apply an open license 
 
-Applying a license, waiver, or public domain mark to a [data package](/specs/data-package/#licenses "The licenses property in the Data Package specification") and its [resources](/specs/data-resource/#optional-properties "The licenses property in the Data Resource specification") helps people understand how they can use, modify, and share the contents of the data package.
+Applying a license, waiver, or public domain mark to a [data package](https://specs.frictionlessdata.io/data-package/#licenses "The licenses property in the Data Package specification") and its [resources](/https://specs.frictionlessdata.io/data-resource/#optional-properties "The licenses property in the Data Resource specification") helps people understand how they can use, modify, and share the contents of the data package.
 
 ![Apply open license to data package screenshot](./data-curator-3.png)
 
@@ -104,7 +104,7 @@ To export a tabular data package, it must have:
 - provenance information
 - an open licence applied to the data package
 
-If a data package `version` is used, it must follow the [data package version pattern](/specs/patterns/#data-package-version "Data Package Version pattern").
+If a data package `version` is used, it must follow the [data package version pattern](https://specs.frictionlessdata.io/patterns/#data-package-version "Data Package Version pattern").
 
 Before exporting a data package you should:
 - add a `title` and `description` to each field, table and data package

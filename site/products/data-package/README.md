@@ -13,7 +13,7 @@ Metadata about a dataset is arguably as important as the data itself. Metadata a
  
 Data Package provides a way to reliably provide metadata about a dataset, in a simple key-value format that can be used across both consumer and professional data platforms.
  
-Data Package is thoroughly extensible. For example, [Tabular Data Package](https://frictionlessdata.io/specs/tabular-data-package/) is a specification that builds on Data Package and Table Schema to provide a platform-agnostic approach to storing metadata and type information for collections of tabular data sets. [Read more](https://frictionlessdata.io/specs/tabular-data-package/).
+Data Package is thoroughly extensible. For example, [Tabular Data Package](https://specs.frictionlessdata.io/tabular-data-package/) is a specification that builds on Data Package and Table Schema to provide a platform-agnostic approach to storing metadata and type information for collections of tabular data sets. [Read more](https://specs.frictionlessdata.io/tabular-data-package/).
  
 Data Package is part of [Frictionless Data](https://frictionlessdata.io), a project funded and maintained by the [Open Knowledge Foundation](https://okfn.org) and [Datopian](https://datopian.com).
  
@@ -25,14 +25,14 @@ Data Package is part of [Frictionless Data](https://frictionlessdata.io), a proj
  
 ## Check it out
  
-- [Read the specification](https://frictionlessdata.io/specs/data-package/)
+- [Read the specification](https://specs.frictionlessdata.io/data-package/)
 - [Download for your programming language](https://github.com/frictionlessdata?utf8=✓&q=datapackage&type=&language=)
  
 See the following for extensions to the core Data Package specification:
  
-- [Tabular Data Package](https://frictionlessdata.io/specs/tabular-data-package/)
-- [Data Package Views](https://frictionlessdata.io/specs/views/)
-- [Data Package Identifier](https://frictionlessdata.io/specs/data-package-identifier/)
+- [Tabular Data Package](https://specs.frictionlessdata.io/tabular-data-package/)
+- [Data Package Views](https://specs.frictionlessdata.io/views/)
+- [Data Package Identifier](https://specs.frictionlessdata.io/data-package-identifier/)
  
 ## Where it is used
  
@@ -85,8 +85,8 @@ package.get_resource('resource').read()
 
 ---
 
-[Full Specification](/specs/data-package)
+[Full Specification](https://specs.frictionlessdata.io/data-package)
 
 [Tutorials](/products/data-package)
 
-[How to write a Data Package](/blog/2018-03-07-well-packaged-datasets)
+[How to write a Data Package](/blog/2018/03/07/well-packaged-datasets/)

@@ -179,8 +179,8 @@ Now that you have created your Data Package, you might want to [publish your dat
 
 !! Now that you have created a data package in R, [find out how to use data packages in R in this tutorial][use-r].
 
-[dp]: /specs/data-package/
-[tdp]: /specs/tabular-data-package/
+[dp]: https://specs.frictionlessdata.io/data-package/
+[tdp]: https://specs.frictionlessdata.io/tabular-data-package/
 [okgreece]: http://okfn.gr/
 [toolfund]: https://toolfund.frictionlessdata.io
 [toolfund-okgreece]:https://frictionlessdata.io/articles/open-knowledge-greece/

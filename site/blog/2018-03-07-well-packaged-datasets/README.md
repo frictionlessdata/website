@@ -66,9 +66,9 @@ The page that follows looks like Figure 3 below. Each column from the GDP datase
 
 You can now edit data types and formats as necessary, and optionally add titles and descriptive information to your fields. For example, the data type for our {Year} field should be ***year*** and not ***integer***. Our {Value} column has numeric information with decimal places.
 
-By definition, values under the ***integer*** data type are whole numbers. The ***number*** data type is more appropriate for the {Value} column. When in doubt about what data type to use, consult the [Table Schema data types cheat sheet](/specs/table-schema/#types-and-formats).
+By definition, values under the ***integer*** data type are whole numbers. The ***number*** data type is more appropriate for the {Value} column. When in doubt about what data type to use, consult the [Table Schema data types cheat sheet](https://specs.frictionlessdata.io/table-schema/#types-and-formats).
 
-Click on the ![settings](./settings.png) icon to pick a suitable profile for your data resource. [Here’s more information about Frictionless Data profiles](/specs/profiles/).
+Click on the ![settings](./settings.png) icon to pick a suitable profile for your data resource. [Here’s more information about Frictionless Data profiles](/https://specs.frictionlessdata.io/profiles/).
 
 If your dataset has other data resources, add them by scrolling to the bottom of the page, clicking on Add Resource, and repeating the same process as we just did.
 
@@ -91,12 +91,12 @@ In the previous section, we described metadata for each of our datasets, but we'
 
 The **Profile** section under metadata allows us to specify what kind of data collection we are packaging.
 * *Data Package*
-This is the base, more general profile. Use it if your dataset contains resources of mixed formats, like tabular and geographical data. The base requirement for a valid Data Package profile is the *datapackage.json* file. See the [Data Package specification](/specs/data-package/) for more information.
+This is the base, more general profile. Use it if your dataset contains resources of mixed formats, like tabular and geographical data. The base requirement for a valid Data Package profile is the *datapackage.json* file. See the [Data Package specification](https://specs.frictionlessdata.io/data-package/) for more information.
 
 * *Tabular Data Package*
-If your data contains only tabular resources like CSVs and spreadsheets, use the Tabular Data Package profile. See the [Tabular Data Package specification](/specs/tabular-data-package/) for more information.
+If your data contains only tabular resources like CSVs and spreadsheets, use the Tabular Data Package profile. See the [Tabular Data Package specification](https://specs.frictionlessdata.io/tabular-data-package/) for more information.
 * *Fiscal Data Package*
-If your data contains fiscal information like budgets and expenditure data, use the  Fiscal Data Package profile. See the [Fiscal Data Package specification](/specs/fiscal-data-package/) for more information.
+If your data contains fiscal information like budgets and expenditure data, use the  Fiscal Data Package profile. See the [Fiscal Data Package specification](https://specs.frictionlessdata.io/fiscal-data-package/) for more information.
 
 In our example, as we only have a CSV data resource, the *Tabular Data Package* profile is the best option.
 

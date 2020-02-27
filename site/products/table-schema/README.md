@@ -21,7 +21,7 @@ Table Schema is part of [Frictionless Data](https://frictionlessdata.io), a proj
  
 ## Check it out
  
-- [Read the specification](https://frictionlessdata.io/specs/table-schema/)
+- [Read the specification](https://specs.frictionlessdata.io/table-schema/)
 - [Download for your programming language](https://github.com/frictionlessdata?utf8=✓&q=tableschema&type=&language=)
  
 ## Where it is used

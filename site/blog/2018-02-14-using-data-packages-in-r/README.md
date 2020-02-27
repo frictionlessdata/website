@@ -164,8 +164,8 @@ More about using databases, SQLite in R you can find in vignettes of [DBI](https
 
 We welcome your feedback and questions via our [Frictionless Data Gitter chat][fd-gitter] or via [Github issues][dp-r-issues] on the [datapackage-r][dp-r] repository.
 
-[dp]: /specs/data-package/
-[tdp]: /specs/tabular-data-package/
+[dp]: https://specs.frictionlessdata.io/data-package/
+[tdp]: https://specs.frictionlessdata.io/tabular-data-package/
 [okgreece]: http://okfn.gr/
 [toolfund]: https://toolfund.frictionlessdata.io
 [toolfund-okgreece]:https://frictionlessdata.io/articles/open-knowledge-greece/

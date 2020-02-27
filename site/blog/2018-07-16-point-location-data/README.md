@@ -10,7 +10,7 @@ This guide explores the options available to represent point location data in a 
 
 First, some key concepts:
 
-* A [Table Schema](/specs/table-schema/) describes tabular data.
+* A [Table Schema](https://specs.frictionlessdata.io/table-schema/) describes tabular data.
 * Tabular data is often provided in a [CSV - Comma Separated Values][csv] file.
 * Tabular data may include data about locations.
 * Locations can be represented by points, lines, polygons and more complex geometry.
@@ -60,7 +60,7 @@ Each option should, in a human and machine-readable way, specify:
 
 ### 1. Geopoint, default
 
-The type [Geopoint](/specs/table-schema/#geopoint), format: default is a string of the pattern `"lon, lat"`, where lon is the longitude and lat is the latitude (note the space is optional after the ,). E.g. `"90, 45"`.
+The type [Geopoint](https://specs.frictionlessdata.io/table-schema/#geopoint), format: default is a string of the pattern `"lon, lat"`, where lon is the longitude and lat is the latitude (note the space is optional after the ,). E.g. `"90, 45"`.
 
 #### CSV
 
@@ -162,7 +162,7 @@ A JSON object with exactly two keys, lat and lon and each value is a number e.g.
 
 
 ### 4. Numbers with constraints
-Two columns of type [number](/specs/table-schema/#number) with [constraints](/specs/table-schema/#constraints) to limit latitude and longitude values
+Two columns of type [number](https://specs.frictionlessdata.io/table-schema/#number) with [constraints](https://specs.frictionlessdata.io/table-schema/#constraints) to limit latitude and longitude values
 
 #### CSV
 
@@ -211,7 +211,7 @@ Two columns of type [number](/specs/table-schema/#number) with [constraints](/sp
 
 ### 5. String and Foreign key reference to well-known place-name
 
-All the previous examples assume you know the coordinates of the location. What if you only know the name? You can use a name, of type: [string](/specs/table-schema/#string), to refer to an another data resource and use the name to determine the coordinates. This data resource is often called a [Gazetteer](https://en.wikipedia.org/wiki/Gazetteer). [Often](https://en.wikipedia.org/wiki/Gazetteer#List_of_gazetteers) a website or API is placed in front of the data so you can provide a name and the location data is returned
+All the previous examples assume you know the coordinates of the location. What if you only know the name? You can use a name, of type: [string](https://specs.frictionlessdata.io/table-schema/#string), to refer to an another data resource and use the name to determine the coordinates. This data resource is often called a [Gazetteer](https://en.wikipedia.org/wiki/Gazetteer). [Often](https://en.wikipedia.org/wiki/Gazetteer#List_of_gazetteers) a website or API is placed in front of the data so you can provide a name and the location data is returned
 
 A date may be an additional field included in the foreign key relationship.
 
@@ -298,7 +298,7 @@ Gazetteer.csv
 
 ### 6. Use a Uniform Resource Identifier to reference a location
 
-Use a type: [string](/specs/table-schema/#string), format: uri, to provide a link to a resource that includes the geometry.
+Use a type: [string](https://specs.frictionlessdata.io/table-schema/#string), format: uri, to provide a link to a resource that includes the geometry.
 
 #### CSV
 
@@ -333,7 +333,7 @@ Use a type: [string](/specs/table-schema/#string), format: uri, to provide a lin
 
 ### 7. GeoJSON
 
-Use a field of type [GeoJSON](/specs/table-schema/#geojson) to represent location
+Use a field of type [GeoJSON](https://specs.frictionlessdata.io/table-schema/#geojson) to represent location
 
 #### CSV
 
@@ -369,7 +369,7 @@ Use a field of type [GeoJSON](/specs/table-schema/#geojson) to represent locatio
 
 ### Frictionless data
 
-* [Table Schema](/specs/table-schema/)
+* [Table Schema](https://specs.frictionlessdata.io/table-schema/)
 * [Publishing Geospatial Data as a Data Package](/blog/2016/04/30/publish-geo/)
 * [Spatial Data Package investigation - research and report by Steve Bennett](https://research.okfn.org/spatial-data-package-investigation/)
 
@@ -398,21 +398,21 @@ The Open Geospatial Consortium - [OpenGIS Simple Feature Access](http://www.open
 [dp-main]: /data-package
 [tdp]: /data-package/#tabular-data-package
 [ts]: /table-schema/
-[ts-types]: /specs/table-schema/#field-descriptors
+[ts-types]: https://specs.frictionlessdata.io/table-schema/#field-descriptors
 [csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
 
-[spec-dp]: /specs/data-package/
-[spec-tdp]: /specs/tabular-data-package/
-[spec-ts]: /specs/table-schema/
-[spec-csvddf]: /specs/csv-dialect/
+[spec-dp]: https://specs.frictionlessdata.io/data-package/
+[spec-tdp]: https://specs.frictionlessdata.io/tabular-data-package/
+[spec-ts]: https://specs.frictionlessdata.io/table-schema/
+[spec-csvddf]: https://specs.frictionlessdata.io/csv-dialect/
 
 [publish]: /docs/publish/
 [pub-tabular]: /blog/2016/07/21/publish-tabular/
-[pub-online]: /blog/2018/08/29/publish-online/
+[pub-online]: /blog/2016/08/29/publish-online/
 [pub-any]: /blog/2016/07/21/publish-any/
 [pub-geo]: /blog/2016/04/30/publish-geo/
-[pub-faq]: /docs/publish-faq/
+[pub-faq]: /blog/2016/04/20/publish-faq/
 
 [tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io

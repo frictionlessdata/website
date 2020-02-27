@@ -84,7 +84,7 @@ Name: period-table
 Title: Periodic Table
 ```
 
-And as you can see, the printed fields match the [package descriptor][datapackage.json]. For more information about the Data Package structure, please take a look at the [specification](/specs/data-package/).
+And as you can see, the printed fields match the [package descriptor][datapackage.json]. For more information about the Data Package structure, please take a look at the [specification](https://specs.frictionlessdata.io/data-package/).
 
 ## Quick Look At the Data
 
@@ -192,8 +192,8 @@ And our code is ready to deal with the growth of the periodic table in a very me
 
 We welcome your feedback and questions via our [Frictionless Data Gitter chat][fd-gitter] or via [GitHub issues][dp-go-issues] on the datapackage-go repository.
 
-[dp]: /specs/data-package/
-[tdp]: /specs/tabular-data-package/
+[dp]: https://specs.frictionlessdata.io/data-package/
+[tdp]: https://specs.frictionlessdata.io/tabular-data-package/
 [toolfund]: https://toolfund.frictionlessdata.io
 [toolfund-daniel]:/blog/2017/11/01/daniel-fireman/
 [dp-go]: https://github.com/frictionlessdata/datapackage-go
