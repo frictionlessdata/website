@@ -218,6 +218,5 @@ Related blog post: <http://okfnlabs.org/blog/2017/10/05/frictionless-data-specs-
 [pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /blog/2016/04/20/publish-faq/
 
-[tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io
 [dp-viewer]: http://create.frictionlessdata.io

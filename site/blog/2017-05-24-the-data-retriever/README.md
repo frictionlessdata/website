@@ -42,7 +42,6 @@ Community contributions to our work are welcome. We work hard to make all of our
 
 [^pandas]: Pandas: Python package for data analysis: <http://pandas.pydata.org/>
 [^datapackage]: Data Package: [https://specs.frictionlessdata.io/data-package](https://specs.frictionlessdata.io/data-package)
-[^software]: Frictionless Data Software: [/software](/software)
 [^xml]: Extensible Markup Language: <https://en.wikipedia.org/wiki/XML>
 [^tdp]: Tabular Data Package: [https://specs.frictionlessdata.io/tabular-data-package](https://specs.frictionlessdata.io/tabular-data-package)
 [^tableschema]: Table Schema: [https://specs.frictionlessdata.io/table-schema](https://specs.frictionlessdata.io/table-schema)

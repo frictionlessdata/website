@@ -38,7 +38,7 @@ An example schema would look like the following.  Note that a minimum age of 18 
 }
 ```
 
-[Software](/software) that supports reading and validating tabular data against a Table Schema can help publishers and ordinary users improve the quality of CSV and Excel files online by flagging validation errors based on the types, formats, and constraints specified in the schema.  For an example, see [goodtables](/blog/2016/06/24/validating-data/).
+[Software](/products/tabulator) that supports reading and validating tabular data against a Table Schema can help publishers and ordinary users improve the quality of CSV and Excel files online by flagging validation errors based on the types, formats, and constraints specified in the schema.  For an example, see [goodtables](/blog/2016/06/24/validating-data/).
 
 Read the [full specification](https://specs.frictionlessdata.io/table-schema/).
 
@@ -62,7 +62,6 @@ Read the [full specification](https://specs.frictionlessdata.io/table-schema/).
 [pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /blog/2016/04/20/publish-faq/
 
-[tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io
 [dp-viewer]: http://create.frictionlessdata.io
 
