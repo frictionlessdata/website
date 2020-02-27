@@ -1,7 +1,7 @@
 <template>
   <footer class="banner footer-background py-16"> 
     <div class="banner flex flex-row">
-      <div class="w-1/5 text-center pl-10">
+      <div class="w-1/5 text-center pt-3 pl-10">
         <img class="w-56" src="/img/home/logo-white-thicker.svg"></img>
       </div>
       <div class="container w-2/3 flex justify-center flex-row px-10">
