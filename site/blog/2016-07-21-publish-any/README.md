@@ -64,6 +64,5 @@ See the [step-by-step instructions for putting your Data Package online][pub-onl
 [pub-faq]: /blog/2016/04/20/publish-faq/
 [field-guide]: /data-package
 
-[tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io
 [dp-viewer]: http://create.frictionlessdata.io

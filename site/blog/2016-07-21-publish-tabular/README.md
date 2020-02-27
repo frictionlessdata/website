@@ -101,6 +101,5 @@ Pay special attention to the scripts directory (and look at the commit logs!)
 [pub-faq]: /blog/2016/04/20/publish-faq/
 [field-guide]: /data-package
 
-[tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io
 [dp-viewer]: http://create.frictionlessdata.io

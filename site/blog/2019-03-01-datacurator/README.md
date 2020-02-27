@@ -24,7 +24,7 @@ Open data is more likely to be used if data consumers can:
 
 Data Curator enables open data producers to define all this information using their desktop computer, prior to publishing it on the Internet.
 
-Data Curator uses the [Frictionless Data specification](https://specs.frictionlessdata.io/) and [software](/software/ "Frictionless Data platforms, applications, and software libraries") to package the data and supporting information in a [Tabular Data Package](https://specs.frictionlessdata.io/tabular-data-package/ "Tabular Data Package specification").
+Data Curator uses the [Frictionless Data specification](https://specs.frictionlessdata.io/) and software to package the data and supporting information in a [Tabular Data Package](https://specs.frictionlessdata.io/tabular-data-package/ "Tabular Data Package specification").
 
 ![Data Curator screenshot](./data-curator.png)
 
@@ -121,7 +121,7 @@ The data package is exported as a `datapackage.zip` file that contains the:
 
 Share the `datapackage.zip` with open data consumers by publishing it on the Internet or on an open data platform. Some platforms support uploading, displaying, and downloading data packages.
 
-Open data consumers will be able to read the data package with one of the [many applications and software libraries that work with data packages](/software/ "Frictionless Data platforms, applications, and software libraries"), including Data Curator.
+Open data consumers will be able to read the data package with one of the many applications and software libraries that work with data packages, including Data Curator.
 
 ## Get Started
 
@@ -133,7 +133,7 @@ Data Curator was made possible with funding from  the [Queensland Government](ht
 
 The project was led by [Stephen Gates](https://theodi.org/article/open-data-pathway-introducing-country-level-statistics/) from the [ODI Australian Network](https://www.linkedin.com/company/odiaustraliannetwork/about/). Software development was coordinated by Gavin Kennedy and performed by Matt Mulholland from the [Queensland Cyber Infrastructure Foundation](https://www.qcif.edu.au) (QCIF).
 
-Data Curator uses the [Frictionless Data software libraries](/software/) maintained by [Open Knowledge International](https://okfn.org) and we're extremely grateful for the support provided by [the team](https://github.com/orgs/frictionlessdata/teams/core/members).
+Data Curator uses the Frictionless Data software libraries maintained by [Open Knowledge International](https://okfn.org) and we're extremely grateful for the support provided by [the team](https://github.com/orgs/frictionlessdata/teams/core/members).
 
 Data Curator started life as [Comma Chameleon](http://comma-chameleon.io "Comma Chameleon - A desktop CSV editor for data publishers
 "), an [experiment](https://youtu.be/wIIw0cTeUG0 "Stuart Harrison explains Comma Chameleon at CSVConf") by [the ODI](https://theodi.org "The Open Data Institute"). The ODI and the ODI Australian Network agreed to take the software in [different directions](https://theodi.org/article/odi-toolbox-application-experiments-from-comma-chameleon-to-data-curator/ "Stephen Fortune explains why Data Curator is a fork of Comma Chameleon").

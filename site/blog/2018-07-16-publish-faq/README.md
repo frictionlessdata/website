@@ -240,6 +240,5 @@ For examples of well-structured Data Package see:
 [pub-faq]: /blog/2016/04/20/publish-faq/
 [field-guide]: /data-package
 
-[tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io
 [dp-viewer]: http://create.frictionlessdata.io

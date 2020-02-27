@@ -79,7 +79,6 @@ For more information on each specification, see below:
 [pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /blog/2016/04/20/publish-faq/
 
-[tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io
 [dp-viewer]: http://create.frictionlessdata.io
 
@@ -237,9 +236,9 @@ The [Data Package Viewer](http://data.okfn.org/tools/view) will display a [Recli
 
 ### Software
 
-There is a growing set of [online and offline software](/software) for working with Data
+There is a growing set of online and offline software for working with Data
 Packages including tools for creating, viewing, validating, publishing and
-managing Data Packages. See the [Frictionless Data software page for more](/software).
+managing Data Packages. See the Frictionless Data software [Table Schema Libraries](/products/table-schema/), [Data Package Libraries](/products/data-package/), [Tabulator](/products/tabulator/), [GoodTables](/products/goodtables/), [Data Package Pipelines](/products/data-package-pipelines/), [DataHub](/products/datahub/), [Labs](/products/labs/) for more details.
 
 
 ### Examples
@@ -296,7 +295,6 @@ DataHub does not currently support the TopoJSON format. You can use “Vega Grap
 [pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /blog/2016/04/20/publish-faq/
 
-[tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io
 [dp-viewer]: http://create.frictionlessdata.io
 
