@@ -31,7 +31,7 @@ My next task will be building and integrating the machine learning and neural ne
 As for additional use cases, the volume of personal data is growing exponentially- from medical data to internet activity and media consumption. These are just a few existing examples. The rise of the Internet of Things will only accelerate this. People are also beginning to see the value in controlling their data themselves. Providing mechanisms for doing this will likely become important over the next ten years.
 
 [^jupyter]: Jupyter Notebook: <http://jupyter.org/>
-[^resource]: Data Package Resource: </specs/data-package/#resource-information>
+[^resource]: Data Package Resource: <https://specs.frictionlessdata.io/data-package/#resource-information>
 [^numpy]: NumPy: Python package for scientific computing: <http://www.numpy.org>
 [^pandas]: Pandas: Python package for data analysis: <http://pandas.pydata.org/>
 [^datapackage]: Data Packages: </data-package>

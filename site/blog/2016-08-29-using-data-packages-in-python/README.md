@@ -103,8 +103,8 @@ rows.next()
 
 ## Loading into an SQL database
 
-[Tabular Data Packages](/specs/tabular-data-package/) contains schema information about its
-data using [Table Schema](/specs/table-schema/). This means you can easily import
+[Tabular Data Packages](https://specs.frictionlessdata.io/tabular-data-package/) contains schema information about its
+data using [Table Schema](https://specs.frictionlessdata.io/table-schema/). This means you can easily import
 your Data Package into the SQL backend of your choice. In this case,
 we are creating an [SQLite](http://sqlite.org/) database in a new file
 named `datapackage.db`.

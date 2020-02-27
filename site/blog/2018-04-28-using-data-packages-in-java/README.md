@@ -134,9 +134,9 @@ Make sure that all tests pass, and submit a PR with your contributions once you'
 
 We also welcome your feedback and questions via our [Frictionless Data Gitter chat][fd-gitter] or via [GitHub issues][dp-java-issues] on the datapackage-java repository.
 
-[dp]: https://frictionlessdata.io/specs/data-package/
-[tdp]: https://frictionlessdata.io/specs/tabular-data-package/
-[ts]: https://frictionlessdata.io/table-schema/
+[dp]: https://specs.frictionlessdata.io/data-package/
+[tdp]: https://specs.frictionlessdata.io/tabular-data-package/
+[ts]: https://specs.frictionlessdata.io/table-schema/
 [toolfund]: https://toolfund.frictionlessdata.io
 [dp-java]: https://github.com/frictionlessdata/datapackage-java
 [ts-java]: https://github.com/frictionlessdata/tableschema-java

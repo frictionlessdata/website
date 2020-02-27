@@ -6,17 +6,17 @@ category: publishing-data
 ---
 
 frictionlessdata.io
-Applying licenses, waivers or public domain marks to [data packages](/specs/data-package/) and [data resources](/specs/data-resource/) helps people understand how they can use, modify and share the contents of a data package.
+Applying licenses, waivers or public domain marks to [data packages](https://specs.frictionlessdata.io/data-package/) and [data resources](/https://specs.frictionlessdata.io/data-resource/) helps people understand how they can use, modify and share the contents of a data package.
 
-It is recommended to that you apply a license, waiver or public domain mark to a data package using the [`licenses`](/specs/data-package/#licenses) property. The value assigned to the data package `licenses` property applies to all the data, files and metadata in the data package unless specified otherwise.
+It is recommended to that you apply a license, waiver or public domain mark to a data package using the [`licenses`](https://specs.frictionlessdata.io/data-package/#licenses) property. The value assigned to the data package `licenses` property applies to all the data, files and metadata in the data package unless specified otherwise.
 
-You can optionally apply a license to a data resource. This allows a license that differs from the data package license to be applied to the data resource. If the data resource [`licenses`](/specs/data-resource/#optional-properties) property is not specified, it inherits the data package `licenses`.
+You can optionally apply a license to a data resource. This allows a license that differs from the data package license to be applied to the data resource. If the data resource [`licenses`](/https://specs.frictionlessdata.io/data-resource/#optional-properties) property is not specified, it inherits the data package `licenses`.
 
 ## Specifying a license
-The Frictionless Data specification states that a [license](/specs/data-package/#licenses) must contain a `name` property and/or a `path` property, and may contain a `title` property.
+The Frictionless Data specification states that a [license](https://specs.frictionlessdata.io/data-package/#licenses) must contain a `name` property and/or a `path` property, and may contain a `title` property.
 
 > * `name`: The name MUST be an [Open Definition license ID](http://licenses.opendefinition.org)
-> * `path`: A [url-or-path](/specs/data-resource/#url-or-path) string, that is a fully qualified HTTP address, or a relative POSIX path
+> * `path`: A [url-or-path](/https://specs.frictionlessdata.io/data-resource/#url-or-path) string, that is a fully qualified HTTP address, or a relative POSIX path
 > * `title`: A human-readable title
 
 You can specify the location of a license using a URL or a Path.
@@ -57,7 +57,7 @@ folder
 
 It is recommended that the licence is provided in [markdown](http://commonmark.org) format to simplify its display in data platforms and other software.
 
-The license can be a separate file or included in the README.md file. If license information is included in the README.md file, it is recommended that it follows the [guide for formatting a README file](/blog/2018/07/16/publish-faq/#readme).
+The license can be a separate file or included in the README.md file. If license information is included in the README.md file, it is recommended that it follows the [guide for formatting a README file](/blog/2016/04/20/publish-faq/#readme).
 
 ## Applying a license
 
@@ -163,7 +163,7 @@ You can include this information, either:
 * in the file containing license information (e.g. README.md)
 * as additional metadata properties in the datapackage.json
 
-The data package specification supports adding [additional metadata properties](/specs/data-package/#descriptor) to the datapackage.json, e.g.
+The data package specification supports adding [additional metadata properties](https://specs.frictionlessdata.io/data-package/#descriptor) to the datapackage.json, e.g.
 
 ```
 {
@@ -205,7 +205,7 @@ Sometimes data in a resource may be combined from multiple sources that are lice
 
 ### License may become legally binding
 frictionlessdata.io
-The [specification](/specs/data-package/#licenses) for `licenses` states:
+The [specification](https://specs.frictionlessdata.io/data-package/#licenses) for `licenses` states:
 
 > **This property is not legally binding and does not guarantee the package is licensed under the terms defined in this property.**
 
@@ -221,4 +221,4 @@ For example, at the time of writing:
   * does not upload the README.md file in a data package. If you have described licence information in the README.md file, this will be lost ([issue #60](https://github.com/frictionlessdata/ckanext-datapackager/issues/60))
   * does not display license information in the datapackage.json file correctly ([issue #62](https://github.com/frictionlessdata/ckanext-datapackager/issues/62))
 
-* [Data Curator](https://next.frictionlessdata.io/blog/2019/03/01/datacurator/) only allows the user to select from a limited set of open licenses to describe the data package and data resource licenses.
+* [Data Curator](/blog/2019/03/01/datacurator/) only allows the user to select from a limited set of open licenses to describe the data package and data resource licenses.

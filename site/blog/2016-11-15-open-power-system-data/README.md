@@ -51,7 +51,7 @@ We started this project only knowing what we wanted to do in vague terms, but ve
 
 **Step-by-step, we realized we would like to offer a full “package” of all data that users can download in one click and have everything they need on their hard drive.** Sort of a full model input package of everything a researcher would like with the option to just delete (or simply ignore) the data that is not useful.
 
-We had a first workshop[^firstworkshop] with potential users, and I think one of us, maybe it was Ingmar, Googled you and found out about the [Data Package specification](/specs/data-package/). That it perfectly fit our needs was pretty evident within a few minutes, and we decided to go along with this.
+We had a first workshop[^firstworkshop] with potential users, and I think one of us, maybe it was Ingmar, Googled you and found out about the [Data Package specification](https://specs.frictionlessdata.io/data-package/). That it perfectly fit our needs was pretty evident within a few minutes, and we decided to go along with this.
 
 A lot of our clients are practitioners that use Microsoft Excel as a standard tool.  If I look at a data source, and I open a well structured Excel sheet with colors and (visually) well structured tables, it makes it a lot easier for me to get a first glimpse of the data and an insight as to what’s in there, what’s not in there, its quality, how well it is documented, and so on.  So the one difficulty I see from a user perspective with the Data Package specification (at least, in the way we use it) is that CSV and JSON files take more than one click in a browser to get a human-readable, easily understandable, picture of the data.
 
@@ -76,7 +76,7 @@ In the coming days, we are going to extend the geographic scope and other variou
 
 [^cc]: <https://creativecommons.org/>
 [^odbl]: <http://opendatacommons.org/licenses/odbl/>
-[^tdp]: Tabular Data Package specifications: </specs/tabular-data-package/>
+[^tdp]: Tabular Data Package specifications: <https://specs.frictionlessdata.io/tabular-data-package/>
 [^firstworkshop]: First Workshop of Open Power System Data: <http://open-power-system-data.org/workshop-1/>
 [^scripts]: GitHub repository: <https://github.com/Open-Power-System-Data>
 [^platform]: Data Platform: <http://data.open-power-system-data.org/>

@@ -58,7 +58,7 @@ Briefly, the format allows users to specify not only
 the types of information within each column in a tabular dataset, but
 also expected values.  For more information, see the
 [Table Schema guide](/table-schema/) or
-[the full standard](/specs/table-schema/).
+[the full standard](https://specs.frictionlessdata.io/table-schema/).
 
 ## Python + goodtables
 
@@ -110,22 +110,22 @@ See the `README.md` for more information.
 [dp-main]: /data-package
 [tdp]: /data-package/#tabular-data-package
 [ts]: /table-schema/
-[ts-types]: /specs/table-schema/#field-descriptors
+[ts-types]: https://specs.frictionlessdata.io/table-schema/#field-descriptors
 [csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
 [field-guide]: /data-package
 
-[spec-dp]: /specs/data-package/
-[spec-tdp]: /specs/tabular-data-package/
-[spec-ts]: /specs/table-schema/
-[spec-csvddf]: /specs/csv-dialect/
+[spec-dp]: https://specs.frictionlessdata.io/data-package/
+[spec-tdp]: https://specs.frictionlessdata.io/tabular-data-package/
+[spec-ts]: https://specs.frictionlessdata.io/table-schema/
+[spec-csvddf]: https://specs.frictionlessdata.io/csv-dialect/
 
 [publish]: /docs/publish/
 [pub-tabular]: /blog/2016/07/21/publish-tabular/
-[pub-online]: /blog/2018/08/29/publish-online/
+[pub-online]: /blog/2016/08/29/publish-online/
 [pub-any]: /blog/2016/07/21/publish-any/
 [pub-geo]: /blog/2016/04/30/publish-geo/
-[pub-faq]: /docs/publish-faq/
+[pub-faq]: /blog/2016/04/20/publish-faq/
 
 [tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io

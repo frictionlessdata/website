@@ -12,7 +12,7 @@ Making existing data into a Data Package is very simple.
 And once you have packaged up your data making it available for others is as
 simple as [putting it online][online] or sending an email.
 
-[online]: /blog/2018/08/29/publish-online/
+[online]: /blog/2016/08/29/publish-online/
 
 ## I want to package up and publish data that is &hellip;
 

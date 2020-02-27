@@ -63,21 +63,21 @@ For more information on each specification, see below:
 [dp-main]: /data-package
 [tdp]: /blog/2016/07/21/publish-tabular/
 [ts]: /products/table-schema/
-[ts-types]: /specs/table-schema/#field-descriptors
+[ts-types]: https://specs.frictionlessdata.io/table-schema/#field-descriptors
 [csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
 
-[spec-dp]: /specs/data-package/
-[spec-tdp]: /specs/tabular-data-package/
-[spec-ts]: /specs/table-schema/
-[spec-csvddf]: /specs/csv-dialect/
+[spec-dp]: https://specs.frictionlessdata.io/data-package/
+[spec-tdp]: https://specs.frictionlessdata.io/tabular-data-package/
+[spec-ts]: https://specs.frictionlessdata.io/table-schema/
+[spec-csvddf]: https://specs.frictionlessdata.io/csv-dialect/
 
 [publish]: /docs/publish/
 [pub-tabular]: /blog/2016/07/21/publish-tabular/
-[pub-online]: /blog/2018/08/29/publish-online/
+[pub-online]: /blog/2016/08/29/publish-online/
 [pub-any]: /blog/2016/07/21/publish-any/
 [pub-geo]: /blog/2016/04/30/publish-geo/
-[pub-faq]: /docs/publish-faq/
+[pub-faq]: /blog/2016/04/20/publish-faq/
 
 [tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io
@@ -104,7 +104,7 @@ Any number of additional files such as more data files, scripts (for processing
 or analyzing the data) and other material may be provided but are not required.
 
 :::tip
-There is a full **[RFC-style specification of Data Package format](/specs/data-package/)** to complement this quick introduction.
+There is a full **[RFC-style specification of Data Package format](https://specs.frictionlessdata.io/data-package/)** to complement this quick introduction.
 
 The [Tabular Data Package](/blog/2016/07/21/publish-tabular/) format extends Data Packages for tabular data. It supports providing additional information such as data types of columns.
 :::
@@ -140,7 +140,7 @@ Here is a much more extensive example of a datapackage JSON file:
 !! **Note:** a complete list of potential attributes and their meaning can be found in the
 [full Data Package spec][spec].
 
-[spec]: /specs/data-package/
+[spec]: https://specs.frictionlessdata.io/data-package/
 
 !!! **Note:** the Data Package format is **extensible**: publishers may add their own additional metadata as well as constraints on the format and type of data by adding their own attributes to the `datapackage.json`.
 
@@ -280,21 +280,21 @@ DataHub does not currently support the TopoJSON format. You can use “Vega Grap
 [dp-main]: /data-package
 [tdp]: /blog/2016/07/21/publish-tabular/
 [ts]: /products/table-schema/
-[ts-types]: /specs/table-schema/#field-descriptors
+[ts-types]: https://specs.frictionlessdata.io/table-schema/#field-descriptors
 [csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
 
-[spec-dp]: /specs/data-package/
-[spec-tdp]: /specs/tabular-data-package/
-[spec-ts]: /specs/table-schema/
-[spec-csvddf]: /specs/csv-dialect/
+[spec-dp]: https://specs.frictionlessdata.io/data-package/
+[spec-tdp]: https://specs.frictionlessdata.io/tabular-data-package/
+[spec-ts]: https://specs.frictionlessdata.io/table-schema/
+[spec-csvddf]: https://specs.frictionlessdata.io/csv-dialect/
 
 [publish]: /docs/publish/
 [pub-tabular]: /blog/2016/07/21/publish-tabular/
-[pub-online]: /blog/2018/08/29/publish-online/
+[pub-online]: /blog/2016/08/29/publish-online/
 [pub-any]: /blog/2016/07/21/publish-any/
 [pub-geo]: /blog/2016/04/30/publish-geo/
-[pub-faq]: /docs/publish-faq/
+[pub-faq]: /blog/2016/04/20/publish-faq/
 
 [tools]: /software/
 [dp-creator]: http://create.frictionlessdata.io
