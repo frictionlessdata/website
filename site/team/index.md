@@ -109,6 +109,33 @@ team = team.concat([
 
 team = team.concat([
 	{
+		name: 'Jo Barratt',
+		title: 'Delivery Manager',
+		city: 'London, England',
+		languages: ['en'],
+		work: {
+			role: 'Delivery Manager',
+			org: 'OKFN'
+		}
+	}	
+])
+
+team = team.concat([
+	{
+		name: 'Evgeny Karev',
+		title: 'Senior Developer',
+		city: 'Moscow, Russia',
+		languages: ['en'],
+		github: 'roll',
+		work: {
+			role: 'Tech Lead',
+			org: 'Frictionless Data'
+		}
+	}	
+])
+
+team = team.concat([
+	{
 		name: 'Lilly Winfree',
 		title: 'Product Manager for Reproducible Research',
 		city: 'Austin, TX',
