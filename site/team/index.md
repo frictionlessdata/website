@@ -23,6 +23,14 @@ Here we honor some no-longer-active core team members who have made valuable con
 	:key="profile.name"
 	:profile="profile" />
 
+## Library Developers
+
+The development of Frictionless libraries are guided by an international team, some of whom have chosen to be featured below.
+
+<TeamProfile
+  v-for="profile in libraryDevelopers"
+  :key="profile.name"
+  :profile="profile"/>
 
 ## Community Partners
 
@@ -71,9 +79,78 @@ team = team.concat([
 	}	
 ])
 
+team = team.concat([
+	{
+		name: 'Paul Walsh',
+		title: 'Curator',
+		city: 'Tel Aviv',
+		languages: ['en'],
+		github: 'pwalsh',
+		work: {
+			role: 'CEO',
+			org: 'Datopian'
+		}
+	}	
+])
+
+team = team.concat([
+	{
+		name: 'Irio Musskopf',
+		title: 'Lead Developer',
+		city: 'Berlin, Germany',
+		languages: ['en'],
+		github: 'Irio',
+		work: {
+			role: 'Lead Developer',
+			org: 'Datopian'
+		}
+	}	
+])
+
+team = team.concat([
+	{
+		name: 'Jo Barratt',
+		title: 'Delivery Manager',
+		city: 'London, England',
+		languages: ['en'],
+		work: {
+			role: 'Delivery Manager',
+			org: 'OKFN'
+		}
+	}	
+])
+
+team = team.concat([
+	{
+		name: 'Evgeny Karev',
+		title: 'Senior Developer',
+		city: 'Moscow, Russia',
+		languages: ['en'],
+		github: 'roll',
+		work: {
+			role: 'Tech Lead',
+			org: 'Frictionless Data'
+		}
+	}	
+])
+
+team = team.concat([
+	{
+		name: 'Lilly Winfree',
+		title: 'Product Manager for Reproducible Research',
+		city: 'Austin, TX',
+		languages: ['en'],
+		github: 'lwinfree',
+		work: {
+			role: 'Product Manager',
+			org: 'FrictionlessData'
+		}
+	}	
+])
+
 var partners = [
 	{
-		name: 'John Chodacki,',
+		name: 'John Chodacki',
 		title: 'Organizer of CSVConf US',
 		city: 'Atlanta, GA, USA',
 		languages: ['en'],
@@ -85,7 +162,20 @@ var partners = [
 
 var teamEmeriti = [
 	{
-		name: 'André Heughebaert,',
+		name: 'Daniel Fowler',
+		title: 'Technical Writer, Web Developer',
+		city: 'Bangkok, Thailand',
+		languages: ['en'],
+    github: 'danfowler',
+		work: {
+      role: 'Technical Writer'
+		}
+	}
+]
+
+var libraryDevelopers = [
+	{
+		name: 'André Heughebaert',
 		title: 'Tool Fund Grantee - Julia',
 		city: 'Brussels, Belgium',
 		languages: ['en'],
@@ -100,7 +190,7 @@ var teamEmeriti = [
 	}
 ]
 
-teamEmeriti = teamEmeriti.concat([
+libraryDevelopers = libraryDevelopers.concat([
 	{
 		name: 'Stephan Max',
 		title: 'Tool Fund Grantee',
@@ -116,8 +206,8 @@ teamEmeriti = teamEmeriti.concat([
 		]
 	}	
 ])
-/*****************************************/
-teamEmeriti = teamEmeriti.concat([
+
+libraryDevelopers = libraryDevelopers.concat([
 	{
 		name: 'Oleg Lavrovsky',
 		title: 'Tool Fund Grantee - Julia',
@@ -134,7 +224,7 @@ teamEmeriti = teamEmeriti.concat([
 	}	
 ])
 
-teamEmeriti = teamEmeriti.concat([
+libraryDevelopers = libraryDevelopers.concat([
 	{
 		name: 'Matt Thompson',
 		title: 'Tool Fund Grantee - Clojure',
@@ -151,7 +241,7 @@ teamEmeriti = teamEmeriti.concat([
 	}
 ])
 
-teamEmeriti = teamEmeriti.concat([
+libraryDevelopers = libraryDevelopers.concat([
 	{
 		name: 'Georges Labrèche',
 		title: 'Tool Fund Grantee - Java',
@@ -168,7 +258,7 @@ teamEmeriti = teamEmeriti.concat([
 	}
 ])
 
-teamEmeriti = teamEmeriti.concat([
+libraryDevelopers = libraryDevelopers.concat([
 	{
 		name: 'Ori Hoch',
 		title: 'Tool Fund Grantee - PHP',
@@ -185,7 +275,7 @@ teamEmeriti = teamEmeriti.concat([
 	}
 ])
 
-teamEmeriti = teamEmeriti.concat([
+libraryDevelopers = libraryDevelopers.concat([
 	{
 		name: 'Daniel Fireman',
 		title: 'Tool Fund Grantee - Go',
@@ -202,7 +292,7 @@ teamEmeriti = teamEmeriti.concat([
 	}
 ])
 
-teamEmeriti = teamEmeriti.concat([
+libraryDevelopers = libraryDevelopers.concat([
 	{
 		name: 'Carlos Eduardo Ribas',
 		title: 'Tool Fund Grantee - NES',
@@ -219,7 +309,7 @@ teamEmeriti = teamEmeriti.concat([
 	}
 ])
 
-teamEmeriti = teamEmeriti.concat([
+libraryDevelopers = libraryDevelopers.concat([
 	{
 		name: 'Greg Bloom',
 		title: 'Open Referral',
@@ -236,7 +326,7 @@ teamEmeriti = teamEmeriti.concat([
 	}
 ])
 
-teamEmeriti = teamEmeriti.concat([
+libraryDevelopers = libraryDevelopers.concat([
 	{
 		name: 'Shelby Switzer',
 		title: 'Open Referral',
@@ -257,7 +347,8 @@ export default {
   data () {
 		return {
 			team: team,
-			teamEmeriti: teamEmeriti,
+			libraryDevelopers: libraryDevelopers,
+      teamEmeriti: teamEmeriti,
 			partners: partners,
 		}
   }
