@@ -34,7 +34,6 @@ If you’d like to learn more about Frictionless before diving in, we created a 
 
 [^atomic]: We have borrowed the concept of Atomic Data from the web design field. For us it means, tools or specs are a) broken down into minimum viable components b) these components are combinable into larger and more complex components and systems. The Atomic approach is what underpins the incremental adoptablity and the ability to scale from the simplest sitution to highly complex data engineering.
 
-
 ### Getting Started
 
 :::warning
@@ -53,36 +52,60 @@ The easiest way to try out Frictionless is using the Hello World example. Feel f
 ### Declarative Data
 -->
 
-### Table Schema
+### Declarative Data
 
 At the core of Frictionless is a system that enables us to declaratively describe data (and datasets) using a straightforward syntax.
+
+### Table Schema
+
+Table Schema is a specification for providing a “schema” (similar to a [database schema](https://en.wikipedia.org/wiki/Database_schema)) for tabular data. This information includes the expected type of each value in a column *(“string”, “number”, “date”, etc.)*, constraints on the value *(“this string can only be at most 10 characters long”)*, and the expected format of the data *(“this field should only contain strings that look like email addresses)*. Table Schema can also specify relations between tables.
 
 Here's our simple `helloworld.csv` CSV (you can paste this in a local file):
 
 ```csv
-Name,Score
-Ada,5
-Bernie,3
+Name,Email,Age
+Jill,jill@foo.com,25
+Jack,jack@bar.com,33
 ```
 
-And here's the Table Schema (in JSON) to describe that file:
+As a table, it looks like this:
+
+| Name | Email        | Age |
+|------|--------------|-----|
+| Jill | jill@foo.com |  25 |
+| Jack | jack@bar.com |  33 |
+
+And here's a **Table Schema** (in JSON) to describe that file. Note that a minimum age of 18 is specified in the `Age` column and a string that looks like an email address must be present in the `Email` column:
 
 ```json
 {
   "fields": [
     {
       "name": "Name",
-      "type": "string"
+      "type": "string",
+      "description": "User’s name"
     },
     {
-      "name": "Score",
-      "type": "number"
+      "name": "Email",
+      "type": "string",
+      "format": "email",
+      "description": "User’s email"
+    },
+    {
+      "name": "Age",
+      "type": "integer",
+      "description": "User’s age",
+      "constraints": {
+        "minimum": 18
+      }
     }
   ]
 }
 ```
 
-Well done! You have already created your very first Frictionless Data!
+Copy and paste this into a file called tableschema.json next to your CSV file.
+
+Well done 👏 You have just created your very first Frictionless Data!
 
 <!--
 TODO: mention you can use Frictionless with other (non-tabular) types of data ...
