@@ -42,7 +42,7 @@ module.exports = {
         text: "Tooling",
         items: [
           { text: "Table Schema Tools", link: "/products/table-schema/" },
-          { text: "Data Package Libs", link: "/products/data-package/" },
+          { text: "Data Package Tools", link: "/products/data-package/" },
           { text: "Tabulator", link: "/products/tabulator/" },
           { text: "GoodTables", link: "/products/goodtables/" },
           { text: "Data Package Pipelines", link: "/products/data-package-pipelines/" },

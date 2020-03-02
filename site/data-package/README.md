@@ -1,5 +1,11 @@
 # Data Packages
 
+:::tip
+This page assumes knowledge about the Frictionless Data ecosystem.
+
+If you don't have it, please read [this page](/guide) first.
+:::
+
 Data Package is a simple **container** format used to describe and package a collection of data. The format provides a simple contract for data interoperability that supports frictionless delivery, installation and management of data.
 
 Data Packages can be used to package any kind of data. At the same time, for specific common data types such as tabular data it has support for providing important additional descriptive metadata -- for example, describing the columns and data types in a CSV.
@@ -25,7 +31,7 @@ The main specifications are:
 
 ### How do these specifications relate?
 
-A **Data Package** can "contain" any type of file.  A **Tabular Data Package** is a type of Data Package specialized for tabular data and which "contains" one or more CSV files.  In a Tabular Data Package, each CSV must have a *schema* defined using **Table Schema** and, optionally, a *dialect* defined using **CSV-DDF**.  An application or library that consumes Tabular Data Packages therefore must be able to understand not only the full Data Package specification, but also Table Schema and CSV-DDF.
+A **Data Package** can "contain" any type of file. A **Tabular Data Package** is a type of Data Package specialized for tabular data and which "contains" one or more CSV files.  In a Tabular Data Package, each CSV must have a *schema* defined using **Table Schema** and, optionally, a *dialect* defined using **CSV-DDF**. An application or library that consumes Tabular Data Packages therefore must be able to understand not only the full Data Package specification, but also Table Schema and CSV-DDF.
 
 ![Tabular Data Package](./tabular-data-package.png)
 
@@ -218,10 +224,6 @@ The [Data Package Viewer](http://data.okfn.org/tools/view) will display a [Recli
 }
 ```
 
-### Software
-
-There is a growing set of online and offline software for working with Data Packages including tools for creating, viewing, validating, publishing and managing Data Packages. See the Frictionless Data software [Table Schema Libraries](/products/table-schema/), [Data Package Libraries](/products/data-package/), [Tabulator](/products/tabulator/), [GoodTables](/products/goodtables/), [Data Package Pipelines](/products/data-package-pipelines/), [DataHub](/products/datahub/), [Labs](/products/labs/) for more details.
-
 ### Examples
 
 Many exemplar data packages can be found on [datahub][]. Specific examples:
@@ -251,6 +253,12 @@ https://pkgstore.datahub.io/core/s-and-p-500-companies/10/datapackage.json
 You can see an example on how to package GeoJSON files [here](https://datahub.io/examples/geojson-tutorial).
 
 DataHub does not currently support the TopoJSON format. You can use “Vega Graph Spec” and display you TopoJSON data using the [Vega specification][vega]. See an example [here](https://datahub.io/examples/vega-views-tutorial-topojson).
+
+## Next Steps
+
+* Read the [full specification](https://specs.frictionlessdata.io/data-package).
+* Get to know the [tools](/products/data-package).
+* Understand how it can be wrapped in a [Data Package](/data-package).
 
 [datahub]: https://datahub.io/core
 [vega]: https://vega.github.io/vega/
