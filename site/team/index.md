@@ -23,15 +23,23 @@ Here we honor some no-longer-active core team members who have made valuable con
 	:key="profile.name"
 	:profile="profile" />
 
-## Library Developers
+## Tool Fund Partners
 
-Some members of the Frictionless community have so enriched it, that they deserve special mention. We’ve developed a more intimate relationship with these key partners, often coordinating with them on upcoming features and news.
+Frictionless data has funded international partners who have worked in developing various tools and libraries for the project and they are featured below.  
 
 <TeamProfile
-  v-for="profile in libraryDevelopers"
+  v-for="profile in toolFundPartners"
   :key="profile.name"
   :profile="profile"/>
 
+## Community Partners
+
+Some members of the Frictionless community have so enriched it, that they deserve special mention. We've developed a more intimate relationship with these key partners, often coordinating with them on upcoming features and news.
+
+<TeamProfile
+	v-for="profile in partners"
+	:key="profile.name"
+	:profile="profile" />
 
 <script>
 // import data from './data.json'
@@ -169,7 +177,7 @@ var teamEmeriti = [
 	}
 ]
 
-var libraryDevelopers = [
+var toolFundPartners = [
 	{
 		name: 'André Heughebaert',
 		title: 'Tool Fund Grantee - Julia',
@@ -186,7 +194,7 @@ var libraryDevelopers = [
 	}
 ]
 
-libraryDevelopers = libraryDevelopers.concat([
+toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Stephan Max',
 		title: 'Tool Fund Grantee',
@@ -203,7 +211,7 @@ libraryDevelopers = libraryDevelopers.concat([
 	}	
 ])
 
-libraryDevelopers = libraryDevelopers.concat([
+toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Oleg Lavrovsky',
 		title: 'Tool Fund Grantee - Julia',
@@ -220,7 +228,7 @@ libraryDevelopers = libraryDevelopers.concat([
 	}	
 ])
 
-libraryDevelopers = libraryDevelopers.concat([
+toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Matt Thompson',
 		title: 'Tool Fund Grantee - Clojure',
@@ -237,7 +245,7 @@ libraryDevelopers = libraryDevelopers.concat([
 	}
 ])
 
-libraryDevelopers = libraryDevelopers.concat([
+toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Georges Labrèche',
 		title: 'Tool Fund Grantee - Java',
@@ -254,7 +262,7 @@ libraryDevelopers = libraryDevelopers.concat([
 	}
 ])
 
-libraryDevelopers = libraryDevelopers.concat([
+toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Ori Hoch',
 		title: 'Tool Fund Grantee - PHP',
@@ -271,7 +279,7 @@ libraryDevelopers = libraryDevelopers.concat([
 	}
 ])
 
-libraryDevelopers = libraryDevelopers.concat([
+toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Daniel Fireman',
 		title: 'Tool Fund Grantee - Go',
@@ -288,7 +296,7 @@ libraryDevelopers = libraryDevelopers.concat([
 	}
 ])
 
-libraryDevelopers = libraryDevelopers.concat([
+toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Carlos Eduardo Ribas',
 		title: 'Tool Fund Grantee - NES',
@@ -305,7 +313,7 @@ libraryDevelopers = libraryDevelopers.concat([
 	}
 ])
 
-libraryDevelopers = libraryDevelopers.concat([
+toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Greg Bloom',
 		title: 'Open Referral',
@@ -322,7 +330,7 @@ libraryDevelopers = libraryDevelopers.concat([
 	}
 ])
 
-libraryDevelopers = libraryDevelopers.concat([
+toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Shelby Switzer',
 		title: 'Open Referral',
@@ -339,12 +347,26 @@ libraryDevelopers = libraryDevelopers.concat([
 	}
 ])
 
+var partners = [
+	{
+		name: 'John Chodacki',
+		title: 'Organizer of CSVConf US',
+		city: 'Atlanta, GA, USA',
+		twitter: 'chodacki',
+		languages: ['en'],
+		work: {
+			org: 'California Digital Library'
+		}
+	}
+]
+
 export default {
   data () {
 		return {
 			team: team,
-			libraryDevelopers: libraryDevelopers,
-      		teamEmeriti: teamEmeriti,
+			toolFundPartners: toolFundPartners,
+			teamEmeriti: teamEmeriti,
+			partners: partners,
 		}
   }
 }
