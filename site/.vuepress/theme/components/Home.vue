@@ -18,7 +18,7 @@
       </p>
 
       <p
-        class="action"
+        class="action inline-block pr-8"
         v-if="data.actionText && data.actionLink"
       >
         <NavLink
@@ -26,6 +26,11 @@
           :item="actionLink"
         />
       </p>
+      
+      <p
+      class="action inline-block transparent-button"> 
+        <a href="/guide/" class="font-normal"> Get Started </a>
+    </p>
     </header>
 
     <div
@@ -195,5 +200,54 @@ export default {
     .feature
       h2
         font-size 1.25rem
+
+
+.transparent-button
+  font-size 1.2rem
+  color #1A98FF
+  border #1A98FF 1px solid
+  background-color white
+  padding .8rem 1.6rem
+  border-radius 4px
+  transition background-color .1s ease
+  box-sizing border-box
+  cursor pointer
+  transition all 0.5s
+
+.transparent-button a {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.transparent-button a:after {
+  content: '→';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.transparent-button:hover a {
+  padding-right: 25px;
+}
+
+.transparent-button:hover a:after {
+  opacity: 1;
+  right: 0;
+}
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
+}
+  
 </style>
 
