@@ -1,6 +1,12 @@
 # Table Schema
 
-Table Schema is a specification for providing a “schema” (similar to a [database schema](https://en.wikipedia.org/wiki/Database_schema)) for tabular data.  This information includes the expected type of each value in a column *(“string”, “number”, “date”, etc.)*, constraints on the value *(“this string can only be at most 10 characters long”)*, and the expected format of the data *(“this field should only contain strings that look like email addresses)*. Table Schema can also specify relations between tables.
+:::tip
+This page assumes knowledge about the Frictionless Data ecosystem.
+
+If you don't have it, please read [this page](/guide) first.
+:::
+
+Table Schema is a specification for providing a “schema” (similar to a [database schema](https://en.wikipedia.org/wiki/Database_schema)) for tabular data. This information includes the expected type of each value in a column *(“string”, “number”, “date”, etc.)*, constraints on the value *(“this string can only be at most 10 characters long”)*, and the expected format of the data *(“this field should only contain strings that look like email addresses)*. Table Schema can also specify relations between tables.
 
 Given the following table of user information:
 
