@@ -18,23 +18,14 @@ Over time the single Data Package spec has evolved into a suite of specs -- part
 
 The main specifications are:
 
-* [Data Package specification][dp], a simple format for packaging data
-for sharing between tools and people
-* [Tabular Data Package][tdp], a format for packaging tabular
-data that builds on Data Package and which uses:
+* [Data Package specification][dp], a simple format for packaging data for sharing between tools and people
+* [Tabular Data Package][tdp], a format for packaging tabular data that builds on Data Package and which uses:
   * [Table Schema][ts], a specification for defining a *schema* for tabular data
   * [CSV Dialect Description Format][spec-csvddf] (CSV-DDF), a specification for defining a *dialect* for CSV data.
 
 ### How do these specifications relate?
 
-A **Data Package** can "contain" any type of file.  A **Tabular Data
-Package** is a type of Data Package specialized for tabular data and which "contains" one or
-more CSV files.  In a Tabular Data Package, each CSV must have a
-*schema* defined using **Table Schema** and, optionally, a
-*dialect* defined using **CSV-DDF**.  An application or library that
-consumes Tabular Data Packages therefore must be able to understand
-not only the full Data Package specification, but also Table
-Schema and CSV-DDF.
+A **Data Package** can "contain" any type of file.  A **Tabular Data Package** is a type of Data Package specialized for tabular data and which "contains" one or more CSV files.  In a Tabular Data Package, each CSV must have a *schema* defined using **Table Schema** and, optionally, a *dialect* defined using **CSV-DDF**.  An application or library that consumes Tabular Data Packages therefore must be able to understand not only the full Data Package specification, but also Table Schema and CSV-DDF.
 
 ![Tabular Data Package](./tabular-data-package.png)
 
@@ -99,8 +90,7 @@ data/more-data.csv
 README.md
 ```
 
-Any number of additional files such as more data files, scripts (for processing
-or analyzing the data) and other material may be provided but are not required.
+Any number of additional files such as more data files, scripts (for processing or analyzing the data) and other material may be provided but are not required.
 
 :::tip
 There is a full **[RFC-style specification of Data Package format](https://specs.frictionlessdata.io/data-package/)** to complement this quick introduction.
@@ -110,17 +100,12 @@ The [Tabular Data Package](/blog/2016/07/21/publish-tabular/) format extends Dat
 
 ### datapackage.json
 
-`datapackage.json` file is the basic building block of a Data Package and is
-the only required file. It provides:
+`datapackage.json` file is the basic building block of a Data Package and is the only required file. It provides:
 
-* General metadata such as the name of the package, its license, its publisher and source,
-  etc
-* A "manifest" in the the form of a list of the data resources (data files)
-  included in this data package along with information on those files (e.g.
-  schema)
+* General metadata such as the name of the package, its license, its publisher and source, etc
+* A "manifest" in the the form of a list of the data resources (data files) included in this data package along with information on those files (e.g. schema)
 
-As its file extension indicates, it must be a [JSON][json] file. Here's a very
-minimal example of a `datapackage.json` file:
+As its file extension indicates, it must be a [JSON][json] file. Here's a very minimal example of a `datapackage.json` file:
 
 ```json
 {
@@ -136,8 +121,7 @@ minimal example of a `datapackage.json` file:
 
 Here is a much more extensive example of a datapackage JSON file:
 
-!! **Note:** a complete list of potential attributes and their meaning can be found in the
-[full Data Package spec][spec].
+!! **Note:** a complete list of potential attributes and their meaning can be found in the [full Data Package spec][spec].
 
 [spec]: https://specs.frictionlessdata.io/data-package/
 
@@ -236,10 +220,7 @@ The [Data Package Viewer](http://data.okfn.org/tools/view) will display a [Recli
 
 ### Software
 
-There is a growing set of online and offline software for working with Data
-Packages including tools for creating, viewing, validating, publishing and
-managing Data Packages. See the Frictionless Data software [Table Schema Libraries](/products/table-schema/), [Data Package Libraries](/products/data-package/), [Tabulator](/products/tabulator/), [GoodTables](/products/goodtables/), [Data Package Pipelines](/products/data-package-pipelines/), [DataHub](/products/datahub/), [Labs](/products/labs/) for more details.
-
+There is a growing set of online and offline software for working with Data Packages including tools for creating, viewing, validating, publishing and managing Data Packages. See the Frictionless Data software [Table Schema Libraries](/products/table-schema/), [Data Package Libraries](/products/data-package/), [Tabulator](/products/tabulator/), [GoodTables](/products/goodtables/), [Data Package Pipelines](/products/data-package-pipelines/), [DataHub](/products/datahub/), [Labs](/products/labs/) for more details.
 
 ### Examples
 
