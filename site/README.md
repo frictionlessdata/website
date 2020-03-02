@@ -30,21 +30,21 @@ footer: Copyright © 2007-present Rufus Pollock, Open Knowledge and Datopian
 
 <h1 class="text-center" id="more">For anyone who works with data<br/><small>Especially diverse data and/or across tools or teams</small></h1>
 
-<div class="features">
+<div class="features text-center">
   <div class="feature">
-    <h2>Researchers</h2>
-    <p>Easily create reproducible research</p>
     <img src="/img/home/for-researchers.svg" />
+    <h2 >Researchers</h2>
+    <p>Easily create reproducible research</p>
   </div>
   <div class="feature">
+    <img src="/img/home/for-data-scientists.svg" />
     <h2>Data Scientists</h2>
     <p>Create pipelines without effort</p>
-    <img src="/img/home/for-data-scientists.svg" />
   </div>
   <div class="feature">
+    <img src="/img/home/for-data-engineers.svg" height="223.375" />
     <h2>Data Engineers</h2>
     <p>Standardize data platforms</p>
-    <img src="/img/home/for-data-engineers.svg" />
   </div>
 </div>
 
