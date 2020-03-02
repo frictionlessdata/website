@@ -113,6 +113,7 @@ team = team.concat([
 		title: 'Delivery Manager',
 		city: 'London, England',
 		languages: ['en'],
+		twitter: 'JoBarratt',
 		work: {
 			role: 'Delivery Manager',
 			org: 'OKFN'
@@ -153,6 +154,7 @@ var partners = [
 		name: 'John Chodacki',
 		title: 'Organizer of CSVConf US',
 		city: 'Atlanta, GA, USA',
+		twitter: 'chodacki',
 		languages: ['en'],
 		work: {
 			org: 'California Digital Library'
