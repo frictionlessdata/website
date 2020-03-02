@@ -32,10 +32,6 @@ The development of Frictionless libraries are guided by an international team, s
   :key="profile.name"
   :profile="profile"/>
 
-<TeamProfile
-	v-for="profile in partners"
-	:key="profile.name"
-	:profile="profile" />
 
 <script>
 // import data from './data.json'
@@ -85,7 +81,10 @@ team = team.concat([
 		work: {
 			role: 'CEO',
 			org: 'Datopian'
-		}
+		},
+		reposOfficial: [
+			'frictionlessdata/*', 'datopian/*'
+		]
 	}	
 ])
 
@@ -99,7 +98,10 @@ team = team.concat([
 		work: {
 			role: 'Lead Developer',
 			org: 'Datopian'
-		}
+		},
+		reposOfficial: [
+			'frictionlessdata/*', 'datopian/*'
+		]
 	}	
 ])
 
@@ -113,7 +115,10 @@ team = team.concat([
 		work: {
 			role: 'Delivery Manager',
 			org: 'OKFN'
-		}
+		},
+		reposOfficial: [
+			'frictionlessdata/*', 'okfn/*'
+		]
 	}	
 ])
 
@@ -127,7 +132,10 @@ team = team.concat([
 		work: {
 			role: 'Tech Lead',
 			org: 'Frictionless Data'
-		}
+		},
+		reposOfficial: [
+			'frictionlessdata/*', 'okfn/*'
+		]
 	}	
 ])
 
@@ -141,7 +149,10 @@ team = team.concat([
 		work: {
 			role: 'Product Manager',
 			org: 'FrictionlessData'
-		}
+		},
+		reposOfficial: [
+			'frictionlessdata/*', 'okfn/*'
+		]
 	}	
 ])
 
@@ -333,7 +344,7 @@ export default {
 		return {
 			team: team,
 			libraryDevelopers: libraryDevelopers,
-		    teamEmeriti: teamEmeriti,
+      		teamEmeriti: teamEmeriti,
 		}
   }
 }
