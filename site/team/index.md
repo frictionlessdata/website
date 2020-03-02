@@ -32,10 +32,6 @@ The development of Frictionless libraries are guided by an international team, s
   :key="profile.name"
   :profile="profile"/>
 
-## Community Partners
-
-Some members of the Frictionless community have so enriched it, that they deserve special mention. We've developed a more intimate relationship with these key partners, often coordinating with them on upcoming features and news.
-
 <TeamProfile
 	v-for="profile in partners"
 	:key="profile.name"
@@ -148,19 +144,6 @@ team = team.concat([
 		}
 	}	
 ])
-
-var partners = [
-	{
-		name: 'John Chodacki',
-		title: 'Organizer of CSVConf US',
-		city: 'Atlanta, GA, USA',
-		twitter: 'chodacki',
-		languages: ['en'],
-		work: {
-			org: 'California Digital Library'
-		}
-	}
-]
 
 var teamEmeriti = [
 	{
@@ -350,10 +333,8 @@ export default {
 		return {
 			team: team,
 			libraryDevelopers: libraryDevelopers,
-      teamEmeriti: teamEmeriti,
-			partners: partners,
+		    teamEmeriti: teamEmeriti,
 		}
   }
 }
 </script>
-
