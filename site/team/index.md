@@ -25,7 +25,7 @@ Here we honor some no-longer-active core team members who have made valuable con
 
 ## Library Developers
 
-The development of Frictionless libraries are guided by an international team, some of whom have chosen to be featured below.
+Some members of the Frictionless community have so enriched it, that they deserve special mention. We’ve developed a more intimate relationship with these key partners, often coordinating with them on upcoming features and news.
 
 <TeamProfile
   v-for="profile in libraryDevelopers"
