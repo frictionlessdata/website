@@ -56,23 +56,6 @@ var team = [{
 
 team = team.concat([
 	{
-		name: 'Monika Popova',
-		title: 'Design Czar',
-		city: 'Sofia, Bulgaria',
-		languages: ['en', 'de'],
-		github: 'monikappv',
-		work: {
-			role: 'Designer',
-			org: 'FrictionlessData'
-		},
-		reposOfficial: [
-			'frictionlessdata/*', 'datopian/*'
-		]
-	}	
-])
-
-team = team.concat([
-	{
 		name: 'Paul Walsh',
 		title: 'Curator',
 		city: 'Tel Aviv',
@@ -98,6 +81,23 @@ team = team.concat([
 		work: {
 			role: 'Lead Developer',
 			org: 'Datopian'
+		},
+		reposOfficial: [
+			'frictionlessdata/*', 'datopian/*'
+		]
+	}	
+])
+
+team = team.concat([
+	{
+		name: 'Monika Popova',
+		title: 'Design Czar',
+		city: 'Sofia, Bulgaria',
+		languages: ['en', 'de'],
+		github: 'monikappv',
+		work: {
+			role: 'Designer',
+			org: 'FrictionlessData'
 		},
 		reposOfficial: [
 			'frictionlessdata/*', 'datopian/*'
