@@ -18,7 +18,7 @@
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
 
-      <p
+      <!-- <p
         class="action inline-block pr-8"
         v-if="data.actionText && data.actionLink"
       >
@@ -26,8 +26,12 @@
           class="action-button"
           :item="actionLink"
         />
-      </p>
-      
+      </p> --> 
+       <p
+      class="action inline-block pr-8"> 
+        <a href="#video-section" class="action-button font-normal"> Why Frictionless Data? </a>
+    </p>
+
       <p
       class="action inline-block transparent-button"> 
         <a href="/guide/" class="font-normal"> Get Started </a>

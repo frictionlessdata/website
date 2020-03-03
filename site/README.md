@@ -83,7 +83,27 @@ Conversely, data management often requires some data cleaning (integration)
 
 </div>
 
-<div class="banner py-8 gray-section">
+<br>
+
+<div class="banner py-8 gray-section" id="video-section">
+
+<div class="container main-section">
+  <div class="pb-12">
+    <div class="container">
+      <h1 class="text-center">
+        Why Frictionless Data?
+      </h1>
+      <p class="text-center text-lg">Rufus Pollock explains the problem Frictionless Data addresses <br>through simple specifications and software.</p>
+      <div id="headerPopup" class="">
+        <iframe width="560" height="415" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<div class="banner py-8">
   <div class="inner-container">
     <h1 class="text-center">Some of Our Tooling</h1>
     <div class="container mx-auto flex flex-row py-12">
@@ -136,6 +156,16 @@ export default {
 
 .usedby {
   max-width: 900px;
+}
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
 }
 
 </style>
