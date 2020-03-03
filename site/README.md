@@ -95,7 +95,7 @@ Conversely, data management often requires some data cleaning (integration)
       </h1>
       <p class="text-center text-lg">Rufus Pollock explains the problem Frictionless Data addresses <br>through simple specifications and software.</p>
       <div id="headerPopup" class="">
-        <iframe width="560" height="415" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="460" height="415" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
