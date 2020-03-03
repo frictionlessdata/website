@@ -18,29 +18,17 @@ footer: Copyright © 2007-present Rufus Pollock, Open Knowledge and Datopian
 <!-- # Zen = simple, minimal, clean, powerful -->
 
 <div class="banner gray-section py-6 w-full">
-
-<h1 class="text-center">Used by</h1>
-
-<div class="container flex flex-row mx-auto">
-  <div class="container flex items-stretch">  
-    <img class="w-32 self-center" src="/img/home/pandas.png" />
+  <div class="container mx-auto usedby">
+    <h1 class="text-center">Used by</h1>
+    <div class="container flex flex-row justify-center">
+      <img class="w-32 self-center" src="/img/home/pandas.png" />
+      <img class="w-24 self-center pl-12" src="/img/home/kaggle.png" />
+      <img class="w-32 self-center pl-12" src="/img/home/openrefine.png" />
+      <img class="w-32 self-center pl-12" src="/img/home/data-gov-uk.png" />
+      <img class="w-20 self-center pl-12" src="/img/home/18f-logo.png" />
+      <img class="w-32 self-center pl-12" src="/img/home/data-gouv-fr.png" />
+    </div>
   </div>
-  <div class="container flex items-stretch">
-    <img class="w-24 self-center pl-8" src="/img/home/kaggle.png" />
-  </div>
-  <div class="container flex items-stretch">
-    <img class="w-32 self-center pl-8" src="/img/home/openrefine.png" />
-  </div>
-  <div class="container flex items-stretch">
-    <img class="w-32 self-center pl-8" src="/img/home/data-gov-uk.png" />
-  </div>
-  <div class="container flex items-stretch">
-    <img class="w-20 self-center pl-8" src="/img/home/18f-logo.png" />
-  </div>
-  <div class="container flex items-stretch">
-    <img class="w-32 self-center pl-8" src="/img/home/data-gouv-fr.png" />
-  </div>
-</div>
 
 </div>
 
@@ -140,8 +128,12 @@ export default {
 }
 
 .inner-container {
-  max-width: 960px;
+  max-width: 900px;
   margin: auto;
+}
+
+.usedby {
+  max-width: 900px;
 }
 
 </style>
