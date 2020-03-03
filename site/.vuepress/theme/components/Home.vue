@@ -1,5 +1,5 @@
 <template>
-<div class="banner">
+<div class="banner whole-page">
   <main class="main-section" aria-labelledby="main-title">
     <header class="hero">
       <img
@@ -86,7 +86,7 @@ export default {
 <style lang="stylus">
 .main-section
   padding $navbarHeight 2rem 0
-  max-width 860px
+  max-width 900px
   margin 0px auto
   display block
   .hero
@@ -251,6 +251,11 @@ export default {
 #headerPopup iframe{
   width:100%;
   margin:0 auto;
+}
+
+.whole-page {
+  padding-top: 3.6rem;
+  padding-bottom: 0px;
 }
   
 </style>
