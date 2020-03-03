@@ -14,7 +14,7 @@ The development of Frictionless and its ecosystem is guided by an international 
 	:profile="profile" />
 
 
-## Core Team EmeritiS
+## Core Team Emeritis
 
 Here we honor some no-longer-active core team members who have made valuable contributions in the past.
 
