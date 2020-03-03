@@ -15,7 +15,7 @@
       >
         <h1>
           The <span class="tooltip" data-tooltip="zen = simple, minimal, clean, powerful">zen</span>
-          framework for data <span class="typing"></span>
+          toolkit for data <span class="typing"></span>
         </h1>
       </vue-typed-js>
 
