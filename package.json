@@ -4,7 +4,8 @@
   "description": "Frictionless Data Website",
   "dependencies": {
     "markdown-it-footnote": "",
-    "mermaid": "^8.0.0"
+    "mermaid": "^8.0.0",
+    "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {
     "@vuepress/plugin-blog": "^1.9.2",

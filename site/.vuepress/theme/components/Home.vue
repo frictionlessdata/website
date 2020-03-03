@@ -7,12 +7,17 @@
         :src="$withBase(data.heroImage)"
         :alt="data.heroAlt || 'hero'"
       >
-
-      <h1>
-        The
-        <span class="tooltip" data-tooltip="zen = simple, minimal, clean, powerful">zen</span>
-        toolkit for data integration
-      </h1>
+        
+      <vue-typed-js 
+        :strings="['integration', 'science', 'wrangling', 'workflows']" 
+        :typeSpeed="100"
+        :loopCount="20"
+      >
+        <h1>
+          The <span class="tooltip" data-tooltip="zen = simple, minimal, clean, powerful">zen</span>
+          toolkit for data <span class="typing"></span>
+        </h1>
+      </vue-typed-js>
 
       <p class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
@@ -60,11 +65,16 @@
 </template>
 
 <script>
+import Vue from 'vue'
+import VueTypedJs from 'vue-typed-js'
 import NavLink from '@theme/components/NavLink.vue'
 
 export default {
   components: { NavLink },
 
+  beforeMount(){
+    Vue.use(VueTypedJs)
+  },
   computed: {
     data () {
       return this.$page.frontmatter
