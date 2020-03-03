@@ -91,8 +91,8 @@ Conversely, data management often requires some data cleaning (integration)
         Why Frictionless Data?
       </h1>
       <p class="text-center text-lg">Rufus Pollock explains the problem Frictionless Data addresses <br>through simple specifications and software.</p>
-      <div id="headerPopup" class="">
-        <iframe class="video-frame" width="460" height="415" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div id="headerPopup" class="video-container flex justify-center">
+        <iframe class="video-frame" width="560" height="415" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
   </div>
@@ -155,18 +155,13 @@ export default {
   max-width: 900px;
 }
 
-#headerPopup{
-  width:75%;
-  margin:0 auto;
-}
-
-#headerPopup iframe{
-  width:100%;
-  margin:0 auto;
-}
-
 .video-frame {
-  max-width: 460;
+  max-width: 560px;
+  ;
+}
+
+.video-container {
+  margin: auto;
 }
 
 </style>
