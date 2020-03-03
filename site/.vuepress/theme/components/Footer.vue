@@ -41,12 +41,18 @@
         </div>
       </div>
     </div>
+    <!-- <div
+    class="footer text-center pt-6 text-white"
+    v-if="$page.frontmatter.footer"
+  >
+    {{ $page.frontmatter.footer }}
+  </div> -->
   </footer>
 </template>
 
 <style scoped>
 
 .footer-background {
-  background-color: #1A98FF;
+  background-color: rgb(64, 54, 77);
 }
 </style>

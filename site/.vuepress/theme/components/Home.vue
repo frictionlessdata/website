@@ -56,13 +56,6 @@
 
   <Content class="theme-default-content custom"/>
 
-  <div
-    class="footer text-center pb-6"
-    v-if="data.footer"
-  >
-    {{ data.footer }}
-  </div>
-
   </div>
 </template>
 
