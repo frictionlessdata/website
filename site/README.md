@@ -1,25 +1,22 @@
 ---
 layout: home
 heroImage: /img/frictionless-data-blue-logo-text.png
-heroText: The zen framework for data integration
-tagline: Frictionless Data is a progressive, incrementally adoptable open-source framework that brings simplicity and grace to the data experience - whether you're wrangling a CSV or engineering complex pipelines with terabytes.
+heroText: The zen toolkit for data integration
+tagline: Frictionless Data is a progressive, incrementally adoptable open-source toolkit that brings simplicity and grace to the data experience - whether you're wrangling a CSV or engineering complex pipelines with terabytes.
 actionText: Why Frictionless Data? 
 actionLink: /about/
 features:
-- title: Simple and Approachable
+- title: Approachable
   details: Lean and minimal core. Quick to understand, quick to use.
-- title: Versatile and Scalable
-  details: Incrementally adoptable, use just a part, scale as you grow.
+- title: Incrementally adoptable
+  details: Start with just what you need, scale as you grow.
 - title: Progressive
   details: We enhance rather than replace your existing tools and workflows.
-footer: Copyright © 2007-present Rufus Pollock, Open Knowledge and Datopian
 ---
-
-<!-- # Zen = simple, minimal, clean, powerful -->
 
 <div class="banner gray-section py-6 w-full">
   <div class="container mx-auto usedby">
-    <h1 class="text-center">Used by</h1>
+    <h1 class="text-center">Widely Adopted and Used</h1>
     <div class="container flex flex-row justify-center">
       <img class="w-32 self-center" src="/img/home/pandas.png" />
       <img class="w-24 self-center pl-12" src="/img/home/kaggle.png" />

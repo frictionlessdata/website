@@ -11,7 +11,7 @@
       <h1>
         The
         <span class="tooltip" data-tooltip="zen = simple, minimal, clean, powerful">zen</span>
-        framework for data integration
+        toolkit for data integration
       </h1>
 
       <p class="description">
