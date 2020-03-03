@@ -1,5 +1,6 @@
 <template>
-  <main class="home" aria-labelledby="main-title">
+<div class="banner">
+  <main class="main-section" aria-labelledby="main-title">
     <header class="hero">
       <img
         v-if="data.heroImage"
@@ -47,15 +48,18 @@
       </div>
     </div>
 
-    <Content class="theme-default-content custom"/>
-
-    <div
-      class="footer"
-      v-if="data.footer"
-    >
-      {{ data.footer }}
-    </div>
   </main>
+
+  <Content class="theme-default-content custom"/>
+
+  <div
+    class="footer text-center pb-6"
+    v-if="data.footer"
+  >
+    {{ data.footer }}
+  </div>
+
+  </div>
 </template>
 
 <script>
@@ -80,9 +84,9 @@ export default {
 </script>
 
 <style lang="stylus">
-.home
+.main-section
   padding $navbarHeight 2rem 0
-  max-width 960px
+  max-width 860px
   margin 0px auto
   display block
   .hero

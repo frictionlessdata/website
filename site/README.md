@@ -17,38 +17,57 @@ footer: Copyright © 2007-present Rufus Pollock, Open Knowledge and Datopian
 
 <!-- # Zen = simple, minimal, clean, powerful -->
 
-<h1 class="text-center pt-6">Used by</h1>
+<div class="banner gray-section py-6 w-full">
 
-<div class="container h-32 flex items-stretch">
-<img class="w-1/6 self-center" src="/img/home/pandas.png" />
-<img class="w-1/6 self-center pl-8" src="/img/home/kaggle.png" />
-<img class="w-1/5 self-center pl-8" src="/img/home/openrefine.png" />
-<img class="w-1/5 self-center pl-8" src="/img/home/data-gov-uk.png" />
-<img class="w-1/12 self-center pl-8" src="/img/home/18f.png" />
-<img class="w-1/5 self-center pl-8" src="/img/home/data-gouv-fr.png" />
-</div>
+<h1 class="text-center">Used by</h1>
 
-<h1 class="text-center" id="more">For anyone who works with data<br/><small>Especially diverse data and/or across tools or teams</small></h1>
-
-<div class="features text-center">
-  <div class="feature">
-    <img src="/img/home/for-researchers.svg" />
-    <h2 >Researchers</h2>
-    <p>Easily create reproducible research</p>
+<div class="container flex flex-row mx-auto">
+  <div class="container flex items-stretch">  
+    <img class="w-32 self-center" src="/img/home/pandas.png" />
   </div>
-  <div class="feature">
-    <img src="/img/home/for-data-scientists.svg" />
-    <h2>Data Scientists</h2>
-    <p>Create pipelines without effort</p>
+  <div class="container flex items-stretch">
+    <img class="w-24 self-center pl-8" src="/img/home/kaggle.png" />
   </div>
-  <div class="feature">
-    <img src="/img/home/for-data-engineers.svg" height="223.375" />
-    <h2>Data Engineers</h2>
-    <p>Standardize data platforms</p>
+  <div class="container flex items-stretch">
+    <img class="w-32 self-center pl-8" src="/img/home/openrefine.png" />
+  </div>
+  <div class="container flex items-stretch">
+    <img class="w-32 self-center pl-8" src="/img/home/data-gov-uk.png" />
+  </div>
+  <div class="container flex items-stretch">
+    <img class="w-20 self-center pl-8" src="/img/home/18f-logo.png" />
+  </div>
+  <div class="container flex items-stretch">
+    <img class="w-32 self-center pl-8" src="/img/home/data-gouv-fr.png" />
   </div>
 </div>
 
-<h1 class="text-center pt-6 pb-6">Data Integration and Management</h1>
+</div>
+
+<div class="main-section">
+  <div class="inner-container">
+    <h1 class="text-center" id="more">For anyone who works with data<br/><small>Especially diverse data and/or across tools or teams</small></h1>
+    <div class="features text-center">
+      <div class="feature">
+        <img src="/img/home/for-researchers.svg" />
+        <h2 >Researchers</h2>
+        <p>Easily create reproducible research</p>
+      </div>
+      <div class="feature">
+        <img src="/img/home/for-data-scientists.svg" />
+        <h2>Data Scientists</h2>
+        <p>Create pipelines without effort</p>
+      </div>
+      <div class="feature">
+        <img src="/img/home/for-data-engineers.svg" height="223.375" />
+        <h2>Data Engineers</h2>
+        <p>Standardize data platforms</p>
+      </div>
+    </div>
+  </div>
+
+
+<h1 class="text-center">Data Integration and Management</h1>
 
 ### What is data integration
 
@@ -72,32 +91,37 @@ Conversely, data management often requires some data cleaning (integration)
 
 <!-- <JobsDiagram class="px-48 pt-12"></JobsDiagram> -->
 
-<h1 class="text-center pt-6">Some of Our Tooling</h1>
+</div>
 
-<div class="container flex flex-row py-12">
-  <div class="w-1/4 text-center mx-auto">
-    <img class="w-24 mx-auto" src="/img/home/data-package-icon-2.svg"></img>
-    <h2 class="text-xl pt-4 font-medium">Data Package</h2>
-    <p class="text-lg font-light pt-4">Simple container format to describe and package data.</p>
-    <a href="/products/data-package/" class="links-github">Read more &raquo;</a>
-  </div>
-    <div class="w-1/4 mx-auto text-center pl-8">
-    <img class="w-24 mx-auto" src="/img/home/goodtables-icon.svg"></img>
-    <h2 class="text-xl pt-4 font-medium">GoodTables</h2>
-    <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
-    <a href="/products/goodtables/" class="links-github">Read more &raquo;</a>
-  </div>
-    <div class="w-1/4 mx-auto text-center pl-8">
-    <img class="w-24 mx-auto" src="/img/home/datahub-icon.svg"></img>
-    <h2 class="text-xl pt-4 font-medium">DataHub</h2>
-    <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
-    <a href="/products/datahub/" class="links-github">Read more &raquo;</a>
-  </div>
-    <div class="w-1/4 mx-auto text-center pl-8">
-    <img class="w-24 mx-auto" src="/img/home/dataflows-icon.svg"></img>
-    <h2 class="text-xl pt-4 font-medium">DataFlows</h2>
-    <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
-    <a href="/products/data-package-pipelines/" class="links-github">Read more &raquo;</a>
+<div class="banner py-8">
+  <div class="inner-container">
+    <h1 class="text-center pt-6">Some of Our Tooling</h1>
+    <div class="container mx-auto flex flex-row py-12">
+      <div class="w-1/4 text-center mx-auto">
+        <img class="w-24 mx-auto" src="/img/home/data-package-icon-2.svg"></img>
+        <h2 class="text-xl pt-4 font-medium">Data Package</h2>
+        <p class="text-lg font-light pt-4">Simple container format to describe and package data.</p>
+        <a href="/products/data-package/" class="links-github">Read more &raquo;</a>
+      </div>
+        <div class="w-1/4 mx-auto text-center pl-8">
+        <img class="w-24 mx-auto" src="/img/home/goodtables-icon.svg"></img>
+        <h2 class="text-xl pt-4 font-medium">GoodTables</h2>
+        <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
+        <a href="/products/goodtables/" class="links-github">Read more &raquo;</a>
+      </div>
+        <div class="w-1/4 mx-auto text-center pl-8">
+        <img class="w-24 mx-auto" src="/img/home/datahub-icon.svg"></img>
+        <h2 class="text-xl pt-4 font-medium">DataHub</h2>
+        <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
+        <a href="/products/datahub/" class="links-github">Read more &raquo;</a>
+      </div>
+        <div class="w-1/4 mx-auto text-center pl-8">
+        <img class="w-24 mx-auto" src="/img/home/dataflows-icon.svg"></img>
+        <h2 class="text-xl pt-4 font-medium">DataFlows</h2>
+        <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
+        <a href="/products/data-package-pipelines/" class="links-github">Read more &raquo;</a>
+      </div>
+    </div>
   </div>
 </div>
 
@@ -109,3 +133,15 @@ export default {
 };
 </script>
 
+<style>
+
+.gray-section {
+  background-color: #f6f6f6;
+}
+
+.inner-container {
+  max-width: 960px;
+  margin: auto;
+}
+
+</style>
