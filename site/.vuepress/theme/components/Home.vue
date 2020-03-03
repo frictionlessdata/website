@@ -1,7 +1,7 @@
 <template>
 <div class="banner whole-page">
   <main class="main-section" aria-labelledby="main-title">
-    <header class="hero">
+    <header class="hero pt-10">
       <img
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
@@ -85,7 +85,10 @@ export default {
 
 <style lang="stylus">
 .main-section
-  padding $navbarHeight 2rem 0
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 0px;
+  padding-left: 2rem;
   max-width 900px
   margin 0px auto
   display block

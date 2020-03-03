@@ -57,6 +57,8 @@ footer: Copyright © 2007-present Rufus Pollock, Open Knowledge and Datopian
 
 <h1 class="text-center">Data Integration and Management</h1>
 
+<br>
+
 ### What is data integration
 
 Data integration (aka what ETL became) is the job of bringing diverse (and often dirty) data together, cleaning it up, knitting it together and pushing this into downstream applications, analytics or warehouses -- and doing this reliably, repeatedly and automatedly. Data integration subsumes activities like scraping, cleaning, transformation etc.
@@ -81,9 +83,9 @@ Conversely, data management often requires some data cleaning (integration)
 
 </div>
 
-<div class="banner py-8">
+<div class="banner py-8 gray-section">
   <div class="inner-container">
-    <h1 class="text-center pt-6">Some of Our Tooling</h1>
+    <h1 class="text-center">Some of Our Tooling</h1>
     <div class="container mx-auto flex flex-row py-12">
       <div class="w-1/4 text-center mx-auto">
         <img class="w-24 mx-auto" src="/img/home/data-package-icon-2.svg"></img>
@@ -121,7 +123,7 @@ export default {
 };
 </script>
 
-<style>
+<style> 
 
 .gray-section {
   background-color: #f6f6f6;
