@@ -23,7 +23,7 @@
       <div class="w-1/4 text-left pr-20">
         <h2 class="text-lg text-white font-normal">Help</h2>
         <div class="pt-6"><a href="/contribute/" class="text-white font-light text-base">Support</a></div>
-        <div class="pt-6"><a href="/" class="text-white font-light text-base">Get started</a></div>
+        <div class="pt-6"><a href="/guide/" class="text-white font-light text-base">Get started</a></div>
         <div class="pt-6"><a href="/team/" class="text-white font-light text-base">Community</a></div>
         <!-- <div class="pt-6"><a href="/documentation/" class="text-white font-light text-lg">Documentation</a></div> -->
       </div>
