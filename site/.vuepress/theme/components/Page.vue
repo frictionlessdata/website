@@ -3,6 +3,7 @@
     <slot name="top" />
 
     <Content class="theme-default-content" />
+    <hr class="hor-line">
     <FooterSidebar />
     <PageEdit />
 
@@ -30,4 +31,6 @@ export default {
   padding-bottom 2rem
   display block
 
+.hor-line 
+  max-width 740px
 </style>
