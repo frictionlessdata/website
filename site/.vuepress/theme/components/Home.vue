@@ -34,7 +34,7 @@
       </p> --> 
        <p
       class="action inline-block pr-8"> 
-        <a href="#video-section" class="action-button font-normal"> Why Frictionless Data? </a>
+        <a href="#video-section" class="colored-button font-normal"> Why Frictionless Data? </a>
     </p>
 
       <p
@@ -227,6 +227,7 @@ export default {
   box-sizing border-box
   cursor pointer
   transition all 0.5s
+  border-radius 2em
 
 .transparent-button a {
   cursor: pointer;
@@ -266,6 +267,20 @@ export default {
 .whole-page {
   padding-top: 3.6rem;
   padding-bottom: 0px;
+}
+
+.colored-button {
+  display: inline-block;
+  color: #fff;
+  background-color: #1A98FF;
+  transition: all 0.15s ease;
+  box-sizing: border-box;
+  border: 1px solid #4fc08d;
+  font-size 1.2rem
+  padding .8rem 1.6rem
+  cursor pointer
+  border-radius 2em
+  border: 1px solid #1A98FF;
 }
   
 </style>
