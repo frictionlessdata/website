@@ -49,8 +49,8 @@
         slot="bottom"
       />
     </Page>
-
-  <FooterSidebar v-if="$page.frontmatter.layout !== 'home' && !this.isBlogIndexPage" />
+<!-- 
+  <FooterSidebar v-if="$page.frontmatter.layout !== 'home' && !this.isBlogIndexPage" /> -->
 
   </div>
 
@@ -65,7 +65,7 @@ import BlogIndex from '../components/BlogIndex.vue'
 import BlogPost from '../components/BlogPost.vue'
 import Job from '../components/Job.vue'
 import Navbar from '@theme/components/Navbar.vue'
-import Page from '@theme/components/Page.vue'
+import Page from '../components/Page.vue'
 import Sidebar from '@theme/components/Sidebar.vue'
 import Footer from '../components/Footer.vue'
 import FooterSidebar from '../components/FooterSidebar.vue'
