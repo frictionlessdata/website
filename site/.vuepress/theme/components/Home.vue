@@ -10,8 +10,9 @@
         
       <vue-typed-js 
         :strings="['integration', 'science', 'wrangling', 'workflows']" 
-        :typeSpeed="100"
-        :loopCount="20"
+        :typeSpeed="150"
+        :loop="true"
+        :loopCount="30"
       >
         <h1>
           The <span class="tooltip" data-tooltip="zen = simple, minimal, clean, powerful">zen</span>
