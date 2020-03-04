@@ -22,25 +22,14 @@
       <p class="description">
         {{ data.tagline || $description || 'Welcome to your VuePress site' }}
       </p>
+      
+      <p class="action inline-block pr-8 sm:pr-0"> 
+          <a href="#video-section" class="colored-button font-normal"> Why Frictionless Data? </a>
+      </p>
 
-      <!-- <p
-        class="action inline-block pr-8"
-        v-if="data.actionText && data.actionLink"
-      >
-        <NavLink
-          class="action-button"
-          :item="actionLink"
-        />
-      </p> --> 
-       <p
-      class="action inline-block pr-8"> 
-        <a href="#video-section" class="colored-button font-normal"> Why Frictionless Data? </a>
-    </p>
-
-      <p
-      class="action inline-block transparent-button"> 
+      <p class="action inline-block transparent-button"> 
         <a href="/guide/" class="font-normal"> Get Started </a>
-    </p>
+      </p>
     </header>
 
     <div
@@ -133,7 +122,6 @@ export default {
     margin-top 2.5rem
     display flex
     flex-wrap wrap
-    align-items flex-start
     align-content stretch
     justify-content space-between
   .feature

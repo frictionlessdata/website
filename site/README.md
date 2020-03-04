@@ -16,22 +16,21 @@ features:
 
 <div class="banner gray-section py-6 w-full">
   <div class="container mx-auto usedby">
-    <h1 class="text-center">Widely Adopted and Used</h1>
+    <h1 class="text-center sm:text-xl">Widely Adopted and Used</h1>
     <div class="container flex flex-row justify-center">
       <img class="w-32 self-center" src="/img/home/pandas.png" />
-      <img class="w-24 self-center pl-12" src="/img/home/kaggle.png" />
-      <img class="w-32 self-center pl-12" src="/img/home/openrefine.png" />
-      <img class="w-32 self-center pl-12" src="/img/home/data-gov-uk.png" />
-      <img class="w-20 self-center pl-12" src="/img/home/18f-logo.png" />
-      <img class="w-32 self-center pl-12" src="/img/home/data-gouv-fr.png" />
+      <img class="w-24 self-center pl-12 sm:pl-6" src="/img/home/kaggle.png" />
+      <img class="w-32 self-center pl-12 sm:pl-6" src="/img/home/openrefine.png" />
+      <img class="w-32 self-center pl-12 sm:pl-6" src="/img/home/data-gov-uk.png" />
+      <img class="w-20 self-center pl-12 sm:pl-6" src="/img/home/18f-logo.png" />
+      <img class="w-32 self-center pl-12 sm:pl-6" src="/img/home/data-gouv-fr.png" />
     </div>
   </div>
-
 </div>
 
 <div class="main-section">
   <div class="inner-container">
-    <h1 class="text-center" id="more">For anyone who works with data<br/><small>Especially diverse data and/or across tools or teams</small></h1>
+    <h1 class="text-center sm:text-xl" id="more">For anyone who works with data<br/><small>Especially diverse data and/or across tools or teams</small></h1>
     <div class="features text-center">
       <div class="feature">
         <img src="/img/home/for-researchers.svg" />
@@ -82,7 +81,7 @@ Conversely, data management often requires some data cleaning (integration)
 
 <br>
 
-<div class="banner py-8 gray-section" id="video-section">
+<div class="banner py-8 gray-section sm:flex sm:justify-center" id="video-section">
 
 <div class="container main-section">
   <div class="pb-12">
@@ -103,26 +102,26 @@ Conversely, data management often requires some data cleaning (integration)
 <div class="banner py-8">
   <div class="inner-container">
     <h1 class="text-center">Some of Our Tooling</h1>
-    <div class="container mx-auto flex flex-row py-12">
-      <div class="w-1/4 text-center mx-auto">
+    <div class="container mx-auto flex flex-row sm:flex-col py-12">
+      <div class="w-1/4 text-center mx-auto sm:px-0 sm:py-6">
         <img class="w-24 mx-auto" src="/img/home/data-package-icon-2.svg"></img>
         <h2 class="text-xl pt-4 font-medium">Data Package</h2>
         <p class="text-lg font-light pt-4">Simple container format to describe and package data.</p>
         <a href="/products/data-package/" class="links-github">Read more &raquo;</a>
       </div>
-        <div class="w-1/4 mx-auto text-center pl-8">
+        <div class="w-1/4 mx-auto text-center sm:px-0 sm:py-6 pl-8">
         <img class="w-24 mx-auto" src="/img/home/goodtables-icon.svg"></img>
         <h2 class="text-xl pt-4 font-medium">GoodTables</h2>
         <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
         <a href="/products/goodtables/" class="links-github">Read more &raquo;</a>
       </div>
-        <div class="w-1/4 mx-auto text-center pl-8">
+        <div class="w-1/4 mx-auto text-center sm:px-0 sm:py-6 pl-8">
         <img class="w-24 mx-auto" src="/img/home/datahub-icon.svg"></img>
         <h2 class="text-xl pt-4 font-medium">DataHub</h2>
         <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
         <a href="/products/datahub/" class="links-github">Read more &raquo;</a>
       </div>
-        <div class="w-1/4 mx-auto text-center pl-8">
+        <div class="w-1/4 mx-auto text-center sm:px-0 sm:py-6 pl-8">
         <img class="w-24 mx-auto" src="/img/home/dataflows-icon.svg"></img>
         <h2 class="text-xl pt-4 font-medium">DataFlows</h2>
         <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
@@ -141,7 +140,6 @@ export default {
 </script>
 
 <style> 
-
 .gray-section {
   background-color: #f6f6f6;
 }
@@ -162,6 +160,12 @@ export default {
 
 .video-container {
   margin: auto;
+}
+
+@media (max-width: $MQMobileNarrow) {
+  banner {
+    margin: 20px;
+  }
 }
 
 </style>
