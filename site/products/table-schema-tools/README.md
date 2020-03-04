@@ -54,8 +54,8 @@ One of the possible uses of Table Schema is to do type checking in a dataset. In
 
 ```csv
 Name,Email,Age
-Jill,jill@foo.com,25
-Jack,jack@bar.com,33.5
+Jill,jill@example.com,25
+Jack,jack@example.com,33.5
 ```
 
 **schema.json**
@@ -115,7 +115,6 @@ Table.load("users.csv", { schema: "schema.json" }).then((table) => {
     })
   });
 });
-
 // [ 'Jill', 'jill@foo.com', 25 ]
 // Uncaught:
 // TableSchemaError: There are 1 type and format mismatch errors (see 'error.errors')
