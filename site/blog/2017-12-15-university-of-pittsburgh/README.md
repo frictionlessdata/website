@@ -96,7 +96,7 @@ Also it is interesting to note that WPRDC has the excellent good practice of pub
 
 All the generated reports can be further analyzed using the output files stored [in this repository](https://github.com/frictionlessdata/pilot-wprdc).
 
-Additionally, to help browse the validation reports created from the WPRDC site we have set up [a demo site that mirrors the datasets, organizations and groups hosted there](https://demo-validation.l3.ckan.io) (at the time we did the import).
+Additionally, to help browse the validation reports created from the WPRDC site we have set up a demo site that mirrors the datasets, organizations and groups hosted there (at the time we did the import).
 
 All tabular resources have the validation report attached, that can be accessed clicking on the data valid / invalid badges.
 

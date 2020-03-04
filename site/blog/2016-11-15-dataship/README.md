@@ -1,5 +1,5 @@
 ---
-title: Dataship
+title: Dataship-FD
 date: 2016-11-15
 author: Frictionless Data
 tags: ["Data Package", "goodtables.io", "Data CLI"]

@@ -9,7 +9,6 @@ image: /img/blog/cambridge.png
 description: Investigating the applicability of the Data Package concept to facilitate data reuse in the field of Computational Neuroscience.
 ---
 
-
 ## Context
 
 ### Problem We Were Trying To Solve
@@ -199,6 +198,3 @@ Data Package format:
 Stephen now has about 100 retinal mosaics that might make for a nice use case of the Data Package.
 In addition, The Frictionless Data Tool Fund has funded the development of the next version of the R Data Package.
 This will make some of the improvements brought to the Data Package specifications  in the past few months available in the R library.
-
-## Find Out More
-https://github.com/frictionlessdata/pilot-retinal-mosaics

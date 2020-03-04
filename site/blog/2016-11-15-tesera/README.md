@@ -38,7 +38,7 @@ We are kind of excited about the method and framework itself to have almost [Zap
 
 ### 1. Provincial Growth and Yield Initiative Plot Sharing App
 
-<http://pgyi.tesera.com/>
+<!-- <http://pgyi.tesera.com/> NB: Link not working --> 
 
 ![The Provincial Growth and Yield Initiative Plot Sharing App](./fgrow-report-committed.png) <br/> *The Provincial Growth and Yield Initiative Plot Sharing App*
 
@@ -134,4 +134,4 @@ There are many ways to monitor the environment, but bringing the data together a
 [^kibana]: Kibana: <https://www.elastic.co/products/kibana>
 [^r]: The R Project for Statistical Computing: <https://www.r-project.org/>
 [^tsconstraints]: Table Schema Field Constraints: <https://specs.frictionlessdata.io/table-schema/#constraints>
-[^wehub]: Water and Environmental Hub: <http://watercanada.net/2013/water-and-environmental-hub/>
+[^wehub]: Water and Environmental Hub: <http://watercanada.net/2013/>

@@ -113,7 +113,7 @@ and validated it, we can finally publish it.
 
 Our final step is to publish the dataset. The specifics instructions will vary depend on where you're publishing to. In this example, we'll see how to publish to a public [CKAN][ckan] instance, the [https://datahub.ckan.io][datahub]. If you want to use it and don't have an account yet, you can request one via [our community page][datahub:request-org]. Let's start.
 
-After you're logged in, go to the [datasets list page][datahub:dataset-list] and click on the [Import Data Package][datahub:import-dp] button. On this form, click on "Upload", select the `datapackage.json` file we created in the previous step, and choose your organisation. We'll keep the visibility as private for now, so we can review the dataset before it's made public.
+After you're logged in, go to the [datasets list page][datahub:dataset-list] and click on the `Import Data Package` button. On this form, click on "Upload", select the `datapackage.json` file we created in the previous step, and choose your organisation. We'll keep the visibility as private for now, so we can review the dataset before it's made public.
 
 ![Importing a data packate to the DataHub](./datahub-import-datapackage.png)
 *Importing a data packate to the DataHub*

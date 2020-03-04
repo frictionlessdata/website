@@ -5,7 +5,7 @@ tags: ["R"]
 category: working-with-data-packages
 ---
 
-! [Open Knowledge Greece][okgreece] was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in R programming language. You can read more about this in [their grantee profile][toolfund-okgreece]. In this tutorial, [Kleanthis Koupidis](https://twitter.com/Kleanthis_k10), a Data Scientist and Statistician at Open Knowledge Greece, explains how to create Data Packages in R.
+! [Open Knowledge Greece][okgreece] was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in R programming language. You can read more about this in [their grantee profile][toolfund-okgreece]. In this tutorial, [Kleanthis Koupidis](https://gr.linkedin.com/in/kleanthis-koupidis-8348b88b), a Data Scientist and Statistician at Open Knowledge Greece, explains how to create Data Packages in R.
 
 This tutorial will show you how to install the R library for working with Data Packages and Table Schema, load a CSV file, infer its schema, and write a Tabular Data Package.
 
