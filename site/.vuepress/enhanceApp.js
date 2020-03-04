@@ -1,7 +1,7 @@
 const redirectList= [
   {
     path: "/software/",
-    redirect: "/products/"
+    redirect: "/"
   },
   {
     path: "/articles/",
@@ -9,7 +9,7 @@ const redirectList= [
   },
   {
     path: "/docs/",
-    redirect: "/blog/"
+    redirect: "/guide/"
   },
   {
     path: "/articles/nimblelearn-dpc/",
@@ -232,6 +232,10 @@ const redirectList= [
     redirect: "/blog/2016/06/24/validating-data/"
   },
   {
+    path: "/field-guide/",
+    redirect: "/guide/"
+  },
+  {
     path: "/field-guide/well-packaged-datasets/",
     redirect: "/blog/2018/03/07/well-packaged-datasets/"
   },
@@ -269,28 +273,23 @@ const redirectList= [
   },
   {
     path: "/universe/",
-    redirect: "/data-packages/"    
+    redirect: "/data-package/"
   },
   {
     path: "/docs/data-package/",
-    redirect: "/data-packages/"
+    redirect: "/data-package/"
   },
   {
     path: "/docs/table-schema/",
-    redirect: "/table-schema/" 
+    redirect: "/table-schema/"
   },
   {
     path: "/docs/tabular-data-package/",
-    redirect: "/data-packages/"    
-  },
-  {
-    path: "/field-guide/",
-    redirect: "/data-packages/guide/"
-  }   
+    redirect: "/data-package/"
+  }
 ];
 
 export default ({ router }) => {
-    router.addRoutes(redirectList)
-    }
-
+  router.addRoutes(redirectList)
+}
 
