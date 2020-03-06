@@ -4,24 +4,15 @@ title: Team
 
 # Team
 
-## Active Core Team Members
+## Core Team Members
 
-The development of Frictionless and its ecosystem is guided by an international team, some of whom have chosen to be featured below.
+The development of Frictionless and its ecosystem is guided by an international team.
 
 <TeamProfile
 	v-for="profile in team"
 	:key="profile.name"
 	:profile="profile" />
 
-
-## Core Team Emeritis
-
-Here we honor some no-longer-active core team members who have made valuable contributions in the past.
-
-<TeamProfile
-	v-for="profile in teamEmeriti"
-	:key="profile.name"
-	:profile="profile" />
 
 ## Tool Fund Partners
 
