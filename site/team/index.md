@@ -108,7 +108,7 @@ team = team.concat([
 	{
 		name: 'Jo Barratt',
 		title: 'Delivery Manager',
-		city: 'London, England',
+		city: 'Reading, England',
 		languages: ['en'],
 		twitter: 'JoBarratt',
 		work: {
@@ -153,19 +153,7 @@ team = team.concat([
 			'frictionlessdata/*', 'okfn/*'
 		]
 	}	
-])
 
-var teamEmeriti = [
-	{
-		name: 'Daniel Fowler',
-		title: 'Technical Writer, Web Developer',
-		city: 'Bangkok, Thailand',
-		languages: ['en'],
-    github: 'danfowler',
-		work: {
-      role: 'Technical Writer'
-		}
-	}
 ]
 
 var toolFundPartners = [
@@ -307,7 +295,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Greg Bloom',
-		title: 'Open Referral',
+		title: 'Tool Fund Grantee - Open Referral',
 		city: 'Washington, District Of Columbia',
 		languages: ['en'],
 		github: 'greggish',
@@ -324,7 +312,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Shelby Switzer',
-		title: 'Open Referral',
+		title: 'Tool Fund Grantee - Open Referral',
 		city: 'Washington, District Of Columbia',
 		languages: ['en'],
 		github: 'switzersc',
@@ -336,28 +324,59 @@ toolFundPartners = toolFundPartners.concat([
 			'openreferral/'
 		]
 	}
+
+var fellows = 
+
 ])
 
-var partners = [
+fellows = fellows.concat([
 	{
-		name: 'John Chodacki',
-		title: 'Organizer of CSVConf US',
-		city: 'Atlanta, GA, USA',
-		twitter: 'chodacki',
-		languages: ['en'],
+		name: 'Monica Granados',
+		title: 'Reproducible Research Fellow',
+		city: 
+		languages:
+		github: 
 		work: {
-			org: 'California Digital Library'
-		}
+			role: 'Reproducible Research Fellow'
 	}
-]
+
+	{
+		name: 'Selene Yang',
+		title: 'Reproducible Research Fellow',
+		city: 
+		languages:
+		github: 
+		work: {
+			role: 'Reproducible Research Fellow',
+	}
+
+	{
+		name: 'Daniel Ouso',
+		title: 'Reproducible Research Fellow',
+		city: 
+		languages:
+		github: 
+		work: {
+			role: 'Reproducible Research Fellow',
+		}
+
+	{
+		name: 'Lily Zhao',
+		title: 'Reproducible Research Fellow',
+		city: 
+		languages:
+		github: 
+		work: {
+			role: 'Reproducible Research Fellow',
+	}
 
 export default {
   data () {
 		return {
 			team: team,
 			toolFundPartners: toolFundPartners,
-			teamEmeriti: teamEmeriti,
 			partners: partners,
+			fellows: fellows,
 		}
   }
 }
