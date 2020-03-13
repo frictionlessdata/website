@@ -339,7 +339,7 @@ var fellows = [
 		title: 'Reproducible Research Fellow 2019-2020',
 		city: 'Canada',
 		languages: ['en', 'es'],
-    github: 'Monsauce',
+		github: 'Monsauce',
 		work: {
       role: 'Reproducible Research Fellow 2019-2020'
 		},
@@ -352,7 +352,7 @@ fellows = fellows.concat([
 		title: 'Reproducible Research Fellow 2019-2020',
 		city: 'Paraguay',
 		languages: ['es', 'en'],
-    github: 'seleneyang',
+		github: 'seleneyang',
 		work: {
       role: 'Reproducible Research Fellow 2019-2020'
 		},
@@ -365,7 +365,7 @@ fellows = fellows.concat([
 		title: 'Reproducible Research Fellow 2019-2020',
 		city: 'Nigeria',
 		languages: ['en'],
-    github: 'ousodaniel',
+		github: 'ousodaniel',
 		work: {
       role: 'Reproducible Research Fellow 2019-2020'
 		},
@@ -378,7 +378,7 @@ fellows = fellows.concat([
 		title: 'Reproducible Research Fellow 2019-2020',
 		city: 'California',
 		languages: ['en'],
-    github: 'lilyzzhao',
+		github: 'lilyzzhao',
 		work: {
       role: 'Reproducible Research Fellow 2019-2020'
 		},
@@ -390,7 +390,6 @@ export default {
 		return {
 			team: team,
 			toolFundPartners: toolFundPartners,
-			// partners: partners,
 			fellows: fellows,
 		}
   }
