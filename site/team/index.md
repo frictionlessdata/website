@@ -109,7 +109,7 @@ team = team.concat([
 		title: 'Delivery Manager',
 		city: 'Reading, England',
 		languages: ['en'],
-		twitter: 'JoBarratt',
+		github: 'JoBarratt',
 		work: {
 			role: 'Delivery Manager',
 			org: 'OKFN'
