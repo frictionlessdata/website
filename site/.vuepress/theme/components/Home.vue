@@ -132,15 +132,7 @@ export default {
     border-top 1px solid $borderColor
     padding 1.2rem 0
     margin-top 2.5rem
-    display flex
-    flex-wrap wrap
-    align-items flex-start
-    align-content stretch
-    justify-content space-between
   .feature
-    flex-grow 1
-    flex-basis 30%
-    max-width 30%
     h2
       font-size 1.4rem
       font-weight 500
@@ -193,12 +185,9 @@ export default {
       flex-direction column
     .feature
       max-width 100%
-      padding 0 2.5rem
 
 @media (max-width: $MQMobileNarrow)
   .home
-    padding-left 1.5rem
-    padding-right 1.5rem
     .hero
       img
         max-height 210px
@@ -253,16 +242,6 @@ export default {
 .transparent-button:hover a:after {
   opacity: 1;
   right: 0;
-}
-
-#headerPopup{
-  width:75%;
-  margin:0 auto;
-}
-
-#headerPopup iframe{
-  width:100%;
-  margin:0 auto;
 }
 
 .whole-page {
