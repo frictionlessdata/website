@@ -4,24 +4,15 @@ title: Team
 
 # Team
 
-## Active Core Team Members
+## Core Team Members
 
-The development of Frictionless and its ecosystem is guided by an international team, some of whom have chosen to be featured below.
+The development of Frictionless and its ecosystem is guided by an international team.
 
 <TeamProfile
 	v-for="profile in team"
 	:key="profile.name"
 	:profile="profile" />
 
-
-## Core Team Emeritis
-
-Here we honor some no-longer-active core team members who have made valuable contributions in the past.
-
-<TeamProfile
-	v-for="profile in teamEmeriti"
-	:key="profile.name"
-	:profile="profile" />
 
 ## Tool Fund Partners
 
@@ -32,12 +23,12 @@ Frictionless data has funded international partners who have worked in developin
   :key="profile.name"
   :profile="profile"/>
 
-## Community Partners
+## Fellows
 
-Some members of the Frictionless community have so enriched it, that they deserve special mention. We've developed a more intimate relationship with these key partners, often coordinating with them on upcoming features and news.
+The Frictionless Data for Reproducible Research Fellows are early career researchers that are being trained to become champions of the Frictionless Data tools and approaches in their fields of research.
 
 <TeamProfile
-	v-for="profile in partners"
+	v-for="profile in fellows"
 	:key="profile.name"
 	:profile="profile" />
 
@@ -117,7 +108,7 @@ team = team.concat([
 	{
 		name: 'Jo Barratt',
 		title: 'Delivery Manager',
-		city: 'London, England',
+		city: 'Reading, England',
 		languages: ['en'],
 		twitter: 'JoBarratt',
 		work: {
@@ -135,10 +126,27 @@ team = team.concat([
 		name: 'Evgeny Karev',
 		title: 'Senior Developer',
 		city: 'Moscow, Russia',
-		languages: ['en'],
+		languages: ['en', 'ru'],
 		github: 'roll',
 		work: {
 			role: 'Tech Lead',
+			org: 'Frictionless Data'
+		},
+		reposOfficial: [
+			'frictionlessdata/*', 'okfn/*'
+		]
+	}	
+])
+
+team = team.concat([
+	{
+		name: 'Adrià Mercader',
+		title: 'Technical Lead',
+		city: 'Tarragona, Spain',
+		languages: ['en', 'es'],
+		github: 'amercader',
+		work: {
+			role: 'Developer',
 			org: 'Frictionless Data'
 		},
 		reposOfficial: [
@@ -153,6 +161,7 @@ team = team.concat([
 		title: 'Product Manager for Reproducible Research',
 		city: 'Austin, TX',
 		languages: ['en'],
+		twitter: 'lilscientista',
 		github: 'lwinfree',
 		work: {
 			role: 'Product Manager',
@@ -164,32 +173,18 @@ team = team.concat([
 	}	
 ])
 
-var teamEmeriti = [
-	{
-		name: 'Daniel Fowler',
-		title: 'Technical Writer, Web Developer',
-		city: 'Bangkok, Thailand',
-		languages: ['en'],
-    github: 'danfowler',
-		work: {
-      role: 'Technical Writer'
-		}
-	}
-]
-
 var toolFundPartners = [
 	{
 		name: 'André Heughebaert',
-		title: 'Tool Fund Grantee - Julia',
+		title: 'Tool Fund 2019 Grantee',
 		city: 'Brussels, Belgium',
 		languages: ['en'],
     github: 'andrejjh',
 		work: {
-      role: 'IT Software Engineer',
-			org: 'Belgian Biodiversity Platform'
+      role: 'Tool Fund 2019 Grantee'
 		},
 		reposOfficial: [
-			'loleg/DataPackage.jl', 'loleg/TableSchema.jl'
+			'frictionlessdata/FrictionlessDarwinCore'
 		]
 	}
 ]
@@ -197,13 +192,12 @@ var toolFundPartners = [
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Stephan Max',
-		title: 'Tool Fund Grantee',
+		title: 'Tool Fund 2019 Grantee',
 		city: 'Köln, Germany',
 		languages: ['en'],
 		github: 'stephanmax',
 		work: {
-			role: 'Software Engineer',
-			org: 'eyeo-gmbh'
+			role: 'Tool Fund 2019 Grantee'
 		},
 		reposOfficial: [
 			'frictionlessdata/googlesheets-datapackage-tools'
@@ -216,11 +210,10 @@ toolFundPartners = toolFundPartners.concat([
 		name: 'Oleg Lavrovsky',
 		title: 'Tool Fund Grantee - Julia',
 		city: 'Bern, Switzerland',
-		languages: ['en'],
+		languages: ['en', 'fr'],
 		github: 'loleg',
 		work: {
-			role: ' ',
-			org: 'dataletsch'
+			role: 'Tool Fund 2017 Grantee'
 		},
 		reposOfficial: [
 			'loleg/DataPackage.jl'
@@ -236,8 +229,7 @@ toolFundPartners = toolFundPartners.concat([
 		languages: ['en'],
 		github: 'cblop',
 		work: {
-			role: 'lecturer in Creative Computing',
-			org: 'Bath Spa University'
+			role: 'Tool Fund 2017 Grantee'
 		},
 		reposOfficial: [
 			'frictionlessdata/datapackage-clj', 'frictionlessdata/tableschema-clj'
@@ -253,8 +245,7 @@ toolFundPartners = toolFundPartners.concat([
 		languages: ['en'],
 		github: 'georgeslabreche',
 		work: {
-			role: ' ',
-			org: 'opendatakosovo'
+			role: 'Tool Fund 2017 Grantee'
 		},
 		reposOfficial: [
 			'frictionlessdata/datapackage-java', 'frictionlessdata/tableschema-java'
@@ -270,8 +261,7 @@ toolFundPartners = toolFundPartners.concat([
 		languages: ['en'],
 		github: 'OriHoch',
 		work: {
-			role: 'Consultant',
-			org: 'Uumpa Tech'
+			role: 'Tool Fund 2017 Grantee'
 		},
 		reposOfficial: [
 			'frictionlessdata/tableschema-php', 'frictionlessdata/datapackage-php'
@@ -284,11 +274,10 @@ toolFundPartners = toolFundPartners.concat([
 		name: 'Daniel Fireman',
 		title: 'Tool Fund Grantee - Go',
 		city: 'Maceió, Brasil',
-		languages: ['en'],
+		languages: ['pt','en'],
 		github: 'danielfireman',
 		work: {
-			role: 'Professor',
-			org: 'Instituto Federal de Educação, Ciência e Tecnologia de Alagoas'
+			role: 'Tool Fund 2017 Grantee'
 		},
 		reposOfficial: [
 			'frictionlessdata/datapackage-go', 'frictionlessdata/tableschema-go'
@@ -298,14 +287,13 @@ toolFundPartners = toolFundPartners.concat([
 
 toolFundPartners = toolFundPartners.concat([
 	{
-		name: 'Carlos Eduardo Ribas',
-		title: 'Tool Fund Grantee - NES',
+		name: 'João Alexandre Peschanski',
+		title: 'Tool Fund 2019 Grantee - NES',
 		city: 'São Paulo',
-		languages: ['en'],
-		github: 'carlosribas',
+		languages: ['pt','en'],
+		github: 'neuromat',
 		work: {
-			role: ' ',
-			org: 'neuromat'
+			role: 'Tool Fund 2019 Grantee'
 		},
 		reposOfficial: [
 			'neuromat/nes'
@@ -316,13 +304,12 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Greg Bloom',
-		title: 'Open Referral',
+		title: 'Tool Fund 2019 Grantee - Open Referral',
 		city: 'Washington, District Of Columbia',
 		languages: ['en'],
 		github: 'greggish',
 		work: {
-			role: ' ',
-			org: 'Open Referral'
+			role: 'Tool Fund 2019 Grantee'
 		},
 		reposOfficial: [
 			'openreferral/'
@@ -333,13 +320,12 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Shelby Switzer',
-		title: 'Open Referral',
+		title: 'Tool Fund 2019 Grantee - Open Referral',
 		city: 'Washington, District Of Columbia',
 		languages: ['en'],
 		github: 'switzersc',
 		work: {
-			role: ' ',
-			org: 'Open Referral'
+			role: 'Tool Fund 2019 Grantee'
 		},
 		reposOfficial: [
 			'openreferral/'
@@ -347,26 +333,64 @@ toolFundPartners = toolFundPartners.concat([
 	}
 ])
 
-var partners = [
+var fellows = [
 	{
-		name: 'John Chodacki',
-		title: 'Organizer of CSVConf US',
-		city: 'Atlanta, GA, USA',
-		twitter: 'chodacki',
-		languages: ['en'],
+		name: 'Monica Granados',
+		title: 'Reproducible Research Fellow 2019-2020',
+		city: 'Canada',
+		languages: ['en', 'es'],
+		github: 'Monsauce',
 		work: {
-			org: 'California Digital Library'
-		}
+      role: 'Reproducible Research Fellow 2019-2020'
+		},
 	}
 ]
+
+fellows = fellows.concat([
+	{
+		name: 'Selene Yang',
+		title: 'Reproducible Research Fellow 2019-2020',
+		city: 'Paraguay',
+		languages: ['es', 'en'],
+		github: 'seleneyang',
+		work: {
+      role: 'Reproducible Research Fellow 2019-2020'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Daniel Ouso',
+		title: 'Reproducible Research Fellow 2019-2020',
+		city: 'Nigeria',
+		languages: ['en'],
+		github: 'ousodaniel',
+		work: {
+      role: 'Reproducible Research Fellow 2019-2020'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Lily Zhao',
+		title: 'Reproducible Research Fellow 2019-2020',
+		city: 'California',
+		languages: ['en'],
+		github: 'lilyzzhao',
+		work: {
+      role: 'Reproducible Research Fellow 2019-2020'
+		},
+	}
+])
 
 export default {
   data () {
 		return {
 			team: team,
 			toolFundPartners: toolFundPartners,
-			teamEmeriti: teamEmeriti,
-			partners: partners,
+			fellows: fellows,
 		}
   }
 }
