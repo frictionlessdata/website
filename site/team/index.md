@@ -13,7 +13,6 @@ The development of Frictionless and its ecosystem is guided by an international 
 	:key="profile.name"
 	:profile="profile" />
 
-
 ## Tool Fund Partners
 
 Frictionless data has funded international partners who have worked in developing various tools and libraries for the project and they are featured below.  
@@ -110,7 +109,7 @@ team = team.concat([
 		title: 'Delivery Manager',
 		city: 'Reading, England',
 		languages: ['en'],
-		twitter: 'JoBarratt',
+		github: 'JoBarratt',
 		work: {
 			role: 'Delivery Manager',
 			org: 'OKFN'
@@ -202,7 +201,7 @@ toolFundPartners = toolFundPartners.concat([
 		reposOfficial: [
 			'frictionlessdata/googlesheets-datapackage-tools'
 		]
-	}	
+	}
 ])
 
 toolFundPartners = toolFundPartners.concat([
@@ -218,7 +217,7 @@ toolFundPartners = toolFundPartners.concat([
 		reposOfficial: [
 			'loleg/DataPackage.jl'
 		]
-	}	
+	}
 ])
 
 toolFundPartners = toolFundPartners.concat([
@@ -239,7 +238,7 @@ toolFundPartners = toolFundPartners.concat([
 
 toolFundPartners = toolFundPartners.concat([
 	{
-		name: 'Georges Labrèche',
+	  name: 'Georges Labrèche',
 		title: 'Tool Fund Grantee - Java',
 		city: 'Bremen, Germany',
 		languages: ['en'],
@@ -255,7 +254,7 @@ toolFundPartners = toolFundPartners.concat([
 
 toolFundPartners = toolFundPartners.concat([
 	{
-		name: 'Ori Hoch',
+	  name: 'Ori Hoch',
 		title: 'Tool Fund Grantee - PHP',
 		city: 'Israel',
 		languages: ['en'],
@@ -271,7 +270,7 @@ toolFundPartners = toolFundPartners.concat([
 
 toolFundPartners = toolFundPartners.concat([
 	{
-		name: 'Daniel Fireman',
+	  name: 'Daniel Fireman',
 		title: 'Tool Fund Grantee - Go',
 		city: 'Maceió, Brasil',
 		languages: ['pt','en'],
@@ -287,7 +286,7 @@ toolFundPartners = toolFundPartners.concat([
 
 toolFundPartners = toolFundPartners.concat([
 	{
-		name: 'João Alexandre Peschanski',
+	  name: 'João Alexandre Peschanski',
 		title: 'Tool Fund 2019 Grantee - NES',
 		city: 'São Paulo',
 		languages: ['pt','en'],
@@ -303,7 +302,7 @@ toolFundPartners = toolFundPartners.concat([
 
 toolFundPartners = toolFundPartners.concat([
 	{
-		name: 'Greg Bloom',
+	  name: 'Greg Bloom',
 		title: 'Tool Fund 2019 Grantee - Open Referral',
 		city: 'Washington, District Of Columbia',
 		languages: ['en'],
@@ -319,7 +318,7 @@ toolFundPartners = toolFundPartners.concat([
 
 toolFundPartners = toolFundPartners.concat([
 	{
-		name: 'Shelby Switzer',
+	  name: 'Shelby Switzer',
 		title: 'Tool Fund 2019 Grantee - Open Referral',
 		city: 'Washington, District Of Columbia',
 		languages: ['en'],
@@ -388,9 +387,9 @@ fellows = fellows.concat([
 export default {
   data () {
 		return {
-			team: team,
-			toolFundPartners: toolFundPartners,
-			fellows: fellows,
+			team,
+			toolFundPartners,
+			fellows,
 		}
   }
 }
