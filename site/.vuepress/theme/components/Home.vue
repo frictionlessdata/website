@@ -123,7 +123,7 @@ export default {
       background-color $accentColor
       padding 0.8rem 1.6rem
       border-radius 4px
-      transition background-color .1s ease
+      transition .1s ease
       box-sizing border-box
       border-bottom 1px solid darken($accentColor, 10%)
       &:hover
@@ -193,7 +193,7 @@ export default {
       flex-direction column
     .feature
       max-width 100%
-      padding 0 2.5rem
+      padding 0 0
 
 @media (max-width: $MQMobileNarrow)
   .home
@@ -216,7 +216,6 @@ export default {
       h2
         font-size 1.25rem
 
-
 .transparent-button
   font-size 1.2rem
   color #1A98FF
@@ -224,7 +223,7 @@ export default {
   background-color white
   padding .8rem 1.6rem
   border-radius 4px
-  transition background-color .1s ease
+  transition .1s ease
   box-sizing border-box
   cursor pointer
   transition all 0.5s
