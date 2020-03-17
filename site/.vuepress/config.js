@@ -28,10 +28,12 @@ module.exports = {
     docsDir: "site",
     // defaults to false, set to true to enable
     editLinks: true,
+    smoothScroll: true,
     sidebar: 'auto',
     nav: [
       {
         text: "Learn",
+        ariaLabel: "Learn Menu",
         items: [
           { text: "Guide", link: "/guide/" },
           { text: "Table Schema", link: "/table-schema/" },
@@ -40,6 +42,7 @@ module.exports = {
       },
       {
         text: "Tooling",
+        ariaLabel: "Tooling Menu",
         items: [
           { text: "Table Schema Tools", link: "/products/table-schema-tools/" },
           { text: "Data Package Tools", link: "/products/data-package/" },
@@ -54,6 +57,7 @@ module.exports = {
       },
       {
         text: "Specs",
+        ariaLabel: "Specs Menu",
         items: [
           { text: "Table Schema", link: "https://specs.frictionlessdata.io/table-schema/" },
           { text: "Data Package", link: "https://specs.frictionlessdata.io/data-package/" },
@@ -61,6 +65,7 @@ module.exports = {
       },
       {
         text: "Help",
+        ariaLabel: "Help Menu",
         items: [
           { text: "Chat", link: "https://gitter.im/frictionlessdata/chat" },
           { text: "Forum", link: "https://github.com/frictionlessdata/forum/issues" },
@@ -119,7 +124,8 @@ module.exports = {
           }
         ]
       }
-    ]
+    ],
+    ["@vuepress/back-to-top"]
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],
