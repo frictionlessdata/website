@@ -123,7 +123,7 @@ export default {
       background-color $accentColor
       padding 0.8rem 1.6rem
       border-radius 4px
-      transition background-color .1s ease
+      transition .1s ease
       box-sizing border-box
       border-bottom 1px solid darken($accentColor, 10%)
       &:hover
@@ -132,7 +132,15 @@ export default {
     border-top 1px solid $borderColor
     padding 1.2rem 0
     margin-top 2.5rem
+    display flex
+    flex-wrap wrap
+    align-items flex-start
+    align-content stretch
+    justify-content space-between
   .feature
+    flex-grow 1
+    flex-basis 30%
+    max-width 30%
     h2
       font-size 1.4rem
       font-weight 500
@@ -185,9 +193,12 @@ export default {
       flex-direction column
     .feature
       max-width 100%
+      padding 0 0
 
 @media (max-width: $MQMobileNarrow)
   .home
+    padding-left 1.5rem
+    padding-right 1.5rem
     .hero
       img
         max-height 210px
@@ -205,7 +216,6 @@ export default {
       h2
         font-size 1.25rem
 
-
 .transparent-button
   font-size 1.2rem
   color #1A98FF
@@ -213,7 +223,7 @@ export default {
   background-color white
   padding .8rem 1.6rem
   border-radius 4px
-  transition background-color .1s ease
+  transition .1s ease
   box-sizing border-box
   cursor pointer
   transition all 0.5s
@@ -242,6 +252,16 @@ export default {
 .transparent-button:hover a:after {
   opacity: 1;
   right: 0;
+}
+
+#headerPopup{
+  width:75%;
+  margin:0 auto;
+}
+
+#headerPopup iframe{
+  width:100%;
+  margin:0 auto;
 }
 
 .whole-page {
