@@ -66,7 +66,7 @@ features:
     </div>
   </div>
 
-  <h1 class="text-center">Data Integration and Management</h1>
+<h1 class="text-center">Data Integration and Management</h1>
 
   <br>
 
@@ -89,7 +89,7 @@ features:
   * Sourcing data
   * Transform data
   * Pushing and storing data
-
+  
   <!-- <JobsDiagram class="px-48 pt-12"></JobsDiagram> -->
 
 </div>
@@ -181,6 +181,5 @@ export default {
 .links-github {
   color: #EA6D4C;
 }
-
 
 </style>
