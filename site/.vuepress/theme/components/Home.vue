@@ -1,8 +1,8 @@
 <template>
 <div class="banner whole-page">
   <main class="main-section" aria-labelledby="main-title">
-    <header class="hero pt-10">
-      <img
+    <header class="hero">
+      <img class=""
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
         :alt="data.heroAlt || 'hero'"
@@ -218,8 +218,8 @@ export default {
 
 .transparent-button
   font-size 1.2rem
-  color #1A98FF
-  border #1A98FF 1px solid
+  color #EA6D4C
+  border #EA6D4C 1px solid
   background-color white
   padding .8rem 1.6rem
   border-radius 4px
@@ -234,6 +234,7 @@ export default {
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  color: #EA6D4C;
 }
 
 .transparent-button a:after {
@@ -272,15 +273,18 @@ export default {
 .colored-button {
   display: inline-block;
   color: #fff;
-  background-color: #1A98FF;
+  background-color: #EA6D4C;
   transition: all 0.15s ease;
   box-sizing: border-box;
-  border: 1px solid #4fc08d;
   font-size 1.2rem
   padding .8rem 1.6rem
   cursor pointer
   border-radius 2em
-  border: 1px solid #1A98FF;
+  border: 1px solid #EA6D4C;
+}
+
+.colored-button:hover {
+  background-color: #e85f3b ;  
 }
   
 </style>

@@ -1,6 +1,6 @@
 ---
 layout: home
-heroImage: /img/frictionless-data-blue-logo-text.png
+heroImage: /img/frictionlessdata-logo-circle.png
 heroText: The zen toolkit for data integration
 tagline: Frictionless Data is a progressive, incrementally adoptable open-source toolkit that brings simplicity and grace to the data experience - whether you're wrangling a CSV or engineering complex pipelines with terabytes.
 actionText: Why Frictionless Data? 
@@ -44,21 +44,21 @@ features:
     <div class="features text-center flex flex-row flex-wrap">
       <div class="w-full md:w-1/3 feature">
         <div class="py-12 px-8">
-          <img src="/img/home/for-researchers.svg" height="223.375" />
+          <img src="/img/home/for-researchers-thick.svg" height="223.375" />
           <h2 >Researchers</h2>
           <p>Easily create reproducible research</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature">
         <div class="py-12 px-8">
-          <img src="/img/home/for-data-scientists.svg" height="223.375" />
+          <img src="/img/home/for-data-scientists-thick.svg" height="223.375" />
           <h2>Data Scientists</h2>
           <p>Create pipelines without effort</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature">
         <div class="py-12 px-8">
-          <img src="/img/home/for-data-engineers.svg" height="223.375" />
+          <img src="/img/home/for-data-engineers-thick.svg" height="223.375" />
           <h2>Data Engineers</h2>
           <p>Standardize data platforms</p>
         </div>
@@ -66,10 +66,7 @@ features:
     </div>
   </div>
 
-  
-
-
-  <h1 class="text-center">Data Integration and Management</h1>
+<h1 class="text-center">Data Integration and Management</h1>
 
   <br>
 
@@ -92,7 +89,7 @@ features:
   * Sourcing data
   * Transform data
   * Pushing and storing data
-
+  
   <!-- <JobsDiagram class="px-48 pt-12"></JobsDiagram> -->
 
 </div>
@@ -116,25 +113,25 @@ features:
     <h1 class="text-center">Some of Our Tooling</h1>
     <div class="container mx-auto flex flex-row flex-wrap justify-around lg:justify-between">
       <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
-        <img class="w-24 mx-auto" src="/img/home/data-package-icon-2.svg"></img>
+        <img class="w-24 mx-auto" src="/img/home/data-package-orange.svg"></img>
         <h2 class="text-xl pt-4 font-medium">Data Package</h2>
-        <p class="text-lg font-light pt-4">Simple container format to describe and package data.</p>
+        <p class="text-lg font-light pt-4">Simple container format used to describe and package data.</p>
         <a href="/products/data-package/" class="links-github">Read more &raquo;</a>
       </div>
         <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
-        <img class="w-24 mx-auto" src="/img/home/goodtables-icon.svg"></img>
+        <img class="w-24 mx-auto" src="/img/home/goodtables.svg"></img>
         <h2 class="text-xl pt-4 font-medium">GoodTables</h2>
         <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
         <a href="/products/goodtables/" class="links-github">Read more &raquo;</a>
       </div>
         <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
-        <img class="w-24 mx-auto" src="/img/home/datahub-icon.svg"></img>
+        <img class="w-24 mx-auto" src="/img/home/datahub-new.svg"></img>
         <h2 class="text-xl pt-4 font-medium">DataHub</h2>
         <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
         <a href="/products/datahub/" class="links-github">Read more &raquo;</a>
       </div>
         <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
-        <img class="w-24 mx-auto" src="/img/home/dataflows-icon.svg"></img>
+        <img class="w-24 mx-auto" src="/img/home/dataflows.svg"></img>
         <h2 class="text-xl pt-4 font-medium">DataFlows</h2>
         <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
         <a href="/products/data-package-pipelines/" class="links-github">Read more &raquo;</a>
@@ -181,6 +178,8 @@ export default {
   bottom: 0;
 }
 
-
+.links-github {
+  color: #EA6D4C;
+}
 
 </style>

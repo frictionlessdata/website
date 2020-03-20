@@ -2,7 +2,7 @@
   <footer class="banner footer-background flex flex-row flex-wrap px-5">
     <div class="w-full sm:w-1/2 lg:w-2/6">
       <div class="text-center my-20 px-6 xl:px-8 xxl:px-10">
-        <img class="block w-56 pb-10" src="/img/home/logo-white-thicker.svg"></img>
+        <img class="block w-56 pb-10" src="/img/frictionlessdata-logo-main-grey-2.svg"></img>
         <img class="block w-32 py-2" src="/img/home/datopian-logo-white.png"></img>
         <img class="block w-32 py-2" src="/img/home/okfn-logo-white.png"></img>
       </div>
