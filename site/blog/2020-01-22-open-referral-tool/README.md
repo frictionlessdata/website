@@ -4,10 +4,11 @@ date: 2020-01-22
 tags:
 category: grantee-profiles-2019
 image: /img/blog/OpenReferral.png
-description: Tool Fund - Frictionless Open Referral
 ---
 
-**This blog is part of a series showcasing projects developed during the 2019 Tool Fund. Originally published at [https://blog.okfn.org/2020/01/15/frictionless-data-tool-fund-update-shelby-switzer-and-greg-bloom-open-referral/](https://blog.okfn.org/2020/01/15/frictionless-data-tool-fund-update-shelby-switzer-and-greg-bloom-open-referral/)**
+**This blog is part of a series showcasing projects developed during the 2019 Tool Fund.**
+<!-- more -->
+Originally published at [https://blog.okfn.org/2020/01/15/frictionless-data-tool-fund-update-shelby-switzer-and-greg-bloom-open-referral/](https://blog.okfn.org/2020/01/15/frictionless-data-tool-fund-update-shelby-switzer-and-greg-bloom-open-referral/)
 
 *The 2019 Tool Fund provided four mini-grants of $5,000 to support individuals or organisations in developing an open tool for reproducible research built using the Frictionless Data specifications and software. This Fund is part of the Frictionless Data for Reproducible Research project, which is funded by the Sloan Foundation. This project applies our work in Frictionless Data to data-driven research disciplines, in order to facilitate reproducible data workflows in research contexts.*
 
