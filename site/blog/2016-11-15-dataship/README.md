@@ -24,7 +24,7 @@ Every cell in a notebook is represented by a resource entry[^resource] in an und
 
 It would be useful to have a JavaScript version of some of the functionality in goodtables[^goodtables] available for use, specifically header detection in parsed csv contents (output of PapaParse), as well as an option in dpm to not put things in a ‘datapackages’ folder, as I rarely need this when downloading a dataset.
 
-!! dpm, mentioned above, is now deprecated. Check out DataHub's [data-cli](https://github.com/datahq/data-cli)
+dpm, mentioned above, is now deprecated. Check out DataHub's [data-cli](https://github.com/datahq/data-cli)
 
 My next task will be building and integrating the machine learning and neural network components into Dataship. After that I’ll be focusing on features that allow organizations to store private encrypted data, in addition to the default public storage. The focus of the platform will always be open data, but hosting closed data sources will allow us to nudge people towards sharing, when it makes sense.
 

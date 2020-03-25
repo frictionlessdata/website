@@ -5,7 +5,7 @@ tags: ["Java"]
 category: working-with-data-packages
 ---
 
-! Georges Labrèche was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in Java programming language. You can read more about this in [his grantee profile](/blog/2017/10/24/georges-labreche/).
+Georges Labrèche was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in Java programming language. You can read more about this in [his grantee profile](/blog/2017/10/24/georges-labreche/).
 
 In this post, Labrèche will show you how to install and use the [Java](https://www.java.com/en/) libraries for working with [Tabular Data Packages][tdp].
 

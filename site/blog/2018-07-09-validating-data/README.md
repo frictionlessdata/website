@@ -23,7 +23,7 @@ We will walk through two methods of performing validation:
 service for validating tabular data. goodtables checks your data for
 its *structure*, and, optionally, its adherence to a specified *schema*. Where the latter fails, goodtables highlights content errors so you can fix them speedily.
 
-!! goodtables will give quick and simple feedback on where your tabular
+goodtables will give quick and simple feedback on where your tabular
 data may not yet be quite perfect.
 
 ![goodtables screenshot](./goodtables-screenshot.png)
@@ -104,7 +104,7 @@ Blog post on goodtables python library and goodtables web service: <http://okfnl
 
 See the `README.md` for more information.
 
-!! Find more examples on validating tabular data in the [Frictionless Data Field Guide][field-guide]
+Find more examples on validating tabular data in the [Frictionless Data Field Guide][field-guide]
 
 [dp]: /data-package
 [dp-main]: /data-package

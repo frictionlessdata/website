@@ -26,7 +26,7 @@ Energy Data
 - Goodtables: https://github.com/frictionlessdata/goodtables-py
 - Packagist: https://packagist.org/
 
-!! packagist.io has now moved to [create.frictionlessdata.io](http://create.frictionlessdata.io)
+packagist.io has now moved to [create.frictionlessdata.io](http://create.frictionlessdata.io)
 
 ## Context
 
@@ -339,7 +339,7 @@ $ dpp run ./refit-cleaned
 
 And now our data package is published to Amazon the S3 remote storage:
 
-![](https://i.imgur.com/5Z7EPDR.pnghttps://)
+![screenshot of S3 storage](https://i.imgur.com/5Z7EPDR.pnghttps://)
 
 ### Getting insight from data using Python libraries
 
@@ -440,7 +440,7 @@ $ http http://localhost:9200/_cat/indices?v
 
 To demonstrate how the Frictionless Data specs and software empower the usage of other analytics tools, we will use ElasticSearch/Kibana project. On the previous step we have imported our data package into an ElasticSearch cluster. It allows us to visualize data using a simple UI:
 
-![](https://i.imgur.com/Fm373F4.png)
+![screenshot of elasticsearch cluster](https://i.imgur.com/Fm373F4.png)
 
 In this screenshot we see the distribution of the average electricity comsumption. This is just an example of what you can do by having the ability to easily load datasets into other analytical software.
 

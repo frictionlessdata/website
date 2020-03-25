@@ -19,14 +19,12 @@ You have two options for publishing your geodata:
   Data Package][pub-any].
 
 We recommend Geo Data Package if that is possible as it makes it much easier
-for you to use 3rd party tools with your Data Package. For example, the [data
-package viewer][dp-viewer] on this site will automatically preview a Geo Data Package.
+for you to use 3rd party tools with your Data Package. For example, the [datapackage viewer][dp-viewer] on this site will automatically preview a Geo Data Package.
 
 ::: tip
 *Note: this document focuses on *vector* geodata &ndash; i.e. points, lines polygons etc (not
 imagery or raster data).*
 :::
-
 
 ## Geo Data Packages
 

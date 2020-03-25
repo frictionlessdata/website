@@ -13,18 +13,13 @@ description: Investigating the applicability of the Data Package concept to faci
 
 ### Problem We Were Trying To Solve
 
-Stephen Eglen was looking to investigate the applicability of the Data Package concept to facilitate data reuse in the field of Computational Neuroscience. The following figure describes the kind of data he is collecting.  He was eventually seeking to get around 100–160 fields like this.
-Each circle is a cell drawn approximately to scale. The units of measurement are microns (micrometers).
+Stephen Eglen was looking to investigate the applicability of the Data Package concept to facilitate data reuse in the field of Computational Neuroscience. The following figure describes the kind of data he is collecting.  He was eventually seeking to get around 100–160 fields like this. Each circle is a cell drawn approximately to scale. The units of measurement are microns (micrometers).
 
 ![ADBio](./camimage1.png)
 
-The basic data are quite simple: two columns of numbers that describes the center of each circle where each circle represents a
-[retinal ganglion cell](https://en.wikipedia.org/wiki/Retinal_ganglion_cell).  The metadata that adds context to this data are as
-follows: the radius of each circle is 10um representing the average radius of this cell type; the dashed line represents the sample window which is the region of space within which the
-cells were sampled; the species from which the cells were sampled is a cat.
+The basic data are quite simple: two columns of numbers that describes the center of each circle where each circle represents a [retinal ganglion cell](https://en.wikipedia.org/wiki/Retinal_ganglion_cell).  The metadata that adds context to this data are as follows: the radius of each circle is 10um representing the average radius of this cell type; the dashed line represents the sample window which is the region of space within which the cells were sampled; the species from which the cells were sampled is a cat.
 
-The key question posed by the collection of such data in large quantities is “where to store all these metadata”.
-More formally, Stephen wanted a way to include the following metadata with sampled data:
+The key question posed by the collection of such data in large quantities is “where to store all these metadata”. More formally, Stephen wanted a way to include the following metadata with sampled data:
 
  1. Cell type: on center retinal ganglion cells
  2. Species: cat
@@ -39,9 +34,7 @@ The long-term goal was to build a website/repository containing about 100+ examp
 
 ### What Did We Do
 
-The Data Package specification is meant to be a container for data providing a consistent interface to tabular data.
-The Data Package specification outlines a number of different fields that can be stored within a descriptor file,  datapackage.json.
-For instance, for this example, we can assign a title to this Data Package by setting the field `title` to “Example Retinal Mosaic”:
+The Data Package specification is meant to be a container for data providing a consistent interface to tabular data. The Data Package specification outlines a number of different fields that can be stored within a descriptor file, `datapackage.json`. For instance, for this example, we can assign a title to this Data Package by setting the field `title` to “Example Retinal Mosaic”:
 
 `"title" : "Example Retinal Mosaic"`
 
@@ -195,6 +188,4 @@ Data Package format:
 
 ### Areas for future work
 
-Stephen now has about 100 retinal mosaics that might make for a nice use case of the Data Package.
-In addition, The Frictionless Data Tool Fund has funded the development of the next version of the R Data Package.
-This will make some of the improvements brought to the Data Package specifications  in the past few months available in the R library.
+Stephen now has about 100 retinal mosaics that might make for a nice use case of the Data Package. In addition, The Frictionless Data Tool Fund has funded the development of the next version of the R Data Package. This will make some of the improvements brought to the Data Package specifications  in the past few months available in the R library.

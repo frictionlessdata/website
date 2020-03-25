@@ -34,6 +34,6 @@ Any kind of data you have - graph, binary, RDF &hellip;
 
 [Here's a tutorial on publishing other types of data](/blog/2016/07/21/publish-any)
 
-!! Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
+Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
 
 [field-guide]: /data-package

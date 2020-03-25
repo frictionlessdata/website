@@ -177,7 +177,7 @@ The `datapackage.json` ([download](https://raw.githubusercontent.com/okgreece/da
 
 Now that you have created your Data Package, you might want to [publish your data online](/blog/2016/08/29/publish-online/) so that you can share it with others.
 
-!! Now that you have created a data package in R, [find out how to use data packages in R in this tutorial][use-r].
+Now that you have created a data package in R, [find out how to use data packages in R in this tutorial][use-r].
 
 [dp]: https://specs.frictionlessdata.io/data-package/
 [tdp]: https://specs.frictionlessdata.io/tabular-data-package/

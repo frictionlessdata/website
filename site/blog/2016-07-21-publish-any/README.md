@@ -24,7 +24,7 @@ The `datapackage.json` is a small file in [JSON][json] format that describes
 your dataset. You'll need to create this file and then place it in the
 directory you created.
 
-!!! *Don't worry if you don't know what JSON is - we provide some tools such as [Data Package Creator][dp-creator] that can
+*Don't worry if you don't know what JSON is - we provide some tools such as [Data Package Creator][dp-creator] that can
 automatically create your this file for you.*
 
 There are 2 options for creating the `datapackage.json`:
@@ -40,8 +40,7 @@ this yourself. Take a look at the [Data Package][dp] tutorial.
 
 See the [step-by-step instructions for putting your Data Package online][pub-online].
 
-!! Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
-
+Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
 
 [dp]: /data-package
 [dp-main]: /data-package

@@ -77,7 +77,7 @@ Pay special attention to the scripts directory (and look at the commit logs!)
 - [datahub.io/core/co2-fossil-global](https://datahub.io/core/co2-fossil-global)
 - [datahub.io/core/imf-weo](https://datahub.io/core/imf-weo)
 
-!! Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
+Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
 
 
 [[dp]: /data-package
