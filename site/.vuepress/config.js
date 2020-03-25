@@ -44,14 +44,14 @@ module.exports = {
         text: "Tooling",
         ariaLabel: "Tooling Menu",
         items: [
-          { text: "Table Schema Tools", link: "/products/table-schema-tools/" },
-          { text: "Data Package Tools", link: "/products/data-package/" },
-          { text: "Tabulator", link: "/products/tabulator/" },
-          { text: "GoodTables", link: "/products/goodtables/" },
-          { text: "Data Package Pipelines", link: "/products/data-package-pipelines/" },
-          { text: "DataHub", link: "/products/datahub/" },
+          { text: "Table Schema Tools", link: "/tooling/table-schema-tools/" },
+          { text: "Data Package Tools", link: "/tooling/data-package-tools/" },
+          { text: "Tabulator", link: "/tooling/tabulator/" },
+          { text: "GoodTables", link: "/tooling/goodtables/" },
+          { text: "Data Package Pipelines", link: "/tooling/data-package-pipelines/" },
+          { text: "DataHub", link: "/tooling/datahub/" },
           {
-            items: [{ text: "Labs", link: "/products/labs/" }]
+            items: [{ text: "Labs", link: "/tooling/labs/" }]
           }
         ]
       },

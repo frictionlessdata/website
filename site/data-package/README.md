@@ -125,14 +125,13 @@ As its file extension indicates, it must be a [JSON][json] file. Here's a very m
 }
 ```
 
-Here is a much more extensive example of a datapackage JSON file:
-
-!! **Note:** a complete list of potential attributes and their meaning can be found in the [full Data Package spec][spec].
+**Note:** a complete list of potential attributes and their meaning can be found in the [full Data Package spec][spec].
 
 [spec]: https://specs.frictionlessdata.io/data-package/
 
-!!! **Note:** the Data Package format is **extensible**: publishers may add their own additional metadata as well as constraints on the format and type of data by adding their own attributes to the `datapackage.json`.
+**Note:** the Data Package format is **extensible**: publishers may add their own additional metadata as well as constraints on the format and type of data by adding their own attributes to the `datapackage.json`.
 
+Here is a much more extensive example of a datapackage JSON file:
 
 ```json
 {
@@ -226,7 +225,7 @@ The [Data Package Viewer](http://data.okfn.org/tools/view) will display a [Recli
 
 ### Examples
 
-Many exemplar data packages can be found on [datahub][]. Specific examples:
+Many exemplar data packages can be found on [datahub][datahub]. Specific examples:
 
 #### World GDP
 
