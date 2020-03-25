@@ -36,13 +36,13 @@ Let's add our CSV resource. On the main section of the page, fill the inputs wit
 * **Name**: periodic-table
 * **Path**: https://raw.githubusercontent.com/frictionlessdata/example-data-packages/d2b96aaed6ab12db41d73022a2988eeb292116e9/periodic-table/data.csv
 
-!! Resource and data package names must be unique, lowercase, can contain only letters, numbers, and the characters ".", "-" and "_".
+Resource and data package names must be unique, lowercase, can contain only letters, numbers, and the characters ".", "-" and "_".
 
 And click on the *Load* button. After a few seconds, a new box should appear with the text "Add all inferred fields (data has 5 extra column(s))". Click on it, and the fields will be created, with their data types and formats inferred from the data. This saves us time, as we don't need to start from scratch.
 
 The Data Package Creator got almost all data types correctly, except the {atomic mass} column. It inferred the column as having integer values, but as we can see from the data, the numbers aren't whole, they have floating points. Just change the type to **number**, and that's it.
 
-!! You can view a sample of the data in each column by hovering the mouse below its name.
+You can view a sample of the data in each column by hovering the mouse below its name.
 
 Usually, we would now add titles and descriptions to each field. However, as this is a simple dataset, the field names should be enough. In the end, the fields are:
 
@@ -118,7 +118,7 @@ After you're logged in, go to the [datasets list page][datahub:dataset-list] and
 ![Importing a data packate to the DataHub](./datahub-import-datapackage.png)
 *Importing a data packate to the DataHub*
 
-!! If you don't see the "Import Data Package" button in your CKAN instance, install the [ckanext-datapackager][ckanext-datapackager] extension to add support for importing and exporting your datasets as data packages.
+If you don't see the "Import Data Package" button in your CKAN instance, install the [ckanext-datapackager][ckanext-datapackager] extension to add support for importing and exporting your datasets as data packages.
 
 You will be redirected to the newly created dataset on CKAN, with its metadata and resource extracted from the data package. Double check if everything seems fine, and when you're finished, click on the "Manage" button and change the visibility to "Public".
 

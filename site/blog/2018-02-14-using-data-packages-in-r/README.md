@@ -6,23 +6,26 @@ category: working-with-data-packages
 ---
 
 
-! [Open Knowledge Greece][okgreece] was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in R programming language. You can read more about this in [their grantee profile][toolfund-okgreece]. In this tutorial, [Kleanthis Koupidis](https://gr.linkedin.com/in/kleanthis-koupidis-8348b88b), a Data Scientist and Statistician at Open Knowledge Greece, explains how to work with Data Packages in R.
-
+[Open Knowledge Greece][okgreece] was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in R programming language. You can read more about this in [their grantee profile][toolfund-okgreece]. In this tutorial, [Kleanthis Koupidis](https://gr.linkedin.com/in/kleanthis-koupidis-8348b88b), a Data Scientist and Statistician at Open Knowledge Greece, explains how to work with Data Packages in R.
 
 This tutorial will show you how to install the R libraries for working with Tabular Data Packages and demonstrate a very simple example of loading a Tabular Data Package from the web and pushing it directly into a local SQL database and send query to retrieve results.
 
-!! For a comprehensive introduction to creating tabular data packages in R, [start by going through this tutorial][create-r].
+For a comprehensive introduction to creating tabular data packages in R, [start by going through this tutorial][create-r].
 
 ## Setup
 
 For this tutorial, we will need the Data Package R library ([datapackage.r][dp-r]). [Devtools library](https://cran.r-project.org/package=devtools) is also required to install the datapackage.r library from github.
 
+```bash
     # Install devtools package if not already
     install.packages("devtools")
+```
 
 And then install the development version of [datapackage.r][dp-r] from github.
 
+```bash
     devtools::install_github("frictionlessdata/datapackage-r")
+```
 
 ## Load
 

@@ -11,6 +11,8 @@ description: Introducing a new team member - Gift Egwuenu
 
 Hi there, My name is [Gift Egwuenu][gift] and I'm super excited to share I joined [Datopian](https://datopian.com/) as a Frontend Developer and Developer Evangelist! 🎉
 
+<!-- more -->
+
 [Frictionless Data](https://frictionlessdata.io) is an open-source toolkit that brings simplicity and grace to the data experience. We want every Data Engineer or Data Scientist to know about it and benefit from it.
 
 Part of my job involves spreading the word about Frictionless Data and encouraging community involvement by sharing what you can achieve with the toolkit 😃

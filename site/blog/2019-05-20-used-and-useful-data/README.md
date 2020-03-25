@@ -33,7 +33,7 @@ For this section, we will use the [Data Package Creator](https://create.friction
 
 Our [Gross Domestic Product dataset for all countries (1960 - 2014)](https://github.com/frictionlessdata/example-data-packages/blob/master/gross-domestic-product-all/data/gdp.csv) dataset is publicly available on GitHub.
 
-!!! Obtain a link to the raw CSV file by clicking on the Raw button at the top right corner of the GitHub file preview page, as shown in figure 1 below. The resulting hyperlink looks like https://raw.githubusercontent.com/datasets/continent-codes/master/data/continent-codes.csv
+Obtain a link to the raw CSV file by clicking on the Raw button at the top right corner of the GitHub file preview page, as shown in figure 1 below. The resulting hyperlink looks like https://raw.githubusercontent.com/datasets/continent-codes/master/data/continent-codes.csv
 
 ![Above, raw button highlighted in red](./figure-1.png)
 *Figure 1: Above, raw button highlighted in red.*

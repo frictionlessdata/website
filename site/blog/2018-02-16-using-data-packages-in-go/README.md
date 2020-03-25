@@ -6,7 +6,7 @@ category: working-with-data-packages
 ---
 
 
-! Daniel Fireman was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in Go programming language. You can read more about this in [his grantee profile][toolfund-daniel]. In this post, Fireman will show you how to install and use the [Go](http://golang.org) libraries for working with [Tabular Data Packages][tdp].
+Daniel Fireman was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in Go programming language. You can read more about this in [his grantee profile][toolfund-daniel]. In this post, Fireman will show you how to install and use the [Go](http://golang.org) libraries for working with [Tabular Data Packages][tdp].
 
 Our goal in this tutorial is to load a data package from the web and read its metadata and contents.
 
@@ -34,7 +34,6 @@ In this tutorial, we are using a [Tabular Data Package][tdp] containing the peri
 | 1             | H      | Hydrogen | 1.00794     | nonmetal           |
 | 2             | He     | Helium   | 4.002602    | noble gas          |
 | 3             | Li     | Lithium  | 6.941       | alkali metal       |
-
 
 ## Inspecting Package Metadata
 

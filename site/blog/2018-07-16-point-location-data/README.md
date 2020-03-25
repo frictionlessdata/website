@@ -392,7 +392,7 @@ These documents advise on best practices related to the publication of data and 
 
 The Open Geospatial Consortium - [OpenGIS Simple Feature Access](http://www.opengeospatial.org/standards/sfa) is also called ISO 19125. It provides a model for geometric objects associated with a Spatial Reference System.
 
-!! Recommended reading: We recently commissioned research work to determine how necessary and useful it would be to create a Geo Data Package as a core Frictionless Data offering. Follow the discussions [here on Discuss](https://discuss.okfn.org/t/geo-data-package/6143) and read [the final report into the spatial data package investigation by Steve Bennett](https://research.okfn.org/spatial-data-package-investigation/). Examples following the recommendations in this research will be added in due course.
+Recommended reading: We recently commissioned research work to determine how necessary and useful it would be to create a Geo Data Package as a core Frictionless Data offering. Follow the discussions [here on Discuss](https://discuss.okfn.org/t/geo-data-package/6143) and read [the final report into the spatial data package investigation by Steve Bennett](https://research.okfn.org/spatial-data-package-investigation/). Examples following the recommendations in this research will be added in due course.
 
 [dp]: /data-package
 [dp-main]: /data-package

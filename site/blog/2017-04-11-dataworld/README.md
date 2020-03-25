@@ -9,7 +9,7 @@ image: /img/blog/data-world-logo.png
 description: Allow users to download a version of a data.world dataset that retains the structured metadata and schema for offline analysis
 ---
 
-At data.world, we deal with a great diversity of data, both in terms of content and in terms of source format - most people working with data are emailing each other spreadsheets or CSVs, and not formally defining schema or semantics for what’s contained in these data files.
+At [data.world][dataworld], we deal with a great diversity of data, both in terms of content and in terms of source format - most people working with data are emailing each other spreadsheets or CSVs, and not formally defining schema or semantics for what’s contained in these data files.
 
 When [data.world][dataworld] ingests tabular data, we “virtualize” the tables away from their source format, and build layers of type and semantic information on top of the raw data. What this allows us to do is to produce a clean Tabular Data Package[^tdp] for any dataset, whether the input is CSV files, Excel Spreadsheets, JSON data, SQLite Database files - any format that we know how to extract tabular information from - we can present it as cleaned-up CSV data with a `datapackage.json` that describes the schema and metadata of the contents.
 
@@ -29,10 +29,10 @@ In a certain sense, a Tabular Data Package is sort of like an open-source, cross
 
 To read more about Data Package integration at [data.world][dataworld], read our post: [Try This: Frictionless data.world](https://meta.data.world/try-this-frictionless-data-world-ad36b6422ceb#.rbbf8k40t).  Sign up, and starting playing with data.
 
+[dataworld]: https://data.world
 [^package]: Tabular Data Package: [/data-package/#tabular-data-package](/data-package/#tabular-data-package)
 [^datapackage]: Data Packages: [/data-package](/data-package)
 [^rdf]: RDF: Resource Description Framework: <https://www.w3.org/RDF/>
 [^tdp]: Tabular Data Package specifications: [https://specs.frictionlessdata.io/tabular-data-package](https://specs.frictionlessdata.io/tabular-data-package)
 [^skos]: SKOS: Simple Knowledge Organization System: <https://www.w3.org/2004/02/skos/>
 [^owl]: OWL Web Ontology Language: <https://www.w3.org/TR/owl-ref/>
-[dataworld]: https://data.world/
