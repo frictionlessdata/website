@@ -2,7 +2,7 @@
 layout: home
 heroImage: /img/frictionlessdata-logo-circle.png
 heroText: The zen toolkit for data integration
-tagline: Frictionless Data is a progressive, incrementally adoptable open-source toolkit that brings simplicity and grace to the data experience - whether you're wrangling a CSV or engineering complex pipelines with terabytes.
+tagline: Frictionless Data is a progressive, incrementally adoptable open-source toolkit that brings simplicity and gracefulness to the data experience - whether you're wrangling a CSV or engineering complex pipelines with gigabytes.
 actionText: Why Frictionless Data? 
 actionLink: /about/
 features:
@@ -116,25 +116,25 @@ features:
         <img class="w-24 mx-auto" src="/img/home/data-package-orange.svg"></img>
         <h2 class="text-xl pt-4 font-medium">Data Package</h2>
         <p class="text-lg font-light pt-4">Simple container format used to describe and package data.</p>
-        <a href="/products/data-package/" class="links-github">Read more &raquo;</a>
+        <a href="/tooling/data-package-tools/" class="links-github">Read more &raquo;</a>
       </div>
         <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
         <img class="w-24 mx-auto" src="/img/home/goodtables.svg"></img>
         <h2 class="text-xl pt-4 font-medium">GoodTables</h2>
         <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
-        <a href="/products/goodtables/" class="links-github">Read more &raquo;</a>
+        <a href="/tooling/goodtables/" class="links-github">Read more &raquo;</a>
       </div>
         <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
         <img class="w-24 mx-auto" src="/img/home/datahub-new.svg"></img>
         <h2 class="text-xl pt-4 font-medium">DataHub</h2>
         <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
-        <a href="/products/datahub/" class="links-github">Read more &raquo;</a>
+        <a href="/tooling/datahub/" class="links-github">Read more &raquo;</a>
       </div>
         <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
         <img class="w-24 mx-auto" src="/img/home/dataflows.svg"></img>
         <h2 class="text-xl pt-4 font-medium">DataFlows</h2>
         <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
-        <a href="/products/data-package-pipelines/" class="links-github">Read more &raquo;</a>
+        <a href="/tooling/data-package-pipelines/" class="links-github">Read more &raquo;</a>
       </div>
     </div>
   </div>

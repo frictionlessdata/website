@@ -8,7 +8,7 @@ layout: product
 ---
 
 Data Package is a simple container format used to describe and package a collection of data. The full specification is available [here](https://specs.frictionlessdata.io/data-package).
- 
+
 ## Tools
 
 There is a growing set of online and offline software for working with Data Packages. You will find tools for creating, viewing, validating, publishing and managing them.
