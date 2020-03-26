@@ -1,7 +1,9 @@
+# Tags
+
 <template lang="html">
   <div>
     <span v-for="tag in Object.keys(tags)">
-      <h2 :id="tag">
+      <h2 :id="tag"> 
         <router-link
           :to="{ path: `/tags.html#${tag}`}"
           class="header-anchor"
@@ -37,7 +39,4 @@ export default {
     }
   }
 }
-
-
 </script>
-

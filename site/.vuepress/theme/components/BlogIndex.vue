@@ -1,34 +1,34 @@
 <template>
   <main class="blog-home" aria-labelledby="main-title">
     <div class="container">  
-      <h1 class="pb-6">Frictionless Blog</h1>
+      <h1 class="pb-20">Frictionless Blog</h1>
       <ul class="flex flex-col">
         <li class="" v-for="page in $pagination.pages">
           <div class="container shadow-md pl-6 flex flex-row py-4">
-          <div class="container flex flex-col w-2/3">
+          <div class="container flex flex-col md:w-2/3">
             <router-link class="text-xl page-link pr-12" :to="page.path">{{ page.title }}
             </router-link>
-            <p class="text-sm italic"> {{ formatDate(page.frontmatter.date) }} by {{ page.frontmatter.author || "Frictionless Data" }} </p>
+            <div class="text-sm py-2"> {{ formatDate(page.frontmatter.date) }} by {{ page.frontmatter.author || page.frontmatter.authors || "Frictionless Data" }} </div>
               <div v-if="page.frontmatter.tags" class="container flex flex-row">
                 <TagLinks/>
                 <router-link class="pl-2 inline font-normal"
                 v-for="tag in page.frontmatter.tags"
                 :key="tag"
-                :to="{ path: ``}">
+                :to="{ path: `/tags.html#${tag}`}">
                 {{tag}}
               </router-link> 
             </div>
             <p class="text-base mr-12" v-if="page.frontmatter.description"> {{ page.frontmatter.description }} </p>
             <p class="text-base mr-12" v-else-if="!page.frontmatter.description" v-html="page.excerpt"></p>
           </div>
-          <div class="flex items-stretch pl-6 w-1/3 py-2">
-            <img class="w-48 self-center" :src=" page.frontmatter.image || page.frontmatter.heroImage || 'https://i.ytimg.com/vi/lWHKVXxuci0/maxresdefault.jpg'" />
+          <div class="flex items-stretch pl-6 md:w-1/3 py-2">
+            <img class="w-48 self-center md:block hidden" :src=" page.frontmatter.image || page.frontmatter.heroImage || 'https://i.ytimg.com/vi/lWHKVXxuci0/maxresdefault.jpg'" />
           </div>
           </div>
           <hr>
         </li>
         </ul>
-      <div id="pagination">
+      <div class="pb-20" id="pagination">
         <router-link class="pl-6" v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
         <router-link class="pl-6" v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
       </div>
