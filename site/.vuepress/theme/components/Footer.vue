@@ -2,16 +2,16 @@
   <footer class="banner footer-background flex flex-row flex-wrap px-5">
     <div class="w-full sm:w-1/2 lg:w-2/6">
       <div class="text-center my-20 px-6 xl:px-8 xxl:px-10">
-        <img class="block w-56 pb-10" src="/img/frictionlessdata-logo-main-grey-2.svg"></img>
-        <img class="block w-32 py-2" src="/img/home/datopian-logo-white.png"></img>
-        <img class="block w-32 py-2" src="/img/home/okfn-logo-white.png"></img>
+        <img class="block w-56 pb-10" src="/img/frictionless-black-full-logo.svg"/>
+        <div class="w-1/4"><a href="https://www.datopian.com/"><img class="block w-32 py-2" src="/img/home/datopian-logo-white.png"/></a></div>
+        <div class="w-1/5"><a href="https://okfn.org/"><img class="block w-32 py-2" src="/img/home/okfn-logo-white.png" /></a></div>
       </div>
     </div>
     <div class="w-full xs:w-1/2 sm:w-1/4 lg:w-1/6">
       <div class="my-20 px-6 xl:px-8 xxl:px-10">
         <h2 class="text-lg font-normal text-white">Supported by</h2>
-        <div><img class="w-32 mx-auto py-8" src="/img/home/alfred.svg"></img></div>
-        <div><img class="w-32 mx-auto" src="/img/home/open-data-institute.svg"></img></div>
+        <a href="https://sloan.org/"><img class="w-32 mx-auto py-8" src="/img/home/alfred.svg"></img></a>
+        <a href="https://theodi.org/"><img class="w-32 mx-auto" src="/img/home/open-data-institute.svg"></img></a>
       </div>
     </div>
     <div class="w-full xs:w-1/2 sm:w-1/4 lg:w-1/6">
@@ -37,16 +37,19 @@
       <div class="my-20 px-6 xl:px-8 xxl:px-10">
         <h2 class="text-xl text-white font-normal">Social</h2>
         <div class="pt-4 flex flex-row">
-          <img class="w-8 align-middle" src="/img/home/github.svg"></img>
-          <a href="https://github.com/frictionlessdata/" class="text-white pl-2 pt-2 font-light text-base">GitHub</a>
+          <a href="https://github.com/frictionlessdata/" class="text-white pt-2 font-light text-base">
+          <img class="w-8 pr-2 align-middle" src="/img/home/github.svg" />
+          GitHub</a>
         </div>  
         <div class="pt-6 flex flex-row">
-          <img class="w-8 align-middle" src="/img/home/twitter.svg"></img>
-          <a href="https://twitter.com/hashtag/frictionlessdata" class="text-white pl-2 pt-2 inline font-light text-base">Twitter</a>
+          <a href="https://twitter.com/hashtag/frictionlessdata" class="text-white pt-2 inline font-light text-base">
+          <img class="w-8 pr-2 align-middle" src="/img/home/twitter.svg" />
+          Twitter</a>
         </div>
         <div class="pt-6 pr-10 flex flex-row">
-          <img class="w-8 align-middle" src="/img/home/gitter.svg"></img>
-          <a href="https://gitter.im/frictionlessdata/chat" class="text-white pl-2 pt-2 font-light text-base">Gitter</a>
+          <a href="https://gitter.im/frictionlessdata/chat" class="text-white pt-2 font-light text-base">
+          <img class="w-8 pr-2 align-middle" src="/img/home/gitter.svg"></img>
+          Gitter</a>
         </div>
       </div>
     </div>
@@ -64,5 +67,9 @@
 
 .footer-background {
   background-color: rgb(64, 54, 77);
+}
+
+div > a:hover {
+  font-weight: 400;
 }
 </style>

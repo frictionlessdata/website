@@ -2,7 +2,7 @@
 <div class="banner whole-page">
   <main class="main-section" aria-labelledby="main-title">
     <header class="hero">
-      <img class=""
+      <img class="w-48 py-10"
         v-if="data.heroImage"
         :src="$withBase(data.heroImage)"
         :alt="data.heroAlt || 'hero'"
@@ -288,4 +288,3 @@ export default {
 }
   
 </style>
-

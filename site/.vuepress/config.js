@@ -20,7 +20,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: "/img/frictionlessdata-logo-main.svg.png",
+    logo: "/img/frictionless-color-full-logo.svg",
     // don't want navbar item for this atm
     // repo: "https://github.com/frictionlessdata",
     // repoLabel: "GitHub",

@@ -1,6 +1,6 @@
 ---
 layout: home
-heroImage: /img/frictionlessdata-logo-circle.png
+heroImage: /img/frictionless-color-logo.svg
 heroText: The zen toolkit for data integration
 tagline: Frictionless Data is a progressive, incrementally adoptable open-source toolkit that brings simplicity and gracefulness to the data experience - whether you're wrangling a CSV or engineering complex pipelines with gigabytes.
 actionText: Why Frictionless Data? 
