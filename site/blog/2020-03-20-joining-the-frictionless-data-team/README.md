@@ -5,6 +5,7 @@ tags:
 category:
 image: /img/blog/gift.jpg
 description: Introducing a new team member - Gift Egwuenu
+author: Gift Egwuenu
 ---
 
 # Joining the Frictionless Data Team
