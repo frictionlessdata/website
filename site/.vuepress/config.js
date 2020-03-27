@@ -21,9 +21,8 @@ module.exports = {
   },
   themeConfig: {
     logo: "/img/frictionless-color-full-logo.svg",
-    // don't want navbar item for this atm
-    // repo: "https://github.com/frictionlessdata",
-    // repoLabel: "GitHub",
+    repo: "https://github.com/frictionlessdata",
+    repoLabel: "GitHub",
     docsRepo: "https://github.com/frictionlessdata/website-v2",
     docsDir: "site",
     // defaults to false, set to true to enable
@@ -80,7 +79,7 @@ module.exports = {
         text: "Help",
         ariaLabel: "Help Menu",
         items: [
-          { text: "Chat", link: "https://gitter.im/frictionlessdata/chat" },
+          { text: "Community", link: "https://gitter.im/frictionlessdata/chat" },
           { text: "Forum", link: "https://github.com/frictionlessdata/forum/issues" },
           { text: "Support", link: "/support/" },
         ]
