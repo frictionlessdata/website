@@ -18,9 +18,9 @@
       </h3>
       <dl>
         <template v-if="profile.reposOfficial">
-          <div class="container inline-flex">
+          <div class="container">
           <dt class="team-core-font inline-block">Core focus</dt>
-            <ul>
+            <ul class="inline-block">
               <li class="inline-block text-sm text-blue-500 pl-2" v-for="repo in profile.reposOfficial">
                 <a :href="githubUrl('fluejs', repo)" target=_blank rel="noopener noreferrer">{{ repo.name || repo }}</a>
               </li>
