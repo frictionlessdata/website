@@ -158,7 +158,14 @@ module.exports = {
       clientId: '60857077e0f7b1a0e54f',
       clientSecret: '3d92b9b0e4a92f89435a71a46f14510132710194',
     }],
-    ["@vuepress/back-to-top"]
+    ["@vuepress/back-to-top"], 
+    [
+      "@limdongjin/vuepress-plugin-simple-seo", {
+        default_image: './public/img/frictionless-color-logo.png',
+        root_url: 'https://frictionlessdata.io',
+        default_site_name: 'Frictionless Data'
+      }
+    ]
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],

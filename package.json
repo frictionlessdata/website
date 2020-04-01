@@ -8,12 +8,13 @@
     "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {
+    "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
+    "@vssue/api-github-v3": "^1.4.3",
+    "@vssue/vuepress-plugin-vssue": "^1.4.3",
     "@vuepress/plugin-back-to-top": "^1.3.1",
     "@vuepress/plugin-blog": "^1.9.2",
     "@vuepress/plugin-google-analytics": "^1.1.0",
     "start-server-and-test": "^1.10.8",
-    "@vssue/api-github-v3": "^1.4.3",
-    "@vssue/vuepress-plugin-vssue": "^1.4.3",
     "tailwindcss": "^1.1.4",
     "vuepress": "^1.2.0",
     "vuepress-plugin-dehydrate": "^1.1.3"
