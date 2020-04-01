@@ -1,5 +1,5 @@
 ---
-title: Publishing Data Packages - FAQ
+title: FAQ on Publishing Data Packages
 date: 2016-04-20
 tags:
 category: publishing-data
