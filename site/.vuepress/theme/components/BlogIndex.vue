@@ -28,7 +28,7 @@
           <hr>
         </li>
         </ul>
-      <div class="pb-20" id="pagination">
+      <div class="flex justify-between" id="pagination">
         <router-link class="pl-6" v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
         <router-link class="pl-6" v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
       </div>

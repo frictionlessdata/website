@@ -149,7 +149,16 @@ module.exports = {
         '**/static.html',
       ],
     }
-  ]
+  ],
+  [
+    "@vssue/vuepress-plugin-vssue", {
+      platform: 'github',
+      owner: 'frictionlessdata',
+      repo: 'website-v2',
+      clientId: '60857077e0f7b1a0e54f',
+      clientSecret: '3d92b9b0e4a92f89435a71a46f14510132710194',
+    }],
+    ["@vuepress/back-to-top"]
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],
