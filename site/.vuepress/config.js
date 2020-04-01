@@ -125,7 +125,18 @@ module.exports = {
         ]
       }
     ],
-    ["@vuepress/back-to-top"]
+    ["@vuepress/back-to-top"],
+    ["vuepress-plugin-dehydrate", {
+      // disable SSR
+      noSSR: '404.html',
+      // remove scripts
+      noScript: [
+        // support glob patterns
+        'foo/*.html',
+        '**/static.html',
+      ],
+    }
+  ]
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],
