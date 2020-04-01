@@ -1,6 +1,7 @@
 ---
 title: DataHub
 tagline: A SaaS platform built on Frictionless Data that allows publishing and sharing data, as well as discovery of high-quality curated data.
+description: A SaaS platform built on Frictionless Data that allows publishing and sharing data, as well as discovery of high-quality curated data.
 hexagon: 
 github:
 layout: product

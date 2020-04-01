@@ -7,7 +7,6 @@ image: /img/blog/workflow.png
 description: There's a lot to see in the world of Frictionless Data. If you're confused about how it all comes together, take a look at our publication workflow example.
 ---
 
-
 In this section, we will walk through the process of publishing, using a dataset of the periodic table of elements as an example. We will define its metadata by creating a data package, describe the structure of the CSV using a Table Schema, validate it on Goodtables, and finally publish to a public CKAN instance. Let's start.
 
 First, let's look at the data. It is available as a CSV file on [this link][data.csv]. The first five rows look like:

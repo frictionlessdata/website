@@ -7,6 +7,8 @@ category: publishing-data
 
 This tutorial is about how to publish your Data Package online for others to find and use.
 
+<!-- more -->
+
 It assumes you have already finished packaging up your data as a Data Package (if not, [check out the instructions here](/blog/2018/07/16/publish-data-as-data-packages/)).
 
 ## It's Only Files Online

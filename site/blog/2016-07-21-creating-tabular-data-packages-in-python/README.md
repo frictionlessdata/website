@@ -2,6 +2,7 @@
 title: Creating Data Packages in Python
 date: 2016-07-21
 tags: ["Python"]
+description: A guide on how to create datapackages in Python
 category: working-with-data-packages
 ---
 

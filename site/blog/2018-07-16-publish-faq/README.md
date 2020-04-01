@@ -7,6 +7,7 @@ category: publishing-data
 
 FAQs and best practice patterns for publishing data packages.
 
+<!-- more -->
 Complete specifications are available at [specs/data-package](https://specs.frictionlessdata.io/data-package/).
 
 ## Data Package Name

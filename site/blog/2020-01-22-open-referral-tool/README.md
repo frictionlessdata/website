@@ -6,7 +6,7 @@ category: grantee-profiles-2019
 image: /img/blog/OpenReferral.png
 ---
 
-**This blog is part of a series showcasing projects developed during the 2019 Tool Fund.**
+This blog is part of a series showcasing projects developed during the 2019 Tool Fund.
 <!-- more -->
 Originally published at [https://blog.okfn.org/2020/01/15/frictionless-data-tool-fund-update-shelby-switzer-and-greg-bloom-open-referral/](https://blog.okfn.org/2020/01/15/frictionless-data-tool-fund-update-shelby-switzer-and-greg-bloom-open-referral/)
 

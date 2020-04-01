@@ -62,7 +62,7 @@ Table Schema is a specification for providing a “schema” (similar to a [data
 
 Here's our simple `helloworld.csv` CSV (you can paste this in a local file):
 
-```csv
+```bash
 Name,Email,Age
 Jill,jill@foo.com,25
 Jack,jack@bar.com,33

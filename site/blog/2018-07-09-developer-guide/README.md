@@ -8,6 +8,7 @@ category: contributing
 
 This guide introduces you to the Frictionless Data tool stack and how you can contribute to it.
 
+<!-- more -->
 
 ## Asking questions and getting help
 

@@ -4,11 +4,15 @@ date: 2018-07-16
 tags:
 category: grantee-profiles
 image: /img/blog/ori-hoch-image.png
-description: Tool Fund Grantee - PHP
+# description: Tool Fund Grantee - PHP
 github: https://github.com/OriHoch
 twitter: https://twitter.com/OriHoch
 website: https://www.linkedin.com/in/ori-hoch-bb62b033/
 ---
+
+_This grantee profile features Ori Hoch for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved._
+
+<!-- more -->
 
 My name is Ori Hoch, I am 35 years old, living in Israel and married with 2 children. I recently took my family to Midburn - the Israeli regional Burning Man event where I juggled some fire clubs in the main burn ceremony. Through the Tool Fund, I am working on implementing the PHP libraries for Frictionless Data. I am also working on several other open source data projects: [Open Knesset](https://github.com/hasadna/Open-Knesset), [Open Budget](https://github.com/OpenBudget/budgetkey-data-pipelines), [Beit Hatfutsot](https://github.com/beit-hatfutsot) - all projects are open source and fully transparent - both the code and the development process - which I think is a great way to work. I’m also very interested in community and teamwork - how to get a group of people working together on a common goal, a hard task in normal scenarios which grows even more complex when dealing with volunteers / open source contributors. Of course, besides all the philosophical ideals I’m also a hard-core technologist who loves diving into complex problems, finding and implementing the right solution.
 

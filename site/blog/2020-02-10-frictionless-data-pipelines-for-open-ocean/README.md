@@ -6,8 +6,7 @@ category: frictionless-data
 image: /img/blog/bcodmoLogo.jpg
 ---
 
-
-_This blog post describes a Frictionless Data Pilot with the Biological and Chemical Oceanography Data Management Office (BCO-DMO). Pilot projects are part of the [Frictionless Data for Reproducible Research project](https://frictionlessdata.io/reproducible-research/). Written by the BCO-DMO team members Adam Shepherd, Amber York, Danie Kinkade, and development by Conrad Schloer._
+This blog post describes a Frictionless Data Pilot with the Biological and Chemical Oceanography Data Management Office (BCO-DMO). Pilot projects are part of the [Frictionless Data for Reproducible Research project](https://frictionlessdata.io/reproducible-research/). Written by the BCO-DMO team members Adam Shepherd, Amber York, Danie Kinkade, and development by Conrad Schloer.
 
 <!-- more -->
 

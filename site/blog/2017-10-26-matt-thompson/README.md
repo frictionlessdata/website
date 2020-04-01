@@ -4,11 +4,14 @@ date: 2017-10-26
 tags:
 category: grantee-profiles
 image: /img/blog/matt-thompson-image.png
-description: Tool Fund Grantee - Clojure
 github: https://github.com/cblop
 twitter: https://twitter.com/_mthom
 website: http://mthompson.org/
 ---
+
+This grantee profile features Matt Thompson for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved.
+
+<!-- more -->
 
 My name is Matt Thompson, I am from Bristol, UK, and work as a lecturer in Creative Computing at Bath Spa University. I have been involved in the Clojure community for a while, running the [Bristol Clojurians group](https://bristolclojurians.github.io) since 2014. I was involved in the [DM4T project](http://www.cs.bath.ac.uk/dm4t/) during my postdoc at Bath University, where we used Frictionless Data software to create metadata for large datasets recording domestic energy usage.
 

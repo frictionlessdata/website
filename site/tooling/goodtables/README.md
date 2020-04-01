@@ -1,6 +1,7 @@
 ---
 title: GoodTables
 tagline: A simple yet powerful tool to ensure the quality of tabular data, in Python and on the command line.
+description: A simple yet powerful tool to ensure the quality of tabular data, in Python and on the command line.
 hexagon: 
 github: goodtables-py, goodtables.io, goodtables-ui, goodtables-js
 layout: product

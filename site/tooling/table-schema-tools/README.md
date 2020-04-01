@@ -1,6 +1,7 @@
 ---
 title: Table Schema Tools
 tagline: A simple and intuitive way to declare a schema for your tabular data that works with your existing tools.
+description: A simple and intuitive way to declare a schema for your tabular data that works with your existing tools.
 hexagon: 
 github: tableschema-js, tableschema-py, tableschema-sql-py, tableschema-go, tableschema-pandas-py, tableschema-rb, tableschema-java, tableschema-php, TableSchema.jl, tableschema-r, tableschema-bigquery-py, tableschema-clj, tableschema-elasticsearch-py, tableschema-ui, tableschema-spss-py, tableschema-ckan-datastore-py
 layout: product
@@ -52,7 +53,7 @@ One of the possible uses of Table Schema is to do type checking in a dataset. In
 
 **users.csv**
 
-```csv
+```bash
 Name,Email,Age
 Jill,jill@example.com,25
 Jack,jack@example.com,33.5

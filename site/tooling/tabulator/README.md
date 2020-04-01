@@ -1,6 +1,7 @@
 ---
 title: Tabulator
 tagline: A consistent interface for reading and writing streams of tabular data, in Python and on the command line.
+description: A consistent interface for reading and writing streams of tabular data, in Python and on the command line.
 hexagon: 
 github: tabulator-py
 layout: product

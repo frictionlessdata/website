@@ -4,12 +4,12 @@ date: 2019-07-02
 tags:
 category: grantee-profiles-2019
 image: /img/blog/stephanmax.jpg
-description: Tool Fund Grantee - Stephan Max
+# description: Tool Fund Grantee - Stephan Max
 ---
 
-# Stephan Max
+This grantee profile features Stephan Max for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved.
 
-_This grantee profile features Stephan Max for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved._
+<!-- more -->
 
 ### Meet Stephan Max
 

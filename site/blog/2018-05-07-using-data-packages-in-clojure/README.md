@@ -2,6 +2,7 @@
 title: Using Data Packages in Clojure
 date: 2018-05-07
 tags: ["Clojure"]
+description: A guide on how to use datapackage with Clojure
 category: working-with-data-packages
 ---
 

@@ -5,8 +5,9 @@ tags:
 category: publishing-data
 ---
 
-
 This guide explores the options available to represent point location data in a CSV file within a Data Package.
+
+<!-- more -->
 
 First, some key concepts:
 

@@ -1,6 +1,7 @@
 ---
 title: Data Package Tools
 tagline: A simple and intuitive way to define and ship metadata with your data that works with your existing tools.
+description: A simple and intuitive way to define and ship metadata with your data that works with your existing tools.
 image: /data-package-diagram.png
 hexagon: Data Audit, Data API
 github: datapackage-py, datapackage-js, datapackage-ui, datapackage-php, datapackage-r, datapackage-rb, datapackage-java, DataPackage.jl, datapackage-go, datapackage-clj
@@ -36,7 +37,7 @@ Let's create Data Package to support multiple formats of user tables with the sa
 
 **australia_users.csv**
 
-```csv
+```bash
 Name,Email,Age
 Jill,jill@example.com,25
 Jack,jack@example.com,33

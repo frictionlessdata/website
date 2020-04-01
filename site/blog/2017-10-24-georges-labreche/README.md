@@ -4,11 +4,15 @@ date: 2017-10-24
 tags:
 category: grantee-profiles
 image: /img/blog/georges-labreche-image.png
-description: Tool Fund Grantee - Java
+# description: Tool Fund Grantee - Java
 github: https://github.com/georgeslabreche
 twitter: https://twitter.com/georgeslabreche
 website: https://linkedin.com/in/georgeslabreche
 ---
+
+This grantee profile features Matt Thompson for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved.
+
+<!-- more -->
 
 I arrived in Kosovo from New York back in 2014 in order to conduct field research for my Masters thesis in International Affairs: I was studying the distinct phenomenon of Digital State-Building, i.e. the use of online digital technologies to promote statehood. I didn’t pack much on my trip here but did bring along a lot of entrepreneurial drive to start a digital agency with strong elements of corporate social responsibility and tech community building. Initially, I had hoped to leverage my background as a Software Engineer to build a small service-oriented startup, but in light of Kosovo’s ongoing state-building processes and push for good governance and anti-corruption, I saw the opportunity to establish a civic-tech NGO, [Open Data Kosovo](https://opendatakosovo.org) (ODK), as a means of getting local techies to play an active part in state-building by applying their digital skills towards contributing to increasing government transparency and accountability.
 

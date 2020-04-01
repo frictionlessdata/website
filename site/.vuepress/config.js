@@ -25,6 +25,7 @@ module.exports = {
     repoLabel: "GitHub",
     docsRepo: "https://github.com/frictionlessdata/website-v2",
     docsDir: "site",
+    lastUpdated: 'Last Updated',
     // defaults to false, set to true to enable
     editLinks: true,
     smoothScroll: true,

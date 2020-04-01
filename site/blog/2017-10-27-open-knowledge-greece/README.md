@@ -4,11 +4,15 @@ date: 2017-10-27
 tags:
 category: grantee-profiles
 image: /img/blog/open-knowledge-greece-logo.png
-description: Tool Fund Grantee - R
+# description: Tool Fund Grantee - R
 github: https://github.com/okgreece
 twitter: https://twitter.com/okfngr
 website: http://okfn.gr/
 ---
+
+This grantee profile features Open Knowledge Greece for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved.
+
+<!-- more -->
 
 [Open Knowledge Greece](http://okfn.gr/), formally appointed as the Greek Chapter of Open Knowledge International, was established in 2012 by a group of academics, developers, citizens, hackers and State representatives. We are supported by a national network of volunteers, most of whom are experienced professionals in the fields of Computer Science, Mathematics, Medicine, Journalism,  Agriculture etc.
 Our team consists of community members who are interested in open data, linked data technologies, coding, data journalism, and who do their best in applying scientific results into community activities.

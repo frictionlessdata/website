@@ -2,6 +2,7 @@
 title: Joining Data
 date: 2018-04-06
 tags: ["Python"]
+description: A guide on how to join datapackage with Python
 category: working-with-data-packages
 ---
 

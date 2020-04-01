@@ -4,10 +4,12 @@ date: 2019-07-03
 tags:
 category: grantee-profiles-2019
 image: /img/blog/carlos.jpg
-description: Tool Fund Grantee - NES
+# description: Tool Fund Grantee - NES
 ---
 
-_This grantee profile features Carlos Eduardo Ribas and João Alexandre Peschanski from the Neuroscience Experiments System (NES) for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved._
+This grantee profile features Carlos Eduardo Ribas and João Alexandre Peschanski from the Neuroscience Experiments System (NES) for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved.
+
+<!-- more -->
 
 ## Meet Carlos, João, and RIDC NeuroMat
 
