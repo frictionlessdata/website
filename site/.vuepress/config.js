@@ -29,6 +29,19 @@ module.exports = {
     // defaults to false, set to true to enable
     editLinks: true,
     smoothScroll: true,
+    footer_col1_title: "About",
+    footer_col1_row1: "About",
+    footer_col1_row2: "Contact",
+    footer_col1_row3: "Privacy Policy",
+    footer_col1_row4: "Terms of Use",
+    footer_col2_title: "Help",
+    footer_col2_row1: "Support",
+    footer_col2_row2: "Get started",
+    footer_col2_row3: "Community",
+    footer_col3_title: "Social",
+    footer_col3_row1: "GitHub",
+    footer_col3_row2: "Twitter",
+    footer_col3_row3: "Gitter",
     sidebar: 'auto',
     nav: [
       {
