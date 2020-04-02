@@ -16,40 +16,40 @@
     </div>
     <div class="w-full xs:w-1/2 sm:w-1/4 lg:w-1/6">
       <div class="my-20 px-6 xl:px-8 xxl:px-10">
-        <h2 class="text-lg text-white font-normal">About</h2>
-        <div class="pt-6"><a href="/about/" class="text-white font-light text-base">About</a></div>
-        <div class="pt-6"><a href="/team/" class="text-white font-light text-base">Contact</a></div>
-        <div class="pt-6"><a href="https://okfn.org/privacy-policy/" class="text-white font-light text-base">Privacy Policy</a></div>
-        <div class="pt-6"><a href="https://okfn.org/terms-of-use/" class="text-white font-light text-base">Terms of Use</a></div>
+        <h2 class="text-lg text-white font-normal">{{ $site.themeConfig.footer_col1_title }}</h2>
+        <div class="pt-6"><a href="/about/" class="text-white font-light text-base">{{ $site.themeConfig.footer_col1_row1 }}</a></div>
+        <div class="pt-6"><a href="/team/" class="text-white font-light text-base">{{ $site.themeConfig.footer_col1_row2 }}</a></div>
+        <div class="pt-6"><a href="https://okfn.org/privacy-policy/" class="text-white font-light text-base">{{ $site.themeConfig.footer_col1_row3 }}</a></div>
+        <div class="pt-6"><a href="https://okfn.org/terms-of-use/" class="text-white font-light text-base">{{ $site.themeConfig.footer_col1_row4 }}</a></div>
       </div>
     </div>
     <div class="w-0 sm:w-1/2 lg:w-0"></div>
     <div class="w-full xs:w-1/2 sm:w-1/4 lg:w-1/6">
       <div class="my-20 px-6 xl:px-8 xxl:px-10">
-        <h2 class="text-lg text-white font-normal">Help</h2>
-        <div class="pt-6"><a href="/contribute/" class="text-white font-light text-base">Support</a></div>
-        <div class="pt-6"><a href="/guide/" class="text-white font-light text-base">Get started</a></div>
-        <div class="pt-6"><a href="/team/" class="text-white font-light text-base">Community</a></div>
+        <h2 class="text-lg text-white font-normal">{{ $site.themeConfig.footer_col2_title }}</h2>
+        <div class="pt-6"><a href="/contribute/" class="text-white font-light text-base">{{ $site.themeConfig.footer_col2_row1 }}</a></div>
+        <div class="pt-6"><a href="/guide/" class="text-white font-light text-base">{{ $site.themeConfig.footer_col2_row2 }}</a></div>
+        <div class="pt-6"><a href="/team/" class="text-white font-light text-base">{{ $site.themeConfig.footer_col2_row3 }}</a></div>
         <!-- <div class="pt-6"><a href="/documentation/" class="text-white font-light text-lg">Documentation</a></div> -->
       </div>
     </div>
     <div class="w-full xs:w-1/2 sm:w-1/4 lg:w-1/6">
       <div class="my-20 px-6 xl:px-8 xxl:px-10">
-        <h2 class="text-xl text-white font-normal">Social</h2>
+        <h2 class="text-xl text-white font-normal">{{ $site.themeConfig.footer_col3_title }}</h2>
         <div class="pt-4 flex flex-row">
           <a href="https://github.com/frictionlessdata/" class="text-white pt-2 font-light text-base">
           <img class="w-8 pr-2 align-middle" src="/img/home/github.svg" />
-          GitHub</a>
+          {{ $site.themeConfig.footer_col3_row1 }}</a>
         </div>  
         <div class="pt-6 flex flex-row">
           <a href="https://twitter.com/hashtag/frictionlessdata" class="text-white pt-2 inline font-light text-base">
           <img class="w-8 pr-2 align-middle" src="/img/home/twitter.svg" />
-          Twitter</a>
+          {{ $site.themeConfig.footer_col3_row2 }}</a>
         </div>
         <div class="pt-6 pr-10 flex flex-row">
           <a href="https://gitter.im/frictionlessdata/chat" class="text-white pt-2 font-light text-base">
           <img class="w-8 pr-2 align-middle" src="/img/home/gitter.svg"></img>
-          Gitter</a>
+          {{ $site.themeConfig.footer_col3_row3 }}</a>
         </div>
       </div>
     </div>
