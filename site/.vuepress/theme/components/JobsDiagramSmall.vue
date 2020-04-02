@@ -87,7 +87,7 @@ class Diagram {
             size: fontSize,
             anchor: "middle",
             leading: 1.4,
-            fill: "#1A98FF"
+            fill: "#EA6D4C"
           })
           .translate(centerPosition.x, yPosition);
       },
@@ -107,7 +107,7 @@ class Diagram {
         }
         this.draw
           .stop(true, true)
-          .fill({ opacity: 0.2, color: "#6a8bad" })
+          .fill({ opacity: 0.2, color: "#EA6D4C" })
           .animate(1000)
           .fill({ opacity: 0, color: "none" });
       }
