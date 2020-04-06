@@ -76,27 +76,27 @@ module.exports = {
           { text: "Data Package", link: "https://specs.frictionlessdata.io/data-package/" },
         ]
       },
-      {
-        text: "Jobs to be done",
-        items: [
-          { text: "Create Visualizations", link: "/jobs/create-visualizations/" },
-          { text: "Do Analysis and Machine Learning", link: "/jobs/do-analysis-and-machine-learning/" },
-          { text: "Do Initial Data Exploration", link: "/jobs/do-initial-data-exploration/" },
-          { text: "Document Dataset", link: "/jobs/document-dataset/" },
-          { text: "Find Datasets", link: "/jobs/find-datasets/" },
-          { text: "Gracefully Scale Scope", link: "/jobs/gracefully-scale-scope/" },
-          { text: "Gracefully Scale Size", link: "/jobs/gracefully-scale-size/" },
-          { text: "Have a Data Hub", link: "/jobs/have-a-data-hub/" },
-          { text: "Orchestrate Data Platform", link: "/jobs/orchestrate-data-platform/" },
-          { text: "Pipeline transformations", link: "/jobs/pipeline-transformations/" },
-          { text: "Pull Dataset", link: "/jobs/pull-dataset/" },
-          { text: "Push Dataset", link: "/jobs/push-dataset/" },
-          { text: "Quickly edit dataset", link: "/jobs/quickly-edit-dataset/" },
-          { text: "Store Dataset", link: "/jobs/store-dataset/" },
-          { text: "Validate Dataset", link: "/jobs/validate-dataset/" },
-          { text: "Version dataset", link: "/jobs/version-dataset/" }
-        ]
-      },
+      // {
+      //   text: "Jobs to be done",
+      //   items: [
+      //     { text: "Create Visualizations", link: "/jobs/create-visualizations/" },
+      //     { text: "Do Analysis and Machine Learning", link: "/jobs/do-analysis-and-machine-learning/" },
+      //     { text: "Do Initial Data Exploration", link: "/jobs/do-initial-data-exploration/" },
+      //     { text: "Document Dataset", link: "/jobs/document-dataset/" },
+      //     { text: "Find Datasets", link: "/jobs/find-datasets/" },
+      //     { text: "Gracefully Scale Scope", link: "/jobs/gracefully-scale-scope/" },
+      //     { text: "Gracefully Scale Size", link: "/jobs/gracefully-scale-size/" },
+      //     { text: "Have a Data Hub", link: "/jobs/have-a-data-hub/" },
+      //     { text: "Orchestrate Data Platform", link: "/jobs/orchestrate-data-platform/" },
+      //     { text: "Pipeline transformations", link: "/jobs/pipeline-transformations/" },
+      //     { text: "Pull Dataset", link: "/jobs/pull-dataset/" },
+      //     { text: "Push Dataset", link: "/jobs/push-dataset/" },
+      //     { text: "Quickly edit dataset", link: "/jobs/quickly-edit-dataset/" },
+      //     { text: "Store Dataset", link: "/jobs/store-dataset/" },
+      //     { text: "Validate Dataset", link: "/jobs/validate-dataset/" },
+      //     { text: "Version dataset", link: "/jobs/version-dataset/" }
+      //   ]
+      // },
       {
         text: "Help",
         ariaLabel: "Help Menu",
@@ -159,13 +159,7 @@ module.exports = {
       clientSecret: '3d92b9b0e4a92f89435a71a46f14510132710194',
     }],
     ["@vuepress/back-to-top"], 
-    [
-      "@limdongjin/vuepress-plugin-simple-seo", {
-        default_image: './public/img/frictionless-color-logo.png',
-        root_url: 'https://frictionlessdata.io',
-        default_site_name: 'Frictionless Data'
-      }
-    ]
+    ["@limdongjin/vuepress-plugin-simple-seo"]
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],
