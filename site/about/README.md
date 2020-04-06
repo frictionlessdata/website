@@ -2,7 +2,7 @@
 
 ## Why we're here
 
-Data integration is essential –- but currently painful and confusing. We want to to bring simplicity and gracefulness to the messy world of data.
+Data integration is essential –- but currently painful and confusing. We want to bring simplicity and gracefulness to the messy world of data.
 
 We want building data pipelines is as easy as playing with LEGO. We want a frictionless data ecosystem built on the unix philosophy where data flows with simplicity and grace across diverse tools and teams, enabled by the specs and patterns we have shared. We want everyone working with data to have access to these core patterns and tools.
 
