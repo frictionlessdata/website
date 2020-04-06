@@ -1,13 +1,12 @@
 ---
 title: Packaging your Data
 date: 2018-07-16
-tags:
+tags: ["datapackage"]
 category: working-with-data-packages
 ---
 
-
 You can package any kind of data as a Data Package.
-
+<!-- more -->
 1. Get your data together
    1. Get your data together in one folder (you can have data in subfolders of that folder too if you wish).
 1. Add a `datapackage.json` file to package those data files into a useful whole (with key information like the license, title and format)

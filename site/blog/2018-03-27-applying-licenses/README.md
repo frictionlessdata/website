@@ -1,11 +1,11 @@
 ---
 title: Applying licenses, waivers or public domain marks
 date: 2018-03-27
-tags:
+tags: ["licenses"]
+description: A guide on applying licenses, waivers or public domain marks to datapackages
 category: publishing-data
 ---
 
-frictionlessdata.io
 Applying licenses, waivers or public domain marks to [data packages](https://specs.frictionlessdata.io/data-package/) and [data resources](https://specs.frictionlessdata.io/data-resource/) helps people understand how they can use, modify and share the contents of a data package.
 
 It is recommended to that you apply a license, waiver or public domain mark to a data package using the [`licenses`](https://specs.frictionlessdata.io/data-package/#licenses) property. The value assigned to the data package `licenses` property applies to all the data, files and metadata in the data package unless specified otherwise.

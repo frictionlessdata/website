@@ -2,6 +2,7 @@
 title: Publish Tabular Data as a Data Package
 date: 2016-07-21
 tags:
+description: A guide on how to publish tabular datapackages
 category: publishing-data
 ---
 

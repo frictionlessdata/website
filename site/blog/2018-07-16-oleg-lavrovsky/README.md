@@ -4,11 +4,15 @@ date: 2018-07-16
 tags:
 category: grantee-profiles
 image: /img/blog/oleg-lavrovsky-image.jpg
-description: Tool Fund Grantee - Julia
+# description: Tool Fund Grantee - Julia
 github: http://github.com/loleg
 twitter: http://twitter.com/loleg
 website: http://datalets.ch
 ---
+
+_This grantee profile features Oleg Lavrovsky for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved._
+
+<!-- more -->
 
 We are digital natives, dazzled by the boundless information and cultural resources of electronic networks, tuned in to a life on - and offline, dimly aware of all kinds of borders being rewritten. I was born in the Soviet Union and grew up in Canada, immersed in the wonders of creative code on Apple II and DOS-era personal computers, doing fun things in programming environments from [BASIC](https://www.scullinsteel.com/apple2/) to C++/C#/.NET (hey [@ooswald](https://github.com/ooswald)!) to Perl (hey [@virtualsue](https://github.com/virtualsue)!) to Java (hey [@timcolson](https://github.com/timcolson)!) to JavaScript (hey [@jermolene](https://github.com/jermolene)!) to Python (hey [@gasman](https://github.com/gasman)!), all of which find some use in the freelance work I now do based in my adoptive home of Switzerland - a country of [plurality](https://en.wikipedia.org/wiki/Swiss_people).
 

@@ -1,13 +1,13 @@
 ---
 title: CSV - Comma Separated Values
 date: 2018-07-09
-tags:
+tags: ["csv"]
 category: general
 ---
 
-
 This page provides an overview CSV (Comma Separated Values) format for data.
 
+<!-- more -->
 CSV is a very old, very simple and very common "standard" for (tabular) data.
 We say "standard" in quotes because there was never a formal standard for CSV,
 though in 2005 someone did put together a [RFC][rfc] for it.

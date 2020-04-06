@@ -6,6 +6,8 @@ tags:
 
 This post provides you with a template for writing Frictionless Data tutorials. Specifically, tutorials of the form: **How to do X thing using Y Frictionless Data tool**.
 
+<!-- more -->
+
 ## Introduction
 
 You want to start introducting what you are doing e.g.

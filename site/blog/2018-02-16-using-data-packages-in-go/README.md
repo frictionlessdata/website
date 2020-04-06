@@ -2,6 +2,7 @@
 title: Using Data Packages in Go
 date: 2018-02-16
 tags: ["Go"]
+description: A guide on how to use datapackage with Go
 category: working-with-data-packages
 ---
 

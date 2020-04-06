@@ -3,6 +3,7 @@ title: Publish Data as Data Packages - Overview
 date: 2016-08-30
 tags:
 category: publishing-data
+description: A guide on how to publish datapackages
 ---
 
 You can publish **any kind of data** as a Data Package.

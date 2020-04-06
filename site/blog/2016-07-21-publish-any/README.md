@@ -2,6 +2,7 @@
 title: Publish Any Kind of Data as a Data Package
 date: 2016-07-21
 tags:
+description: A guide on how to publish any kind of data as datapackages
 category: publishing-data
 ---
 

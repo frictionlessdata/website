@@ -1,6 +1,7 @@
 ---
 title: Frictionless Data Labs
 tagline: Tooling and approaches to data that are in varied stages of maturity.
+description: Tooling and approaches to data that are in varied stages of maturity.
 hexagon: 
 github: data-quality-cli
 layout: product

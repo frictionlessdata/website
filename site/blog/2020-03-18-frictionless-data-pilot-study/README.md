@@ -6,7 +6,7 @@ category: frictionless-data
 image: /img/blog/SimpleSquareWalking.png
 ---
 
-_This blog post describes a Frictionless Data Pilot with the Public Utility Data Liberation project. Pilot projects are part of the [Frictionless Data for Reproducible Research project](https://frictionlessdata.io/reproducible-research/). Written by Zane Selvans, Christina Gosnell, and Lilly Winfree._
+This blog post describes a Frictionless Data Pilot with the Public Utility Data Liberation project. Pilot projects are part of the [Frictionless Data for Reproducible Research project](https://frictionlessdata.io/reproducible-research/). Written by Zane Selvans, Christina Gosnell, and Lilly Winfree.
 
 <!-- more -->
 

@@ -6,11 +6,11 @@ category: grantee-profiles-2019
 image: /img/blog/fdwc.png
 ---
 
-**This blog is part of a series showcasing projects developed during the 2019 Frictionless Data Tool Fund.**
+This blog is part of a series showcasing projects developed during the 2019 Frictionless Data Tool Fund.
 
 <!-- more -->
 
-**Originally published [https://blog.okfn.org/2019/12/09/andre-heughebaert-frictionless-darwincore/](https://blog.okfn.org/2019/12/09/andre-heughebaert-frictionless-darwincore/)**
+Originally published [https://blog.okfn.org/2019/12/09/andre-heughebaert-frictionless-darwincore/](https://blog.okfn.org/2019/12/09/andre-heughebaert-frictionless-darwincore/)
 
 *The 2019 Frictionless Data Tool Fund provided four mini-grants of $5,000 to support individuals or organisations in developing an open tool for reproducible research built using the Frictionless Data specifications and software. This fund is part of the Frictionless Data for Reproducible Research project, which is funded by the Sloan Foundation. This project applies our work in Frictionless Data to data-driven research disciplines, in order to facilitate reproducible data workflows in research contexts.*
 

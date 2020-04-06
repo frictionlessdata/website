@@ -2,6 +2,7 @@
 title: Publishing Geospatial Data as a Data Package
 date: 2016-04-30
 tags:
+description: A guide on how to publish geospatial data as datapackages
 category: publishing-data
 ---
     

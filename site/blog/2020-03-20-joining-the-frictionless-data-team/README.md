@@ -8,8 +8,6 @@ description: Introducing a new team member - Gift Egwuenu
 author: Gift Egwuenu
 ---
 
-# Joining the Frictionless Data Team
-
 Hi there, My name is [Gift Egwuenu][gift] and I'm super excited to share I joined [Datopian](https://datopian.com/) as a Frontend Developer and Developer Evangelist! 🎉
 
 <!-- more -->

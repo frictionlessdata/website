@@ -21,11 +21,11 @@ module.exports = {
   },
   themeConfig: {
     logo: "/img/frictionless-color-full-logo.svg",
-    // don't want navbar item for this atm
-    // repo: "https://github.com/frictionlessdata",
-    // repoLabel: "GitHub",
+    repo: "https://github.com/frictionlessdata",
+    repoLabel: "GitHub",
     docsRepo: "https://github.com/frictionlessdata/website-v2",
     docsDir: "site",
+    lastUpdated: 'Last Updated',
     // defaults to false, set to true to enable
     editLinks: true,
     smoothScroll: true,
@@ -76,15 +76,6 @@ module.exports = {
           { text: "Data Package", link: "https://specs.frictionlessdata.io/data-package/" },
         ]
       },
-      {
-        text: "Help",
-        ariaLabel: "Help Menu",
-        items: [
-          { text: "Chat", link: "https://gitter.im/frictionlessdata/chat" },
-          { text: "Forum", link: "https://github.com/frictionlessdata/forum/issues" },
-          { text: "Support", link: "/support/" },
-        ]
-      },
       // {
       //   text: "Jobs to be done",
       //   items: [
@@ -106,6 +97,15 @@ module.exports = {
       //     { text: "Version dataset", link: "/jobs/version-dataset/" }
       //   ]
       // },
+      {
+        text: "Help",
+        ariaLabel: "Help Menu",
+        items: [
+          { text: "Community", link: "https://gitter.im/frictionlessdata/chat" },
+          { text: "Forum", link: "https://github.com/frictionlessdata/forum/issues" },
+          { text: "Support", link: "/support/" },
+        ]
+      },
       { text: "Contribute", link: "/contribute/" },
       { text: "Team", link: "/team/" },
       { text: "About", link: "/about/" },
@@ -149,7 +149,17 @@ module.exports = {
         '**/static.html',
       ],
     }
-  ]
+  ],
+  [
+    "@vssue/vuepress-plugin-vssue", {
+      platform: 'github',
+      owner: 'frictionlessdata',
+      repo: 'website-v2',
+      clientId: '60857077e0f7b1a0e54f',
+      clientSecret: '3d92b9b0e4a92f89435a71a46f14510132710194',
+    }],
+    ["@vuepress/back-to-top"], 
+    ["@limdongjin/vuepress-plugin-simple-seo"]
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],

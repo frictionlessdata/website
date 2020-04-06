@@ -2,6 +2,7 @@
 title: Using Data Packages in Python
 date: 2016-08-29
 tags: ["Python"]
+description: A guide on how to use datapackages with Python
 category: working-with-data-packages
 ---
 

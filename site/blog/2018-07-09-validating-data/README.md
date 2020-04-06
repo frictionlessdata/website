@@ -1,6 +1,6 @@
 ---
 title: Validating Data
-date: 2016-06-24
+date: 2018-07-09
 tags:
 category: validating-data
 ---

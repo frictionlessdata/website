@@ -7,7 +7,6 @@ image: /img/blog/auto-validate.png
 description: Automatic validation means you'll be the first to know if a change in your data causes a problem. Learn how to incorporate automatic validation into your workflow.
 ---
 
-
 One-off validation of your tabular datasets can be hectic, especially where plenty of published data is maintained and updated fairly regularly.
 
 Running continuous checks on data provides regular feedback and contributes to better data quality as errors can be flagged and fixed early on. This section introduces you to tools that continually check your data for errors and flag content and structural issues as they arise. By eliminating the need to run manual checks on tabular datasets every time they are updated, they make your data workflow more efficient.

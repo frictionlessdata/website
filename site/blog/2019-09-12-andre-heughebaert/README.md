@@ -4,12 +4,11 @@ date: 2019-09-12
 tags:
 category: grantee-profiles-2019
 image: /img/blog/andre.png
-description: Tool Fund Grantee - Andre Heughebaert
 ---
 
-# André Heughebaert
+This grantee profile features André Heughebaert for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved.
 
-_This grantee profile features André Heughebaert for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved._
+<!-- more -->
 
 ### Meet André Heughebaert
 

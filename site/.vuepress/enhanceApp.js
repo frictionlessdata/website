@@ -292,4 +292,3 @@ const redirectList= [
 export default ({ router }) => {
   router.addRoutes(redirectList)
 }
-
