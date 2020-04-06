@@ -155,8 +155,8 @@ module.exports = {
       platform: 'github',
       owner: 'frictionlessdata',
       repo: 'website-v2',
-      clientId: '60857077e0f7b1a0e54f',
-      clientSecret: '3d92b9b0e4a92f89435a71a46f14510132710194',
+      clientId: 'd043d31f3613a34df29f',
+      clientSecret: 'b7477b1561981dc5bd0a710ec6df5900c7bee72a',
     }],
     ["@vuepress/back-to-top"], 
     ["@limdongjin/vuepress-plugin-simple-seo"]
