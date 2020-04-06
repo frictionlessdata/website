@@ -8,7 +8,7 @@
         <TagLinks class="pt-4 text-blue-500 pb-6"/>
       </header>
       <Content />
-      <Vssue title="$page.frontmatter.title" />
+      <Vssue :title="$page.frontmatter.title" />
       <footer>
         <a href="/blog/"> < Go back</a>
       </footer>

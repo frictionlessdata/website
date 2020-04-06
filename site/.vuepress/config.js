@@ -157,6 +157,7 @@ module.exports = {
       repo: 'website-v2',
       clientId: 'd043d31f3613a34df29f',
       clientSecret: 'b7477b1561981dc5bd0a710ec6df5900c7bee72a',
+      autoCreateIssue: true
     }],
     ["@vuepress/back-to-top"], 
     ["@limdongjin/vuepress-plugin-simple-seo"]
