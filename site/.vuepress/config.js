@@ -1,3 +1,6 @@
+require('dotenv').config()
+const webpack = require('webpack')
+
 module.exports = {
   title: "Frictionless Data",
   description: "Bringing simplicity and gracefulness to the data experience",
@@ -6,6 +9,12 @@ module.exports = {
       require("tailwindcss")("./tailwind.config.js"),
       require("autoprefixer")
     ]
+  },
+  configureWebpack: (config) => {
+    return { plugins: [
+      new webpack.EnvironmentPlugin({ ...process.env })
+    ]
+    }
   },
   markdown: {
     linkify: true,
@@ -155,8 +164,8 @@ module.exports = {
       platform: 'github',
       owner: 'frictionlessdata',
       repo: 'website-v2',
-      clientId: 'd043d31f3613a34df29f',
-      clientSecret: 'b7477b1561981dc5bd0a710ec6df5900c7bee72a',
+      clientId: process.env.CLIENT_ID,
+      clientSecret: process.env.CLIENT_SECRET,
       autoCreateIssue: true
     }],
     ["@vuepress/back-to-top"], 
