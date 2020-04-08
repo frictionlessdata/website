@@ -28,7 +28,7 @@ At the same time, Frictionless Data is also perfectly capable of powering sophis
 
 If you’d like to learn more about Frictionless before diving in, we created a video walking through the core principles.
 
-<!-- TODO: insert video -->
+<iframe width="730" height="400" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!-- TODO: If you are an experienced data developer [engineer] and want to know how Frictionless compares to other libraries/frameworks, check out the Comparison with Other Frameworks and Tools. -->
 
@@ -107,41 +107,6 @@ And here's a **Table Schema** (in JSON) to describe that file. Note that a minim
 Copy and paste this into a file called `tableschema.json` in the same directory as your CSV file.
 
 Well done 👏 You have just created your very first Frictionless Data!
-
-<!--
-TODO: mention you can use Frictionless with other (non-tabular) types of data ...
-
-TODO: maybe a discussion of why this vs anything else ...
--->
-
-<!--
-### Validating Your Data
-
-? Validate example using runkit to do JS ... (also python examples)
-
-Have an example where it is invalid ...
-
-Point to GoodTables ...
-
-### Resources and Packages
-
--->
-
-<!--
-
-### Next ...
-
-TODO: what other things to do ... Here are some ideas 
-
-* pushing e.g. to DB
-* inference (of table schema and package)
-* displaying/presenting data
-* views (graphs etc)
-* flows (? - this is a whole section)
-* pulling e.g. from a spreadsheet
-* publishing
-
--->
 
 ### Validation
 
