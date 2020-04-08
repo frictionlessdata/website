@@ -159,17 +159,18 @@ module.exports = {
       ],
     }
   ],
-  [
-    "@vssue/vuepress-plugin-vssue", {
-      platform: 'github',
-      owner: 'frictionlessdata',
-      repo: 'website-v2',
-      clientId: process.env.CLIENT_ID,
-      clientSecret: process.env.CLIENT_SECRET,
-      autoCreateIssue: true
-    }],
-    ["@vuepress/back-to-top"], 
-    ["@limdongjin/vuepress-plugin-simple-seo"]
+  ["@vuepress/back-to-top"], 
+  ["@limdongjin/vuepress-plugin-simple-seo"],
+  // [ 
+  //   "@vssue/vuepress-plugin-vssue", {
+  //     platform: 'github',
+  //     owner: 'frictionlessdata',
+  //     repo: 'website',
+  //     clientId: process.env.CLIENT_ID,
+  //     clientSecret: process.env.CLIENT_SECRET,
+  //     autoCreateIssue: true
+  //   }
+  // ]
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],
