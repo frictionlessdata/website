@@ -53,7 +53,7 @@ This page is about X
 category: case-studies | grantee-profiles | pilots | grantee-profiles-2019
 date: # date of publication in yyyy-mm-dd format
 author:
-tags:
+tags: ["pilots", "case-studies"]
 ---
 ```
 

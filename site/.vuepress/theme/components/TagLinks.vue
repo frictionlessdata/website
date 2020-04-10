@@ -4,7 +4,7 @@
     <router-link class="pl-2"
       v-for="tag in $page.frontmatter.tags"
       :key="tag"
-      :to="{ path: `/tags.html#${tag}`}">
+      :to="{ path: `/tags/#${tag}`}">
       {{tag}}
     </router-link>
   </div>

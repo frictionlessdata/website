@@ -1,7 +1,7 @@
 ---
 title: Nimble Learn - Data Package Connector (datapackage-connector)
 date: 2019-07-22
-tags:
+tags: ["case-studies"]
 category: case-studies
 author: Michael Amadi
 interviewee: Michael Amadi

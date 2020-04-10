@@ -1,7 +1,7 @@
 ---
 title: The Data Retriever
 date: 2017-05-24
-tags:
+tags: ["case-studies"]
 category: case-studies
 interviewee: Ethan White
 subject_context: Data Retriever uses Frictionless Data specifications to generate and package metadata for publicly available data

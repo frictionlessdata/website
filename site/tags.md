@@ -1,3 +1,7 @@
+---
+permalink: /tags
+---
+
 # Tags
 
 <template lang="html">
@@ -5,15 +9,17 @@
     <span v-for="tag in Object.keys(tags)">
       <h2 :id="tag"> 
         <router-link
-          :to="{ path: `/tags.html#${tag}`}"
+          :to="{ path: `/tags/#${tag}`}"
           class="header-anchor"
-          aria-hidden="true">#</router-link>
+          aria-hidden="true">#
+        </router-link>
         {{tag}}
       </h2>
       <ul>
         <li v-for="page in tags[tag]">
           <router-link
-            :to="{ path: page.path}">{{page.title}}</router-link>
+            :to="{ path: page.path}">{{page.title}}
+          </router-link>
         </li>
       </ul>
     </span>
