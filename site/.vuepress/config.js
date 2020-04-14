@@ -125,6 +125,7 @@ module.exports = {
       },
       { text: "Contribute", link: "/contribute/" },
       { text: "Team", link: "/team/" },
+      { text: "Case Studies", link: "/tags/#case-studies" },
       { text: "About", link: "/about/" },
       { text: "Blog", link: "/blog/" }
     ]
@@ -150,6 +151,17 @@ module.exports = {
             itemPermalink: "/blog/:year/:month/:day/:slug",
             pagination: {
               lengthPerPage: 10
+            }
+          }
+        ],
+        frontmatters: [
+          {
+            id: "tag",
+            keys: ["tag", "tags"],
+            path: "/tag/",
+            frontmatter: { title: "Tag" },
+            pagination: {
+              lengthPerPage: 5
             }
           }
         ]

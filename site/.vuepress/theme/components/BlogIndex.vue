@@ -10,13 +10,7 @@
             </router-link>
             <div class="text-sm py-2"> {{ formatDate(page.frontmatter.date) }} by {{ page.frontmatter.author || page.frontmatter.authors || "Frictionless Data" }} </div>
               <div v-if="page.frontmatter.tags" class="container flex flex-row">
-                <TagLinks/>
-                <router-link class="pl-2 inline font-normal"
-                v-for="tag in page.frontmatter.tags"
-                :key="tag"
-                :to="{ path: `/tags/#${tag}`}">
-                {{tag}}
-              </router-link> 
+              <BlogTag :tags="page.frontmatter.tags" />
             </div>
             <p class="text-base mr-12" v-if="page.frontmatter.description"> {{ page.frontmatter.description }} </p>
             <p class="text-base mr-12" v-else-if="!page.frontmatter.description" v-html="page.excerpt"></p>
@@ -42,11 +36,11 @@
 
 <script>
 import { formatDate } from '../util'
-import TagLinks from './TagLinks'
+import BlogTag from './BlogTag'
 
 export default {
   components: { 
-    TagLinks
+    BlogTag
   },
   methods: {
     formatDate
