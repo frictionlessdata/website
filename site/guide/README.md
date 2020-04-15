@@ -24,7 +24,7 @@ The core of the framework is a suite of ultra-simple patterns to describe and or
 [These patterns are language and platform agnostic so you can use and integrate them with your favorite language, tool or platform. We also have a rich set of libraries and tooling to help you do that e.g. bindings in Python, R, Ruby, Go, Swift ...]
 -->
 
-At the same time, Frictionless Data is also perfectly capable of powering sophisticated data workflows when used in combination with modern tooling and supporting libraries. This is possible because the framework follows an "atomic" data"[^atomic] -- you can take a minimalistic approach for simple solutions or combine elements for more complex solutions.
+At the same time, Frictionless Data is also perfectly capable of powering sophisticated data workflows when used in combination with modern tooling and supporting libraries. This is possible because the framework follows an "atomic" data[^atomic] -- you can take a minimalistic approach for simple solutions or combine elements for more complex solutions.
 
 If you’d like to learn more about Frictionless before diving in, we created a video walking through the core principles.
 
@@ -32,12 +32,12 @@ If you’d like to learn more about Frictionless before diving in, we created a 
 
 <!-- TODO: If you are an experienced data developer [engineer] and want to know how Frictionless compares to other libraries/frameworks, check out the Comparison with Other Frameworks and Tools. -->
 
-[^atomic]: We have borrowed the concept of Atomic Data from the web design field. For us, it means tools or specs are a) broken down into their minimum viable components, and b) these components are combinable into larger and more complex components and systems. The Atomic approach is what underpins the incremental adoptability and the ability to scale from the simplest situation to highly complex data engineering.
+[^atomic]: We have borrowed the concept of Atomic Data from the web design field. For us, it means tools or specs are **a)** broken down into their minimum viable components, and **b)** these components are combinable into larger and more complex components and systems. The Atomic approach is what underpins the incremental adoptability and the ability to scale from the simplest situation to highly complex data engineering.
 
 ### Getting Started
 
 :::warning INFO
-The official guide assumes some basic knowledge about data. If you are new to working with data -- for example, you haven't heard of CSV or JSON or have never used a spreadsheet, it might not be the best idea to jump right into a framework as your first step - grasp the basics, then come back! A good starting point would be the first module, "What is Data?", at [School of Data][scoda].
+The official guide assumes some basic knowledge about data. If you are new to working with data -- for example, you haven't heard of CSV or JSON or have never used a spreadsheet, it might not be the best idea to jump right into a framework as your first step -- grasp the basics, then come back! A good starting point would be the first module, "What is Data?", at [School of Data][scoda].
 :::
 
 [scoda]: https://schoolofdata.org/
@@ -106,7 +106,7 @@ And here's a **Table Schema** (in JSON) to describe that file. Note that a minim
 
 Copy and paste this into a file called `tableschema.json` in the same directory as your CSV file.
 
-Well done 👏 You have just created your very first Frictionless Data!
+Well done! 👏 You have just created your very first Frictionless Data!
 
 ### Validation
 
@@ -210,6 +210,8 @@ npm install goodtables
 After installing the package, let's create an example. Create an `index.js` file and add the following:
 
 ```javascript
+const goodtables = require('goodtables');
+
 async function validate () {
 //  Validate a CSV File
 const source = 'helloworld.csv'
@@ -306,7 +308,7 @@ Let's run an example using Python:
 ```python
 import tabulator
 
-with tabulator.Stream('hello.csv', headers=1) as stream:
+with tabulator.Stream('helloworld.csv', headers=1) as stream:
     stream.headers # [header1, header2, ..]
     for row in stream:
         print(row)  # [value1, value2, ..]
@@ -324,3 +326,4 @@ id, name
 [Tabulator]:https://github.com/frictionlessdata/tabulator-py
 
 Awesome! Let's dive deeper and learn about Data Resource.
+
