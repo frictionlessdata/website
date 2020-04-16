@@ -1,5 +1,5 @@
 ---
-title: Team
+title: "Team"
 ---
 
 # Team
@@ -331,6 +331,25 @@ toolFundPartners = toolFundPartners.concat([
 		]
 	}
 ])
+
+
+toolFundPartners = toolFundPartners.concat([
+	{
+		name: 'Open Knowledge Greece',
+		title: 'Tool Fund Grantee - R',
+		city: 'Thessaloniki, Greece',
+		languages: ['en', gr'],
+		twitter: 'okfngr',
+		github: 'okgreece',
+		work: {
+			role: 'Tool Fund 2017 Grantee'
+		},
+		reposOfficial: [
+			'frictionlessdata/datapackage-r', 'frictionlessdata/tableschema-r'
+		]
+	}
+])
+
 
 var fellows = [
 	{
