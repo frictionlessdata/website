@@ -339,12 +339,13 @@ toolFundPartners = toolFundPartners.concat([
 		title: 'Tool Fund Grantee - R',
 		city: 'Thessaloniki, Greece',
 		languages: ['en', gr'],
+		twitter: 'okfngr',
 		github: 'okgreece',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
 		},
 		reposOfficial: [
-			'okgreece/datapackage-r', 'okgreece/tableschema-r'
+			'frictionlessdata/datapackage-r', 'frictionlessdata/tableschema-r'
 		]
 	}
 ])
