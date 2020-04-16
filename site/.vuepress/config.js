@@ -4,6 +4,14 @@ const webpack = require('webpack')
 module.exports = {
   title: "Frictionless Data",
   description: "Bringing simplicity and gracefulness to the data experience",
+  head: [
+    ['link', { rel: "icon", href: "./public/img/favicon.ico"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "./public/img/favicon-32x32.png"}],
+    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "./public/img/favicon-16x16.png"}],
+    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "./public/img/apple-touch-icon.png"}],
+    ['link', { rel: "mask-icon", color: "#000000", href: "./public/img/safari-pinned-tab.svg"}],
+    ['link', { rel: "manifest", href: "./public/img/site.webmanifest"}]
+  ],
   postcss: {
     plugins: [
       require("tailwindcss")("./tailwind.config.js"),
