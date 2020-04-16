@@ -338,7 +338,7 @@ toolFundPartners = toolFundPartners.concat([
 		name: 'Open Knowledge Greece',
 		title: 'Tool Fund Grantee - R',
 		city: 'Thessaloniki, Greece',
-		languages: ['en', gr'],
+		languages: ['en', 'gr'],
 		twitter: 'okfngr',
 		github: 'okgreece',
 		work: {
