@@ -4,6 +4,9 @@ const webpack = require('webpack')
 module.exports = {
   title: "Frictionless Data",
   description: "Bringing simplicity and gracefulness to the data experience",
+  head: [
+    ['link', { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" }],
+  ],
   postcss: {
     plugins: [
       require("tailwindcss")("./tailwind.config.js"),

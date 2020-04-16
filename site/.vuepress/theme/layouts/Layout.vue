@@ -1,5 +1,5 @@
 <template>
-<div class="banner w-full bg-yellow">
+<div class="banner w-full">
   <div
     class="theme-container"
     :class="pageClasses"

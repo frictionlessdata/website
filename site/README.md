@@ -1,10 +1,8 @@
 ---
 layout: home
-heroImage: /img/frictionless-color-logo.svg
+heroImage: /img/home/toolbox.png
 heroText: The zen toolkit for data integration
-tagline: Frictionless Data is a progressive, incrementally adoptable open-source toolkit that brings simplicity and gracefulness to the data experience - whether you're wrangling a CSV or engineering complex pipelines with gigabytes.
-actionText: Why Frictionless Data? 
-actionLink: /about/
+tagline:  Building data pipelines is as easy as playing with LEGO. A frictionless data ecosystem built on the unix philosophy.Data flows with simplicity and gracefully across diverse tools and teams, enabled by the specs and patterns we have shared. Everyone working with data knows, and many use, these core patterns and tools.
 features:
 - title: Approachable
   details: Lean and minimal core. Quick to understand, quick to use.
@@ -13,30 +11,6 @@ features:
 - title: Progressive
   details: We enhance rather than replace your existing tools and workflows.
 ---
-
-<div class="banner gray-section py-6 w-full">
-  <div class="container flex flex-row flex-wrap items-center mx-auto usedby text-center">
-    <h1 class="w-full">Widely Adopted and Used</h1>
-    <div class="my-2 w-full xs:w-1/2 md:w-1/3 lg:w-1/6">
-      <img class="w-32" src="/img/home/pandas.png" />
-    </div>
-    <div class="my-2 w-full xs:w-1/2 md:w-1/3 lg:w-1/6">
-      <img class="w-24" src="/img/home/kaggle.png" />
-    </div>
-    <div class="my-2 w-full xs:w-1/2 md:w-1/3 lg:w-1/6">
-      <img class="w-32" src="/img/home/openrefine.png" />
-    </div>
-    <div class="my-2 w-full xs:w-1/2 md:w-1/3 lg:w-1/6">
-      <img class="w-32" src="/img/home/data-gov-uk.png" />
-    </div>
-    <div class="my-2 w-full xs:w-1/2 md:w-1/3 lg:w-1/6">
-      <img class="w-20" src="/img/home/18f-logo.png" />
-    </div>
-    <div class="my-2 w-full xs:w-1/2 md:w-1/3 lg:w-1/6">
-      <img class="w-32" src="/img/home/data-gouv-fr.png" />
-    </div>
-  </div>
-</div>
 
 <div class="main-section">
   <div class="inner-container">
