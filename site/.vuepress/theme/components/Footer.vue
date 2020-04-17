@@ -1,13 +1,17 @@
 <template>
   <footer class="banner footer-background flex flex-row flex-wrap px-5">
     <div class="footer-wrapper__primary">
-      <div class="w-full xs:w-1/2 sm:w-1/4">
+      <div class="w-full xs:w-1/2 sm:w-1/4 support-section">
         <div class="my-20 px-6 xxl:px-10 footer-section">
           <h2 class="text-lg font-normal footer-link-header">Supported by</h2>
-          <a href="https://sloan.org/"><img class="w-32 mx-auto py-5" src="/img/home/alfred.svg"></img></a>
-          <a href="https://theodi.org/"><img class="w-32 mx-auto" src="/img/home/opendata.svg"></img></a>
+          <div class="icon-wrapper">
+            <a href="https://sloan.org/"><img class="w-32 mx-auto py-5" src="/img/home/alfred.svg"></img></a>
+            <a href="https://theodi.org/"><img class="w-32 mx-auto" src="/img/home/opendata.svg"></img></a>
+          </div>
         </div>
       </div>
+
+      <div class="footer-links-wrappper">
       <div class="w-full xs:w-1/2 sm:w-1/4">
         <div class="my-20 px-6 xxl:px-10 footer-section">
           <h2 class="text-lg font-normal footer-link-header">{{ $site.themeConfig.footer_col1_title }}</h2>
@@ -63,6 +67,7 @@
           </div>
         </div>
       </div>
+      </div>
     </div>
     
     <!--  <div class="w-full sm:w-1/2 lg:w-2/6 footer-wrapper__secondary">  -->
@@ -104,12 +109,14 @@
   align-items: center;
 }
 
-.footer-wrapper__primary .sm\:w-1\/4 {
-  width: 18%;
-}
 
 a {
   color: #000000;
+}
+
+.footer-links-wrappper {
+  display: flex;
+  width: 70%
 }
 
 .footer-link-header {
@@ -130,6 +137,68 @@ a {
 
 .social-link-icon {
   width: 16px;
+}
+
+@media (max-width: 940px) {
+  .footer-wrapper__primary {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-wrapper__primary .support-section {
+    width: 50%;
+  }
+
+  .support-section .my-20 {
+    margin-bottom: 0;
+  }
+
+  .footer-links-wrappper {
+    width: 100%
+  }
+
+  .footer-wrapper__secondary {
+    justify-content: space-between;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 760px) {
+ .footer-wrapper__primary{
+    margin: 0;
+  }
+
+  .px-5 {
+    padding-left: 2rem;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 680px) {
+  .footer-links-wrappper {
+    flex-wrap: wrap;
+    width: 90%
+  }
+
+  .footer-links-wrappper .w-full {
+    width: 50%
+  }
+
+  .footer-links-wrappper .my-20 {
+    margin-bottom: 0;
+    margin-top: 3rem;
+  }
+
+  .footer-wrapper__secondary {
+    margin-top: 3rem;
+  }
 }
 
 div > a:hover {

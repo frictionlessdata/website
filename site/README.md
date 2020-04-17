@@ -6,7 +6,7 @@ tagline:  Building data pipelines is as easy as playing with LEGO. A frictionles
 features:
 - title: Approachable
   details: Lean and minimal core. Quick to understand, quick to use.
-- title: Incrementally adoptable
+- title: Incrementally Adoptable
   details: Start with just what you need, scale as you grow.
 - title: Progressive
   details: We enhance rather than replace your existing tools and workflows.
