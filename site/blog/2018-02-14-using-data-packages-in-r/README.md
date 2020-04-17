@@ -2,6 +2,7 @@
 title: Using Data Packages in R
 date: 2018-02-14
 tags: ["R"]
+author: Kleanthis Koupidis
 description: A guide on how to use datapackage with R
 category: working-with-data-packages
 ---

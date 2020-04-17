@@ -1,7 +1,8 @@
 ---
 title: "Tool Fund Grantee: Georges Labrèche"
 date: 2017-10-24
-tags:
+tags: ["grantee-profiles"]
+author: Georges Labreche
 category: grantee-profiles
 image: /img/blog/georges-labreche-image.png
 # description: Tool Fund Grantee - Java
@@ -10,7 +11,7 @@ twitter: https://twitter.com/georgeslabreche
 website: https://linkedin.com/in/georgeslabreche
 ---
 
-This grantee profile features Matt Thompson for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved.
+This grantee profile features Georges Labreche for our series of Frictionless Data Tool Fund posts, written to shine a light on Frictionless Data’s Tool Fund grantees, their work and to let our technical community know how they can get involved.
 
 <!-- more -->
 

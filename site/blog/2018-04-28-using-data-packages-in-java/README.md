@@ -2,6 +2,7 @@
 title: Using Data Packages in Java
 date: 2018-04-28
 tags: ["Java"]
+author: Georges Labrèche
 description: A guide on how to use datapackage with Java
 category: working-with-data-packages
 ---

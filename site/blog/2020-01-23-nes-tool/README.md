@@ -2,6 +2,7 @@
 title: Neuroscience Experiments System Tool Fund
 date: 2020-01-23
 tags:
+author: Carlos Eduardo Ribas, João Alexandre Peschanski, and Lilly Winfree
 category: grantee-profiles-2019
 image: /img/blog/nes_logo.png
 ---

@@ -2,6 +2,7 @@
 title: "Tool Fund Grantee: Ori Hoch"
 date: 2018-07-16
 tags:
+author: Ori Hoch
 category: grantee-profiles
 image: /img/blog/ori-hoch-image.png
 # description: Tool Fund Grantee - PHP

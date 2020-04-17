@@ -1,7 +1,8 @@
 ---
 title: "Tool Fund Grantee: Matt Thompson"
 date: 2017-10-26  
-tags:
+tags: ["tool-fund"]
+author: Matt Thompson
 category: grantee-profiles
 image: /img/blog/matt-thompson-image.png
 github: https://github.com/cblop
