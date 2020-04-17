@@ -2,6 +2,7 @@
 title: "Tool Fund Grantee: Carlos Eduardo Ribas and João Alexandre Peschanski"
 date: 2019-07-03
 tags:
+author: Carlos Eduardo Ribas, João Alexandre Peschanski, and Lilly Winfree
 category: grantee-profiles-2019
 image: /img/blog/carlos.jpg
 # description: Tool Fund Grantee - NES

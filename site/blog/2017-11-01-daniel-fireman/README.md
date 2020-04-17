@@ -2,6 +2,7 @@
 title: "Tool Fund Grantee: Daniel Fireman"
 date: 2017-11-01
 tags:
+author: Daniel Fireman
 category: grantee-profiles
 image: /img/blog/daniel-fireman-image.jpg
 # description: Tool Fund Grantee - Go

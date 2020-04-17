@@ -2,6 +2,7 @@
 title: "Tool Fund Grantee: André Heughebaert"
 date: 2019-09-12
 tags:
+author: André Heughebaert and Lilly Winfree
 category: grantee-profiles-2019
 image: /img/blog/andre.png
 ---

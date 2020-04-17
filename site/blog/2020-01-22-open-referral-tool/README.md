@@ -2,6 +2,7 @@
 title: Frictionless Open Referral developed by Shelby Switzer and Greg Bloom
 date: 2020-01-22
 tags:
+author: Greg Bloom, Shelby Switzer, and Lilly Winfree
 category: grantee-profiles-2019
 image: /img/blog/OpenReferral.png
 ---

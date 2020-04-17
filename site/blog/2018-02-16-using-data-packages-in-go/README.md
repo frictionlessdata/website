@@ -2,6 +2,7 @@
 title: Using Data Packages in Go
 date: 2018-02-16
 tags: ["Go"]
+author: Daniel Fireman
 description: A guide on how to use datapackage with Go
 category: working-with-data-packages
 ---

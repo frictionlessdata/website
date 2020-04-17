@@ -2,6 +2,7 @@
 title: Frictionless Data Pipelines for Ocean Science
 date: 2020-02-10
 tags:
+author: Adam Shepherd, Amber York, Danie Kinkade, and Lilly Winfree
 category: frictionless-data
 image: /img/blog/bcodmoLogo.jpg
 ---

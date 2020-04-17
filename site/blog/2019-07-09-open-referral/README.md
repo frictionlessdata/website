@@ -2,6 +2,7 @@
 title: "Tool Fund Grantee: Greg Bloom and Shelby Switzer"
 date: 2019-07-09
 tags:
+author: Greg Bloom, Shelby Switzer, and Lilly Winfree
 category: grantee-profiles-2019
 image: /img/blog/OpenReferral.png
 # description: Tool Fund Grantee - Open Referral
