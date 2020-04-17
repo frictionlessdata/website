@@ -2,7 +2,7 @@
 title: "Tool Fund Grantee: Open Knowledge Greece"
 date: 2017-10-27
 tags:
-author: Open KNowledge Greece
+author: Open Knowledge Greece
 category: grantee-profiles
 image: /img/blog/open-knowledge-greece-logo.png
 # description: Tool Fund Grantee - R
