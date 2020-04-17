@@ -74,7 +74,7 @@ features:
   <div class="inner-container">
     <div class="sm:container mx-auto text-center">
       <h1>Why Frictionless Data?</h1>
-      <p class="text-lg">Rufus Pollock explains the problem Frictionless Data addresses through simple specifications and software.</p>
+      <p class="text-lg">Rufus Pollock explains the problem Frictionless Data addresses <br> through simple specifications and software.</p>
       <div class="video my-10">
         <iframe class="w-full h-full" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
@@ -84,31 +84,48 @@ features:
 
 <div class="banner p-8">
   <div class="inner-container">
-    <h1 class="text-center">Some of Our Tooling</h1>
-    <div class="container mx-auto flex flex-row flex-wrap justify-around lg:justify-between">
-      <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
-        <img class="w-24 mx-auto" src="/img/home/data-package-orange.svg"></img>
-        <h2 class="text-xl pt-4 font-medium">Data Package</h2>
-        <p class="text-lg font-light pt-4">Simple container format used to describe and package data.</p>
-        <a href="/tooling/data-package-tools/" class="links-github">Read more &raquo;</a>
+    <h1 class="text-center">Some of our Tooling</h1>
+    <hr>
+    <div class="container mx-auto flex flex-row flex-wrap lg:justify-between">
+      <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
+        <div class="image-border">
+          <img class="w-24 mx-auto" src="/img/home/data-package-orange.svg"></img>
+        </div>
+        <div class="card-details">
+          <a href="/tooling/data-package-tools/" class="links-github">Data Package</a>
+          <p class="text-lg font-light pt-4">Simple container format used to describe and package data.</p>
+        </div>
+        <!-- <a href="/tooling/data-package-tools/" class="links-github">Read more &raquo;</a> -->
       </div>
-        <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
-        <img class="w-24 mx-auto" src="/img/home/goodtables.svg"></img>
-        <h2 class="text-xl pt-4 font-medium">GoodTables</h2>
-        <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
-        <a href="/tooling/goodtables/" class="links-github">Read more &raquo;</a>
+      <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
+        <div class="image-border">
+          <img class="w-24 mx-auto" src="/img/home/datahub-new.svg"></img>
+        </div>
+        <div class="card-details">
+          <a href="/tooling/goodtables/" class="links-github">DataHub</a>
+          <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
+        </div>
+        <!-- <a href="/tooling/datahub/" class="links-github">Read more &raquo;</a> -->
       </div>
-        <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
-        <img class="w-24 mx-auto" src="/img/home/datahub-new.svg"></img>
-        <h2 class="text-xl pt-4 font-medium">DataHub</h2>
-        <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
-        <a href="/tooling/datahub/" class="links-github">Read more &raquo;</a>
+      <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
+        <div class="image-border">
+          <img class="w-24 mx-auto" src="/img/home/goodtables.svg"></img>
+        </div>
+        <div class="card-details">
+          <a href="/tooling/goodtables/" class="links-github">GoodTables</a>
+          <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
+        </div>
+        <!-- <a href="/tooling/goodtables/" class="links-github">Read more &raquo;</a> -->
       </div>
-        <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center">
-        <img class="w-24 mx-auto" src="/img/home/dataflows.svg"></img>
-        <h2 class="text-xl pt-4 font-medium">DataFlows</h2>
-        <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
-        <a href="/tooling/data-package-pipelines/" class="links-github">Read more &raquo;</a>
+      <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
+        <div class="image-border">
+          <img class="w-24 mx-auto" src="/img/home/dataflows.svg"></img>
+        </div>
+        <div class="card-details">
+          <a href="/tooling/goodtables/" class="links-github">DataFlows</a>
+          <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
+        </div>
+        <!-- <a href="/tooling/data-package-pipelines/" class="links-github">Read more &raquo;</a> -->
       </div>
     </div>
   </div>
@@ -125,7 +142,7 @@ export default {
 <style> 
 
 .gray-section {
-  background-color: #f6f6f6;
+  background-color: #EEEEEE;
 }
 
 .inner-container {
@@ -133,27 +150,97 @@ export default {
   margin: 0 auto;
 }
 
+.inner-container h1 {
+  margin-bottom: 16px;
+}
+
+.inner-container p {
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+
 .usedby {
   max-width: 900px;
 }
+#video-section {
+  background-image: url('/img/home/beam.svg');
+  background-size: 95% 42%;
+  background-position: center; 
+  background-repeat: no-repeat;
+}
 
 .video {
-  position: relative;
+  margin: auto;
   max-width: 900px;
   width: 100%;
-  padding-top: 56.25%;
 }
 
 .video iframe {
-  position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
+  margin: auto;
+  max-width: 700px;
+  height: 400px;
+}
+
+.container {
+  margin-left: 12px;
 }
 
 .links-github {
-  color: #EA6D4C;
+  color: #000000;
+  font-size: 30px;
+}
+
+.card-details {
+  text-align: initial;
+  margin-left: 16px;
+}
+
+.card-details p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 12px 0;
+}
+
+hr {
+  height: 1px;
+  color: #CC785F;
+  background-color: #CC785F;
+  border: none;
+  width: 160px;
+}
+
+.tooling-card {
+  min-width: 44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-border {
+  padding: 20px;
+  border: 2px solid #E47046;
+  border-radius: 50%;
+  background: #EEEEEE;
+  min-width: 80px;
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-border img {
+  width: 60px;
+  height: 60px;
+}
+
+.image-border:hover {
+  background-color: #FFF;
 }
 
 </style>
