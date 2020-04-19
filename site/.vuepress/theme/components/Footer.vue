@@ -87,121 +87,117 @@
   </footer>
 </template>
 
+<template>
+  <footer class="footer-bg pin-b">
+    <div class="banner flex flex-col">
+      <div class="banner flex sm:p-5 justify-center">
+        <div class="banner footer-items flex flex-row flex-wrap w-2/3 sm:p-5">
+        <div class="box-border bottom-padding w-full sm:w-1/2 lg:w-1/5">
+          <div class="footer-title font-normal text-xl pb-2"> Supported by </div>
+          <li class=""><a href="https://sloan.org/"><img class="w-32 mx-auto py-5" src="/img/home/alfred.svg"></img></a><li>
+          <li class=""><a href="https://theodi.org/"><img class="w-32 mx-auto" src="/img/home/opendata.svg"></img></a></li>
+        </div>
+        <div class="box-border bottom-padding w-full sm:w-1/2 lg:w-1/5">
+          <div class="footer-title font-normal text-xl pb-2"> {{ $site.themeConfig.footer_col1_title }} </div>
+          <li class="pt-2"><a href="/about/" class=""> {{ $site.themeConfig.footer_col1_row1 }} </a><li>
+          <li class="pt-2"><a href="/team" class=""> {{ $site.themeConfig.footer_col1_row2 }} </a></li>
+          <li class="pt-2"><a href="https://okfn.org/terms-of-use/" class=""> {{ $site.themeConfig.footer_col1_row3 }} </a></li>
+          <li class="pt-2"><a href="https://okfn.org/privacy-policy/" class=""> {{ $site.themeConfig.footer_col1_row4 }} </a></li>
+        </div>
+        <div class="box-border bottom-padding w-full sm:w-1/2 lg:w-1/5">
+          <div class="footer-title font-normal text-xl pb-2"> {{ $site.themeConfig.footer_col2_title }} </div>
+          <li class="pt-2"><a href="/contribute/" class=""> {{ $site.themeConfig.footer_col2_row1 }} </a><li>
+          <li class="pt-2"><a href="/guide/" class=""> {{ $site.themeConfig.footer_col2_row2 }} </a></li>
+          <li class="pt-2"><a href="/team/" class=""> {{ $site.themeConfig.footer_col2_row3 }} </a></li>
+          <li class="pt-2"><a href="https://github.com/frictionlessdata/forum/issues" class=""> {{ $site.themeConfig.footer_col2_row4 }} </a></li>
+        </div>
+        <div class="box-border bottom-padding w-full sm:w-1/2 lg:w-1/5">
+          <div class="footer-title font-normal text-xl pb-2"> {{ $site.themeConfig.footer_col3_title }} </div>
+          <li class="pt-2"><a href="/reproducible-research/" class=""> {{ $site.themeConfig.footer_col3_row1 }} </a><li>
+          <li class="pt-2"><a href="/design/" class=""> {{ $site.themeConfig.footer_col3_row2 }} </a></li>
+          <li class="pt-2"><a href="/blog/" class=""> {{ $site.themeConfig.footer_col3_row3 }} </a></li>
+          <li class="pt-2"><a href="/contribute/" class=""> {{ $site.themeConfig.footer_col3_row4 }} </a></li>
+        </div>
+        <div class="box-border bottom-padding w-full sm:w-1/2 lg:w-1/5">
+          <div class="footer-title font-normal text-xl pb-2"> {{ $site.themeConfig.footer_col4_title }} </div>
+          <li class="pt-2"> <a href="https://twitter.com/frictionlessd8a" class="inline font-light text-base">
+            <img class="pr-2 align-middle social-link-icon" src="/img/home/twitter.svg" />
+            {{ $site.themeConfig.footer_col4_row2 }}</a>
+          <li>
+          <li class="pt-2">
+            <a href="https://github.com/frictionlessdata/" class="font-light text-base">
+              <img class="pr-2 align-middle social-link-icon" src="/img/home/github.svg" />
+              {{ $site.themeConfig.footer_col4_row1 }}
+            </a>
+          </li>
+          <li class="pt-2">
+            <a href="https://gitter.im/frictionlessdata/chat" class="font-light text-base">
+              <img class="pr-2 align-middle social-link-icon" src="/img/home/gitter.svg"></img>
+              {{ $site.themeConfig.footer_col4_row3 }}
+            </a>
+          </li>
+        </div>
+      </div> 
+      </div>
+    <div class="banner flex sm:px-5 justify-center footer-logo">
+      <div class="banner flex flex-row flex-wrap w-2/3 sm:p-5">
+        <div class="container sm:w-1/5 lg:w-1/4">
+          <a href="/">
+            <img src="/img/fd.svg" class="h-15 pl-4 pt-8" />
+          </a>
+        </div>
+        <div class="container lg:w-1/5">
+          <a href="https://okfn.org/">
+            <img src="/img/home/okn.svg" class="h-12 pl-4 pt-12" />
+          </a>
+        </div>
+        <div class="container lg:w-1/5">
+          <a href="https://www.datopian.com/">
+            <img src="/img/home/datopian.svg" class="h-10 pl-4 pt-12" />
+          </a>
+        </div>
+     
+      </div>
+      </div>
+    </div>
+  </footer>
+</template>
+
 <style scoped>
 
-.footer-background {
+li {
+  list-style: none;
+}
+
+.footer-bg {
   background-color: #EEEEEE;
-  flex-direction: column;
+  border-top: 1px solid #eaeaea;
 }
 
-.footer-wrapper__primary,
-.footer-wrapper__secondary {
-  display: flex;
-  justify-content: center;
+li > a {
+  color:rgb(102, 102, 102);
+  font-weight: 300;
+  font-size: 1rem;
 }
 
-.footer-wrapper__primary {
-  margin: 0 auto;
+li > a:hover {
+  font-weight: 600;
 }
 
-.footer-wrapper__secondary {
-  margin: 0 0 2rem 0;
-  align-items: center;
+.footer-title {
+  color: black;
+  font-size: 1.1rem;
+}
+.footer-items{
+  margin-left: 8em;
 }
 
-
-a {
-  color: #000000;
+.footer-logo{
+  margin-left: 2.5em;
 }
 
-.footer-links-wrappper {
-  display: flex;
-  width: 70%
-}
-
-.footer-link-header {
-  font-size: 20px;
-  border: none;
-  padding-bottom: 0;
-  margin-bottom: 10px;
-  color: #000000;
-}
-
-.footer-section {
-  display: inline-block;
-}
-
-.secondary-footer-link {
-  margin: 0 auto;
-}
-
-.social-link-icon {
-  width: 16px;
-}
-
-@media (max-width: 940px) {
-  .footer-wrapper__primary {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .footer-wrapper__primary .support-section {
-    width: 50%;
-  }
-
-  .support-section .my-20 {
-    margin-bottom: 0;
-  }
-
-  .footer-links-wrappper {
-    width: 100%
-  }
-
-  .footer-wrapper__secondary {
-    justify-content: space-between;
-  }
-
-  .icon-wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-}
-
-@media (max-width: 760px) {
- .footer-wrapper__primary{
-    margin: 0;
-  }
-
-  .px-5 {
-    padding-left: 2rem;
-    padding-right: 0;
-  }
-}
-
-@media (max-width: 680px) {
-  .footer-links-wrappper {
-    flex-wrap: wrap;
-    width: 90%
-  }
-
-  .footer-links-wrappper .w-full {
-    width: 50%
-  }
-
-  .footer-links-wrappper .my-20 {
-    margin-bottom: 0;
-    margin-top: 3rem;
-  }
-
-  .footer-wrapper__secondary {
-    margin-top: 3rem;
-  }
-}
-
-div > a:hover {
-  font-weight: 400;
+.bottom-padding{
+  padding-bottom: 1em;
 }
 </style>
+
