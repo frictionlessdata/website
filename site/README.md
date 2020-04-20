@@ -12,69 +12,79 @@ features:
   details: We enhance rather than replace your existing tools and workflows.
 ---
 
-<div class="main-section">
-  <div class="inner-container">
-    <h1 class="text-center" id="more">For anyone who works with data<br/><small>Especially diverse data and/or across tools or teams</small></h1>
-    <div class="features text-center flex flex-row flex-wrap">
-      <div class="w-full md:w-1/3 feature">
+<div class="main-section black-text py-8">
+    <h1 class="text-center font-normal text-3xl px-12" id="more">For anyone who works with data<br/><small class="font-light text-xl">Especially diverse data and/or across tools or teams</small><hr></h1>
+    <div class="features flex flex-row flex-wrap lg:px-40">
+      <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="py-12 px-8">
-          <img src="/img/home/for-researchers-thick.svg" height="223.375" />
-          <h2 >Researchers</h2>
+          <img src="/img/home/researchers-color.svg" height="223.375" />
+          <h3 class="font-normal">Researchers</h3>
           <p>Easily create reproducible research</p>
         </div>
       </div>
-      <div class="w-full md:w-1/3 feature">
+      <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="py-12 px-8">
-          <img src="/img/home/for-data-scientists-thick.svg" height="223.375" />
-          <h2>Data Scientists</h2>
+          <img src="/img/home/dscientists-color.svg" height="223.375" />
+          <h3 class="font-normal">Data Scientists</h3>
           <p>Create pipelines without effort</p>
         </div>
       </div>
-      <div class="w-full md:w-1/3 feature">
+      <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="py-12 px-8">
-          <img src="/img/home/for-data-engineers-thick.svg" height="223.375" />
-          <h2>Data Engineers</h2>
+          <img src="/img/home/dengineers-color.svg" height="223.375" />
+          <h3 class="font-normal">Data Engineers</h3>
           <p>Standardize data platforms</p>
         </div>
       </div>
     </div>
   </div>
 
-<h1 class="text-center">Data Integration and Management</h1>
-
-  <br>
-
-  ### What is data integration
-
-  Data integration (aka what ETL became) is the job of bringing diverse (and often dirty) data together, cleaning it up, knitting it together and pushing this into downstream applications, analytics or warehouses -- and doing this reliably, repeatedly and automatedly. Data integration subsumes activities like scraping, cleaning, transformation etc.
-
-  ### What is data management
-
-  With the data explosion it has become a job in itself to manage data assets -- locate, track, curate, store and share them.
-
-  ### These overlap
-
-  For example, data integration work will require a way to reliably discover internal and external data assets.
-
-  Conversely, data management often requires some data cleaning (integration)
-
-  ### And they share a common set of "jobs to be done" / "steps on the data journey"
-
-  * Sourcing data
-  * Transform data
-  * Pushing and storing data
-  
-  <!-- <JobsDiagram class="px-48 pt-12"></JobsDiagram> -->
-
+<div class="main-section py-10 black-text green-section">
+  <div class="container mx-auto">
+    <h1 class="text-center font-normal text-3xl lg:px-40" id="more">Data Integration and Management</h1>
+    <h3 class="text-center mx-auto font-normal text-lg lg:w-3/4">Data integration is the job of bringing diverse data together, cleaning it up, knitting it together and pushing it into downstream applications, analytics or warehouses – and doing this reliably, repeatedly and automatedly.</h3><hr>
+  </div>
+  <div class="flex flex-row flex-wrap w-3/4 mx-auto">
+    <div class="lg:flex-1 flex-col pt-10">
+      <div class="flex flex-row flex-wrap sm:flex-no-wrap">
+        <div class="w-1/5 px-8">
+          <img class="w-2/3 pt-4 pl-8" src="/img/home/sourcing-data.svg" />
+        </div>
+        <div class="">
+          <h3 class="font-normal hover:underline"> Sourcing Data </h3>
+          <p class="xxl:w-2/3"> Source data from any reliable resource and that data will eventually need to be transformed. </p>
+        </div>
+      </div>
+      <div class="flex flex-row flex-wrap sm:flex-no-wrap">
+        <div class="w-1/5 px-8">
+          <img class="w-2/3 pt-4 pl-8" src="/img/home/transforming-data.svg" />
+        </div>
+        <div class="">
+          <h3 class="font-normal hover:underline"> Transforming Data </h3>
+          <p class="xxl:w-2/3"> Source data from any reliable resource and that data will eventually need to be transformed. </p>
+        </div>
+      </div>
+      <div class="flex flex-row flex-wrap sm:flex-no-wrap">
+        <div class="w-1/5 px-8">
+          <img class="w-2/3 pt-4 pl-8" src="/img/home/pushing-data.svg" />
+        </div>
+        <div class="">
+          <h3 class="font-normal hover:underline"> Pushing and Storing Data </h3>
+          <p class="xxl:w-2/3"> Source data from any reliable resource and that data will eventually need to be transformed. </p>
+        </div>
+      </div>
+    </div>
+    <div class="container lg:flex-1 md:pt-16 pt-8">
+      <img src="/img/home/dmai.png" class="shadow-lg" />
+    </div>
+  </div>
 </div>
 
-<br>
-
-<div class="banner p-8 gray-section" id="video-section">
+<div class="banner p-8 black-text gray-section" id="video-section">
   <div class="inner-container">
     <div class="sm:container mx-auto text-center">
-      <h1>Why Frictionless Data?</h1>
-      <p class="text-lg">Rufus Pollock explains the problem Frictionless Data addresses <br> through simple specifications and software.</p>
+      <h1 class="font-normal text-3xl">Why Frictionless Data?</h1>
+      <p class="text-lg"><a class="hover:underline" href="https://rufuspollock.com/" target="_blank">Rufus Pollock</a> explains the problem Frictionless Data addresses <br> through simple specifications and software.</p>
       <div class="video my-10">
         <iframe class="w-full h-full" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
@@ -82,50 +92,50 @@ features:
   </div>
 </div>
 
-<div class="banner p-8">
+<div class="banner p-8 black-text">
   <div class="inner-container">
-    <h1 class="text-center">Some of our Tooling</h1>
+    <h1 class="text-center text-3xl font-normal">Some of our Tooling</h1>
     <hr>
-    <div class="container mx-auto flex flex-row flex-wrap lg:justify-between">
+    <div class="py-6 mx-auto flex flex-row flex-wrap lg:justify-between">
       <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
         <div class="image-border">
-          <img class="w-24 mx-auto" src="/img/home/data-package-orange.svg"></img>
+          <img class="w-20 mx-auto" src="/img/home/data-package-new.svg"></img>
         </div>
         <div class="card-details">
-          <a href="/tooling/data-package-tools/" class="links-github">Data Package</a>
+          <a href="/tooling/data-package-tools/" class="text-2xl black-text">Data Package</a>
           <p class="text-lg font-light pt-4">Simple container format used to describe and package data.</p>
+          <a href="/tooling/data-package-tools/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
-        <!-- <a href="/tooling/data-package-tools/" class="links-github">Read more &raquo;</a> -->
       </div>
       <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
         <div class="image-border">
-          <img class="w-24 mx-auto" src="/img/home/datahub-new.svg"></img>
+          <img class="w-20 mx-auto" src="/img/home/datahub-new2.svg"></img>
         </div>
         <div class="card-details">
-          <a href="/tooling/goodtables/" class="links-github">DataHub</a>
+          <a href="/tooling/goodtables/" class="text-2xl black-text">DataHub</a>
           <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
+          <a href="/tooling/datahub/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
-        <!-- <a href="/tooling/datahub/" class="links-github">Read more &raquo;</a> -->
       </div>
       <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
         <div class="image-border">
-          <img class="w-24 mx-auto" src="/img/home/goodtables.svg"></img>
+          <img class="w-20 mx-auto" src="/img/home/goodtables-new.svg"></img>
         </div>
         <div class="card-details">
-          <a href="/tooling/goodtables/" class="links-github">GoodTables</a>
+          <a href="/tooling/goodtables/" class="text-2xl black-text">GoodTables</a>
           <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
+          <a href="/tooling/goodtables/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
-        <!-- <a href="/tooling/goodtables/" class="links-github">Read more &raquo;</a> -->
       </div>
       <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
         <div class="image-border">
-          <img class="w-24 mx-auto" src="/img/home/dataflows.svg"></img>
+          <img class="w-20 mx-auto" src="/img/home/dataflows-new.svg"></img>
         </div>
         <div class="card-details">
-          <a href="/tooling/goodtables/" class="links-github">DataFlows</a>
+          <a href="/tooling/goodtables/" class="text-2xl black-text">DataFlows</a>
           <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
+          <a href="/tooling/data-package-pipelines/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
-        <!-- <a href="/tooling/data-package-pipelines/" class="links-github">Read more &raquo;</a> -->
       </div>
     </div>
   </div>
@@ -146,7 +156,7 @@ export default {
 }
 
 .inner-container {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -158,7 +168,6 @@ export default {
   font-size: 16px;
   line-height: 1.4;
 }
-
 
 .usedby {
   max-width: 900px;
@@ -208,7 +217,7 @@ export default {
 }
 
 hr {
-  height: 1px;
+  height: 2px;
   color: #CC785F;
   background-color: #CC785F;
   border: none;
@@ -241,6 +250,14 @@ hr {
 
 .image-border:hover {
   background-color: #FFF;
+}
+
+.green-section {
+  background-color: rgba(117, 171, 138, 0.4);
+}
+
+.orange-text {
+  color: #EA6D4C;
 }
 
 </style>
