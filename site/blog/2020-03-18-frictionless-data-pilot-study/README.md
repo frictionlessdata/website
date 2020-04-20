@@ -1,7 +1,7 @@
 ---
 title: Frictionless Public Utility Data - A Pilot Study
 date: 2020-03-18
-tags:
+tags: ["pilot"]
 author: Zane Selvans, Christina Gosnell, and Lilly Winfree
 category: frictionless-data
 image: /img/blog/SimpleSquareWalking.png

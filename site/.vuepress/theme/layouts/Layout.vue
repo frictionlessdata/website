@@ -34,6 +34,7 @@
     <Product v-else-if="$page.frontmatter.layout === 'product'"/>
     <BlogIndex v-else-if="isBlogIndexPage"/>
     <BlogPost v-else-if="$page.frontmatter.layout === 'Post'"/>
+    <Tag v-else-if="isTagIndexPage"/>
     <Job v-else-if="$page.frontmatter.layout === 'job'"/>
 
     <Page
@@ -59,6 +60,7 @@
 </template>
 
 <script>
+import Tag from '@theme/components/Tag.vue'
 import Home from '@theme/components/Home.vue'
 import Product from '../components/Product.vue'
 import BlogIndex from '../components/BlogIndex.vue'
@@ -72,7 +74,7 @@ import FooterSidebar from '../components/FooterSidebar.vue'
 import { resolveSidebarItems } from '../util'
 
 export default {
-  components: { Home, Product, BlogIndex, BlogPost, Job, Page, Sidebar, Navbar, Footer, FooterSidebar },
+  components: { Home, Product, BlogIndex, BlogPost, Job, Page, Sidebar, Navbar, Footer, FooterSidebar, Tag },
 
   data () {
     return {
@@ -102,7 +104,8 @@ export default {
       const { frontmatter } = this.$page
       return (
         !(frontmatter.layout == 'home')
-        && !this.isBlogIndexPage
+        && !this.isBlogIndexPage 
+        && !this.isTagIndexPage
         && frontmatter.sidebar !== false
         && this.sidebarItems.length
       )
@@ -135,6 +138,13 @@ export default {
       return !!(
         this.$page.frontmatter.title &&
         this.$page.frontmatter.title.match(/(?:Page \d+ \| )?Blog/)
+      );
+    },
+
+    isTagIndexPage() {
+      return !!(
+        this.$page.frontmatter.title &&
+        this.$page.frontmatter.title.match(/Tag/)
       );
     }
   },

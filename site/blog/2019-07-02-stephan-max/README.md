@@ -1,7 +1,7 @@
 ---
 title: "Tool Fund Grantee: Stephan Max"
 date: 2019-07-02
-tags:
+tags: ["tool-fund"]
 author: Stephan Max and Lilly Winfree
 category: grantee-profiles-2019
 image: /img/blog/stephanmax.jpg
