@@ -181,7 +181,7 @@ li > a {
 }
 
 li > a:hover {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .footer-title {
