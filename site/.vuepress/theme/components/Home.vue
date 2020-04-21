@@ -1,6 +1,6 @@
 <template>
   <div class="banner">
-    <main class="main-section hero-home" aria-labelledby="main-title">
+    <main class="main-section hero-home">
       <div class="content flex flex-wrap items-center px-24">
         <div class="tagline black-text flex-1">
           <h3 class="text-4xl font-thin">The progressive data toolkit</h3>
