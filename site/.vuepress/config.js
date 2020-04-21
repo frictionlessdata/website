@@ -38,7 +38,7 @@ module.exports = {
     }
   },
   themeConfig: {
-    logo: "/img/frictionlessdata-logo-landscape.png",
+    logo: "/img/frictionless-color-full-logo.svg",
     repo: "https://github.com/frictionlessdata",
     repoLabel: "GitHub",
     docsRepo: "https://github.com/frictionlessdata/website-v2",
