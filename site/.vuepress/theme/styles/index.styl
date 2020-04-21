@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body 
+  font-family 'Lato', sans-serif;
+  max-width: 1920px
+  margin 0 auto
+  color black
 .navbar
+  border-bottom 1px solid #f8f8f8
+  padding-top 3rem
+  color black
   .site-name
     display none
 .dropdown-wrapper .dropdown-title
@@ -13,3 +21,18 @@
     pointer-events auto
     outline none
 
+.dropdown-wrapper span {
+  color:black;
+}
+
+h1, h2, h3 {
+  margin-top: -4.1rem;
+  padding-top: 5.6rem;
+  margin-bottom: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+p > span, h1, h2, h3 {
+  font-weight: 500;
+  color: black;
+}

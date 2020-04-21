@@ -13,6 +13,10 @@ module.exports = {
       'xxl': '1480px',
     },
     extend: {
+      colors: {
+        'primary': '#d4e5d9',
+        'secondary': '#CFE1E6',
+      }
     }
   },
   variants: {},
