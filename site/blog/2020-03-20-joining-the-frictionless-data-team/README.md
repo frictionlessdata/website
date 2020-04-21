@@ -1,7 +1,7 @@
 ---
 title: Joining the Frictionless Data Team
 date: 2020-03-20
-tags:
+tags: ["team"]
 category:
 image: /img/blog/gift.jpg
 description: Introducing a new team member - Gift Egwuenu

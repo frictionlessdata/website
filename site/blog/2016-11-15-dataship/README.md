@@ -2,7 +2,7 @@
 title: Dataship-FD
 date: 2016-11-15
 author: Frictionless Data
-tags: ["Data Package", "goodtables.io", "Data CLI"]
+tags: ["case-studies", "Data Package", "goodtables.io", "Data CLI"]
 category: case-studies
 interviewee: Waylon Flinn
 subject_context: Dataship is using Frictionless Data specifications as the basis for its easy to execute, edit and share notebooks for data analysis.

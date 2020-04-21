@@ -1,7 +1,7 @@
 ---
 title: Nimble Learn - Data Package M (datapackage-m)
 date: 2018-07-20
-tags:
+tags: ["case-studies"]
 author: Michael Amadi
 category: case-studies
 interviewee: Michael Amadi

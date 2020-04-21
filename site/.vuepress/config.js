@@ -125,6 +125,7 @@ module.exports = {
       },
       { text: "Contribute", link: "/contribute/" },
       { text: "Team", link: "/team/" },
+      { text: "Case Studies", link: "/tag/case-studies/" },
       { text: "About", link: "/about/" },
       { text: "Blog", link: "/blog/" }
     ]
@@ -152,6 +153,16 @@ module.exports = {
               lengthPerPage: 10
             }
           }
+        ],
+        frontmatters: [
+          {
+            id: "tag",
+            keys: ["tag", "tags"],
+            path: "/tag/",
+            layout: 'Tags',
+            scopeLayout: 'Tag',
+            frontmatter: { title: "Tag" }
+          }
         ]
       }
     ],
@@ -169,16 +180,6 @@ module.exports = {
   ],
   ["@vuepress/back-to-top"], 
   ["@limdongjin/vuepress-plugin-simple-seo"],
-  // [ 
-  //   "@vssue/vuepress-plugin-vssue", {
-  //     platform: 'github',
-  //     owner: 'frictionlessdata',
-  //     repo: 'website',
-  //     clientId: process.env.CLIENT_ID,
-  //     clientSecret: process.env.CLIENT_SECRET,
-  //     autoCreateIssue: true
-  //   }
-  // ]
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],

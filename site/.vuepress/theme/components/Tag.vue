@@ -1,7 +1,7 @@
 <template>
   <main class="blog-home" aria-labelledby="main-title">
     <div class="container">  
-      <h1 class="pb-20">Frictionless Blog</h1>
+      <h1 class="pb-20 capitalize">{{$page.frontmatter.title}}</h1>
       <ul class="flex flex-col">
         <li class="" v-for="page in $pagination.pages">
           <div class="container shadow-md pl-6 flex flex-row py-4">
@@ -22,14 +22,6 @@
           <hr>
         </li>
         </ul>
-      <div class="flex justify-between" id="pagination">
-        <div>
-          <router-link class="pl-6" v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
-          <router-link class="pl-6" v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
-        </div>
-        <span> Page {{$pagination.paginationIndex}} </span>
-      </div>
-      <br><br>
     </div>
   </main>
 </template>
