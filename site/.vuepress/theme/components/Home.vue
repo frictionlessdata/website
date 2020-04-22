@@ -4,14 +4,14 @@
       <div class="content flex flex-wrap items-center px-24">
         <div class="tagline black-text flex-1">
           <h3 class="text-4xl font-thin">The progressive data toolkit</h3>
-          <p class="text-xl font-thin w-auto">{{ data.tagline || $description || 'Welcome to your VuePress site' }}</p>
+          <p class="text-xl md:w-4/5 font-thin w-auto">{{ data.tagline || $description || 'Welcome to your VuePress site' }}</p>
           <div class="flex flex-row flex-wrap">
           <a
-            class="bg-secondary bg-orange  text-black hover:border-black outline-none cursor-pointer border border-solid border-black font-medium text-sm py-4 px-6 hover:border-transparent rounded-full"
+            class="bg-transparent hero-button text-black hover:border-black outline-none cursor-pointer border border-solid border-black font-medium text-sm py-4 px-6 hover:border-transparent rounded-full"
             href="#video-section"
           >Why Frictionless Data?</a>
           <a
-            class="bg-transparent hover:bg-blue-200 text-black cursor-pointer outline-none border border-solid border-black text-sm font-medium sm:ml-4 mt-2 sm:mt-0 py-4 px-6 hover:border-transparent rounded-full"
+            class="bg-secondary bg-orange text-black cursor-pointer outline-none border border-solid border-black text-sm font-medium sm:ml-4 mt-2 sm:mt-0 py-4 px-6 hover:border-transparent rounded-full"
             href="/guide/"
           >Get Started</a>
           </div>
@@ -97,4 +97,9 @@ export default {
 .bg-orange:hover {
   background-color: #FFD278;
 }
+
+.hero-button:hover {
+  background-color: #CFE1E6;  
+}
+
 </style>

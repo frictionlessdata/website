@@ -2,7 +2,7 @@
 layout: home
 heroImage: /img/home/toolbox.png
 heroText: The zen toolkit for data integration
-tagline:  Building data pipelines is as easy as playing with LEGO. A frictionless data ecosystem built on the unix philosophy.Data flows with simplicity and gracefully across diverse tools and teams, enabled by the specs and patterns we have shared. Everyone working with data knows, and many use, these core patterns and tools.
+tagline: Frictionless Data is a progressive, incrementally adoptable open-source toolkit that brings simplicity and gracefulness to the data experience - whether you're wrangling a CSV or engineering complex pipelines with gigabytes.
 features:
 - title: Approachable
   details: Lean and minimal core. Quick to understand, quick to use.
@@ -51,7 +51,7 @@ features:
         </div>
         <div class="">
           <h3 class="font-normal hover:underline"> Sourcing Data </h3>
-          <p class="xxl:w-2/3"> Source data from any reliable resource and that data will eventually need to be transformed. </p>
+          <p class="xxl:w-2/3"> Data integration work will require a way to reliably discover internal and external data assets. </p>
         </div>
       </div>
       <div class="flex flex-row flex-wrap sm:flex-no-wrap">
@@ -60,7 +60,7 @@ features:
         </div>
         <div class="">
           <h3 class="font-normal hover:underline"> Transforming Data </h3>
-          <p class="xxl:w-2/3"> Source data from any reliable resource and that data will eventually need to be transformed. </p>
+          <p class="xxl:w-2/3"> Data often requires some cleaning (integration) and conversions from one format to another. </p>
         </div>
       </div>
       <div class="flex flex-row flex-wrap sm:flex-no-wrap">
@@ -69,7 +69,7 @@ features:
         </div>
         <div class="">
           <h3 class="font-normal hover:underline"> Pushing and Storing Data </h3>
-          <p class="xxl:w-2/3"> Source data from any reliable resource and that data will eventually need to be transformed. </p>
+          <p class="xxl:w-2/3"> With the data explosion it has become a job in itself to manage data - to push and store data. </p>
         </div>
       </div>
     </div>
