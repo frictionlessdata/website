@@ -7,8 +7,8 @@
           <ul class="">
             <li><a href="/about/">{{ $site.themeConfig.footer_col1_row1 }}</a></li>
             <li><a href="/team/">{{ $site.themeConfig.footer_col1_row2 }}</a></li>
-            <li><a href="https://okfn.org/privacy-policy/">{{ $site.themeConfig.footer_col1_row3 }}</a></li>
-            <li><a href="https://okfn.org/terms-of-use/">{{ $site.themeConfig.footer_col1_row4 }}</a></li>
+            <li><a href="https://okfn.org/privacy-policy/">{{ $site.themeConfig.footer_col1_row4 }}</a></li>
+            <li><a href="https://okfn.org/terms-of-use/">{{ $site.themeConfig.footer_col1_row3 }}</a></li>
           </ul>
         </div>
         <div class="container">
@@ -21,34 +21,24 @@
               <a href="/guide/">{{ $site.themeConfig.footer_col2_row2 }}</a>
             </li>
             <li>
-              <a href="/team/">{{ $site.themeConfig.footer_col2_row3 }}</a>
+              <a href="https://discordapp.com/invite/Sewv6av">{{ $site.themeConfig.footer_col2_row3 }}</a>
             </li>
           </ul>
         </div>
         <div class="container">
           <p class="">{{ $site.themeConfig.footer_col3_title }}</p>
           <ul class="">
-            <li><a href="https://github.com/frictionlessdata/" target="_blank">{{ $site.themeConfig.footer_col3_row1 }}</a></li>
+            <li><a href="/reproducible-research/">{{ $site.themeConfig.footer_col3_row1 }}</a></li>
             <li>
-              <a href="https://twitter.com/hashtag/frictionlessdata" target="_blank">{{ $site.themeConfig.footer_col3_row2 }}</a>
+              <a href="/design/">{{ $site.themeConfig.footer_col3_row2 }}</a>
             </li>
             <li>
-              <a href="https://gitter.im/frictionlessdata/chat" target="_blank">{{ $site.themeConfig.footer_col3_row3 }}</a>
+              <a href="/blog/">{{ $site.themeConfig.footer_col3_row3 }}</a>
             </li>
           </ul>
         </div>
       </div>
     </div>
-  <!-- 
-            <div class="row">
-              <div class="col-sm-12">
-                <img src="" height="30" class="foot-logo" />
-                <img src="" height="40" class="foot-logo" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
   </footer>
 </template>
 
