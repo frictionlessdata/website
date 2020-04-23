@@ -62,3 +62,8 @@ Example: [Validata](https://go.validata.fr/), an adaptation of Goodtables for Fr
 Solution: Schema Catalog
 Example: [SCDL](https://scdl.opendatafrance.net/), Schema.data.gouv.fr, Schemas.frictionlessdata.io
 :::
+
+There's an ongoing conversation about this project on [Frictionless Data Forum][schema-catalog] and it's open to feedback and contribution.
+
+
+[schema-catalog]: https://github.com/frictionlessdata/forum/issues/5
