@@ -65,7 +65,7 @@ module.exports = {
     footer_col4_title: "Social",
     footer_col4_row1: "GitHub",
     footer_col4_row2: "Twitter",
-    footer_col4_row3: "Gitter",
+    footer_col4_row3: "Discord",
     footer_col4_row4: "Dev",
     sidebar: 'auto',
     nav: [
@@ -126,12 +126,13 @@ module.exports = {
         text: "Help",
         ariaLabel: "Help Menu",
         items: [
-          { text: "Community", link: "https://gitter.im/frictionlessdata/chat" },
+          { text: "Community", link: "https://discordapp.com/invite/Sewv6av" },
           { text: "Forum", link: "https://github.com/frictionlessdata/forum/issues" },
           { text: "Support", link: "/support/" },
+          { text: "Contribute", link: "/contribute/" }
         ]
       },
-      { text: "Contribute", link: "/contribute/" },
+      { text: "Reproducible Research", link: "/reproducible-research/" },
       { text: "Team", link: "/team/" },
       { text: "Case Studies", link: "/tag/case-studies/" },
       { text: "About", link: "/about/" },
