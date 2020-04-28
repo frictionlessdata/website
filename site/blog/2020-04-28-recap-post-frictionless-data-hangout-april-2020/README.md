@@ -4,7 +4,7 @@ date: 2020-04-28
 tags: ["events"]
 category: events
 image: /img/blog/frictionlessdata-hangout.png
-description: 
+description: Here's a recap from frictionless data community hangout with highlights and video recording.
 author: Gift Egwuenu
 ---
 
