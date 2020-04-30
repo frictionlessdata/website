@@ -19,7 +19,6 @@
             <img class="w-48 self-center md:block hidden" :src=" page.frontmatter.image || page.frontmatter.heroImage || 'https://i.ytimg.com/vi/lWHKVXxuci0/maxresdefault.jpg'" />
           </div>
           </div>
-          <hr>
         </li>
         </ul>
       <div class="flex justify-between" id="pagination">
