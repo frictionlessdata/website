@@ -190,7 +190,7 @@ module.exports = {
   ["@vuepress/back-to-top"], 
   ["@limdongjin/vuepress-plugin-simple-seo", {
     default_site_name: 'Frictionless Data',
-    default_image: './public/img/frictionless-color-logo.png'
+    default_image: '/img/frictionless-color-logo.png'
   }],
   ],
   head: [
