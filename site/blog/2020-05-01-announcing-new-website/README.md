@@ -4,7 +4,7 @@ date: 2020-05-01
 tags: ["news"]
 category: news
 image: /img/blog/fd-home.png
-description: We released a new website and in this article, we talked about some of the reasons we decided to do that and also highlighted the new changes.
+description: In this article, We talked about the reasons we decided redesign our website with a few highlights on the new changes made.
 author: Gift Egwuenu
 ---
 
