@@ -11,7 +11,7 @@
             href="#video-section"
           >Why Frictionless Data?</a>
           <a
-            class="bg-secondary bg-orange text-black cursor-pointer outline-none border border-solid border-black text-sm font-medium sm:ml-4 mt-2 sm:mt-0 py-4 px-6 hover:border-transparent rounded-full"
+            class="bg-secondary hover:bg-dark-blue text-black cursor-pointer outline-none border border-solid border-black text-sm font-medium sm:ml-4 mt-2 sm:mt-0 py-4 px-6 rounded-full"
             href="/guide/"
           >Get Started</a>
           </div>
