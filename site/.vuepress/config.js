@@ -123,6 +123,15 @@ module.exports = {
       //   ]
       // },
       {
+        text: "Use Cases",
+        ariaLabel: "Use Cases Menu",
+        items: [
+          { text: "Reproducible Research", link: "/reproducible-research/" },
+          { text: "Case Studies", link: "/tag/case-studies/" },
+          { text: "Pilots", link: "/tag/pilot/" }
+        ]
+      },
+      {
         text: "Help",
         ariaLabel: "Help Menu",
         items: [
@@ -132,9 +141,7 @@ module.exports = {
           { text: "Contribute", link: "/contribute/" }
         ]
       },
-      { text: "Reproducible Research", link: "/reproducible-research/" },
       { text: "Team", link: "/team/" },
-      { text: "Case Studies", link: "/tag/case-studies/" },
       { text: "About", link: "/about/" },
       { text: "Blog", link: "/blog/" }
     ]
