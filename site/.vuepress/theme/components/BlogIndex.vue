@@ -26,7 +26,7 @@
           <router-link class="pl-6" v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
           <router-link class="pl-6" v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
         </div>
-        <span> Page {{$pagination.paginationIndex}} </span>
+        <span> Page {{$pagination.paginationIndex + 1 }} of {{$pagination.length}} </span>
       </div>
       <br><br>
     </div>
