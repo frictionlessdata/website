@@ -18,21 +18,21 @@ features:
     <h1 class="text-center font-normal text-3xl px-12" id="more">For anyone who works with data<br/><small class="font-light text-xl">Especially diverse data and/or across tools or teams<hr></small></h1>
     <div class="features flex flex-row flex-wrap lg:px-40">
       <div class="w-full md:w-1/3 feature flex justify-center">
-        <div class="py-12 px-8">
+        <div class="py-12 px-8 text-center">
           <img src="/img/home/researchers-color.svg" height="223.375" />
           <h3 class="font-normal hover:underline">Researchers</h3>
           <p>Easily create reproducible research</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
-        <div class="py-12 px-8">
+        <div class="py-12 px-8 text-center">
           <img src="/img/home/dscientists-color.svg" height="223.375" />
           <h3 class="font-normal hover:underline">Data Scientists</h3>
           <p>Create pipelines without effort</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
-        <div class="py-12 px-8">
+        <div class="py-12 px-8 text-center">
           <img src="/img/home/dengineers-color.svg" height="223.375" />
           <h3 class="font-normal hover:underline">Data Engineers</h3>
           <p>Standardize data platforms</p>
@@ -42,14 +42,14 @@ features:
   </div>
 
 <div class="main-section py-10 black-text bg-secondary">
-  <div class="container mx-auto lg:w-3/5 text-center font-normal">
+  <div class="mx-auto lg:w-3/5 text-center font-normal">
     <h1 class="text-3xl lg:px-40" id="more">Data Integration and Management</h1><br/><small class="text-lg">Data integration is the job of bringing diverse data together, cleaning it up, knitting it together and pushing it into downstream applications, analytics or warehouses – and doing this reliably, repeatedly and automatedly.</small><hr class="mt-4"></h1>
   </div>
   <div class="flex flex-row flex-wrap w-3/4 mx-auto">
     <div class="lg:flex-1 flex-col pt-10">
       <div class="flex flex-row flex-wrap sm:flex-no-wrap">
         <div class="w-1/5 px-8">
-          <img class="w-2/3 pt-4 pl-8" src="/img/home/sourcing-data.svg" />
+          <img class="w-2/3 pt-4 pl-8 sm:px-0" src="/img/home/sourcing-data.svg" />
         </div>
         <div class="">
           <h3 class="font-normal hover:underline"> Sourcing Data </h3>
@@ -58,7 +58,7 @@ features:
       </div>
       <div class="flex flex-row flex-wrap sm:flex-no-wrap">
         <div class="w-1/5 px-8">
-          <img class="w-2/3 pt-4 pl-8" src="/img/home/transforming-data.svg" />
+          <img class="w-2/3 pt-4 pl-8 sm:px-0" src="/img/home/transforming-data.svg" />
         </div>
         <div class="">
           <h3 class="font-normal hover:underline"> Transforming Data </h3>
@@ -67,7 +67,7 @@ features:
       </div>
       <div class="flex flex-row flex-wrap sm:flex-no-wrap">
         <div class="w-1/5 px-8">
-          <img class="w-2/3 pt-4 pl-8" src="/img/home/pushing-data.svg" />
+          <img class="w-2/3 pt-4 pl-8 sm:px-0" src="/img/home/pushing-data.svg" />
         </div>
         <div class="">
           <h3 class="font-normal hover:underline"> Pushing and Storing Data </h3>
