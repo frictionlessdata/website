@@ -37,7 +37,7 @@ If you’d like to learn more about Frictionless before diving in, we created a 
 ### Getting Started
 
 :::warning INFO
-The official guide assumes some basic knowledge about data. If you are completely new to working with data, for example, you haven't heard of CSV or JSON or have never used a spreadsheet, it may be  best idea to get some of those basics anbd then come back! A good starting point would be the first module, "What is Data?", at [School of Data][scoda].
+The official guide assumes some basic knowledge about data. If you are completely new to working with data, for example, you haven't heard of CSV or JSON or have never used a spreadsheet, it may be  best idea to get some of those basics and then come back! A good starting point would be the first module, "What is Data?", at [School of Data][scoda].
 :::
 
 [scoda]: https://schoolofdata.org/
