@@ -37,15 +37,15 @@ If you’d like to learn more about Frictionless before diving in, we created a 
 ### Getting Started
 
 :::warning INFO
-The official guide assumes some basic knowledge about data. If you are new to working with data -- for example, you haven't heard of CSV or JSON or have never used a spreadsheet, it might not be the best idea to jump right into a framework as your first step -- grasp the basics, then come back! A good starting point would be the first module, "What is Data?", at [School of Data][scoda].
+The official guide assumes some basic knowledge about data. If you are completely new to working with data, for example, you haven't heard of CSV or JSON or have never used a spreadsheet, it may be  best idea to get some of those basics anbd then come back! A good starting point would be the first module, "What is Data?", at [School of Data][scoda].
 :::
 
 [scoda]: https://schoolofdata.org/
 
-The most straightforward way to try out Frictionless is using the Hello World example. Feel free to open it in another tab and follow along as we go through some basic examples. Or, you can create your CSV file.
-
 <!--
-[TODO: maybe install a tool to play along - either the CLI or maybe in python, JS or R. However, worry that this always a bit of an obstacle for people]
+TODO: The most straightforward way to try out Frictionless is using the Hello World example. Feel free to open it in another tab and follow along as we go through some basic examples. Or, you can create your CSV file.
+
+TODO: maybe install a tool to play along - either the CLI or maybe in python, JS or R. However, worry that this always a bit of an obstacle for people
 -->
 
 ### Declarative Data
