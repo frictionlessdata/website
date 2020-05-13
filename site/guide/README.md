@@ -48,12 +48,12 @@ TODO: The most straightforward way to try out Frictionless is using the Hello Wo
 TODO: maybe install a tool to play along - either the CLI or maybe in python, JS or R. However, worry that this always a bit of an obstacle for people
 -->
 
-### Declarative Data
+## Declarative Data
 
 At the core of Frictionless is a system that enables us to declaratively describe data (and datasets) using a straightforward syntax.
 
 
-### Table
+## Table
 
 A table is a collection of related **data** represented in **rows** and **columns**. In a table, the intersection between a row and a column is called a **cell**. Tables are widely used in different contexts and fields, ranging from data analysis to data research. 
 
@@ -110,7 +110,7 @@ Well done! 👏 You have just created your very first Frictionless Data!
 
 ### Validation
 
-Having errors in your data are not uncommon. They also often get in the way of quick and timely data analysis for many data users. Validating data helps ease the process of collecting data by checking the **quality** and **validity** of a data source before publishing it. 
+Having errors in your data is not uncommon. They also often get in the way of quick and timely data analysis for many data users. Validating data helps ease the process of collecting data by checking the **quality** and **validity** of a data source before publishing it. 
 
 Let's take a look at how to validate the tabular data we created in the previous section using the GoodTables [Python][py] and [JavaScript][js] libraries. GoodTables is a set of libraries and command-line tool for validating and transforming tabular data. These libraries exist to identify structural and content errors in your tabular data, so they can be fixed quickly. For example, a table schema contains information on fields and their assigned data types, making it possible to highlight misplaced data types (e.g. a string in an age column where an integer is expected, or an integer in an email column where a string is expected). 
 
@@ -247,14 +247,14 @@ The result shows that the CSV contains some structural errors:
   warnings: [] 
  }
 ```
-<!-- Explore more indepth demo and embed live examples created in the guide  -->
+>**Additonally, here's video walkthrough of the content outlined above**
+
+<iframe width="730" height="315" src="https://www.youtube.com/embed/PqtM6d696eY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [py]: https://github.com/frictionlessdata/goodtables-py
 [js]: https://github.com/frictionlessdata/goodtables-js
 [pip]:https://pip.pypa.io/en/stable/
 [json]:https://github.com/frictionlessdata/goodtables-py/blob/master/goodtables/schemas/report.json
-
-
 
 :::tip NOTE
 We can also use the Goodtables online tool to validate any tabular data.
@@ -291,6 +291,9 @@ Jack,jack@bar.com,33
 
 Of course, this build will fail because some structural errors were detected by GoodTables (**"Blank Header", "Missing value", and "Extra Value"**).
 
+>**Additionally, here's a video walkthrough of the content outlined above**
+
+<iframe width="730" height="315" src="https://www.youtube.com/embed/QSvbMmvhxN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Tabulator
 [Tabulator][Tabulator] is a consistent interface for reading and writing streams of tabular data, in Python and on the command line. Tabulator is a tool designed to help navigate dealing with data flows from diverse sources. Imagine when you have to work with some data that is human-generated and some that are machine-generated, and you need to handle a range of issues related to formatting, encoding, and markup. This is exactly what the Tabulator tool was designed to help with.
@@ -325,5 +328,8 @@ id, name
 
 [Tabulator]:https://github.com/frictionlessdata/tabulator-py
 
-Awesome! Let's dive deeper and learn about Data Resource.
+
+## Ready for More?
+
+We’ve briefly introduced the core concepts of Frictionless Data - the rest of the guide will cover more concepts and tooling with much more details. For the next section, let's move on  and learn about Data Resource.
 
