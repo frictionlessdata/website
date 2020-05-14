@@ -132,12 +132,13 @@ module.exports = {
         ]
       },
       {
-        text: "Help",
-        ariaLabel: "Help Menu",
+        text: "Community",
+        ariaLabel: "Community Menu",
         items: [
-          { text: "Community", link: "https://discordapp.com/invite/Sewv6av" },
+          { text: "Chat", link: "https://discordapp.com/invite/Sewv6av" },
           { text: "Forum", link: "https://github.com/frictionlessdata/forum/issues" },
           { text: "Support", link: "/support/" },
+          { text: "Events Calendar", link: "/events/" },
           { text: "Contribute", link: "/contribute/" }
         ]
       },
