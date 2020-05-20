@@ -1,7 +1,7 @@
 ---
 title: Announcing Frictionless Data Community Virtual Hangout - 20 April
 date: 2020-04-16
-tags: ["events"]
+tags: ["events", "community-hangout"]
 category: events
 image: /img/blog/community.jpg
 description: Invitation to our first virtual hangout in April 2020
