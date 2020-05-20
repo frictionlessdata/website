@@ -1,7 +1,7 @@
 ---
 title: Recap - Frictionless Data Community Virtual Hangout April 2020
 date: 2020-04-28
-tags: ["events"]
+tags: ["events", "community-hangout"]
 category: events
 image: /img/blog/frictionlessdata-hangout.png
 description: Here's a recap from the Frictionless Data community hangout with highlights and video recording.
