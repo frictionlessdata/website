@@ -57,6 +57,29 @@ At the core of Frictionless is a system that enables us to declaratively describ
 
 A table is a collection of related **data** represented in **rows** and **columns**. In a table, the intersection between a row and a column is called a **cell**. Tables are widely used in different contexts and fields, ranging from data analysis to data research. 
 
+Tables come in different variants, CSV, JSON, and Excel formats. Here's an example of each of these formats.
+
+```csv
+Name,Email,Age
+Jill,jill@foo.com,25
+Jack,jack@bar.com,33
+```
+
+```json
+{
+  "name": "Jill",
+  "email": "Jill@foo.com",
+  "age": "25"
+}
+```
+
+
+```excel
+Name,Email,Age
+Jill,jill@foo.com,25
+Jack,jack@bar.com,33
+```
+
 ### Table Schema
 
 Table Schema is a specification for providing a “schema” (similar to a [database schema](https://en.wikipedia.org/wiki/Database_schema)) for tabular data. This information includes the expected type of each value in a column *(“string”, “number”, “date”, etc.)*, constraints on the value *(“this string can only be at most 10 characters long”)*, and the expected format of the data *(“this field should only contain strings that look like email addresses")*. Table Schema can also specify relations between tables.
