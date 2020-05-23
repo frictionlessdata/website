@@ -8,7 +8,7 @@ description:
 author: Geoffrey Aldebert, Antoine Augusti
 ---
 
-In June 2019, [Etalab](https://etalab.gouv.fr), a department of the French interministerial digital service (DINUM), launched [schema.data.gouv.fr](schema.data.gouv.fr), a platform listing schemas for France. It could be described as what Johan Richer recently called a [schema catalog](https://frictionlessdata.io/blog/2020/04/23/table-schema-catalog/). This project is an initiative of data.gouv.fr, the French open data platform, which is developed and maintained by Etalab.
+In June 2019, [Etalab](https://etalab.gouv.fr), a department of the French interministerial digital service (DINUM), launched [schema.data.gouv.fr](https://schema.data.gouv.fr), a platform listing schemas for France. It could be described as what Johan Richer recently called a [schema catalog](https://frictionlessdata.io/blog/2020/04/23/table-schema-catalog/). This project is an initiative of data.gouv.fr, the French open data platform, which is developed and maintained by Etalab.
 
 ![schema.gouv.fr homepage](/img/blog/schema.gouv.fr.png)
 
