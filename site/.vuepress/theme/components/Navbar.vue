@@ -111,7 +111,7 @@ $navbar-horizontal-padding = 1.5rem
     height $navbarHeight - 1.4rem
     min-width $navbarHeight - 1.4rem
     margin-right 0.8rem
-    vertical-align middle
+    vertical-align top
     position relative
     z-index 10
   .site-name
