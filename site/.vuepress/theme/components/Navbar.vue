@@ -26,15 +26,18 @@
         'max-width': linksWrapMaxWidth + 'px'
       } : {}"
     >
-    <a class="navbaricon" href="https://discordapp.com/invite/Sewv6av" title="Discord"><img class="px-2 w-5 pt-4" src="/img/home/dev-icon.svg"/></a>
-    <a class="navbaricon" href="https://twitter.com/frictionlessd8a" title="Twitter"><img class="px-2 w-5 pt-4" src="/img/home/twitter-icon.svg"/></a>
+    
+      <NavLinks class="can-hide"/>
 
       <AlgoliaSearchBox
         v-if="isAlgoliaSearch"
         :options="algolia"
       />
       <SearchBox class="md:pl-4" v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false"/>
-      <NavLinks class="can-hide"/>
+
+      <a class="navbaricon" href="https://discordapp.com/invite/Sewv6av" title="Discord"><img class="px-2 w-5 pt-4" src="/img/home/dev-icon.svg"/></a>
+      <a class="navbaricon" href="https://twitter.com/frictionlessd8a" title="Twitter"><img class="px-2 w-5 pt-4" src="/img/home/twitter-icon.svg"/></a>
+
     </div>
   </header>
 </template>
@@ -108,14 +111,16 @@ $navbar-horizontal-padding = 1.5rem
     height $navbarHeight - 1.4rem
     min-width $navbarHeight - 1.4rem
     margin-right 0.8rem
-    vertical-align top
+    vertical-align middle
+    position relative
+    z-index 10
   .site-name
     font-size 1.3rem
     font-weight 600
     color $textColor
     position relative
   .links
-    padding-left 1.5rem
+    padding-left 13.5rem
     box-sizing border-box
     background-color white
     white-space nowrap
