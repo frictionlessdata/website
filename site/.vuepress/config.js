@@ -83,6 +83,7 @@ module.exports = {
         ariaLabel: "Learn Menu",
         items: [
           { text: "Guide", link: "/guide/" },
+          { text: "How-to guides", link: "/how-to/" },
           { text: "Table Schema", link: "/table-schema/" },
           { text: "Data Package", link: "/data-package/" },
         ]
