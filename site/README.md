@@ -97,7 +97,7 @@ features:
   <div class="inner-container">
     <h1 class="text-center text-3xl font-normal">Some of our Tooling</h1>
     <hr>
-    <div class="py-10 mx-auto flex flex-row flex-wrap lg:justify-between justify-center">
+    <div class="py-10 mx-auto flex flex-row flex-wrap lg:justify-between text-center justify-center">
       <div class="sm:w-2/5 lg:w-1/5 flex flex-col tooling-card">
         <div class="image-border">
           <img class="w-20 mx-auto" src="/img/home/data-package-new.svg"></img>
