@@ -97,43 +97,43 @@ features:
   <div class="inner-container">
     <h1 class="text-center text-3xl font-normal">Some of our Tooling</h1>
     <hr>
-    <div class="py-6 mx-auto flex flex-row flex-wrap lg:justify-between">
-      <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
+    <div class="py-10 mx-auto flex flex-row flex-wrap lg:justify-between justify-center">
+      <div class="sm:w-2/5 lg:w-1/5 flex flex-col tooling-card">
         <div class="image-border">
           <img class="w-20 mx-auto" src="/img/home/data-package-new.svg"></img>
         </div>
-        <div class="card-details">
-          <a href="/tooling/data-package-tools/" class="text-2xl text-black hover:underline">Data Package</a>
+        <div class="card-details text-center pt-10">
+          <a href="/tooling/data-package-tools/" class="text-xl text-black hover:underline">Data Package</a>
           <p class="text-lg font-light pt-4">Simple container format used to describe and package data.</p>
           <a href="/tooling/data-package-tools/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
       </div>
-      <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
+      <div class="sm:w-2/5 lg:w-1/5 my-16 flex flex-col tooling-card">
         <div class="image-border">
           <img class="w-20 mx-auto" src="/img/home/datahub-new2.svg"></img>
         </div>
-        <div class="card-details">
-          <a href="/tooling/goodtables/" class="text-2xl text-black hover:underline">DataHub</a>
+        <div class="card-details text-center pt-10">
+          <a href="/tooling/goodtables/" class="text-xl text-black hover:underline">DataHub</a>
           <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
           <a href="/tooling/datahub/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
       </div>
-      <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
+      <div class="sm:w-2/5 lg:w-1/5 my-16 flex flex-col tooling-card">
         <div class="image-border">
           <img class="w-20 mx-auto" src="/img/home/goodtables-new.svg"></img>
         </div>
-        <div class="card-details">
-          <a href="/tooling/goodtables/" class="text-2xl text-black hover:underline">GoodTables</a>
+        <div class="card-details text-center pt-10">
+          <a href="/tooling/goodtables/" class="text-xl text-black hover:underline">GoodTables</a>
           <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
           <a href="/tooling/goodtables/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
       </div>
-      <div class="w-full sm:w-2/5 lg:w-1/5 my-16 text-center tooling-card">
+      <div class="sm:w-2/5 lg:w-1/5 my-16 flex flex-col  tooling-card">
         <div class="image-border">
           <img class="w-20 mx-auto" src="/img/home/dataflows-new.svg"></img>
         </div>
-        <div class="card-details">
-          <a href="/tooling/goodtables/" class="text-2xl text-black hover:underline">DataFlows</a>
+        <div class="card-details text-center pt-10">
+          <a href="/tooling/goodtables/" class="text-xl text-black hover:underline">DataFlows</a>
           <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
           <a href="/tooling/data-package-pipelines/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
@@ -221,7 +221,7 @@ hr {
 }
 
 .tooling-card {
-  min-width: 44%;
+  min-width: 14%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -235,7 +235,6 @@ hr {
   min-width: 80px;
   min-height: 80px;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
