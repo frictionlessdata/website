@@ -35,8 +35,9 @@
       />
       <SearchBox class="md:pl-4" v-else-if="$site.themeConfig.search !== false && $page.frontmatter.search !== false"/>
 
-      <a class="navbaricon" href="https://discordapp.com/invite/Sewv6av" title="Discord"><img class="px-2 w-5 pt-4" src="/img/home/dev-icon.svg"/></a>
-      <a class="navbaricon" href="https://twitter.com/frictionlessd8a" title="Twitter"><img class="px-2 w-5 pt-4" src="/img/home/twitter-icon.svg"/></a>
+      <a class="navbaricon" :href="$site.themeConfig.navbar_icon1_link" :title="$site.themeConfig.navbar_icon1_title"><img class="px-2 w-5 pt-4" :src="$site.themeConfig.navbar_icon1_image"/></a>
+      <a class="navbaricon" :href="$site.themeConfig.navbar_icon2_link" :title="$site.themeConfig.navbar_icon2_title"><img class="px-2 w-5 pt-4" :src="$site.themeConfig.navbar_icon2_image"/></a>
+      <a class="navbaricon" :href="$site.themeConfig.navbar_icon3_link" :title="$site.themeConfig.navbar_icon3_title"><img class="px-2 w-5 pt-4" :src="$site.themeConfig.navbar_icon3_image"/></a>
 
     </div>
   </header>

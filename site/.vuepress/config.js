@@ -67,6 +67,15 @@ module.exports = {
     footer_col4_row2: "Twitter",
     footer_col4_row3: "Discord",
     footer_col4_row4: "Dev",
+    navbar_icon1_link: "https://discordapp.com/invite/Sewv6av",
+    navbar_icon1_image: "/img/home/discord-icon.svg",
+    navbar_icon1_title: "Discord",
+    navbar_icon2_link: "https://twitter.com/frictionlessd8a",
+    navbar_icon2_image: "/img/home/twitter-icon.svg",
+    navbar_icon2_title: "Twitter",
+    navbar_icon3_link: "https://github.com/frictionlessdata/project/",
+    navbar_icon3_image: "/img/home/github-icon.svg",
+    navbar_icon3_title: "GitHub",
     sidebar: 'auto',
     nav: [
       {
