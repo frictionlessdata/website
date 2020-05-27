@@ -56,10 +56,10 @@ For more information on each specification, see below:
 
 - [Full Specification][spec-csvddf]
 
-[dp]: /products/data-package
+[dp]: /tooling/data-package-tools
 [dp-main]: /data-package
 [tdp]: /blog/2016/07/21/publish-tabular/
-[ts]: /products/table-schema/
+[ts]: /tooling/table-schema-tools 
 [ts-types]: https://specs.frictionlessdata.io/table-schema/#field-descriptors
 [csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
