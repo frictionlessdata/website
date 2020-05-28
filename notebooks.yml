@@ -1,0 +1,5 @@
+target: site/how-to
+source:
+    how-to-use-data-packages-with-pandas: https://colab.research.google.com/drive/1t2XmM2HgEOSDF-k9BdIHQtxfNmQsX1Gn
+    how-to-use-data-packages-with-ckan: https://colab.research.google.com/drive/18xFFAooVcca5wfW-7hW_juLkaTdN9FI0
+    how-to-load-data-packages-into-bigquery: https://colab.research.google.com/drive/1K5FqvkBvwruGOpyw_N8H7o9EKvZo7u7e

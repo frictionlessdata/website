@@ -22,6 +22,7 @@
   },
   "scripts": {
     "build": "npx vuepress build site",
-    "start": "npx vuepress dev site"
+    "start": "npx vuepress dev site",
+    "notebooks": "python3 -m pip install -q pyyaml gdown nbconvert && python3 notebooks.py"
   }
 }
