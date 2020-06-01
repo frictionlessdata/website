@@ -26,7 +26,7 @@ Tabulator is part of [Frictionless Data](https://frictionlessdata.io), a project
  
 Tabulator is useful as the core building block for your data fetching and data processing code.
  
-Tabulator is used at the core of several other Frictionless Data tools, such as [GoodTables](/products/goodtables/) and [DataFlows](https://www.dataflows.org/).
+Tabulator is used at the core of several other Frictionless Data tools, such as [GoodTables](/tooling/goodtables/) and [DataFlows](https://www.dataflows.org/).
  
 ## A simple example
  
