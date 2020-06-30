@@ -17,4 +17,11 @@ The hangout is scheduled to hold on **25th June 2020 at 5 pm BST / 4 PM UTC**. I
 Looking forward to seeing you there!
 
 
+## Community Hangout Recording
+
+If you missed the community hangout and will like to catch up on what was discussed, here's a recording of the hangout.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xBu855rFiOM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
