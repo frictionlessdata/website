@@ -20,21 +20,21 @@ features:
       <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="py-12 px-8 text-center">
           <img src="/img/home/researchers-color.svg" height="223.375" />
-          <h3 class="font-normal hover:underline">Researchers</h3>
+          <h3 class="font-normal">Researchers</h3>
           <p>Easily create reproducible research</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="py-12 px-8 text-center">
           <img src="/img/home/dscientists-color.svg" height="223.375" />
-          <h3 class="font-normal hover:underline">Data Scientists</h3>
+          <h3 class="font-normal">Data Scientists</h3>
           <p>Create pipelines without effort</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="py-12 px-8 text-center">
           <img src="/img/home/dengineers-color.svg" height="223.375" />
-          <h3 class="font-normal hover:underline">Data Engineers</h3>
+          <h3 class="font-normal">Data Engineers</h3>
           <p>Standardize data platforms</p>
         </div>
       </div>
@@ -52,7 +52,7 @@ features:
           <img class="w-2/3 pt-4 pl-8 sm:px-0" src="/img/home/sourcing-data.svg" />
         </div>
         <div class="">
-          <h3 class="font-normal hover:underline"> Sourcing Data </h3>
+          <h3 class="font-normal"> Sourcing Data </h3>
           <p class="xxl:w-2/3"> Data integration work will require a way to reliably discover internal and external data assets. </p>
         </div>
       </div>
@@ -61,7 +61,7 @@ features:
           <img class="w-2/3 pt-4 pl-8 sm:px-0" src="/img/home/transforming-data.svg" />
         </div>
         <div class="">
-          <h3 class="font-normal hover:underline"> Transforming Data </h3>
+          <h3 class="font-normal"> Transforming Data </h3>
           <p class="xxl:w-2/3"> Data often requires some cleaning (integration) and conversions from one format to another. </p>
         </div>
       </div>
@@ -70,7 +70,7 @@ features:
           <img class="w-2/3 pt-4 pl-8 sm:px-0" src="/img/home/pushing-data.svg" />
         </div>
         <div class="">
-          <h3 class="font-normal hover:underline"> Pushing and Storing Data </h3>
+          <h3 class="font-normal"> Pushing and Storing Data </h3>
           <p class="xxl:w-2/3"> With the data explosion it has become a job in itself to manage data - to push and store data. </p>
         </div>
       </div>
