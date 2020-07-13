@@ -3,7 +3,7 @@ title: Adding Data Package Specifications to InterMine’s im-tables
 date: 2020-07-10
 tags: ["tool-fund"]
 category: grantee-profiles
-image: /img/blog/fd_reproducible.png
+image: /img/blog/nikhilvats.jpeg
 description: This grantee profile features Nikhil Vats for our series of Frictionless Data Tool Fund posts...
 author: Nikhil Vats
 ---
