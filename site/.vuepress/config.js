@@ -149,7 +149,8 @@ module.exports = {
           { text: "Forum", link: "https://github.com/frictionlessdata/forum/issues" },
           { text: "Support", link: "/support/" },
           { text: "Events Calendar", link: "/events/" },
-          { text: "Contribute", link: "/contribute/" }
+          { text: "Contribute", link: "/contribute/" },
+          { text: "Code of Conduct", link: "/code-of-conduct/" }
         ]
       },
       { text: "Team", link: "/team/" },
