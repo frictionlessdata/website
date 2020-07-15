@@ -3,12 +3,12 @@ The goal of this Code of Conduct is to make explicit the type of participation t
 
 This Code of Conduct applies to all the projects that Frictionless Data hosts/organises and describes the standards of behaviour that we expect all our partners to observe when taking part in our projects. We expect all voices to be welcomed at our events and strive to empower everyone to feel able to participate fully.
 
-## This Code is applicable to:
+## This Code is applicable to
 * All public areas of participation, including but not limited to discussion forums, mailing lists, issue trackers, social media, and in-person venues such as conferences and workshops.
 * All private areas of participation, including but not limited to email and closed platforms such as Slack.
 * Any project that Frictionless Data leads on or partners in.
 
-## What we expect:
+## What we expect
 The following behaviours are expected from all project participants, including Frictionless Data core team members, project partners, and all other participants.
 
 * Lead by example by being considerate in your actions and decisions.
@@ -17,7 +17,7 @@ The following behaviours are expected from all project participants, including F
 * We all make mistakes, and when we do, we take responsibility for them.
 * Be mindful of your fellow participants. If someone is in distress, or if someone is in violation of these guidelines, reach out.
 
-## What we find unacceptable:
+## What we find unacceptable
 We do not tolerate harassment of participants at our events in any form. Harassment includes offensive verbal comments, deliberate intimidation, harassing photography or recording, inappropriate physical contact and unwanted sexual attention. Anything that makes someone feel uncomfortable could be deemed harassment. For more information and examples about what constitutes harassment, please refer to [OpenCon’s Code of Conduct in Brief](https://www.opencon2018.org/code_of_conduct) and the [Gathering for Open Source Hardware’s examples of behaviour](http://openhardware.science/gosh-2017/gosh-code-of-conduct/).
 
 This non-exhaustive list shows examples of behaviours that are unacceptable from all participants:
@@ -34,14 +34,14 @@ This non-exhaustive list shows examples of behaviours that are unacceptable from
 * Sustained disruption of conference events, including talks and presentations.
 * Advocating for, or encouraging, any of the above behaviour.
 
-## Consequences of unacceptable behaviour:
+## Consequences of unacceptable behaviour
 Unacceptable behaviour from any participant in any public or private forum around projects we are involved in, including those with decision-making authority, will not be tolerated.
 
 Anyone asked to stop unacceptable behaviour is expected to comply immediately.
 
 If a participant engages in unacceptable behaviour, any action deemed appropriate will be taken, up to and including a temporary ban, permanent expulsion from participatory forums, or reporting to local law enforcement for criminal offences.
 
-## Reporting:
+## Reporting
 If you are subject to, or witness, unacceptable behaviour, or have any other concerns, please email frictionlessdata@okfn.org. We will handle all reports with discretion, and you can report anonymously if you wish using [this form](https://docs.google.com/forms/d/e/1FAIpQLSfoly-CZT9ZONcns4uG7BsoxGObRqgTlI6NdfvlYSCRVyy_QQ/viewform?usp=sf_link).
 
 In your report, please do your best to include:
@@ -59,8 +59,8 @@ Your contact information (unless you wish to report anonymously)
 
 We will fully investigate any reports, follow up with the reportee (unless it is an anonymous report), and we will work with the reportee (unless anonymous) to decide what action to take. If the complaint is about someone on the response team, that person will recuse themselves from handling the response.
 
-## Confidentiality:
+## Confidentiality
 All reports will be kept confidential. When we discuss incidents with people who are reported, we will anonymize details as much as we can to protect reporter privacy. In some cases we may determine that a public statement will need to be made. If that’s the case, the identities of all victims and reporters will remain confidential unless those individuals instruct us otherwise.
 
-## License and attribution:
+## License and attribution
 This Code of Conduct is distributed under a [Creative Commons Attribution-ShareAlike license](https://creativecommons.org/licenses/by-sa/4.0/). It draws heavily on the [Open Knowledge Foundation Code of Conduct](https://okfn.org/about/code-of-conduct/), which is based on this [Mozilla Code of Conduct](https://wiki.mozilla.org/Participation/Community_Gatherings/Brazil_2016/Code_of_Conduct), the School of Data Code of Conduct, and the [csv,conf Code of Conduct](https://csvconf.com/coc/).
