@@ -1,29 +1,63 @@
-require('dotenv').config()
-const webpack = require('webpack')
+require("dotenv").config();
+const webpack = require("webpack");
 
 module.exports = {
   title: "Frictionless Data",
   description: "Bringing simplicity and gracefulness to the data experience",
   head: [
-    ['link', { rel: "icon", href: "./public/img/favicon.ico"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "32x32", href: "./public/img/favicon-32x32.png"}],
-    ['link', { rel: "icon", type: "image/png", sizes: "16x16", href: "./public/img/favicon-16x16.png"}],
-    ['link', { rel: "apple-touch-icon", sizes: "180x180", href: "./public/img/apple-touch-icon.png"}],
-    ['link', { rel: "mask-icon", color: "#000000", href: "./public/img/safari-pinned-tab.svg"}],
-    ['link', { rel: "manifest", href: "./public/img/site.webmanifest"}],
-    ['link', { rel: "stylesheet", href: "https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap" }],
+    ["link", { rel: "icon", href: "./public/img/favicon.ico" }],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "32x32",
+        href: "./public/img/favicon-32x32.png",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "icon",
+        type: "image/png",
+        sizes: "16x16",
+        href: "./public/img/favicon-16x16.png",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+        href: "./public/img/apple-touch-icon.png",
+      },
+    ],
+    [
+      "link",
+      {
+        rel: "mask-icon",
+        color: "#000000",
+        href: "./public/img/safari-pinned-tab.svg",
+      },
+    ],
+    ["link", { rel: "manifest", href: "./public/img/site.webmanifest" }],
+    [
+      "link",
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css?family=Lato:300,400,700,900&display=swap",
+      },
+    ],
   ],
   postcss: {
     plugins: [
       require("tailwindcss")("./tailwind.config.js"),
-      require("autoprefixer")
-    ]
+      require("autoprefixer"),
+    ],
   },
   configureWebpack: (config) => {
-    return { plugins: [
-      new webpack.EnvironmentPlugin({ ...process.env })
-    ]
-    }
+    return { plugins: [new webpack.EnvironmentPlugin({ ...process.env })] };
   },
   markdown: {
     linkify: true,
@@ -31,11 +65,11 @@ module.exports = {
     breaks: true,
     html: true,
     toc: {
-      includeLevel: [2, 3]
+      includeLevel: [2, 3],
     },
-    extendMarkdown: md => {
+    extendMarkdown: (md) => {
       md.use(require("markdown-it-footnote"));
-    }
+    },
   },
   themeConfig: {
     logo: "/img/frictionless-color-full-logo.svg",
@@ -43,7 +77,7 @@ module.exports = {
     // repoLabel: "GitHub",
     docsRepo: "https://github.com/frictionlessdata/website-v2",
     docsDir: "site",
-    lastUpdated: 'Last Updated',
+    lastUpdated: "Last Updated",
     // defaults to false, set to true to enable
     editLinks: true,
     smoothScroll: true,
@@ -76,7 +110,7 @@ module.exports = {
     navbar_icon3_link: "https://github.com/frictionlessdata/project/",
     navbar_icon3_image: "/img/home/github-icon.svg",
     navbar_icon3_title: "GitHub",
-    sidebar: 'auto',
+    sidebar: "auto",
     nav: [
       {
         text: "Learn",
@@ -86,30 +120,39 @@ module.exports = {
           { text: "How-to guides", link: "/how-to/" },
           { text: "Table Schema", link: "/table-schema/" },
           { text: "Data Package", link: "/data-package/" },
-        ]
+        ],
       },
       {
         text: "Tooling",
         ariaLabel: "Tooling Menu",
         items: [
-          { text: "Table Schema Tools", link: "/tooling/table-schema-tools/" },
-          { text: "Data Package Tools", link: "/tooling/data-package-tools/" },
-          { text: "Tabulator", link: "/tooling/tabulator/" },
-          { text: "GoodTables", link: "/tooling/goodtables/" },
-          { text: "Data Package Pipelines", link: "/tooling/data-package-pipelines/" },
-          { text: "DataHub", link: "/tooling/datahub/" },
+          { text: "Application", link: "/tooling/application/" },
+          { text: "For Python", link: "/tooling/python/" },
+          { text: "For JavaScript", link: "/tooling/javascript/" },
+          { text: "For R-Lang", link: "/tooling/rlang/" },
+          { text: "SDKs", link: "/tooling/sdks/" },
           {
-            items: [{ text: "Labs", link: "/tooling/labs/" }]
-          }
-        ]
+            items: [
+              { text: "GoodTables", link: "/tooling/others/goodtables/" },
+              { text: "DataHub", link: "/tooling/others/datahub/" },
+              { text: "Labs", link: "/tooling/others/labs/" },
+            ],
+          },
+        ],
       },
       {
         text: "Specs",
         ariaLabel: "Specs Menu",
         items: [
-          { text: "Table Schema", link: "https://specs.frictionlessdata.io/table-schema/" },
-          { text: "Data Package", link: "https://specs.frictionlessdata.io/data-package/" },
-        ]
+          {
+            text: "Table Schema",
+            link: "https://specs.frictionlessdata.io/table-schema/",
+          },
+          {
+            text: "Data Package",
+            link: "https://specs.frictionlessdata.io/data-package/",
+          },
+        ],
       },
       // {
       //   text: "Jobs to be done",
@@ -138,32 +181,35 @@ module.exports = {
         items: [
           { text: "Reproducible Research", link: "/reproducible-research/" },
           { text: "Case Studies", link: "/tag/case-studies/" },
-          { text: "Pilots", link: "/tag/pilot/" }
-        ]
+          { text: "Pilots", link: "/tag/pilot/" },
+        ],
       },
       {
         text: "Community",
         ariaLabel: "Community Menu",
         items: [
           { text: "Chat", link: "https://discordapp.com/invite/Sewv6av" },
-          { text: "Forum", link: "https://github.com/frictionlessdata/forum/issues" },
+          {
+            text: "Forum",
+            link: "https://github.com/frictionlessdata/forum/issues",
+          },
           { text: "Support", link: "/support/" },
           { text: "Events Calendar", link: "/events/" },
           { text: "Contribute", link: "/contribute/" },
-          { text: "Code of Conduct", link: "/code-of-conduct/" }
-        ]
+          { text: "Code of Conduct", link: "/code-of-conduct/" },
+        ],
       },
       { text: "Team", link: "/team/" },
       { text: "About", link: "/about/" },
-      { text: "Blog", link: "/blog/" }
-    ]
+      { text: "Blog", link: "/blog/" },
+    ],
   },
   plugins: [
     [
       "@vuepress/plugin-google-analytics",
       {
-        ga: "UA-33874954-38"
-      }
+        ga: "UA-33874954-38",
+      },
     ],
     [
       "@vuepress/blog",
@@ -178,42 +224,47 @@ module.exports = {
             path: "/blog/",
             itemPermalink: "/blog/:year/:month/:day/:slug",
             pagination: {
-              lengthPerPage: 10
-            }
-          }
+              lengthPerPage: 10,
+            },
+          },
         ],
         frontmatters: [
           {
             id: "tag",
             keys: ["tag", "tags"],
             path: "/tag/",
-            layout: 'Tags',
-            scopeLayout: 'Tag',
-            frontmatter: { title: "Tag" }
-          }
-        ]
-      }
+            layout: "Tags",
+            scopeLayout: "Tag",
+            frontmatter: { title: "Tag" },
+          },
+        ],
+      },
     ],
     ["@vuepress/back-to-top"],
-    ["vuepress-plugin-dehydrate", {
-      // disable SSR
-      noSSR: '404.html',
-      // remove scripts
-      noScript: [
-        // support glob patterns
-        'foo/*.html',
-        '**/static.html',
-      ],
-    }
-  ],
-  ["@vuepress/back-to-top"], 
-  ["@limdongjin/vuepress-plugin-simple-seo", {
-    default_site_name: 'Frictionless Data',
-    default_image: '/img/frictionless-color-logo.png'
-  }],
+    [
+      "vuepress-plugin-dehydrate",
+      {
+        // disable SSR
+        noSSR: "404.html",
+        // remove scripts
+        noScript: [
+          // support glob patterns
+          "foo/*.html",
+          "**/static.html",
+        ],
+      },
+    ],
+    ["@vuepress/back-to-top"],
+    [
+      "@limdongjin/vuepress-plugin-simple-seo",
+      {
+        default_site_name: "Frictionless Data",
+        default_image: "/img/frictionless-color-logo.png",
+      },
+    ],
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],
-    ["script", { src: "https://unpkg.com/svg.js@2.7.1" }]
-  ]
+    ["script", { src: "https://unpkg.com/svg.js@2.7.1" }],
+  ],
 };
