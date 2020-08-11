@@ -2,3 +2,5 @@ node_modules/*
 site/.vuepress/dist/*
 sandbox/*
 .env
+
+.vercel
