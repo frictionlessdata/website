@@ -4,7 +4,7 @@
 
 
 
-Extracting data means reading tabular data from some source. We can use various customization for this process as though providing a file format, table schema, limiting fields or rows amount, and many more. Let's see on real files:
+Extracting data means reading tabular data from some source. We can use various customizations for this process such as providing a file format, table schema, limiting fields or rows amount, and much more. Let's see this with real files:
 
 
 ```bash
@@ -96,9 +96,9 @@ $ frictionless extract --source-type table
 The `extract` functions always read data in a form of rows (see the object description below) into memory. The lower-level interfaces will allow you to stream data and various output forms.
 
 
-### Extracting Package
+### Extracting a Package
 
-The easiest way is to use a command line-interface. We're going to provide two files to the `extract` command which will be enough to detect that it's a dataset:
+Let's start by using the command line-interface. We're going to provide two files to the `extract` command which will be enough to detect that it's a dataset:
 
 
 ```bash
@@ -126,7 +126,7 @@ The easiest way is to use a command line-interface. We're going to provide two f
        5             4  Spain              47
 
 
-In Python we have can do the same providing a glob for the `extract` function but instead we will use `extract_package` providing a package descriptor:
+In Python we can do the same by providing a glob for the `extract` function, but instead we will use `extract_package` by providing a package descriptor:
 
 
 ```python
@@ -212,9 +212,9 @@ resource.to_yaml('capital.resource.yaml')
 
 So what's happened? We set textual representation of the number "3" to be a missing value. It was done only for the presentational purpose because it's definitely not a missing value. On the other hand, it demonstrated how metadata can be used.
 
-### Extracting Table
+### Extracting a Table
 
-While the package and resource concepts contain both data and metadata, a table is solely data. Because of this fact we can provide much more options to the `extract_table` function. Most of this options are encapsulated into the resource descriptor as we saw with the `missingValues` example above. We will reproduce it:
+While the package and resource concepts contain both data and metadata, a table is solely data. Because of this fact we can provide many more options to the `extract_table` function. Most of these options are encapsulated into the resource descriptor as we saw with the `missingValues` example above. We will reproduce it:
 
 
 ```python
@@ -231,11 +231,11 @@ pprint(rows)
      Row([('id', 5), ('name', 'Rome')])]
 
 
-We got an identical result but it's important to understand that on the table level we need to provide all the metadata options separately while a resource encapsulate all these metadata. Please check the `extract_table` API Reference as it has a lot of options. We're going to discuss some of the below.
+We got an identical result but it's important to understand that on the table level we need to provide all the metadata options separately while a resource encapsulate all these metadata. Please check the `extract_table` API Reference as it has a lot of options. We're going to discuss some of them below.
 
 ## Extraction Options
 
-All the `extract` fuction accept the only one common argument:
+All the `extract` fuctions accept only one common argument:
 - `process`: it's a function getting a row object and returning whatever is needed as an ouput of the data extraction e.g. `lambda row: row.to_dict()`
 
 
@@ -245,7 +245,7 @@ These `extract` functions doesn't accept any additional arguments.
 
 **Table**
 
-We will take a loot at all the `extract_table` options in the sections below. As an overview, it accepts:
+We will take a look at all the `extract_table` options in the sections below. As an overview, it accepts:
 - File Details
 - File Control
 - Table Dialect
@@ -287,7 +287,7 @@ pprint(package.get_resource('capital-3').read_rows())
      Row([('id', 5), ('name', 'Rome')])]
 
 
-The package by itself doesn't provide any read functions directly as it's a role of its resources. So all the written below for the Resource class can be used withing a package.
+The package by itself doesn't provide any read functions directly as it's a role of its resources. So everything written below for the Resource class can be used within a package.
 
 
 ## Using Resource
@@ -301,14 +301,14 @@ The Resource class is also a metadata class which provides various read and stre
 
 **Exploring Data**
 
-There are various function helping to explore your resource as checking headers, and other attributes as stats:
+There are various functions to help explore your resource, such as checking a header or other attributes like stats:
 
 
 ```python
 from frictionless import Resource
 
 resource = Resource('country.resource.json')
-pprint(resource.read_headers())
+pprint(resource.read_header())
 pprint(resource.read_sample())
 pprint(resource.read_stats())
 ```
@@ -374,10 +374,10 @@ for row in resource.read_row_stream():
   print(row)
 ```
 
-    <frictionless.loader.ByteStreamWithStatsHandling object at 0x7fbee43266a0>
+    <frictionless.loader.ByteStreamWithStatsHandling object at 0x7f14758c8c88>
     <_io.TextIOWrapper name='country-3.csv' encoding='utf-8'>
-    <generator object Resource.read_data_stream at 0x7fbee4299150>
-    <generator object Resource.read_row_stream at 0x7fbee4299150>
+    <generator object Resource.read_data_stream at 0x7f147591aa98>
+    <generator object Resource.read_row_stream at 0x7f147591aa98>
     Row([('id', 1), ('capital_id', 1), ('name', 'Britain'), ('population', 67)])
     Row([('id', 2), ('capital_id', 3), ('name', 'France'), ('population', 67)])
     Row([('id', 3), ('capital_id', 2), ('name', 'Germany'), ('population', 83)])
@@ -387,7 +387,7 @@ for row in resource.read_row_stream():
 
 ## Using Table
 
-The Table class is at heart of all the tabular capabilities of Frictionless. It's used by all the higher-level class and provides a comprehensive user interface by itself. The main difference with, for example, Resource class that Table has a state of a lower-level file descriptor and needs to be opened and closed. Usually we use a context manager (the `with` keyword) to work with Table. In-general, Table is a streaming interface that needs to be re-opened if data is already read.
+The Table class is at the heart of all the tabular capabilities of Frictionless. It's used by all the higher-level classes and provides a comprehensive user interface by itself. The main difference with, for example, Resource class is that Table has a state of a lower-level file descriptor and needs to be opened and closed. Usually we use a context manager (the `with` keyword) to work with Table. In-general, Table is a streaming interface that needs to be re-opened if data is already read.
 
 
 **Exploring Data**
@@ -418,7 +418,7 @@ with Table('capital-3.csv') as table:
     Compression Path: ""
 
 
-There are much more information available; we will explain some of it later in the the sections below:
+There is much more information available; we will explain some of it later in the sections below:
 
 
 ```python
@@ -428,8 +428,8 @@ with Table('capital-3.csv') as table:
   print(f'Control: "{table.control}"')
   print(f'Dialect: "{table.dialect}"')
   print(f'Query: "{table.query}"')
+  print(f'Header: "{table.header}"')
   print(f'Schema: "{table.schema}"')
-  print(f'Headers: "{table.headers}"')
   print(f'Sample: "{table.sample}"')
   print(f'Stats: "{table.stats}"')
 ```
@@ -437,8 +437,8 @@ with Table('capital-3.csv') as table:
     Control: "{}"
     Dialect: "{}"
     Query: "{}"
+    Header: "['id', 'name']"
     Schema: "{'fields': [{'name': 'id', 'type': 'integer'}, {'name': 'name', 'type': 'string'}]}"
-    Headers: "['id', 'name']"
     Sample: "[['1', 'London'], ['2', 'Berlin'], ['3', 'Paris'], ['4', 'Madrid'], ['5', 'Rome']]"
     Stats: "{'hash': 'e7b6592a0a4356ba834e4bf1c8e8c7f8', 'bytes': 50, 'rows': 0}"
 
@@ -486,7 +486,7 @@ with Table('capital-3.csv') as table:
      Row([('id', 5), ('name', 'Rome')])]
 
 
-The `data` format is just a raw array of arrays similiar to JSON while the `row` format is rich object with all the cells normalized and converted to proper types. We will explore the Row class later.
+The `data` format is just a raw array of arrays similiar to JSON while the `row` format is a rich object with all the cells normalized and converted to proper types. We will explore the Row class later.
 
 **Streaming Data**
 
@@ -506,13 +506,13 @@ with Table('capital-3.csv') as table:
     print(row)
 ```
 
-    <generator object Table.__read_data_stream_create at 0x7fbee429ffc0>
+    <generator object Table.__read_data_stream_create at 0x7f14758c6ba0>
     ['1', 'London']
     ['2', 'Berlin']
     ['3', 'Paris']
     ['4', 'Madrid']
     ['5', 'Rome']
-    <generator object Table.__read_row_stream_create at 0x7fbee4123c50>
+    <generator object Table.__read_row_stream_create at 0x7f147591ae60>
     Row([('id', 1), ('name', 'London')])
     Row([('id', 2), ('name', 'Berlin')])
     Row([('id', 3), ('name', 'Paris')])
@@ -522,7 +522,7 @@ with Table('capital-3.csv') as table:
 
 **Table's Lifecycle**
 
-You might probably have noticed that we had to duplicate the `with Table(...)` statement in some example. The reason is that Table is a streaming interface. Once it's read you need to open it again. Let's show it on example:
+You might have noticed that we had to duplicate the `with Table(...)` statement in some examples. The reason is that Table is a streaming interface. Once it's read you need to open it again. Let's show it in an example:
 
 
 ```python
@@ -621,8 +621,8 @@ with Table('country-3.csv', encoding='utf-8') as table:
   print(table.source)
 ```
 
-    country-3.csv
     utf-8
+    country-3.csv
 
 
 **Compression**
@@ -748,7 +748,7 @@ from frictionless import Table, dialects
 
 dialect = dialects.Dialect(header=False)
 with Table('capital-3.csv', dialect=dialect) as table:
-  pprint(table.headers)
+  pprint(table.header)
   pprint(table.read_rows())
 ```
 
@@ -771,7 +771,7 @@ from frictionless import Table, dialects
 
 dialect = dialects.Dialect(header_rows=[1, 2, 3])
 with Table('capital-3.csv', dialect=dialect) as table:
-  pprint(table.headers)
+  pprint(table.header)
   pprint(table.read_rows())
 ```
 
@@ -791,7 +791,7 @@ from frictionless import Table, dialects
 
 dialect = dialects.Dialect(header_rows=[1, 2, 3], header_join='/')
 with Table('capital-3.csv', dialect=dialect) as table:
-  pprint(table.headers)
+  pprint(table.header)
   pprint(table.read_rows())
 ```
 
@@ -915,7 +915,7 @@ It accepts a `False` values indicating that there is no header row:
 from frictionless import Table
 
 with Table('capital-3.csv', headers=False) as table:
-    pprint(table.headers)
+    pprint(table.header)
     pprint(table.read_rows())
 ```
 
@@ -936,7 +936,7 @@ It accepts an integer indicating the header row number:
 from frictionless import Table
 
 with Table('capital-3.csv', headers=2) as table:
-    pprint(table.headers)
+    pprint(table.header)
     pprint(table.read_rows())
 ```
 
@@ -954,7 +954,7 @@ It accepts a list of integers indicating a multiline header row numbers:
 from frictionless import Table
 
 with Table('capital-3.csv', headers=[1,2,3]) as table:
-    pprint(table.headers)
+    pprint(table.header)
     pprint(table.read_rows())
 ```
 
@@ -972,7 +972,7 @@ It accepts a pair containing a list of integers indicating a multiline header ro
 from frictionless import Table
 
 with Table('capital-3.csv', headers=[[1,2,3], '/']) as table:
-    pprint(table.headers)
+    pprint(table.header)
     pprint(table.read_rows())
 ```
 
@@ -1057,21 +1057,97 @@ with Table('capital-3.csv', patch_schema={'fields': {'id': {'type': 'string'}}})
 
 ## Integrity Options
 
-> This section is work-in-progress
-
 Exctraction function and classes accepts only one integrity option:
 
 
 **Lookup**
 
-The lookup is a special object providing relational information in cases when it's not impossible to extract. For example, the Package is capable to get a lookup object from its resource while a table object needs it to be provided.
-
-## Headers Object
-
-> This section is work-in-progress
+The lookup is a special object providing relational information in cases when it's not impossible to extract. For example, the Package is capable to get a lookup object from its resource while a table object needs it to be provided. Let's see on an example:
 
 
+```python
+from frictionless import Table
+
+source = [["name"], [1], [2], [4]]
+lookup = {"other": {("name",): {(1,), (2,), (3,)}}}
+fk = {"fields": ["name"], "reference": {"fields": ["name"], "resource": "other"}}
+with Table(source, lookup=lookup, patch_schema={"foreignKeys": [fk]}) as table:
+    for row in table:
+        if row.row_number == 3:
+            assert row.valid is False
+            assert row.errors[0].code == "foreign-key-error"
+            continue
+        assert row.valid
+
+```
+
+## Header Object
+
+After opening a table or calling `resource.read_header` you get an access to a `header` object. It's a list but providing some additional functionality. Let's take a look:
+
+
+
+
+```python
+from frictionless import Table
+
+with Table('capital-3.csv') as table:
+  print(f'Header: {table.header}')
+  print(f'Schema: {table.header.schema}')
+  print(f'Field Positions: {table.header.field_positions}')
+  print(f'Errors: {table.header.errors}')
+  print(f'Valid: {table.header.valid}')
+  print(f'As Dict: {table.header.to_dict()}') # field name: header cell
+  print(f'As List: {table.header.to_list()}')
+```
+
+    Header: ['id', 'name']
+    Schema: {'fields': [{'name': 'id', 'type': 'integer'}, {'name': 'name', 'type': 'string'}]}
+    Field Positions: [1, 2]
+    Errors: []
+    Valid: True
+    As Dict: {'id': 'id', 'name': 'name'}
+    As List: ['id', 'name']
+
+
+The example above covers the case when a header is valid. For a header with tabular errors this information can be much more useful revealing discrepancies, dublicates or missing cells information. Please read "API Reference" for more details.
 
 ## Row Object
 
-> This section is work-in-progress
+The `extract`, `resource.read_rows()`, `table.read_rows()`, and many other functions retunrs or yeilds row objects. It's a `OrderedDict` providing additional API shown below:
+
+
+
+```python
+from frictionless import Table
+
+with Table('capital-3.csv', patch_schema={'missingValues': ['1']}) as table:
+  for row in table:
+    print(f'Row: {row}')
+    print(f'Schema: {row.schema}')
+    print(f'Field Positions: {row.field_positions}')
+    print(f'Row Position: {row.row_position}') # physical line number starting from 1
+    print(f'Row Number: {row.row_number}') # counted row number starting from 1
+    print(f'Blank Cells: {row.blank_cells}')
+    print(f'Error Cells: {row.error_cells}')
+    print(f'Errors: {row.errors}')
+    print(f'Valid: {row.valid}')
+    print(f'As Dict: {row.to_dict(json=False)}')
+    print(f'As List: {row.to_list(json=True)}') # JSON compatible data types
+    break
+```
+
+    Row: Row([('id', None), ('name', 'London')])
+    Schema: {'fields': [{'name': 'id', 'type': 'integer'}, {'name': 'name', 'type': 'string'}], 'missingValues': ['1']}
+    Field Positions: [1, 2]
+    Row Position: 2
+    Row Number: 1
+    Blank Cells: {'id': '1'}
+    Error Cells: {}
+    Errors: []
+    Valid: True
+    As Dict: {'id': None, 'name': 'London'}
+    As List: [None, 'London']
+
+
+As we can see, it provides a lot of information which is especially useful when a row is not valid. Our row is valid but we demostrated how it can preserve data about raw missing values. It also preserves data about all errored cells. Please read "API Reference" for more details.
