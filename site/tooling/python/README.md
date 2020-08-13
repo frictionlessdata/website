@@ -17,8 +17,8 @@ Frictionless is a framework to describe, extract, validate, and transform tabula
 
 ## Features
 
-- Powerfull Python framework
-- Convinient command-line interface
+- Powerful Python framework
+- Convenient command-line interface
 - Low memory consumption for data of any size
 - Reasonable performance on big data
 - Support for compressed files
@@ -47,18 +47,18 @@ $ frictionless validate data/invalid.csv
 
 ## Documentation
 
-- [Getting Started](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/getting-started/README.md)
-- [Introduction Guide](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/introduction-guide/README.md)
-- [Describing Data](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/describing-data/README.md)
-- [Extracting Data](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/extracting-data/README.md)
-- [Validating Data](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/validating-data/README.md)
-- [Transforming Data](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/transforming-data/README.md)
-- [Extension Guide](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/extension-guide/README.md)
-- [Migration Guide](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/migration-guide/README.md)
-- [Schemes Reference](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/schemes-reference/README.md)
-- [Formats Reference](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/formats-reference/README.md)
-- [Errors Reference](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/errors-reference/README.md)
-- [API Reference](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/api-reference/README.md)
-- [Contributing](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/contributing/README.md)
-- [Changelog](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/changelog/README.md)
-- [Authors](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/authors/README.md)
+- [Getting Started](getting-started/README.md)
+- [Introduction Guide](introduction-guide/README.md)
+- [Describing Data](describing-data/README.md)
+- [Extracting Data](extracting-data/README.md)
+- [Validating Data](validating-data/README.md)
+- [Transforming Data](transforming-data/README.md)
+- [Extension Guide](extension-guide/README.md)
+- [Migration Guide](migration-guide/README.md)
+- [Schemes Reference](schemes-reference/README.md)
+- [Formats Reference](formats-reference/README.md)
+- [Errors Reference](errors-reference/README.md)
+- [API Reference](api-reference/README.md)
+- [Contributing](contributing/README.md)
+- [Changelog](changelog/README.md)
+- [Authors](authors/README.md)
