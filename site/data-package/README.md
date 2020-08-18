@@ -1,11 +1,5 @@
 # Data Packages
 
-:::tip
-This page assumes knowledge about the Frictionless Data ecosystem.
-
-If you don't have it, please read [this page](/guide) first.
-:::
-
 Data Package is a simple **container** format used to describe and package a collection of data. The format provides a simple contract for data interoperability that supports frictionless delivery, installation and management of data.
 
 Data Packages can be used to package any kind of data. At the same time, for specific common data types such as tabular data it has support for providing important additional descriptive metadata -- for example, describing the columns and data types in a CSV.
