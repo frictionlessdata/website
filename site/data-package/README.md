@@ -146,7 +146,7 @@ Here is a much more extensive example of a datapackage JSON file:
     "web": "http://data.worldbank.org/indicator/NY.GDP.MKTP.CD"
   }],
   "contributors":[{
-    "name": "Joe Bloggs",
+    "title": "Joe Bloggs",
     "email": "joe@bloggs.com",
     "web": "http://www.bloggs.com"
   }],
