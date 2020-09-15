@@ -245,7 +245,7 @@ https://pkgstore.datahub.io/core/s-and-p-500-companies/10/datapackage.json
 
 You can see an example on how to package GeoJSON files [here](https://datahub.io/examples/geojson-tutorial).
 
-DataHub does not currently support the TopoJSON format. You can use “Vega Graph Spec” and display you TopoJSON data using the [Vega specification][vega]. See an example [here](https://datahub.io/examples/vega-views-tutorial-topojson).
+DataHub does not currently support the TopoJSON format. You can use “Vega Graph Spec” and display your TopoJSON data using the [Vega specification][vega]. See an example [here](https://datahub.io/examples/vega-views-tutorial-topojson).
 
 ## Next Steps
 
