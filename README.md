@@ -16,8 +16,8 @@ New commits into the master branch will be automatically deployed to GitHub Page
 ## Notebooks
 
 Use `notebooks.yml` for the notebooks management:
-- `target` property allows to choose a target directory for generated markdowns
-- `source` property is a key-value pair of a notebook's id and a colab url
+* `target` property allows to choose a target directory for generated markdowns.
+* `source` property is a key-value pair of a notebook's id and a colab URL.
 
 To generate markdowns from the notebooks:
 
