@@ -2,18 +2,18 @@
 
 This is the new FrictionlessData.io website to be released in 2020. It reflects the recent updates made to Frictionless Data project setup and brand.
 
-## Development
+### Development
 
 ```console
 $ npm install
 $ npm start
 ```
 
-## Deployment
+### Deployment
 
 New commits into the master branch will be automatically deployed to GitHub Pages by a [workflow](.github/workflows/main.yml).
 
-## Notebooks
+### Notebooks
 
 Use `notebooks.yml` for the notebooks management:
 - `target` property allows to choose a target directory for generated markdowns
