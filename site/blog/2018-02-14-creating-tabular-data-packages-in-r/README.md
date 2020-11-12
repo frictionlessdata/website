@@ -9,27 +9,13 @@ category: working-with-data-packages
 
 [Open Knowledge Greece][okgreece] was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in R programming language. You can read more about this in [their grantee profile][toolfund-okgreece]. In this tutorial, [Kleanthis Koupidis](https://gr.linkedin.com/in/kleanthis-koupidis-8348b88b), a Data Scientist and Statistician at Open Knowledge Greece, explains how to create Data Packages in R.
 
+## Creating Data Packages in R
+
 This tutorial will show you how to install the R library for working with Data Packages and Table Schema, load a CSV file, infer its schema, and write a Tabular Data Package.
-
-## Setup
-
-For this tutorial, we will need the Data Package R library ([datapackage.r][dp-r]).
-
-[devtools library][r-devtools] is required to install the `datapackage.r` library from github.
-
-```
-    # Install devtools package if not already
-    install.packages("devtools")
-```
-
-And then install the development version of [datapackage.r][dp-r] from github.
-
-```
-    devtools::install_github("frictionlessdata/datapackage-r")
-```
 
 ## Load
 
+For this tutorial, we will need the Data Package R library ([datapackage.r](https://github.com/frictionlessdata/datapackage-r)).
 You can start using the library by loading `datapackage.r`.
 
 ```r
@@ -68,7 +54,7 @@ We will use periodic-table data from [remote path](https://raw.githubusercontent
 We can guess our CSV's [schema][ts] by using `infer` from the Table Schema library. We pass directly the remote link to the infer function, the result of which is an inferred schema. For example, if the processor detects only integers in a given column, it will assign `integer` as a column type.
 
 ```r
-    filepath = 'https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/example_data/data.csv'
+    filepath = 'https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/exampledata/data.csv'
 
     schema = tableschema.r::infer(filepath)
 ```
@@ -134,7 +120,7 @@ The `datapackage.json` ([download](https://raw.githubusercontent.com/okgreece/da
     ##     "resources": [
     ##         {
     ##             "name": "data",
-    ##             "path": "https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/example_data/data.csv",
+    ##             "path": "https://raw.githubusercontent.com/okgreece/datapackage-r/master/vignettes/exampledata/data.csv",
     ##             "schema": {
     ##                 "fields": [
     ##                     {
