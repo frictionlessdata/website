@@ -435,7 +435,7 @@ pprint(error)
      'tags': ['#head', '#structure']}
 
 
-Please explore "Errors Reference" to learn about all the avialble errors and their properties.
+Please explore "Errors Reference" to learn about all the available errors and their properties.
 
 ## Errors Options
 
@@ -631,7 +631,7 @@ pprint(report.flatten(['code', 'message']))
 
 **Deviated Value**
 
-This checks uses the extranal `statistics` package to checks a field for deviations. For example:
+This check uses the Python's builtin `statistics` module to check a field's data for deviations. By default, deviated values are outside of the average +- three standard deviations. Take a look at the [API Reference](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/api-reference/README.md#deviatedvaluecheck) for more details about available options and default values. The exact algorithm can be found [here](https://github.com/frictionlessdata/frictionless-py/blob/7ae8bae9a9197adbfe443233a6bad8a94e065ece/frictionless/checks/heuristic.py#L94). For example:
 
 
 ```python
@@ -679,7 +679,7 @@ pprint(report.flatten(["code", "message"]))
 
 ## Regulation Checks
 
-In countrary to probably checks, regulation checks gives you an ability to provide additional rules for your data. Use the `extra_checks` argument of the `validate` function to active one or more of these checks.
+In countrary to heuristic checks, regulation checks gives you an ability to provide additional rules for your data. Use the `extra_checks` argument of the `validate` function to active one or more of these checks.
 
 **Blacklisted Value**
 

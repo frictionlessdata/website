@@ -96,7 +96,7 @@ $ frictionless extract --source-type table
 The `extract` functions always read data in a form of rows (see the object description below) into memory. The lower-level interfaces will allow you to stream data and various output forms.
 
 
-### Extracting a Package
+### Extracting Package
 
 Let's start by using the command line-interface. We're going to provide two files to the `extract` command which will be enough to detect that it's a dataset:
 
@@ -212,7 +212,7 @@ resource.to_yaml('capital.resource.yaml')
 
 So what's happened? We set textual representation of the number "3" to be a missing value. It was done only for the presentational purpose because it's definitely not a missing value. On the other hand, it demonstrated how metadata can be used.
 
-### Extracting a Table
+### Extracting Table
 
 While the package and resource concepts contain both data and metadata, a table is solely data. Because of this fact we can provide many more options to the `extract_table` function. Most of these options are encapsulated into the resource descriptor as we saw with the `missingValues` example above. We will reproduce it:
 
@@ -235,8 +235,9 @@ We got an identical result but it's important to understand that on the table le
 
 ## Extraction Options
 
-All the `extract` fuctions accept only one common argument:
+All the `extract` fuctions accept those common argument:
 - `process`: it's a function getting a row object and returning whatever is needed as an ouput of the data extraction e.g. `lambda row: row.to_dict()`
+- `stream`: instead of reading all the data into memory it will return row stream(s)
 
 
 **Package/Resource**
@@ -627,7 +628,7 @@ with Table('country-3.csv', encoding='utf-8') as table:
 
 **Compression**
 
-It's possible to adjust compression detection by providing the algorithm explicetely. For the example below it's not required as it would be detected anyway:
+It's possible to adjust compression detection by providing the algorithm explicitly. For the example below it's not required as it would be detected anyway:
 
 
 ```bash
@@ -698,7 +699,7 @@ Exact parameters depend on schemes and can be found in the "Schemes Reference". 
 
 **Detect Encoding**
 
-It's a function that can be provided to adjust the encoding detection. This function accept a data sample and return a detected encoding:
+It's a function that can be provided to adjust the encoding detection. This function accepts a data sample and returns a detected encoding:
 
 
 ```python
@@ -719,7 +720,7 @@ Further reading:
 
 ## Table Dialect
 
-The Dialect adjust the way tabular parsers work. The concept is similiar to the Control above. Let's use the CSV Dialect to adjust the delimiter configuration:
+The Dialect adjusts the way tabular parsers work. The concept is similiar to the Control above. Let's use the CSV Dialect to adjust the delimiter configuration:
 
 
 ```python
@@ -736,7 +737,7 @@ with Table(source, scheme='text', format='csv', dialect=dialect) as table:
     [Row([('header1', 'value1'), ('header2', 'value2')])]
 
 
-There is a great deal of options available for different dialect that can be found in "Formats Reference". We will list the properties that can be used with every dialect:
+There are a great deal of options available for different dialects that can be found in "Formats Reference". We will list the properties that can be used with every dialect:
 
 **Header**
 
@@ -799,6 +800,27 @@ with Table('capital-3.csv', dialect=dialect) as table:
     [Row([('id/1/2', 3), ('name/London/Berlin', 'Paris')]),
      Row([('id/1/2', 4), ('name/London/Berlin', 'Madrid')]),
      Row([('id/1/2', 5), ('name/London/Berlin', 'Rome')])]
+
+
+**Header Case**
+
+> *New in version 3.23*
+
+By default a header is validated in a case sensitive mode. To disable this behaviour we can set the `header_case` parameter to `False`. This option is accepted by any Dialect and a dialect can be passed to `extract`, `validate` and other functions. Please note that it doesn't affect a resulting header it only affects how it's validated:
+
+
+```python
+from frictionless import Table, Schema, Field, dialects
+
+dialect = dialects.Dialect(header_case=False)
+schema = Schema(fields=[Field(name="ID"), Field(name="NAME")])
+with Table('capital-3.csv', dialect=dialect, schema=schema) as table:
+  print(f'Header: {table.header}')
+  print(f'Valid: {table.header.valid}')  # without "header_case" it will have 2 errors
+```
+
+    Header: ['id', 'name']
+    Valid: True
 
 
 Further reading:
@@ -889,7 +911,7 @@ print(extract('matrix.csv', query=Query(pick_rows=['<blank>'])))
 
 **Limit/Offset Rows**
 
-It's a quite popular option used to limit amount of rows to read:
+This is a quite popular option used to limit amount of rows to read:
 
 
 ```python
@@ -984,7 +1006,7 @@ with Table('capital-3.csv', headers=[[1,2,3], '/']) as table:
 
 ## Schema Options
 
-By default, a schema for a table is inferred under the hood but we can also pass it explicetely.
+By default, a schema for a table is inferred under the hood but we can also pass it explicitly.
 
 **Schema**
 
@@ -1011,7 +1033,7 @@ with Table('capital-3.csv', schema=schema) as table:
 
 **Sync Schema**
 
-There is a way to sync provided schema based on a header row's field order. It's very useful when you have a schema that represents only a subset of the table's fields:
+There is a way to sync provided schema based on a header row's field order. It's very useful when you have a schema that describes a subset or a superset of the table's fields:
 
 
 ```python
@@ -1057,12 +1079,58 @@ with Table('capital-3.csv', patch_schema={'fields': {'id': {'type': 'string'}}})
 
 ## Integrity Options
 
-Exctraction function and classes accepts only one integrity option:
+Exctraction function and classes accepts a few options that are needed to manage integrity behaviour:
+
+
+**On Error**
+
+This option accept one of the three possible values configuring an `extract`, `Table`, `Resource` or `Package` behaviour if there is an error during the row reading process:
+- ignore (default)
+- warn
+- raise
+
+Let's investigate how we can add warnings on all header/row errors:
+
+
+```python
+from frictionless import Table
+
+data = [["name"], [1], [2], [3]]
+schema = {"fields": [{"name": "name", "type": "string"}]}
+with  Table(data, schema=schema, onerror="warn") as table:
+  table.read_rows()
+```
+
+    /usr/local/lib/python3.6/dist-packages/frictionless/table.py:777: UserWarning: The cell "1" in row at position "2" and field "name" at position "1" has incompatible type: type is "string/default"
+      warnings.warn(error.message, UserWarning)
+    /usr/local/lib/python3.6/dist-packages/frictionless/table.py:777: UserWarning: The cell "2" in row at position "3" and field "name" at position "1" has incompatible type: type is "string/default"
+      warnings.warn(error.message, UserWarning)
+    /usr/local/lib/python3.6/dist-packages/frictionless/table.py:777: UserWarning: The cell "3" in row at position "4" and field "name" at position "1" has incompatible type: type is "string/default"
+      warnings.warn(error.message, UserWarning)
+
+
+In some cases, we need to fail on the first error. We will use `raise` for it:
+
+
+```python
+from frictionless import Table
+
+data = [["name"], [1], [2], [3]]
+schema = {"fields": [{"name": "name", "type": "string"}]}
+resource = Resource(data=data, schema=schema)
+resource.onerror = 'raise' # for Resource/Package it's possible to set this property after initialization
+try:
+  resource.read_rows()
+except Exception as exception:
+  print(exception)
+```
+
+    [type-error] The cell "1" in row at position "2" and field "name" at position "1" has incompatible type: type is "string/default"
 
 
 **Lookup**
 
-The lookup is a special object providing relational information in cases when it's not impossible to extract. For example, the Package is capable to get a lookup object from its resource while a table object needs it to be provided. Let's see on an example:
+The lookup is a special object providing relational information in cases when it's not possible to extract. For example, the Package is capable of getting a lookup object from its resource while a table object needs it to be provided. Let's see an example:
 
 
 ```python
@@ -1083,7 +1151,7 @@ with Table(source, lookup=lookup, patch_schema={"foreignKeys": [fk]}) as table:
 
 ## Header Object
 
-After opening a table or calling `resource.read_header` you get an access to a `header` object. It's a list but providing some additional functionality. Let's take a look:
+After opening a table or calling `resource.read_header` you get access to a `header` object. It's a list but providing some additional functionality. Let's take a look:
 
 
 
@@ -1110,11 +1178,11 @@ with Table('capital-3.csv') as table:
     As List: ['id', 'name']
 
 
-The example above covers the case when a header is valid. For a header with tabular errors this information can be much more useful revealing discrepancies, dublicates or missing cells information. Please read "API Reference" for more details.
+The example above covers the case when a header is valid. For a header with tabular errors this information can be much more useful revealing discrepancies, duplicates or missing cells information. Please read "API Reference" for more details.
 
 ## Row Object
 
-The `extract`, `resource.read_rows()`, `table.read_rows()`, and many other functions retunrs or yeilds row objects. It's a `OrderedDict` providing additional API shown below:
+The `extract`, `resource.read_rows()`, `table.read_rows()`, and many other functions return or yeild row objects. It's an `OrderedDict` providing additional API shown below:
 
 
 

@@ -8,7 +8,7 @@
 ### File
 
 ```python
-class File(Metadata)
+class File()
 ```
 
 File representation
@@ -18,8 +18,7 @@ API      | Usage
 Public   | `from frictionless import File`
 
 Under the hood, File uses available loaders so it can open from local, remote,
-and any other supported schemes. The File class inherits from the Metadata class
-all the metadata's functionality
+and any other supported schemes
 
 
 ```python
@@ -39,10 +38,6 @@ with File('data/text.txt') as file:
 - `compression?` _str_ - file compression
 - `compression_path?` _str_ - file compression path
 - `control?` _dict_ - file control
-- `dialect?` _dict_ - table dialect
-- `query?` _dict_ - table query
-- `newline?` _str_ - python newline e.g. '\n',
-- `stats?` _{hash: str, bytes: int, rows: int}_ - stats object
   
 
 **Raises**:
@@ -65,7 +60,7 @@ with File('data/text.txt') as file:
 #### <big>source</big>
 
 ```python
- | @Metadata.property
+ | @property
  | source()
 ```
 
@@ -77,7 +72,7 @@ with File('data/text.txt') as file:
 #### <big>scheme</big>
 
 ```python
- | @Metadata.property
+ | @property
  | scheme()
 ```
 
@@ -89,7 +84,7 @@ with File('data/text.txt') as file:
 #### <big>format</big>
 
 ```python
- | @Metadata.property
+ | @property
  | format()
 ```
 
@@ -101,7 +96,7 @@ with File('data/text.txt') as file:
 #### <big>hashing</big>
 
 ```python
- | @Metadata.property
+ | @property
  | hashing()
 ```
 
@@ -113,7 +108,7 @@ with File('data/text.txt') as file:
 #### <big>encoding</big>
 
 ```python
- | @Metadata.property
+ | @property
  | encoding()
 ```
 
@@ -125,7 +120,7 @@ with File('data/text.txt') as file:
 #### <big>compression</big>
 
 ```python
- | @Metadata.property
+ | @property
  | compression()
 ```
 
@@ -137,7 +132,7 @@ with File('data/text.txt') as file:
 #### <big>compression\_path</big>
 
 ```python
- | @Metadata.property
+ | @property
  | compression_path()
 ```
 
@@ -149,7 +144,7 @@ with File('data/text.txt') as file:
 #### <big>control</big>
 
 ```python
- | @Metadata.property
+ | @property
  | control()
 ```
 
@@ -157,47 +152,11 @@ with File('data/text.txt') as file:
 
 - `Control?` - file control
 
-<a name="frictionless.file.File.dialect"></a>
-#### <big>dialect</big>
-
-```python
- | @Metadata.property
- | dialect()
-```
-
-**Returns**:
-
-- `Dialect?` - table dialect
-
-<a name="frictionless.file.File.query"></a>
-#### <big>query</big>
-
-```python
- | @Metadata.property
- | query()
-```
-
-**Returns**:
-
-- `Query?` - table query
-
-<a name="frictionless.file.File.newline"></a>
-#### <big>newline</big>
-
-```python
- | @Metadata.property
- | newline()
-```
-
-**Returns**:
-
-- `str?` - file newline
-
 <a name="frictionless.file.File.stats"></a>
 #### <big>stats</big>
 
 ```python
- | @Metadata.property
+ | @property
  | stats()
 ```
 
@@ -209,7 +168,7 @@ with File('data/text.txt') as file:
 #### <big>byte\_stream</big>
 
 ```python
- | @Metadata.property(cache=False)
+ | @property
  | byte_stream()
 ```
 
@@ -225,7 +184,7 @@ The stream is available after opening the file
 #### <big>text\_stream</big>
 
 ```python
- | @Metadata.property(cache=False)
+ | @property
  | text_stream()
 ```
 
@@ -317,6 +276,9 @@ Write the file to the target
 
 - `target` _str_ - target path
 
+<a name="frictionless.storage"></a>
+## frictionless.storage
+
 <a name="frictionless.pipeline"></a>
 ## frictionless.pipeline
 
@@ -384,6 +346,18 @@ pipeline.run()
 
 - `str?` - pipeline type
 
+<a name="frictionless.pipeline.Pipeline.source"></a>
+#### <big>source</big>
+
+```python
+ | @Metadata.property
+ | source()
+```
+
+**Returns**:
+
+- `dict[]?` - pipeline source
+
 <a name="frictionless.pipeline.Pipeline.steps"></a>
 #### <big>steps</big>
 
@@ -447,7 +421,7 @@ with Table("data/table.csv") as table:
 - `format?` _str_ - File source's format (csv, xls, ...).
   If not set, it'll be inferred from `source`.
   
-- `encoding?` _str_ - An algorithm to hash data.
+- `hashing?` _str_ - An algorithm to hash data.
   It defaults to 'md5'.
   
 - `encoding?` _str_ - Source encoding.
@@ -508,8 +482,24 @@ with Table("data/table.csv") as table:
   For more information, please check "Describing  Data" guide.
   It defaults to `['']`
   
+- `onerror?` _ignore|warn|raise_ - Define behaviour if there is an error in the
+  header or rows during the reading rows process.
+  It defaults to `ignore`.
+  
 - `lookup?` _dict_ - The lookup is a special object providing relational information.
   For more information, please check "Extracting  Data" guide.
+
+<a name="frictionless.table.Table.source"></a>
+#### <big>source</big>
+
+```python
+ | @property
+ | source()
+```
+
+**Returns**:
+
+- `any` - file source
 
 <a name="frictionless.table.Table.path"></a>
 #### <big>path</big>
@@ -523,17 +513,17 @@ with Table("data/table.csv") as table:
 
 - `str` - file path
 
-<a name="frictionless.table.Table.source"></a>
-#### <big>source</big>
+<a name="frictionless.table.Table.data"></a>
+#### <big>data</big>
 
 ```python
  | @property
- | source()
+ | data()
 ```
 
 **Returns**:
 
-- `any` - file source
+- `str` - file data
 
 <a name="frictionless.table.Table.scheme"></a>
 #### <big>scheme</big>
@@ -655,6 +645,26 @@ with Table("data/table.csv") as table:
 
 - `Schema?` - table schema
 
+<a name="frictionless.table.Table.stats"></a>
+#### <big>stats</big>
+
+```python
+ | @property
+ | stats()
+```
+
+Table stats
+
+The stats object has:
+- hash: str - hashing sum
+- bytes: int - number of bytes
+- fields: int - number of fields
+- rows: int - number of rows
+
+**Returns**:
+
+- `dict?` - table stats
+
 <a name="frictionless.table.Table.header"></a>
 #### <big>header</big>
 
@@ -683,25 +693,6 @@ source file (e.g. schema, ...).
 **Returns**:
 
 - `list[]?` - table sample
-
-<a name="frictionless.table.Table.stats"></a>
-#### <big>stats</big>
-
-```python
- | @property
- | stats()
-```
-
-Table stats
-
-The stats object has:
-- hash: str - hashing sum
-- bytes: int - number of bytes
-- rows: int - number of rows
-
-**Returns**:
-
-- `dict?` - table stats
 
 <a name="frictionless.table.Table.data_stream"></a>
 #### <big>data\_stream</big>
@@ -797,7 +788,7 @@ Read row stream into memory
 #### <big>write</big>
 
 ```python
- | write(target, *, scheme=None, format=None, hashing=None, encoding=None, compression=None, compression_path=None, control=None, dialect=None)
+ | write(target=None, *, scheme=None, format=None, hashing=None, encoding=None, compression=None, compression_path=None, control=None, dialect=None)
 ```
 
 Write the table to the target
@@ -1000,6 +991,7 @@ is provided for the `validate` function.
 - `descriptor` _dict_ - check's descriptor
 - `descriptor.hash?` _str_ - a hash sum of the table's bytes
 - `descriptor.bytes?` _int_ - number of bytes
+- `descriptor.fields?` _int_ - number of fields
 - `descriptor.rows?` _int_ - number of rows
 
 <a name="frictionless.checks.regulation"></a>
@@ -1133,7 +1125,7 @@ for the `validate` function.
 
 - `descriptor` _dict_ - check's descriptor
 - `descriptor.fieldName` _str_ - a field name to check
-- `descriptor.average?` _str_ - one of `main`, `median` or `mode`
+- `descriptor.average?` _str_ - one of "mean", "median" or "mode" (default: "mean")
 - `descriptor.interval?` _str_ - statistical interval (default: 3)
 
 <a name="frictionless.checks.heuristic.TruncatedValueCheck"></a>
@@ -1183,11 +1175,13 @@ package.get_resoure('table').read_rows() == [
 - `descriptor?` _str|dict_ - package descriptor
 - `name?` _str_ - package name (for machines)
 - `title?` _str_ - package title (for humans)
-- `descriptor?` _str_ - package descriptor
-- `resources?` _dict|Resource[]_ - list of resource descriptors
+- `description?` _str_ - package description
 - `profile?` _str_ - profile name like 'data-package'
+- `resources?` _dict|Resource[]_ - list of resource descriptors
+- `hashing?` _str_ - a hashing algorithm for resources
 - `basepath?` _str_ - a basepath of the package
-- `trusted?` _bool_ - don't raise on unsafe paths
+- `onerror?` _ignore|warn|raise_ - behaviour if there is an error
+- `trusted?` _bool_ - don't raise an exception on unsafe paths
   
 
 **Raises**:
@@ -1230,6 +1224,30 @@ package.get_resoure('table').read_rows() == [
 
 - `str?` - package description
 
+<a name="frictionless.package.Package.profile"></a>
+#### <big>profile</big>
+
+```python
+ | @Metadata.property
+ | profile()
+```
+
+**Returns**:
+
+- `str` - package profile
+
+<a name="frictionless.package.Package.hashing"></a>
+#### <big>hashing</big>
+
+```python
+ | @Metadata.property(write=False)
+ | hashing()
+```
+
+**Returns**:
+
+- `str` - package hashing
+
 <a name="frictionless.package.Package.basepath"></a>
 #### <big>basepath</big>
 
@@ -1242,17 +1260,29 @@ package.get_resoure('table').read_rows() == [
 
 - `str` - package basepath
 
-<a name="frictionless.package.Package.profile"></a>
-#### <big>profile</big>
+<a name="frictionless.package.Package.onerror"></a>
+#### <big>onerror</big>
 
 ```python
- | @Metadata.property
- | profile()
+ | @property
+ | onerror()
 ```
 
 **Returns**:
 
-- `str` - package profile
+- `ignore|warn|raise` - on error bahaviour
+
+<a name="frictionless.package.Package.trusted"></a>
+#### <big>trusted</big>
+
+```python
+ | @Metadata.property(write=False)
+ | trusted()
+```
+
+**Returns**:
+
+- `str` - package trusted
 
 <a name="frictionless.package.Package.resources"></a>
 #### <big>resources</big>
@@ -1310,6 +1340,11 @@ Get resource by name.
 - `name` _str_ - resource name
   
 
+**Raises**:
+
+- `FrictionlessException` - if resource is not found
+  
+
 **Returns**:
 
 - `Resource/None` - `Resource` instance or `None` if not found
@@ -1346,6 +1381,11 @@ Remove resource by name.
 - `name` _str_ - resource name
   
 
+**Raises**:
+
+- `FrictionlessException` - if resource is not found
+  
+
 **Returns**:
 
 - `Resource/None` - removed `Resource` instances or `None` if not found
@@ -1375,29 +1415,95 @@ Infer package's attributes
 - `source` _str|str[]_ - path, list of paths or glob pattern
 - `only_sample?` _bool_ - infer whatever possible but only from the sample
 
-<a name="frictionless.package.Package.to_dict"></a>
-#### <big>to\_dict</big>
+<a name="frictionless.package.Package.from_storage"></a>
+#### <big>from\_storage</big>
 
 ```python
- | to_dict(expand=False)
+ | @staticmethod
+ | from_storage(storage)
 ```
 
-Convert package to a dict
+Import package from storage
 
 **Arguments**:
 
-- `expand?` _bool_ - return expanded metadata
-  
+- `storage` _Storage_ - storage instance
 
-**Returns**:
+<a name="frictionless.package.Package.from_sql"></a>
+#### <big>from\_sql</big>
 
-- `dict` - package as a dict
+```python
+ | @staticmethod
+ | from_sql(*, engine, prefix="", namespace=None)
+```
+
+Import package from SQL
+
+**Arguments**:
+
+- `engine` _object_ - `sqlalchemy` engine
+- `prefix` _str_ - prefix for all tables
+- `namespace` _str_ - SQL scheme
+
+<a name="frictionless.package.Package.from_pandas"></a>
+#### <big>from\_pandas</big>
+
+```python
+ | @staticmethod
+ | from_pandas(*, dataframes)
+```
+
+Import package from Pandas dataframes
+
+**Arguments**:
+
+- `dataframes` _dict_ - mapping of Pandas dataframes
+
+<a name="frictionless.package.Package.from_spss"></a>
+#### <big>from\_spss</big>
+
+```python
+ | @staticmethod
+ | from_spss(*, basepath)
+```
+
+Import package from SPSS directory
+
+**Arguments**:
+
+- `basepath` _str_ - SPSS dir path
+
+<a name="frictionless.package.Package.from_bigquery"></a>
+#### <big>from\_bigquery</big>
+
+```python
+ | @staticmethod
+ | from_bigquery(*, service, project, dataset, prefix="")
+```
+
+Import package from Bigquery
+
+**Arguments**:
+
+- `service` _object_ - BigQuery `Service` object
+- `project` _str_ - BigQuery project name
+- `dataset` _str_ - BigQuery dataset name
+- `prefix?` _str_ - prefix for all names
+
+<a name="frictionless.package.Package.to_copy"></a>
+#### <big>to\_copy</big>
+
+```python
+ | to_copy()
+```
+
+Create a copy of the package
 
 <a name="frictionless.package.Package.to_zip"></a>
 #### <big>to\_zip</big>
 
 ```python
- | to_zip(target)
+ | to_zip(target, encoder_class=None)
 ```
 
 Save package to a zip
@@ -1410,6 +1516,76 @@ Save package to a zip
 **Raises**:
 
 - `FrictionlessException` - on any error
+
+<a name="frictionless.package.Package.to_storage"></a>
+#### <big>to\_storage</big>
+
+```python
+ | to_storage(storage, *, force=False)
+```
+
+Export package to storage
+
+**Arguments**:
+
+- `storage` _Storage_ - storage instance
+- `force` _bool_ - overwrite existent
+
+<a name="frictionless.package.Package.to_sql"></a>
+#### <big>to\_sql</big>
+
+```python
+ | to_sql(*, engine, prefix="", namespace=None, force=False)
+```
+
+Export package to SQL
+
+**Arguments**:
+
+- `engine` _object_ - `sqlalchemy` engine
+- `prefix` _str_ - prefix for all tables
+- `namespace` _str_ - SQL scheme
+- `force` _bool_ - overwrite existent
+
+<a name="frictionless.package.Package.to_pandas"></a>
+#### <big>to\_pandas</big>
+
+```python
+ | to_pandas()
+```
+
+Export package to Pandas dataframes
+
+<a name="frictionless.package.Package.to_spss"></a>
+#### <big>to\_spss</big>
+
+```python
+ | to_spss(*, basepath, force=False)
+```
+
+Export package to SPSS directory
+
+**Arguments**:
+
+- `basepath` _str_ - SPSS dir path
+- `force` _bool_ - overwrite existent
+
+<a name="frictionless.package.Package.to_bigquery"></a>
+#### <big>to\_bigquery</big>
+
+```python
+ | to_bigquery(*, service, project, dataset, prefix="", force=False)
+```
+
+Export package to Bigquery
+
+**Arguments**:
+
+- `service` _object_ - BigQuery `Service` object
+- `project` _str_ - BigQuery project name
+- `dataset` _str_ - BigQuery dataset name
+- `prefix?` _str_ - prefix for all names
+- `force` _bool_ - overwrite existent
 
 <a name="frictionless.plugin"></a>
 ## frictionless.plugin
@@ -1556,8 +1732,8 @@ Create server
 program()
 ```
 
-Main program
-
+Describe, extract, validate and transform tabular data.
+\f
 API      | Usage
 -------- | --------
 Public   | `$ frictionless`
@@ -1594,12 +1770,14 @@ Public   | `$ frictionless`
 @click.option("--skip-errors", type=str, multiple=True, help="Skip errors")
 @click.option("--limit-errors", type=int, help="Limit errors")
 @click.option("--limit-memory", type=int, help="Limit memory")
-@click.option("--noinfer", type=bool, help="Validate metadata as it is")
+@click.option("--basepath", type=str, help="Package basepath")
+@click.option("--trusted", type=str, help="Don't fail on unsafe paths")
+@click.option("--noinfer", is_flag=True, help="Validate metadata as it is")
 program_validate(source, *, source_type, json, **options)
 ```
 
 Validate data
-
+\f
 API      | Usage
 -------- | --------
 Public   | `$ frictionless validate`
@@ -1617,7 +1795,7 @@ program_transform(source)
 ```
 
 Transform data
-
+\f
 API      | Usage
 -------- | --------
 Public   | `$ frictionless transform`
@@ -1645,11 +1823,12 @@ Public   | `$ frictionless transform`
 @click.option("--infer-sample", type=int, help="Infer sample")
 @click.option("--infer-confidence", type=float, help="Infer confidence")
 @click.option("--infer-missing-values", type=str, multiple=True, help="Infer missing")
+@click.option("--basepath", type=str, help="Package basepath")
 program_describe(source, *, source_type, json, **options)
 ```
 
 Describe data
-
+\f
 API      | Usage
 -------- | --------
 Public   | `$ frictionless describe`
@@ -1667,7 +1846,7 @@ program_api(port)
 ```
 
 Start API
-
+\f
 API      | Usage
 -------- | --------
 Public   | `$ frictionless api`
@@ -1695,11 +1874,14 @@ Public   | `$ frictionless api`
 @click.option("--infer-sample", type=int, help="Infer sample")
 @click.option("--infer-confidence", type=float, help="Infer confidence")
 @click.option("--infer-missing-values", type=str, multiple=True, help="Infer missing")
+@click.option("--onerror", type=str, help="Behaviour on errors")
+@click.option("--basepath", type=str, help="Package basepath")
+@click.option("--trusted", type=str, help="Don't fail on unsafe paths")
 program_extract(source, *, source_type, json, **options)
 ```
 
 Extract data
-
+\f
 API      | Usage
 -------- | --------
 Public   | `$ frictionless extract`
@@ -1806,30 +1988,6 @@ Public   | `from frictionless import Metadata`
 
 - `FrictionlessException` - raise any error that occurs during the process
 
-<a name="frictionless.metadata.Metadata.metadata_valid"></a>
-#### <big>metadata\_valid</big>
-
-```python
- | @property
- | metadata_valid()
-```
-
-**Returns**:
-
-- `bool` - whether the metadata is valid
-
-<a name="frictionless.metadata.Metadata.metadata_errors"></a>
-#### <big>metadata\_errors</big>
-
-```python
- | @property
- | metadata_errors()
-```
-
-**Returns**:
-
-- `Errors[]` - a list of the metadata errors
-
 <a name="frictionless.metadata.Metadata.setinitial"></a>
 #### <big>setinitial</big>
 
@@ -1843,6 +2001,19 @@ Set an initial item in a subclass' constructor
 
 - `key` _str_ - key
 - `value` _any_ - value
+
+<a name="frictionless.metadata.Metadata.to_copy"></a>
+#### <big>to\_copy</big>
+
+```python
+ | to_copy()
+```
+
+Create a copy of the metadata
+
+**Returns**:
+
+- `Metadata` - a copy of the metadata
 
 <a name="frictionless.metadata.Metadata.to_dict"></a>
 #### <big>to\_dict</big>
@@ -1861,7 +2032,7 @@ Convert metadata to a dict
 #### <big>to\_json</big>
 
 ```python
- | to_json(target=None)
+ | to_json(target=None, encoder_class=None)
 ```
 
 Save metadata as a json
@@ -1892,6 +2063,30 @@ Save metadata as a yaml
 **Raises**:
 
 - `FrictionlessException` - on any error
+
+<a name="frictionless.metadata.Metadata.metadata_valid"></a>
+#### <big>metadata\_valid</big>
+
+```python
+ | @property
+ | metadata_valid()
+```
+
+**Returns**:
+
+- `bool` - whether the metadata is valid
+
+<a name="frictionless.metadata.Metadata.metadata_errors"></a>
+#### <big>metadata\_errors</big>
+
+```python
+ | @property
+ | metadata_errors()
+```
+
+**Returns**:
+
+- `Errors[]` - a list of the metadata errors
 
 <a name="frictionless.metadata.Metadata.metadata_attach"></a>
 #### <big>metadata\_attach</big>
@@ -2090,6 +2285,18 @@ Public   | `from frictionless import Field`
 
 - `bool` - if field is requried
 
+<a name="frictionless.field.Field.schema"></a>
+#### <big>schema</big>
+
+```python
+ | @property
+ | schema()
+```
+
+**Returns**:
+
+- `Schema?` - parent schema
+
 <a name="frictionless.field.Field.true_values"></a>
 #### <big>true\_values</big>
 
@@ -2166,7 +2373,7 @@ Expand metadata
  | read_cell(cell)
 ```
 
-Read cell (cast)
+Read cell
 
 **Arguments**:
 
@@ -2177,14 +2384,14 @@ Read cell (cast)
 
   (any, OrderedDict): processed cell and dict of notes
 
-<a name="frictionless.field.Field.read_cell_cast"></a>
-#### <big>read\_cell\_cast</big>
+<a name="frictionless.field.Field.read_cell_convert"></a>
+#### <big>read\_cell\_convert</big>
 
 ```python
- | read_cell_cast(cell)
+ | read_cell_convert(cell)
 ```
 
-Read cell low-level (cast)
+Read cell (convert only)
 
 **Arguments**:
 
@@ -2203,7 +2410,7 @@ Read cell low-level (cast)
  | read_cell_checks()
 ```
 
-Read cell low-level (cast)
+Read cell (checks only)
 
 **Returns**:
 
@@ -2213,28 +2420,29 @@ Read cell low-level (cast)
 #### <big>write\_cell</big>
 
 ```python
- | write_cell(cell)
+ | write_cell(cell, *, ignore_missing=False)
 ```
 
-Write cell (cast)
+Write cell
 
 **Arguments**:
 
-- `cell` _any_ - cell
+- `cell` _any_ - cell to convert
+- `ignore_missing?` _bool_ - don't convert None values
   
 
 **Returns**:
 
   (any, OrderedDict): processed cell and dict of notes
 
-<a name="frictionless.field.Field.write_cell_cast"></a>
-#### <big>write\_cell\_cast</big>
+<a name="frictionless.field.Field.write_cell_convert"></a>
+#### <big>write\_cell\_convert</big>
 
 ```python
- | write_cell_cast(cell)
+ | write_cell_convert(cell)
 ```
 
-Write cell low-level (cast)
+Write cell (convert only)
 
 **Arguments**:
 
@@ -2245,18 +2453,37 @@ Write cell low-level (cast)
 
 - `any/None` - processed cell or None if an error
 
-<a name="frictionless.field.Field.to_dict"></a>
-#### <big>to\_dict</big>
+<a name="frictionless.field.Field.write_cell_missing_value"></a>
+#### <big>write\_cell\_missing\_value</big>
 
 ```python
- | to_dict(expand=False)
+ | @Metadata.property(write=False)
+ | write_cell_missing_value()
 ```
 
-Convert field to dict
+Write cell (missing value only)
 
-**Arguments**:
+**Returns**:
 
-- `expand` _bool_ - whether to expand
+- `str` - a value to replace None cells
+
+<a name="frictionless.steps"></a>
+## frictionless.steps
+
+<a name="frictionless.steps.table"></a>
+## frictionless.steps.table
+
+<a name="frictionless.steps.row"></a>
+## frictionless.steps.row
+
+<a name="frictionless.steps.field"></a>
+## frictionless.steps.field
+
+<a name="frictionless.steps.cell"></a>
+## frictionless.steps.cell
+
+<a name="frictionless.steps.resource"></a>
+## frictionless.steps.resource
 
 <a name="frictionless.query"></a>
 ## frictionless.query
@@ -2451,19 +2678,6 @@ Public   | `from frictionless import Query`
 
 Expand metadata
 
-<a name="frictionless.query.Query.to_dict"></a>
-#### <big>to\_dict</big>
-
-```python
- | to_dict(expand=False)
-```
-
-Convert query to dict
-
-**Arguments**:
-
-- `expand` _bool_ - whether to expand
-
 <a name="frictionless.system"></a>
 ## frictionless.system
 
@@ -2506,14 +2720,14 @@ Create checks
 #### <big>create\_control</big>
 
 ```python
- | create_control(file, *, descriptor)
+ | create_control(resource, *, descriptor)
 ```
 
 Create control
 
 **Arguments**:
 
-- `file` _File_ - control file
+- `resource` _Resource_ - control resource
 - `descriptor` _dict_ - control descriptor
   
 
@@ -2525,14 +2739,14 @@ Create control
 #### <big>create\_dialect</big>
 
 ```python
- | create_dialect(file, *, descriptor)
+ | create_dialect(resource, *, descriptor)
 ```
 
 Create dialect
 
 **Arguments**:
 
-- `file` _File_ - dialect file
+- `resource` _Resource_ - dialect resource
 - `descriptor` _dict_ - dialect descriptor
   
 
@@ -2544,14 +2758,14 @@ Create dialect
 #### <big>create\_loader</big>
 
 ```python
- | create_loader(file)
+ | create_loader(resource)
 ```
 
 Create loader
 
 **Arguments**:
 
-- `file` _File_ - loader file
+- `resource` _Resource_ - loader resource
   
 
 **Returns**:
@@ -2562,25 +2776,43 @@ Create loader
 #### <big>create\_parser</big>
 
 ```python
- | create_parser(file)
+ | create_parser(resource)
 ```
 
 Create parser
 
 **Arguments**:
 
-- `file` _File_ - parser file
+- `resource` _Resource_ - parser resource
   
 
 **Returns**:
 
 - `Parser` - parser
 
+<a name="frictionless.system.System.create_pipeline"></a>
+#### <big>create\_pipeline</big>
+
+```python
+ | create_pipeline(descriptor)
+```
+
+Create parser
+
+**Arguments**:
+
+- `descriptor` _str|dict_ - pipeline descriptor
+  
+
+**Returns**:
+
+- `Pipeline` - pipeline
+
 <a name="frictionless.system.System.create_server"></a>
 #### <big>create\_server</big>
 
 ```python
- | create_server(name)
+ | create_server(name, **options)
 ```
 
 Create server
@@ -2588,11 +2820,31 @@ Create server
 **Arguments**:
 
 - `name` _str_ - server name
+- `options` _str_ - server options
   
 
 **Returns**:
 
 - `Server` - server
+
+<a name="frictionless.system.System.create_storage"></a>
+#### <big>create\_storage</big>
+
+```python
+ | create_storage(name, **options)
+```
+
+Create storage
+
+**Arguments**:
+
+- `name` _str_ - storage name
+- `options` _str_ - storage options
+  
+
+**Returns**:
+
+- `Storage` - storage
 
 <a name="frictionless.helpers"></a>
 ## frictionless.helpers
@@ -2740,19 +2992,6 @@ API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.gsheet import GsheetPlugin`
 
-<a name="frictionless.plugins.gsheet.GsheetParser"></a>
-### GsheetParser
-
-```python
-class GsheetParser(Parser)
-```
-
-Google Sheets parser implementation.
-
-API      | Usage
--------- | --------
-Public   | `from frictionless.plugins.gsheet import GsheetParser`
-
 <a name="frictionless.plugins.gsheet.GsheetDialect"></a>
 ### GsheetDialect
 
@@ -2775,6 +3014,19 @@ Public   | `from frictionless.plugins.gsheet import GsheetDialect`
 
 - `FrictionlessException` - raise any error that occurs during the process
 
+<a name="frictionless.plugins.gsheet.GsheetParser"></a>
+### GsheetParser
+
+```python
+class GsheetParser(Parser)
+```
+
+Google Sheets parser implementation.
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.gsheet import GsheetParser`
+
 <a name="frictionless.plugins.dataflows"></a>
 ## frictionless.plugins.dataflows
 
@@ -2790,6 +3042,46 @@ Plugin for Dataflows
 API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.dataflows import DataflowsPlugin`
+
+<a name="frictionless.plugins.dataflows.DataflowsPipeline"></a>
+### DataflowsPipeline
+
+```python
+class DataflowsPipeline(Pipeline)
+```
+
+Dataflows Pipeline representation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.dataflows import DataflowsPipeline`
+
+For now, only the `package` type is supported where `steps` should
+conform to the `dataflows`s processors. The File class inherits
+from the Metadata class all the metadata's functionality
+
+
+
+```python
+pipeline = Pipeline(
+    {
+        "type": "package",
+        "steps": [
+            {"type": "load", "spec": {"loadSource": "data/table.csv"}},
+            {"type": "set_type", "spec": {"name": "id", "type": "string"}},
+            {"type": "dump_to_path", "spec": {"outPath": tmpdir}},
+        ],
+    }
+)
+pipeline.run()
+```
+
+**Arguments**:
+
+- `descriptor` _str|dict_ - pipeline descriptor
+- `name?` _str_ - pipeline name
+- `type?` _str_ - pipeline type
+- `steps?` _dict[]_ - pipeline steps
 
 <a name="frictionless.plugins.pandas"></a>
 ## frictionless.plugins.pandas
@@ -2807,6 +3099,58 @@ API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.pandas import PandasPlugin`
 
+<a name="frictionless.plugins.pandas.PandasDialect"></a>
+### PandasDialect
+
+```python
+class PandasDialect(Dialect)
+```
+
+Pandas dialect representation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.pandas import PandasDialect`
+
+**Arguments**:
+
+- `descriptor?` _str|dict_ - descriptor
+  
+
+**Raises**:
+
+- `FrictionlessException` - raise any error that occurs during the process
+
+<a name="frictionless.plugins.pandas.PandasParser"></a>
+### PandasParser
+
+```python
+class PandasParser(Parser)
+```
+
+Pandas parser implementation.
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.pandas import PandasParser`
+
+<a name="frictionless.plugins.pandas.PandasStorage"></a>
+### PandasStorage
+
+```python
+class PandasStorage(Storage)
+```
+
+Pandas storage implementation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.pandas import PandasStorage`
+
+**Arguments**:
+
+- `dataframes?` _dict_ - dictionary of Pandas dataframes
+
 <a name="frictionless.plugins.spss"></a>
 ## frictionless.plugins.spss
 
@@ -2822,6 +3166,59 @@ Plugin for SPSS
 API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.spss import SpssPlugin`
+
+<a name="frictionless.plugins.spss.SpssDialect"></a>
+### SpssDialect
+
+```python
+class SpssDialect(Dialect)
+```
+
+Spss dialect representation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.spss import SpssDialect`
+
+**Arguments**:
+
+- `descriptor?` _str|dict_ - descriptor
+  
+
+**Raises**:
+
+- `FrictionlessException` - raise any error that occurs during the process
+
+<a name="frictionless.plugins.spss.SpssParser"></a>
+### SpssParser
+
+```python
+class SpssParser(Parser)
+```
+
+Spss parser implementation.
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.spss import SpssParser`
+
+<a name="frictionless.plugins.spss.SpssStorage"></a>
+### SpssStorage
+
+```python
+class SpssStorage(Storage)
+```
+
+SPSS storage implementation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.spss import SpssStorage`
+
+**Arguments**:
+
+- `basepath?` _str_ - A path to a dir for reading/writing SAV files.
+  Defaults to current dir.
 
 <a name="frictionless.plugins.elastic"></a>
 ## frictionless.plugins.elastic
@@ -2839,6 +3236,66 @@ API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.elastic import ElasticPlugin`
 
+<a name="frictionless.plugins.elastic.Storage"></a>
+### Storage
+
+```python
+class Storage(object)
+```
+
+Elastic storage implementation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.elastic import ElasticStorage`
+
+<a name="frictionless.plugins.elastic.Storage.write_table"></a>
+#### <big>write\_table</big>
+
+```python
+ | write_table(bucket, doc_types, reindex=False, always_recreate=False, mapping_generator_cls=None, index_settings=None)
+```
+
+Create index with mapping by schema.
+
+__Arguments__
+
+- __bucket__ (`str`):
+        Name of index to be created
+- __doc_types__ (`list<(doc_type, descriptor)>`):
+        List of tuples of doc_types and matching descriptors
+- __always_recreate__:
+        Delete index if already exists (otherwise just update mapping)
+- __reindex__:
+        On mapping mismath, automatically create
+        new index and migrate existing indexes to it
+- __mapping_generator_cls__:
+        subclass of MappingGenerator
+- __index_settings__:
+        settings which will be used in index creation
+
+<a name="frictionless.plugins.elastic.Storage.write_table_convert"></a>
+#### <big>write\_table\_convert</big>
+
+```python
+ | write_table_convert(descriptor, mapping_generator_cls=None)
+```
+
+Convert descriptor to ElasticSearch Mapping.
+
+<a name="frictionless.plugins.elastic.Storage.write_table_remove"></a>
+#### <big>write\_table\_remove</big>
+
+```python
+ | write_table_remove(bucket=None)
+```
+
+Delete index with mapping by schema.
+
+__Arguments__
+
+- __bucket__ (`str`): Name of index to delete
+
 <a name="frictionless.plugins.bigquery"></a>
 ## frictionless.plugins.bigquery
 
@@ -2855,6 +3312,64 @@ API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.bigquery import BigqueryPlugin`
 
+<a name="frictionless.plugins.bigquery.BigqueryDialect"></a>
+### BigqueryDialect
+
+```python
+class BigqueryDialect(Dialect)
+```
+
+Bigquery dialect representation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.bigquery import BigqueryDialect`
+
+**Arguments**:
+
+- `descriptor?` _str|dict_ - descriptor
+- `project` _str_ - project
+- `dataset?` _str_ - dataset
+- `table?` _str_ - table
+  
+
+**Raises**:
+
+- `FrictionlessException` - raise any error that occurs during the process
+
+<a name="frictionless.plugins.bigquery.BigqueryParser"></a>
+### BigqueryParser
+
+```python
+class BigqueryParser(Parser)
+```
+
+Bigquery parser implementation.
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.bigquery import BigqueryParser`
+
+<a name="frictionless.plugins.bigquery.BigqueryStorage"></a>
+### BigqueryStorage
+
+```python
+class BigqueryStorage(Storage)
+```
+
+BigQuery storage implementation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.bigquery import BigqueryStorage`
+
+**Arguments**:
+
+- `service` _object_ - BigQuery `Service` object
+- `project` _str_ - BigQuery project name
+- `dataset` _str_ - BigQuery dataset name
+- `prefix?` _str_ - prefix for all names
+
 <a name="frictionless.plugins.ods"></a>
 ## frictionless.plugins.ods
 
@@ -2870,19 +3385,6 @@ Plugin for ODS
 API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.ods import OdsPlugin`
-
-<a name="frictionless.plugins.ods.OdsParser"></a>
-### OdsParser
-
-```python
-class OdsParser(Parser)
-```
-
-ODS parser implementation.
-
-API      | Usage
--------- | --------
-Public   | `from frictionless.plugins.ods import OdsParser`
 
 <a name="frictionless.plugins.ods.OdsDialect"></a>
 ### OdsDialect
@@ -2928,6 +3430,19 @@ Public   | `from frictionless.plugins.ods import OdsDialect`
 
 Expand metadata
 
+<a name="frictionless.plugins.ods.OdsParser"></a>
+### OdsParser
+
+```python
+class OdsParser(Parser)
+```
+
+ODS parser implementation.
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.ods import OdsParser`
+
 <a name="frictionless.plugins.html"></a>
 ## frictionless.plugins.html
 
@@ -2943,19 +3458,6 @@ Plugin for HTML
 API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.html import HtmlPlugin`
-
-<a name="frictionless.plugins.html.HtmlParser"></a>
-### HtmlParser
-
-```python
-class HtmlParser(Parser)
-```
-
-HTML parser implementation.
-
-API      | Usage
--------- | --------
-Public   | `from frictionless.plugins.html import HtmlParser`
 
 <a name="frictionless.plugins.html.HtmlDialect"></a>
 ### HtmlDialect
@@ -3001,6 +3503,19 @@ Public   | `from frictionless.plugins.html import HtmlDialect`
 
 Expand metadata
 
+<a name="frictionless.plugins.html.HtmlParser"></a>
+### HtmlParser
+
+```python
+class HtmlParser(Parser)
+```
+
+HTML parser implementation.
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.html import HtmlParser`
+
 <a name="frictionless.plugins.tsv"></a>
 ## frictionless.plugins.tsv
 
@@ -3016,19 +3531,6 @@ Plugin for TSV
 API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.tsv import TsvPlugin`
-
-<a name="frictionless.plugins.tsv.TsvParser"></a>
-### TsvParser
-
-```python
-class TsvParser(Parser)
-```
-
-TSV parser implementation.
-
-API      | Usage
--------- | --------
-Public   | `from frictionless.plugins.tsv import TsvParser`
 
 <a name="frictionless.plugins.tsv.TsvDialect"></a>
 ### TsvDialect
@@ -3052,6 +3554,19 @@ Public   | `from frictionless.plugins.tsv import TsvDialect`
 
 - `FrictionlessException` - raise any error that occurs during the process
 
+<a name="frictionless.plugins.tsv.TsvParser"></a>
+### TsvParser
+
+```python
+class TsvParser(Parser)
+```
+
+TSV parser implementation.
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.tsv import TsvParser`
+
 <a name="frictionless.plugins.sql"></a>
 ## frictionless.plugins.sql
 
@@ -3068,19 +3583,6 @@ API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.sql import SqlPlugin`
 
-<a name="frictionless.plugins.sql.SqlParser"></a>
-### SqlParser
-
-```python
-class SqlParser(Parser)
-```
-
-SQL parser implementation.
-
-API      | Usage
--------- | --------
-Public   | `from frictionless.plugins.sql import SqlParser`
-
 <a name="frictionless.plugins.sql.SqlDialect"></a>
 ### SqlDialect
 
@@ -3088,7 +3590,7 @@ Public   | `from frictionless.plugins.sql import SqlParser`
 class SqlDialect(Dialect)
 ```
 
-Sql dialect representation
+SQL dialect representation
 
 API      | Usage
 -------- | --------
@@ -3105,6 +3607,38 @@ Public   | `from frictionless.plugins.sql import SqlDialect`
 
 - `FrictionlessException` - raise any error that occurs during the process
 
+<a name="frictionless.plugins.sql.SqlParser"></a>
+### SqlParser
+
+```python
+class SqlParser(Parser)
+```
+
+SQL parser implementation.
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.sql import SqlParser`
+
+<a name="frictionless.plugins.sql.SqlStorage"></a>
+### SqlStorage
+
+```python
+class SqlStorage(Storage)
+```
+
+SQL storage implementation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.sql import SqlStorage`
+
+**Arguments**:
+
+- `engine` _object_ - `sqlalchemy` engine
+- `prefix` _str_ - prefix for all tables
+- `namespace` _str_ - SQL scheme
+
 <a name="frictionless.plugins.ckan"></a>
 ## frictionless.plugins.ckan
 
@@ -3119,7 +3653,39 @@ Plugin for CKAN
 
 API      | Usage
 -------- | --------
-Public   | `from frictionless.plugins.bigquery import CkanPlugin`
+Public   | `from frictionless.plugins.ckan import CkanPlugin`
+
+<a name="frictionless.plugins.ckan.CkanStorage"></a>
+### CkanStorage
+
+```python
+class CkanStorage(Storage)
+```
+
+Ckan storage implementation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.ckan import CkanStorage`
+
+<a name="frictionless.plugins.ckan.make_ckan_request"></a>
+#### <big>make\_ckan\_request</big>
+
+```python
+make_ckan_request(url, method="GET", headers=None, api_key=None, **kwargs)
+```
+
+Make a CKAN API request to `url` and return the json response. **kwargs
+are passed to requests.request()
+
+<a name="frictionless.plugins.ckan.get_ckan_error"></a>
+#### <big>get\_ckan\_error</big>
+
+```python
+get_ckan_error(response)
+```
+
+Return the error from a ckan json response, or None.
 
 <a name="frictionless.plugins.server"></a>
 ## frictionless.plugins.server
@@ -3166,19 +3732,6 @@ API      | Usage
 -------- | --------
 Public   | `from frictionless.plugins.aws import AwsPlugin`
 
-<a name="frictionless.plugins.aws.S3Loader"></a>
-### S3Loader
-
-```python
-class S3Loader(Loader)
-```
-
-S3 loader implementation.
-
-API      | Usage
--------- | --------
-Public   | `from frictionless.plugins.aws import S3Loader`
-
 <a name="frictionless.plugins.aws.S3Control"></a>
 ### S3Control
 
@@ -3211,6 +3764,19 @@ Public   | `from frictionless.plugins.aws import S3Control`
 
 Expand metadata
 
+<a name="frictionless.plugins.aws.S3Loader"></a>
+### S3Loader
+
+```python
+class S3Loader(Loader)
+```
+
+S3 loader implementation.
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless.plugins.aws import S3Loader`
+
 <a name="frictionless.parsers"></a>
 ## frictionless.parsers
 
@@ -3228,7 +3794,7 @@ XLSX parser implementation.
 
 API      | Usage
 -------- | --------
-Public   | `from frictionless import parsers`
+Public   | `from frictionless import parsers
 
 <a name="frictionless.parsers.excel.XlsParser"></a>
 ### XlsParser
@@ -3241,7 +3807,7 @@ XLS parser implementation.
 
 API      | Usage
 -------- | --------
-Public   | `from frictionless import parsers`
+Public   | `from frictionless import parsers
 
 <a name="frictionless.parsers.csv"></a>
 ## frictionless.parsers.csv
@@ -3257,7 +3823,7 @@ CSV parser implementation.
 
 API      | Usage
 -------- | --------
-Public   | `from frictionless import parsers`
+Public   | `from frictionless import parsers
 
 <a name="frictionless.parsers.json"></a>
 ## frictionless.parsers.json
@@ -3273,7 +3839,7 @@ JSON parser implementation.
 
 API      | Usage
 -------- | --------
-Public   | `from frictionless import parser`
+Public   | `from frictionless import parsers
 
 <a name="frictionless.parsers.json.JsonlParser"></a>
 ### JsonlParser
@@ -3286,7 +3852,7 @@ JSONL parser implementation.
 
 API      | Usage
 -------- | --------
-Public   | `from frictionless import parsers`
+Public   | `from frictionless import parsers
 
 <a name="frictionless.parsers.inline"></a>
 ## frictionless.parsers.inline
@@ -3302,7 +3868,10 @@ Inline parser implementation.
 
 API      | Usage
 -------- | --------
-Public   | `from frictionless import parsers`
+Public   | `from frictionless import parsers
+
+<a name="frictionless.location"></a>
+## frictionless.location
 
 <a name="frictionless.extract"></a>
 ## frictionless.extract
@@ -3314,10 +3883,10 @@ Public   | `from frictionless import parsers`
 #### <big>extract</big>
 
 ```python
-extract(source, *, source_type=None, process=None, **options)
+extract(source, *, source_type=None, process=None, stream=False, **options)
 ```
 
-Extract resource rows into memory
+Extract resource rows
 
 API      | Usage
 -------- | --------
@@ -3328,6 +3897,7 @@ Public   | `from frictionless import extract`
 - `source` _dict|str_ - data source
 - `source_type` _str_ - source type - package, resource or table
 - `process?` _func_ - a row processor function
+- `stream?` _bool_ - return a row stream(s) instead of loading into memory
 - `**options` _dict_ - options for the underlaying function
   
 
@@ -3342,10 +3912,10 @@ Public   | `from frictionless import extract`
 #### <big>extract\_table</big>
 
 ```python
-extract_table(source, *, scheme=None, format=None, hashing=None, encoding=None, compression=None, compression_path=None, control=None, dialect=None, query=None, headers=None, schema=None, sync_schema=False, patch_schema=False, infer_type=None, infer_names=None, infer_volume=config.DEFAULT_INFER_VOLUME, infer_confidence=config.DEFAULT_INFER_CONFIDENCE, infer_missing_values=config.DEFAULT_MISSING_VALUES, lookup=None, process=None)
+extract_table(source, *, scheme=None, format=None, hashing=None, encoding=None, compression=None, compression_path=None, control=None, dialect=None, query=None, headers=None, schema=None, sync_schema=False, patch_schema=False, infer_type=None, infer_names=None, infer_volume=config.DEFAULT_INFER_VOLUME, infer_confidence=config.DEFAULT_INFER_CONFIDENCE, infer_missing_values=config.DEFAULT_MISSING_VALUES, onerror="ignore", lookup=None, process=None, stream=False)
 ```
 
-Extract table rows into memory
+Extract table rows
 
 API      | Usage
 -------- | --------
@@ -3425,15 +3995,23 @@ Public   | `from frictionless import extract_table`
   For more information, please check "Describing  Data" guide.
   It defaults to `['']`
   
+- `onerror?` _ignore|warn|raise_ - Define behaviour if there is an error in the
+  header or rows during the reading rows process.
+  It defaults to `ignore`.
+  
 - `lookup?` _dict_ - The lookup is a special object providing relational information.
   For more information, please check "Extracting  Data" guide.
   
-- `process?` _func_ - a row processor function
+- `process?` _func_ - A row processor function.
+  It should be in a form of `row -> result`
+  
+- `stream?` _bool_ - Return a row streams instead of loading into memory.
+  It can be useful for a big data files.
   
 
 **Returns**:
 
-- `Row[]` - an array for rows
+- `Row[]` - an array/stream of rows
 
 <a name="frictionless.extract.package"></a>
 ## frictionless.extract.package
@@ -3442,10 +4020,10 @@ Public   | `from frictionless import extract_table`
 #### <big>extract\_package</big>
 
 ```python
-extract_package(source, *, process=None)
+extract_package(source, *, basepath=None, onerror="ignore", trusted=False, process=None, stream=False)
 ```
 
-Extract package rows into memory
+Extract package rows
 
 API      | Usage
 -------- | --------
@@ -3454,12 +4032,16 @@ Public   | `from frictionless import extract_package`
 **Arguments**:
 
 - `source` _dict|str_ - data resource descriptor
+- `basepath?` _str_ - package basepath
+- `onerror?` _ignore|warn|raise_ - behaviour on errors
+- `trusted?` _bool_ - don't raise an exception on unsafe paths
 - `process?` _func_ - a row processor function
+- `stream?` _bool_ - return a row streams instead of loading into memory
   
 
 **Returns**:
 
-- `{path` - Row[]}: a dictionary of arrays of rows
+- `{path` - Row[]}: a dictionary of arrays/streams of rows
 
 <a name="frictionless.extract.resource"></a>
 ## frictionless.extract.resource
@@ -3468,10 +4050,10 @@ Public   | `from frictionless import extract_package`
 #### <big>extract\_resource</big>
 
 ```python
-extract_resource(source, *, process=None)
+extract_resource(source, *, basepath=None, onerror="ignore", trusted=False, process=None, stream=False)
 ```
 
-Extract resource rows into memory
+Extract resource rows
 
 API      | Usage
 -------- | --------
@@ -3480,12 +4062,15 @@ Public   | `from frictionless import extract_resource`
 **Arguments**:
 
 - `source` _dict|str_ - data resource descriptor
+- `basepath?` _str_ - package basepath
+- `onerror?` _ignore|warn|raise_ - behaviour on errors
+- `trusted?` _bool_ - don't raise an exception on unsafe paths
 - `process?` _func_ - a row processor function
   
 
 **Returns**:
 
-- `Row[]` - an array of rows
+- `Row[]` - an array/stream of rows
 
 <a name="frictionless.errors"></a>
 ## frictionless.errors
@@ -3684,7 +4269,7 @@ Public   | `from frictionless import describe`
 #### <big>describe\_package</big>
 
 ```python
-describe_package(source, *, expand=False)
+describe_package(source, *, hashing=None, basepath=None, expand=False)
 ```
 
 Describe the given source as a package
@@ -3696,6 +4281,8 @@ Public   | `from frictionless import describe_package`
 **Arguments**:
 
 - `source` _any_ - data source
+- `hashing?` _str_ - a hashing algorithm for resources
+- `basepath?` _str_ - package basepath
 - `expand?` _bool_ - if `True` it will expand the metadata
   
 
@@ -3805,6 +4392,7 @@ Public   | `from frictionless import describe_resource`
   It defaults to `['']`
   
 - `expand?` _bool_ - if `True` it will expand the metadata
+  It defaults to `False`
   
 
 **Returns**:
@@ -3934,9 +4522,14 @@ Get schema's field by name.
 - `name` _str_ - schema field name
   
 
+**Raises**:
+
+- `FrictionlessException` - if field is not found
+  
+
 **Returns**:
 
-- `Field/None` - `Field` instance or `None` if not found
+- `Field` - `Field` instance or `None` if not found
 
 <a name="frictionless.schema.Schema.has_field"></a>
 #### <big>has\_field</big>
@@ -3970,6 +4563,11 @@ The schema descriptor will be validated after field descriptor removal.
 **Arguments**:
 
 - `name` _str_ - schema field name
+  
+
+**Raises**:
+
+- `FrictionlessException` - if field is not found
   
 
 **Returns**:
@@ -4060,19 +4658,6 @@ Infer schema from sample
 **Returns**:
 
 - `Schema` - schema
-
-<a name="frictionless.schema.Schema.to_dict"></a>
-#### <big>to\_dict</big>
-
-```python
- | to_dict(expand=False)
-```
-
-Convert resource to dict
-
-**Arguments**:
-
-- `expand` _bool_ - whether to expand
 
 <a name="frictionless.check"></a>
 ## frictionless.check
@@ -4245,17 +4830,32 @@ Public   | `from frictionless import Resource`
 - `encoding?` _str_ - file encoding
 - `compression?` _str_ - file compression
 - `compression_path?` _str_ - file compression path
+- `control?` _dict_ - file control
 - `dialect?` _dict_ - table dialect
-- `schema?` _dict_ - file schema
+- `query?` _dict_ - table query
+- `schema?` _dict_ - table schema
+- `stats?` _dict_ - table stats
 - `profile?` _str_ - resource profile
 - `basepath?` _str_ - resource basepath
-- `trusted?` _bool_ - don't raise on unsage paths
+- `onerror?` _ignore|warn|raise_ - behaviour if there is an error
+- `trusted?` _bool_ - don't raise an exception on unsafe paths
 - `package?` _Package_ - resource package
   
 
 **Raises**:
 
 - `FrictionlessException` - raise any error that occurs during the process
+
+<a name="frictionless.resource.Resource.source"></a>
+#### <big>source</big>
+
+```python
+ | @Metadata.property(write=False)
+ | source()
+```
+
+Returns
+    any: data source
 
 <a name="frictionless.resource.Resource.name"></a>
 #### <big>name</big>
@@ -4290,6 +4890,17 @@ Returns
 Returns
     str: resource description
 
+<a name="frictionless.resource.Resource.profile"></a>
+#### <big>profile</big>
+
+```python
+ | @Metadata.property
+ | profile()
+```
+
+Returns
+    str?: resource profile
+
 <a name="frictionless.resource.Resource.path"></a>
 #### <big>path</big>
 
@@ -4311,83 +4922,6 @@ Returns
 
 Returns
     any[][]?: resource data
-
-<a name="frictionless.resource.Resource.source"></a>
-#### <big>source</big>
-
-```python
- | @Metadata.property(write=False)
- | source()
-```
-
-Returns
-    any: data source
-
-<a name="frictionless.resource.Resource.basepath"></a>
-#### <big>basepath</big>
-
-```python
- | @Metadata.property(write=False)
- | basepath()
-```
-
-Returns
-    str: resource basepath
-
-<a name="frictionless.resource.Resource.fullpath"></a>
-#### <big>fullpath</big>
-
-```python
- | @Metadata.property(write=False)
- | fullpath()
-```
-
-Returns
-    str: resource fullpath
-
-<a name="frictionless.resource.Resource.inline"></a>
-#### <big>inline</big>
-
-```python
- | @Metadata.property(write=False)
- | inline()
-```
-
-Returns
-    bool: if resource is inline
-
-<a name="frictionless.resource.Resource.tabular"></a>
-#### <big>tabular</big>
-
-```python
- | @Metadata.property(write=False)
- | tabular()
-```
-
-Returns
-    bool: if resource is tabular
-
-<a name="frictionless.resource.Resource.remote"></a>
-#### <big>remote</big>
-
-```python
- | @Metadata.property(write=False)
- | remote()
-```
-
-Returns
-    bool: if resource is remote
-
-<a name="frictionless.resource.Resource.multipart"></a>
-#### <big>multipart</big>
-
-```python
- | @Metadata.property(write=False)
- | multipart()
-```
-
-Returns
-    bool: if resource is multipart
 
 <a name="frictionless.resource.Resource.scheme"></a>
 #### <big>scheme</big>
@@ -4455,16 +4989,16 @@ Returns
 Returns
     str?: resource compression path
 
-<a name="frictionless.resource.Resource.stats"></a>
-#### <big>stats</big>
+<a name="frictionless.resource.Resource.control"></a>
+#### <big>control</big>
 
 ```python
  | @Metadata.property
- | stats()
+ | control()
 ```
 
 Returns
-    dict?: resource stats
+    Control?: resource control
 
 <a name="frictionless.resource.Resource.dialect"></a>
 #### <big>dialect</big>
@@ -4477,6 +5011,18 @@ Returns
 Returns
     Dialect?: resource dialect
 
+<a name="frictionless.resource.Resource.query"></a>
+#### <big>query</big>
+
+```python
+ | @Metadata.property
+ | query()
+```
+
+**Returns**:
+
+- `Query?` - table query
+
 <a name="frictionless.resource.Resource.schema"></a>
 #### <big>schema</big>
 
@@ -4488,16 +5034,118 @@ Returns
 Returns
     Schema: resource schema
 
-<a name="frictionless.resource.Resource.profile"></a>
-#### <big>profile</big>
+<a name="frictionless.resource.Resource.stats"></a>
+#### <big>stats</big>
 
 ```python
  | @Metadata.property
- | profile()
+ | stats()
 ```
 
 Returns
-    str?: resource profile
+    dict?: resource stats
+
+<a name="frictionless.resource.Resource.basepath"></a>
+#### <big>basepath</big>
+
+```python
+ | @Metadata.property(write=False)
+ | basepath()
+```
+
+Returns
+    str: resource basepath
+
+<a name="frictionless.resource.Resource.fullpath"></a>
+#### <big>fullpath</big>
+
+```python
+ | @Metadata.property(write=False)
+ | fullpath()
+```
+
+Returns
+    str: resource fullpath
+
+<a name="frictionless.resource.Resource.onerror"></a>
+#### <big>onerror</big>
+
+```python
+ | @property
+ | onerror()
+```
+
+**Returns**:
+
+- `ignore|warn|raise` - on error bahaviour
+
+<a name="frictionless.resource.Resource.trusted"></a>
+#### <big>trusted</big>
+
+```python
+ | @property
+ | trusted()
+```
+
+**Returns**:
+
+- `bool` - don't raise an exception on unsafe paths
+
+<a name="frictionless.resource.Resource.package"></a>
+#### <big>package</big>
+
+```python
+ | @property
+ | package()
+```
+
+**Returns**:
+
+- `Package?` - parent package
+
+<a name="frictionless.resource.Resource.inline"></a>
+#### <big>inline</big>
+
+```python
+ | @Metadata.property(write=False)
+ | inline()
+```
+
+Returns
+    bool: if resource is inline
+
+<a name="frictionless.resource.Resource.multipart"></a>
+#### <big>multipart</big>
+
+```python
+ | @Metadata.property(write=False)
+ | multipart()
+```
+
+Returns
+    bool: if resource is multipart
+
+<a name="frictionless.resource.Resource.remote"></a>
+#### <big>remote</big>
+
+```python
+ | @Metadata.property(write=False)
+ | remote()
+```
+
+Returns
+    bool: if resource is remote
+
+<a name="frictionless.resource.Resource.tabular"></a>
+#### <big>tabular</big>
+
+```python
+ | @Metadata.property(write=False)
+ | tabular()
+```
+
+Returns
+    bool: if resource is tabular
 
 <a name="frictionless.resource.Resource.expand"></a>
 #### <big>expand</big>
@@ -4648,18 +5296,93 @@ Returns
 Returns
     dict: resource lookup structure
 
-<a name="frictionless.resource.Resource.to_dict"></a>
-#### <big>to\_dict</big>
+<a name="frictionless.resource.Resource.from_storage"></a>
+#### <big>from\_storage</big>
 
 ```python
- | to_dict(expand=False)
+ | @staticmethod
+ | from_storage(storage, *, name)
 ```
 
-Convert resource to dict
+Import resource from storage
 
 **Arguments**:
 
-- `expand` _bool_ - whether to expand
+- `storage` _Storage_ - storage instance
+- `name` _str_ - resource name
+
+<a name="frictionless.resource.Resource.from_sql"></a>
+#### <big>from\_sql</big>
+
+```python
+ | @staticmethod
+ | from_sql(*, name, engine, prefix="", namespace=None)
+```
+
+Import resource from SQL table
+
+**Arguments**:
+
+- `name` _str_ - resource name
+- `engine` _object_ - `sqlalchemy` engine
+- `prefix` _str_ - prefix for all tables
+- `namespace` _str_ - SQL scheme
+
+<a name="frictionless.resource.Resource.from_pandas"></a>
+#### <big>from\_pandas</big>
+
+```python
+ | @staticmethod
+ | from_pandas(dataframe)
+```
+
+Import resource from Pandas dataframe
+
+**Arguments**:
+
+- `dataframe` _str_ - padas dataframe
+
+<a name="frictionless.resource.Resource.from_spss"></a>
+#### <big>from\_spss</big>
+
+```python
+ | @staticmethod
+ | from_spss(*, name, basepath)
+```
+
+Import resource from SPSS file
+
+**Arguments**:
+
+- `name` _str_ - resource name
+- `basepath` _str_ - SPSS dir path
+
+<a name="frictionless.resource.Resource.from_bigquery"></a>
+#### <big>from\_bigquery</big>
+
+```python
+ | @staticmethod
+ | from_bigquery(*, name, service, project, dataset, prefix="")
+```
+
+Import resource from BigQuery table
+
+**Arguments**:
+
+- `name` _str_ - resource name
+- `service` _object_ - BigQuery `Service` object
+- `project` _str_ - BigQuery project name
+- `dataset` _str_ - BigQuery dataset name
+- `prefix?` _str_ - prefix for all names
+
+<a name="frictionless.resource.Resource.to_copy"></a>
+#### <big>to\_copy</big>
+
+```python
+ | to_copy()
+```
+
+Create a copy of the resource
 
 <a name="frictionless.resource.Resource.to_table"></a>
 #### <big>to\_table</big>
@@ -4701,7 +5424,7 @@ Convert resource to File
 #### <big>to\_zip</big>
 
 ```python
- | to_zip(target)
+ | to_zip(target, encoder_class=None)
 ```
 
 Save resource to a zip
@@ -4714,6 +5437,81 @@ Save resource to a zip
 **Raises**:
 
 - `FrictionlessException` - on any error
+
+<a name="frictionless.resource.Resource.to_storage"></a>
+#### <big>to\_storage</big>
+
+```python
+ | to_storage(storage, *, force=False)
+```
+
+Export resource to storage
+
+**Arguments**:
+
+- `storage` _Storage_ - storage instance
+- `force` _bool_ - overwrite existent
+
+<a name="frictionless.resource.Resource.to_sql"></a>
+#### <big>to\_sql</big>
+
+```python
+ | to_sql(*, engine, prefix="", namespace=None, force=False)
+```
+
+Export resource to SQL table
+
+**Arguments**:
+
+- `engine` _object_ - `sqlalchemy` engine
+- `prefix` _str_ - prefix for all tables
+- `namespace` _str_ - SQL scheme
+- `force` _bool_ - overwrite existent
+
+<a name="frictionless.resource.Resource.to_pandas"></a>
+#### <big>to\_pandas</big>
+
+```python
+ | to_pandas()
+```
+
+Export resource to Pandas dataframe
+
+**Arguments**:
+
+- `dataframes` _dict_ - pandas dataframes
+- `force` _bool_ - overwrite existent
+
+<a name="frictionless.resource.Resource.to_spss"></a>
+#### <big>to\_spss</big>
+
+```python
+ | to_spss(*, basepath, force=False)
+```
+
+Export resource to SPSS file
+
+**Arguments**:
+
+- `basepath` _str_ - SPSS dir path
+- `force` _bool_ - overwrite existent
+
+<a name="frictionless.resource.Resource.to_bigquery"></a>
+#### <big>to\_bigquery</big>
+
+```python
+ | to_bigquery(*, service, project, dataset, prefix="", force=False)
+```
+
+Export resource to Bigquery table
+
+**Arguments**:
+
+- `service` _object_ - BigQuery `Service` object
+- `project` _str_ - BigQuery project name
+- `dataset` _str_ - BigQuery dataset name
+- `prefix?` _str_ - prefix for all names
+- `force` _bool_ - overwrite existent
 
 <a name="frictionless.exceptions"></a>
 ## frictionless.exceptions
@@ -4757,7 +5555,7 @@ Public   | `from frictionless import exceptions`
 #### <big>transform</big>
 
 ```python
-transform(source)
+transform(source, **options)
 ```
 
 Transform resource
@@ -4770,14 +5568,14 @@ Public   | `from frictionless import transform`
 
 - `source` _any_ - data source
 
-<a name="frictionless.transform.package"></a>
-## frictionless.transform.package
+<a name="frictionless.transform.pipeline"></a>
+## frictionless.transform.pipeline
 
-<a name="frictionless.transform.package.transform_package"></a>
-#### <big>transform\_package</big>
+<a name="frictionless.transform.pipeline.transform_pipeline"></a>
+#### <big>transform\_pipeline</big>
 
 ```python
-transform_package(source)
+transform_pipeline(source)
 ```
 
 Transform package
@@ -4790,6 +5588,26 @@ Public   | `from frictionless import transform_package`
 
 - `source` _any_ - a pipeline descriptor
 
+<a name="frictionless.transform.package"></a>
+## frictionless.transform.package
+
+<a name="frictionless.transform.package.transform_package"></a>
+#### <big>transform\_package</big>
+
+```python
+transform_package(package, *, steps)
+```
+
+Transform package
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless import transform_package`
+
+**Arguments**:
+
+- `source` _any_ - data source
+
 <a name="frictionless.transform.resource"></a>
 ## frictionless.transform.resource
 
@@ -4797,7 +5615,7 @@ Public   | `from frictionless import transform_package`
 #### <big>transform\_resource</big>
 
 ```python
-transform_resource(source)
+transform_resource(resource, *, steps)
 ```
 
 Transform resource
@@ -4828,19 +5646,19 @@ Public   | `from frictionless import Parser`
 
 **Arguments**:
 
-- `file` _File_ - file
+- `resource` _Resource_ - resource
 
-<a name="frictionless.parser.Parser.file"></a>
-#### <big>file</big>
+<a name="frictionless.parser.Parser.resource"></a>
+#### <big>resource</big>
 
 ```python
  | @property
- | file()
+ | resource()
 ```
 
 **Returns**:
 
-- `File` - file
+- `Resource` - resource
 
 <a name="frictionless.parser.Parser.loader"></a>
 #### <big>loader</big>
@@ -4964,14 +5782,14 @@ Wrap data stream into error handler
 #### <big>write</big>
 
 ```python
- | write(row_stream)
+ | write(read_row_stream)
 ```
 
-Write row stream into the file
+Write row stream into the resource
 
 **Arguments**:
 
-- `gen<Row[]>` - row stream
+- `read_row_stream` _gen<Row[]>_ - row stream factory
 
 <a name="frictionless.report"></a>
 ## frictionless.report
@@ -5133,19 +5951,6 @@ Validate function wrapper
 **Returns**:
 
 - `func` - wrapped validate
-
-<a name="frictionless.report.Report.to_dict"></a>
-#### <big>to\_dict</big>
-
-```python
- | to_dict(expand=False)
-```
-
-Convert field to dict
-
-**Arguments**:
-
-- `expand` _bool_ - whether to expand
 
 <a name="frictionless.report.ReportTable"></a>
 ### ReportTable
@@ -5418,18 +6223,11 @@ spec (any[]): flatten specification
 
 - `any[]` - flatten table report
 
-<a name="frictionless.report.ReportTable.to_dict"></a>
-#### <big>to\_dict</big>
+<a name="frictionless.utils"></a>
+## frictionless.utils
 
-```python
- | to_dict(expand=False)
-```
-
-Convert field to dict
-
-**Arguments**:
-
-- `expand` _bool_ - whether to expand
+<a name="frictionless.step"></a>
+## frictionless.step
 
 <a name="frictionless.dialects"></a>
 ## frictionless.dialects
@@ -5453,6 +6251,7 @@ Public   | `from frictionless import dialects`
 - `header?` _bool_ - whether there is a header row
 - `headerRows?` _int[]_ - row numbers of header rows
 - `headerJoin?` _str_ - a multiline header joiner
+- `headerCase?` _bool_ - case sensitive header
   
 
 **Raises**:
@@ -5495,6 +6294,18 @@ Public   | `from frictionless import dialects`
 
 - `str` - header joiner
 
+<a name="frictionless.dialects.Dialect.header_case"></a>
+#### <big>header\_case</big>
+
+```python
+ | @Metadata.property
+ | header_case()
+```
+
+**Returns**:
+
+- `str` - header case sensitive
+
 <a name="frictionless.dialects.Dialect.expand"></a>
 #### <big>expand</big>
 
@@ -5504,19 +6315,6 @@ Public   | `from frictionless import dialects`
 
 Expand metadata
 
-<a name="frictionless.dialects.Dialect.to_dict"></a>
-#### <big>to\_dict</big>
-
-```python
- | to_dict(expand=False)
-```
-
-Conver to a dict
-
-**Arguments**:
-
-- `expand` _bool_ - if True call `metadata.expand` for the exported copy
-
 <a name="frictionless.dialects.CsvDialect"></a>
 ### CsvDialect
 
@@ -5525,6 +6323,10 @@ class CsvDialect(Dialect)
 ```
 
 Csv dialect representation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless import dialects`
 
 **Arguments**:
 
@@ -5537,7 +6339,6 @@ Csv dialect representation
 - `null_sequence?` _str_ - csv null sequence
 - `skip_initial_space?` _bool_ - csv skip initial space
 - `comment_char?` _str_ - csv comment char
-- `case_sensitive_header?` _bool_ - csv case sensitive header
   
 
 **Raises**:
@@ -5640,18 +6441,6 @@ Csv dialect representation
 
 - `str?` - comment char
 
-<a name="frictionless.dialects.CsvDialect.case_sensitive_header"></a>
-#### <big>case\_sensitive\_header</big>
-
-```python
- | @Metadata.property
- | case_sensitive_header()
-```
-
-**Returns**:
-
-- `bool` - case sensitive header
-
 <a name="frictionless.dialects.CsvDialect.expand"></a>
 #### <big>expand</big>
 
@@ -5678,6 +6467,10 @@ class ExcelDialect(Dialect)
 ```
 
 Excel dialect representation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless import dialects`
 
 **Arguments**:
 
@@ -5771,6 +6564,10 @@ class InlineDialect(Dialect)
 
 Inline dialect representation
 
+API      | Usage
+-------- | --------
+Public   | `from frictionless import dialects`
+
 **Arguments**:
 
 - `descriptor?` _str|dict_ - descriptor
@@ -5823,6 +6620,10 @@ class JsonDialect(Dialect)
 ```
 
 Json dialect representation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless import dialects`
 
 **Arguments**:
 
@@ -6183,19 +6984,19 @@ Public   | `from frictionless import Loader`
 
 **Arguments**:
 
-- `file` _File_ - file
+- `resource` _Resource_ - resource
 
-<a name="frictionless.loader.Loader.file"></a>
-#### <big>file</big>
+<a name="frictionless.loader.Loader.resource"></a>
+#### <big>resource</big>
 
 ```python
  | @property
- | file()
+ | resource()
 ```
 
 **Returns**:
 
-- `file` _File_ - file
+- `resource` _Resource_ - resource
 
 <a name="frictionless.loader.Loader.byte_stream"></a>
 #### <big>byte\_stream</big>
@@ -6205,13 +7006,13 @@ Public   | `from frictionless import Loader`
  | byte_stream()
 ```
 
-File byte stream
+Resource byte stream
 
 The stream is available after opening the loader
 
 **Returns**:
 
-- `io.ByteStream` - file byte stream
+- `io.ByteStream` - resource byte stream
 
 <a name="frictionless.loader.Loader.text_stream"></a>
 #### <big>text\_stream</big>
@@ -6221,13 +7022,13 @@ The stream is available after opening the loader
  | text_stream()
 ```
 
-File text stream
+Resource text stream
 
 The stream is available after opening the loader
 
 **Returns**:
 
-- `io.TextStream` - file text stream
+- `io.TextStream` - resource text stream
 
 <a name="frictionless.loader.Loader.open"></a>
 #### <big>open</big>
@@ -6272,7 +7073,7 @@ Read bytes stream
 
 **Returns**:
 
-- `io.ByteStream` - file byte stream
+- `io.ByteStream` - resource byte stream
 
 <a name="frictionless.loader.Loader.read_byte_stream_create"></a>
 #### <big>read\_byte\_stream\_create</big>
@@ -6285,7 +7086,7 @@ Create bytes stream
 
 **Returns**:
 
-- `io.ByteStream` - file byte stream
+- `io.ByteStream` - resource byte stream
 
 <a name="frictionless.loader.Loader.read_byte_stream_infer_stats"></a>
 #### <big>read\_byte\_stream\_infer\_stats</big>
@@ -6298,12 +7099,12 @@ Infer byte stream stats
 
 **Arguments**:
 
-- `byte_stream` _io.ByteStream_ - file byte stream
+- `byte_stream` _io.ByteStream_ - resource byte stream
   
 
 **Returns**:
 
-- `io.ByteStream` - file byte stream
+- `io.ByteStream` - resource byte stream
 
 <a name="frictionless.loader.Loader.read_byte_stream_decompress"></a>
 #### <big>read\_byte\_stream\_decompress</big>
@@ -6316,12 +7117,12 @@ Decompress byte stream
 
 **Arguments**:
 
-- `byte_stream` _io.ByteStream_ - file byte stream
+- `byte_stream` _io.ByteStream_ - resource byte stream
   
 
 **Returns**:
 
-- `io.ByteStream` - file byte stream
+- `io.ByteStream` - resource byte stream
 
 <a name="frictionless.loader.Loader.read_text_stream"></a>
 #### <big>read\_text\_stream</big>
@@ -6334,7 +7135,7 @@ Read text stream
 
 **Returns**:
 
-- `io.TextStream` - file text stream
+- `io.TextStream` - resource text stream
 
 <a name="frictionless.loader.Loader.read_text_stream_infer_encoding"></a>
 #### <big>read\_text\_stream\_infer\_encoding</big>
@@ -6347,7 +7148,7 @@ Infer text stream encoding
 
 **Arguments**:
 
-- `byte_stream` _io.ByteStream_ - file byte stream
+- `byte_stream` _io.ByteStream_ - resource byte stream
 
 <a name="frictionless.loader.Loader.read_text_stream_decode"></a>
 #### <big>read\_text\_stream\_decode</big>
@@ -6360,12 +7161,12 @@ Decode text stream
 
 **Arguments**:
 
-- `byte_stream` _io.ByteStream_ - file byte stream
+- `byte_stream` _io.ByteStream_ - resource byte stream
   
 
 **Returns**:
 
-- `text_stream` _io.TextStream_ - file text stream
+- `text_stream` _io.TextStream_ - resource text stream
 
 <a name="frictionless.validate"></a>
 ## frictionless.validate
@@ -6406,7 +7207,7 @@ Public   | `from frictionless import validate`
 
 ```python
 @Report.from_validate
-validate_table(source, *, scheme=None, format=None, hashing=None, encoding=None, compression=None, compression_path=None, control=None, dialect=None, query=None, headers=None, schema=None, sync_schema=False, patch_schema=False, infer_type=None, infer_names=None, infer_volume=config.DEFAULT_INFER_VOLUME, infer_confidence=config.DEFAULT_INFER_CONFIDENCE, infer_missing_values=config.DEFAULT_MISSING_VALUES, lookup=None, checksum=None, extra_checks=None, pick_errors=None, skip_errors=None, limit_errors=None, limit_memory=config.DEFAULT_LIMIT_MEMORY)
+validate_table(source, *, scheme=None, format=None, hashing=None, encoding=None, compression=None, compression_path=None, control=None, dialect=None, query=None, headers=None, schema=None, sync_schema=False, patch_schema=False, infer_type=None, infer_names=None, infer_volume=config.DEFAULT_INFER_VOLUME, infer_confidence=config.DEFAULT_INFER_CONFIDENCE, infer_missing_values=config.DEFAULT_MISSING_VALUES, onerror="ignore", lookup=None, checksum=None, extra_checks=None, pick_errors=None, skip_errors=None, limit_errors=None, limit_memory=config.DEFAULT_LIMIT_MEMORY)
 ```
 
 Validate table
@@ -6489,6 +7290,10 @@ Public   | `from frictionless import validate_table`
   For more information, please check "Describing  Data" guide.
   It defaults to `['']`
   
+- `onerror?` _ignore|warn|raise_ - Define behaviour if there is an error in the
+  header or rows during the reading rows process.
+  It defaults to `ignore`.
+  
 - `lookup?` _dict_ - The lookup is a special object providing relational information.
   For more information, please check "Extracting  Data" guide.
   
@@ -6512,7 +7317,7 @@ Public   | `from frictionless import validate_table`
 
 ```python
 @Report.from_validate
-validate_package(source, basepath=None, noinfer=False, **options)
+validate_package(source, basepath=None, trusted=False, noinfer=False, nolookup=False, nopool=False, **options)
 ```
 
 Validate package
@@ -6525,8 +7330,11 @@ Public   | `from frictionless import validate_package`
 
 - `source` _dict|str_ - a package descriptor
 - `basepath?` _str_ - package basepath
+- `trusted?` _bool_ - don't raise an exception on unsafe paths
 - `noinfer?` _bool_ - don't call `package.infer`
-- `**options` _dict_ - package options
+- `nolookup?` _bool_ - don't read lookup tables skipping integrity checks
+- `nopool?` _bool_ - disable multiprocessing
+- `**options` _dict_ - options for every extracted table
   
 
 **Returns**:
@@ -6541,7 +7349,7 @@ Public   | `from frictionless import validate_package`
 
 ```python
 @Report.from_validate
-validate_inquiry(source)
+validate_inquiry(source, *, nopool=False)
 ```
 
 Validate inquiry
@@ -6553,6 +7361,7 @@ Public   | `from frictionless import validate_inquiry`
 **Arguments**:
 
 - `source` _dict|str_ - an inquiry descriptor
+- `nopool?` _bool_ - disable multiprocessing
   
 
 **Returns**:
@@ -6593,7 +7402,7 @@ Public   | `from frictionless import validate_schema`
 
 ```python
 @Report.from_validate
-validate_resource(source, basepath=None, noinfer=False, lookup=None, **options)
+validate_resource(source, basepath=None, trusted=False, noinfer=False, lookup=None, **options)
 ```
 
 Validate resource
@@ -6606,6 +7415,7 @@ Public   | `from frictionless import validate_resource`
 
 - `source` _dict|str_ - a resource descriptor
 - `basepath?` _str_ - resource basepath
+- `trusted?` _bool_ - don't raise an exception on unsafe paths
 - `noinfer?` _bool_ - don't call `resource.infer`
 - `lookup?` _dict_ - a lookup object
 - `**options` _dict_ - resource options
@@ -6634,12 +7444,25 @@ Public   | `from frictionless import controls`
 **Arguments**:
 
 - `descriptor?` _str|dict_ - descriptor
+- `newline?` _str_ - a string to be used for `io.open(..., newline=newline)`
 - `detectEncoding?` _func_ - a function to detect encoding `(sample) -> encoding`
   
 
 **Raises**:
 
 - `FrictionlessException` - raise any error that occurs during the process
+
+<a name="frictionless.controls.Control.newline"></a>
+#### <big>newline</big>
+
+```python
+ | @Metadata.property
+ | newline()
+```
+
+**Returns**:
+
+- `str` - a string to be used for `io.open(..., newline=newline)`
 
 <a name="frictionless.controls.Control.detect_encoding"></a>
 #### <big>detect\_encoding</big>
@@ -6662,6 +7485,10 @@ class LocalControl(Control)
 
 Local control representation
 
+API      | Usage
+-------- | --------
+Public   | `from frictionless import controls`
+
 **Arguments**:
 
 - `descriptor?` _str|dict_ - descriptor
@@ -6679,6 +7506,10 @@ class RemoteControl(Control)
 ```
 
 Remote control representation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless import controls`
 
 **Arguments**:
 
@@ -6746,6 +7577,10 @@ class StreamControl(Control)
 
 Stream control representation
 
+API      | Usage
+-------- | --------
+Public   | `from frictionless import controls`
+
 **Arguments**:
 
 - `descriptor?` _str|dict_ - descriptor
@@ -6763,6 +7598,10 @@ class TextControl(Control)
 ```
 
 Text control representation
+
+API      | Usage
+-------- | --------
+Public   | `from frictionless import controls`
 
 **Arguments**:
 

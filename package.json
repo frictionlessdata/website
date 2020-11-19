@@ -21,7 +21,8 @@
     "vuepress-plugin-dehydrate": "^1.1.3"
   },
   "scripts": {
-    "build": "npx vuepress build site",
-    "start": "npx vuepress dev site"
+    "build": "vuepress build site",
+    "start": "vuepress dev site",
+    "docs": "bash scripts/docs.sh"
   }
 }

@@ -1,4 +1,4 @@
-# Frictionless for Python
+# Frictionless Framework
 
 [![Travis](https://img.shields.io/travis/frictionlessdata/frictionless-py/master.svg)](https://travis-ci.org/frictionlessdata/frictionless-py)
 [![Coveralls](http://img.shields.io/coveralls/frictionlessdata/frictionless-py.svg?branch=master)](https://coveralls.io/r/frictionlessdata/frictionless-py?branch=master)
@@ -7,6 +7,11 @@
 [![Discord](https://img.shields.io/badge/chat-discord-brightgreen)](https://discord.com/channels/695635777199145130/695635777199145133)
 
 Frictionless is a framework to describe, extract, validate, and transform tabular data. It supports a great deal of data sources and formats, as well as provides popular platforms integrations. The framework is powered by the lightweight yet comprehensive [Frictionless Data Specifications](https://specs.frictionlessdata.io/).
+
+> **[Important Notice]** We have renamed `goodtables` to `frictionless` since version 3. The framework got various improvements and was extended to be a complete data solution. The change in not breaking for the existing software so no actions are required. Please read the [Migration Guide](migration-guide/) from `goodtables` to Frictionless Framework.
+> - we continue to bug-fix `goodtables@2.x` in this [branch](https://github.com/frictionlessdata/goodtables-py/tree/goodtables) as well as it's available on [PyPi](https://pypi.org/project/goodtables/) as it was before
+> - please note that `frictionless@3.x` version's API, we're working on at the moment, is not stable
+> - we will release `frictionless@4.x` by the end of 2020 to be the first SemVer/stable version
 
 ## Purpose
 
@@ -47,18 +52,18 @@ $ frictionless validate data/invalid.csv
 
 ## Documentation
 
-- [Getting Started](getting-started/README.md)
-- [Introduction Guide](introduction-guide/README.md)
-- [Describing Data](describing-data/README.md)
-- [Extracting Data](extracting-data/README.md)
-- [Validating Data](validating-data/README.md)
-- [Transforming Data](transforming-data/README.md)
-- [Extension Guide](extension-guide/README.md)
-- [Migration Guide](migration-guide/README.md)
-- [Schemes Reference](schemes-reference/README.md)
-- [Formats Reference](formats-reference/README.md)
-- [Errors Reference](errors-reference/README.md)
-- [API Reference](api-reference/README.md)
-- [Contributing](contributing/README.md)
-- [Changelog](changelog/README.md)
-- [Authors](authors/README.md)
+- [Getting Started](getting-started/)
+- [Introduction Guide](introduction-guide/)
+- [Describing Data](describing-data/)
+- [Extracting Data](extracting-data/)
+- [Validating Data](validating-data/)
+- [Transforming Data](transforming-data/)
+- [Extension Guide](extension-guide/)
+- [Migration Guide](migration-guide/)
+- [Schemes Reference](schemes-reference/)
+- [Formats Reference](formats-reference/)
+- [Errors Reference](errors-reference/)
+- [API Reference](api-reference/)
+- [Contributing](contributing/)
+- [Changelog](changelog/)
+- [Authors](authors/)
