@@ -120,8 +120,7 @@ module.exports = {
           { text: "Application", link: "/tooling/application/" },
           { text: "For Python", link: "/tooling/python/" },
           { text: "For JavaScript", link: "/tooling/javascript/" },
-          { text: "For R-Lang", link: "/tooling/rlang/" },
-          { text: "SDKs", link: "/tooling/sdks/" },
+          { text: "Libraries", link: "/tooling/libraries/" },
           {
             items: [
               { text: "GoodTables", link: "/tooling/others/goodtables/" },

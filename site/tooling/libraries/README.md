@@ -1,6 +1,6 @@
-# Frictionless SDKs
+# Frictionless Libraries
 
-On the lower-level, Frictionless provides SDKs or drivers for 10 platforms.
+On the lower-level, Frictionless provides libraries for 10 platforms.
 
 ## Data Package
 
@@ -40,6 +40,8 @@ You will find multiple languages supporting Table Schema through libraries.
 | R | https://github.com/frictionlessdata/tableschema-r |
 | Ruby | https://github.com/frictionlessdata/tableschema-rb |
 | Swift | https://github.com/frictionlessdata/tableschema-swift |
+
+## Others
 
 Also, it's worth looking to other libraries with specific use cases in mind.
 
