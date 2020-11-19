@@ -1,10 +1,7 @@
 # Guide
 
 :::tip
-This guide is still early-stage. We are currently consolidating our existing materials into one place here. Thus, in addition to this guide, you may want to check out these other resources:
-
-* [Introduction to Table Schema][ts]
-* [Introduction to Data Package][dp]
+This guide is still early-stage. We are currently consolidating our existing materials into one place here.
 :::
 
 [ts]: /table-schema/
@@ -55,7 +52,7 @@ At the core of Frictionless is a system that enables us to declaratively describ
 
 ## Table
 
-A table is a collection of related **data** represented in **rows** and **columns**. In a table, the intersection between a row and a column is called a **cell**. Tables are widely used in different contexts and fields, ranging from data analysis to data research. 
+A table is a collection of related **data** represented in **rows** and **columns**. In a table, the intersection between a row and a column is called a **cell**. Tables are widely used in different contexts and fields, ranging from data analysis to data research.
 
 Tables come in different variants, CSV, JSON, and Excel formats. Here's an example of each of these formats.
 
@@ -133,14 +130,14 @@ Well done! 👏 You have just created your very first Frictionless Data!
 
 ### Validation
 
-Having errors in your data is not uncommon. They also often get in the way of quick and timely data analysis for many data users. Validating data helps ease the process of collecting data by checking the **quality** and **validity** of a data source before publishing it. 
+Having errors in your data is not uncommon. They also often get in the way of quick and timely data analysis for many data users. Validating data helps ease the process of collecting data by checking the **quality** and **validity** of a data source before publishing it.
 
-Let's take a look at how to validate the tabular data we created in the previous section using the GoodTables [Python][py] and [JavaScript][js] libraries. GoodTables is a set of libraries and command-line tool for validating and transforming tabular data. These libraries exist to identify structural and content errors in your tabular data, so they can be fixed quickly. For example, a table schema contains information on fields and their assigned data types, making it possible to highlight misplaced data types (e.g. a string in an age column where an integer is expected, or an integer in an email column where a string is expected). 
+Let's take a look at how to validate the tabular data we created in the previous section using the GoodTables [Python][py] and [JavaScript][js] libraries. GoodTables is a set of libraries and command-line tool for validating and transforming tabular data. These libraries exist to identify structural and content errors in your tabular data, so they can be fixed quickly. For example, a table schema contains information on fields and their assigned data types, making it possible to highlight misplaced data types (e.g. a string in an age column where an integer is expected, or an integer in an email column where a string is expected).
 
 Here's an example of how to validate a tabular data using the [Python library][py]. Using your terminal, install `goodtables` with the package manager [PIP][pip]:
 
 ```bash
-pip install goodtables 
+pip install goodtables
 ```
 
 You can see a list of options by using the `--help` argument:
@@ -267,7 +264,7 @@ The result shows that the CSV contains some structural errors:
        valid: false } ],
   time: 0.004,
   valid: false,
-  warnings: [] 
+  warnings: []
  }
 ```
 >**Additonally, here's video walkthrough of the content outlined above**
