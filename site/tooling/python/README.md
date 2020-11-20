@@ -52,6 +52,8 @@ $ frictionless validate data/invalid.csv
 
 ## Documentation
 
+### General
+
 - [Getting Started](getting-started/)
 - [Introduction Guide](introduction-guide/)
 - [Describing Data](describing-data/)
@@ -60,6 +62,16 @@ $ frictionless validate data/invalid.csv
 - [Transforming Data](transforming-data/)
 - [Extension Guide](extension-guide/)
 - [Migration Guide](migration-guide/)
+- [Schemes Reference](schemes-reference/)
+- [Formats Reference](formats-reference/)
+- [Errors Reference](errors-reference/)
+- [API Reference](api-reference/)
+- [Contributing](contributing/)
+- [Changelog](changelog/)
+- [Authors](authors/)
+
+### Specific
+
 - [Working with AWS](working-with-aws/)
 - [Working with BigQuery](working-with-bigquery/)
 - [Working with CKAN](working-with-ckan/)
@@ -78,10 +90,3 @@ $ frictionless validate data/invalid.csv
 - [Working with SQL](working-with-sql/)
 - [Working with Stream](working-with-stream/)
 - [Working with Text](working-with-text/)
-- [Schemes Reference](schemes-reference/)
-- [Formats Reference](formats-reference/)
-- [Errors Reference](errors-reference/)
-- [API Reference](api-reference/)
-- [Contributing](contributing/)
-- [Changelog](changelog/)
-- [Authors](authors/)
