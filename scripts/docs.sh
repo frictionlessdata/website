@@ -5,8 +5,6 @@ set -x
 rm -rf site/tooling/python
 git clone --quiet --depth=1 https://github.com/frictionlessdata/frictionless-py.git
 cp -R frictionless-py/docs/target site/tooling/python
-sed -i 's#https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/##g' site/tooling/python/README.md
-sed -i 's#README.md##g' site/tooling/python/README.md
 rm -rf frictionless-py
 echo '[ Python docs are updated! ]'
 

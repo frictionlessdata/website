@@ -8,7 +8,7 @@
 
 Frictionless is a framework to describe, extract, validate, and transform tabular data. It supports a great deal of data sources and formats, as well as provides popular platforms integrations. The framework is powered by the lightweight yet comprehensive [Frictionless Data Specifications](https://specs.frictionlessdata.io/).
 
-> **[Important Notice]** We have renamed `goodtables` to `frictionless` since version 3. The framework got various improvements and was extended to be a complete data solution. The change in not breaking for the existing software so no actions are required. Please read the [Migration Guide](migration-guide/) from `goodtables` to Frictionless Framework.
+> **[Important Notice]** We have renamed `goodtables` to `frictionless` since version 3. The framework got various improvements and was extended to be a complete data solution. The change in not breaking for the existing software so no actions are required. Please read the [Migration Guide](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/migration-guide/README.md) from `goodtables` to Frictionless Framework.
 > - we continue to bug-fix `goodtables@2.x` in this [branch](https://github.com/frictionlessdata/goodtables-py/tree/goodtables) as well as it's available on [PyPi](https://pypi.org/project/goodtables/) as it was before
 > - please note that `frictionless@3.x` version's API, we're working on at the moment, is not stable
 > - we will release `frictionless@4.x` by the end of 2020 to be the first SemVer/stable version
@@ -54,39 +54,39 @@ $ frictionless validate data/invalid.csv
 
 ### General
 
-- [Getting Started](getting-started/)
-- [Introduction Guide](introduction-guide/)
-- [Describing Data](describing-data/)
-- [Extracting Data](extracting-data/)
-- [Validating Data](validating-data/)
-- [Transforming Data](transforming-data/)
-- [Extension Guide](extension-guide/)
-- [Migration Guide](migration-guide/)
-- [Schemes Reference](schemes-reference/)
-- [Formats Reference](formats-reference/)
-- [Errors Reference](errors-reference/)
-- [API Reference](api-reference/)
-- [Contributing](contributing/)
-- [Changelog](changelog/)
-- [Authors](authors/)
+- [Getting Started](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/getting-started/README.md)
+- [Introduction Guide](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/introduction-guide/README.md)
+- [Describing Data](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/describing-data/README.md)
+- [Extracting Data](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/extracting-data/README.md)
+- [Validating Data](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/validating-data/README.md)
+- [Transforming Data](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/transforming-data/README.md)
+- [Extension Guide](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/extension-guide/README.md)
+- [Migration Guide](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/migration-guide/README.md)
+- [Schemes Reference](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/schemes-reference/README.md)
+- [Formats Reference](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/formats-reference/README.md)
+- [Errors Reference](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/errors-reference/README.md)
+- [API Reference](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/api-reference/README.md)
+- [Contributing](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/contributing/README.md)
+- [Changelog](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/changelog/README.md)
+- [Authors](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/authors/README.md)
 
 ### Specific
 
-- [Working with AWS](working-with-aws/)
-- [Working with BigQuery](working-with-bigquery/)
-- [Working with CKAN](working-with-ckan/)
-- [Working with CSV](working-with-csv/)
-- [Working with DataFlows](working-with-dataflows/)
-- [Working with Elastic](working-with-elastic/)
-- [Working with Excel](working-with-excel/)
-- [Working with GSheet](working-with-gsheet/)
-- [Working with HTML](working-with-html/)
-- [Working with Inline](working-with-inline/)
-- [Working with JSON](working-with-json/)
-- [Working with ODS](working-with-ods/)
-- [Working with Pandas](working-with-pandas/)
-- [Working with Server](working-with-server/)
-- [Working with SPSS](working-with-spss/)
-- [Working with SQL](working-with-sql/)
-- [Working with Stream](working-with-stream/)
-- [Working with Text](working-with-text/)
+- [Working with AWS](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-aws/README.md)
+- [Working with BigQuery](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-bigquery/README.md)
+- [Working with CKAN](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-ckan/README.md)
+- [Working with CSV](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-csv/README.md)
+- [Working with DataFlows](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-dataflows/README.md)
+- [Working with Elastic](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-elastic/README.md)
+- [Working with Excel](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-excel/README.md)
+- [Working with GSheet](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-gsheet/README.md)
+- [Working with HTML](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-html/README.md)
+- [Working with Inline](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-inline/README.md)
+- [Working with JSON](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-json/README.md)
+- [Working with ODS](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-ods/README.md)
+- [Working with Pandas](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-pandas/README.md)
+- [Working with Server](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-server/README.md)
+- [Working with SPSS](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-spss/README.md)
+- [Working with SQL](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-sql/README.md)
+- [Working with Stream](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-stream/README.md)
+- [Working with Text](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/working-with-text/README.md)
