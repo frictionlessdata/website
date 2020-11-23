@@ -37,6 +37,6 @@ package = Package('path/to/datapackage.json')
 dataframes = package.to_spss(basepath='target')
 ```
 
-## Configuring Pandas
+## Configuring SPSS
 
 > Not supported yet

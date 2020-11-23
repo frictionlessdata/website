@@ -37,6 +37,6 @@ package = Package('path/to/datapackage.json')
 package.to_spss(basepath='target')
 ```
 
-## Configuring SPSS
+## Configuring SQL
 
 > Not supported yet
