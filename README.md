@@ -2,6 +2,8 @@
 
 This is the new FrictionlessData.io website to be released in 2020. It reflects the recent updates made to Frictionless Data project setup and brand.
 
+For issues related to this website please open an issue here: https://github.com/frictionlessdata/project/issues.
+
 ## Development
 
 ```console
