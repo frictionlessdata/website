@@ -4,13 +4,13 @@
 
 
 
-> Status: **PLUGIN / STABLE**
+> Status: **STABLE**
 
 Frictionless supports parsing JSON tables (json and jsonl/ndjson).
 
 
 ```bash
-!pip install frictionless
+!pip install frictionless[json]
 ```
 
 
@@ -117,4 +117,4 @@ resource.write('table.new.json', dialect=dialects.JsonDialect(keyed=True))
     ]
 
 References:
-- [CSV Dialect](https://frictionlessdata.io/tooling/python/formats-reference/#csv)
+- [JSON Dialect](https://frictionlessdata.io/tooling/python/formats-reference/#csv)

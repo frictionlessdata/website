@@ -4,7 +4,7 @@
 
 
 
-> Status: **PLUGIN / EXPERIMENTAL**
+> Status: **EXPERIMENTAL**
 
 Frictionless supports parsing Google Sheets data as a file format.
 
@@ -35,6 +35,6 @@ print(resource.read_rows())
 
 ## Configuring Google Sheets
 
-There is a dialect to configure Google Sheets interactions:
+> Not supported
 
 

@@ -4,7 +4,7 @@
 
 
 
-> Status: **PLUGIN / EXPERIMENTAL**
+> Status: **EXPERIMENTAL**
 
 Frictionless supports reading and writing SPSS files.
 
@@ -34,7 +34,7 @@ You can write SPSS files:
 from frictionless import Package
 
 package = Package('path/to/datapackage.json')
-dataframes = package.to_spss(basepath='target')
+package.to_spss(basepath='target')
 ```
 
 ## Configuring SPSS

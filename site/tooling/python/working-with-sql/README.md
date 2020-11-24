@@ -4,7 +4,7 @@
 
 
 
-> Status: **PLUGIN / STABLE**
+> Status: **STABLE**
 
 Frictionless supports reading and writing SQL databases.
 
@@ -34,7 +34,7 @@ You can write SQL databases:
 from frictionless import Package
 
 package = Package('path/to/datapackage.json')
-package.to_spss(basepath='target')
+package.to_spss(utl='postgresql://mydatabase')
 ```
 
 ## Configuring SQL

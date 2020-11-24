@@ -4,7 +4,7 @@
 
 
 
-> Status: **CORE / STABLE**
+> Status: **STABLE**
 
 Frictionless supports loading Filelike data.
 
@@ -37,6 +37,9 @@ with open('table.csv', 'rb') as file:
   resource = Resource(path=file, format='csv')
   print(resource.read_rows())
 ```
+
+    [Row([('id', 1), ('name', 'english')]), Row([('id', 2), ('name', '中国人')])]
+
 
 ## Writing Filelike Data
 

@@ -79,6 +79,7 @@ $ frictionless validate data/invalid.csv
 - [Working with DataFlows](/tooling/python/working-with-dataflows/)
 - [Working with Elastic](/tooling/python/working-with-elastic/)
 - [Working with Excel](/tooling/python/working-with-excel/)
+- [Working with Filelike](/tooling/python/working-with-filelike/)
 - [Working with GSheet](/tooling/python/working-with-gsheet/)
 - [Working with HTML](/tooling/python/working-with-html/)
 - [Working with Inline](/tooling/python/working-with-inline/)
@@ -90,5 +91,4 @@ $ frictionless validate data/invalid.csv
 - [Working with Server](/tooling/python/working-with-server/)
 - [Working with SPSS](/tooling/python/working-with-spss/)
 - [Working with SQL](/tooling/python/working-with-sql/)
-- [Working with Stream](/tooling/python/working-with-stream/)
 - [Working with Text](/tooling/python/working-with-text/)

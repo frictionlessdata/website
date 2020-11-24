@@ -4,7 +4,7 @@
 
 
 
-> Status: **PLUGIN / STABLE**
+> Status: **STABLE**
 
 Frictionless supports reading and writing Pandas dataframes.
 
@@ -39,4 +39,4 @@ dataframes = package.to_pandas()
 
 ## Configuring Pandas
 
-> not yet available
+> Not supported yet
