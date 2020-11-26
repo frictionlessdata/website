@@ -1,9 +1,5 @@
 # Migration Guide
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1eWGtfAgD4mkvyT2BcqU3Y68Yg25ZrlU-)
-
-
-
 > Frictionless Framework requires Python3.6+
 
 Frictionless is a logical continuation of many currently existing packages:
@@ -19,16 +15,17 @@ Although, most of these packages will be supported going forward, you can migrat
 
 Frictionless provides the `frictionless validate` function which is in high-level exactly the same as `goodtables validate`. Also `frictionless describe` is an improved version of `goodtables init`. You instead need to use the `frictionless` command instead of the `goodtables` command:
 
-```bash
+```sh
 # Before
 $ goodtables validate table.csv
 # After
 $ frictionless validate table.csv
 ```
 
+
 The Python interface is also mostly identical:
 
-```python
+```py
 # Before
 report = goodtables.validate('table.csv')
 # After
@@ -47,7 +44,6 @@ Please read the following sections and use `frictionless validate --help` to lea
 - `row_limit` was replaced by `query` (see "Table Query)
 - `preset` was replaced by `source_type`
 
-
 ### Report
 
 - all the properties now are camelCased instead of being lower-cased
@@ -60,7 +56,7 @@ Please read the following sections and use `frictionless validate --help` to lea
 
 Frictionless has `Resource` and `Package` classes which is almost the same as `datapackage` has. There are a lot of improvements for working with metadata described in the "Describing Data" guide.
 
-```python
+```py
 # Before
 resource = datapackage.Resource('resource.json')
 package = datapackage.Package('package.json')
@@ -68,6 +64,7 @@ package = datapackage.Package('package.json')
 resource = frictionless.Resource('resource.json')
 package = frictionless.Package('package.json')
 ```
+
 
 ### Package
 
@@ -95,7 +92,7 @@ package = frictionless.Package('package.json')
 
 Frictionless has `Schema` and `Fields` classes which is almost the same as `tableschema` has. There are a lot of improvements for working with metadata described in the "Describing Data" guide.
 
-```python
+```py
 # Before
 schema = tableschema.Schema('schema.json')
 field = tableschema.Field('field.json')
@@ -103,6 +100,7 @@ field = tableschema.Field('field.json')
 schema = frictionless.Schema('schema.json')
 field = frictionless.Field('field.json')
 ```
+
 
 ### Schema
 
@@ -129,7 +127,7 @@ field = frictionless.Field('field.json')
 
 Frictionless has `Table` class which is an equivalent of the tabulator's `Stream` class.
 
-```python
+```py
 # Before
 with tabulator.Stream('table.csv') as stream:
   print(stream.read())

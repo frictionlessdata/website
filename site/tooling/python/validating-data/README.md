@@ -1,20 +1,10 @@
 # Validating Data
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cJSZlG_v6OI3I2FtnXdKOSPjhwZNjMK1)
-
-
-
 Tabular data validation is a process of identifying tabular problems that have place in your data for further correction. Let's explore how Frictionless helps to achieve these tasks using an invalid data table example:
 
 
-```bash
-! pip install frictionless
-```
-
-
-```bash
-! wget -q -O capital.csv https://raw.githubusercontent.com/frictionlessdata/frictionless-py/master/data/capital-invalid.csv
-! cat capital.csv
+```python
+! cat data/capital-invalid.csv
 ```
 
     id,name,name
@@ -34,19 +24,24 @@ Tabular data validation is a process of identifying tabular problems that have p
 Using the command-line interface we can validate this file. Frictionless provides comprehensive error details so it's self-explanatory. Continue reading to learn the validation process in-details.
 
 
-```bash
-! frictionless validate capital.csv
+```python
+! frictionless validate data/capital-invalid.csv
 ```
 
-    [invalid] capital.csv
+    ---
+    invalid: data/capital-invalid.csv
+    ---
 
-      row    field  code              message
-    -----  -------  ----------------  --------------------------------------------------------------------------------------------------------------------
-                 3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
-       10        3  missing-cell      Row at position "10" has a missing cell in field "name2" at position "3"
-       11           blank-row         Row at position "11" is completely blank
-       12        4  extra-cell        Row at position "12" has an extra value in field at position "4"
-       12        1  type-error        The cell "x" in row at position "12" and field "id" at position "1" has incompatible type: type is "integer/default"
+    ====  =====  ================  ====================================================================================================================
+    row   field  code              message
+    ====  =====  ================  ====================================================================================================================
+    None      3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
+      10      3  missing-cell      Row at position "10" has a missing cell in field "name2" at position "3"
+      11  None   blank-row         Row at position "11" is completely blank
+      12      4  extra-cell        Row at position "12" has an extra value in field at position "4"
+      12      1  type-error        The cell "x" in row at position "12" and field "id" at position "1" has incompatible type: type is "integer/default"
+    ====  =====  ================  ====================================================================================================================
+
 
 
 ## Validate Functions
@@ -61,7 +56,7 @@ The high-level interface for validating data provided by Frictionless is a set o
 
 In command-line, there is only 1 command but there is a flag to adjust the behavior:
 
-```bash
+```sh
 $ frictionless validate
 $ frictionless validate --source-type schema
 $ frictionless validate --source-type resource
@@ -69,6 +64,7 @@ $ frictionless validate --source-type package
 $ frictionless validate --source-type inquiry
 $ frictionless validate --source-type table
 ```
+
 
 ### Validating Schema
 
@@ -80,21 +76,25 @@ from frictionless import Schema
 
 schema = Schema()
 schema.fields = {} # must be a list
-schema.to_yaml('invalid.schema.yaml')
+schema.to_yaml('tmp/invalid.schema.yaml')
 ```
 
 And validate it using the command-line interface:
 
 
-```bash
-! frictionless validate invalid.schema.yaml
+```python
+! frictionless validate tmp/invalid.schema.yaml
 ```
 
-    [invalid] invalid.schema.yaml
-
+    ---
+    invalid: tmp/invalid.schema.yaml
+    ---
+    ============  ===============================================================================================================================================================================
     code          message
-    ------------  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ============  ===============================================================================================================================================================================
     schema-error  The data source could not be successfully described by the invalid Table Schema: "{} is not of type 'array'" at "fields" in metadata and at "properties/fields/type" in profile
+    ============  ===============================================================================================================================================================================
+
 
 
 Schema validation can be very useful when you work with different classes of tables and create schemas for them. Using this function you can ensure that the metadata is valid.
@@ -104,26 +104,31 @@ Schema validation can be very useful when you work with different classes of tab
 As it was shown in the "Describing Data" guide a resource is a container having both metadata and data. We need to create a resource descriptor to validate it:
 
 
-```bash
-! frictionless describe capital.csv --json > capital.resource.json
+```python
+! frictionless describe data/capital-invalid.csv --json > tmp/capital.resource.json
 ```
 
 Let's now use the command-line interface to ensure that we are getting the same result as we had withouth using a resource:
 
 
-```bash
-! frictionless validate capital.resource.json
+```python
+! frictionless validate tmp/capital.resource.json --basepath .
 ```
 
-    [invalid] capital.csv
+    ---
+    invalid: ./data/capital-invalid.csv
+    ---
 
-      row    field  code              message
-    -----  -------  ----------------  --------------------------------------------------------------------------------------------------------------------
-                 3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
-       10        3  missing-cell      Row at position "10" has a missing cell in field "name2" at position "3"
-       11           blank-row         Row at position "11" is completely blank
-       12        4  extra-cell        Row at position "12" has an extra value in field at position "4"
-       12        1  type-error        The cell "x" in row at position "12" and field "id" at position "1" has incompatible type: type is "integer/default"
+    ====  =====  ================  ====================================================================================================================
+    row   field  code              message
+    ====  =====  ================  ====================================================================================================================
+    None      3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
+      10      3  missing-cell      Row at position "10" has a missing cell in field "name2" at position "3"
+      11  None   blank-row         Row at position "11" is completely blank
+      12      4  extra-cell        Row at position "12" has an extra value in field at position "4"
+      12      1  type-error        The cell "x" in row at position "12" and field "id" at position "1" has incompatible type: type is "integer/default"
+    ====  =====  ================  ====================================================================================================================
+
 
 
 Okay, why do we need to use a resource descriptor if the result is the same? The reason is metadata + data packaging. Let's extend our resource descriptor:
@@ -132,30 +137,33 @@ Okay, why do we need to use a resource descriptor if the result is the same? The
 ```python
 from frictionless import describe
 
-resource = describe('capital.csv')
+resource = describe('data/capital-invalid.csv')
 resource['bytes'] = 100 # wrong
 resource['hash'] = 'ae23c74693ca2d3f0e38b9ba3570775b' # wrong
-resource.to_yaml('capital.resource.yaml')
+resource.to_yaml('tmp/capital.resource.yaml')
 ```
 
 We have added a few bad metrics to our resource descriptor. The validation below reports it in addition to all the errors we had before. This example is showing how concepts like Data Resource can be extremely useful when working with data.
 
 
-```bash
-! frictionless validate capital.resource.yaml
+```python
+! frictionless validate tmp/capital.resource.yaml --basepath .
 ```
 
-    [invalid] capital.csv
+    ---
+    invalid: ./data/capital-invalid.csv
+    ---
 
-      row    field  code              message
-    -----  -------  ----------------  -----------------------------------------------------------------------------------------------------------------------------------------------------------------
-                 3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
-       10        3  missing-cell      Row at position "10" has a missing cell in field "name2" at position "3"
-       11           blank-row         Row at position "11" is completely blank
-       12        4  extra-cell        Row at position "12" has an extra value in field at position "4"
-       12        1  type-error        The cell "x" in row at position "12" and field "id" at position "1" has incompatible type: type is "integer/default"
-                    checksum-error    The data source does not match the expected checksum: expected hash in md5 is "ae23c74693ca2d3f0e38b9ba3570775b" and actual is "dcdeae358cfd50860c18d953e021f836"
-                    checksum-error    The data source does not match the expected checksum: expected bytes count is "100" and actual is "171"
+    ====  =====  ================  ====================================================================================================================
+    row   field  code              message
+    ====  =====  ================  ====================================================================================================================
+    None      3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
+      10      3  missing-cell      Row at position "10" has a missing cell in field "name2" at position "3"
+      11  None   blank-row         Row at position "11" is completely blank
+      12      4  extra-cell        Row at position "12" has an extra value in field at position "4"
+      12      1  type-error        The cell "x" in row at position "12" and field "id" at position "1" has incompatible type: type is "integer/default"
+    ====  =====  ================  ====================================================================================================================
+
 
 
 ### Validating Package
@@ -163,9 +171,8 @@ We have added a few bad metrics to our resource descriptor. The validation below
 A package is a set of resources + additional metadata. To showcase a package validation we need one more tabular file:
 
 
-```bash
-! wget -q -O capital-valid.csv https://raw.githubusercontent.com/frictionlessdata/frictionless-py/master/data/capital-3.csv
-! cat capital-valid.csv
+```python
+! cat data/capital-valid.csv
 ```
 
     id,name
@@ -179,22 +186,29 @@ A package is a set of resources + additional metadata. To showcase a package val
 Let's describe and validate a package:
 
 
-```bash
-! frictionless describe capital*.csv --json > capital.package.json
-! frictionless validate capital.package.json
+```python
+! frictionless describe data/capital-*id.csv --json > tmp/capital.package.json
+! frictionless validate tmp/capital.package.json --basepath .
 ```
 
-    [invalid] capital.csv
+    ---
+    invalid: ./data/capital-invalid.csv
+    ---
 
-      row    field  code              message
-    -----  -------  ----------------  --------------------------------------------------------------------------------------------------------------------
-                 3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
-       10        3  missing-cell      Row at position "10" has a missing cell in field "name2" at position "3"
-       11           blank-row         Row at position "11" is completely blank
-       12        4  extra-cell        Row at position "12" has an extra value in field at position "4"
-       12        1  type-error        The cell "x" in row at position "12" and field "id" at position "1" has incompatible type: type is "integer/default"
+    ====  =====  ================  ====================================================================================================================
+    row   field  code              message
+    ====  =====  ================  ====================================================================================================================
+    None      3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
+      10      3  missing-cell      Row at position "10" has a missing cell in field "name2" at position "3"
+      11  None   blank-row         Row at position "11" is completely blank
+      12      4  extra-cell        Row at position "12" has an extra value in field at position "4"
+      12      1  type-error        The cell "x" in row at position "12" and field "id" at position "1" has incompatible type: type is "integer/default"
+    ====  =====  ================  ====================================================================================================================
 
-    [valid] capital-valid.csv
+
+    ---
+    valid: ./data/capital-valid.csv
+    ---
 
 
 As we can see, the result is pretty straight-forward and expected: we have one invalid resource and one valid. One important note regarding the package validation: if there are more than one resource, it will use multiprocessing to speed up the process
@@ -208,29 +222,36 @@ The Inquiry gives you an ability to create arbitrary validation jobs containing 
 from frictionless import Inquiry
 
 inquiry = Inquiry({'tasks': [
-  {'source': 'capital-valid.csv'},
-  {'source': 'capital.resource.json'},
+  {'source': 'data/capital-valid.csv'},
+  {'source': 'tmp/capital.resource.json', 'basepath': '.'},
 ]})
-inquiry.to_yaml('capital.inquiry.yaml')
+inquiry.to_yaml('tmp/capital.inquiry.yaml')
 ```
 
 Tasks in the Inquiry accept the same arguments written in camelCase as the corresponding `validate` functions have. As usual, let' run validation:
 
 
-```bash
-! frictionless validate capital.inquiry.yaml
+```python
+! frictionless validate tmp/capital.inquiry.yaml
 ```
 
-    [valid] capital-valid.csv
-    [invalid] capital.csv
+    ---
+    valid: data/capital-valid.csv
+    ---
+    ---
+    invalid: ./data/capital-invalid.csv
+    ---
 
-      row    field  code              message
-    -----  -------  ----------------  --------------------------------------------------------------------------------------------------------------------
-                 3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
-       10        3  missing-cell      Row at position "10" has a missing cell in field "name2" at position "3"
-       11           blank-row         Row at position "11" is completely blank
-       12        4  extra-cell        Row at position "12" has an extra value in field at position "4"
-       12        1  type-error        The cell "x" in row at position "12" and field "id" at position "1" has incompatible type: type is "integer/default"
+    ====  =====  ================  ====================================================================================================================
+    row   field  code              message
+    ====  =====  ================  ====================================================================================================================
+    None      3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
+      10      3  missing-cell      Row at position "10" has a missing cell in field "name2" at position "3"
+      11  None   blank-row         Row at position "11" is completely blank
+      12      4  extra-cell        Row at position "12" has an extra value in field at position "4"
+      12      1  type-error        The cell "x" in row at position "12" and field "id" at position "1" has incompatible type: type is "integer/default"
+    ====  =====  ================  ====================================================================================================================
+
 
 
 At first sight, it's no clear why such a construct exists but when your validation workflow gets complex, the Inquiry can provide a lot of flexibility and power. Last but not least, the Inquiry will use multiprocessing if there are more than 1 task provided.
@@ -240,15 +261,20 @@ At first sight, it's no clear why such a construct exists but when your validati
 All the functions above except for `validate_schema` are just wrappers over the `validate_table` function. Below we will be talking a lot about the table validation so here will just provide a simple example:
 
 
-```bash
-! frictionless validate capital.csv --pick-errors duplicate-header
+```python
+! frictionless validate data/capital-invalid.csv --pick-errors duplicate-header
 ```
 
-    [invalid] capital.csv
+    ---
+    invalid: data/capital-invalid.csv
+    ---
 
-    row      field  code              message
-    -----  -------  ----------------  ------------------------------------------------------------------------------------------------
-                 3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
+    ====  =====  ================  ================================================================================================
+    row   field  code              message
+    ====  =====  ================  ================================================================================================
+    None      3  duplicate-header  Header "name" in field at position "3" is duplicated to header in another field: at position "2"
+    ====  =====  ================  ================================================================================================
+
 
 
 Please keep reading to learn about the table validation in-detail.
@@ -257,17 +283,17 @@ Please keep reading to learn about the table validation in-detail.
 
 Let's overview options that the described `validate` functions accept:
 
-**Schema/Inquiry**
+### Schema/Inquiry
 
 The `validate_schema` and `validate_inquiry` don't accept any options in addition to `source`.
 
-**Resource/Package**
+### Resource/Package
 
 The Resource and Package incapsulate most of information within their descriptor so the amount of additional options is really limited:
 - `basepath`: base path for a resource/package
 - `noinfer`: a flag disabling an infer function call
 
-**Table**
+### Table
 
 The `validate_table` function accept most of the `describe/extract` function's options:
 
@@ -292,7 +318,7 @@ All the `validate` functions return the Validation Report. It's an unified objec
 from pprint import pprint
 from frictionless import validate
 
-report = validate('capital.csv', pick_errors=['duplicate-header'])
+report = validate('data/capital-invalid.csv', pick_errors=['duplicate-header'])
 pprint(report)
 ```
 
@@ -321,7 +347,7 @@ pprint(report)
                  'hashing': 'md5',
                  'header': ['id', 'name', 'name'],
                  'partial': False,
-                 'path': 'capital.csv',
+                 'path': 'data/capital-invalid.csv',
                  'query': {},
                  'schema': {'fields': [{'name': 'id', 'type': 'integer'},
                                        {'name': 'name', 'type': 'string'},
@@ -330,13 +356,14 @@ pprint(report)
                  'scope': ['duplicate-header'],
                  'stats': {'bytes': 171,
                            'errors': 1,
+                           'fields': 3,
                            'hash': 'dcdeae358cfd50860c18d953e021f836',
                            'rows': 11},
-                 'time': 0.011,
+                 'time': 0.017,
                  'valid': False}],
-     'time': 0.011,
+     'time': 0.017,
      'valid': False,
-     'version': '0.6.0'}
+     'version': '3.34.3'}
 
 
 As we can see, there are a lot of information; you can find its details description in "API Reference". Errors are groupped by tables; for some validation there are can be dozens of tables. Let's use the `report.flatten` function to simplify errors representation:
@@ -345,7 +372,7 @@ As we can see, there are a lot of information; you can find its details descript
 ```python
 from frictionless import validate
 
-report = validate('capital.csv', pick_errors=['duplicate-header'])
+report = validate('data/capital-invalid.csv', pick_errors=['duplicate-header'])
 pprint(report.flatten(['rowPosition', 'fieldPosition', 'code', 'message']))
 ```
 
@@ -369,18 +396,18 @@ pprint(report)
     {'errors': [{'code': 'schema-error',
                  'description': 'Provided schema is not valid.',
                  'message': 'The data source could not be successfully described '
-                            'by the invalid Table Schema: canot extract metadata '
+                            'by the invalid Table Schema: cannot extract metadata '
                             '"bad.json" because "[Errno 2] No such file or '
                             'directory: \'bad.json\'"',
                  'name': 'Schema Error',
-                 'note': 'canot extract metadata "bad.json" because "[Errno 2] No '
+                 'note': 'cannot extract metadata "bad.json" because "[Errno 2] No '
                          'such file or directory: \'bad.json\'"',
                  'tags': ['#table', '#schema']}],
      'stats': {'errors': 1, 'tables': 0},
      'tables': [],
-     'time': 0.0,
+     'time': 0.001,
      'valid': False,
-     'version': '0.6.0'}
+     'version': '3.34.3'}
 
 
 ## Validation Errors
@@ -391,7 +418,7 @@ The Error object is at the heart of the validation process. The Report has `repo
 ```python
 from frictionless import validate
 
-report = validate('capital.csv', pick_errors=['duplicate-header'])
+report = validate('data/capital-invalid.csv', pick_errors=['duplicate-header'])
 error = report.table.error # it's only available for 1 table / 1 error sitution
 print(f'Code: "{error.code}"')
 print(f'Name: "{error.name}"')
@@ -415,7 +442,7 @@ Above, we have listed universal error properties. Depending on the type of an er
 ```python
 from frictionless import validate
 
-report = validate('capital.csv', pick_errors=['duplicate-header'])
+report = validate('data/capital-invalid.csv', pick_errors=['duplicate-header'])
 error = report.table.error # it's only available for 1 table / 1 error sitution
 pprint(error)
 ```
@@ -441,7 +468,7 @@ Please explore "Errors Reference" to learn about all the available errors and th
 
 We have already seen a few mentions of error options like `pick_errors`. Let's take a look at all of them. These options are similiar to the `extract`'s counterparts for fields and rows.
 
-**Pick/Skip Errors**
+### Pick/Skip Errors
 
 We can pick or skip errors providing a list of error codes. For example:
 
@@ -449,8 +476,8 @@ We can pick or skip errors providing a list of error codes. For example:
 ```python
 from frictionless import validate
 
-report1 = validate('capital.csv', pick_errors=['duplicate-header'])
-report2 = validate('capital.csv', skip_errors=['duplicate-header'])
+report1 = validate('data/capital-invalid.csv', pick_errors=['duplicate-header'])
+report2 = validate('data/capital-invalid.csv', skip_errors=['duplicate-header'])
 pprint(report1.flatten(['rowPosition', 'fieldPosition', 'code']))
 pprint(report2.flatten(['rowPosition', 'fieldPosition', 'code']))
 ```
@@ -468,8 +495,8 @@ It's also possible to use error tags (for more information please consult with "
 ```python
 from frictionless import validate
 
-report1 = validate('capital.csv', pick_errors=['#head'])
-report2 = validate('capital.csv', skip_errors=['#body'])
+report1 = validate('data/capital-invalid.csv', pick_errors=['#head'])
+report2 = validate('data/capital-invalid.csv', skip_errors=['#body'])
 pprint(report1.flatten(['rowPosition', 'fieldPosition', 'code']))
 pprint(report2.flatten(['rowPosition', 'fieldPosition', 'code']))
 ```
@@ -478,7 +505,7 @@ pprint(report2.flatten(['rowPosition', 'fieldPosition', 'code']))
     [[None, 3, 'duplicate-header']]
 
 
-**Limit Errors**
+### Limit Errors
 
 This option is self-explanatory and can be used when you need to "fail fast" or get a limited amount of errors:
 
@@ -486,7 +513,7 @@ This option is self-explanatory and can be used when you need to "fail fast" or 
 ```python
 from frictionless import validate
 
-report = validate('capital.csv', limit_errors=1)
+report = validate('data/capital-invalid.csv', limit_errors=1)
 pprint(report.flatten(['rowPosition', 'fieldPosition', 'code']))
 ```
 
@@ -497,29 +524,26 @@ pprint(report.flatten(['rowPosition', 'fieldPosition', 'code']))
 
 Frictionless is a streaming engine; usually it's possible to validate terrabytes of data with basically O(1) memory consumption. For some validation, it's not the case because Frctionless needs to buffer some cells e.g. to checks uniqueness. Here memory management can be handy.
 
-**Limit Memory**
+### Limit Memory
 
 Default memory limit is 1000MB. You can adjust it based on your exact use case. For example, if you're running Frictionless as an API server you might reduce the memory usage. If a validation hits the limit it will not raise of fail - it will return a report with a task error:
 
-
-```python
+```py
 from frictionless import validate
 
 source = lambda: ([integer] for integer in range(1, 100000000))
 schema = {"fields": [{"name": "integer", "type": "integer"}], "primaryKey": "integer"}
 report = validate(source, headers=False, schema=schema, limit_memory=50)
 print(report.flatten(["code", "note"]))
-
+# [['task-error', 'exceeded memory limit "50MB"']]
 ```
-
-    [['task-error', 'exceeded memory limit "50MB"']]
 
 
 ## Checks Options
 
 Ther are two check options: `checksum` and `extra_checks`. The first allows to stricten a baseline validation white the latter is used to enforce additional checks.
 
-**Checksum**
+### Checksum
 
 We can provide a hash string, the amount of bytes, and the amount of rows. Frictionless will ensure as a part of a validation that the actual values match the expected ones. Let's show for the hash:
 
@@ -527,7 +551,7 @@ We can provide a hash string, the amount of bytes, and the amount of rows. Frict
 ```python
 from frictionless import validate
 
-report = validate('capital.csv', checksum={'hash': 'bad'}, pick_errors=['#checksum'])
+report = validate('data/capital-invalid.csv', checksum={'hash': 'bad'}, pick_errors=['#checksum'])
 print(report.flatten(["code", "note"]))
 ```
 
@@ -540,7 +564,7 @@ The same can be show for the bytes and rows:
 ```python
 from frictionless import validate
 
-report = validate('capital.csv', checksum={'bytes': 10, 'rows': 10}, pick_errors=['#checksum'])
+report = validate('data/capital-invalid.csv', checksum={'bytes': 10, 'rows': 10}, pick_errors=['#checksum'])
 pprint(report.flatten(["code", "note"]))
 ```
 
@@ -548,7 +572,7 @@ pprint(report.flatten(["code", "note"]))
      ['checksum-error', 'expected rows count is "10" and actual is "11"']]
 
 
-**Extra Checks**
+### Extra Checks
 
 It's possible to provide a list of extra checks where individual checks are in the form of:
 - a string: `check-name`
@@ -560,7 +584,7 @@ It's also possible to use a `Check` subclass instead of name which will be shown
 ```python
 from frictionless import validate
 
-report = validate('capital.csv', extra_checks=[('sequential-value', {'fieldName': 'id'})])
+report = validate('data/capital-invalid.csv', extra_checks=[('sequential-value', {'fieldName': 'id'})])
 pprint(report.flatten(["rowPosition", "fieldPosition", "code", "note"]))
 ```
 
@@ -582,7 +606,7 @@ By default, Frictionless runs only the Baseline Check but includes vairous small
 ```python
 from frictionless import validate
 
-report = validate('capital.csv')
+report = validate('data/capital-invalid.csv')
 pprint(report.table.scope)
 ```
 
@@ -609,9 +633,7 @@ pprint(report.table.scope)
 
 There is a group of checks that indicate probable errors. You need to use the `extra_checks` argument of the `validate` function to active one or more of these checks.
 
-
-
-**Duplicate Row**
+### Duplicate Row
 
 This check is self-explanatory. You need to take into account that checking for duplicate rows can lean to high memory consumption on big files. Here is an example:
 
@@ -629,7 +651,7 @@ pprint(report.flatten(['code', 'message']))
       'Row at position 3 is duplicated: the same as row at position "2"']]
 
 
-**Deviated Value**
+### Deviated Value
 
 This check uses the Python's builtin `statistics` module to check a field's data for deviations. By default, deviated values are outside of the average +- three standard deviations. Take a look at the [API Reference](https://github.com/frictionlessdata/frictionless-py/blob/master/docs/target/api-reference/README.md#deviatedvaluecheck) for more details about available options and default values. The exact algorithm can be found [here](https://github.com/frictionlessdata/frictionless-py/blob/7ae8bae9a9197adbfe443233a6bad8a94e065ece/frictionless/checks/heuristic.py#L94). For example:
 
@@ -650,7 +672,7 @@ This check uses the Python's builtin `statistics` module to check a field's data
       '995.52]"']]
 
 
-**Truncated Value**
+### Truncated Value
 
 Sometime during the explort from a database or another storage, data values can be truncated. This check tries to detect it. Let's explore some trunctation indicators:
 
@@ -681,7 +703,7 @@ pprint(report.flatten(["code", "message"]))
 
 In countrary to heuristic checks, regulation checks gives you an ability to provide additional rules for your data. Use the `extra_checks` argument of the `validate` function to active one or more of these checks.
 
-**Blacklisted Value**
+### Blacklisted Value
 
 This check ensures that some field doesn't have any blacklisted values. For example:
 
@@ -701,7 +723,7 @@ pprint(report.flatten(['code', 'message']))
       'error: blacklisted values are "[\'value2\']"']]
 
 
-**Sequential Value**
+### Sequential Value
 
 This check gives us an opportunity to validate sequential fields like primary keys or other similiar data. It doesn't need to start from 0 or 1. We're providing a field name:
 
@@ -721,7 +743,7 @@ pprint(report.flatten(['code', 'message']))
       'error: the value is not sequential']]
 
 
-**Row Constraint**
+### Row Constraint
 
 This checks is the most powerful one as it uses the external `simpleeval` package allowing to evalute arbitrary python expressions on data rows. Let's show on an example:
 

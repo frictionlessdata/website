@@ -1,33 +1,20 @@
 # Working with JSON
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NLXeYiAxSC0BXZqMRIOSKBo9lk5jkDHf)
-
-
-
 > Status: **STABLE**
 
 Frictionless supports parsing JSON tables (json and jsonl/ndjson).
 
-
-```bash
+```sh
 !pip install frictionless[json]
 ```
 
 
 ```bash
-! wget -q -O table.json https://raw.githubusercontent.com/frictionlessdata/frictionless-py/master/data/table.json
-! cat table.json
+! cat data/table.json
 ```
-
-    [
-        ["id", "name"],
-        [1, "english"],
-        [2, "中国人"]
-    ]
 
 
 ## Reading JSON
-
 
 You can read this format using `Package/Resource` or `Table` API, for example:
 
@@ -35,7 +22,7 @@ You can read this format using `Package/Resource` or `Table` API, for example:
 ```python
 from frictionless import Resource
 
-resource = Resource(path='table.json')
+resource = Resource(path='data/table.json')
 print(resource.read_rows())
 ```
 
@@ -51,35 +38,20 @@ The same is actual for writing:
 from frictionless import Resource
 
 resource = Resource(data=[['id', 'name'], [1, 'english'], [2, 'german']])
-resource.write('table.new.json')
+resource.write('tmp/table.json')
 ```
 
 
 
 
-    'table.new.json'
-
+    'tmp/table.json'
 
 
 
 ```bash
-!cat table.new.json
+!cat tmp/table.json
 ```
 
-    [
-      [
-        "id",
-        "name"
-      ],
-      [
-        1,
-        "english"
-      ],
-      [
-        2,
-        "german"
-      ]
-    ]
 
 ## Configuring JSON
 
@@ -87,34 +59,24 @@ There is a dialect to configure how Frictionless read and write files in this fo
 
 
 ```python
-from frictionless import Resource, dialects
+from frictionless import Resource
+from frictionless.plugins.json import JsonDialect
 
 resource = Resource(data=[['id', 'name'], [1, 'english'], [2, 'german']])
-resource.write('table.new.json', dialect=dialects.JsonDialect(keyed=True))
+resource.write('tmp/table.json', dialect=JsonDialect(keyed=True))
 ```
 
 
 
 
-    'table.new.json'
-
+    'tmp/table.json'
 
 
 
 ```bash
-!cat table.new.json
+!cat tmp/table.json
 ```
 
-    [
-      {
-        "id": 1,
-        "name": "english"
-      },
-      {
-        "id": 2,
-        "name": "german"
-      }
-    ]
 
 References:
 - [JSON Dialect](https://frictionlessdata.io/tooling/python/formats-reference/#csv)

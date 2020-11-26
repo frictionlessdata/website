@@ -4,7 +4,9 @@ set -x
 # Python
 rm -rf site/tooling/python
 git clone --quiet --depth=1 https://github.com/frictionlessdata/frictionless-py.git
-cp -R frictionless-py/docs/target site/tooling/python
+cp -R frictionless-py/docs/build site/tooling/python
+# TODO: should be fixed on the repo level
+cp -R frictionless-py/docs/build/welcome-page/README.md site/tooling/python/README.md
 # TODO: should be fixed on the CSS level
 sed -i 's#https://frictionlessdata.io##g' site/tooling/python/README.md
 rm -rf frictionless-py

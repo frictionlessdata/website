@@ -1,31 +1,15 @@
 # Working with Inline Data
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bsOBn6rDDsZiGS1jCrZ2jskaEBG5wWIq)
-
-
-
 > Status: **STABLE**
 
 Frictionless supports parsing Inline Data.
 
-
 ```bash
-!pip install frictionless
+! cat data/table.csv
 ```
-
-
-```bash
-! wget -q -O table.csv https://raw.githubusercontent.com/frictionlessdata/frictionless-py/master/data/table.csv
-! cat table.csv
-```
-
-    id,name
-    1,english
-    2,中国人
 
 
 ## Reading Inline Data
-
 
 You can read data in this format using `Package/Resource` or `Table` API, for example:
 
@@ -48,7 +32,7 @@ The same is actual for writing:
 ```python
 from frictionless import Resource
 
-resource = Resource(path='table.csv')
+resource = Resource(path='data/table.csv')
 resource.write(format='inline')
 ```
 
@@ -64,12 +48,11 @@ resource.write(format='inline')
 There is a dialect to configure this format, for example:
 
 
-
-
 ```python
-from frictionless import Resource, dialects
+from frictionless import Resource
+from frictionless.plugins.inline import InlineDialect
 
-dialect = dialects.InlineDialect(keyed=True, keys=['name', 'id'])
+dialect = InlineDialect(keyed=True, keys=['name', 'id'])
 resource = Resource(data=[{'id': 1, 'name': 'english'}, {'id': 2, 'name': 'german'}], dialect=dialect)
 print(resource.read_rows())
 ```

@@ -1,22 +1,17 @@
 # Working with Google Sheets
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/11JFUyouM2lciGpw1qoCS-PQIBuStdxCE)
-
-
-
 > Status: **EXPERIMENTAL**
 
 Frictionless supports parsing Google Sheets data as a file format.
 
-
-```bash
+```sh
 !pip install frictionless[gsheet]
 ```
 
+
 ## Reading from Google Sheets
 
-
-You can read CSV using `Package/Resource` or `Table` API, for example:
+You can read from Google Sheets using `Package/Resource` or `Table` API, for example:
 
 
 ```python
@@ -36,5 +31,3 @@ print(resource.read_rows())
 ## Configuring Google Sheets
 
 > Not supported
-
-

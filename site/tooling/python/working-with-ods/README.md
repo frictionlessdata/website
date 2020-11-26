@@ -1,25 +1,15 @@
 # Working with ODS
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CSZb2Q4JKosx6_X0AdAd8AGiJMP0FiM2)
-
-
-
 > Status: **STABLE**
 
 Frictionless supports ODS parsing.
 
-
-```bash
+```sh
 !pip install frictionless[ods]
 ```
 
 
-```bash
-! wget -q -O table.ods https://raw.githubusercontent.com/frictionlessdata/frictionless-py/master/data/table.ods
-```
-
 ## Reading ODS
-
 
 You can read this format using `Package/Resource` or `Table` API, for example:
 
@@ -27,7 +17,7 @@ You can read this format using `Package/Resource` or `Table` API, for example:
 ```python
 from frictionless import Resource
 
-resource = Resource(path='table.ods')
+resource = Resource(path='data/table.ods')
 print(resource.read_rows())
 ```
 
@@ -43,13 +33,13 @@ The same is actual for writing:
 from frictionless import Resource
 
 resource = Resource(data=[['id', 'name'], [1, 'english'], [2, 'german']])
-resource.write('table.new.ods')
+resource.write('tmp/table.ods')
 ```
 
 
 
 
-    'table.new.ods'
+    'tmp/table.ods'
 
 
 
@@ -63,13 +53,13 @@ from frictionless import Resource
 from frictionless.plugins.ods import OdsDialect
 
 resource = Resource(data=[['id', 'name'], [1, 'english'], [2, 'german']])
-resource.write('table.new.ods', dialect=OdsDialect(sheet='My Table'))
+resource.write('tmp/table.ods', dialect=OdsDialect(sheet='My Table'))
 ```
 
 
 
 
-    'table.new.ods'
+    'tmp/table.ods'
 
 
 

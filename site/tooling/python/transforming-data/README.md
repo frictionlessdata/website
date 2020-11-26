@@ -1,9 +1,5 @@
 # Transforming Data
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1C4dFWDExyxzGIwLUovrDQZghZK4JK2PD)
-
-
-
 > **Both the transform functionality and this document are in the draft state. It's under active development and will be stabilized by the end of 2020.**
 
 Transforming data in Frictionless means modifying a data + metadata from the state A to the state B. For example, it can be a dirty Excel file we need to transform to a cleaned CSV file or a folder of data files we want to update and save as a data package.
@@ -14,20 +10,11 @@ Frictionless supports a few different kinds of data and metadata transformations
 - resource and package transforms
 - transforms based on a declarative pipeline
 
-The main difference between the first two and pipelines that resource and package transforms are imperative while pipelines can be created beforehand or shared as a JSON file. Also, Frictionless supports a [Dataflows](https://colab.research.google.com/drive/1MbEhvyrIIW6lExySC48pakjLSAqxHj3t) pipeline runner. You need to install the `dataflows` plugin to use it.
+The main difference between the first two and pipelines that resource and package transforms are imperative while pipelines can be created beforehand or shared as a JSON file. Also, Frictionless supports a [Dataflows](https://frictionlessdata.io/tooling/python/working-with-dataflows/) pipeline runner. You need to install the `dataflows` plugin to use it.
 
 
-
-
-
-```bash
-! pip install frictionless
-```
-
-
-```bash
-! wget -q -O transform.csv https://raw.githubusercontent.com/frictionlessdata/frictionless-py/master/data/transform.csv
-! cat transform.csv
+```python
+! cat data/transform.csv
 ```
 
     id,name,population
@@ -37,9 +24,8 @@ The main difference between the first two and pipelines that resource and packag
 
 
 
-```bash
-! wget -q -O transform-groups.csv https://raw.githubusercontent.com/frictionlessdata/frictionless-py/master/data/transform-groups.csv
-! cat transform-groups.csv
+```python
+! cat data/transform-groups.csv
 ```
 
     id,name,population,year
@@ -52,9 +38,8 @@ The main difference between the first two and pipelines that resource and packag
 
 
 
-```bash
-! wget -q -O transform-pivot.csv https://raw.githubusercontent.com/frictionlessdata/frictionless-py/master/data/transform-pivot.csv
-! cat transform-pivot.csv
+```python
+! cat data/transform-pivot.csv
 ```
 
     region,gender,style,units
@@ -89,7 +74,7 @@ Let's write our first transform. It's as easy as defining a source resource, app
 from pprint import pprint
 from frictionless import Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -127,11 +112,11 @@ Transforming a package is not much more difficult than a resource. Basically, a 
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Package(resources=[Resource(name='main', path="transform.csv")])
+source = Package(resources=[Resource(name='main', path="data/transform.csv")])
 target = transform(
     source,
     steps=[
-        steps.resource_add(name='extra', path='transform.csv'),
+        steps.resource_add(name='extra', path='data/transform.csv'),
         steps.resource_transform(name='main', steps=[
             steps.table_merge(resource='extra'),
             steps.row_sort(field_names=['id'])
@@ -175,7 +160,7 @@ from frictionless import Pipeline, transform, steps
 
 pipeline = Pipeline({
     'type': 'resource',
-    'source': {'path': 'transform.csv'},
+    'source': {'path': 'data/transform.csv'},
     'steps': [
         {'type': 'tableNormalize', 'spec': {}},
         {'type': 'tableMelt', 'spec': {'fieldName': 'name'}}
@@ -203,19 +188,19 @@ And as we had expected we got the same result.
 
 The `transorm` function accepts the `source` argument which can be a resource, a package or a pipeline descriptor
 
-**Resource**
+### Resource
 
 The `transform_resource` function also accepts:
 
 - `steps` argument to define which steps should be applied on the source resource.
 
-**Package**
+### Package
 
 The `transform_package` function also accepts:
 
 - `steps` argument to define which steps should be applied on the source package.
 
-**Pipeline**
+### Pipeline
 
 The `transform_pipeline` function doesn't accept any additional arguments.
 
@@ -223,25 +208,23 @@ The `transform_pipeline` function doesn't accept any additional arguments.
 
 Frictionless Transforms bases on a few core principles which is shared with other parts of the framework:
 
-
-
-**Conceptual Simplicity**
+### Conceptual Simplicity
 
 Frictionless Transforms is not more than a list of functions that accept a source resource/package object and return a target resource/package object. Every function just updates the input's metadata and data and that's it. Thanks to this simplicity even a non-techical user can read the [source code](https://github.com/frictionlessdata/frictionless-py/blob/7ad8e692ad00131cdc9fa51258d8b860c62e77bc/frictionless/transform/resource.py#L7) of the transform function and understand how it works. And understanding the tools you use can be really important for mastering them.
 
-**Metadata Matters**
+### Metadata Matters
 
 There is plenty of great ETL-frameworks written in Python and other languages. As said, we use one of them (PETL) under the hood. The core difference between Frictionless and others that we treat metadata as a first-class citizien. It means that you don't loose type and other important information during the pipeline evaluation.
 
-**Data Streaming**
+### Data Streaming
 
 Whenever it's possible Frictionless streams the data instead of reading it into memory. For example, for sorting big tables we use a memory usage threshold and it's met we use file system to unload the data. Ability to stream the data give users power to work with files of any size.
 
-**Lazy Evaluation**
+### Lazy Evaluation
 
 Unlike to systems like `Data Package Pipelines` core Frictionless Transforms doesn't have a back-pressured flow as all data manupulation happen on-demand. For example, if you transform a data package containing 10 big csv files but you only need to reshape one table Frictionless will not even read other tables. Actually, when you call `target = transform(source)` it does almost nothing untill the data reading call like `target.read_rows()` is made.
 
-**Lean Processing**
+### Lean Processing
 
 Similiar to the section above, Frictionless tries to be as much explicit as possible regarding actions taken. For example, it will not use CPU resources to cast data unless a user adds a "normalize", "validate" or similiar steps. So it's possible to transform rather big file without even casting types, for example, if you just need to reshape it.
 
@@ -255,21 +238,20 @@ Frictionless includes more than 40+ builtin transform steps. They are groupped b
 - row
 - cell
 
-
 ## Resource Steps
 
-**Add Resource**
+### Add Resource
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Package(resources=[Resource(name='main', path="transform.csv")])
+source = Package(resources=[Resource(name='main', path="data/transform.csv")])
 target = transform(
     source,
     steps=[
-        steps.resource_add(name='extra', path='transform.csv'),
+        steps.resource_add(name='extra', path='data/transform.csv'),
     ],
 )
 pprint(target.resource_names)
@@ -286,14 +268,14 @@ pprint(target.get_resource('extra').read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47)])]
 
 
-**Remove Resource**
+### Remove Resource
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Package(resources=[Resource(name='main', path="transform.csv")])
+source = Package(resources=[Resource(name='main', path="data/transform.csv")])
 target = transform(
     source,
     steps=[
@@ -306,18 +288,18 @@ pprint(target)
     {'profile': 'data-package', 'resources': []}
 
 
-**Transform Resource**
+### Transform Resource
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Package(resources=[Resource(name='main', path="transform.csv")])
+source = Package(resources=[Resource(name='main', path="data/transform.csv")])
 target = transform(
     source,
     steps=[
-        steps.resource_add(name='extra', path='transform.csv'),
+        steps.resource_add(name='extra', path='data/transform.csv'),
         steps.resource_transform(name='main', steps=[
             steps.table_merge(resource='extra'),
             steps.row_sort(field_names=['id'])
@@ -342,14 +324,14 @@ pprint(target.get_resource('main').read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47)])]
 
 
-**Update Resource**
+### Update Resource
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Package(resources=[Resource(name='main', path="transform.csv")])
+source = Package(resources=[Resource(name='main', path="data/transform.csv")])
 target = transform(
     source,
     steps=[
@@ -368,7 +350,7 @@ pprint(target.get_resource('main'))
      'format': 'csv',
      'hashing': 'md5',
      'name': 'main',
-     'path': 'transform.csv',
+     'path': 'data/transform.csv',
      'profile': 'tabular-data-resource',
      'query': {},
      'schema': {'fields': [{'name': 'id', 'type': 'integer'},
@@ -380,14 +362,14 @@ pprint(target.get_resource('main'))
 
 ## Table Steps
 
-**Aggregate Table**
+### Aggregate Table
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform-groups.csv")
+source = Resource(path="data/transform-groups.csv")
 target = transform(
     source,
     steps=[
@@ -407,14 +389,14 @@ pprint(target.read_rows())
      Row([('name', 'spain'), ('sum', 80)])]
 
 
-**Attach Tables**
+### Attach Tables
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -434,14 +416,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47), ('note', None)])]
 
 
-**Debug Table**
+### Debug Table
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -459,14 +441,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47)])]
 
 
-**Diff Tables**
+### Diff Tables
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -493,14 +475,14 @@ pprint(target.read_rows())
     [Row([('id', 2), ('name', 'france'), ('population', 66)])]
 
 
-**Intersect Tables**
+### Intersect Tables
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -528,14 +510,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47)])]
 
 
-**Join Tables**
+### Join Tables
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -558,14 +540,14 @@ pprint(target.read_rows())
      Row([('id', 2), ('name', 'france'), ('population', 66), ('note', 'vine')])]
 
 
-**Melt Table**
+### Melt Table
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -588,14 +570,14 @@ pprint(target.read_rows())
      Row([('name', 'spain'), ('variable', 'population'), ('value', 47)])]
 
 
-**Merge Tables**
+### Merge Tables
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -618,14 +600,14 @@ pprint(target.read_rows())
      Row([('id', 4), ('name', 'malta'), ('population', None), ('note', 'island')])]
 
 
-**Pivot Table**
+### Pivot Table
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform-pivot.csv")
+source = Resource(path="data/transform-pivot.csv")
 target = transform(
     source,
     steps=[
@@ -644,14 +626,14 @@ pprint(target.read_rows())
      Row([('region', 'west'), ('boy', 35), ('girl', 23)])]
 
 
-**Print Table**
+### Print Table
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -671,14 +653,14 @@ target = transform(
 
 
 
-**Recast Table**
+### Recast Table
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -699,14 +681,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47)])]
 
 
-**Transpose Table**
+### Transpose Table
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -725,16 +707,14 @@ pprint(target.read_rows())
     [Row([('name', 'population'), ('germany', 83), ('france', 66), ('spain', 47)])]
 
 
-**Validate Table**
-
-
+### Validate Table
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -752,28 +732,28 @@ except Exception as exception:
     {'fields': [{'name': 'id', 'type': 'integer'},
                 {'name': 'name', 'type': 'string'},
                 {'name': 'population', 'type': 'integer'}]}
-    FrictionlessException('[step-error] The transfrom step has an error: "table_validate" raises "[type-error] The cell "bad" in row at position "2" and field "population" at position "3" has incompatible type: type is "integer/default""',)
+    FrictionlessException('[step-error] The transfrom step has an error: "table_validate" raises "[type-error] The cell "bad" in row at position "2" and field "population" at position "3" has incompatible type: type is "integer/default""')
 
 
-**Write Table**
+### Write Table
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
-        steps.table_write(path='transform.json'),
+        steps.table_write(path='tmp/transform.json'),
     ]
 )
 ```
 
 
-```bash
-! cat transform.json
+```python
+! cat tmp/transform.json
 ```
 
     [
@@ -801,14 +781,14 @@ target = transform(
 
 ## Field Steps
 
-**Add Field**
+### Add Field
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -828,14 +808,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47), ('note', 'eu')])]
 
 
-**Filter Fields**
+### Filter Fields
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -853,14 +833,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'spain')])]
 
 
-**Move Field**
+### Move Field
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -879,14 +859,14 @@ pprint(target.read_rows())
      Row([('name', 'spain'), ('population', 47), ('id', 3)])]
 
 
-**Remove Field**
+### Remove Field
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -904,14 +884,14 @@ pprint(target.read_rows())
      Row([('name', 'spain'), ('population', 47)])]
 
 
-**Split Field**
+### Split Field
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -931,14 +911,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('population', 47), ('name1', 'sp'), ('name2', 'in')])]
 
 
-**Unpack Field**
+### Unpack Field
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -959,14 +939,14 @@ pprint(target.read_rows())
      Row([('name', 'spain'), ('population', 47), ('id2', 1), ('id3', 1)])]
 
 
-**Update Field**
+### Update Field
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -987,14 +967,14 @@ pprint(target.read_rows())
 
 ## Row Steps
 
-**Filter Rows**
+### Filter Rows
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1013,14 +993,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47)])]
 
 
-**Search Rows**
+### Search Rows
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1037,14 +1017,14 @@ pprint(target.read_rows())
     [Row([('id', 2), ('name', 'france'), ('population', 66)])]
 
 
-**Slice Rows**
+### Slice Rows
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1062,14 +1042,14 @@ pprint(target.read_rows())
      Row([('id', 2), ('name', 'france'), ('population', 66)])]
 
 
-**Sort Rows**
+### Sort Rows
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1088,14 +1068,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47)])]
 
 
-**Split Rows**
+### Split Rows
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1117,14 +1097,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'in'), ('population', 47)])]
 
 
-**Subset Rows**
+### Subset Rows
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1144,14 +1124,14 @@ pprint(target.read_rows())
      Row([('id', 1), ('name', 'spain'), ('population', 47)])]
 
 
-**Ungroup Rows**
+### Ungroup Rows
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform-groups.csv")
+source = Resource(path="data/transform-groups.csv")
 target = transform(
     source,
     steps=[
@@ -1173,14 +1153,14 @@ pprint(target.read_rows())
 
 ## Cell Steps
 
-**Convert Cells**
+### Convert Cells
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1199,14 +1179,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'n/a'), ('population', 47)])]
 
 
-**Fill Cells**
+### Fill Cells
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1226,14 +1206,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47)])]
 
 
-**Format Cells**
+### Format Cells
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1252,14 +1232,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'Prefix: spain'), ('population', 47)])]
 
 
-**Interpolate Cells**
+### Interpolate Cells
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1278,14 +1258,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'Prefix: spain'), ('population', 47)])]
 
 
-**Replace Cells**
+### Replace Cells
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1304,14 +1284,14 @@ pprint(target.read_rows())
      Row([('id', 3), ('name', 'spain'), ('population', 47)])]
 
 
-**Set Cells**
+### Set Cells
 
 
 ```python
 from pprint import pprint
 from frictionless import Package, Resource, transform, steps
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(
     source,
     steps=[
@@ -1352,7 +1332,7 @@ def step(source, target):
     target.schema.remove_field("id")
 
 
-source = Resource(path="transform.csv")
+source = Resource(path="data/transform.csv")
 target = transform(source, steps=[step])
 pprint(target.schema)
 pprint(target.read_rows())
@@ -1377,7 +1357,7 @@ In some cases, it's better to use a lower-level API to achieve some goal. A reso
 ```python
 from frictionless import Resource
 
-resource = Resource(path='transform.csv')
+resource = Resource(path='data/transform.csv')
 petl_table = resource.to_petl()
 # Use it with PETL framework
 print(petl_table)

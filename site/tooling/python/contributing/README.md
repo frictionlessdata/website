@@ -7,25 +7,28 @@ We use Github as a code and issues hosting platform. To report a bug or propose 
 ## Docs Contribution
 
 We use a flexible documentation system as the docs are generated from:
-- notebooks containing high-level guides stored in [Google Colab](https://drive.google.com/drive/folders/1boOu13YdhGkPOYiKe6KBkRmkYaaBbcsH?usp=sharing)
-- source code and markdown documents within the repository
+- markdown documents in the `docs` directory interpreted by the Jupiter Notebook runner
+- python scripts in the `docs` directory generating references or copying documents from the root directory such as `README.md`, `CHANGELOG.md` etc
 
-The simplest way to contribute to the guides is by leaving comments on a Google Colab document from the directory mentioned above. If you'd like to work with text files, you can contribute to the `docs/target` directory containing the built documentation. It's OK to propose changes to generated files in the `docs/target` directory as we will move the changes to the corresponding Google Colab.
-
-To contribute to other types of documentation, please check to the corresponding `docs/name.py` file to understand the source of a document. Most of the documents outside of Google Colab are stored in the root directory of the repository; other documents are generated from the source code i.e., references.
+To contribute to the documentation, please check to the corresponding `docs/name.md|py` file to understand the source of a document. If it's a markdown just edit it in-line if it's a script edit it or find a corresponding document in the root directory.
 
 ### Building Process
 
-In the `docs` directory we have two directories:
-- data sources like Jinja2 templates: `docs/source`
-- directory for generated documentation: `docs/target`
+There are two main `docs` directories:
+- source directory: `docs`
+- target directory: `docs/build`
 
-In the `docs` directory we have python scripts using:
-- function to convert a Google Colab: `scripts.docs.from_notebook`
-- function to copy documents: `scripts.docs.from_markdown`
-- arbitrary scripts generating e.g., references
+To build only one document run:
 
-Every Python script in the `docs` directory generates one on more articles to the `docs/target` directory. You can run `make docs` to build documentation after you have set up a development environment as it's described in the next section.
+```bash
+python scripts/docs.py name
+```
+
+To build the whole documentation:
+
+```bash
+python scripts/docs.py # or make docs
+```
 
 ## Code Contribution
 

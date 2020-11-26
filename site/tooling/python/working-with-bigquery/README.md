@@ -1,18 +1,19 @@
 # Working with BigQuery
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1XJizXkpUldseE_WvjDZdSCJ6n58aRwJr)
-
-
-
 > Status: **EXPERIMENTAL**
 
 Frictionless supports both reading tables from BigQuery source and treating a BigQuery dataset as a tabular data storage.
+
+```sh
+! pip install frictionless[bigquery]
+```
+
 
 ## Reading from BigQuery
 
 You can read from this source using `Package/Resource` or `Table` API, for example:
 
-```python
+```py
 import os
 import json
 from apiclient.discovery import build
@@ -33,40 +34,45 @@ resource = Resource(path=service, dialect=dialect)
 print(resource.read_rows())
 ```
 
+
 If you'd like to treat BigQuery dataset as a tabular storage:
 
-```python
+```py
 package = Package.from_bigquery(service=service, project=project, dataset='<dataset>')
 print(package)
 for resource in package.resources:
   print(resource.read_rows())
 ```
 
+
 ## Writing to BigQuery
 
 We can export a package to a BigQuery dataset:
 
-```python
+```py
 package = Package('path/to/datapackage.json')
 package.to_bigquery(service=service, project=project, dataset='<dataset>')
 ```
+
 
 ## Configuring BigQuery
 
 There are two options to configure BigQuery interactions. First of all, there are different options for these functions:
 
-```python
+```
 Resource/Package.from_bigquery
 resource/package.to_bigquery
 ```
 
+
 Secondly, there a dialect:
 
-```python
+```py
 dialect = BigqueryDialect(project=project, dataset='<dataset>', table='<table>'
 resource = Resource(path=service, dialect=dialect)
 print(resource.read_rows())
 ```
+
 
 References:
 - [BigQuery Dialect](https://frictionlessdata.io/tooling/python/formats-reference/#bigquery)

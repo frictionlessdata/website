@@ -1,23 +1,19 @@
 # Working with SPSS
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1znUU6qTXdh2vO7Q9fAec8IUIEia0SqqL)
-
-
-
 > Status: **EXPERIMENTAL**
 
 Frictionless supports reading and writing SPSS files.
 
-
-```bash
+```sh
 ! pip install frictionless[spss]
 ```
+
 
 ## Reading from SPSS
 
 You can read SPSS files:
 
-```python
+```py
 from frictionless import Package
 
 package = Package.from_pandas(basepath='<dir with your .SAV files>')
@@ -26,16 +22,18 @@ for resource in package.resources:
   print(resource.read_rows())
 ```
 
+
 ## Wriring to SPSS
 
 You can write SPSS files:
 
-```python
+```py
 from frictionless import Package
 
 package = Package('path/to/datapackage.json')
 package.to_spss(basepath='target')
 ```
+
 
 ## Configuring SPSS
 

@@ -1,12 +1,6 @@
 # Extension Guide
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1yj_1Nk8RwMTV2QZ-0RR_cbKN6aQQ5jAb)
-
-
-
 Frictionless is built on top of a powerful plugins system which is used internally and allows to extend the framework.
-
-
 
 ## Plugin Interface
 
@@ -24,8 +18,6 @@ To create a plugin you need:
 
 Please consult with "API Reference" for in-detail information about the Plugin interface and how these methods can be implemented.
 
-
-
 ## Plugin Example
 
 Let's say we're interested in supporting the `csv2k` format that we have just invented. For simplicity, let's use a format that is exactly the same with CSV.
@@ -34,25 +26,28 @@ First of all, we need to create a `frictionless_csv2k` module containing a Plugi
 
 > frictionless_csv2k.py
 
-```python
-from frictionless import Plugin, parsers
+```py
+from frictionless import Plugin
+from frictionless.plugins.csv import CsvParser
 
 class Csv2kPlugin(Plugin):
     def create_parser(self, file):
         if file.format == "csv2k":
             return Csv2kParser(file)
 
-class Csv2kParser(parsers.CsvParser):
+class Csv2kParser(CsvParser):
     pass
 ```
 
+
 Now, we can use our new format in any of the Frictionless functions that accept a table source, for example, `extract` or `Table`:
 
-```python
+```py
 from frictionless import extract
 
 rows = extract('data/table.csv2k')
 print(rows)
 ```
+
 
 This example is over-simplified to show the high-level mechanics but writing Frictionless Plugins is designed to be easy. For inspiration, you can checks the `frictionless/plugins` directory and learn from real-life examples. Also, in the Frictionless codebase there are many `Check`, `Control`, `Dialect`, `Loader`, `Parser`, and `Server` implementations - you can read their code for better understanding of how to write your own subclass or reach out to us for support.

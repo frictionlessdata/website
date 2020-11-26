@@ -1,20 +1,16 @@
 # Working with Server
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1e_dwdiT5bpJlY2fWTQ40e7-B8tvMd4kv)
-
-
-
 > Status: **EXPERIMENTAL**
 
 It's possible to start Frictionless API as a standalone server.
 
-
-```bash
+```sh
 !pip install frictionless[server]
 ```
 
+
 ## Running API Server
 
-```bash
+```sh
 $ frictionless api
 ```

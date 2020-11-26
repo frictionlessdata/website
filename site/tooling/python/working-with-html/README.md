@@ -1,22 +1,17 @@
 # Working with HTML
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1KtQppS3abD6ea4I5kdY9Y5vBUf2zeCfz)
-
-
-
 > Status: **STABLE**
 
 Frictionless supports parsing HTML format
 
-
-```bash
+```sh
 !pip install frictionless[html]
 ```
 
 
-```bash
-! wget -q -O table.html https://raw.githubusercontent.com/frictionlessdata/frictionless-py/master/data/table1.html
-! cat table.html
+
+```python
+! cat data/table1.html
 ```
 
     <!DOCTYPE html>
@@ -44,14 +39,13 @@ Frictionless supports parsing HTML format
 
 ## Reading HTML
 
-
 You can this file format using `Package/Resource` or `Table` API, for example:
 
 
 ```python
 from frictionless import Resource
 
-resource = Resource(path='table.html')
+resource = Resource(path='data/table1.html')
 print(resource.read_rows())
 ```
 
@@ -67,19 +61,19 @@ The same is actual for writing:
 from frictionless import Resource
 
 resource = Resource(data=[['id', 'name'], [1, 'english'], [2, 'german']])
-resource.write('table.new.html')
+resource.write('tmp/table.html')
 ```
 
 
 
 
-    'table.new.html'
+    'tmp/table.html'
 
 
 
 
-```bash
-!cat table.new.html
+```python
+!cat tmp/table.html
 ```
 
     <html><body><table>
@@ -92,13 +86,14 @@ resource.write('table.new.html')
 
 There is a dialect to configure HTML, for example:
 
-```python
+```py
 from frictionless import Resource
 from frictionless.plugins.html import HtmlDialect
 
-resource = Resource(path='table.html', dialect=HtmlDialect(selector='#id'))
+resource = Resource(path='data/table1.html', dialect=HtmlDialect(selector='#id'))
 print(resource.read_rows())
 ```
+
 
 References:
 - [HTML Dialect](https://frictionlessdata.io/tooling/python/formats-reference/#html)
