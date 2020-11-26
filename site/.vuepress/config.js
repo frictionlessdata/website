@@ -123,9 +123,9 @@ module.exports = {
           { text: "Libraries", link: "/tooling/libraries/" },
           {
             items: [
-              { text: "GoodTables", link: "/tooling/others/goodtables/" },
-              { text: "DataHub", link: "/tooling/others/datahub/" },
-              { text: "Labs", link: "/tooling/others/labs/" },
+              { text: "GoodTables", link: "/tooling/goodtables/" },
+              { text: "DataHub", link: "/tooling/datahub/" },
+              { text: "Labs", link: "/tooling/labs/" },
             ],
           },
         ],
