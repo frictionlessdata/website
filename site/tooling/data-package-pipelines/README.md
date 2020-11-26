@@ -7,8 +7,6 @@ github: datapackage-pipelines, datapackage-pipelines-aws, datapackage-pipelines-
 layout: product
 ---
 
-# Data Package Pipelines
-
 Data Package Pipelines is a declarative, stream-based framework for building tabular data processing pipelines. It can be used for all extract, transform, and load (ETL) tasks, and is particularly suited for working with diverse and heterogeneous data sources of varying and unknown quality.
 
 There are many tools and frameworks for doing ETL work with data. Data Package Pipelines is another one! The focus here is on wrangling and controlling messy data from various sources, and using the Frictionless Data tooling to transform these feeds into a stream of clean, consistent data.
