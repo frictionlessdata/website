@@ -6,7 +6,7 @@ layout: product
 
 ## Application
 
-> A new generation Frictionless Application is work-in-progress. At the moment, this section is an overview of the existing Frictionless graphical interfaces.
+> A new generation Frictionless Application is work-in-progress. At the moment, this section is an overview the existing graphical interfaces to work with Frictionless.
 
 ## Browser Tools
 
