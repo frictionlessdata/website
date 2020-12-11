@@ -139,7 +139,7 @@ Let's see what we have created:
       rows: 5
 
 
-It has the same metadata as we saw above but also includes our editing related to missing values and data types. We didn't change all the wrong data types manually because providing proper missing values had fixed it automatically. Now we have a resource descriptor. In the next section, we will show why metadata matters and how to use it.
+It has the same metadata as we saw above but also includes our editing related to missing values, data types and foreign key relationships. We didn't change all the wrong data types manually because providing proper missing values had fixed it automatically. Now we have a resource descriptor. In the next section, we will show why metadata matters and how to use it.
 
 ## Extracting Data
 

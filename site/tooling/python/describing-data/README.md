@@ -22,7 +22,7 @@ Having a general understanding of what is "data describing", we can now articula
 - **data validation**; metadata helps to reveal problems in your data on the early stages of your workflow
 - **data publication**; metadata provides additional information that your data can't include
 
-There are not the only two pros of having metadata but they are two the most important. Please continue reading to learn how Frictionless helps to achieve these advantages describing your data.
+These are not the only two pros of having metadata but they are two the most important. Please continue reading to learn how Frictionless helps to achieve these advantages describing your data.
 
 ## Describe Functions
 
