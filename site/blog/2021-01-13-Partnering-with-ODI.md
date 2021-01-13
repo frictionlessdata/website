@@ -7,6 +7,8 @@ image: /img/blog/fd_reproducible.png
 description:
 author: Sara Petti
 ---
+Originally published: https://blog.okfn.org/2021/01/12/partnering-with-odi-to-improve-frictionless-data/
+
 _In the framework of  the Open Data Institute’s [fund to develop open source tools for data institutions](https://theodi.org/article/call-for-proposals-funding-to-develop-open-source-tools-for-data-institutions/), the [Open Knowledge Foundation (OKF)](okfn.org) has been awarded funds to improve the quality and interoperability of Frictionless Data._
 
 In light of our effort to make data open and accessible, we are thrilled to announce we will be partnering with the [Open Data Institute (ODI)](https://theodi.org/) to improve our existing documentation and add new features on [Frictionless Data](https://frictionlessdata.io/) to create a better user experience for all. 
