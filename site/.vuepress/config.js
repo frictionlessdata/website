@@ -113,6 +113,7 @@ module.exports = {
     sidebar: "auto",
     nav: [
       { text: "Guide", link: "/guide/" },
+      { text: "Specs", link: "/specs/" },
       {
         text: "Tooling",
         ariaLabel: "Tooling Menu",
@@ -126,20 +127,6 @@ module.exports = {
               { text: "DataHub", link: "/tooling/datahub/" },
               { text: "Labs", link: "/tooling/labs/" },
             ],
-          },
-        ],
-      },
-      {
-        text: "Specs",
-        ariaLabel: "Specs Menu",
-        items: [
-          {
-            text: "Table Schema",
-            link: "https://specs.frictionlessdata.io/table-schema/",
-          },
-          {
-            text: "Data Package",
-            link: "https://specs.frictionlessdata.io/data-package/",
           },
         ],
       },
