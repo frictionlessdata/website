@@ -118,8 +118,7 @@ module.exports = {
         ariaLabel: "Tooling Menu",
         items: [
           { text: "Application", link: "/tooling/application/" },
-          { text: "Framework (Python)", link: "/tooling/python/" },
-          { text: "Framework (JavaScript)", link: "/tooling/javascript/" },
+          { text: "Framework", link: "/tooling/framework/" },
           { text: "Libraries", link: "/tooling/libraries/" },
           {
             items: [
