@@ -3,7 +3,7 @@ title: Meet the new Frictionless Data Community Manager
 date: 2021-01-26
 tags: ["team"]
 category:
-image: ![Sara_round](https://user-images.githubusercontent.com/74717970/105854126-c8bedb00-5fe6-11eb-8061-d7bcf9dc2f03.jpg)
+image: /img/blog/Sara-Petti-photo.png
 description: Introducing a new team member - Sara Petti
 author: Sara Petti
 ---
