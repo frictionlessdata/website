@@ -1,6 +1,6 @@
 ---
 title: Frictionless Libraries
-tagline: Frictionless libraries is a low-level drivers available in 10 languages
+tagline: The Frictionless code is available in 10 languages
 layout: product
 ---
 

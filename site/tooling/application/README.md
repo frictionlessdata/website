@@ -8,7 +8,7 @@ layout: product
 
 > A new generation Frictionless Application is work-in-progress. At the moment, this section overview the existent graphical interfaces to work with Frictionless.
 
-## Helper Tools
+## Browser Tools
 
 - [Data Package Creator](https://create.frictionlessdata.io/)
 - [On-Demand Validation](http://try.goodtables.io/)
