@@ -1,6 +1,8 @@
-# Frictionless Libraries
-
-On the lower-level, Frictionless provides libraries for 10 platforms.
+---
+title: Frictionless Libraries
+tagline: The Frictionless code is available in 10 languages
+layout: product
+---
 
 ## Data Package
 

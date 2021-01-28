@@ -113,13 +113,13 @@ module.exports = {
     sidebar: "auto",
     nav: [
       { text: "Guide", link: "/guide/" },
+      { text: "Specs", link: "/specs/" },
       {
         text: "Tooling",
         ariaLabel: "Tooling Menu",
         items: [
           { text: "Application", link: "/tooling/application/" },
-          { text: "Framework (Python)", link: "/tooling/python/" },
-          { text: "Framework (JavaScript)", link: "/tooling/javascript/" },
+          { text: "Framework", link: "/tooling/framework/" },
           { text: "Libraries", link: "/tooling/libraries/" },
           {
             items: [
@@ -127,20 +127,6 @@ module.exports = {
               { text: "DataHub", link: "/tooling/datahub/" },
               { text: "Labs", link: "/tooling/labs/" },
             ],
-          },
-        ],
-      },
-      {
-        text: "Specs",
-        ariaLabel: "Specs Menu",
-        items: [
-          {
-            text: "Table Schema",
-            link: "https://specs.frictionlessdata.io/table-schema/",
-          },
-          {
-            text: "Data Package",
-            link: "https://specs.frictionlessdata.io/data-package/",
           },
         ],
       },
