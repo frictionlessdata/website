@@ -24,7 +24,7 @@ If you couldn’t make it to the call, or you are just curious and would like to
 
 Our next meeting will be on 25<sup>th</sup> March. We will hear about Hackathons to facilitate the creation of web tools to create field-specific FAIR archive files from Oleg Lavrovsky and Giuseppe Peronato.
 
-You can sign up [here:](https://docs.google.com/forms/d/e/1FAIpQLSeuNCopxXauMkrWvF6VHqOyHMcy54SfNDOseVXfWRQZWkvqjQ/viewform?usp=sf_link)
+You can sign up [here](https://docs.google.com/forms/d/e/1FAIpQLSeuNCopxXauMkrWvF6VHqOyHMcy54SfNDOseVXfWRQZWkvqjQ/viewform?usp=sf_link).
 
 Do you want to share something with the community? Let us know when you sign up!
 
