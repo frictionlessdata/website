@@ -102,9 +102,9 @@ features:
           <img class="w-20 mx-auto" src="/img/home/data-package-new.svg"></img>
         </div>
         <div class="card-details text-center pt-10">
-          <a href="/tooling/data-package-tools/" class="text-xl text-black hover:underline">Data Package</a>
+          <a href="/data-package/" class="text-xl text-black hover:underline">Data Package</a>
           <p class="text-lg font-light pt-4">Simple container format used to describe and package data.</p>
-          <a href="/tooling/data-package-tools/" class="text-base hover:underline">Read more &raquo;</a>
+          <a href="/data-package/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
       </div>
       <div class="sm:w-2/5 lg:w-1/5 my-16 flex flex-col tooling-card">
