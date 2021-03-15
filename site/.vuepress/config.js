@@ -112,7 +112,15 @@ module.exports = {
     navbar_icon3_title: "GitHub",
     sidebar: "auto",
     nav: [
-      { text: "Guide", link: "/guide/" },
+      {
+        text: "Learn",
+        ariaLabel: "Learn Menu",
+        items: [
+          { text: "Guide", link: "/guide/" },
+          { text: "Table Schema", link: "/table-schema/" },
+          { text: "Data Package", link: "/data-package/" },
+        ],
+      },
       { text: "Specs", link: "/specs/" },
       {
         text: "Tooling",
