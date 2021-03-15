@@ -1,7 +1,10 @@
 # Guide
 
 :::tip
-This guide is still early-stage. We are currently consolidating our existing materials into one place here.
+This guide is still early-stage. We are currently consolidating our existing materials into one place here. Thus, in addition to this guide, you may want to check out these other resources:
+
+* [Introduction to Table Schema][ts]
+* [Introduction to Data Package][dp]
 :::
 
 [ts]: /table-schema/
