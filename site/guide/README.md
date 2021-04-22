@@ -14,7 +14,7 @@ This guide is still early-stage. We are currently consolidating our existing mat
 
 ### What is Frictionless Data?
 
-Frictionless Data is a progressive framework for building data infrastructure -- data management, integration, flows, etc.
+Frictionless Data is a progressive open-source framework for building data infrastructure -- data management, data integration, data flows, etc.
 
 Unlike some other frameworks, Frictionless is designed from the ground up to be both incrementally adoptable and "progressive". Its purpose is to work with, build on, and enhance your existing data and tooling (rather than replacing it). It is also extremely lightweight!
 
@@ -24,7 +24,7 @@ The core of the framework is a suite of ultra-simple patterns to describe and or
 [These patterns are language and platform agnostic so you can use and integrate them with your favorite language, tool or platform. We also have a rich set of libraries and tooling to help you do that e.g. bindings in Python, R, Ruby, Go, Swift ...]
 -->
 
-At the same time, Frictionless Data is also perfectly capable of powering sophisticated data workflows when used in combination with modern tooling and supporting libraries. This is possible because the framework follows an "atomic" data[^atomic] -- you can take a minimalistic approach for simple solutions or combine elements for more complex solutions.
+At the same time, Frictionless Data is also perfectly capable of powering sophisticated data workflows when used in combination with modern tooling and supporting libraries. This is possible because the framework follows an "atomic" approach[^atomic] where specs and tools are broken down into small components that can be used on their own but also composed together to make larger ones. This allows you to take a minimalistic approach for simple solutions and then combine elements components for more complex solutions.
 
 If you’d like to learn more about Frictionless before diving in, we created a video walking through the core principles.
 
