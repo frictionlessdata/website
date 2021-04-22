@@ -4,7 +4,7 @@ title: Frictionless Data
 description: Bringing simplicity and gracefulness to the data experience
 heroImage: /img/home/toolbox.png
 heroText: The zen toolkit for data integration
-tagline: Frictionless Data is a progressive, incrementally adoptable open-source toolkit that brings simplicity and gracefulness to the data experience - whether you're wrangling a CSV or engineering complex pipelines with gigabytes.
+tagline: Frictionless is a progressive, incrementally adoptable open-source toolkit that brings simplicity and gracefulness to the data experience - whether you're wrangling a CSV or engineering complex pipelines with gigabytes.
 features:
 - title: Approachable
   details: Lean and minimal core. Quick to understand, quick to use.
@@ -84,8 +84,8 @@ features:
 <div class="banner p-8 black-text gray-section" id="video-section">
   <div class="inner-container">
     <div class="sm:container mx-auto text-center">
-      <h1 class="font-normal text-3xl">Why Frictionless Data?</h1>
-      <p class="text-lg"><a class="hover:underline" href="https://rufuspollock.com/" target="_blank">Rufus Pollock</a> explains the problem Frictionless Data addresses <br> through simple specifications and software.</p> 
+      <h1 class="font-normal text-3xl">Why Frictionless?</h1>
+      <p class="text-lg"><a class="hover:underline" href="https://rufuspollock.com/" target="_blank">Rufus Pollock</a> explains the problem Frictionless addresses <br> through simple specifications and software.</p> 
       <div class="video my-10">
         <iframe class="w-full h-full" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
