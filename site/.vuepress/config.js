@@ -224,7 +224,6 @@ module.exports = {
         ],
       },
     ],
-    ["@vuepress/back-to-top"],
     [
       "vuepress-plugin-dehydrate",
       {
