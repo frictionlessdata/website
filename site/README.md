@@ -85,7 +85,7 @@ features:
   <div class="inner-container">
     <div class="sm:container mx-auto text-center">
       <h1 class="font-normal text-3xl">Why Frictionless?</h1>
-      <p class="text-lg"><a class="hover:underline" href="https://rufuspollock.com/" target="_blank">Rufus Pollock</a> explains the problem Frictionless addresses <br> through simple specifications and software.</p> 
+      <p class="text-lg"><a class="hover:underline" href="https://rufuspollock.com/" target="_blank">Rufus Pollock</a> explains the problem Frictionless addresses <br> through simple specifications and software.</p>
       <div class="video my-10">
         <iframe class="w-full h-full" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
@@ -95,46 +95,29 @@ features:
 
 <div class="banner p-8 text-black">
   <div class="inner-container">
-    <h1 class="text-center text-3xl font-normal">Some of our Tooling<hr></h1>
-    <div class="py-10 mx-auto flex flex-row flex-wrap lg:justify-between text-center justify-center">
-      <div class="sm:w-2/5 lg:w-1/5 flex flex-col tooling-card">
-        <div class="image-border">
-          <img class="w-20 mx-auto" src="/img/home/data-package-new.svg"></img>
-        </div>
-        <div class="card-details text-center pt-10">
-          <a href="/data-package/" class="text-xl text-black hover:underline">Data Package</a>
-          <p class="text-lg font-light pt-4">Simple container format used to describe and package data.</p>
-          <a href="/data-package/" class="text-base hover:underline">Read more &raquo;</a>
-        </div>
-      </div>
-      <div class="sm:w-2/5 lg:w-1/5 my-16 flex flex-col tooling-card">
-        <div class="image-border">
-          <img class="w-20 mx-auto" src="/img/home/datahub-new2.svg"></img>
-        </div>
-        <div class="card-details text-center pt-10">
-          <a href="/tooling/goodtables/" class="text-xl text-black hover:underline">DataHub</a>
-          <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
-          <a href="/tooling/datahub/" class="text-base hover:underline">Read more &raquo;</a>
+    <h1 class="text-center text-3xl font-normal">Frictionless Toolkit<hr></h1>
+    <div class="text-center">
+      <p>Frictionless Data consists of two main parts, software and standards.</p>
+    </div>
+    <div class="mx-auto flex flex-row flex-wrap lg:justify-between text-center justify-center">
+      <div class="sm:w-1/2 lg:w-1/2 flex flex-col">
+        <div class="text-center px-8">
+          <a href="/software/" class="text-xl text-black hover:underline">
+            <h3>Frictionless Software</h3>
+            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/software.png"></img>
+        </a>
+          <p class="text-lg font-light pt-4">The Frictionless Data projects provides a rich set of open source software for working with data. There are services, a visual application, and software for many programming platforms.</p>
+          <a href="/software/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
       </div>
-      <div class="sm:w-2/5 lg:w-1/5 my-16 flex flex-col tooling-card">
-        <div class="image-border">
-          <img class="w-20 mx-auto" src="/img/home/goodtables-new.svg"></img>
-        </div>
-        <div class="card-details text-center pt-10">
-          <a href="/tooling/goodtables/" class="text-xl text-black hover:underline">GoodTables</a>
-          <p class="text-lg font-light pt-4">Validate data on every change so you catch errors before your users.</p>
-          <a href="/tooling/goodtables/" class="text-base hover:underline">Read more &raquo;</a>
-        </div>
-      </div>
-      <div class="sm:w-2/5 lg:w-1/5 my-16 flex flex-col  tooling-card">
-        <div class="image-border">
-          <img class="w-20 mx-auto" src="/img/home/dataflows-new.svg"></img>
-        </div>
-        <div class="card-details text-center pt-10">
-          <a href="/tooling/goodtables/" class="text-xl text-black hover:underline">DataFlows</a>
-          <p class="text-lg font-light pt-4">A light intuitive framework for building data processing flows.</p>
-          <a href="/tooling/data-package-pipelines/" class="text-base hover:underline">Read more &raquo;</a>
+      <div class="sm:w-1/2 lg:w-1/2 flex flex-col">
+        <div class="text-center px-8">
+          <a href="/standards/" class="text-xl text-black hover:underline">
+            <h3>Frictionless Standards</h3>
+            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/standards.png"></img>
+        </a>
+          <p class="text-lg font-light pt-4">The Frictionless Data project is built on top of the Frictionless Standards. It’s a set of specifications to standartize the work with data as though describing a collection of resources or sharing data types information.</p>
+          <a href="/standards/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
       </div>
     </div>
@@ -149,7 +132,7 @@ export default {
 };
 </script>
 
-<style> 
+<style>
 
 .gray-section {
   background-color: #EEEEEE;
@@ -175,7 +158,7 @@ export default {
 #video-section {
   background-image: url('/img/home/beam.svg');
   background-size: 95% 42%;
-  background-position: center; 
+  background-position: center;
   background-repeat: no-repeat;
 }
 

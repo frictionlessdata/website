@@ -22,7 +22,7 @@ Unlike some other frameworks, Frictionless is designed from the ground up to be 
 
 ## How to use Frictionless
 
-Frictionless Data consists of two main parts, standards and software.
+Frictionless Data consists of two main parts, software and standards.
 
 ![Structure](/img/introduction/structure.png)
 
