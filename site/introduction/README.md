@@ -28,7 +28,7 @@ Frictionless Data consists of two main parts, software and standards.
 
 Usually, new users start from trying out the [Software](/software) which give an ability to work with Frictionless using visual interfaces or programming languages. For example, there are two high-level data frameworks (for Python and JavaScript) and low-level libraries for 10 platforms. On other hand, you might be interested in using our data services for discovering, storing or validating data. At the moment, we work hard on implementing Frictionless Application and Frictionless Repository which also have visual interfaces. To get started, choose the software you're interested in and follow its link to get to corresponding documentation.
 
-The [Standards](/standards) is also a vital part of the project. It helps to describe your data, for example, a collection of files as a data package or a table as a table schema. As a new user you might not need to dive to deep into the specifications as our software incapsulate its concepts. On the other hand, once you feel comfortable with Frictionless Software you might start reading Frictionless Standards to get better understanding of the things happening under the hood or to start creating your metadata descriptors more profitiantly.
+The [Standards](/standards) is also a vital part of the project. It helps to describe your data, for example, a collection of files as a data package or a table as a table schema. As a new user you might not need to dive to deep into the specifications as our software incapsulates its concepts. On the other hand, once you feel comfortable with Frictionless Software you might start reading Frictionless Standards to get better understanding of the things happening under the hood or to start creating your metadata descriptors more proficiently.
 
 ## Where to apply Frictionless
 
@@ -36,8 +36,8 @@ The Frictionless Data project is very diverse in terms of possible audience.
 
 ![Audience](/img/introduction/audience.png)
 
-During our project development we had various collaborations with institutions and indivisuals. We keep track on our [Pilots](/tag/pilot) and [Case Studies](/tag/case-studies) and our community and core members are open to share their experience using our standards and software. Generally speaking, you can apply Frictionless almost in every field in which you need to have a deal with data. It might be a simple tables validation or complex data pipelines.
+During our project development we had various collaborations with institutions and individuals. We keep track on our [Pilots](/tag/pilot) and [Case Studies](/tag/case-studies) and our community and core members are open to share their experience using our standards and software. Generally speaking, you can apply Frictionless almost in every field in which you need to have a deal with data. It might be a simple tables validation or complex data pipelines.
 
 ## Ready for more? Keep Going!
 
-It was a short introduction of the Frictionless Data. As the next steps, we reccommend you to start using one of our [Software](/software) projects, get known our [Standards](/standards) or read about other user experience in [Pilots](/tag/pilot) and [Case Studies](/tag/case-studies) sections.
+It was a short introduction of the Frictionless Data. As the next steps, we recommend you to start using one of our [Software](/software) projects, get known our [Standards](/standards) or read about other user experience in [Pilots](/tag/pilot) and [Case Studies](/tag/case-studies) sections.
