@@ -6,7 +6,7 @@ title: Frictionless Standards
 
 <big><strong>Lightweight yet comprehensive data specifications.</strong></big>
 
-The Frictionless Data project is built on top of the Frictionless Standards. It's a set of specifications created to standartize different aspects of working with data as though how to provide metadata or share infromation about data types.
+The Frictionless Data project is built on top of the Frictionless Standards. It's a set of specifications created to standartize different aspects of working with data as though how to describe a collections on resources or share infromation about data types.
 
 > This document is an overview of the Frictionless Standards - for more in-depth information please visit [the spec site](https://specs.frictionlessdata.io/) or click on one of the standards below.
 
@@ -14,28 +14,27 @@ The Frictionless Data project is built on top of the Frictionless Standards. It'
 
 At the core of Frictionless is a set of patterns for describing data including Data Package (for datasets), Data Resource (for files) and Table Schema (for tables).
 
-<div class="main-section black-text py-8">
-    <h1 class="text-center font-normal text-3xl px-12" id="more">For anyone who works with data<br/><small class="font-light text-xl">Especially diverse data and/or across tools or teams<hr></small></h1>
-    <div class="features flex flex-row flex-wrap lg:px-40">
+<div class="main-section black-text">
+    <div class="features flex flex-row flex-wrap py-4">
       <div class="w-full md:w-1/3 feature flex justify-center">
-        <div class="py-12 px-8 text-center">
-          <img src="/img/home/researchers-color.svg" height="223.375" />
-          <h3 class="font-normal">Researchers</h3>
-          <p>Easily create reproducible research</p>
+        <div class="px-8 text-center">
+          <img src="/img/home/dengineers-color.svg" />
+          <h3 class="font-normal">Data Package</h3>
+          <p>A simple container format for describing a coherent collection of data in a single package. </p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
-        <div class="py-12 px-8 text-center">
-          <img src="/img/home/dscientists-color.svg" height="223.375" />
-          <h3 class="font-normal">Data Scientists</h3>
-          <p>Create pipelines without effort</p>
+        <div class="px-8 text-center">
+          <img src="/img/home/dscientists-color.svg" />
+          <h3 class="font-normal">Data Resource</h3>
+          <p>A simple format to describe and package a single data resource such as a individual table or file.</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
-        <div class="py-12 px-8 text-center">
-          <img src="/img/home/dengineers-color.svg" height="223.375" />
-          <h3 class="font-normal">Data Engineers</h3>
-          <p>Standardize data platforms</p>
+        <div class="px-8 text-center">
+          <img src="/img/home/researchers-color.svg" />
+          <h3 class="font-normal">Table Schema</h3>
+          <p>A simple format to declare a schema for tabular data. The schema is designed to be expressible in JSON.</p>
         </div>
       </div>
     </div>
