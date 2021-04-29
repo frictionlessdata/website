@@ -18,22 +18,28 @@ At the core of Frictionless is a set of patterns for describing data including D
     <div class="features flex flex-row flex-wrap py-4">
       <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="px-8 text-center">
-          <img src="/img/home/dengineers-color.svg" />
-          <h3 class="font-normal">Data Package</h3>
-          <p>A simple container format for describing a coherent collection of data in a single package. </p>
+          <a href="https://specs.frictionlessdata.io/data-package/" target="blank">
+            <img style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" src="/img/standards/data-package.png" />
+            <h3>Data Package</h3>
+          </a>
+          <p>A simple container format for describing a coherent collection of data in a single package.</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="px-8 text-center">
-          <img src="/img/home/dscientists-color.svg" />
-          <h3 class="font-normal">Data Resource</h3>
+          <a href="https://specs.frictionlessdata.io/data-resource/" target="blank">
+            <img style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" src="/img/standards/data-resource.png" />
+            <h3>Data Resource</h3>
+          </a>
           <p>A simple format to describe and package a single data resource such as a individual table or file.</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="px-8 text-center">
-          <img src="/img/home/researchers-color.svg" />
-          <h3 class="font-normal">Table Schema</h3>
+          <a href="https://specs.frictionlessdata.io/table-schema/" target="blank">
+            <img style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" src="/img/standards/table-schema.png" />
+            <h3>Table Schema</h3>
+          </a>
           <p>A simple format to declare a schema for tabular data. The schema is designed to be expressible in JSON.</p>
         </div>
       </div>
@@ -42,28 +48,35 @@ At the core of Frictionless is a set of patterns for describing data including D
 
 ## Additional Standards
 
-<div class="main-section black-text py-8">
-    <h1 class="text-center font-normal text-3xl px-12" id="more">For anyone who works with data<br/><small class="font-light text-xl">Especially diverse data and/or across tools or teams<hr></small></h1>
-    <div class="features flex flex-row flex-wrap lg:px-40">
+For some specific use cases there are domain oriented specifications like Fiscal Data Package. Moreover, we provide some general standards extensions like Data Package Views or CSV Dialect.
+
+<div class="main-section black-text">
+    <div class="features flex flex-row flex-wrap py-4">
       <div class="w-full md:w-1/3 feature flex justify-center">
-        <div class="py-12 px-8 text-center">
-          <img src="/img/home/researchers-color.svg" height="223.375" />
-          <h3 class="font-normal">Researchers</h3>
-          <p>Easily create reproducible research</p>
+        <div class="px-8 text-center">
+          <a href="https://specs.frictionlessdata.io/fiscal-data-package/" target="blank">
+            <img style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" src="/img/standards/fiscal-data-package.png" />
+            <h3>Fiscal Data Package</h3>
+          </a>
+          <p>Fiscal Data Package is a lightweight and user-oriented format for publishing and consuming fiscal data.</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
-        <div class="py-12 px-8 text-center">
-          <img src="/img/home/dscientists-color.svg" height="223.375" />
-          <h3 class="font-normal">Data Scientists</h3>
-          <p>Create pipelines without effort</p>
+        <div class="px-8 text-center">
+          <a href="https://specs.frictionlessdata.io/views/" target="blank">
+            <img style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" src="/img/standards/data-package-views.png" />
+            <h3>Data Package Views</h3>
+          </a>
+          <p>A simple format for describing a views on data that leverages existing specifications like Vega.</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
-        <div class="py-12 px-8 text-center">
-          <img src="/img/home/dengineers-color.svg" height="223.375" />
-          <h3 class="font-normal">Data Engineers</h3>
-          <p>Standardize data platforms</p>
+        <div class="px-8 text-center">
+          <a href="https://specs.frictionlessdata.io/csv-dialect/" target="blank">
+            <img style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" src="/img/standards/csv-dialect.png" />
+            <h3>CSV Dialect</h3>
+          </a>
+          <p>It defines a simple format to describe the various dialects of CSV files in a language agnostic manner.</p>
         </div>
       </div>
     </div>
