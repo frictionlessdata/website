@@ -122,22 +122,7 @@ module.exports = {
         ],
       },
       { text: "Standards", link: "/standards/" },
-      {
-        text: "Tooling",
-        ariaLabel: "Tooling Menu",
-        items: [
-          { text: "Application", link: "/tooling/application/" },
-          { text: "Framework", link: "/tooling/framework/" },
-          { text: "Libraries", link: "/tooling/libraries/" },
-          {
-            items: [
-              { text: "GoodTables", link: "/tooling/goodtables/" },
-              { text: "DataHub", link: "/tooling/datahub/" },
-              { text: "Labs", link: "/tooling/labs/" },
-            ],
-          },
-        ],
-      },
+      { text: "Software", link: "/software/" },
       // {
       //   text: "Jobs to be done",
       //   items: [
