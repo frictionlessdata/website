@@ -121,7 +121,7 @@ module.exports = {
           { text: "Data Package", link: "/data-package/" },
         ],
       },
-      { text: "Specs", link: "/specs/" },
+      { text: "Standards", link: "/standards/" },
       {
         text: "Tooling",
         ariaLabel: "Tooling Menu",
