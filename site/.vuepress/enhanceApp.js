@@ -1,3 +1,12 @@
+const Vue = require("vue").default;
+const VueCarousel = require("vue-carousel").default;
+
+// Carousel
+
+Vue.use(VueCarousel);
+
+// Redirects
+
 const redirectList = [
   {
     path: "/software/",

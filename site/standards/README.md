@@ -48,7 +48,7 @@ At the core of Frictionless is a set of patterns for describing data including D
     </div>
 </div>
 
-## Additional Standards
+## Specific Standards
 
 For some specific use cases there are domain oriented specifications like Fiscal Data Package. Moreover, we provide some general standards extensions like Data Package Views or CSV Dialect.
 

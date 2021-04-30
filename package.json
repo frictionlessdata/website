@@ -6,6 +6,7 @@
     "dotenv": "^8.2.0",
     "markdown-it-footnote": "",
     "mermaid": "^8.0.0",
+    "vue-carousel": "^0.18.0",
     "vue-typed-js": "^0.1.2"
   },
   "devDependencies": {

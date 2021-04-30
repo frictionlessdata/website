@@ -1,10 +1,10 @@
 <template>
-  <div class="banner">
+  <div class="banner pt-8">
     <main class="main-section hero-home">
-      <div class="content flex flex-wrap items-center px-24">
-        <div class="tagline black-text flex-1">
+      <div class="content flex flex-wrap px-24">
+        <div class="black-text flex-1 pt-4">
           <h3 class="text-4xl font-thin">Data software and standards</h3>
-          <p class="text-xl md:w-4/5 font-thin w-auto">{{ data.tagline || $description || 'Welcome to your VuePress site' }}</p>
+          <p class="text-xl w-4/5 font-thin w-auto">{{ data.tagline || $description || 'Welcome to your VuePress site' }}</p>
           <div class="flex flex-row flex-wrap">
           <a
             class="bg-transparent hero-button text-black hover:border-black outline-none cursor-pointer border border-solid border-black font-medium text-sm py-4 px-6 hover:border-transparent rounded-full"
@@ -17,8 +17,24 @@
           </div>
         </div>
 
-        <div class="box flex-1 pl-10">
-          <img class="w-11/12 pt-10" v-if="data.heroImage" :src="$withBase(data.heroImage)" :alt="data.heroAlt || 'toolbox'" />
+        <div class="box flex-1 mt-8">
+         <carousel :perPage="1" :autoplayTimeout="5000" pagination-color="#ccc" autoplay loop>
+            <slide>
+              <img style="width: 100%" src="/img/home/slide-framework.png" />
+            </slide>
+            <slide>
+              <img style="width: 100%" src="/img/home/slide-goodtables.png" />
+            </slide>
+            <slide>
+              <img style="width: 100%" src="/img/home/slide-datahub.png" />
+            </slide>
+            <slide>
+              <img style="width: 100%" src="/img/home/slide-creator.png" />
+            </slide>
+            <slide>
+              <img style="width: 100%" src="/img/home/slide-package.png" />
+            </slide>
+          </carousel>
         </div>
       </div>
 
