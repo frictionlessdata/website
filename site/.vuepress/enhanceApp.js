@@ -1,12 +1,3 @@
-const Vue = require("vue").default;
-const VueCarousel = require("vue-carousel").default;
-
-// Carousel
-
-Vue.use(VueCarousel);
-
-// Redirects
-
 const redirectList = [
   {
     path: "/software/",
@@ -306,6 +297,10 @@ const redirectList = [
   },
 ];
 
-export default ({ router }) => {
+export default ({ Vue, router, isServer }) => {
+  if (!isServer) {
+    const VueCarousel = require("vue-carousel").default;
+    Vue.use(VueCarousel);
+  }
   router.addRoutes(redirectList);
 };
