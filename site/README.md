@@ -75,7 +75,7 @@ features:
         </div>
       </div>
     </div>
-    <div class="container lg:flex-1 md:pt-16 pt-8">
+    <div class="container lg:flex-1 md:pt-12 pt-8">
       <img src="/img/home/snippet.png" class="shadow-lg" />
     </div>
   </div>
