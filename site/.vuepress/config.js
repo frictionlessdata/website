@@ -3,7 +3,7 @@ const webpack = require("webpack");
 
 module.exports = {
   title: "Frictionless Data",
-  description: "Bringing simplicity and gracefulness to the data experience",
+  description: "Data software and standards",
   head: [
     ["link", { rel: "icon", href: "./public/img/favicon.ico" }],
     [
