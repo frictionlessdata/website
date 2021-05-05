@@ -4,7 +4,7 @@ date: 2021-03-05
 tags: ["tool-fund"]
 category: grantee-profiles
 image: /img/blog/wheat.png
-description: This blog is part of a series showcasing projects developed during the 2020-2021 Tool Fund.
+description: This blog is part of a series showcasing projects developed during the 2020-2021 Tool Fund. The Tool Fund provided five mini-grants of $5,000 to support individuals or organisations in developing an open tool for reproducible research.
 author: Simon Tyrrell and Xingdong Bian
 ---
 

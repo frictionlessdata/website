@@ -2,12 +2,12 @@
   <main class="blog-home" aria-labelledby="main-title">
     <div class="container">
       <h1 class="capitalize">Frictionless Blog</h1>
-      <h2 class="text-center pb-10 text-gray-600" style="border-bottom:none">
+      <h2 class="text-center pb-10 text-gray-600 mb-4" style="border-bottom:none">
          Page {{$pagination.paginationIndex + 1 }} of {{$pagination.length}}
       </h2>
-      <ul class="flex flex-col pl-0" style="border-top:dashed 1px #888">
-        <li class="" v-for="page in $pagination.pages">
-          <div class="container flex flex-row py-4 my-8" style="border-bottom:dashed 1px #888; margin-left: 0">
+      <ul class="flex flex-col pl-0 pt-4" style="border-top:dashed 1px #888">
+        <li v-for="page in $pagination.pages">
+          <div class="container flex flex-row py-4 my-4" style="border-bottom:dashed 1px #888; margin-left: 0">
           <div class="container flex flex-col md:w-2/3">
             <router-link class="text-3xl page-link pr-12" :to="page.path">{{ page.title }}
             </router-link>
