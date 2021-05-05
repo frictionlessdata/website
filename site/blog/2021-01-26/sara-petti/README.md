@@ -3,8 +3,8 @@ title: Meet the new Frictionless Data Community Manager
 date: 2021-01-26
 tags: ["team"]
 category:
-image: /img/blog/Sara-Petti-photo.png
-description: Introducing a new team member - Sara Petti. Sara will be working as Community Manager of the Frictionless Data Project.
+image: /img/blog/sara.png
+description: Introducing a new team member - Sara Petti. Sara will be working as Community Manager of the Frictionless Data Project. If you are interested in knowing more about Frictionless Data, or you are already using our tools feel free to contact Sara!
 author: Sara Petti
 ---
 Hi everyone,

@@ -1,11 +1,11 @@
 ---
-title: HuBMAP - Table Schema generating an Excel template (tableschema-to-template)
+title: HuBMAP - Table Schema generating an Excel template
 date: 2021-02-04
 tags: ["case-studies"]
 category: case-studies
 image: /img/blog/HuBMAP-Retina-Logo-Color.png
 description: The Human BioMolecular Atlas Program Given has developed tableschema-to-template which takes a Frictionless Table Schema as input, and returns an Excel template with embedded documentation and basic validations.
-author: Chuck McCallum 
+author: Chuck McCallum
 ---
 HuBMAP ([Human BioMolecular Atlas Program](https://portal.hubmapconsortium.org/)) is creating an open, global atlas of the human body at the cellular level. To do this, we’re incorporating data from dozens of different assay types, and as many institutions. Each assay type has its own metadata requirements, and Frictionless Table Schemas are an important part of our validation framework, to ensure that the metadata supplied by the labs is good.
 
