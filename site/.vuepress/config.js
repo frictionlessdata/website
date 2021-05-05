@@ -185,6 +185,9 @@ module.exports = {
             frontmatter: { title: "Tag" },
           },
         ],
+        feed: {
+          canonical_base: "https://frictionlessdata.io",
+        },
       },
     ],
     [
