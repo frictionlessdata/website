@@ -1,12 +1,16 @@
 ---
-title: Frictionless Data Events
+title: Events Calendar
 ---
 
-# Frictionless Data Events
+# Events Calendar
+
+## Introduction
 
 Frictionless Data calendar with a listing of our upcoming [events](/tag/events/) including webinars, virtual hangouts, etc.
 
-:::tip 
+## Calendar
+
+:::tip
   You can add any upcoming event to your calendar by clicking on a specific event and **selecting copy to my calendar.**
 :::
 
