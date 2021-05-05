@@ -1,4 +1,4 @@
-# About
+# Mission
 
 ## Why we're here
 

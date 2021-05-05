@@ -1,7 +1,9 @@
 ---
-title: Frictionless Data for Reproducible Research
+title: Reproducible Research
 description: Frictionless Data for Reproducible Research is a second phase project [with funding from the Sloan Foundation](https://blog.okfn.org/2018/07/12/sloan-foundation-funds-frictionless-data-for-reproducible-research/) to support [Open Knowledge Foundation](https://okfn.org) in applying Frictionless Data specifications and software to reproducible research across a range of scientific disciplines.
 ---
+
+# Reproducible Research
 
 ## The Plan
 

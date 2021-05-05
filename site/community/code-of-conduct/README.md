@@ -1,4 +1,7 @@
 # Code of Conduct
+
+## Introduction
+
 The goal of this Code of Conduct is to make explicit the type of participation that is expected, and the behaviour that is unacceptable. These guidelines are to be adhered to by all Frictionless Data team members, all partners on a given project, and all other participants.
 
 This Code of Conduct applies to all the projects that Frictionless Data hosts/organises and describes the standards of behaviour that we expect all our partners to observe when taking part in our projects. We expect all voices to be welcomed at our events and strive to empower everyone to feel able to participate fully.
@@ -26,7 +29,7 @@ This non-exhaustive list shows examples of behaviours that are unacceptable from
 * Derogatory comments of any form, including related to gender and expression, sexual orientation, disability, mental illness, neuro(a)typicality, physical appearance, body size, race, religion, age, or socio-economic status.
 * Sexual images or behaviour.
 * Posting or threatening to post other people’s personally identifying information (“doxing”).
-* Deliberate misgendering or use of former names, or improper titles. 
+* Deliberate misgendering or use of former names, or improper titles.
 * Inappropriate photography or recording.
 * Physical contact without affirmative consent.
 * Unwelcome sexual attention. This includes, sexualised comments or jokes; inappropriate touching, groping, and unwelcome sexual advances.

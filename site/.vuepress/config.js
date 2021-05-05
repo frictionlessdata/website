@@ -115,6 +115,7 @@ module.exports = {
       { text: "Introduction", link: "/introduction/" },
       { text: "Software", link: "/software/" },
       { text: "Standards", link: "/standards/" },
+      { text: "Adoption", link: "/adoption/" },
       // {
       //   text: "Jobs to be done",
       //   items: [
@@ -137,31 +138,37 @@ module.exports = {
       //   ]
       // },
       {
-        text: "Use Cases",
-        ariaLabel: "Use Cases Menu",
+        text: "Initiatives",
+        ariaLabel: "Initiatives Menu",
         items: [
-          { text: "Reproducible Research", link: "/reproducible-research/" },
-          { text: "Case Studies", link: "/tag/case-studies/" },
-          { text: "Pilots", link: "/tag/pilot/" },
+          {
+            text: "Reproducible Research",
+            link: "/initiatives/reproducible-research/",
+          },
+          {
+            text: "Fellows Programme",
+            link: "/initiatives/fellows-programme/",
+          },
+          { text: "Tool Fund", link: "/initiatives/tool-fund/" },
         ],
       },
       {
         text: "Community",
         ariaLabel: "Community Menu",
         items: [
-          { text: "Chat", link: "https://discordapp.com/invite/Sewv6av" },
+          { text: "People", link: "/community/people/" },
+          { text: "Mission", link: "/community/mission/" },
+          { text: "Support", link: "/community/support/" },
+          { text: "Contribute", link: "/community/contribute/" },
+          { text: "Code of Conduct", link: "/community/code-of-conduct/" },
+          { text: "Events Calendar", link: "/community/events/" },
           {
             text: "Forum",
-            link: "https://github.com/frictionlessdata/forum/issues",
+            link: "https://github.com/frictionlessdata/project/discussions",
           },
-          { text: "Support", link: "/support/" },
-          { text: "Events Calendar", link: "/events/" },
-          { text: "Contribute", link: "/contribute/" },
-          { text: "Code of Conduct", link: "/code-of-conduct/" },
+          { text: "Chat", link: "https://discordapp.com/invite/Sewv6av" },
         ],
       },
-      { text: "Team", link: "/team/" },
-      { text: "About", link: "/about/" },
       { text: "Blog", link: "/blog/" },
     ],
   },

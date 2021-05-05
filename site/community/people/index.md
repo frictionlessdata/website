@@ -1,8 +1,8 @@
 ---
-title: "Team"
+title: "People"
 ---
 
-# Team
+# People
 
 ## Core Team Members
 
@@ -15,7 +15,7 @@ The development of Frictionless and its ecosystem is guided by an international 
 
 ## Tool Fund Partners
 
-Frictionless data has funded international partners who have worked in developing various tools and libraries for the project and they are featured below.  
+Frictionless data has funded international partners who have worked in developing various tools and libraries for the project and they are featured below.
 
 <TeamProfile
   v-for="profile in toolFundPartners"
@@ -66,7 +66,7 @@ team = team.concat([
 		reposOfficial: [
 			'frictionlessdata/*', 'datopian/*'
 		]
-	}	
+	}
 ])
 
 team = team.concat([
@@ -83,7 +83,7 @@ team = team.concat([
 		reposOfficial: [
 			'frictionlessdata/*', 'datopian/*'
 		]
-	}	
+	}
 ])
 
 team = team.concat([
@@ -100,7 +100,7 @@ team = team.concat([
 		reposOfficial: [
 			'frictionlessdata/*', 'datopian/*'
 		]
-	}	
+	}
 ])
 
 team = team.concat([
@@ -117,7 +117,7 @@ team = team.concat([
 		reposOfficial: [
 			'frictionlessdata/*', 'okfn/*'
 		]
-	}	
+	}
 ])
 
 team = team.concat([
@@ -134,7 +134,7 @@ team = team.concat([
 		reposOfficial: [
 			'frictionlessdata/*', 'okfn/*'
 		]
-	}	
+	}
 ])
 
 team = team.concat([
@@ -151,7 +151,7 @@ team = team.concat([
 		reposOfficial: [
 			'frictionlessdata/*', 'okfn/*'
 		]
-	}	
+	}
 ])
 
 team = team.concat([
@@ -169,7 +169,7 @@ team = team.concat([
 		reposOfficial: [
 			'frictionlessdata/*', 'okfn/*'
 		]
-	}	
+	}
 ])
 
 var toolFundPartners = [
