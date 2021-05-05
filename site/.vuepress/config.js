@@ -116,27 +116,6 @@ module.exports = {
       { text: "Software", link: "/software/" },
       { text: "Standards", link: "/standards/" },
       { text: "Adoption", link: "/adoption/" },
-      // {
-      //   text: "Jobs to be done",
-      //   items: [
-      //     { text: "Create Visualizations", link: "/jobs/create-visualizations/" },
-      //     { text: "Do Analysis and Machine Learning", link: "/jobs/do-analysis-and-machine-learning/" },
-      //     { text: "Do Initial Data Exploration", link: "/jobs/do-initial-data-exploration/" },
-      //     { text: "Document Dataset", link: "/jobs/document-dataset/" },
-      //     { text: "Find Datasets", link: "/jobs/find-datasets/" },
-      //     { text: "Gracefully Scale Scope", link: "/jobs/gracefully-scale-scope/" },
-      //     { text: "Gracefully Scale Size", link: "/jobs/gracefully-scale-size/" },
-      //     { text: "Have a Data Hub", link: "/jobs/have-a-data-hub/" },
-      //     { text: "Orchestrate Data Platform", link: "/jobs/orchestrate-data-platform/" },
-      //     { text: "Pipeline transformations", link: "/jobs/pipeline-transformations/" },
-      //     { text: "Pull Dataset", link: "/jobs/pull-dataset/" },
-      //     { text: "Push Dataset", link: "/jobs/push-dataset/" },
-      //     { text: "Quickly edit dataset", link: "/jobs/quickly-edit-dataset/" },
-      //     { text: "Store Dataset", link: "/jobs/store-dataset/" },
-      //     { text: "Validate Dataset", link: "/jobs/validate-dataset/" },
-      //     { text: "Version dataset", link: "/jobs/version-dataset/" }
-      //   ]
-      // },
       {
         text: "Initiatives",
         ariaLabel: "Initiatives Menu",
@@ -235,3 +214,26 @@ module.exports = {
     ["script", { src: "https://unpkg.com/svg.js@2.7.1" }],
   ],
 };
+
+// TODO: add to the navbar if needed
+// {
+//   text: "Jobs to be done",
+//   items: [
+//     { text: "Create Visualizations", link: "/jobs/create-visualizations/" },
+//     { text: "Do Analysis and Machine Learning", link: "/jobs/do-analysis-and-machine-learning/" },
+//     { text: "Do Initial Data Exploration", link: "/jobs/do-initial-data-exploration/" },
+//     { text: "Document Dataset", link: "/jobs/document-dataset/" },
+//     { text: "Find Datasets", link: "/jobs/find-datasets/" },
+//     { text: "Gracefully Scale Scope", link: "/jobs/gracefully-scale-scope/" },
+//     { text: "Gracefully Scale Size", link: "/jobs/gracefully-scale-size/" },
+//     { text: "Have a Data Hub", link: "/jobs/have-a-data-hub/" },
+//     { text: "Orchestrate Data Platform", link: "/jobs/orchestrate-data-platform/" },
+//     { text: "Pipeline transformations", link: "/jobs/pipeline-transformations/" },
+//     { text: "Pull Dataset", link: "/jobs/pull-dataset/" },
+//     { text: "Push Dataset", link: "/jobs/push-dataset/" },
+//     { text: "Quickly edit dataset", link: "/jobs/quickly-edit-dataset/" },
+//     { text: "Store Dataset", link: "/jobs/store-dataset/" },
+//     { text: "Validate Dataset", link: "/jobs/validate-dataset/" },
+//     { text: "Version dataset", link: "/jobs/version-dataset/" }
+//   ]
+// },
