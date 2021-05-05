@@ -6,7 +6,7 @@
         {{$page.frontmatter.title}}
         <a href="/blog/" title="Remove the filter"><small>[X]</small></a>
       </h2>
-      <ul class="flex flex-col pl-0" style="border-top:dashed 1px #888">
+      <ul class="flex flex-col pl-0 pt-4" style="border-top:dashed 1px #888">
         <li v-for="page in $pagination.pages">
           <div class="container flex flex-row py-4 my-4" style="border-bottom:dashed 1px #888; margin-left: 0">
           <div class="container flex flex-col md:w-2/3">
