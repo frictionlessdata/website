@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Frictionless Data
-description: Bringing simplicity and gracefulness to the data experience
+description: Data software and standards
 heroImage: /img/home/toolbox.png
 heroText: The zen toolkit for data integration
 tagline: Frictionless is a progressive, incrementally adoptable open-source toolkit that brings simplicity and gracefulness to the data experience - whether you're wrangling a CSV or engineering complex pipelines with gigabytes.
