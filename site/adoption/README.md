@@ -22,7 +22,7 @@ At Frictionless Data we work closely with data reaserachers and institutions hel
 <!-- BCO-DMO -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="/blog/2020/02/10/frictionless-data-pipelines-for-open-ocean/" target="blank">
+   <a href="/blog/2020/02/10/frictionless-data-pipelines-for-open-ocean/" target="_blank">
      <img src="/img/adoption/bcodmo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>BCO-DMO</h3>
    </a>
@@ -33,7 +33,7 @@ At Frictionless Data we work closely with data reaserachers and institutions hel
 <!-- PUDL -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="/blog/2020/03/18/frictionless-data-pilot-study/" target="blank">
+   <a href="/blog/2020/03/18/frictionless-data-pilot-study/" target="_blank">
      <img src="/img/adoption/pudl.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>PUDL</h3>
    </a>
@@ -44,7 +44,7 @@ At Frictionless Data we work closely with data reaserachers and institutions hel
 <!-- Dryad -->
 <div class="w-full md:w-1/3 feature flex justify-center" style="opacity:0.33">
  <div class="px-8 text-center">
-   <a href="/blog/" target="blank">
+   <a href="/blog/" target="_blank">
      <img src="/img/software/coming-soon.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Dryad</h3>
    </a>
@@ -65,7 +65,7 @@ The Frictionless Data project develops open source standards and software that c
 <!-- Data Curator -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="/blog/2019/03/01/datacurator/" target="blank">
+   <a href="/blog/2019/03/01/datacurator/" target="_blank">
      <img src="/img/adoption/data-curator.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Data Curator</h3>
    </a>
@@ -76,7 +76,7 @@ The Frictionless Data project develops open source standards and software that c
 <!-- Schema Collaboration -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="/blog/2021/01/18/schema-collaboration/" target="blank">
+   <a href="/blog/2021/01/18/schema-collaboration/" target="_blank">
      <img src="/img/adoption/schema-collaboration.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;"" />
      <h3>Schema Collaboration</h3>
    </a>
@@ -87,7 +87,7 @@ The Frictionless Data project develops open source standards and software that c
 <!-- HubMAP -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="/blog/2021/02/04/tableschema-to-template/" target="blank">
+   <a href="/blog/2021/02/04/tableschema-to-template/" target="_blank">
      <img src="/img/adoption/hubmap.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>HubMAP</h3>
    </a>
@@ -98,7 +98,7 @@ The Frictionless Data project develops open source standards and software that c
 <!-- Etalab -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="/blog/2020/05/22/etalab-case-study-schemas-data-gouv-fr/" target="blank">
+   <a href="/blog/2020/05/22/etalab-case-study-schemas-data-gouv-fr/" target="_blank">
      <img src="/img/adoption/etalab.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Etalab</h3>
    </a>
@@ -109,7 +109,7 @@ The Frictionless Data project develops open source standards and software that c
 <!-- Nimble Learn -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="/blog/2019/07/22/nimblelearn-dpc/" target="blank">
+   <a href="/blog/2019/07/22/nimblelearn-dpc/" target="_blank">
      <img src="/img/adoption/nimblelearn.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Nimble Learn</h3>
    </a>
@@ -120,7 +120,7 @@ The Frictionless Data project develops open source standards and software that c
 <!-- OpenML -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="/blog/2017/12/04/openml/" target="blank">
+   <a href="/blog/2017/12/04/openml/" target="_blank">
      <img src="/img/adoption/openml.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>OpenML</h3>
    </a>

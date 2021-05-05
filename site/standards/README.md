@@ -22,7 +22,7 @@ At the core of Frictionless is a set of patterns for describing data including D
 <!-- Data Package -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://specs.frictionlessdata.io/data-package/" target="blank">
+   <a href="https://specs.frictionlessdata.io/data-package/" target="_blank">
      <img src="/img/standards/data-package.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Data Package</h3>
    </a>
@@ -33,7 +33,7 @@ At the core of Frictionless is a set of patterns for describing data including D
 <!-- Data Resource -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://specs.frictionlessdata.io/data-resource/" target="blank">
+   <a href="https://specs.frictionlessdata.io/data-resource/" target="_blank">
      <img src="/img/standards/data-resource.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Data Resource</h3>
    </a>
@@ -44,7 +44,7 @@ At the core of Frictionless is a set of patterns for describing data including D
 <!-- Table Schema -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://specs.frictionlessdata.io/table-schema/" target="blank">
+   <a href="https://specs.frictionlessdata.io/table-schema/" target="_blank">
      <img src="/img/standards/table-schema.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Table Schema</h3>
    </a>
@@ -65,7 +65,7 @@ For some specific use cases there are domain oriented specifications like Fiscal
 <!-- Fiscal Data Package -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://specs.frictionlessdata.io/fiscal-data-package/" target="blank">
+   <a href="https://specs.frictionlessdata.io/fiscal-data-package/" target="_blank">
      <img src="/img/standards/fiscal-data-package.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Fiscal Data Package</h3>
    </a>
@@ -76,7 +76,7 @@ For some specific use cases there are domain oriented specifications like Fiscal
 <!-- Data Package Views -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://specs.frictionlessdata.io/views/" target="blank">
+   <a href="https://specs.frictionlessdata.io/views/" target="_blank">
      <img src="/img/standards/data-package-views.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Data Package Views</h3>
    </a>
@@ -87,7 +87,7 @@ For some specific use cases there are domain oriented specifications like Fiscal
 <!-- CSV Dialect -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://specs.frictionlessdata.io/csv-dialect/" target="blank">
+   <a href="https://specs.frictionlessdata.io/csv-dialect/" target="_blank">
      <img src="/img/standards/csv-dialect.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>CSV Dialect</h3>
    </a>

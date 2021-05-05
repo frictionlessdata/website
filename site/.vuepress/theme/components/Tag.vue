@@ -1,7 +1,11 @@
 <template>
   <main class="blog-home" aria-labelledby="main-title">
-    <div class="container">  
-      <h1 class="pb-20 capitalize">{{$page.frontmatter.title}}</h1>
+    <div class="container">
+      <h1 class="capitalize">Frictionless Blog</h1>
+      <h2 class="text-center pb-10 capitalize text-gray-600">
+        {{$page.frontmatter.title}}
+        <a href="/blog/" title="Remove the filter"><small>[X]</small></a>
+      </h2>
       <ul class="flex flex-col">
         <li class="" v-for="page in $pagination.pages">
           <div class="container shadow-md pl-6 flex flex-row py-4">
@@ -31,7 +35,7 @@ import { formatDate } from '../util'
 import BlogTag from './BlogTag'
 
 export default {
-  components: { 
+  components: {
     BlogTag
   },
   methods: {

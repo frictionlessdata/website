@@ -22,7 +22,7 @@ The Frictionless Data project provides data services and visual applications to 
 <!-- DataHub.io -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://datahub.io/" target="blank">
+   <a href="https://datahub.io/" target="_blank">
      <img src="/img/software/datahub.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>DataHub.io</h3>
    </a>
@@ -33,7 +33,7 @@ The Frictionless Data project provides data services and visual applications to 
 <!-- Fricionless Application -->
 <div class="w-full md:w-1/3 feature flex justify-center" style="opacity:0.33">
  <div class="px-8 text-center">
-   <a href="https://application.frictionlessdata.io" target="blank">
+   <a href="https://application.frictionlessdata.io" target="_blank">
      <img src="/img/software/coming-soon.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Application</h3>
    </a>
@@ -44,7 +44,7 @@ The Frictionless Data project provides data services and visual applications to 
 <!-- Frictionless Repository -->
 <div class="w-full md:w-1/3 feature flex justify-center" style="opacity:0.33">
  <div class="px-8 text-center">
-   <a href="https://repository.frictionlessdata.io" target="blank">
+   <a href="https://repository.frictionlessdata.io" target="_blank">
      <img src="/img/software/coming-soon.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Repository</h3>
    </a>
@@ -65,7 +65,7 @@ The Frictionless Data project provides various frameworks and libraries for low-
 <!-- Frictionless Components -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://components.frictionlessdata.io/" target="blank">
+   <a href="https://components.frictionlessdata.io/" target="_blank">
      <img src="/img/software/components.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Components</h3>
    </a>
@@ -76,18 +76,18 @@ The Frictionless Data project provides various frameworks and libraries for low-
 <!-- Frictionless Framework -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://framework.frictionlessdata.io" target="blank">
+   <a href="https://framework.frictionlessdata.io" target="_blank">
      <img src="/img/software/framework.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Framework</h3>
    </a>
-   <p>A framework to describe, extract, validate, and transform tabular data in <a href="https://framework.frictionlessdata.io/" target="blank">Python</a> or <a href="https://github.com/frictionlessdata/frictionless-js" target="blank">JavaScript</a>.</p>
+   <p>A framework to describe, extract, validate, and transform tabular data in <a href="https://framework.frictionlessdata.io/" target="_blank">Python</a> or <a href="https://github.com/frictionlessdata/frictionless-js" target="_blank">JavaScript</a>.</p>
  </div>
 </div>
 
 <!-- Frictionless Libraries -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://libraries.frictionlessdata.io" target="blank">
+   <a href="https://libraries.frictionlessdata.io" target="_blank">
      <img src="/img/software/libraries.jpg" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Libraries</h3>
    </a>

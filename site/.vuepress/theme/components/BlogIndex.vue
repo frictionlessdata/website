@@ -1,7 +1,10 @@
 <template>
   <main class="blog-home" aria-labelledby="main-title">
-    <div class="container">  
-      <h1 class="pb-20">Frictionless Blog</h1>
+    <div class="container">
+      <h1 class="capitalize">Frictionless Blog</h1>
+      <h2 class="text-center pb-10 text-gray-600">
+         Page {{$pagination.paginationIndex + 1 }} of {{$pagination.length}}
+      </h2>
       <ul class="flex flex-col">
         <li class="" v-for="page in $pagination.pages">
           <div class="container shadow-md pl-6 flex flex-row py-4">
@@ -21,7 +24,7 @@
           </div>
         </li>
         </ul>
-      <div class="flex justify-between" id="pagination">
+      <div class="flex justify-between mt-10 text-xl" id="pagination">
         <div>
           <router-link class="pl-6" v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
           <router-link class="pl-6" v-if="$pagination.hasNext" :to="$pagination.nextLink">Next</router-link>
@@ -38,7 +41,7 @@ import { formatDate } from '../util'
 import BlogTag from './BlogTag'
 
 export default {
-  components: { 
+  components: {
     BlogTag
   },
   methods: {
