@@ -264,10 +264,6 @@ const redirectList = [
     redirect: "/blog/2018/03/12/data-publication-workflow-example/",
   },
   {
-    path: "/reproducible-research/",
-    redirect: "/reproducible-research/",
-  },
-  {
     path: "/docs/tutorial-template/",
     redirect: "/contribute/",
   },
@@ -294,6 +290,74 @@ const redirectList = [
   {
     path: "/tooling/table-schema-tools/",
     redirect: "/tooling/python/",
+  },
+  {
+    path: "/guide/",
+    redirect: "/introduction/",
+  },
+  {
+    path: "/table-schema/",
+    redirect: "/introduction/",
+  },
+  {
+    path: "/data-package/",
+    redirect: "/introduction/",
+  },
+  {
+    path: "/tooling/application/",
+    redirect: "/software/",
+  },
+  {
+    path: "/tooling/framework/",
+    redirect: "/software/",
+  },
+  {
+    path: "/tooling/libraries/",
+    redirect: "/software/",
+  },
+  {
+    path: "/tooling/goodtables/",
+    redirect: "/software/",
+  },
+  {
+    path: "/tooling/datahub/",
+    redirect: "/software/",
+  },
+  {
+    path: "/tooling/labs/",
+    redirect: "/software/",
+  },
+  {
+    path: "/specs/",
+    redirect: "/standards/",
+  },
+  {
+    path: "/reproducible-research/",
+    redirect: "/initiatives/reproducible-research/",
+  },
+  {
+    path: "/team/",
+    redirect: "/community/people/",
+  },
+  {
+    path: "/about/",
+    redirect: "/community/mission/",
+  },
+  {
+    path: "/support/",
+    redirect: "/community/support/",
+  },
+  {
+    path: "/contribute/",
+    redirect: "/community/contribute/",
+  },
+  {
+    path: "/code-of-conduct/",
+    redirect: "/community/code-of-conduct/",
+  },
+  {
+    path: "/events/",
+    redirect: "/community/events/",
   },
 ];
 
