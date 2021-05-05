@@ -3,8 +3,8 @@ title: Frictionless Data March 2021 Virtual Hangout
 date: 2021-03-29
 tags: ['events', 'community-hangout']
 category: events
-image: /img/blog/community.jpg
-description:
+image: /img/blog/march.png
+description: On our last Frictionless Data community call on March 25th, we dealt with a very current topic thanks to Thorben Westerhuys, who presented his project on Frictionless Vaccination data.
 author: Sara Petti
 ---
 
@@ -31,7 +31,7 @@ Do you want to share something with the community? Let us know when you sign up!
 
 On a final note, here is the recording of the full call:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5cghp8KieLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5cghp8KieLE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p>&nbsp;</p>
 
 As usual, you can join us on [Discord](https://discord.com/invite/j9DNFNw) or [Twitter](https://twitter.com/frictionlessd8a) to say hi or ask any questions. See you there!

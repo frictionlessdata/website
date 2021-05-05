@@ -1,10 +1,10 @@
 ---
-title: Schema-collaboration
+title: Schema Collaboration
 date: 2021-01-18
 tags: ["tool-fund"]
 category: grantee-profiles
-image: /img/blog/fd_reproducible.png
-description: This blog is part of a series showcasing projects developed during the 2020 Tool Fund.
+image: /img/blog/schema-collaboration.png
+description: The tool is designed to help data managers and researchers document data packages. The documentation needs to be started by the data manager who then sends the URL to the researchers allowing them to edit the schema.
 author: Carles Pina Estany
 ---
 
@@ -27,7 +27,7 @@ The tool is designed to help data managers(*) and researchers document data pack
 
 *: or anybody who wants to collaborate on creating a data package.
 
-![Data-packages](https://user-images.githubusercontent.com/74717970/104922881-8e788c80-599b-11eb-9260-21b9a5747a8f.png) 
+![Data-packages](https://user-images.githubusercontent.com/74717970/104922881-8e788c80-599b-11eb-9260-21b9a5747a8f.png)
 *Data managers can view a list of datapackages within the Schema-Collaboration tool.*
 
 ## How can I use this tool?

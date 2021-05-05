@@ -2,15 +2,15 @@
   <main class="blog-home" aria-labelledby="main-title">
     <div class="container">
       <h1 class="capitalize">Frictionless Blog</h1>
-      <h2 class="text-center pb-10 capitalize text-gray-600">
+      <h2 class="text-center pb-10 capitalize text-gray-600" style="border-bottom:none">
         {{$page.frontmatter.title}}
         <a href="/blog/" title="Remove the filter"><small>[X]</small></a>
       </h2>
-      <ul class="flex flex-col">
+      <ul class="flex flex-col pl-0" style="border-top:dashed 1px #888">
         <li class="" v-for="page in $pagination.pages">
-          <div class="container shadow-md pl-6 flex flex-row py-4">
+          <div class="container flex flex-row py-4 my-8" style="border-bottom:dashed 1px #888">
           <div class="container flex flex-col md:w-2/3">
-            <router-link class="text-xl page-link pr-12" :to="page.path">{{ page.title }}
+            <router-link class="text-3xl page-link pr-12" :to="page.path">{{ page.title }}
             </router-link>
             <div class="text-sm py-2"> {{ formatDate(page.frontmatter.date) }} by {{ page.frontmatter.author || page.frontmatter.authors || "Frictionless Data" }} </div>
               <div v-if="page.frontmatter.tags" class="container flex flex-row">
@@ -23,7 +23,6 @@
             <img class="w-48 self-center md:block hidden" :src=" page.frontmatter.image || page.frontmatter.heroImage || 'https://i.ytimg.com/vi/lWHKVXxuci0/maxresdefault.jpg'" />
           </div>
           </div>
-          <hr>
         </li>
         </ul>
     </div>
