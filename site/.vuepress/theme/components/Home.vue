@@ -5,7 +5,11 @@
         <div class="black-text flex-1 pt-4">
           <h3 class="text-4xl font-thin">Data software and standards</h3>
           <p class="text-xl w-4/5 font-thin w-auto">{{ data.tagline || $description || 'Welcome to your VuePress site' }}</p>
-          <div class="flex flex-row flex-wrap">
+        </div>
+        <div class="box flex-1 mt-8">
+        <img src="/img/frictionless-color-full-logo.svg" height="175"/>
+          <!--note: fix styling in next div-->
+          <div class="flex flex-row flex-wrap" style="padding-top: 2rem;">
           <a
             class="bg-transparent hero-button text-black hover:border-black outline-none cursor-pointer border border-solid border-black font-medium text-sm py-4 px-6 hover:border-transparent rounded-full"
             href="#video-section"
@@ -16,48 +20,15 @@
           >Get Started</a>
           </div>
         </div>
-
-        <div class="box flex-1 mt-8">
-         <carousel :perPage="1" :autoplayTimeout="5000" pagination-color="#ccc" autoplay loop>
-            <slide>
-              <img style="width: 100%" src="/img/home/slide-framework.png" />
-            </slide>
-            <slide>
-              <img style="width: 100%" src="/img/home/slide-goodtables.png" />
-            </slide>
-            <slide>
-              <img style="width: 100%" src="/img/home/slide-datahub.png" />
-            </slide>
-            <slide>
-              <img style="width: 100%" src="/img/home/slide-creator.png" />
-            </slide>
-            <slide>
-              <img style="width: 100%" src="/img/home/slide-package.png" />
-            </slide>
-          </carousel>
-        </div>
       </div>
-
-      <div class="mb-5 mx-auto flex flex-col">
-        <small class="text-center pt-8 smalltext uppercase">Widely Adopted and Used By</small>
-        <div class="flex flex-wrap items-center justify-center">
-          <img src="/img/home/pandas.png" alt="Pandas"/>
-          <img src="img/home/kaggle.png" alt="Kaggle" class="px-6"/>
-          <img src="/img/home/openrefine.png" alt="Open Refine" class="px-6" />
-          <img src="/img/home/data-gov-uk.png" alt="Data.uk" class="px-6" />
-          <img src="/img/home/18f.png" alt="18F" class="px-6" />
-          <img src="/img/home/data-gouv-fr.png" alt="Data.fr" class="px-6" />
-        </div>
-      </div>
-
       <section class="bg-secondary py-8" v-if="data.features && data.features.length">
-      <div class="inner-container features text-black flex flex-row flex-wrap items-center content-center">
-        <div class="feature md:flex-1 px-12" v-for="(feature, index) in data.features" :key="index">
-          <h3 class="text-lg font-normal">{{ feature.title }}</h3>
-          <p class="">{{ feature.details }}</p>
+        <div class="inner-container features text-black flex flex-row flex-wrap items-center content-center">
+          <div class="feature md:flex-1 px-12" v-for="(feature, index) in data.features" :key="index">
+            <h3 class="text-lg font-normal">{{ feature.title }}</h3>
+            <p class="">{{ feature.details }}</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </main>
     <Content class="theme-default-content custom" />
   </div>
@@ -82,6 +53,7 @@ export default {
 
 .content {
   padding-top: 5rem;
+  padding-bottom: 2rem;
   margin: 0 4rem;
 }
 

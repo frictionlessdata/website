@@ -3,8 +3,8 @@ layout: home
 title: Frictionless Data
 description: Data software and standards
 heroImage: /img/home/toolbox.png
-heroText: The zen toolkit for data integration
-tagline: Frictionless is a progressive, incrementally adoptable open-source toolkit that brings simplicity and gracefulness to the data experience - whether you're wrangling a CSV or engineering complex pipelines with gigabytes.
+heroText: The frictionless toolkit for data integration
+tagline: Frictionless is a progressive, incrementally adoptable open-source toolkit that brings simplicity to the data experience - whether you're wrangling a CSV or engineering complex pipelines.
 features:
 - title: Approachable
   details: Lean and minimal core. Quick to understand, quick to use.
@@ -14,36 +14,66 @@ features:
   details: We enhance rather than replace your existing tools and workflows.
 ---
 
-<div class="main-section black-text py-8">
-    <h1 class="text-center font-normal text-3xl px-12" id="more">For anyone who works with data<br/><small class="font-light text-xl">Especially diverse data and/or across tools or teams<hr></small></h1>
+
+<div class="banner p-8 text-black">
+  <div class="inner-container">
+    <h1 class="text-center text-3xl font-normal">Frictionless Toolkit<br/><small class="font-light text-xl">Frictionless Data consists of two main parts, software and standards.<hr></small>
+    </h1>
+    <div class="mx-auto flex flex-row flex-wrap lg:justify-between text-center justify-center">
+      <div class="sm:w-1/2 lg:w-1/2 flex flex-col">
+        <div class="text-center px-8">
+          <a href="/software/" class="text-xl text-black hover:underline">
+            <h3>Frictionless Software</h3>
+            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/software_crop.png" height="175"></img>
+        </a>
+          <p class="text-lg font-light pt-4">The Frictionless Data projects provides a rich set of open source software for working with data, including tooling and software in many programming languages.</p>
+          <a href="/software/" class="text-base hover:underline">Read more &raquo;</a>
+        </div>
+      </div>
+      <div class="sm:w-1/2 lg:w-1/2 flex flex-col">
+        <div class="text-center px-8">
+          <a href="/standards/" class="text-xl text-black hover:underline">
+            <h3>Frictionless Standards</h3>
+            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/standards_crop.png" height="175"></img>
+        </a>
+          <p class="text-lg font-light pt-4">The Frictionless Data project is built on top of the Frictionless Standards. These are a set of specifications that standardize working with various types of data.</p>
+          <a href="/standards/" class="text-base hover:underline">Read more &raquo;</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="main-section black-text py-8 bg-secondary">
+    <h1 class="text-center font-normal text-3xl px-12" id="more">For anyone who works with data<br/><small class="font-light text-xl">Especially complex data or across tools or teams.<hr></small></h1>
     <div class="features flex flex-row flex-wrap lg:px-40">
       <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="py-12 px-8 text-center">
           <img src="/img/home/researchers-color.svg" height="175" />
           <h3 class="font-normal">Researchers</h3>
-          <p>Easily create reproducible research</p>
+          <p>Make your research data more reproducible</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="py-12 px-8 text-center">
           <img src="/img/home/dscientists-color.svg" height="175" />
           <h3 class="font-normal">Data Scientists</h3>
-          <p>Create pipelines without effort</p>
+          <p>Easily create data processing pipelines</p>
         </div>
       </div>
       <div class="w-full md:w-1/3 feature flex justify-center">
         <div class="py-12 px-8 text-center">
           <img src="/img/home/dengineers-color.svg" height="175" />
           <h3 class="font-normal">Data Engineers</h3>
-          <p>Standardize data platforms</p>
+          <p>Standardize complex data platforms</p>
         </div>
       </div>
     </div>
-  </div>
+</div>
 
-<div class="main-section py-10 black-text bg-secondary">
+<div class="main-section py-10 black-text">
   <div class="mx-auto lg:w-3/5 text-center font-normal">
-    <h1 class="text-3xl lg:px-40" id="more">Data Integration and Management</h1><br/><small class="text-lg">Data integration is the job of bringing diverse data together, cleaning it up, knitting it together and pushing it into downstream applications, analytics or warehouses – and doing this reliably, repeatedly and automatedly.</small><hr class="mt-4"></h1>
+    <h1 class="text-3xl lg:px-40" id="more">Data Integration and Management</h1><br/><small class="font-light text-xl">Data integration is the job of bringing complex data together, cleaning it up, knitting it together and pushing it into downstream applications, analytics or warehouses – and doing this reliably, repeatedly and automatedly.</small><hr class="mt-4"></h1>
   </div>
   <div class="flex flex-row flex-wrap w-3/4 mx-auto">
     <div class="lg:flex-1 flex-col pt-10">
@@ -62,7 +92,7 @@ features:
         </div>
         <div class="">
           <h3 class="font-normal"> Transforming Data </h3>
-          <p class="xxl:w-2/3"> Data often requires some cleaning (integration) and conversions from one format to another. </p>
+          <p class="xxl:w-2/3"> Data often requires some cleaning (transformation) and conversions from one format to another. </p>
         </div>
       </div>
       <div class="flex flex-row flex-wrap sm:flex-no-wrap">
@@ -81,6 +111,7 @@ features:
   </div>
 </div>
 
+
 <div class="banner p-8 black-text gray-section" id="video-section">
   <div class="inner-container">
     <div class="sm:container mx-auto text-center">
@@ -93,35 +124,34 @@ features:
   </div>
 </div>
 
-<div class="banner p-8 text-black">
-  <div class="inner-container">
-    <h1 class="text-center text-3xl font-normal">Frictionless Toolkit<hr></h1>
-    <div class="text-center">
-      <p>Frictionless Data consists of two main parts, software and standards.</p>
-    </div>
-    <div class="mx-auto flex flex-row flex-wrap lg:justify-between text-center justify-center">
-      <div class="sm:w-1/2 lg:w-1/2 flex flex-col">
-        <div class="text-center px-8">
-          <a href="/software/" class="text-xl text-black hover:underline">
-            <h3>Frictionless Software</h3>
-            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/software.png"></img>
-        </a>
-          <p class="text-lg font-light pt-4">The Frictionless Data projects provides a rich set of open source software for working with data. There are services, a visual application, and software for many programming platforms.</p>
-          <a href="/software/" class="text-base hover:underline">Read more &raquo;</a>
-        </div>
+<div class="main-section py-10 black-text text-center font-normal">
+
+<div class="mb-5 mx-auto flex flex-col">
+  <h1 class="text-3xl lg:px-40" id="more">User Testimonials</h1>
+  <div class="features flex flex-row flex-wrap lg:px-40">
+    <div class="w-full md:w-1/3 feature flex justify-center">
+      <div class="py-12 px-8 text-center">
+        <img src="/img/adoption/bcodmo.png" height="100" />
+        <h3 class="font-normal">BCO-DMO or Amber</h3>
+        <p>"Fake quote about how great our pilot project was."</p>
       </div>
-      <div class="sm:w-1/2 lg:w-1/2 flex flex-col">
-        <div class="text-center px-8">
-          <a href="/standards/" class="text-xl text-black hover:underline">
-            <h3>Frictionless Standards</h3>
-            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/standards.png"></img>
-        </a>
-          <p class="text-lg font-light pt-4">The Frictionless Data project is built on top of the Frictionless Standards. It’s a set of specifications to standartize the work with data as though describing a collection of resources or sharing data types information.</p>
-          <a href="/standards/" class="text-base hover:underline">Read more &raquo;</a>
-        </div>
+    </div>
+    <div class="w-full md:w-1/3 feature flex justify-center">
+      <div class="py-12 px-8 text-center">
+        <img src="/img/home/dscientists-color.svg" height="100" />
+        <h3 class="font-normal">Andrea Borruso</h3>
+        <p>"Quote from Andrea about using FD & contributing"</p>
+      </div>
+    </div>
+    <div class="w-full md:w-1/3 feature flex justify-center">
+      <div class="py-12 px-8 text-center">
+        <img src="/img/blog/oleg-lavrovsky-image.jpg" height="100" />
+        <h3 class="font-normal">Oleg Lavrovsky</h3>
+        <p>"Quote from Oleg about using FD"</p>
       </div>
     </div>
   </div>
+</div>
 </div>
 
 <script>
