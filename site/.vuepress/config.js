@@ -127,25 +127,7 @@ module.exports = {
       },
       { text: "Software", link: "/software/" },
       { text: "Standards", link: "/standards/" },
-      {
-        text: "Adoption",
-        ariaLabel: "Adoption Menu",
-        items: [
-          {
-            text: "Adoption",
-            link: "/adoption/",
-          },
-          {
-            text: "Reproducible Research",
-            link: "/adoption/reproducible-research/",
-          },
-          {
-            text: "Fellows Programme",
-            link: "/adoption/fellows-programme/",
-          },
-          { text: "Tool Fund", link: "/adoption/tool-fund/" },
-        ],
-      },
+      { text: "Adoption", link: "/adoption/"},
       {
         text: "Work With Us",
         ariaLabel: "Work With Us Menu",

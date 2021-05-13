@@ -130,3 +130,30 @@ The Frictionless Data project develops open source standards and software that c
 
 </div>
 </div>
+
+
+## Reproducible Research
+
+### The Plan
+
+From September 2018 and over a period of three years, the Frictionless Data team will focus on enhanced dissemination and training activities, and further iterations on our [software](https://frictionlessdata.io/software/) and [specifications](https://frictionlessdata.io/specs/) via a range of deep [pilot projects](https://frictionlessdata.io/articles/) with research partners.
+
+### FAIR Data
+
+At the onset of this project, we spent time reflecting on [FAIR research principles in relation to Frictionless Data](https://blog.okfn.org/2018/08/14/frictionless-data-and-fair-research-principles/), and expounded on the concept of data packages as an example of FAIRness. [Serah Rono's talk from FORCE 2018](https://youtu.be/3Ranx9Jz0Ro) summarises our work and vision for this project.
+
+### Collaboration
+
+We welcome questions, suggestions and invitations to collaborate from research communities in various domains. All correspondence sent to our team via [frictionlessdata@okfn.org](mailto:frictionlessdata@okfn.org) will be carefully mulled over and responded to.
+
+### Pilots
+
+Pilots are intensive, hands-on collaborations with researcher teams to resolve their research data management workflow issues with Frictionless Data software and specs.
+
+### Tool Fund
+
+The Tool Fund is a $5000 grant to develope an open tool for reproducible science or research built using the Frictionless Data codebase. Learn more about the 2019 grantees and their projects <a href="https://blog.okfn.org/2019/07/04/meet-our-2019-frictionless-data-tool-fund-grantees/">here</a>.
+
+### Fellows Programme
+
+The <a href="https://fellows.frictionlessdata.io/">Fellows Programme</a> is training early career researchers to become champions of the Frictionless Data tools and approaches in their field. Read more about the 2019-2020 Fellows <a href="https://blog.okfn.org/2019/08/29/a-warm-welcome-to-our-frictionless-data-for-reproducible-research-fellows/">here</a>.
