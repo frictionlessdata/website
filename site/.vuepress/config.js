@@ -112,35 +112,48 @@ module.exports = {
     navbar_icon3_title: "GitHub",
     sidebar: "auto",
     nav: [
-      { text: "Introduction", link: "/introduction/" },
-      { text: "Software", link: "/software/" },
-      { text: "Standards", link: "/standards/" },
-      { text: "Adoption", link: "/adoption/" },
-      {
-        text: "Initiatives",
-        ariaLabel: "Initiatives Menu",
+      { 
+        text: "About",
+        ariaLabel: "About Menu",
         items: [
           {
+            text: "Introduction",
+            link: "/about/introduction/",
+          },
+          {
+            text: "People", link: "/about/people/",
+          },
+        ],
+      },
+      { text: "Software", link: "/software/" },
+      { text: "Standards", link: "/standards/" },
+      {
+        text: "Adoption",
+        ariaLabel: "Adoption Menu",
+        items: [
+          {
+            text: "Adoption",
+            link: "/adoption/",
+          },
+          {
             text: "Reproducible Research",
-            link: "/initiatives/reproducible-research/",
+            link: "/adoption/reproducible-research/",
           },
           {
             text: "Fellows Programme",
-            link: "/initiatives/fellows-programme/",
+            link: "/adoption/fellows-programme/",
           },
-          { text: "Tool Fund", link: "/initiatives/tool-fund/" },
+          { text: "Tool Fund", link: "/adoption/tool-fund/" },
         ],
       },
       {
-        text: "Community",
-        ariaLabel: "Community Menu",
+        text: "Work With Us",
+        ariaLabel: "Work With Us Menu",
         items: [
-          { text: "People", link: "/community/people/" },
-          { text: "Mission", link: "/community/mission/" },
-          { text: "Support", link: "/community/support/" },
-          { text: "Contribute", link: "/community/contribute/" },
-          { text: "Code of Conduct", link: "/community/code-of-conduct/" },
-          { text: "Events Calendar", link: "/community/events/" },
+          { text: "Support", link: "/work-with-us/support/" },
+          { text: "Contribute", link: "/work-with-us/contribute/" },
+          { text: "Code of Conduct", link: "/work-with-us/code-of-conduct/" },
+          { text: "Events Calendar", link: "/work-with-us/events/" },
           {
             text: "Forum",
             link: "https://github.com/frictionlessdata/project/discussions",
