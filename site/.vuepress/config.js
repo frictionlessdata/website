@@ -132,7 +132,7 @@ module.exports = {
         text: "Work With Us",
         ariaLabel: "Work With Us Menu",
         items: [
-          { text: "Support", link: "/work-with-us/support/" },
+          { text: "Get Help", link: "/work-with-us/get-help/" },
           { text: "Contribute", link: "/work-with-us/contribute/" },
           { text: "Code of Conduct", link: "/work-with-us/code-of-conduct/" },
           { text: "Events Calendar", link: "/work-with-us/events/" },
