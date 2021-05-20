@@ -4,7 +4,7 @@ title: Frictionless Data
 description: Data software and standards
 heroImage: /img/home/toolbox.png
 heroText: The frictionless toolkit for data integration
-tagline: Frictionless is a progressive, incrementally adoptable open-source toolkit that brings simplicity to the data experience - whether you're wrangling a CSV or engineering complex pipelines.
+tagline: Frictionless is an open-source toolkit that brings simplicity to the data experience - whether you're wrangling a CSV or engineering complex pipelines.
 features:
 - title: Approachable
   details: Lean and minimal core. Quick to understand, quick to use.
@@ -73,7 +73,7 @@ features:
 
 <div class="main-section py-10 black-text">
   <div class="mx-auto lg:w-3/5 text-center font-normal">
-    <h1 class="text-3xl lg:px-40" id="more">Data Integration and Management</h1><br/><small class="font-light text-xl">Data integration is the job of bringing complex data together, cleaning it up, knitting it together and pushing it into downstream applications, analytics or warehouses – and doing this reliably, repeatedly and automatedly.</small><hr class="mt-4"></h1>
+    <h1 class="text-3xl lg:px-40" id="more">Data Integration and Management</h1><br/><small class="font-light text-xl">Data integration is the job of bringing complex data together, cleaning it up, knitting it together and pushing it into downstream applications, analytics or warehouses – and doing this reliably, repeatedly and automatedly.</small><hr class="mt-4">
   </div>
   <div class="flex flex-row flex-wrap w-3/4 mx-auto">
     <div class="lg:flex-1 flex-col pt-10">
@@ -111,12 +111,12 @@ features:
   </div>
 </div>
 
-
 <div class="banner p-8 black-text gray-section" id="video-section">
   <div class="inner-container">
-    <div class="sm:container mx-auto text-center">
+    <div class="mx-auto lg:w-3/5 text-center">
       <h1 class="font-normal text-3xl">Why Frictionless?</h1>
-      <p class="text-lg"><a class="hover:underline" href="https://rufuspollock.com/" target="_blank">Rufus Pollock</a> explains the problem Frictionless addresses <br> through simple specifications and software.</p>
+      <small class="font-light text-xl">Rufus Pollock, Frictionless Data co-creator, explains the problem Frictionless addresses through simple specifications and software.</small>
+      <hr class="mt-4">
       <div class="video my-10">
         <iframe class="w-full h-full" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
