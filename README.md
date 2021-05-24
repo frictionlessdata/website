@@ -1,4 +1,6 @@
-![Continuous Deployment](https://github.com/frictionlessdata/website-v2/workflows/Continuous%20Deployment/badge.svg)
+# Frictionless Website
+
+[![Build](https://img.shields.io/github/workflow/status/frictionlessdata/website/general/main)](https://github.com/frictionlessdata/website/actions)
 
 This is the new FrictionlessData.io website to be released in 2020. It reflects the recent updates made to Frictionless Data project setup and brand.
 

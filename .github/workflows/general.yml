@@ -1,4 +1,4 @@
-name: Continuous Deployment
+name: General
 on: [push]
 jobs:
   integration-tests:
