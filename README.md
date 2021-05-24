@@ -1,6 +1,8 @@
 # Frictionless Website
 
 [![Build](https://img.shields.io/github/workflow/status/frictionlessdata/website/general/main)](https://github.com/frictionlessdata/website/actions)
+[![Codebase](https://img.shields.io/badge/github-main-brightgreen)](https://github.com/frictionlessdata/website)
+[![Support](https://img.shields.io/badge/chat-discord-brightgreen)](https://discord.com/channels/695635777199145130/695635777199145133)
 
 This is the new FrictionlessData.io website to be released in 2020. It reflects the recent updates made to Frictionless Data project setup and brand.
 
