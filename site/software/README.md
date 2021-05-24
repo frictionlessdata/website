@@ -42,10 +42,10 @@ The Frictionless Data project provides data services and visual applications to 
 </div>
 
 <!-- Frictionless Repository -->
-<div class="w-full md:w-1/3 feature flex justify-center" style="opacity:0.33">
+<div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
    <a href="https://repository.frictionlessdata.io" target="_blank">
-     <img src="/img/software/coming-soon.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <img src="/img/software/repository.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Repository</h3>
    </a>
    <p>A Github Action allowing to validate tabular data on every commit to the repository.</p>
