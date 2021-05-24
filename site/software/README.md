@@ -12,7 +12,7 @@ The Frictionless Data projects provides a rich set of open source software for w
 This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below.
 :::
 
-## Data Code Libraries
+## Data Code Software
 
 The Frictionless Data project provides various frameworks and libraries for low-level data interactions. If you want to use or write Frictionless code, this section is for you.
 
@@ -55,7 +55,7 @@ The Frictionless Data project provides various frameworks and libraries for low-
 </div>
 </div>
 
-## Data Tooling
+## Visual Software
 
 The Frictionless Data project provides data tools and visual applications to work with data. If you prefer working with data using a visual interface or service, this section is for you.
 
@@ -85,10 +85,10 @@ The Frictionless Data project provides data tools and visual applications to wor
 </div>
 
 <!-- Frictionless Repository -->
-<div class="w-full md:w-1/3 feature flex justify-center" style="opacity:0.33">
+<div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
    <a href="https://repository.frictionlessdata.io" target="_blank">
-     <img src="/img/software/coming-soon.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <img src="/img/software/repository.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Repository</h3>
    </a>
    <p>A Github Action allowing to validate tabular data on every commit to the repository.</p>
