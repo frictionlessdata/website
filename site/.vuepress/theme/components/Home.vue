@@ -16,7 +16,7 @@
           >Why Frictionless Data?</a>
           <a
             class="bg-secondary hover:bg-dark-blue text-black cursor-pointer outline-none border border-solid border-black text-sm font-medium sm:ml-4 mt-2 sm:mt-0 py-4 px-6 rounded-full"
-            href="/introduction/"
+            href="/about/introduction/"
           >Get Started</a>
           </div>
         </div>
@@ -24,7 +24,7 @@
       <section class="bg-secondary py-8" v-if="data.features && data.features.length">
         <div class="inner-container features text-black flex flex-row flex-wrap items-center content-center">
           <div class="feature md:flex-1 px-12" v-for="(feature, index) in data.features" :key="index">
-            <h3 class="text-lg font-normal">{{ feature.title }}</h3>
+            <h3>{{ feature.title }}</h3>
             <p class="">{{ feature.details }}</p>
           </div>
         </div>

@@ -293,15 +293,15 @@ const redirectList = [
   },
   {
     path: "/guide/",
-    redirect: "/introduction/",
+    redirect: "/about/introduction/",
   },
   {
     path: "/table-schema/",
-    redirect: "/introduction/",
+    redirect: "/about/introduction/",
   },
   {
     path: "/data-package/",
-    redirect: "/introduction/",
+    redirect: "/about/introduction/",
   },
   {
     path: "/tooling/application/",
@@ -333,31 +333,31 @@ const redirectList = [
   },
   {
     path: "/reproducible-research/",
-    redirect: "/initiatives/reproducible-research/",
+    redirect: "/adoption/",
   },
   {
     path: "/team/",
-    redirect: "/community/people/",
+    redirect: "/about/people/",
   },
   {
     path: "/about/",
-    redirect: "/community/mission/",
+    redirect: "/work-with-us/mission/",
   },
   {
     path: "/support/",
-    redirect: "/community/support/",
+    redirect: "/work-with-us/get-help/",
   },
   {
     path: "/contribute/",
-    redirect: "/community/contribute/",
+    redirect: "/work-with-us/contribute/",
   },
   {
     path: "/code-of-conduct/",
-    redirect: "/community/code-of-conduct/",
+    redirect: "/work-with-us/code-of-conduct/",
   },
   {
     path: "/events/",
-    redirect: "/community/events/",
+    redirect: "/work-with-us/events/",
   },
 ];
 
