@@ -12,7 +12,7 @@ The Frictionless Data projects provides a rich set of open source software for w
 This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below.
 :::
 
-## Data Code Software
+## Coding Software
 
 The Frictionless Data project provides various frameworks and libraries for low-level data interactions. If you want to use or write Frictionless code, this section is for you.
 
