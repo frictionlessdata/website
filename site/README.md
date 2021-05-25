@@ -128,26 +128,28 @@ features:
 
 <div class="mb-5 mx-auto flex flex-col">
   <h1 class="text-3xl lg:px-40" id="more">User Testimonials</h1>
+  <small class="font-light text-xl">Frictionless Data project has been adopted by many organizations and individuals.</small>
+  <hr class="mt-4">
   <div class="features flex flex-row flex-wrap lg:px-40">
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
-        <img src="/img/adoption/bcodmo.png" height="100" />
-        <h3 class="font-normal">BCO-DMO or Amber</h3>
-        <p>"Fake quote about how great our pilot project was."</p>
+        <img class="rounded-full" src="/img/blog/ori-hoch-image.png" height="100" />
+        <h3 class="font-normal">Ori Hoch</h3>
+        <p>I first heard about the Frictionless Data ecosystem from my activity in The Public Knowledge Workshop where I worked with Adam Kariv and Paul Walsh. Having the core Frictionless Data libraries available in different languages will allow for easier interoperability and integrations between sources.</p>
       </div>
     </div>
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
-        <img src="/img/home/dscientists-color.svg" height="100" />
-        <h3 class="font-normal">Andrea Borruso</h3>
-        <p>"Quote from Andrea about using FD & contributing"</p>
+        <img class="rounded-full" src="/img/blog/stephanmax.jpg" height="100" />
+        <h3 class="font-normal">Stephan Max</h3>
+        <p>I’ve been following the work of the Open Knowledge Foundation for a while now and contributed to the German branch as a mentor for the teenage hackathon weekends project “Jugend Hackt”. I first heard about the Frictionless Data program when the OKF announced funding by the Sloan Foundation in 2018.</p>
       </div>
     </div>
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
-        <img src="/img/blog/oleg-lavrovsky-image.jpg" height="100" />
-        <h3 class="font-normal">Oleg Lavrovsky</h3>
-        <p>"Quote from Oleg about using FD"</p>
+        <img class="rounded-full" src="/img/blog/georges-labreche-image.png" height="100" />
+        <h3 class="font-normal">Georges Labrèche</h3>
+        <p>I was just really excited about using the already available Frictionless Data Python library for a procurement data importer we were working on for an OCDS project. My organization has liberated public procurement datasets that we’ve transformed into an open format but without any strong data processing methodology.</p>
       </div>
     </div>
   </div>
