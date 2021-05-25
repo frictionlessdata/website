@@ -8,7 +8,7 @@ Frictionless Data has a small core team at the Open Knowledge Foundation and Dat
 
 ## Core Team
 
-<div class= "features flex flex-row">
+<div class= "flex flex-row">
 		<TeamProfile
 			v-for="profile in team"
 			:key="profile.name"
@@ -89,7 +89,7 @@ Frictionless Data is a collective effort made by many great people working on va
 ## Tool Fund Partners
 
 Frictionless data has funded international partners who have worked in developing various tools and libraries for the project and they are featured below.
-<div class= "features flex flex-wrap flex-row">
+<div class= "flex flex-wrap flex-row">
 	<TeamProfile
 	  v-for="profile in toolFundPartners"
 	  :key="profile.name"
@@ -197,7 +197,7 @@ toolFundPartners = toolFundPartners.concat([
 			role: 'Tool Fund 2020 Grantee'
 		},
 		reposOfficial: [
-			'https://github.com/Bubblbu/metrics-in-context'
+			'Bubblbu/metrics-in-context'
 		]
 	}
 ])
@@ -211,7 +211,7 @@ toolFundPartners = toolFundPartners.concat([
 			role: 'Tool Fund 2020 Grantee'
 		},
 		reposOfficial: [
-			'https://github.com/frictionlessdata/schema-collaboration', 'https://carles.eu.pythonanywhere.com/'
+			'frictionlessdata/schema-collaboration'
 		]
 	}
 ])
@@ -225,7 +225,7 @@ toolFundPartners = toolFundPartners.concat([
 			role: 'Tool Fund 2020 Grantee'
 		},
 		reposOfficial: [
-			'https://github.com/billyfish/eirods-dav#frictionless-data-support', 'https://github.com/TGAC/ckan-frictionlessdata'
+			'billyfish/eirods-dav#frictionless-data-support', 'TGAC/ckan-frictionlessdata'
 		]
 	}
 ])
@@ -239,7 +239,7 @@ toolFundPartners = toolFundPartners.concat([
 			role: 'Tool Fund 2020 Grantee'
 		},
 		reposOfficial: [
-			'https://github.com/intermine/im-docs/blob/master/docs/webapp/frictionless/index.md'
+			'intermine/im-docs/blob/master/docs/webapp/frictionless/index.md'
 		]
 	}
 ])
@@ -533,5 +533,9 @@ export default {
 <style>
 	.fluer {
 		padding-left: 1rem;
+	}
+
+	.flex {
+		justify-content: space-around;
 	}
 </style>
