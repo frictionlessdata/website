@@ -30,17 +30,6 @@ The Frictionless Data project provides various frameworks and libraries for low-
  </div>
 </div>
 
-<!-- Frictionless Libraries -->
-<div class="w-full md:w-1/3 feature flex justify-center">
- <div class="px-8 text-center">
-   <a href="https://libraries.frictionlessdata.io" target="_blank">
-     <img src="/img/software/libraries.jpg" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>Frictionless Libraries</h3>
-   </a>
-   <p>A set of libraries implementing Frictionless Specifications for 10 programming languages.</p>
- </div>
-</div>
-
 <!-- Frictionless Components -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
@@ -49,6 +38,17 @@ The Frictionless Data project provides various frameworks and libraries for low-
      <h3>Frictionless Components</h3>
    </a>
    <p>Set of React components to visualize your metadata and data. Easy to integrate to your application.</p>
+ </div>
+</div>
+
+<!-- Frictionless Libraries -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://libraries.frictionlessdata.io" target="_blank">
+     <img src="/img/software/libraries.jpg" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Libraries</h3>
+   </a>
+   <p>A set of libraries implementing Frictionless Specifications for 10 programming languages.</p>
  </div>
 </div>
 
