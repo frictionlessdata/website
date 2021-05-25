@@ -81,7 +81,7 @@ Frictionless Data is a collective effort made by many great people working on va
   <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tabulator-py" />
 </a>
 
-## website
+### website
 <a href="https://github.com/frictionlessdata/website/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/website" />
 </a>
@@ -176,22 +176,134 @@ team = team.concat([
 
 var toolFundPartners = [
 	{
-		name: 'André Heughebaert',
-		city: 'Brussels, Belgium',
-    github: 'andrejjh',
+		name: 'Stephen Eglen',
+		city: 'UK',
+    github: 'sje30',
 		work: {
-      role: 'Tool Fund 2019 Grantee'
+      role: 'Tool Fund 2020 Grantee'
 		},
 		reposOfficial: [
-			'frictionlessdata/FrictionlessDarwinCore'
+			'https://sje30.github.io/'
 		]
 	}
 ]
 
 toolFundPartners = toolFundPartners.concat([
 	{
+	  name: 'Asura Enkhbayar',
+		city: 'Canada',
+		github: 'Bubblbu',
+		work: {
+			role: 'Tool Fund 2020 Grantee'
+		},
+		reposOfficial: [
+			'https://github.com/Bubblbu/metrics-in-context'
+		]
+	}
+])
+
+toolFundPartners = toolFundPartners.concat([
+	{
+	  name: 'Carles Pina i Estany',
+		city: 'Spain',
+		github: 'cpina',
+		work: {
+			role: 'Tool Fund 2020 Grantee'
+		},
+		reposOfficial: [
+			'https://github.com/frictionlessdata/schema-collaboration', 'https://carles.eu.pythonanywhere.com/'
+		]
+	}
+])
+
+toolFundPartners = toolFundPartners.concat([
+	{
+	  name: 'Simon Tyrrell and Xingdong Bian',
+		city: 'UK',
+		github: 'billyfish',
+		work: {
+			role: 'Tool Fund 2020 Grantee'
+		},
+		reposOfficial: [
+			'https://github.com/billyfish/eirods-dav#frictionless-data-support', 'https://github.com/TGAC/ckan-frictionlessdata'
+		]
+	}
+])
+
+toolFundPartners = toolFundPartners.concat([
+	{
+	  name: 'Nikhil Vats',
+		city: 'India',
+		github: 'Nikhil-Vats',
+		work: {
+			role: 'Tool Fund 2020 Grantee'
+		},
+		reposOfficial: [
+			'https://github.com/intermine/im-docs/blob/master/docs/webapp/frictionless/index.md'
+		]
+	}
+])
+
+toolFundPartners = toolFundPartners.concat([
+	{
+	  name: 'André Heughebaert',
+		city: 'Belgium',
+		github: 'andrejjh',
+		work: {
+			role: 'Tool Fund 2019 Grantee'
+		},
+		reposOfficial: [
+			'frictionlessdata/FrictionlessDarwinCore'
+		]
+	}
+])
+
+toolFundPartners = toolFundPartners.concat([
+	{
+	  name: 'João Alexandre Peschanski',
+		city: 'Brasil',
+		github: 'neuromat',
+		work: {
+			role: 'Tool Fund 2019 Grantee'
+		},
+		reposOfficial: [
+			'neuromat/nes'
+		]
+	}
+])
+
+toolFundPartners = toolFundPartners.concat([
+	{
+	  name: 'Greg Bloom',
+		city: 'USA',
+		github: 'greggish',
+		work: {
+			role: 'Tool Fund 2019 Grantee'
+		},
+		reposOfficial: [
+			'openreferral/'
+		]
+	}
+])
+
+toolFundPartners = toolFundPartners.concat([
+	{
+	  name: 'Shelby Switzer',
+		city: 'USA',
+		github: 'switzersc',
+		work: {
+			role: 'Tool Fund 2019 Grantee'
+		},
+		reposOfficial: [
+			'openreferral/'
+		]
+	}
+])
+
+toolFundPartners = toolFundPartners.concat([
+	{
 		name: 'Stephan Max',
-		city: 'Köln, Germany',
+		city: 'Germany',
 		github: 'stephanmax',
 		work: {
 			role: 'Tool Fund 2019 Grantee'
@@ -205,7 +317,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Oleg Lavrovsky',
-		city: 'Bern, Switzerland',
+		city: 'Switzerland',
 		github: 'loleg',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
@@ -219,7 +331,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Matt Thompson',
-		city: 'Bristol',
+		city: 'UK',
 		github: 'cblop',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
@@ -233,7 +345,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 	  name: 'Georges Labrèche',
-		city: 'Bremen, Germany',
+		city: 'Germany',
 		github: 'georgeslabreche',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
@@ -261,7 +373,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 	  name: 'Daniel Fireman',
-		city: 'Maceió, Brasil',
+		city: 'Brasil',
 		github: 'danielfireman',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
@@ -274,51 +386,8 @@ toolFundPartners = toolFundPartners.concat([
 
 toolFundPartners = toolFundPartners.concat([
 	{
-	  name: 'João Alexandre Peschanski',
-		city: 'São Paulo',
-		github: 'neuromat',
-		work: {
-			role: 'Tool Fund 2019 Grantee'
-		},
-		reposOfficial: [
-			'neuromat/nes'
-		]
-	}
-])
-
-toolFundPartners = toolFundPartners.concat([
-	{
-	  name: 'Greg Bloom',
-		city: 'Washington, District Of Columbia',
-		github: 'greggish',
-		work: {
-			role: 'Tool Fund 2019 Grantee'
-		},
-		reposOfficial: [
-			'openreferral/'
-		]
-	}
-])
-
-toolFundPartners = toolFundPartners.concat([
-	{
-	  name: 'Shelby Switzer',
-		city: 'Washington, District Of Columbia',
-		github: 'switzersc',
-		work: {
-			role: 'Tool Fund 2019 Grantee'
-		},
-		reposOfficial: [
-			'openreferral/'
-		]
-	}
-])
-
-
-toolFundPartners = toolFundPartners.concat([
-	{
 		name: 'Open Knowledge Greece',
-		city: 'Thessaloniki, Greece',
+		city: 'Greece',
 		github: 'okgreece',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
