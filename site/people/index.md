@@ -4,6 +4,14 @@ title: "People"
 
 # People
 
+<big><strong>People working on the Frictionless Data proejct.</strong></big>
+
+The Frictionless Data project is a joint effort of many amazing people. It includes programming engineers, data researchers, scientists, and many more. You can get acquainted with these people on this page.
+
+:::tip
+There are many ways to join the movement. If you are interested in working on Frictionless Data don't hesitate and contact the Frictionless Team using any available contact provided on this site.
+:::
+
 ## Core Team Members
 
 The development of Frictionless and its ecosystem is guided by an international team.
