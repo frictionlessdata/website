@@ -19,7 +19,7 @@ features:
   <div class="inner-container">
     <h1 class="text-center text-3xl font-normal">Frictionless Toolkit<br/><small class="font-light text-xl">Frictionless Data consists of two main parts, software and standards.<hr></small>
     </h1>
-    <div class="mx-auto flex flex-row flex-wrap lg:justify-between text-center justify-center">
+    <div class="mx-auto flex flex-row flex-wrap lg:justify-between text-center justify-center mb-8">
       <div class="sm:w-1/2 lg:w-1/2 flex flex-col">
         <div class="text-center px-8">
           <a href="/software/" class="text-xl text-black hover:underline">
