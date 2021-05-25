@@ -4,180 +4,180 @@ title: "People"
 
 # People
 
-## Core Team Members
+Frictionless Data has a small core team at the Open Knowledge Foundation and Datopian, and the project is supported by a large community of contributors.
 
-The development of Frictionless and its ecosystem is guided by an international team.
+## Core Team
 
-<TeamProfile
-	v-for="profile in team"
-	:key="profile.name"
-	:profile="profile" />
+<div class= "features flex flex-row">
+		<TeamProfile
+			v-for="profile in team"
+			:key="profile.name"
+			:profile="profile" />
+</div>
+
+## Software Authors
+
+> This page is powered by [contributors-img](https://contributors-img.web.app)
+
+Frictionless Data is a collective effort made by many great people working on various projects. You can click on the pictures below to see their code contributions in detail.
+
+### frictionless-py
+
+<a href="https://github.com/frictionlessdata/frictionless-py/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/frictionless-py" />
+</a>
+
+### datapackage-py
+
+<a href="https://github.com/frictionlessdata/datapackage-py/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/datapackage-py" />
+</a>
+
+### tableschema-py
+
+<a href="https://github.com/frictionlessdata/tableschema-py/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-py" />
+</a>
+
+### tableschema-bigquery-py
+
+<a href="https://github.com/frictionlessdata/tableschema-bigquery-py/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-bigquery-py" />
+</a>
+
+### tableschema-ckan-datastore-py
+
+<a href="https://github.com/frictionlessdata/tableschema-ckan-datastore-py/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-ckan-datastore-py" />
+</a>
+
+### tableschema-elasticsearch-py
+
+<a href="https://github.com/frictionlessdata/tableschema-elasticsearch-py/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-elasticsearch-py" />
+</a>
+
+### tableschema-pandas-py
+
+<a href="https://github.com/frictionlessdata/tableschema-pandas-py/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-pandas-py" />
+</a>
+
+### tableschema-sql-py
+
+<a href="https://github.com/frictionlessdata/tableschema-sql-py/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-sql-py" />
+</a>
+
+### tableschema-spss-py
+
+<a href="https://github.com/frictionlessdata/tableschema-spss-py/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-spss-py" />
+</a>
+
+### tabulator-py
+
+<a href="https://github.com/frictionlessdata/tabulator-py/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tabulator-py" />
+</a>
+
+## website
+<a href="https://github.com/frictionlessdata/website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/website" />
+</a>
 
 ## Tool Fund Partners
 
 Frictionless data has funded international partners who have worked in developing various tools and libraries for the project and they are featured below.
-
-<TeamProfile
-  v-for="profile in toolFundPartners"
-  :key="profile.name"
-  :profile="profile"/>
+<div class= "features flex flex-wrap flex-row">
+	<TeamProfile
+	  v-for="profile in toolFundPartners"
+	  :key="profile.name"
+	  :profile="profile"/>
+</div>
 
 ## Fellows
 
 The Frictionless Data for Reproducible Research Fellows are early career researchers that are being trained to become champions of the Frictionless Data tools and approaches in their fields of research.
 
-<TeamProfile
-	v-for="profile in fellows"
-	:key="profile.name"
-	:profile="profile" />
+<div class= "features flex flex-wrap flex-row">
+	<TeamProfile
+		v-for="profile in fellows"
+		:key="profile.name"
+		:profile="profile" />
+</div>
 
 <script>
 // import data from './data.json'
+
 var team = [{
 	name: 'Rufus Pollock',
-	title: 'Benevolent Dictator For Life',
 	city: 'Paris, France',
 	languages: ['en', 'fr'],
 	github: 'rufuspollock',
-	twitter: 'rufuspollock',
 	work: {
 		role: 'Creator',
-		org: 'FrictionlessData'
+		org: 'Frictionless Data'
 	},
 	reposOfficial: [
-		'frictionlessdata/*', 'datopian/*'
+		'datopian/*'
 	],
-	links: [
-		'https://rufuspollock.com/'
-	]
 }]
 
-team = team.concat([
-	{
-		name: 'Paul Walsh',
-		title: 'Curator',
-		city: 'Tel Aviv',
-		languages: ['en'],
-		github: 'pwalsh',
-		work: {
-			role: 'CEO',
-			org: 'Datopian'
-		},
-		reposOfficial: [
-			'frictionlessdata/*', 'datopian/*'
-		]
-	}
-])
-
-team = team.concat([
-	{
-		name: 'Irio Musskopf',
-		title: 'Lead Developer',
-		city: 'Berlin, Germany',
-		languages: ['en'],
-		github: 'Irio',
-		work: {
-			role: 'Lead Developer',
-			org: 'Datopian'
-		},
-		reposOfficial: [
-			'frictionlessdata/*', 'datopian/*'
-		]
-	}
-])
-
-team = team.concat([
-	{
-		name: 'Monika Popova',
-		title: 'Design Czar',
-		city: 'Sofia, Bulgaria',
-		languages: ['en', 'de'],
-		github: 'monikappv',
-		work: {
-			role: 'Designer',
-			org: 'FrictionlessData'
-		},
-		reposOfficial: [
-			'frictionlessdata/*', 'datopian/*'
-		]
-	}
-])
-
-team = team.concat([
-	{
-		name: 'Jo Barratt',
-		title: 'Delivery Manager',
-		city: 'Reading, England',
-		languages: ['en'],
-		github: 'JoBarratt',
-		work: {
-			role: 'Delivery Manager',
-			org: 'OKFN'
-		},
-		reposOfficial: [
-			'frictionlessdata/*', 'okfn/*'
-		]
-	}
-])
 
 team = team.concat([
 	{
 		name: 'Evgeny Karev',
-		title: 'Senior Developer',
 		city: 'Moscow, Russia',
 		languages: ['en', 'ru'],
 		github: 'roll',
 		work: {
-			role: 'Tech Lead',
+			role: 'Technical Lead',
 			org: 'Frictionless Data'
 		},
 		reposOfficial: [
-			'frictionlessdata/*', 'okfn/*'
+			'okfn/*'
 		]
-	}
+	}	
 ])
 
 team = team.concat([
 	{
-		name: 'Adrià Mercader',
-		title: 'Technical Lead',
-		city: 'Tarragona, Spain',
-		languages: ['en', 'es'],
-		github: 'amercader',
+		name: 'Sara Petti',
+		city: 'Hamburg, Germany',
+		languages: ['en', 'it'],
+		github: 'sapetti9',
 		work: {
-			role: 'Developer',
+			role: 'Community Manager',
 			org: 'Frictionless Data'
 		},
 		reposOfficial: [
-			'frictionlessdata/*', 'okfn/*'
+			'okfn/*'
 		]
-	}
+	}	
 ])
 
 team = team.concat([
 	{
 		name: 'Lilly Winfree',
-		title: 'Product Manager for Reproducible Research',
 		city: 'Austin, TX',
 		languages: ['en'],
-		twitter: 'lilscientista',
 		github: 'lwinfree',
 		work: {
 			role: 'Product Manager',
-			org: 'FrictionlessData'
+			org: 'Frictionless Data'
 		},
 		reposOfficial: [
-			'frictionlessdata/*', 'okfn/*'
+			'okfn/*'
 		]
-	}
+	}	
 ])
+
 
 var toolFundPartners = [
 	{
 		name: 'André Heughebaert',
-		title: 'Tool Fund 2019 Grantee',
 		city: 'Brussels, Belgium',
-		languages: ['en'],
     github: 'andrejjh',
 		work: {
       role: 'Tool Fund 2019 Grantee'
@@ -191,9 +191,7 @@ var toolFundPartners = [
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Stephan Max',
-		title: 'Tool Fund 2019 Grantee',
 		city: 'Köln, Germany',
-		languages: ['en'],
 		github: 'stephanmax',
 		work: {
 			role: 'Tool Fund 2019 Grantee'
@@ -207,9 +205,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Oleg Lavrovsky',
-		title: 'Tool Fund Grantee - Julia',
 		city: 'Bern, Switzerland',
-		languages: ['en', 'fr'],
 		github: 'loleg',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
@@ -223,9 +219,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Matt Thompson',
-		title: 'Tool Fund Grantee - Clojure',
 		city: 'Bristol',
-		languages: ['en'],
 		github: 'cblop',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
@@ -239,9 +233,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 	  name: 'Georges Labrèche',
-		title: 'Tool Fund Grantee - Java',
 		city: 'Bremen, Germany',
-		languages: ['en'],
 		github: 'georgeslabreche',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
@@ -255,9 +247,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 	  name: 'Ori Hoch',
-		title: 'Tool Fund Grantee - PHP',
 		city: 'Israel',
-		languages: ['en'],
 		github: 'OriHoch',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
@@ -271,9 +261,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 	  name: 'Daniel Fireman',
-		title: 'Tool Fund Grantee - Go',
 		city: 'Maceió, Brasil',
-		languages: ['pt','en'],
 		github: 'danielfireman',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
@@ -287,9 +275,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 	  name: 'João Alexandre Peschanski',
-		title: 'Tool Fund 2019 Grantee - NES',
 		city: 'São Paulo',
-		languages: ['pt','en'],
 		github: 'neuromat',
 		work: {
 			role: 'Tool Fund 2019 Grantee'
@@ -303,9 +289,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 	  name: 'Greg Bloom',
-		title: 'Tool Fund 2019 Grantee - Open Referral',
 		city: 'Washington, District Of Columbia',
-		languages: ['en'],
 		github: 'greggish',
 		work: {
 			role: 'Tool Fund 2019 Grantee'
@@ -319,9 +303,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 	  name: 'Shelby Switzer',
-		title: 'Tool Fund 2019 Grantee - Open Referral',
 		city: 'Washington, District Of Columbia',
-		languages: ['en'],
 		github: 'switzersc',
 		work: {
 			role: 'Tool Fund 2019 Grantee'
@@ -336,10 +318,7 @@ toolFundPartners = toolFundPartners.concat([
 toolFundPartners = toolFundPartners.concat([
 	{
 		name: 'Open Knowledge Greece',
-		title: 'Tool Fund Grantee - R',
 		city: 'Thessaloniki, Greece',
-		languages: ['en', 'gr'],
-		twitter: 'okfngr',
 		github: 'okgreece',
 		work: {
 			role: 'Tool Fund 2017 Grantee'
@@ -353,23 +332,95 @@ toolFundPartners = toolFundPartners.concat([
 
 var fellows = [
 	{
+		name: 'Kate Bowie',
+		city: 'USA',
+		github: 'katebowie',
+		work: {
+      role: 'Reproducible Research Fellow 2020-2021'
+		},
+	}
+]
+fellows = fellows.concat([
+	{
+		name: 'Katerina Drakoulaki',
+		city: 'Greece',
+		github: 'KDrakoulaki',
+		work: {
+      role: 'Reproducible Research Fellow 2020-2021'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Daniel Alcalà López',
+		city: 'Spain',
+		github: 'danalclop',
+		work: {
+      role: 'Reproducible Research Fellow 2020-2021'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Jacqueline Maasch',
+		city: 'USA',
+		github: 'jmaasch',
+		work: {
+      role: 'Reproducible Research Fellow 2020-2021'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Evelyn Night',
+		city: 'Kenya',
+		github: 'E-night',
+		work: {
+      role: 'Reproducible Research Fellow 2020-2021'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Anne Lee Steele',
+		city: 'Switzerland',
+		github: 'aleesteele',
+		work: {
+      role: 'Reproducible Research Fellow 2020-2021'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Sam Wilairat',
+		city: 'USA',
+		github: 'swilairat',
+		work: {
+      role: 'Reproducible Research Fellow 2020-2021'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
 		name: 'Monica Granados',
-		title: 'Reproducible Research Fellow 2019-2020',
 		city: 'Canada',
-		languages: ['en', 'es'],
 		github: 'Monsauce',
 		work: {
       role: 'Reproducible Research Fellow 2019-2020'
 		},
 	}
-]
+])
 
 fellows = fellows.concat([
 	{
 		name: 'Selene Yang',
-		title: 'Reproducible Research Fellow 2019-2020',
 		city: 'Paraguay',
-		languages: ['es', 'en'],
 		github: 'seleneyang',
 		work: {
       role: 'Reproducible Research Fellow 2019-2020'
@@ -380,9 +431,7 @@ fellows = fellows.concat([
 fellows = fellows.concat([
 	{
 		name: 'Daniel Ouso',
-		title: 'Reproducible Research Fellow 2019-2020',
 		city: 'Nigeria',
-		languages: ['en'],
 		github: 'ousodaniel',
 		work: {
       role: 'Reproducible Research Fellow 2019-2020'
@@ -393,9 +442,7 @@ fellows = fellows.concat([
 fellows = fellows.concat([
 	{
 		name: 'Lily Zhao',
-		title: 'Reproducible Research Fellow 2019-2020',
-		city: 'California',
-		languages: ['en'],
+		city: 'USA',
 		github: 'lilyzzhao',
 		work: {
       role: 'Reproducible Research Fellow 2019-2020'
@@ -413,3 +460,9 @@ export default {
   }
 }
 </script>
+
+<style>
+	.fluer {
+		padding-left: 1rem;
+	}
+</style>
