@@ -361,10 +361,6 @@ const redirectList = [
   },
 ];
 
-export default ({ Vue, router, isServer }) => {
-  if (!isServer) {
-    const VueCarousel = require("vue-carousel").default;
-    Vue.use(VueCarousel);
-  }
+export default ({ Vue, router }) => {
   router.addRoutes(redirectList);
 };
