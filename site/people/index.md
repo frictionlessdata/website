@@ -44,16 +44,46 @@ The Frictionless Data for Reproducible Research Fellows are early career researc
 
 ## Contributors
 
-Frictionless Data is a collective effort made by many great people working on various projects. You can click on the pictures below to see their code contributions in detail.
+Frictionless Data is a collective effort made by many great people working on various projects. You can click on the pictures below to see their code contributions in detail. It's only a subset of all the people working on the project, please take a look on our [Github Organization](https://github.com/frictionlessdata).
+
+<p><strong><big>project</big></strong></p>
+<a href="https://github.com/frictionlessdata/project/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/project" />
+</a>
+
+<p><strong><big>website</big></strong></p>
+<a href="https://github.com/frictionlessdata/website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/website" />
+</a>
 
 <p><strong><big>specs</big></strong></p>
 <a href="https://github.com/frictionlessdata/specs/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/specs" />
 </a>
 
+<!-- <p><strong><big>application</big></strong></p> -->
+<!-- <a href="https://github.com/frictionlessdata/application/graphs/contributors"> -->
+  <!-- <img src="https://contrib.rocks/image?repo=frictionlessdata/application" /> -->
+<!-- </a> -->
+
+<!-- <p><strong><big>repository</big></strong></p> -->
+<!-- <a href="https://github.com/frictionlessdata/repository/graphs/contributors"> -->
+  <!-- <img src="https://contrib.rocks/image?repo=frictionlessdata/repository" /> -->
+<!-- </a> -->
+
+<!-- <p><strong><big>components</big></strong></p> -->
+<!-- <a href="https://github.com/frictionlessdata/components/graphs/contributors"> -->
+  <!-- <img src="https://contrib.rocks/image?repo=frictionlessdata/components" /> -->
+<!-- </a> -->
+
 <p><strong><big>frictionless-py</big></strong></p>
 <a href="https://github.com/frictionlessdata/frictionless-py/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/frictionless-py" />
+</a>
+
+<p><strong><big>frictionless-js</big></strong></p>
+<a href="https://github.com/frictionlessdata/frictionless-js/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/frictionless-js" />
 </a>
 
 <p><strong><big>datapackage-py</big></strong></p>
@@ -96,44 +126,64 @@ Frictionless Data is a collective effort made by many great people working on va
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-php" />
 </a>
 
-<p><strong><big>tableschema-bigquery-py</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-bigquery-py/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-bigquery-py" />
+<p><strong><big>datapackage-java</big></strong></p>
+<a href="https://github.com/frictionlessdata/datapackage-java/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-java" />
 </a>
 
-<p><strong><big>tableschema-ckan-datastore-py</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-ckan-datastore-py/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-ckan-datastore-py" />
+<p><strong><big>tableschema-java</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-java/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-java" />
 </a>
 
-<p><strong><big>tableschema-elasticsearch-py</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-elasticsearch-py/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-elasticsearch-py" />
+<p><strong><big>datapackage-go</big></strong></p>
+<a href="https://github.com/frictionlessdata/datapackage-go/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-go" />
 </a>
 
-<p><strong><big>tableschema-pandas-py</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-pandas-py/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-pandas-py" />
+<p><strong><big>tableschema-go</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-go/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-go" />
 </a>
 
-<p><strong><big>tableschema-sql-py</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-sql-py/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-sql-py" />
+<p><strong><big>datapackage-r</big></strong></p>
+<a href="https://github.com/frictionlessdata/datapackage-r/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-r" />
 </a>
 
-<p><strong><big>tableschema-spss-py</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-spss-py/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-spss-py" />
+<p><strong><big>tableschema-r</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-r/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-r" />
 </a>
 
-<p><strong><big>tabulator-py</big></strong></p>
-<a href="https://github.com/frictionlessdata/tabulator-py/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frictionlessdata/tabulator-py" />
+<p><strong><big>datapackage-swift</big></strong></p>
+<a href="https://github.com/frictionlessdata/datapackage-swift/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-swift" />
 </a>
 
-<p><strong><big>website</big></strong></p>
-<a href="https://github.com/frictionlessdata/website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frictionlessdata/website" />
+<p><strong><big>tableschema-swift</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-swift/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-swift" />
+</a>
+
+<p><strong><big>datapackage-jl</big></strong></p>
+<a href="https://github.com/frictionlessdata/datapackage.jl/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage.jl" />
+</a>
+
+<p><strong><big>tableschema-jl</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema.jl/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema.jl" />
+</a>
+
+<p><strong><big>datapackage-clj</big></strong></p>
+<a href="https://github.com/frictionlessdata/datapackage-clj/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-clj" />
+</a>
+
+<p><strong><big>tableschema-clj</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-clj/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-clj" />
 </a>
 
 <script>
