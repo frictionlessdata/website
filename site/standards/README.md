@@ -6,10 +6,10 @@ title: Frictionless Standards
 
 <big><strong>Lightweight yet comprehensive data specifications.</strong></big>
 
-The Frictionless Data project is built on top of the Frictionless Standards. It's a set of specifications created to standartize different aspects of working with data as though how to describe a collections on resources or share infromation about data types.
+The Frictionless Data project is built on top of the Frictionless Standards. It's a set of specifications created to standardize different aspects of working with data as though how to describe a collections on resources or share information about data types.
 
 :::tip
-This document is an overview of the Frictionless Standards - for more in-depth information please visit [the spec site](https://specs.frictionlessdata.io/) or click on one of the standards below.
+This document is an overview of the Frictionless Standards - for more in-depth information please visit [the spec site](https://specs.frictionlessdata.io/) or click on one of the standards below and you will be redirected to a corresponding specification.
 :::
 
 ## General Standards

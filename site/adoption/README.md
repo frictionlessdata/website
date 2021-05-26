@@ -9,7 +9,7 @@ title: Frictionless Adoption
 The Frictionless Data project provides software and standards to work with data. On this page we'de like to share projects and collaborations using Frictionless. There are pilots curated by the Frictionless Team and community projects that uses our toolkit.
 
 :::tip
-If you use Frictionless in your work and want to share it with community, please write to the Frictionless Team and we will add your project to this page.
+If you use Frictionless in your work and want to share it with community, please write to the Frictionless Team using any available contact provided on this site and we will add your project to this page.
 :::
 
 ## Community Pilots

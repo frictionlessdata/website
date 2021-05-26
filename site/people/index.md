@@ -4,7 +4,13 @@ title: "People"
 
 # People
 
+<big><strong>People working on the Frictionless Data proejct.</strong></big>
+
 Frictionless Data has a small core team at the Open Knowledge Foundation and Datopian, and the project is supported by a large community of contributors.
+
+:::tip
+There are many ways to join the movement. If you are interested in working on Frictionless Data don't hesitate and contact the Frictionless Team using any available contact provided on this site.
+:::
 
 ## Core Team
 

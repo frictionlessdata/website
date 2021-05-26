@@ -113,7 +113,7 @@ features:
 
 <div class="banner p-8 black-text gray-section" id="video-section">
   <div class="inner-container">
-    <div class="mx-auto lg:w-3/5 text-center">
+    <div class="mx-auto lg:w-3/5 text-center mb-8">
       <h1 class="font-normal text-3xl">Why Frictionless?</h1>
       <small class="font-light text-xl">Rufus Pollock, Frictionless Data co-creator, explains the problem Frictionless addresses through simple specifications and software.</small>
       <hr class="mt-4">

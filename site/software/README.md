@@ -9,7 +9,7 @@ title: Frictionless Software
 The Frictionless Data projects provides a rich set of open source software for working with data. There are tools, a visual application, and software for many programming platforms.
 
 :::tip
-This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below.
+This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below and you will be redirected to a corresponding documentation site.
 :::
 
 ## Coding Software
@@ -19,17 +19,6 @@ The Frictionless Data project provides various frameworks and libraries for low-
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
 
-<!-- Frictionless Components -->
-<div class="w-full md:w-1/3 feature flex justify-center">
- <div class="px-8 text-center">
-   <a href="https://components.frictionlessdata.io/" target="_blank">
-     <img src="/img/software/components.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>Frictionless Components</h3>
-   </a>
-   <p>Set of React components to visualize your metadata and data. Easy to integrate to your application.</p>
- </div>
-</div>
-
 <!-- Frictionless Framework -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
@@ -38,6 +27,17 @@ The Frictionless Data project provides various frameworks and libraries for low-
      <h3>Frictionless Framework</h3>
    </a>
    <p>A framework to describe, extract, validate, and transform tabular data in <a href="https://framework.frictionlessdata.io/" target="_blank">Python</a> or <a href="https://github.com/frictionlessdata/frictionless-js" target="_blank">JavaScript</a>.</p>
+ </div>
+</div>
+
+<!-- Frictionless Components -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://components.frictionlessdata.io/" target="_blank">
+     <img src="/img/software/components.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Components</h3>
+   </a>
+   <p>Set of React components to visualize your metadata and data. Easy to integrate to your application.</p>
  </div>
 </div>
 
@@ -62,6 +62,17 @@ The Frictionless Data project provides data tools and visual applications to wor
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
 
+<!-- Frictionless Repository -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://repository.frictionlessdata.io" target="_blank">
+     <img src="/img/software/repository.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Repository</h3>
+   </a>
+   <p>A Github Action allowing to validate tabular data on every commit to the repository.</p>
+ </div>
+</div>
+
 <!-- DataHub.io -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
@@ -81,17 +92,6 @@ The Frictionless Data project provides data tools and visual applications to wor
      <h3>Frictionless Application</h3>
    </a>
    <p>A visual application to describe, extract, validate, and transform tabular data.</p>
- </div>
-</div>
-
-<!-- Frictionless Repository -->
-<div class="w-full md:w-1/3 feature flex justify-center">
- <div class="px-8 text-center">
-   <a href="https://repository.frictionlessdata.io" target="_blank">
-     <img src="/img/software/repository.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>Frictionless Repository</h3>
-   </a>
-   <p>A Github Action allowing to validate tabular data on every commit to the repository.</p>
  </div>
 </div>
 
