@@ -21,77 +21,6 @@ There are many ways to join the movement. If you are interested in working on Fr
 			:profile="profile" />
 </div>
 
-## Software Authors
-
-> This page is powered by [contributors-img](https://contributors-img.web.app)
-
-Frictionless Data is a collective effort made by many great people working on various projects. You can click on the pictures below to see their code contributions in detail.
-
-### frictionless-py
-
-<a href="https://github.com/frictionlessdata/frictionless-py/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/frictionless-py" />
-</a>
-
-### datapackage-py
-
-<a href="https://github.com/frictionlessdata/datapackage-py/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/datapackage-py" />
-</a>
-
-### tableschema-py
-
-<a href="https://github.com/frictionlessdata/tableschema-py/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-py" />
-</a>
-
-### tableschema-bigquery-py
-
-<a href="https://github.com/frictionlessdata/tableschema-bigquery-py/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-bigquery-py" />
-</a>
-
-### tableschema-ckan-datastore-py
-
-<a href="https://github.com/frictionlessdata/tableschema-ckan-datastore-py/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-ckan-datastore-py" />
-</a>
-
-### tableschema-elasticsearch-py
-
-<a href="https://github.com/frictionlessdata/tableschema-elasticsearch-py/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-elasticsearch-py" />
-</a>
-
-### tableschema-pandas-py
-
-<a href="https://github.com/frictionlessdata/tableschema-pandas-py/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-pandas-py" />
-</a>
-
-### tableschema-sql-py
-
-<a href="https://github.com/frictionlessdata/tableschema-sql-py/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-sql-py" />
-</a>
-
-### tableschema-spss-py
-
-<a href="https://github.com/frictionlessdata/tableschema-spss-py/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tableschema-spss-py" />
-</a>
-
-### tabulator-py
-
-<a href="https://github.com/frictionlessdata/tabulator-py/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=frictionlessdata/tabulator-py" />
-</a>
-
-### website
-<a href="https://github.com/frictionlessdata/website/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=frictionlessdata/website" />
-</a>
-
 ## Tool Fund Partners
 
 Frictionless data has funded international partners who have worked in developing various tools and libraries for the project and they are featured below.
@@ -102,7 +31,7 @@ Frictionless data has funded international partners who have worked in developin
 	  :profile="profile"/>
 </div>
 
-## Fellows
+## Fellows Programme
 
 The Frictionless Data for Reproducible Research Fellows are early career researchers that are being trained to become champions of the Frictionless Data tools and approaches in their fields of research.
 
@@ -112,6 +41,100 @@ The Frictionless Data for Reproducible Research Fellows are early career researc
 		:key="profile.name"
 		:profile="profile" />
 </div>
+
+## Contributors
+
+Frictionless Data is a collective effort made by many great people working on various projects. You can click on the pictures below to see their code contributions in detail.
+
+<p><strong><big>specs</big></strong></p>
+<a href="https://github.com/frictionlessdata/specs/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/specs" />
+</a>
+
+<p><strong><big>frictionless-py</big></strong></p>
+<a href="https://github.com/frictionlessdata/frictionless-py/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/frictionless-py" />
+</a>
+
+<p><strong><big>datapackage-py</big></strong></p>
+<a href="https://github.com/frictionlessdata/datapackage-py/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-py" />
+</a>
+
+<p><strong><big>tableschema-py</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-py/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-py" />
+</a>
+
+<p><strong><big>datapackage-js</big></strong></p>
+<a href="https://github.com/frictionlessdata/datapackage-js/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-js" />
+</a>
+
+<p><strong><big>tableschema-js</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-js/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-js" />
+</a>
+
+<p><strong><big>datapackage-rb</big></strong></p>
+<a href="https://github.com/frictionlessdata/datapackage-rb/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-rb" />
+</a>
+
+<p><strong><big>tableschema-rb</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-rb/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-rb" />
+</a>
+
+<p><strong><big>datapackage-php</big></strong></p>
+<a href="https://github.com/frictionlessdata/datapackage-php/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-php" />
+</a>
+
+<p><strong><big>tableschema-php</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-php/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-php" />
+</a>
+
+<p><strong><big>tableschema-bigquery-py</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-bigquery-py/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-bigquery-py" />
+</a>
+
+<p><strong><big>tableschema-ckan-datastore-py</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-ckan-datastore-py/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-ckan-datastore-py" />
+</a>
+
+<p><strong><big>tableschema-elasticsearch-py</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-elasticsearch-py/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-elasticsearch-py" />
+</a>
+
+<p><strong><big>tableschema-pandas-py</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-pandas-py/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-pandas-py" />
+</a>
+
+<p><strong><big>tableschema-sql-py</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-sql-py/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-sql-py" />
+</a>
+
+<p><strong><big>tableschema-spss-py</big></strong></p>
+<a href="https://github.com/frictionlessdata/tableschema-spss-py/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-spss-py" />
+</a>
+
+<p><strong><big>tabulator-py</big></strong></p>
+<a href="https://github.com/frictionlessdata/tabulator-py/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/tabulator-py" />
+</a>
+
+<p><strong><big>website</big></strong></p>
+<a href="https://github.com/frictionlessdata/website/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=frictionlessdata/website" />
+</a>
 
 <script>
 // import data from './data.json'
@@ -144,7 +167,7 @@ team = team.concat([
 		reposOfficial: [
 			'okfn/*'
 		]
-	}	
+	}
 ])
 
 team = team.concat([
@@ -160,7 +183,7 @@ team = team.concat([
 		reposOfficial: [
 			'okfn/*'
 		]
-	}	
+	}
 ])
 
 team = team.concat([
@@ -176,7 +199,7 @@ team = team.concat([
 		reposOfficial: [
 			'okfn/*'
 		]
-	}	
+	}
 ])
 
 
