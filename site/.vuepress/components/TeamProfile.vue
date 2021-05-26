@@ -1,5 +1,5 @@
 <template>
-  <div class="fluer md:flex pt-8">
+  <div class="fluer pt-8">
     <div class="avatar rounded-full p-6">
       <img class="rounded-full" v-if="profile.imageUrl"
         :src="profile.imageUrl"
@@ -18,13 +18,10 @@
       </h3>
       <dl>
         <template v-if="profile.reposOfficial">
-          <div class="container">
-          <dt class="team-core-font inline-block">Core focus</dt>
-            <ul class="inline-block">
-              <li class="inline-block text-sm text-blue-500 pl-2" v-for="repo in profile.reposOfficial">
+          <div class="container md:w-1/3">
+              <p v-for="repo in profile.reposOfficial">
                 <a :href="githubUrl('fluejs', repo)" target=_blank rel="noopener noreferrer">{{ repo.name || repo }}</a>
-              </li>
-            </ul>
+              </p>
           </div>
         </template>
         <template v-if="profile.github && profile.reposPersonal">
@@ -147,7 +144,8 @@ var languageNameFor = {
   ko: '한국어',
   ro: 'Română',
   uk: 'Українська',
-  no: 'Norwegian'
+  no: 'Norwegian',
+  it: 'Italian',
 }
 
 
@@ -199,7 +197,7 @@ export default {
         vm.profile.languages.map(function (languageCode, index) {
           var language = languageNameFor[languageCode]
           return language
-        }).join(' ') 
+        }).join(', ') 
       )
     },
     hasSocialLinks: function () {
