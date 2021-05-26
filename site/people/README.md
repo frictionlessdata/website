@@ -50,147 +50,147 @@ The Frictionless Data for Reproducible Research Fellows are early career researc
 Frictionless Data is a collective effort made by many great people working on various projects. You can click on the pictures below to see their code contributions in detail. It's only a subset of all the people working on the project, please take a look on our [Github Organization](https://github.com/frictionlessdata).
 
 <p><strong><big>project</big></strong></p>
-<a href="https://github.com/frictionlessdata/project/graphs/contributors">
+<a href="https://github.com/frictionlessdata/project/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/project" />
 </a>
 
 <p><strong><big>website</big></strong></p>
-<a href="https://github.com/frictionlessdata/website/graphs/contributors">
+<a href="https://github.com/frictionlessdata/website/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/website" />
 </a>
 
 <p><strong><big>specs</big></strong></p>
-<a href="https://github.com/frictionlessdata/specs/graphs/contributors">
+<a href="https://github.com/frictionlessdata/specs/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/specs" />
 </a>
 
 <!-- <p><strong><big>application</big></strong></p> -->
-<!-- <a href="https://github.com/frictionlessdata/application/graphs/contributors"> -->
+<!-- <a href="https://github.com/frictionlessdata/application/graphs/contributors" title="Open a Github repo"> -->
   <!-- <img src="https://contrib.rocks/image?repo=frictionlessdata/application" /> -->
 <!-- </a> -->
 
 <!-- <p><strong><big>repository</big></strong></p> -->
-<!-- <a href="https://github.com/frictionlessdata/repository/graphs/contributors"> -->
+<!-- <a href="https://github.com/frictionlessdata/repository/graphs/contributors" title="Open a Github repo"> -->
   <!-- <img src="https://contrib.rocks/image?repo=frictionlessdata/repository" /> -->
 <!-- </a> -->
 
 <!-- <p><strong><big>components</big></strong></p> -->
-<!-- <a href="https://github.com/frictionlessdata/components/graphs/contributors"> -->
+<!-- <a href="https://github.com/frictionlessdata/components/graphs/contributors" title="Open a Github repo"> -->
   <!-- <img src="https://contrib.rocks/image?repo=frictionlessdata/components" /> -->
 <!-- </a> -->
 
 <p><strong><big>datahub.io</big></strong></p>
-<a href="https://github.com/datopian/frontend/graphs/contributors">
+<a href="https://github.com/datopian/frontend/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=datopian/frontend" />
 </a>
 
 <p><strong><big>frictionless-py</big></strong></p>
-<a href="https://github.com/frictionlessdata/frictionless-py/graphs/contributors">
+<a href="https://github.com/frictionlessdata/frictionless-py/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/frictionless-py" />
 </a>
 
 <p><strong><big>frictionless-js</big></strong></p>
-<a href="https://github.com/frictionlessdata/frictionless-js/graphs/contributors">
+<a href="https://github.com/frictionlessdata/frictionless-js/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/frictionless-js" />
 </a>
 
 <p><strong><big>datapackage-py</big></strong></p>
-<a href="https://github.com/frictionlessdata/datapackage-py/graphs/contributors">
+<a href="https://github.com/frictionlessdata/datapackage-py/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-py" />
 </a>
 
 <p><strong><big>tableschema-py</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-py/graphs/contributors">
+<a href="https://github.com/frictionlessdata/tableschema-py/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-py" />
 </a>
 
 <p><strong><big>datapackage-js</big></strong></p>
-<a href="https://github.com/frictionlessdata/datapackage-js/graphs/contributors">
+<a href="https://github.com/frictionlessdata/datapackage-js/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-js" />
 </a>
 
 <p><strong><big>tableschema-js</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-js/graphs/contributors">
+<a href="https://github.com/frictionlessdata/tableschema-js/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-js" />
 </a>
 
 <p><strong><big>datapackage-rb</big></strong></p>
-<a href="https://github.com/frictionlessdata/datapackage-rb/graphs/contributors">
+<a href="https://github.com/frictionlessdata/datapackage-rb/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-rb" />
 </a>
 
 <p><strong><big>tableschema-rb</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-rb/graphs/contributors">
+<a href="https://github.com/frictionlessdata/tableschema-rb/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-rb" />
 </a>
 
 <p><strong><big>datapackage-php</big></strong></p>
-<a href="https://github.com/frictionlessdata/datapackage-php/graphs/contributors">
+<a href="https://github.com/frictionlessdata/datapackage-php/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-php" />
 </a>
 
 <p><strong><big>tableschema-php</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-php/graphs/contributors">
+<a href="https://github.com/frictionlessdata/tableschema-php/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-php" />
 </a>
 
 <p><strong><big>datapackage-java</big></strong></p>
-<a href="https://github.com/frictionlessdata/datapackage-java/graphs/contributors">
+<a href="https://github.com/frictionlessdata/datapackage-java/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-java" />
 </a>
 
 <p><strong><big>tableschema-java</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-java/graphs/contributors">
+<a href="https://github.com/frictionlessdata/tableschema-java/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-java" />
 </a>
 
 <p><strong><big>datapackage-go</big></strong></p>
-<a href="https://github.com/frictionlessdata/datapackage-go/graphs/contributors">
+<a href="https://github.com/frictionlessdata/datapackage-go/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-go" />
 </a>
 
 <p><strong><big>tableschema-go</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-go/graphs/contributors">
+<a href="https://github.com/frictionlessdata/tableschema-go/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-go" />
 </a>
 
 <p><strong><big>datapackage-r</big></strong></p>
-<a href="https://github.com/frictionlessdata/datapackage-r/graphs/contributors">
+<a href="https://github.com/frictionlessdata/datapackage-r/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-r" />
 </a>
 
 <p><strong><big>tableschema-r</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-r/graphs/contributors">
+<a href="https://github.com/frictionlessdata/tableschema-r/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-r" />
 </a>
 
 <p><strong><big>datapackage-swift</big></strong></p>
-<a href="https://github.com/frictionlessdata/datapackage-swift/graphs/contributors">
+<a href="https://github.com/frictionlessdata/datapackage-swift/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-swift" />
 </a>
 
 <p><strong><big>tableschema-swift</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-swift/graphs/contributors">
+<a href="https://github.com/frictionlessdata/tableschema-swift/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-swift" />
 </a>
 
 <p><strong><big>datapackage-jl</big></strong></p>
-<a href="https://github.com/frictionlessdata/datapackage.jl/graphs/contributors">
+<a href="https://github.com/frictionlessdata/datapackage.jl/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage.jl" />
 </a>
 
 <p><strong><big>tableschema-jl</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema.jl/graphs/contributors">
+<a href="https://github.com/frictionlessdata/tableschema.jl/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema.jl" />
 </a>
 
 <p><strong><big>datapackage-clj</big></strong></p>
-<a href="https://github.com/frictionlessdata/datapackage-clj/graphs/contributors">
+<a href="https://github.com/frictionlessdata/datapackage-clj/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/datapackage-clj" />
 </a>
 
 <p><strong><big>tableschema-clj</big></strong></p>
-<a href="https://github.com/frictionlessdata/tableschema-clj/graphs/contributors">
+<a href="https://github.com/frictionlessdata/tableschema-clj/graphs/contributors" title="Open a Github repo">
   <img src="https://contrib.rocks/image?repo=frictionlessdata/tableschema-clj" />
 </a>
 
