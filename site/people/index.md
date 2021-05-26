@@ -4,9 +4,9 @@ title: "People"
 
 # People
 
-<big><strong>People working on the Frictionless Data proejct.</strong></big>
+<big><strong>People working on the Frictionless Data project.</strong></big>
 
-Frictionless Data has a small core team at the Open Knowledge Foundation and Datopian, and the project is supported by a large community of contributors.
+Frictionless Data is a collective effort made by many amazing people working on various projects. We're a programming engineers, data scientists, and, in general, people who are interested in working towards a fair, free and open future.
 
 :::tip
 There are many ways to join the movement. If you are interested in working on Frictionless Data don't hesitate and contact the Frictionless Team using any available contact provided on this site.
@@ -14,32 +14,35 @@ There are many ways to join the movement. If you are interested in working on Fr
 
 ## Core Team
 
-<div class= "flex flex-row">
-		<TeamProfile
-			v-for="profile in team"
-			:key="profile.name"
-			:profile="profile" />
+Frictionless Data has a small core team at the Open Knowledge Foundation and Datopian, and the project is supported by a large community of contributors.
+
+<div class="grid grid-cols-3">
+  <TeamProfile
+      v-for="profile in team"
+      :key="profile.name"
+      :profile="profile" />
 </div>
 
 ## Tool Fund Partners
 
 Frictionless data has funded international partners who have worked in developing various tools and libraries for the project and they are featured below.
-<div class= "flex flex-wrap flex-row">
-	<TeamProfile
-	  v-for="profile in toolFundPartners"
-	  :key="profile.name"
-	  :profile="profile"/>
+
+<div class="grid grid-cols-3">
+  <TeamProfile
+    v-for="profile in toolFundPartners"
+    :key="profile.name"
+    :profile="profile"/>
 </div>
 
 ## Fellows Programme
 
 The Frictionless Data for Reproducible Research Fellows are early career researchers that are being trained to become champions of the Frictionless Data tools and approaches in their fields of research.
 
-<div class= "features flex flex-wrap flex-row">
-	<TeamProfile
-		v-for="profile in fellows"
-		:key="profile.name"
-		:profile="profile" />
+<div class="grid grid-cols-3">
+  <TeamProfile
+      v-for="profile in fellows"
+      :key="profile.name"
+      :profile="profile" />
 </div>
 
 ## Contributors
@@ -75,6 +78,11 @@ Frictionless Data is a collective effort made by many great people working on va
 <!-- <a href="https://github.com/frictionlessdata/components/graphs/contributors"> -->
   <!-- <img src="https://contrib.rocks/image?repo=frictionlessdata/components" /> -->
 <!-- </a> -->
+
+<p><strong><big>datahub.io</big></strong></p>
+<a href="https://github.com/datopian/frontend/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=datopian/frontend" />
+</a>
 
 <p><strong><big>frictionless-py</big></strong></p>
 <a href="https://github.com/frictionlessdata/frictionless-py/graphs/contributors">
@@ -203,6 +211,21 @@ var team = [{
 	],
 }]
 
+team = team.concat([
+	{
+		name: 'Lilly Winfree',
+		city: 'Austin, TX',
+		languages: ['en'],
+		github: 'lwinfree',
+		work: {
+			role: 'Product Manager',
+			org: 'Frictionless Data'
+		},
+		reposOfficial: [
+			'okfn/*'
+		]
+	}
+])
 
 team = team.concat([
 	{
@@ -222,28 +245,28 @@ team = team.concat([
 
 team = team.concat([
 	{
-		name: 'Sara Petti',
-		city: 'Hamburg, Germany',
-		languages: ['en', 'it'],
-		github: 'sapetti9',
+		name: 'Sébastien Lavoie',
+		city: 'Canada',
+		languages: ['en'],
+		github: 'sglavoie',
 		work: {
-			role: 'Community Manager',
-			org: 'Frictionless Data'
+			role: 'Product Manager',
+			org: 'Datopian'
 		},
 		reposOfficial: [
-			'okfn/*'
+			'datapian/*'
 		]
 	}
 ])
 
 team = team.concat([
 	{
-		name: 'Lilly Winfree',
-		city: 'Austin, TX',
-		languages: ['en'],
-		github: 'lwinfree',
+		name: 'Sara Petti',
+		city: 'Hamburg, Germany',
+		languages: ['en', 'it'],
+		github: 'sapetti9',
 		work: {
-			role: 'Product Manager',
+			role: 'Community Manager',
 			org: 'Frictionless Data'
 		},
 		reposOfficial: [
