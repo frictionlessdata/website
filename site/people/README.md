@@ -1,8 +1,8 @@
 ---
-title: "People"
+title: Frictionless People
 ---
 
-# People
+# Frictionless People
 
 <big><strong>People working on the Frictionless Data project.</strong></big>
 
