@@ -5,7 +5,7 @@
         <div class="tagline black-text flex-1">
           <h3 class="text-4xl font-thin">Data software and standards</h3>
           <p class="text-xl md:w-4/5 font-thin w-auto">{{ data.tagline || $description || 'Welcome to your VuePress site' }}</p>
-          <div class="flex flex-row flex-wrap">
+          <div class="flex flex-row flex-wrap justify-start">
           <a
             class="bg-transparent hero-button text-black hover:border-black outline-none cursor-pointer border border-solid border-black font-medium text-sm py-4 px-6 hover:border-transparent rounded-full"
             href="#video-section"
