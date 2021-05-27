@@ -20,23 +20,24 @@ The [software](/software) is based on a suite of data standards that have been d
 
 ### Frictionless Standards 
 
-The [Standards (aka Specifications)](/standards) help to describe data. The core specification is called a **Data Package**, which is a simple **container** format used to describe and package a collection of data files. The format provides a contract for data interoperability that supports frictionless delivery, installation and management of data.
+The [Standards (aka Specifications)](/standards) help to describe data. The core specification is called a **Data Package**, which is a simple container format used to describe and package a collection of data files. The format provides a contract for data interoperability that supports frictionless delivery, installation and management of data.
 
 A Data Package can contain any kind of data. At the same time, Data Packages can be specialized and enriched for specific types of data so there are, for example, Tabular Data Packages for tabular data, Geo Data Packages for geo data, etc.
 
 To learn more about Data Packages and the other specifications, check out the [Standards](/standards) page or watch this video to learn more about the motivation behind packaging data.
+
 <iframe width="730" height="400" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## How can I use Frictionless?
 
-You can use Frictionless to describe your data (add metadata and schemas), validate your data, and transform your data. You can also write custom data standards based on the Frictionless specifications. For example, you can use the Frictionless Software to:
+You can use Frictionless to describe your data (add metadata and schemas), validate your data, and transform your data. You can also write custom data standards based on the Frictionless specifications. For example, you can use Frictionless to:
 * easily add metadata to your data before you publish it.
 * quickly validate your data to check the data quality before you share it.
 * build a declarative pipeline to clean and process data before analyzing it.
 
-Usually, new users start by trying out either the [Software](/software) or data services. The software gives you an ability to work with Frictionless using visual interfaces or programming languages, and the services let you easily discover, store, or validate data.
+Usually, new users start by trying out either the [software](/software/#coding-software) or [applications](/software/#visual-software). The software gives you an ability to work with Frictionless using visual interfaces or programming languages, and the applications let you easily discover, store, or validate data.
 
-As a new user you might not need to dive to deep into the specifications as our software incapsulates its concepts. On the other hand, once you feel comfortable with Frictionless Software you might start reading Frictionless Standards to get better understanding of the things happening under the hood or to start creating your metadata descriptors more proficiently.
+As a new user you might not need to dive too deeply into the [specifications](/standards) as our software incapsulates its concepts. On the other hand, once you feel comfortable with Frictionless Software you might start reading Frictionless Standards to get better understanding of the things happening under the hood or to start creating your metadata descriptors more proficiently.
 
 ## Who uses Frictionless?
 
@@ -48,4 +49,4 @@ During our project development we have had various collaborations with instituti
 
 ## Ready for more? Keep Going!
 
-It was a short introduction of the Frictionless Data. As the next steps, we recommend you to start using one of our [Software](/software) projects, get known our [Standards](/standards) or read about other user experience in [Pilots](/tag/pilot) and [Case Studies](/tag/case-studies) sections.
+As a next step, we recommend you start using one of our [Software](/software) projects, get known our [Standards](/standards) or read about other user experience in [Pilots](/tag/pilot) and [Case Studies](/tag/case-studies) sections. Also, we welcome you to [reach out](https://discordapp.com/invite/Sewv6av) to say hi or ask questions!
