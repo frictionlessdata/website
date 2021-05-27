@@ -11,10 +11,12 @@
           <div class="container flex flex-col md:w-2/3">
             <router-link class="text-3xl page-link pr-12" :to="page.path">{{ page.title }}
             </router-link>
-            <div class="text-sm py-2"> {{ formatDate(page.frontmatter.date) }} by {{ page.frontmatter.author || page.frontmatter.authors || "Frictionless Data" }} </div>
-              <div v-if="page.frontmatter.tags" class="container flex flex-row">
-              <BlogTag :tags="page.frontmatter.tags" />
+            <div class="text-sm py-2">
+              {{ formatDate(page.frontmatter.date) }} by {{ page.frontmatter.author || page.frontmatter.authors || "Frictionless Data" }}
             </div>
+              <div v-if="page.frontmatter.tags">
+                <BlogTag :tags="page.frontmatter.tags" />
+              </div>
             <p class="text-base mr-12" v-if="page.frontmatter.description"> {{ page.frontmatter.description }} </p>
             <p class="text-base mr-12" v-else-if="!page.frontmatter.description" v-html="page.excerpt"></p>
           </div>
@@ -23,7 +25,7 @@
           </div>
           </div>
         </li>
-        </ul>
+      </ul>
       <div class="flex justify-between mt-10 text-xl" id="pagination">
         <div>
           <router-link class="pr-6" v-if="$pagination.hasPrev" :to="$pagination.prevLink">Prev</router-link>
