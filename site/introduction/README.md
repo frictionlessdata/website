@@ -1,42 +1,50 @@
 # Frictionless Data
 
-<big><strong>Get basic understanding of Frictionless in "5 minutes".</strong></big>
+<big><strong>Get a quick introduction to Frictionless in "5 minutes".</strong></big>
 
-Frictionless Data is a progressive open-source framework for building data infrastructure -- data management, data integration, data flows, etc. It includes various data standards and provide software to work with data.
+Frictionless Data is a progressive open-source framework for building data infrastructure -- data management, data integration, data flows, etc. It includes various data standards and provides software to work with data.
 
 :::tip
-This introduction assumes some basic knowledge about data. If you are new to working with data it may be  best idea to get some of those basics and then come back! A good starting point would be the first module, "What is Data?", at [School of Data](https://schoolofdata.org/).
+This introduction assumes some basic knowledge about data. If you are new to working with data we recommend starting with the first module, "What is Data?", at [School of Data](https://schoolofdata.org/).
 :::
 
-## What is Frictionless
+## Why Frictionless?
 
-We made a short video to introduce the project. You can watch it first or read below instead.
-
-<iframe width="730" height="400" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-The core of the framework is a suite of ultra-simple patterns to describe and organize data. This allows the data to flow fluidly between tools and across teams. The patterns have been refined to zen-like simplicity, and they can be picked up in minutes and immediately integrated with other libraries or existing projects.
-
-At the same time, Frictionless Data is also perfectly capable of powering sophisticated data workflows when used in combination with modern tooling and supporting libraries. This is possible because the framework follows an "atomic" approach where specs and tools are broken down into small components that can be used on their own but also composed together to make larger ones. This allows you to take a minimalistic approach for simple solutions and then combine elements components for more complex solutions.
-
-Unlike some other frameworks, Frictionless is designed from the ground up to be both incrementally adoptable and "progressive". Its purpose is to work with, build on, and enhance your existing data and tooling (rather than replacing it). It is also extremely lightweight!
-
-## How to use Frictionless
-
-Frictionless Data consists of two main parts, software and standards.
+The Frictionless Data project aims to make it easier to work with data - by reducing common data workflow issues (what we call *friction*). Frictionless Data consists of two main parts, software and standards.
 
 ![Structure](/img/introduction/structure.png)
 
-Usually, new users start from trying out the [Software](/software) which give an ability to work with Frictionless using visual interfaces or programming languages. For example, there are two high-level data frameworks (for Python and JavaScript) and low-level libraries for 10 platforms. On other hand, you might be interested in using our data services for discovering, storing or validating data. At the moment, we work hard on implementing Frictionless Application and Frictionless Repository which also have visual interfaces. To get started, choose the software you're interested in and follow its link to get to corresponding documentation.
+### Frictionless Software
 
-The [Standards](/standards) is also a vital part of the project. It helps to describe your data, for example, a collection of files as a data package or a table as a table schema. As a new user you might not need to dive to deep into the specifications as our software incapsulates its concepts. On the other hand, once you feel comfortable with Frictionless Software you might start reading Frictionless Standards to get better understanding of the things happening under the hood or to start creating your metadata descriptors more proficiently.
+The [software](/software) is based on a suite of data standards that have been designed to make it easy to describe data structure and content so that data is more interoperable, easier to understand, and quicker to use. There are several aspects to the Frictionless software, including two high-level data frameworks (for Python and JavaScript), 10 low-level libraries for other languages, like R, and also visual interfaces and applications. You can read more about how to use the software (and find documentation) on the [software](/software) page.
 
-## Where to apply Frictionless
+### Frictionless Standards 
 
-The Frictionless Data project is very diverse in terms of possible audience.
+The [Standards (aka Specifications)](/standards) help to describe data. The core specification is called a **Data Package**, which is a simple **container** format used to describe and package a collection of data files. The format provides a contract for data interoperability that supports frictionless delivery, installation and management of data.
+
+A Data Package can contain any kind of data. At the same time, Data Packages can be specialized and enriched for specific types of data so there are, for example, Tabular Data Packages for tabular data, Geo Data Packages for geo data, etc.
+
+To learn more about Data Packages and the other specifications, check out the [Standards](/standards) page or watch this video to learn more about the motivation behind packaging data.
+<iframe width="730" height="400" src="https://www.youtube.com/embed/lWHKVXxuci0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## How can I use Frictionless?
+
+You can use Frictionless to describe your data (add metadata and schemas), validate your data, and transform your data. You can also write custom data standards based on the Frictionless specifications. For example, you can use the Frictionless Software to:
+* easily add metadata to your data before you publish it.
+* quickly validate your data to check the data quality before you share it.
+* build a declarative pipeline to clean and process data before analyzing it.
+
+Usually, new users start by trying out either the [Software](/software) or data services. The software gives you an ability to work with Frictionless using visual interfaces or programming languages, and the services let you easily discover, store, or validate data.
+
+As a new user you might not need to dive to deep into the specifications as our software incapsulates its concepts. On the other hand, once you feel comfortable with Frictionless Software you might start reading Frictionless Standards to get better understanding of the things happening under the hood or to start creating your metadata descriptors more proficiently.
+
+## Who uses Frictionless?
+
+The Frictionless Data project has a very diverse audience, ranging from climate scientists, to humanities researchers, to government data centers.
 
 ![Audience](/img/introduction/audience.png)
 
-During our project development we had various collaborations with institutions and individuals. We keep track on our [Pilots](/tag/pilot) and [Case Studies](/tag/case-studies) and our community and core members are open to share their experience using our standards and software. Generally speaking, you can apply Frictionless almost in every field in which you need to have a deal with data. It might be a simple tables validation or complex data pipelines.
+During our project development we have had various collaborations with institutions and individuals. We keep track of our [Pilots](/tag/pilot) and [Case Studies](/tag/case-studies) with blog posts, and we welcome our community to share their experiences using our standards and software. Generally speaking, you can apply Frictionless in almost every field where you work with data. Your Frictionless use case could range from a simple data table validation to writing complex data pipelines.
 
 ## Ready for more? Keep Going!
 
