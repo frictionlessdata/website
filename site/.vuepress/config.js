@@ -1,4 +1,5 @@
 require("dotenv").config();
+const lodash = require("lodash");
 const webpack = require("webpack");
 
 module.exports = {
@@ -181,6 +182,13 @@ module.exports = {
       },
     ],
     [
+      "vuepress-plugin-feed",
+      {
+        canonical_base: "https://frictionlessdata.io",
+        sort: (entries) => lodash.reverse(lodash.sortBy(entries, "date")),
+      },
+    ],
+    [
       "vuepress-plugin-dehydrate",
       {
         // disable SSR
@@ -193,7 +201,6 @@ module.exports = {
         ],
       },
     ],
-    ["@vuepress/back-to-top"],
     [
       "@limdongjin/vuepress-plugin-simple-seo",
       {
@@ -201,6 +208,7 @@ module.exports = {
         default_image: "/img/frictionless-color-logo.png",
       },
     ],
+    ["@vuepress/back-to-top"],
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],
