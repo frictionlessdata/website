@@ -2,9 +2,19 @@
   <main class="blog-home" aria-labelledby="main-title">
     <div class="container">
       <h1 class="capitalize">Frictionless Blog</h1>
-      <h2 class="text-center pb-10 text-gray-600 mb-4" style="border-bottom:none">
+      <h2 class="text-center pb-6 text-gray-600 mb-4" style="border-bottom:none">
          Page {{$pagination.paginationIndex + 1 }} of {{$pagination.length}}
       </h2>
+      <div class="flex flex-wrap">
+        <a
+            v-for="button in buttons"
+            :key="button.url"
+            :href="button.url"
+            style="border:solid 1px #F2A85C"
+            class="mb-2 bg-transparent font-semibold py-2 px-4 mr-4 rounded">
+          {{ button.title }}
+        </a>
+      </div>
       <ul class="flex flex-col pl-0 pt-4" style="border-top:dashed 1px #888">
         <li v-for="page in $pagination.pages">
           <div class="container flex flex-row py-4 my-4" style="border-bottom:dashed 1px #888; margin-left: 0">
@@ -42,12 +52,26 @@
 import { formatDate } from '../util'
 import BlogTag from './BlogTag'
 
+const buttons = [
+  {title: 'Team', url: '/tag/team/'},
+  {title: 'News', url: '/tag/news/'},
+  {title: 'Events', url: '/tag/events/'},
+  {title: 'Pilots', url: '/tag/pilot/'},
+  {title: 'Tool Fund', url: '/tag/tool-fund/'},
+  {title: 'Case Studies', url: '/tag/case-studies/'},
+]
+
 export default {
   components: {
     BlogTag
   },
   methods: {
     formatDate
+  },
+  data () {
+    return {
+      buttons,
+    }
   }
 }
 </script>
