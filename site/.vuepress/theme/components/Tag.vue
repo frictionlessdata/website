@@ -2,7 +2,7 @@
   <main class="blog-home" aria-labelledby="main-title">
     <div class="container">
       <h1 class="capitalize">Frictionless Blog</h1>
-      <h2 class="text-center pb-10 capitalize text-gray-600 mb-4" style="border-bottom:none">
+      <h2 class="text-center pb-6 capitalize text-gray-600 mb-4" style="border-bottom:none">
         {{$page.frontmatter.title}}
         <a href="/blog/" title="Remove the filter"><small>[X]</small></a>
       </h2>
