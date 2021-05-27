@@ -5,7 +5,7 @@
       <h2 class="text-center pb-6 text-gray-600 mb-4" style="border-bottom:none">
          Page {{$pagination.paginationIndex + 1 }} of {{$pagination.length}}
       </h2>
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap" style="justify-content:flex-start">
         <a
             title="Filter by the tag"
             v-for="button in buttons"
