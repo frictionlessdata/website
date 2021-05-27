@@ -7,6 +7,7 @@
       </h2>
       <div class="flex flex-wrap">
         <a
+            title="Filter by the tag"
             v-for="button in buttons"
             :key="button.url"
             :href="button.url"
