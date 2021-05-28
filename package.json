@@ -8,12 +8,6 @@
     "docs": "bash scripts/docs.sh",
     "update": "ncu -u"
   },
-  "dependencies": {
-    "dotenv": "^10.0.0",
-    "markdown-it-footnote": "",
-    "mermaid": "^8.10.1",
-    "vue-typed-js": "^0.1.2"
-  },
   "devDependencies": {
     "@limdongjin/vuepress-plugin-simple-seo": "^1.0.4-alpha.5",
     "@vssue/api-github-v3": "^1.4.7",
@@ -21,10 +15,16 @@
     "@vuepress/plugin-back-to-top": "^1.8.2",
     "@vuepress/plugin-blog": "^1.9.4",
     "@vuepress/plugin-google-analytics": "^1.8.2",
+    "dotenv": "^10.0.0",
+    "lodash": "^4.17.21",
+    "markdown-it-footnote": "",
+    "mermaid": "^8.10.1",
     "npm-check-updates": "^11.5.13",
     "start-server-and-test": "^1.12.3",
     "tailwindcss": "^1.1.4",
+    "vue-typed-js": "^0.1.2",
     "vuepress": "^1.8.2",
-    "vuepress-plugin-dehydrate": "^1.1.5"
+    "vuepress-plugin-dehydrate": "^1.1.5",
+    "vuepress-plugin-feed": "^0.1.9"
   }
 }
