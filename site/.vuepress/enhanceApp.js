@@ -293,7 +293,7 @@ const redirectList = [
   },
   {
     path: "/guide/",
-    redirect: "/about/introduction/",
+    redirect: "/introduction/",
   },
   {
     path: "/table-schema/",
@@ -337,11 +337,11 @@ const redirectList = [
   },
   {
     path: "/team/",
-    redirect: "/about/people/",
+    redirect: "/people/",
   },
   {
     path: "/about/",
-    redirect: "/work-with-us/mission/",
+    redirect: "/introduction/",
   },
   {
     path: "/support/",
