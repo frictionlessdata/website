@@ -51,6 +51,6 @@ The Frictionless Data project has a very diverse audience, ranging from climate 
 
 During our project development we have had various collaborations with institutions and individuals. We keep track of our [Pilots](/tag/pilot) and [Case Studies](/tag/case-studies) with blog posts, and we welcome our community to share their experiences using our standards and software. Generally speaking, you can apply Frictionless in almost every field where you work with data. Your Frictionless use case could range from a simple data table validation to writing complex data pipelines.
 
-## Ready for more? Keep Going!
+## Ready for more?
 
 As a next step, we recommend you start using one of our [Software](/software) projects, get known our [Standards](/standards) or read about other user experience in [Pilots](/tag/pilot) and [Case Studies](/tag/case-studies) sections. Also, we welcome you to [reach out](https://discordapp.com/invite/Sewv6av) to say hi or ask questions!
