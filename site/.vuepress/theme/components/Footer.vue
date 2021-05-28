@@ -36,7 +36,7 @@
             {{ $site.themeConfig.footer_col4_row2 }}</a>
           <li>
           <li class="pt-4">
-            <a href="https://github.com/frictionlessdata/" class="font-light text-base">
+            <a href="https://github.com/frictionlessdata" class="font-light text-base">
               <img class="pr-2 align-middle social-link-icon" src="/img/home/github.svg" />
               {{ $site.themeConfig.footer_col4_row1 }}
             </a>

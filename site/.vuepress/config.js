@@ -76,7 +76,7 @@ module.exports = {
     logo: "/img/frictionless-color-full-logo.svg",
     // repo: "https://github.com/frictionlessdata",
     // repoLabel: "GitHub",
-    docsRepo: "https://github.com/frictionlessdata/website-v2",
+    docsRepo: "https://github.com/frictionlessdata/website",
     docsDir: "site",
     lastUpdated: "Last Updated",
     // defaults to false, set to true to enable
@@ -108,7 +108,7 @@ module.exports = {
     navbar_icon2_link: "https://twitter.com/frictionlessd8a",
     navbar_icon2_image: "/img/home/twitter-icon.svg",
     navbar_icon2_title: "Twitter",
-    navbar_icon3_link: "https://github.com/frictionlessdata/project/",
+    navbar_icon3_link: "https://github.com/frictionlessdata",
     navbar_icon3_image: "/img/home/github-icon.svg",
     navbar_icon3_title: "GitHub",
     sidebar: "auto",
