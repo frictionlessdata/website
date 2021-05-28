@@ -16,7 +16,7 @@ There are many ways to join the movement. If you are interested in working on Fr
 
 Frictionless Data has a small core team at the Open Knowledge Foundation and Datopian, and the project is supported by a large community of contributors.
 
-<div class="grid grid-cols-2 md:grid-cols-3">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
   <TeamProfile
       v-for="profile in team"
       :key="profile.name"
@@ -27,7 +27,7 @@ Frictionless Data has a small core team at the Open Knowledge Foundation and Dat
 
 Frictionless data has funded international partners who have worked in developing various tools and libraries for the project and they are featured below.
 
-<div class="grid grid-cols-2 md:grid-cols-3">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
   <TeamProfile
     v-for="profile in toolFundPartners"
     :key="profile.name"
@@ -38,7 +38,7 @@ Frictionless data has funded international partners who have worked in developin
 
 The Frictionless Data for Reproducible Research Fellows are early career researchers that are being trained to become champions of the Frictionless Data tools and approaches in their fields of research.
 
-<div class="grid grid-cols-2 md:grid-cols-3">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
   <TeamProfile
       v-for="profile in fellows"
       :key="profile.name"
