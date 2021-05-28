@@ -18,7 +18,11 @@ The Frictionless Data project aims to make it easier to work with data - by redu
 
 The [software](/software) is based on a suite of data standards that have been designed to make it easy to describe data structure and content so that data is more interoperable, easier to understand, and quicker to use. There are several aspects to the Frictionless software, including two high-level data frameworks (for Python and JavaScript), 10 low-level libraries for other languages, like R, and also visual interfaces and applications. You can read more about how to use the software (and find documentation) on the [software](/software) page.
 
-### Frictionless Standards 
+For example, here is a validation report created by the [Fricitonless Repository](https://repository.frictionlessdata.io/) software. Data validation is one of the main focuses of Frictionless Data and this is a good visual representation of how the project might help to reveal common problems working with data.
+
+![Report](/img/introduction/report.png)
+
+### Frictionless Standards
 
 The [Standards (aka Specifications)](/standards) help to describe data. The core specification is called a **Data Package**, which is a simple container format used to describe and package a collection of data files. The format provides a contract for data interoperability that supports frictionless delivery, installation and management of data.
 
