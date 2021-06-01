@@ -1,5 +1,5 @@
 ---
-title: Frictionless Data April 2021 Virtual Hangout
+title: Frictionless Data May 2021 Virtual Hangout
 date: 2021-06-01
 tags: ['events', 'community-hangout']
 category: events
@@ -29,4 +29,5 @@ On a final note, here is the recording of the full call:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/uC-whhwGiqk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <p>&nbsp;</p>
+
 As usual, you can join us on [Discord](https://discord.com/invite/j9DNFNw) or [Twitter](https://twitter.com/frictionlessd8a) to say hi or ask any questions. See you there!
