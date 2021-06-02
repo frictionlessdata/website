@@ -112,7 +112,7 @@ features:
           <img class="w-20 mx-auto" src="/img/home/datahub-new2.svg"></img>
         </div>
         <div class="card-details text-center pt-10">
-          <a href="/tooling/goodtables/" class="text-xl text-black hover:underline">DataHub</a>
+          <a href="/tooling/datahub/" class="text-xl text-black hover:underline">DataHub</a>
           <p class="text-lg font-light pt-4">Publish and find data on the next generation data platform.</p>
           <a href="/tooling/datahub/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
