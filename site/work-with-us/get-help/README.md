@@ -1,8 +1,9 @@
-# Need Help?
+# Need Help? 
+<p class="font-light text-xl"> We're happy to provide support! Please reach out to us by using one of the following methods:</p>
 
 ## Community Support
 
-Ask in the [Chat room](https://discordapp.com/invite/Sewv6av) or start a thread in the [GitHub Discussions](https://github.com/frictionlessdata/project/discussions). Frictionless is a big community that consists of people having different expertise in differend domains. Feel free to ask questions!
+Ask in the [Chat room](https://discordapp.com/invite/Sewv6av) or start a thread in the [GitHub Discussions](https://github.com/frictionlessdata/project/discussions). Frictionless is a big community that consists of people having different expertise in different domains. Feel free to ask questions!
 
 ## School of Data
 

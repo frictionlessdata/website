@@ -11,7 +11,7 @@
         <div class="box-border bottom-padding w-full sm:w-1/2 lg:w-1/5">
           <div class="footer-title font-normal text-xl pb-2 xs:pt-4"> {{ $site.themeConfig.footer_col1_title }} </div>
           <li class="pt-4"><a href="/about/" class=""> {{ $site.themeConfig.footer_col1_row1 }} </a><li>
-          <li class="pt-4"><a href="/team" class=""> {{ $site.themeConfig.footer_col1_row2 }} </a></li>
+          <li class="pt-4"><a href="/work-with-us/get-help/" class=""> {{ $site.themeConfig.footer_col1_row2 }} </a></li>
           <li class="pt-4"><a href="https://okfn.org/terms-of-use/" class=""> {{ $site.themeConfig.footer_col1_row3 }} </a></li>
           <li class="pt-4"><a href="https://okfn.org/privacy-policy/" class=""> {{ $site.themeConfig.footer_col1_row4 }} </a></li>
         </div>

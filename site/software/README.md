@@ -6,15 +6,15 @@ title: Frictionless Software
 
 <big><strong>Open source software for working with data.</strong></big>
 
-The Frictionless Data projects provides a rich set of open source software for working with data. There are tools, a visual application, and software for many programming platforms.
+The Frictionless Data project provides a rich set of open source software for working with data. There are tools, a visual application, and software for many programming platforms.
 
 :::tip
-This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below and you will be redirected to a corresponding documentation site.
+This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below and you will be redirected to the corresponding documentation site.
 :::
 
-## Coding Software
+## Code and Software Libraries
 
-The Frictionless Data project provides various frameworks and libraries for low-level data interactions. If you want to use or write Frictionless code, this section is for you.
+The Frictionless Data project provides various frameworks and libraries for interacting with data. If you want to use or write Frictionless code, this section is for you.
 
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
@@ -48,16 +48,16 @@ The Frictionless Data project provides various frameworks and libraries for low-
      <img src="/img/software/components.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Components</h3>
    </a>
-   <p>Set of React components to visualize your metadata and data. Easy to integrate to your application.</p>
+   <p>A set of React components that are quick to integrate into your application for working with data and metadata.</p>
  </div>
 </div>
 
 </div>
 </div>
 
-## Visual Software
+## Applications and Platforms
 
-The Frictionless Data project provides data tools and visual applications to work with data. If you prefer working with data using a visual interface or service, this section is for you.
+The Frictionless Data project provides data tools and applications to work with data. If you prefer working with data using an interface or service, this section is for you.
 
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">

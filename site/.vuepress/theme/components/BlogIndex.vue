@@ -2,10 +2,8 @@
   <main class="blog-home" aria-labelledby="main-title">
     <div class="container">
       <h1 class="capitalize">Frictionless Blog</h1>
-      <h2 class="text-center pb-6 text-gray-600 mb-4" style="border-bottom:none">
-         Page {{$pagination.paginationIndex + 1 }} of {{$pagination.length}}
-      </h2>
-      <div class="flex flex-wrap" style="justify-content:flex-start">
+      <p class="font-light text-xl text-center">Learn more about Frictionless projects, events, and news!</p>
+      <div class="flex flex-wrap" style="justify-content:center">
         <a
             title="Filter by the tag"
             v-for="button in buttons"
@@ -16,6 +14,9 @@
           {{ button.title }}
         </a>
       </div>
+      <p class="text-center pb-6 text-gray-600">
+         Page {{$pagination.paginationIndex + 1 }} of {{$pagination.length}}
+      </p>
       <ul class="flex flex-col pl-0 pt-4" style="border-top:dashed 1px #888">
         <li v-for="page in $pagination.pages">
           <div class="container flex flex-row py-4 my-4" style="border-bottom:dashed 1px #888; margin-left: 0">

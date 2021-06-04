@@ -6,7 +6,7 @@
           <p class="">{{ $site.themeConfig.footer_col1_title }}</p>
           <ul class="">
             <li><a href="/about/">{{ $site.themeConfig.footer_col1_row1 }}</a></li>
-            <li><a href="/team/">{{ $site.themeConfig.footer_col1_row2 }}</a></li>
+            <li><a href="/work-with-us/get-help/">{{ $site.themeConfig.footer_col1_row2 }}</a></li>
             <li><a href="https://okfn.org/privacy-policy/">{{ $site.themeConfig.footer_col1_row4 }}</a></li>
             <li><a href="https://okfn.org/terms-of-use/">{{ $site.themeConfig.footer_col1_row3 }}</a></li>
           </ul>

@@ -6,7 +6,7 @@ title: Frictionless People
 
 <big><strong>People working on the Frictionless Data project.</strong></big>
 
-Frictionless Data is a collective effort made by many amazing people working on various projects. We're a programming engineers, data scientists, and, in general, people who are interested in working towards a fair, free and open future.
+Frictionless Data is a collective effort made by many amazing people working on various projects. We're a group of programming engineers, data scientists, and, in general, people who are interested in working towards a fair, free and open future.
 
 :::tip
 There are many ways to join the movement. If you are interested in working on Frictionless Data don't hesitate and contact the Frictionless Team using any available contact provided on this site.
@@ -25,7 +25,7 @@ Frictionless Data has a small core team at the Open Knowledge Foundation and Dat
 
 ## Tool Fund Partners
 
-Frictionless data has funded international partners who have worked in developing various tools and libraries for the project and they are featured below.
+Frictionless data has funded international partners who have worked to develop various tools and libraries for the project, and they are featured below. You can read more about their individual projects on the [Adoption page](/adoption/).
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
   <TeamProfile
@@ -36,7 +36,7 @@ Frictionless data has funded international partners who have worked in developin
 
 ## Fellows Programme
 
-The Frictionless Data for Reproducible Research Fellows are early career researchers that are being trained to become champions of the Frictionless Data tools and approaches in their fields of research.
+The Frictionless Data for Reproducible Research Fellows are early career researchers that are being trained to become champions of the Frictionless Data tools and approaches in their fields of research. You can read more about the Fellows on the [Fellows site](https://fellows.frictionlessdata.io/).
 
 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
   <TeamProfile
@@ -47,7 +47,7 @@ The Frictionless Data for Reproducible Research Fellows are early career researc
 
 ## Contributors
 
-Frictionless Data is a collective effort made by many great people working on various projects. You can click on the pictures below to see their code contributions in detail. It's only a subset of all the people working on the project, please take a look on our [Github Organization](https://github.com/frictionlessdata).
+Frictionless Data is a collective effort made by many great people working on various projects. You can click on the pictures below to see their code contributions in detail. This is only a subset of all the people working on the project - please take a look on our [Github Organization](https://github.com/frictionlessdata).
 
 <p><strong><big>project</big></strong></p>
 <a href="https://github.com/frictionlessdata/project/graphs/contributors" title="Open a Github repo">
@@ -246,8 +246,8 @@ team = team.concat([
 team = team.concat([
 	{
 		name: 'Sébastien Lavoie',
-		city: 'Canada',
-		languages: ['en'],
+		city: 'Mexico City, Mexico',
+		languages: ['en', 'es'],
 		github: 'sglavoie',
 		work: {
 			role: 'Product Manager',
@@ -602,7 +602,7 @@ fellows = fellows.concat([
 fellows = fellows.concat([
 	{
 		name: 'Daniel Ouso',
-		city: 'Nigeria',
+		city: 'Kenya',
 		github: 'ousodaniel',
 		work: {
       role: 'Reproducible Research Fellow 2019-2020'
