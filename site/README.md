@@ -7,11 +7,11 @@ heroText: The frictionless toolkit for data integration
 tagline: Frictionless is an open-source toolkit that brings simplicity to the data experience - whether you're wrangling a CSV or engineering complex pipelines.
 features:
 - title: Approachable
-  details: Lean and minimal core. Quick to understand, quick to use.
+  details: A lean and minimal core. Quick to understand, quick to use.
 - title: Incrementally Adoptable
   details: Start with just what you need, scale as you grow.
 - title: Progressive
-  details: We enhance rather than replace your existing tools and workflows.
+  details: Enhance, rather than replace, your existing tools and workflows.
 ---
 
 
@@ -26,7 +26,7 @@ features:
             <h3>Frictionless Software</h3>
             <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/software_crop.png" height="175"></img>
         </a>
-          <p class="text-lg font-light pt-4">The Frictionless Data projects provides a rich set of open source software for working with data, including tooling and software in many programming languages.</p>
+          <p class="text-lg font-light pt-4">The Frictionless Data projects provides a rich set of open source tools and software in many programming languages for working with data.</p>
           <a href="/software/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
       </div>
@@ -36,7 +36,7 @@ features:
             <h3>Frictionless Standards</h3>
             <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/standards_crop.png" height="175"></img>
         </a>
-          <p class="text-lg font-light pt-4">The Frictionless Data project is built on top of the Frictionless Standards. These are a set of specifications that standardize working with various types of data.</p>
+          <p class="text-lg font-light pt-4">The Frictionless Data project is built on top of the Frictionless Standards: a set of specifications that standardize working with various types of data.</p>
           <a href="/standards/" class="text-base hover:underline">Read more &raquo;</a>
         </div>
       </div>
@@ -73,7 +73,7 @@ features:
 
 <div class="main-section py-10 black-text">
   <div class="mx-auto lg:w-3/5 text-center font-normal">
-    <h1 class="text-3xl lg:px-40" id="more">Data Integration and Management</h1><br/><small class="font-light text-xl">Data integration is the job of bringing complex data together, cleaning it up, knitting it together and pushing it into downstream applications, analytics or warehouses – and doing this reliably, repeatedly and automatedly.</small><hr class="mt-4">
+    <h1 class="text-3xl lg:px-40" id="more">Frictionless Data Integration and Management</h1><br/><small class="font-light text-xl">Data integration is the job of bringing complex data together, cleaning it up, knitting it together and pushing it into downstream applications, analytics or warehouses – and you can do this reliably, repeatedly and automatedly with Frictionless.</small><hr class="mt-4">
   </div>
   <div class="flex flex-row flex-wrap w-3/4 mx-auto">
     <div class="lg:flex-1 flex-col pt-10">
@@ -82,8 +82,8 @@ features:
           <img class="w-2/3 pt-4 pl-8 sm:px-0" src="/img/home/sourcing-data.svg" />
         </div>
         <div class="">
-          <h3 class="font-normal"> Sourcing Data </h3>
-          <p class="xxl:w-2/3"> Data integration work will require a way to reliably discover internal and external data assets. </p>
+          <h3 class="font-normal"> Packaging Data </h3>
+          <p class="xxl:w-2/3"> Package data with its metadata and schema for increased usability and clarity. </p>
         </div>
       </div>
       <div class="flex flex-row flex-wrap sm:flex-no-wrap">
@@ -92,7 +92,7 @@ features:
         </div>
         <div class="">
           <h3 class="font-normal"> Transforming Data </h3>
-          <p class="xxl:w-2/3"> Data often requires some cleaning (transformation) and conversions from one format to another. </p>
+          <p class="xxl:w-2/3"> Data often requires some transformations, like cleaning or conversions from one format to another. </p>
         </div>
       </div>
       <div class="flex flex-row flex-wrap sm:flex-no-wrap">
@@ -101,7 +101,7 @@ features:
         </div>
         <div class="">
           <h3 class="font-normal"> Pushing and Storing Data </h3>
-          <p class="xxl:w-2/3"> With the data explosion it has become a job in itself to manage data - to push and store data. </p>
+          <p class="xxl:w-2/3"> Frictionless has several plugins for accessing and storing data, for example in a SQL database. </p>
         </div>
       </div>
     </div>
@@ -133,23 +133,20 @@ features:
   <div class="features flex flex-row flex-wrap lg:px-40">
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
-        <img class="rounded-full" src="/img/blog/ori-hoch-image.png" height="100" />
-        <h3 class="font-normal">Ori Hoch</h3>
-        <p>I first heard about the Frictionless Data ecosystem from my activity in The Public Knowledge Workshop where I worked with Adam Kariv and Paul Walsh. Having the core Frictionless Data libraries available in different languages will allow for easier interoperability and integrations between sources.</p>
+        <p class="font-light text-lg">"The Frictionless Data stack is proving itself to be a solid foundation on which to build the next wave of open data. It promotes FAIR data from inception in order to build modern Open Data Portals!"</p>
+        <p>- Francisco Alves, Frictionless Contributor</p>
       </div>
     </div>
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
-        <img class="rounded-full" src="/img/blog/stephanmax.jpg" height="100" />
-        <h3 class="font-normal">Stephan Max</h3>
-        <p>I’ve been following the work of the Open Knowledge Foundation for a while now and contributed to the German branch as a mentor for the teenage hackathon weekends project “Jugend Hackt”. I first heard about the Frictionless Data program when the OKF announced funding by the Sloan Foundation in 2018.</p>
+        <p class="font-light text-lg">"Frictionless is the happy mix of being easy to understand and use along with being extensible and open, it's pretty much the perfect way of bundling data and metadata together. Don't leave home without it :-)"</p>
+        <p>- Simon Tyrrell, Frictionless Tool Fund Grantee</p>
       </div>
     </div>
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
-        <img class="rounded-full" src="/img/blog/georges-labreche-image.png" height="100" />
-        <h3 class="font-normal">Georges Labrèche</h3>
-        <p>I was just really excited about using the already available Frictionless Data Python library for a procurement data importer we were working on for an OCDS project. My organization has liberated public procurement datasets that we’ve transformed into an open format but without any strong data processing methodology.</p>
+        <p class="font-light text-lg">"Data standards are a powerful instrument to support the next generation of users, develop compelling use cases and define new ecosystems, to build platforms and start companies. Frictionless Data has helped us to achieve all of the above."</p>
+        <p> - Oleg Lavrovsky, Frictionless Tool Fund Grantee </p>
       </div>
     </div>
   </div>
