@@ -6,15 +6,15 @@ title: Frictionless Adoption
 
 <big><strong>Projects and collaborations that use Frictionless.</strong></big>
 
-The Frictionless Data project provides software and standards to work with data. On this page we'de like to share projects and collaborations using Frictionless. There are pilots curated by the Frictionless Team and community projects that uses our toolkit.
+The Frictionless Data project provides software and standards to work with data. On this page we share projects and collaborations that use Frictionless, including collaborations curated with the Frictionless Team and also community projects that use our toolkit.
 
 :::tip
 If you use Frictionless in your work and want to share it with community, please write to the Frictionless Team using any available contact provided on this site and we will add your project to this page.
 :::
 
-## Community Pilots
+## Pilot Collaborations
 
-At Frictionless Data we work closely with data reaserachers and institutions helping them to integrate Frictionless into their workflow.
+We work closely with data researchers and institutions to help them integrate Frictionless into their workflow. Click on individual Pilots to learn more.
 
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
@@ -42,13 +42,24 @@ At Frictionless Data we work closely with data reaserachers and institutions hel
 </div>
 
 <!-- Dryad -->
-<div class="w-full md:w-1/3 feature flex justify-center" style="opacity:0.33">
+<div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="/blog/" target="_blank">
-     <img src="/img/software/coming-soon.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+   <a href="https://blog.okfn.org/2020/11/18/dryad-and-frictionless-data-collaboration/" target="_blank">
+     <img src="/img/adoption/dryad.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Dryad</h3>
    </a>
-   <p>The Dryad is a curated resource that makes research data discoverable, freely reusable, and citable. </p>
+   <p>A pilot to add Frictionless Data Validation within Dryad, a curated resource that makes research data discoverable, freely reusable, and citable. </p>
+ </div>
+</div>
+
+<!-- Oxford Phil DRG -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://blog.okfn.org/2020/07/21/clarifying-the-semantics-of-data-matrices-and-results-tables-a-frictionless-data-pilot/" target="_blank">
+     <img src="/img/adoption/oxford-drg.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Data Readiness Group</h3>
+   </a>
+   <p>A pilot with Dr. Philippe Rocca-Serra at Oxford's Data Readiness Group to remove the friction in reported scientific experimental results by applying the Data Package specifications.</p>
  </div>
 </div>
 
@@ -57,7 +68,7 @@ At Frictionless Data we work closely with data reaserachers and institutions hel
 
 ## Community Projects
 
-The Frictionless Data project develops open source standards and software that can be re-used by anyone. Here is a list of project created on top of Frictionless.
+The Frictionless Data project develops open source standards and software that can be re-used by anyone. Here is a list of projects that our community has created on top of Frictionless. If you would like your project to be featured here, let us know!
 
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
@@ -131,29 +142,36 @@ The Frictionless Data project develops open source standards and software that c
 </div>
 </div>
 
+## Grant-funded work
 
-## Reproducible Research
+### Frictionless Data for Reproducible Research
 
-### The Plan
+From September 2018 til December 2021, the Frictionless Data team focused on enhanced dissemination and training activities, and further iterations on our software and specifications via a range of collaborations with research partners. We aimed to use Frictionless tooling to resolve research data workflow issues, create a new wave of open science advocates, and teach about FAIR data management. This pivotal work was funded by the Alfred P. Sloan Foundation and overseen by the Frictionless team at the Open Knowledge Foundation. You can read more details about this grant [here](https://blog.okfn.org/2018/07/12/sloan-foundation-funds-frictionless-data-for-reproducible-research/).
 
-From September 2018 and over a period of three years, the Frictionless Data team will focus on enhanced dissemination and training activities, and further iterations on our [software](https://frictionlessdata.io/software/) and [specifications](https://frictionlessdata.io/specs/) via a range of deep [pilot projects](https://frictionlessdata.io/articles/) with research partners.
+#### Pilot Collaborations
 
-### FAIR Data
+Pilots are intensive, hands-on collaborations with researcher teams to resolve their research data management workflow issues with Frictionless Data software and specs. You can read about the Pilot projects on our [blog](/tag/pilot/).
 
-At the onset of this project, we spent time reflecting on [FAIR research principles in relation to Frictionless Data](https://blog.okfn.org/2018/08/14/frictionless-data-and-fair-research-principles/), and expounded on the concept of data packages as an example of FAIRness. [Serah Rono's talk from FORCE 2018](https://youtu.be/3Ranx9Jz0Ro) summarises our work and vision for this project.
+#### Tool Fund
 
-### Collaboration
+The Tool Fund is a $5000 grant to develop an open tool for reproducible science or research built using the Frictionless Data codebase. Learn more by reading [Tool Fund Blogs](/tag/tool-fund/) or by visiting the [Tool Fund site](https://toolfund.frictionlessdata.io/).
 
-We welcome questions, suggestions and invitations to collaborate from research communities in various domains. All correspondence sent to our team via [frictionlessdata@okfn.org](mailto:frictionlessdata@okfn.org) will be carefully mulled over and responded to.
-
-### Pilots
-
-Pilots are intensive, hands-on collaborations with researcher teams to resolve their research data management workflow issues with Frictionless Data software and specs.
-
-### Tool Fund
-
-The Tool Fund is a $5000 grant to develope an open tool for reproducible science or research built using the Frictionless Data codebase. Learn more about the 2019 grantees and their projects <a href="https://blog.okfn.org/2019/07/04/meet-our-2019-frictionless-data-tool-fund-grantees/">here</a>.
-
-### Fellows Programme
+#### Fellows Programme
 
 The <a href="https://fellows.frictionlessdata.io/">Fellows Programme</a> is training early career researchers to become champions of the Frictionless Data tools and approaches in their field. Read more about the 2019-2020 Fellows <a href="https://blog.okfn.org/2019/08/29/a-warm-welcome-to-our-frictionless-data-for-reproducible-research-fellows/">here</a>.
+
+### Data Institutions - Website Update
+
+In 2021, we partnered with the Open Data Institute (ODI) to improve our existing documentation and add new features on Frictionless Data to create a better user experience for all. Working with a series of feedback sessions from our community members, we created our new [documentation portal](https://framework.frictionlessdata.io/) for the Frictionless Framework and several new tutorials. Read more about this grant [here](https://blog.okfn.org/2021/04/14/unveiling-the-new-frictionless-data-documentation-portal/).
+
+### Frictionless Field Guide
+
+In 2017, OKF received funding from the Open Data Institute to create a Frictionless Data Field Guide. This guide provided step-by-step instructions for improving data publishing workflows. The field guide introduced new ways of working informed by the Frictionless Data suite of software that data publishers can use independently, or adapt into existing personal and organisational workflows. You can read more details about this work [here](https://blog.okfn.org/2018/03/27/improving-your-data-publishing-workflow-with-the-frictionless-data-field-guide/).
+
+### Data Package Integrations
+
+In 2016, Google funded OKF to work on tool integration for Data Packages as part of our broader work on Frictionless Data to support the open data community. You can read more about this work [here](https://blog.okfn.org/2016/02/01/google-funds-frictionless-data-initiative-at-open-knowledge/).
+
+### Data Packages Development
+
+In 2016, OKF received funding from The Alfred P. Sloan Foundation to work on a broad range of activities to enable better research and more effective civic tech through Frictionless Data. The funding targeted standards work, tooling, and infrastructure around “data packages” as well as piloting and outreach activities to support researchers and civic technologists in addressing real problems encountered when working with data. You can read more about this work [here](https://blog.okfn.org/2016/02/29/sloan-foundation-funds-frictionless-data-tooling-and-engagement-at-open-knowledge/).
