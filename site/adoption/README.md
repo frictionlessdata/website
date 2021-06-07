@@ -6,7 +6,7 @@ title: Frictionless Adoption
 
 <big><strong>Projects and collaborations that use Frictionless.</strong></big>
 
-The Frictionless Data project provides software and standards to work with data. On this page we share projects and collaborations that use Frictionless, including collaborations curated with the Frictionless Team and also community projects that use our toolkit.
+The Frictionless Data project provides software and standards to work with data. On this page we share projects and collaborations that use Frictionless, including collaborations with the Frictionless Team and also community projects that use our toolkit.
 
 :::tip
 If you use Frictionless in your work and want to share it with community, please write to the Frictionless Team using any available contact provided on this site and we will add your project to this page.
@@ -62,6 +62,84 @@ We work closely with data researchers and institutions to help them integrate Fr
    <p>A pilot with Dr. Philippe Rocca-Serra at Oxford's Data Readiness Group to remove the friction in reported scientific experimental results by applying the Data Package specifications.</p>
  </div>
 </div>
+
+<!-- Data Management for TEDDINET -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/12/19/dm4t/" target="_blank">
+     <img src="/img/blog/dm4t.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Data Management for TEDDINET</h3>
+   </a>
+   <p>A pilot to use Frictionless Data approaches to address data legacy issues facing the TEDDINET project, a research network addressing the challenges of transforming energy demand in our buildings. </p>
+ </div>
+</div>
+
+<!-- Western Pennsylvania Regional Data Center -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/12/15/university-of-pittsburgh/" target="_blank">
+     <img src="/img/blog/uop-logo.jpg" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Western Pennsylvania Regional Data Center</h3>
+   </a>
+   <p>A pilot to showcase an implementation that expounds on quality and description of datasets in CKAN-based open data portals with the Western Pennsylvania Regional Data Center - a part of The University of Pittsburgh Center for Urban and Social Research. </p>
+ </div>
+</div>
+
+<!-- UK Data Service -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/12/12/ukds/" target="_blank">
+     <img src="/img/blog/ukds-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>UK Data Service</h3>
+   </a>
+   <p>A pilot to use Frictionless Data software to assess and report on data quality and make a case for generating visualizations with ensuing data and metadata with UK data. </p>
+ </div>
+</div>
+
+<!-- eLife -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/10/24/elife/" target="_blank">
+     <img src="/img/blog/elife-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>eLife</h3>
+   </a>
+   <p>A pilot to explore the use of goodtables library to validate all scientific research datasets hosted by eLife and make a case for open data reuse in the field of Life and BioMedical sciences. </p>
+ </div>
+</div>
+
+<!-- University of Cambridge - Retinal Mosaics -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/08/15/university-of-cambridge/" target="_blank">
+     <img src="/img/blog/cambridge.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>University of Cambridge - Retinal Mosaics</h3>
+   </a>
+   <p> A pilot to trial Frictionless software for packaging and reading data to support computational techniques to investigate development of the nervous system. </p>
+ </div>
+</div>
+
+<!-- Pacific Northwest National Laboratory - Active Data Biology -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="blog/2017/06/26/pacific-northwest-national-laboratory-active-data-biology/" target="_blank">
+     <img src="/img/blog/pnnl.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Pacific Northwest National Laboratory - Active Data Biology</h3>
+   </a>
+   <p> A pilot to explore the use of Frictionless Data's specifications and software to generate schemas for tabular data and validate metadata stored as part of a biological application on GitHub. </p>
+ </div>
+</div>
+
+<!-- Causa Natura - Pescando Datos -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/08/15/causa-natura-pescando-datos/" target="_blank">
+     <img src="/img/blog/causanatura.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Causa Natura - Pescando Datos</h3>
+   </a>
+   <p> A pilot to explore the use of data validation software in the Causa Natura project to improve quality of data to support fisher communities and advocacy groups. </p>
+ </div>
+</div>
+
 
 </div>
 </div>
