@@ -144,6 +144,126 @@ We work closely with data researchers and institutions to help them integrate Fr
 </div>
 </div>
 
+## Tool Fund Grantee Projects
+As part of the [Reproducible Research project](#frictionless-data-for-reproducible-research), we awarded several projects with small grants to build new tooling for open research based on the Frictionless codebase. Click on individual Tool Fund profiles to learn more.
+
+<div class="main-section black-text">
+<div class="features flex flex-row flex-wrap py-4">
+
+<!-- Schema Collaboration -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2021/01/18/schema-collaboration/" target="_blank">
+     <img src="/img/adoption/schema-collaboration.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;"" />
+     <h3>Schema Collaboration</h3>
+   </a>
+   <p>Data managers and researchers collaborate to write packages and tabular schemas (by Carles Pina Estany).</p>
+ </div>
+</div>
+
+<!-- Frictionless Data Package for InterMine -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2021/04/13/data-package-for-intermine/" target="_blank">
+     <img src="/img/blog/intermine.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Data Package for InterMine</h3>
+   </a>
+   <p>Add data package support to InterMine, an open-source  biological data warehouse (by Nikhil Vats).</p>
+ </div>
+</div>
+
+<!-- Frictionless Data for Wheat -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2021/03/05/frictionless-data-for-wheat/" target="_blank">
+     <img src="/img/blog/wheat.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Data for Wheat</h3>
+   </a>
+   <p>Added Frictionless support to the Designing Future Wheat project data portal which houses large-scale wheat datasets (by Simon Tyrrell and Xingdong Bian).</p>
+ </div>
+</div>
+
+<!-- Metrics in Context -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2020/09/17/tool-fund-metrics/" target="_blank">
+     <img src="/img/blog/metrics-spec.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Metrics in Context</h3>
+   </a>
+   <p>Developing an open standard to describe metadata of scholarly metrics by using Frictionless specifications (by Asura Enkhbayar).</p>
+ </div>
+</div>
+
+<!-- Analysis of spontaneous activity patterns in developing neural circuits using Frictionless Data tools -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2021/01/18/schema-collaboration/" target="_blank">
+     <img src="/img/blog/fd_reproducible.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Analysis of spontaneous activity patterns in developing neural circuits using Frictionless Data tools</h3>
+   </a>
+   <p>Evaluate the use of Frictionless Data as a common format for the analysis of neuronal spontaneous activity recordings in comparison to HDF5 (by Stephen Eglen and Alexander Shtyrov).</p>
+ </div>
+</div>
+
+<!-- Neuroscience Experiments System Tool Fund -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2020/01/23/nes-tool/" target="_blank">
+     <img src="/img/blog/nes_logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Neuroscience Experiments System Tool Fund</h3>
+   </a>
+   <p>Adapt the existing export component of RIDC NeuroMat's Neuroscience Experiments System to conform to the Frictionless Data specifications (by João Alexandre Peschanski, Cassiano dos Santos and Carlos Eduardo Ribas).</p>
+ </div>
+</div>
+
+<!-- Frictionless DarwinCore developed by André Heughebaert -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2020/01/22/frictionless-darwincore/" target="_blank">
+     <img src="/img/blog/fdwc.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless DarwinCore developed by André Heughebaert</h3>
+   </a>
+   <p>A tool to convert DarwinCore Archives into Frictionless Data Packages (by André Heughebaert).</p>
+ </div>
+</div>
+
+<!-- Frictionless Google Sheets Tool (WIP) -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2019/07/02/stephan-max/" target="_blank">
+     <img src="/img/blog/fd_reproducible.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Google Sheets Tool (WIP)</h3>
+   </a>
+   <p>Prototype a Data Package import/export add-on to Google Sheets (by Stephan Max).</p>
+ </div>
+</div>
+
+<!-- Frictionless Open Referral -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2020/01/22/open-referral-tool/" target="_blank">
+     <img src="/img/blog/OpenReferral.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Open Referral</h3>
+   </a>
+   <p>Implement datapackage bundling of Open Referral CSV files, which contain human health and social services data (by Shelby Switzer and Greg Bloom).</p>
+ </div>
+</div>
+
+<!-- Software Libraries work -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://blog.okfn.org/2017/07/03/frictionless-data-introducing-our-tool-fund-grantees/" target="_blank">
+     <img src="/img/software/libraries.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Software Libraries Grantees</h3>
+   </a>
+   <p>In 2017, 6 grantees were awared funds to translate the Frictionless Python libraries into other software languages. The awardees and languages were: Matt Thompson - Clojure; Ori Hoch - PHP; Daniel Fireman - Go; Georges Labrèche - Java; Oleg Lavrovsky - Julie; and Open Knowledge Greece - R. You can read more about them each on the <a href=
+    "/people/#tool-fund-partners">people page</a>.</p>
+ </div>
+</div>
+
+</div>
+</div>
+
 ## Community Projects
 
 The Frictionless Data project develops open source standards and software that can be re-used by anyone. Here is a list of projects that our community has created on top of Frictionless. If you would like your project to be featured here, let us know!
@@ -159,17 +279,6 @@ The Frictionless Data project develops open source standards and software that c
      <h3>Data Curator</h3>
    </a>
    <p>Data Curator is a simple desktop data editor to help describe, validate and share usable open data.</p>
- </div>
-</div>
-
-<!-- Schema Collaboration -->
-<div class="w-full md:w-1/3 feature flex justify-center">
- <div class="px-8 text-center">
-   <a href="/blog/2021/01/18/schema-collaboration/" target="_blank">
-     <img src="/img/adoption/schema-collaboration.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;"" />
-     <h3>Schema Collaboration</h3>
-   </a>
-   <p>Data managers and researchers collaborate to write packages and tabular schemas (by Carles Pina Estany).</p>
  </div>
 </div>
 
