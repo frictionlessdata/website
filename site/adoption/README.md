@@ -304,14 +304,69 @@ The Frictionless Data project develops open source standards and software that c
  </div>
 </div>
 
-<!-- Nimble Learn -->
+<!-- Nimble Learn DPM-->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2018/07/20/nimblelearn/" target="_blank">
+     <img src="/img/adoption/nimblelearn.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Nimble Learn - datapackage-m</h3>
+   </a>
+   <p>A set of functions written in Power Query M for working with Tabular Data Packages in Power BI Desktop and Power Query for Excel.</p>
+ </div>
+</div>
+
+<!-- Nimble Learn DPC -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
    <a href="/blog/2019/07/22/nimblelearn-dpc/" target="_blank">
      <img src="/img/adoption/nimblelearn.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>Nimble Learn</h3>
+     <h3>Nimble Learn - Datapackage-connector</h3>
    </a>
    <p>Power BI Custom Connector that loads one or more tables from Tabular Data Packages into Power BI.</p>
+ </div>
+</div>
+
+<!-- Zegami -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/09/28/zegami/" target="_blank">
+     <img src="/img/blog/zegami-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Zegami</h3>
+   </a>
+   <p>Zegami is using Frictionless Data specifications for data management and syntactic analysis on their visual data analysis platform.</p>
+ </div>
+</div>
+
+<!-- Center for Data Science and Public Policy, Workforce Data Initiative -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/08/15/center-for-data-science-and-public-policy-workforce-data-initiative/" target="_blank">
+     <img src="/img/blog/chicago.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Center for Data Science and Public Policy, Workforce Data Initiative</h3>
+   </a>
+   <p>Supporting state and local workforce boards in managing and publishing data.</p>
+ </div>
+</div>
+
+<!-- Cell Migration Standardization Organization -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/05/23/cmso/" target="_blank">
+     <img src="/img/blog/cmso-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Cell Migration Standardization Organization</h3>
+   </a>
+   <p>Using Frictionless Data specs to package cell migration data and load it into Pandas for data analysis and creation of visualizations.</p>
+ </div>
+</div>
+
+<!-- Collections as Data Facets - Carnegie Museum of Art Collection Data -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/08/09/collections-as-data/" target="_blank">
+     <img src="/img/blog/cmoa-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Collections as Data Facets - Carnegie Museum of Art Collection Data</h3>
+   </a>
+   <p>Use of Frictionless Data specifications in the release of Carnegie Museum of Arts’ Collection Data for public access & creative use.</p>
  </div>
 </div>
 
@@ -323,6 +378,72 @@ The Frictionless Data project develops open source standards and software that c
      <h3>OpenML</h3>
    </a>
    <p>OpenML is an online platform and service for machine learning, whose goal is to make ML and data analysis simple.</p>
+ </div>
+</div>
+
+<!-- The Data Retriever -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/05/24/the-data-retriever/" target="_blank">
+     <img src="/img/blog/data-retriever-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>The Data Retriever</h3>
+   </a>
+   <p>Data Retriever uses Frictionless Data specifications to generate and package metadata for publicly available data.</p>
+ </div>
+</div>
+
+<!-- Tesera -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2016/11/15/tesera/" target="_blank">
+     <img src="/img/blog/tesera-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Tesera</h3>
+   </a>
+   <p>Tesera uses Frictionless Data specifications to package data in readiness for use in different systems and components.</p>
+ </div>
+</div>
+
+<!-- data.world -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/04/11/dataworld/" target="_blank">
+     <img src="/img/blog/data-world-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>data.world</h3>
+   </a>
+   <p>data.world uses Frictionless Data specifications to generate schema and metadata related to an uploaded dataset and containerize all three in a Tabular Data Package.</p>
+ </div>
+</div>
+
+<!-- John Snow Labs -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2017/03/28/john-snow-labs/" target="_blank">
+     <img src="/img/blog/john-snow-labs-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>John Snow Labs</h3>
+   </a>
+   <p>John Snow Labs uses Frictionless Data specifications to avail data to users for analysis.</p>
+ </div>
+</div>
+
+<!-- Open Power System Data -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2016/11/15/open-power-system-data/" target="_blank">
+     <img src="/img/blog/opsd-logo.svg" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Open Power System Data</h3>
+   </a>
+   <p>Open Power System Data uses Frictionless Data specifications to avail energy data for analysis and modeling.</p>
+ </div>
+</div>
+
+<!-- Dataship -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2016/11/15/dataship/" target="_blank">
+     <img src="/img/blog/dataship-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Dataship</h3>
+   </a>
+   <p>Dataship used Frictionless Data specifications as the basis for its easy to execute, edit and share notebooks for data analysis.</p>
  </div>
 </div>
 
