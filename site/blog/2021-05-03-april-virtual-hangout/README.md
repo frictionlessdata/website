@@ -3,8 +3,8 @@ title: Frictionless Data April 2021 Virtual Hangout
 date: 2021-05-03
 tags: ['events', 'community-hangout']
 category: events
-image: /img/blog/community.jpg
-description:
+image: /img/blog/april.png
+description: On our last Frictionless Data community call on April 29 we had an interactive session with our great Frictionless Data Fellows.
 author: Sara Petti
 ---
 

@@ -78,7 +78,7 @@ We work closely with data researchers and institutions to help them integrate Fr
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
    <a href="/blog/2017/12/15/university-of-pittsburgh/" target="_blank">
-     <img src="/img/blog/uop-logo.jpg" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <img src="/img/blog/uop-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Western Pennsylvania Regional Data Center</h3>
    </a>
    <p>A pilot to showcase an implementation that expounds on quality and description of datasets in CKAN-based open data portals with the Western Pennsylvania Regional Data Center - a part of The University of Pittsburgh Center for Urban and Social Research. </p>
@@ -154,7 +154,7 @@ As part of the [Reproducible Research project](#frictionless-data-for-reproducib
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
    <a href="/blog/2021/01/18/schema-collaboration/" target="_blank">
-     <img src="/img/adoption/schema-collaboration.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;"" />
+     <img src="/img/adoption/schema-collaboration.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Schema Collaboration</h3>
    </a>
    <p>Data managers and researchers collaborate to write packages and tabular schemas (by Carles Pina Estany).</p>
@@ -429,7 +429,7 @@ The Frictionless Data project develops open source standards and software that c
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
    <a href="/blog/2016/11/15/open-power-system-data/" target="_blank">
-     <img src="/img/blog/opsd-logo.svg" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <img src="/img/blog/opsd-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Open Power System Data</h3>
    </a>
    <p>Open Power System Data uses Frictionless Data specifications to avail energy data for analysis and modeling.</p>

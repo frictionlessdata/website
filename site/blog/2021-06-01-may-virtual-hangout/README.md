@@ -3,8 +3,8 @@ title: Frictionless Data May 2021 Virtual Hangout
 date: 2021-06-01
 tags: ['events', 'community-hangout']
 category: events
-image: /img/blog/community.jpg
-description:
+image: /img/blog/may.png
+description: On our last Frictionless Data community call on May 29 we had Simon Tyrrell and Xingdong Bian from the Earlham Institute giving a presentation on Frictionless Data for Wheat.
 author: Sara Petti
 ---
 On our last Frictionless Data community call on May 29<sup>th</sup> we had Simon Tyrrell and Xingdong Bian from the Earlham Institute giving a presentation on Frictionless Data for Wheat. The project was developed during the Frictionless Toolfund 2020-2021.
@@ -20,7 +20,7 @@ We are super happy to share with you [Frictionless Repository - a Github Action 
 We are actively looking for feedback, so please let us know what you think.
 # Join us next month!
 
-Our next meeting will be on June 24<sup>th</sup>. We will hear a presentation from 
+Our next meeting will be on June 24<sup>th</sup>. We will hear a presentation from
 Nikhil Vats on Frictionless Data Package for InterMine. You can sign up [here.](https://docs.google.com/forms/d/e/1FAIpQLSeuNCopxXauMkrWvF6VHqOyHMcy54SfNDOseVXfWRQZWkvqjQ/viewform?usp=sf_link)
 
 Do you want to share something with the community? Let us know when you sign up!
