@@ -133,7 +133,7 @@ features:
   <div class="features flex flex-row flex-wrap lg:px-40">
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
-        <img class="rounded-full" src="/img/blog/ori-hoch-image.png" height="100" />
+        <img class="rounded-full" src="/img/home/francisco-alvez.png" height="100" />
         <p class="font-light text-lg">"The Frictionless Data stack is proving itself to be a solid foundation on which to build the next wave of open data. It promotes FAIR data from inception in order to build modern Open Data Portals!"</p>
         <p>- Francisco Alves, Frictionless Contributor</p>
       </div>
@@ -148,7 +148,7 @@ features:
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
         <img class="rounded-full" src="/img/home/oleg-lavrovsky.png" height="100" />
-        <p class="font-light text-lg">"Data standards are a powerful instrument to support the next generation of users, develop compelling use cases and define new ecosystems, to build platforms and start companies. Frictionless Data has helped us to achieve all of the above."</p>
+        <p class="font-light text-lg">"Data standards are a powerful instrument to support the next generation of users, develop compelling use cases and define new ecosystems that create jobs. Frictionless Data has helped us to achieve all of the above."</p>
         <p> - Oleg Lavrovsky, Frictionless Tool Fund Grantee </p>
       </div>
     </div>
