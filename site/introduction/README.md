@@ -41,7 +41,7 @@ You can use Frictionless to describe your data (add metadata and schemas), valid
 
 Usually, new users start by trying out either the [software](/software/#coding-software) or [applications](/software/#visual-software). The software gives you an ability to work with Frictionless using visual interfaces or programming languages, and the applications let you easily discover, store, or validate data.
 
-As a new user you might not need to dive too deeply into the [specifications](/standards) as our software incapsulates its concepts. On the other hand, once you feel comfortable with Frictionless Software you might start reading Frictionless Standards to get better understanding of the things happening under the hood or to start creating your metadata descriptors more proficiently.
+As a new user you might not need to dive too deeply into the [specifications](/standards) as our software incapsulates its concepts. On the other hand, once you feel comfortable with Frictionless Software you might start reading Frictionless Standards to get a better understanding of the things happening under the hood or to start creating your metadata descriptors more proficiently.
 
 ## Who uses Frictionless?
 

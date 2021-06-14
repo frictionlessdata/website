@@ -3,7 +3,7 @@
 
 ## Community Support
 
-Ask in the [Chat room](https://discordapp.com/invite/Sewv6av) or start a thread in the [GitHub Discussions](https://github.com/frictionlessdata/project/discussions). Frictionless is a big community that consists of people having different expertise in different domains. Feel free to ask questions!
+Ask in the [Chat room](https://discordapp.com/invite/Sewv6av) or start a thread in [GitHub Discussions](https://github.com/frictionlessdata/project/discussions). Frictionless is a big community that consists of people having different expertise in different domains. Feel free to ask questions!
 
 ## School of Data
 

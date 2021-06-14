@@ -216,12 +216,12 @@ As part of the [Reproducible Research project](#frictionless-data-for-reproducib
  </div>
 </div>
 
-<!-- Frictionless DarwinCore developed by André Heughebaert -->
+<!-- Frictionless DarwinCore -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
    <a href="/blog/2020/01/22/frictionless-darwincore/" target="_blank">
      <img src="/img/blog/fdwc.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>Frictionless DarwinCore developed by André Heughebaert</h3>
+     <h3>Frictionless DarwinCore</h3>
    </a>
    <p>A tool to convert DarwinCore Archives into Frictionless Data Packages (by André Heughebaert).</p>
  </div>
@@ -466,7 +466,7 @@ The Tool Fund is a $5000 grant to develop an open tool for reproducible science 
 
 #### Fellows Programme
 
-The <a href="https://fellows.frictionlessdata.io/">Fellows Programme</a> is training early career researchers to become champions of the Frictionless Data tools and approaches in their field. Read more about the 2019-2020 Fellows <a href="https://blog.okfn.org/2019/08/29/a-warm-welcome-to-our-frictionless-data-for-reproducible-research-fellows/">here</a>.
+The [Fellows Programme](https://fellows.frictionlessdata.io/)</a> trains early career researchers to become champions of the Frictionless Data tools and approaches in their field. Read more about the Programme, including Fellows biographies and the programme syllabus, on the [Fellows website](https://fellows.frictionlessdata.io/)
 
 ### Data Institutions - Website Update
 

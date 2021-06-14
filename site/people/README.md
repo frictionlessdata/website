@@ -6,7 +6,7 @@ title: Frictionless People
 
 <big><strong>People working on the Frictionless Data project.</strong></big>
 
-Frictionless Data is a collective effort made by many amazing people working on various projects. We're a group of programming engineers, data scientists, and, in general, people who are interested in working towards a fair, free and open future.
+Frictionless Data is a collective effort made by many amazing people working on various projects. We're a group of programming engineers, data scientists, community builders, and, in general, people who are interested in working towards a fair, free and open future.
 
 :::tip
 There are many ways to join the movement. If you are interested in working on Frictionless Data don't hesitate and contact the Frictionless Team using any available contact provided on this site.
@@ -45,9 +45,9 @@ The Frictionless Data for Reproducible Research Fellows are early career researc
       :profile="profile" />
 </div>
 
-## Contributors
+## Code Contributors
 
-Frictionless Data is a collective effort made by many great people working on various projects. You can click on the pictures below to see their code contributions in detail. This is only a subset of all the people working on the project - please take a look on our [Github Organization](https://github.com/frictionlessdata).
+Frictionless Data is possible due to our awesome contributor community. You can click on the pictures below to see code contributions in detail. This is only a subset of all the people working on the project - please take a look on our [Github Organization](https://github.com/frictionlessdata) to view more. Are you interested in contributing? Check out our [Contributing page](/work-with-us/contribute/) to get started.
 
 <p><strong><big>project</big></strong></p>
 <a href="https://github.com/frictionlessdata/project/graphs/contributors" title="Open a Github repo">
