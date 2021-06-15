@@ -264,10 +264,6 @@ const redirectList = [
     redirect: "/blog/2018/03/12/data-publication-workflow-example/",
   },
   {
-    path: "/reproducible-research/",
-    redirect: "/reproducible-research/",
-  },
-  {
     path: "/docs/tutorial-template/",
     redirect: "/contribute/",
   },
@@ -295,8 +291,76 @@ const redirectList = [
     path: "/tooling/table-schema-tools/",
     redirect: "/tooling/python/",
   },
+  {
+    path: "/guide/",
+    redirect: "/introduction/",
+  },
+  {
+    path: "/table-schema/",
+    redirect: "/about/introduction/",
+  },
+  {
+    path: "/data-package/",
+    redirect: "/about/introduction/",
+  },
+  {
+    path: "/tooling/application/",
+    redirect: "/software/",
+  },
+  {
+    path: "/tooling/framework/",
+    redirect: "/software/",
+  },
+  {
+    path: "/tooling/libraries/",
+    redirect: "/software/",
+  },
+  {
+    path: "/tooling/goodtables/",
+    redirect: "/software/",
+  },
+  {
+    path: "/tooling/datahub/",
+    redirect: "/software/",
+  },
+  {
+    path: "/tooling/labs/",
+    redirect: "/software/",
+  },
+  {
+    path: "/specs/",
+    redirect: "/standards/",
+  },
+  {
+    path: "/reproducible-research/",
+    redirect: "/adoption/",
+  },
+  {
+    path: "/team/",
+    redirect: "/people/",
+  },
+  {
+    path: "/about/",
+    redirect: "/introduction/",
+  },
+  {
+    path: "/support/",
+    redirect: "/work-with-us/get-help/",
+  },
+  {
+    path: "/contribute/",
+    redirect: "/work-with-us/contribute/",
+  },
+  {
+    path: "/code-of-conduct/",
+    redirect: "/work-with-us/code-of-conduct/",
+  },
+  {
+    path: "/events/",
+    redirect: "/work-with-us/events/",
+  },
 ];
 
-export default ({ router }) => {
+export default ({ Vue, router }) => {
   router.addRoutes(redirectList);
 };

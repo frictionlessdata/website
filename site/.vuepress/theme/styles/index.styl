@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-body 
+body
   font-family 'Lato', sans-serif
   max-width: 1920px
   margin 0 auto
@@ -10,7 +10,7 @@ body
 .navbar
   border-bottom 1px solid #f8f8f8
   padding-top 3rem
-  color black 
+  color black
   .site-name
     display none
 .dropdown-wrapper .dropdown-title
@@ -25,12 +25,20 @@ body
   color:black;
 }
 
+.theme-default-content:not(.custom) {
+  max-width: 992px !important;
+}
+
 img.logo {
-  margin: -2.2rem;
-  padding-left: 2rem;
+  padding-left: 10px;
 }
 
 p > span, h1, h2, h3 {
   font-weight: 500;
   color: black;
 }
+
+.custom-block
+  &.tip
+    background-color #f3f5f7
+    /* border-color #ea6d4c */

@@ -1,9 +1,10 @@
 require("dotenv").config();
+const lodash = require("lodash");
 const webpack = require("webpack");
 
 module.exports = {
   title: "Frictionless Data",
-  description: "Bringing simplicity and gracefulness to the data experience",
+  description: "Data software and standards",
   head: [
     ["link", { rel: "icon", href: "./public/img/favicon.ico" }],
     [
@@ -75,7 +76,7 @@ module.exports = {
     logo: "/img/frictionless-color-full-logo.svg",
     // repo: "https://github.com/frictionlessdata",
     // repoLabel: "GitHub",
-    docsRepo: "https://github.com/frictionlessdata/website-v2",
+    docsRepo: "https://github.com/frictionlessdata/website",
     docsDir: "site",
     lastUpdated: "Last Updated",
     // defaults to false, set to true to enable
@@ -107,84 +108,37 @@ module.exports = {
     navbar_icon2_link: "https://twitter.com/frictionlessd8a",
     navbar_icon2_image: "/img/home/twitter-icon.svg",
     navbar_icon2_title: "Twitter",
-    navbar_icon3_link: "https://github.com/frictionlessdata/project/",
+    navbar_icon3_link: "https://github.com/frictionlessdata",
     navbar_icon3_image: "/img/home/github-icon.svg",
     navbar_icon3_title: "GitHub",
     sidebar: "auto",
     nav: [
       {
-        text: "Learn",
-        ariaLabel: "Learn Menu",
-        items: [
-          { text: "Guide", link: "/guide/" },
-          { text: "Table Schema", link: "/table-schema/" },
-          { text: "Data Package", link: "/data-package/" },
-        ],
+        text: "Introduction",
+        link: "/introduction/",
       },
-      { text: "Specs", link: "/specs/" },
+      { text: "Software", link: "/software/" },
+      { text: "Standards", link: "/standards/" },
+      { text: "Adoption", link: "/adoption/" },
       {
-        text: "Tooling",
-        ariaLabel: "Tooling Menu",
-        items: [
-          { text: "Application", link: "/tooling/application/" },
-          { text: "Framework", link: "/tooling/framework/" },
-          { text: "Libraries", link: "/tooling/libraries/" },
-          {
-            items: [
-              { text: "GoodTables", link: "/tooling/goodtables/" },
-              { text: "DataHub", link: "/tooling/datahub/" },
-              { text: "Labs", link: "/tooling/labs/" },
-            ],
-          },
-        ],
-      },
-      // {
-      //   text: "Jobs to be done",
-      //   items: [
-      //     { text: "Create Visualizations", link: "/jobs/create-visualizations/" },
-      //     { text: "Do Analysis and Machine Learning", link: "/jobs/do-analysis-and-machine-learning/" },
-      //     { text: "Do Initial Data Exploration", link: "/jobs/do-initial-data-exploration/" },
-      //     { text: "Document Dataset", link: "/jobs/document-dataset/" },
-      //     { text: "Find Datasets", link: "/jobs/find-datasets/" },
-      //     { text: "Gracefully Scale Scope", link: "/jobs/gracefully-scale-scope/" },
-      //     { text: "Gracefully Scale Size", link: "/jobs/gracefully-scale-size/" },
-      //     { text: "Have a Data Hub", link: "/jobs/have-a-data-hub/" },
-      //     { text: "Orchestrate Data Platform", link: "/jobs/orchestrate-data-platform/" },
-      //     { text: "Pipeline transformations", link: "/jobs/pipeline-transformations/" },
-      //     { text: "Pull Dataset", link: "/jobs/pull-dataset/" },
-      //     { text: "Push Dataset", link: "/jobs/push-dataset/" },
-      //     { text: "Quickly edit dataset", link: "/jobs/quickly-edit-dataset/" },
-      //     { text: "Store Dataset", link: "/jobs/store-dataset/" },
-      //     { text: "Validate Dataset", link: "/jobs/validate-dataset/" },
-      //     { text: "Version dataset", link: "/jobs/version-dataset/" }
-      //   ]
-      // },
-      {
-        text: "Use Cases",
-        ariaLabel: "Use Cases Menu",
-        items: [
-          { text: "Reproducible Research", link: "/reproducible-research/" },
-          { text: "Case Studies", link: "/tag/case-studies/" },
-          { text: "Pilots", link: "/tag/pilot/" },
-        ],
+        text: "People",
+        link: "/people/",
       },
       {
-        text: "Community",
-        ariaLabel: "Community Menu",
+        text: "Work With Us",
+        ariaLabel: "Work With Us Menu",
         items: [
-          { text: "Chat", link: "https://discordapp.com/invite/Sewv6av" },
+          { text: "Get Help", link: "/work-with-us/get-help/" },
+          { text: "Contribute", link: "/work-with-us/contribute/" },
+          { text: "Code of Conduct", link: "/work-with-us/code-of-conduct/" },
+          { text: "Events Calendar", link: "/work-with-us/events/" },
           {
             text: "Forum",
-            link: "https://github.com/frictionlessdata/forum/issues",
+            link: "https://github.com/frictionlessdata/project/discussions",
           },
-          { text: "Support", link: "/support/" },
-          { text: "Events Calendar", link: "/events/" },
-          { text: "Contribute", link: "/contribute/" },
-          { text: "Code of Conduct", link: "/code-of-conduct/" },
+          { text: "Chat", link: "https://discordapp.com/invite/Sewv6av" },
         ],
       },
-      { text: "Team", link: "/team/" },
-      { text: "About", link: "/about/" },
       { text: "Blog", link: "/blog/" },
     ],
   },
@@ -222,9 +176,18 @@ module.exports = {
             frontmatter: { title: "Tag" },
           },
         ],
+        feed: {
+          canonical_base: "https://frictionlessdata.io",
+        },
       },
     ],
-    ["@vuepress/back-to-top"],
+    [
+      "vuepress-plugin-feed",
+      {
+        canonical_base: "https://frictionlessdata.io",
+        sort: (entries) => lodash.reverse(lodash.sortBy(entries, "date")),
+      },
+    ],
     [
       "vuepress-plugin-dehydrate",
       {
@@ -238,7 +201,6 @@ module.exports = {
         ],
       },
     ],
-    ["@vuepress/back-to-top"],
     [
       "@limdongjin/vuepress-plugin-simple-seo",
       {
@@ -246,9 +208,33 @@ module.exports = {
         default_image: "/img/frictionless-color-logo.png",
       },
     ],
+    ["@vuepress/back-to-top"],
   ],
   head: [
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],
     ["script", { src: "https://unpkg.com/svg.js@2.7.1" }],
   ],
 };
+
+// TODO: add to the navbar if needed
+// {
+//   text: "Jobs to be done",
+//   items: [
+//     { text: "Create Visualizations", link: "/jobs/create-visualizations/" },
+//     { text: "Do Analysis and Machine Learning", link: "/jobs/do-analysis-and-machine-learning/" },
+//     { text: "Do Initial Data Exploration", link: "/jobs/do-initial-data-exploration/" },
+//     { text: "Document Dataset", link: "/jobs/document-dataset/" },
+//     { text: "Find Datasets", link: "/jobs/find-datasets/" },
+//     { text: "Gracefully Scale Scope", link: "/jobs/gracefully-scale-scope/" },
+//     { text: "Gracefully Scale Size", link: "/jobs/gracefully-scale-size/" },
+//     { text: "Have a Data Hub", link: "/jobs/have-a-data-hub/" },
+//     { text: "Orchestrate Data Platform", link: "/jobs/orchestrate-data-platform/" },
+//     { text: "Pipeline transformations", link: "/jobs/pipeline-transformations/" },
+//     { text: "Pull Dataset", link: "/jobs/pull-dataset/" },
+//     { text: "Push Dataset", link: "/jobs/push-dataset/" },
+//     { text: "Quickly edit dataset", link: "/jobs/quickly-edit-dataset/" },
+//     { text: "Store Dataset", link: "/jobs/store-dataset/" },
+//     { text: "Validate Dataset", link: "/jobs/validate-dataset/" },
+//     { text: "Version dataset", link: "/jobs/version-dataset/" }
+//   ]
+// },

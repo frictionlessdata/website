@@ -1,6 +1,6 @@
 <template>
-  <div class="fluer md:flex pt-8">
-    <div class="avatar rounded-full p-6">
+  <div class="fluer pt-8">
+    <div class="avatar rounded-full">
       <img class="rounded-full" v-if="profile.imageUrl"
         :src="profile.imageUrl"
         :alt="profile.name" width=80 height=80>
@@ -11,20 +11,17 @@
         :src="'https://avatars.io/twitter/' + profile.twitter"
         :alt="profile.name" width=80 height=80>
     </div>
-    <div class="profile team-font pt-6 text-sm leading-loose">
+    <div class="profile team-font pr-6 text-sm leading-loose">
       <h3 class="text-lg" :data-official-title="profile.title">
-        {{ profile.name }}
+        <strong><a style="color:black" target="_blank" :href="githubUrl(profile.github)" title="Open a Github profile">{{ profile.name }}</a></strong>
         <sup v-if="profile.title && titleVisible" v-html="profile.title"></sup>
       </h3>
       <dl>
-        <template v-if="profile.reposOfficial">
+        <template v-if="false && profile.reposOfficial">
           <div class="container">
-          <dt class="team-core-font inline-block">Core focus</dt>
-            <ul class="inline-block">
-              <li class="inline-block text-sm text-blue-500 pl-2" v-for="repo in profile.reposOfficial">
+              <p v-for="repo in profile.reposOfficial">
                 <a :href="githubUrl('fluejs', repo)" target=_blank rel="noopener noreferrer">{{ repo.name || repo }}</a>
-              </li>
-            </ul>
+              </p>
           </div>
         </template>
         <template v-if="profile.github && profile.reposPersonal">
@@ -99,10 +96,10 @@
             </div>
           </div>
         </template>
-        <footer class="social" v-if="hasSocialLinks">
+        <footer class="social" v-if="false && hasSocialLinks">
           <div class="inline-flex">
           <a class="github flex-1" v-if="profile.github" :href="githubUrl(profile.github)">
-            <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" class="w-6 h-auto"/>
+            <img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/mark-github-512.png" class="w-4 h-auto"/>
             <i class="fa fa-github"></i>
             <span class="sr-only">Github</span>
           </a>
@@ -147,7 +144,8 @@ var languageNameFor = {
   ko: '한국어',
   ro: 'Română',
   uk: 'Українська',
-  no: 'Norwegian'
+  no: 'Norwegian',
+  it: 'Italian',
 }
 
 
@@ -199,7 +197,7 @@ export default {
         vm.profile.languages.map(function (languageCode, index) {
           var language = languageNameFor[languageCode]
           return language
-        }).join(' ') 
+        }).join(', ')
       )
     },
     hasSocialLinks: function () {

@@ -3,8 +3,8 @@ title: Frictionless Data February 2021 Virtual Hangout
 date: 2021-03-01
 tags: ['events', 'community-hangout']
 category: events
-image: /img/blog/community.jpg
-description:
+image: /img/blog/february.png
+description: On this February Community Call we had a top notch code demonstration of the new frictionless.py framework by our Frictionless Data senior developer Evgeny Karev.
 author: Sara Petti
 ---
 
@@ -30,7 +30,7 @@ Do you want to share something with the community? Let us know when you sign up!
 
 ## Call recording:
 
-On a final note, here is the recording of the full call: 
+On a final note, here is the recording of the full call:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/W0EHL6SSPcE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

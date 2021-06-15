@@ -11,16 +11,16 @@
         <div class="box-border bottom-padding w-full sm:w-1/2 lg:w-1/5">
           <div class="footer-title font-normal text-xl pb-2 xs:pt-4"> {{ $site.themeConfig.footer_col1_title }} </div>
           <li class="pt-4"><a href="/about/" class=""> {{ $site.themeConfig.footer_col1_row1 }} </a><li>
-          <li class="pt-4"><a href="/team" class=""> {{ $site.themeConfig.footer_col1_row2 }} </a></li>
+          <li class="pt-4"><a href="/work-with-us/get-help/" class=""> {{ $site.themeConfig.footer_col1_row2 }} </a></li>
           <li class="pt-4"><a href="https://okfn.org/terms-of-use/" class=""> {{ $site.themeConfig.footer_col1_row3 }} </a></li>
           <li class="pt-4"><a href="https://okfn.org/privacy-policy/" class=""> {{ $site.themeConfig.footer_col1_row4 }} </a></li>
         </div>
         <div class="box-border bottom-padding w-full sm:w-1/2 lg:w-1/5">
           <div class="footer-title font-normal text-xl pb-2 xs:pt-4"> {{ $site.themeConfig.footer_col2_title }} </div>
-          <li class="pt-4"><a href="/contribute/" class=""> {{ $site.themeConfig.footer_col2_row1 }} </a><li>
+          <li class="pt-4"><a href="/support/" class=""> {{ $site.themeConfig.footer_col2_row1 }} </a><li>
           <li class="pt-4"><a href="/guide/" class=""> {{ $site.themeConfig.footer_col2_row2 }} </a></li>
           <li class="pt-4"><a href="https://discordapp.com/invite/Sewv6av" class=""> {{ $site.themeConfig.footer_col2_row3 }} </a></li>
-          <li class="pt-4"><a href="https://github.com/frictionlessdata/forum/issues" class=""> {{ $site.themeConfig.footer_col2_row4 }} </a></li>
+          <li class="pt-4"><a href="https://github.com/frictionlessdata/project/discussions" class=""> {{ $site.themeConfig.footer_col2_row4 }} </a></li>
         </div>
         <div class="box-border bottom-padding w-full sm:w-1/2 lg:w-1/5">
           <div class="footer-title font-normal text-xl pb-2 xs:pt-4"> {{ $site.themeConfig.footer_col3_title }} </div>
@@ -36,7 +36,7 @@
             {{ $site.themeConfig.footer_col4_row2 }}</a>
           <li>
           <li class="pt-4">
-            <a href="https://github.com/frictionlessdata/" class="font-light text-base">
+            <a href="https://github.com/frictionlessdata" class="font-light text-base">
               <img class="pr-2 align-middle social-link-icon" src="/img/home/github.svg" />
               {{ $site.themeConfig.footer_col4_row1 }}
             </a>
@@ -48,7 +48,7 @@
             </a>
           </li>
         </div>
-      </div> 
+      </div>
       </div>
     <div class="flex sm:px-5 justify-center footer-logo">
       <div class="flex flex-row flex-wrap w-2/3 sm:p-5">
@@ -67,7 +67,7 @@
             <img src="/img/home/datopian.svg" class="h-10 pl-8 pt-12" />
           </a>
         </div>
-     
+
       </div>
       </div>
     </div>

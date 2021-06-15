@@ -3,8 +3,8 @@ title: Frictionless Data January 2021 Virtual Hangout
 date: 2021-02-03
 tags: ['events', 'community-hangout']
 category: events
-image: /img/blog/community.jpg
-description:
+image: /img/blog/january.png
+description: On January 28th we had our first Frictionless Data Community Call for 2021. It was great to see it was so well attended!
 author: Sara Petti
 ---
 
