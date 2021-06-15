@@ -140,7 +140,7 @@ features:
     </div>
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
-        <img class="rounded-full" src="/img/home/simon-tyrrell.png" height="100" />
+        <img class="rounded-full" src="/img/home/simon-tyrrell.jpg" height="100" />
         <p class="font-light text-lg">"Frictionless is the happy mix of being easy to understand and use along with being extensible and open, it's pretty much the perfect way of bundling data and metadata together. Don't leave home without it :-)"</p>
         <p>- Simon Tyrrell, Frictionless Tool Fund Grantee</p>
       </div>
