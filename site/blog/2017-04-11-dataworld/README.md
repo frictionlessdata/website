@@ -7,6 +7,7 @@ interviewee: Bryon Jacob
 subject_context: data.world uses Frictionless Data specifications to generate schema and metadata related to an uploaded dataset and containerize all three in a Tabular Data Package
 image: /img/blog/data-world-logo.png
 description: Allow users to download a version of a data.world dataset that retains the structured metadata and schema for offline analysis
+author: Bryon Jacob
 ---
 
 At [data.world][dataworld], we deal with a great diversity of data, both in terms of content and in terms of source format - most people working with data are emailing each other spreadsheets or CSVs, and not formally defining schema or semantics for what’s contained in these data files.

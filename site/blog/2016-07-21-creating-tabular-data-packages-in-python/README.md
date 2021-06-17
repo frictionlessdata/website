@@ -55,7 +55,7 @@ Let's say we have a file called `data.csv` ([download](https://github.com/fricti
 |  4             | Be     | Beryllium     | 9.012182                | alkaline earth metal  |
 |  5             | B      | Boron         | 10.811                  | metalloid             |
 
-We can extrapolate our CSV's [schema](/table-schema/) by using `infer` from the Table Schema library.  The `infer` function checks a small subset of your dataset and summarizes expected datatypes against each column, etc. To infer a schema for our dataset and view it, we will simply run
+We can extrapolate our CSV's schema by using `infer` from the Table Schema library.  The `infer` function checks a small subset of your dataset and summarizes expected datatypes against each column, etc. To infer a schema for our dataset and view it, we will simply run
 
 ```python
 package.infer('periodic-table/data.csv')

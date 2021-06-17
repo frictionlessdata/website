@@ -8,10 +8,7 @@ description: A guide on how to publish datapackages
 
 You can publish **any kind of data** as a Data Package.
 
-Making existing data into a Data Package is very simple.
-
-And once you have packaged up your data making it available for others is as
-simple as [putting it online][online] or sending an email.
+Making existing data into a Data Package is very straightforward. Once you have packaged up your data, you can make it available for others by [putting it online][online] or sending an email.
 
 [online]: /blog/2016/08/29/publish-online/
 
@@ -35,6 +32,6 @@ Any kind of data you have - graph, binary, RDF &hellip;
 
 [Here's a tutorial on publishing other types of data](/blog/2016/07/21/publish-any)
 
-Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
-
-[field-guide]: /data-package
+::: tip
+Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our [introduction](/introduction).
+:::

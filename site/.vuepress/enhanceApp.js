@@ -273,11 +273,11 @@ const redirectList = [
   },
   {
     path: "/universe/",
-    redirect: "/data-package/",
+    redirect: "/adoption/",
   },
   {
     path: "/docs/data-package/",
-    redirect: "/data-package/",
+    redirect: "/introduction/",
   },
   {
     path: "/docs/table-schema/",
@@ -301,7 +301,7 @@ const redirectList = [
   },
   {
     path: "/data-package/",
-    redirect: "/about/introduction/",
+    redirect: "/introduction/",
   },
   {
     path: "/tooling/application/",

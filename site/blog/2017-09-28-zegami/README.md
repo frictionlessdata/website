@@ -7,6 +7,7 @@ interviewee: Roger Noble and Andrew Stretton
 subject_context: Zegami is using Frictionless Data specifications for data management and syntactic analysis on their visual data analysis platform
 image: /img/blog/zegami-logo.png
 description:  As a visual data exploration and analytics platform, Zegami makes the exploration of large collections of image rich information quick and simple.
+author: Roger Noble and Andrew Stretton
 ---
 
 [Zegami](https://www.zegami.com) makes information more visual and accessible, enabling intuitive exploration, search and discovery of large data sets. Zegami combines the power of machine learning and human pattern recognition to reveal hidden insights and new perspectives.
@@ -52,9 +53,8 @@ In terms of the next steps for us, we are currently working on a SaaS implementa
 [^handsontable]: Handsontable: Javascript spreadsheet component for web apps: <https://handsontable.com>
 [^dpp]: Data Package Pipelines: <https://github.com/frictionlessdata/datapackage-pipelines>
 [^dask]:Dask Custom Graphs: <http://dask.pydata.org/en/latest/custom-graphs.html>
-[^datapackage]: Data Packages: [/data-package](/data-package)
+[^datapackage]: Data Packages: [https://specs.frictionlessdata.io/data-package](https://specs.frictionlessdata.io/data-package)
 [^dreamfactory]: Dream Factory: <https://www.dreamfactory.com/>
-[wqio]: https://wq.io/
 [^ckan]: CKAN: Open Source Data Portal Platform: <https://ckan.org>
 [^pydata]: PyData London, October 2017 Meetup: <https://www.meetup.com/PyData-London-Meetup/events/243584161/>
 [^pyconuk]: PyCon UK 2017 Schedule: <http://2017.pyconuk.org/schedule/>

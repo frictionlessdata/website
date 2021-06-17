@@ -7,6 +7,7 @@ interviewee: Ida Lucente
 subject_context: John Snow Labs uses Frictionless Data specifications to avail data to users for analysis
 image: /img/blog/john-snow-labs-logo.png
 description: Turnkey data to data science, analytics and software teams in healthcare industry.
+author: Ida Lucente
 ---
 
 [John Snow Labs](https://www.johnsnowlabs.com/) accelerates data science and analytics teams, by providing clean, rich and current data sets for analysis. Our customers typically license between 50 and 500 data sets for a given project, so providing both data and metadata in a simple, standard format that is easily usable with a wide range of tools is important.
@@ -26,7 +27,7 @@ We are working with [Open Knowledge International](http://www.okfn.org/) on open
 
 The core use case we see for Frictionless Data specs is making data ready for analytics. There is a lot of Open Data out there, but a lot of effort is still required to make it usable. This single use case expands into as many variations as there are BI & data management tools, so we have many years of work ahead of us to address this one core use case.
 
-[^datapackage]: Data Package: [/data-package](/data-package)
+[^datapackage]: Data Package: [https://specs.frictionlessdata.io/data-package/](https://specs.frictionlessdata.io/data-package/)
 [^specs]: Frictionless Data Specifications [specs](https://specs.frictionlessdata.io/)
 [^elasticsearch]: Elastic Search <https://www.elastic.co/>
 [^kibana]: kibana <https://www.elastic.co/products/kibana>
