@@ -1,7 +1,7 @@
 ---
 title: Validated tabular data
 date: 2018-07-16
-tags: ["try.goodtables.io", "Goodtables CLI"]
+tags: ["try.goodtables.io", "Goodtables CLI", "field-guide"]
 category:
 image: /img/blog/valid.png
 description: When it comes to validating tabular data, you have some great tools at your disposal. We take a look at a couple of ways to utilise goodtables.

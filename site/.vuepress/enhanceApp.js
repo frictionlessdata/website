@@ -237,7 +237,7 @@ const redirectList = [
   },
   {
     path: "/field-guide/",
-    redirect: "/guide/",
+    redirect: "/tag/field-guide",
   },
   {
     path: "/field-guide/well-packaged-datasets/",

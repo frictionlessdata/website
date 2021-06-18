@@ -78,7 +78,7 @@ Recommended reading: Find out how to use Frictionless Data software to improve y
 [pub-any]: /blog/2016/07/21/publish-any/
 [pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /blog/2016/04/20/publish-faq/
-[field-guide]: /data-package
+[field-guide]: /tag/field-guide
 
 [dp-creator]: http://create.frictionlessdata.io
 [dp-viewer]: http://create.frictionlessdata.io

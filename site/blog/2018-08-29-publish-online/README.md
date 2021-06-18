@@ -1,7 +1,7 @@
 ---
 title: Publish Your Data Package Online
 date: 2016-08-29
-tags: ["field-guide"]
+tags:
 category: publishing-data
 ---
 
