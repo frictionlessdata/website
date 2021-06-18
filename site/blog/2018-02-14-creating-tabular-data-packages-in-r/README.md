@@ -173,7 +173,7 @@ Now that you have created a data package in R, [find out how to use data package
 [toolfund]: https://toolfund.frictionlessdata.io
 [toolfund-okgreece]:https://frictionlessdata.io/articles/open-knowledge-greece/
 [dp-r]: https://github.com/frictionlessdata/datapackage-r
-[ts]: /table-schema/
+[ts]: https://specs.frictionlessdata.io/table-schema/
 [r-devtools]: https://cran.r-project.org/package=devtools
 [fd-gitter]: http://gitter.im/frictionlessdata/chat
 [dp-r-issues]: https://github.com/frictionlessdata/datapackage-r/issues

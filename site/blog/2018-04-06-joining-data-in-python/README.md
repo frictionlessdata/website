@@ -25,7 +25,7 @@ For this example, we are going to use two example Data Packages from our [exampl
       "geometry": {
         "type": "Polygon",
         "coordinates": [
-        ...
+        "..."
         ]
       }
     }
@@ -33,7 +33,7 @@ For this example, we are going to use two example Data Packages from our [exampl
 }
 ```
 
-The second Data Package is a typical [Tabular Data Package](/data-package/#tabular-data-package) containing a GDP measure for each country in the world for the year 2014. Country codes are stored, naturally, on the "Country Code" column.
+The second Data Package is a typical [Tabular Data Package](https://specs.frictionlessdata.io/tabular-data-package) containing a GDP measure for each country in the world for the year 2014. Country codes are stored, naturally, on the "Country Code" column.
 
 |  Country Name                                   | Country Code | Year | Value             |
 |-------------------------------------------------|--------------|------|-------------------|

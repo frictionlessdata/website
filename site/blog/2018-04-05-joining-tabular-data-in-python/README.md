@@ -7,8 +7,6 @@ category: working-with-data-packages
 
 In a [separate guide](/blog/2018/04/06/joining-data-in-python/), I walked through joining a tabular dataset with one containing geographic information.  In this guide, I will demonstrate an example of joining two tabular datasets.
 
-<!-- more -->
-
 There are, of course, various, more robust ways of joining tabular data.  The example listed below is intended to demonstrate how the current libraries and specifications work together to perform this common task.
 
 ## Data
@@ -47,7 +45,7 @@ cpi_dp = datapackage.DataPackage('https://raw.githubusercontent.com/frictionless
 gdp_dp = datapackage.DataPackage('https://raw.githubusercontent.com/frictionlessdata/example-data-packages/master/gross-domestic-product-all/datapackage.json')
 ```
 
-Given that our source data has already been packaged in [Tabular Data Package](/data-package/#tabular-data-package) format, we know that we have a [*schema*](/table-schema) for each CSV which specifies useful information for each column.  We'd like to merge and preserve this schema information as we'll need it for specifying the combined schema in our new Data Package.  Note that we're also adding a new derived column named 'Real GDP' and giving it a type of `number`.
+Given that our source data has already been packaged in [Tabular Data Package](https://specs.frictionlessdata.io/tabular-data-package/) format, we know that we have a [*schema*](https://specs.frictionlessdata.io/table-schema) for each CSV which specifies useful information for each column.  We'd like to merge and preserve this schema information as we'll need it for specifying the combined schema in our new Data Package.  Note that we're also adding a new derived column named 'Real GDP' and giving it a type of `number`.
 
 ```python
 field_info = []

@@ -24,7 +24,7 @@ We worked with data that was publicly accessible, and therefore in its post-publ
 
 The UK Data Service offers an online repository where researchers can archive, publish and share research data, called [Reshare](http://reshare.ukdataservice.ac.uk/). Reshare exposes an [OAI-PMH](https://www.openarchives.org/pmh/) endpoint to facilitate metadata harvesting.
 
-[datahub.io](http://datahub.io/) is a data workflows web application build around the modular Frictionless Data toolchain, designed to find, share and publish high quality data online. Each entry has a ‘Showcase’ to display data package properties, and preview data with tables and simple visualisations. As well as the Showcase, [datahub.io](http://datahub.io/) provides straight-forward direct access to import data into a variety of tools used by researchers; R, Pandas, Python, JavaScript, and SQL. [Frictionless Data Data Packages](/data-package/) can be pushed to datahub.io to create dataset entries.
+[datahub.io](http://datahub.io/) is a data workflows web application build around the modular Frictionless Data toolchain, designed to find, share and publish high quality data online. Each entry has a ‘Showcase’ to display data package properties, and preview data with tables and simple visualisations. As well as the Showcase, [datahub.io](http://datahub.io/) provides straight-forward direct access to import data into a variety of tools used by researchers; R, Pandas, Python, JavaScript, and SQL. [Frictionless Data Data Packages](https://specs.frictionlessdata.io/data-package/) can be pushed to datahub.io to create dataset entries.
 
 ### Problem We Were Trying To Solve
 

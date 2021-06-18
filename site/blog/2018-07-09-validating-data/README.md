@@ -19,24 +19,19 @@ We will walk through two methods of performing validation:
 
 ## goodtables
 
-[goodtables](http://goodtables.io/) is a free, open-source, hosted
-service for validating tabular data. goodtables checks your data for
-its *structure*, and, optionally, its adherence to a specified *schema*. Where the latter fails, goodtables highlights content errors so you can fix them speedily.
+[goodtables](http://goodtables.io/) is a free, open-source, hosted service for validating tabular data. goodtables checks your data for its *structure*, and, optionally, its adherence to a specified *schema*. Where the latter fails, goodtables highlights content errors so you can fix them speedily.
 
-goodtables will give quick and simple feedback on where your tabular
-data may not yet be quite perfect.
+goodtables will give quick and simple feedback on where your tabular data may not yet be quite perfect.
 
 ![goodtables screenshot](./goodtables-screenshot.png)
 
-To get started with one-off validation of your tabular datasets, use [try.goodtables.io](http://try.goodtables.io). All you need to do is upload or provide a link to a CSV
-file and hit the "Validate" button.
+To get started with one-off validation of your tabular datasets, use [try.goodtables.io](http://try.goodtables.io). All you need to do is upload or provide a link to a CSV file and hit the "Validate" button.
 
 ![goodtables Provide URL](./goodtables-provide-data.png)
 
 ![goodtables Validate button](./goodtables-validate.png)
 
-If your data is structurally valid, you should receive the following
-result:
+If your data is structurally valid, you should receive the following result:
 
 ![goodtables Valid](./goodtables-valid.png)
 
@@ -44,27 +39,17 @@ If not...
 
 ![goodtables Invalid](./goodtables-invalid.png)
 
-The report should highlight the structural issues found in your data
-for correction.  For instance, a poorly structured tabular dataset may
-consist of a header row with too many (or too few) columns when
-compared to of data rows with an equal amount of columns.
+The report should highlight the structural issues found in your data for correction.  For instance, a poorly structured tabular dataset may consist of a header row with too many (or too few) columns when compared to of data rows with an equal amount of columns.
 
-You can also provide a schema for your tabular data defined using JSON
-Table Schema.
+You can also provide a schema for your tabular data defined using JSON Table Schema.
 
 ![goodtables Provide Schema](./goodtables-provide-schema.png)
 
-Briefly, the format allows users to specify not only
-the types of information within each column in a tabular dataset, but
-also expected values.  For more information, see the
-[Table Schema guide](/table-schema/) or
-[the full standard](https://specs.frictionlessdata.io/table-schema/).
+Briefly, the format allows users to specify not only the types of information within each column in a tabular dataset, but also expected values.  For more information, see the [introduction](/introduction/) or [the full standard](https://specs.frictionlessdata.io/table-schema/).
 
 ## Python + goodtables
 
-goodtables is also available as a Python library.  The following short
-snippets demonstrate examples of loading and validating data in a file
-called `data.csv`(and in the second example, validating the same data file against `schema.json`)
+goodtables is also available as a Python library.  The following short snippets demonstrate examples of loading and validating data in a file called `data.csv`(and in the second example, validating the same data file against `schema.json`)
 
 ### Validating Structure
 
@@ -113,7 +98,7 @@ Find more examples on validating tabular data in the [Frictionless Data Field Gu
 [ts-types]: https://specs.frictionlessdata.io/table-schema/#field-descriptors
 [csv]: /blog/2018/07/09/csv/
 [json]: http://en.wikipedia.org/wiki/JSON
-[field-guide]: /data-package
+[field-guide]: /tag/field-guide
 
 [spec-dp]: https://specs.frictionlessdata.io/data-package/
 [spec-tdp]: https://specs.frictionlessdata.io/tabular-data-package/
