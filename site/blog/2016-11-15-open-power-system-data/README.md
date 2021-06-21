@@ -3,10 +3,10 @@ title: Open Power System Data
 date: 2016-11-15
 tags: ["case-studies"]
 category: case-studies
-interviewee: Lion Hirth and Ingmar Schlecht
 subject_context: Open Power System Data uses Frictionless Data specifications to avail energy data for analysis and modeling
 image: /img/blog/opsd-logo.svg
 description: A free-of-charge and open platform providing the data needed for power system analysis and modeling.
+author: Lion Hirth and Ingmar Schlecht
 ---
 
 [Open Power System Data](http://open-power-system-data.org/) aims at providing a **free-of-charge** and **open** platform[^platform] that provides the data needed for power system analysis and modeling.
@@ -70,8 +70,7 @@ Advantages I see from those things are:
 * Ease of use for data consumers: They get what they want (filtered) in the format they prefer.
 * Implicitly that would also do a proper validation of the`datapackage.json`: Because if you have an error there, then things will also be messed up in the automatically generated files. So that also ensures good `datapackage.json` metadata quality in general which is important for all sorts of things you can do with Data Packages.
 
-Regarding the data processing workflow we created, I would refer you to our processingscripts[^scripts] on GitHub. I talked a lot about time series data – this should give you an [overview](https://github.com/Open-Power-System-Data/time_series/blob/master/main.ipynb);
-here are the [processing details](https://github.com/Open-Power-System-Data/time_series/blob/master/processing.ipynb).
+Regarding the data processing workflow we created, I would refer you to our processingscripts[^scripts] on GitHub. I talked a lot about time series data – this should give you an [overview](https://github.com/Open-Power-System-Data/time_series/blob/master/main.ipynb); here are the [processing details](https://github.com/Open-Power-System-Data/time_series/blob/master/processing.ipynb).
 
 In the coming days, we are going to extend the geographic scope and other various details---user friendliness, interpolation, data quality issues---so no big changes, just further work in the same direction.
 

@@ -57,7 +57,7 @@ folder
 
 It is recommended that the licence is provided in [markdown](http://commonmark.org) format to simplify its display in data platforms and other software.
 
-The license can be a separate file or included in the README.md file. If license information is included in the README.md file, it is recommended that it follows the [guide for formatting a README file](/blog/2016/04/20/publish-faq/#readme).
+The license can be a separate file or included in the `README.md` file. If license information is included in the `README.md` file, it is recommended that it follows the [guide for formatting a README file](/blog/2016/04/20/publish-faq/#readme).
 
 ## Applying a license
 
@@ -160,7 +160,7 @@ Some data publishers may waive some of their rights under a license, e.g.
 > Noosa Shire Council waives the requirements of attribution under this licence, for this data.
 
 You can include this information, either:
-* in the file containing license information (e.g. README.md)
+* in the file containing license information (e.g. `README.md`)
 * as additional metadata properties in the datapackage.json
 
 The data package specification supports adding [additional metadata properties](https://specs.frictionlessdata.io/data-package/#descriptor) to the datapackage.json, e.g.
@@ -204,7 +204,7 @@ Sometimes data in a resource may be combined from multiple sources that are lice
 ```
 
 ### License may become legally binding
-frictionlessdata.io
+
 The [specification](https://specs.frictionlessdata.io/data-package/#licenses) for `licenses` states:
 
 > **This property is not legally binding and does not guarantee the package is licensed under the terms defined in this property.**
@@ -218,7 +218,7 @@ Be aware that some data platforms or software may not fully support the Friction
 For example, at the time of writing:
 
 * [CKAN Data Package extension](https://github.com/frictionlessdata/ckanext-datapackager):
-  * does not upload the README.md file in a data package. If you have described licence information in the README.md file, this will be lost ([issue #60](https://github.com/frictionlessdata/ckanext-datapackager/issues/60))
+  * does not upload the `README.md` file in a data package. If you have described licence information in the `README.md` file, this will be lost ([issue #60](https://github.com/frictionlessdata/ckanext-datapackager/issues/60))
   * does not display license information in the datapackage.json file correctly ([issue #62](https://github.com/frictionlessdata/ckanext-datapackager/issues/62))
 
 * [Data Curator](/blog/2019/03/01/datacurator/) only allows the user to select from a limited set of open licenses to describe the data package and data resource licenses.

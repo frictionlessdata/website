@@ -7,8 +7,6 @@ category: working-with-data-packages
 
 This tutorial will show you how to install the JavaScript libraries for working with Data Packages and Table Schema, load a CSV file, infer its schema, and write a Tabular Data Package.
 
-<!-- more -->
-
 ## Setup
 
 For this tutorial we will need [datapackage-js](https://github.com/frictionlessdata/datapackage-js) which is a JavaScript library for working with Data Packages.
@@ -34,6 +32,4 @@ This creates a `datapackage.json` file in this directory.
 
 ## Publishing
 
-Now that you have created your Data Package, you might want to
-[publish your data online](/blog/2016/08/29/publish-online/) so that you can
-share it with others.
+Now that you have created your Data Package, you might want to [publish your data online](/blog/2016/08/29/publish-online/) so that you can share it with others.

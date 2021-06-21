@@ -10,21 +10,13 @@ Publishing your Geodata as Data Packages is very easy.
 
 You have two options for publishing your geodata:
 
-* **Geo Data Package** (Recommended). This is a basic Data Package with the
-  requirement that data be in GeoJSON and with a few special additions to the
-  metadata for geodata. See the next section for instructions on how to do
-  this - test
-* **Generic Data Package**. This allows you to publish geodata in any kind of
-  format (KML, Shapefiles, Spatialite etc). If you choose this option you will
-  want to follow the standard [instructions for packaging any kind of data as a
-  Data Package][pub-any].
+* **Geo Data Package** (Recommended). This is a basic Data Package with the requirement that data be in GeoJSON and with a few special additions to the metadata for geodata. See the next section for instructions on how to do this.
+* **Generic Data Package**. This allows you to publish geodata in any kind of format (KML, Shapefiles, Spatialite etc). If you choose this option you will want to follow the standard [instructions for packaging any kind of data as a Data Package][pub-any].
 
-We recommend Geo Data Package if that is possible as it makes it much easier
-for you to use 3rd party tools with your Data Package. For example, the [datapackage viewer][dp-viewer] on this site will automatically preview a Geo Data Package.
+We recommend Geo Data Package if that is possible as it makes it much easier for you to use 3rd party tools with your Data Package. For example, the [datapackage viewer][dp-viewer] on this site will automatically preview a Geo Data Package.
 
 ::: tip
-*Note: this document focuses on *vector* geodata &ndash; i.e. points, lines polygons etc (not
-imagery or raster data).*
+*Note: this document focuses on *vector* geodata &ndash; i.e. points, lines polygons etc (not imagery or raster data).*
 :::
 
 ## Geo Data Packages
@@ -35,7 +27,7 @@ imagery or raster data).*
 
 Example of using `point` geometries with described properties in real world situation.
 
-[View it with the Data Package Viewer][view-2]
+[View it with the Data Package Viewer][view-2](*deprecated*)
 
 [view-2]: http://data.okfn.org/tools/view?url=https%3A%2F%2Fgithub.com%2Fpeterdesmet%2Ftraffic-signs-hansbeke
 
@@ -44,7 +36,7 @@ Example of using `point` geometries with described properties in real world situ
 #### See more Geo Data Packages in the [example data packages](https://github.com/frictionlessdata/example-data-packages) GitHub repository.
 
 ::: tip
-Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
+Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our [Introduction][introduction].
 :::
 
 [dp]: /data-package
@@ -66,7 +58,7 @@ Recommended reading: Find out how to use Frictionless Data software to improve y
 [pub-any]: /blog/2016/07/21/publish-any/
 [pub-geo]: /blog/2016/04/30/publish-geo/
 [pub-faq]: /blog/2016/04/20/publish-faq/
-[field-guide]: /data-package
+[introduction]: /introduction
 
 [dp-creator]: http://create.frictionlessdata.io
 [dp-viewer]: http://create.frictionlessdata.io

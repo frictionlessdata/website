@@ -3,10 +3,10 @@ title: Tesera
 date: 2016-11-15
 tags: ["case-studies"]
 category: case-studies
-interviewee: Spencer Cox
 subject_context: Tesera uses Frictionless Data specifications to package data in readiness for use in different systems and components.
 image: /img/blog/tesera-logo.png
 description: Creating data-driven applications in the cloud.
+author: Spencer Cox
 ---
 
 Tesera is an employee-owned company, founded in 1997.  Our focus is helping our clients create data-driven applications in the cloud.  We also maintain two core product lines in addition to our consulting practice.  [MRAT.ca](https://www.linkedin.com/showcase/municipal-risk-assessment-tool/about/) helps municipalities identify risk of basement flooding, while [forestinventory.ca](https://cran.r-project.org/web/packages/forestinventory/index.html) (High Resolution Inventory Services) enables forest and natural resource companies to access a new level of accuracy and precision in resource inventories and carbon measurement.

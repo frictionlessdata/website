@@ -1,7 +1,7 @@
 ---
 title: Automatically validated tabular data
 date: 2018-03-12
-tags: ["goodtables.io"]
+tags: ["goodtables.io", "field-guide"]
 category: 
 image: /img/blog/auto-validate.png
 description: Automatic validation means you'll be the first to know if a change in your data causes a problem. Learn how to incorporate automatic validation into your workflow.
@@ -53,7 +53,7 @@ Once you have tabular data in your Github repository:
 1. Once we've synchronized your repository list, go to the [Manage Sources](https://goodtables.io/settings) page and enable the repository with the data you want to validate.
     * If you can't find the repository, try clicking on the Refresh button on the Manage Sources page
 
-Goodtables will then validate all tabular data files (CSV, XLS, XLSX, ODS) and [data packages](/data-package/) in the repository. These validations will be executed on every change, including pull requests.
+Goodtables will then validate all tabular data files (CSV, XLS, XLSX, ODS) and [data packages](https://specs.frictionlessdata.io/data-package/) in the repository. These validations will be executed on every change, including pull requests.
 
 
 ## Validate tabular data automatically on Amazon S3

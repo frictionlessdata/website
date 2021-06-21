@@ -474,7 +474,7 @@ In 2021, we partnered with the Open Data Institute (ODI) to improve our existing
 
 ### Frictionless Field Guide
 
-In 2017, OKF received funding from the Open Data Institute to create a Frictionless Data Field Guide. This guide provided step-by-step instructions for improving data publishing workflows. The field guide introduced new ways of working informed by the Frictionless Data suite of software that data publishers can use independently, or adapt into existing personal and organisational workflows. You can read more details about this work [here](https://blog.okfn.org/2018/03/27/improving-your-data-publishing-workflow-with-the-frictionless-data-field-guide/).
+In 2017, OKF received funding from the Open Data Institute to create a Frictionless Data Field Guide. This guide provided step-by-step instructions for improving data publishing workflows. The [field guide](/tag/field-guide) introduced new ways of working informed by the Frictionless Data suite of software that data publishers can use independently, or adapt into existing personal and organisational workflows. You can read more details about this work [here](https://blog.okfn.org/2018/03/27/improving-your-data-publishing-workflow-with-the-frictionless-data-field-guide/).
 
 ### Data Package Integrations
 

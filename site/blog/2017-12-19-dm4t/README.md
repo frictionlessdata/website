@@ -24,9 +24,8 @@ Energy Data
 - Frictionless Data specs: http://specs.frictionlessdata.io/
 - Data Package Pipelines: https://github.com/frictionlessdata/datapackage-pipelines
 - Goodtables: https://github.com/frictionlessdata/goodtables-py
-- Packagist: https://packagist.org/
 
-packagist.io has now moved to [create.frictionlessdata.io](http://create.frictionlessdata.io)
+`packagist` has now moved to [create.frictionlessdata.io](http://create.frictionlessdata.io)
 
 ## Context
 
@@ -298,7 +297,7 @@ DATASET
 
 ### Modifying a data package using Packagist
 
-If we need to modify our data package, we could use the [Packagist](./packagist.io). It incorporates a straightforward UI to modify and validate data package descriptors. With its easy to use interface we are able to:
+If we need to modify our data package, we could use the [Packagist](https://create.frictionlessdata.io/). It incorporates a straightforward UI to modify and validate data package descriptors. With its easy to use interface we are able to:
 
 - Load/validate/save a data package
 - Update a data package metadata

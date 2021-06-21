@@ -7,12 +7,13 @@ description: A guide on how to use datapackage with R
 category: working-with-data-packages
 ---
 
-
 [Open Knowledge Greece][okgreece] was one of 2017's [Frictionless Data Tool Fund][toolfund] grantees tasked with extending implementation of core Frictionless Data libraries in R programming language. You can read more about this in [their grantee profile][toolfund-okgreece]. In this tutorial, [Kleanthis Koupidis](https://gr.linkedin.com/in/kleanthis-koupidis-8348b88b), a Data Scientist and Statistician at Open Knowledge Greece, explains how to work with Data Packages in R.
 
 This tutorial will show you how to install the R libraries for working with Tabular Data Packages and demonstrate a very simple example of loading a Tabular Data Package from the web and pushing it directly into a local SQL database and send query to retrieve results.
 
+::: tip
 For a comprehensive introduction to creating tabular data packages in R, [start by going through this tutorial][create-r].
+:::
 
 ## Setup
 
@@ -175,7 +176,7 @@ We welcome your feedback and questions via our [Frictionless Data Gitter chat][f
 [toolfund]: https://toolfund.frictionlessdata.io
 [toolfund-okgreece]:https://frictionlessdata.io/articles/open-knowledge-greece/
 [dp-r]: https://github.com/frictionlessdata/datapackage-r
-[ts]: /table-schema/
+[ts]: https://specs.frictionlessdata.io/table-schema/
 [r-devtools]: https://cran.r-project.org/package=devtools
 [fd-gitter]: http://gitter.im/frictionlessdata/chat
 [dp-r-issues]: https://github.com/frictionlessdata/datapackage-r/issues

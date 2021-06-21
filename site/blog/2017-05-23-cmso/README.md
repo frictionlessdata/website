@@ -7,6 +7,7 @@ interviewee: Paola Masuzzo
 subject_context: CMSO uses Frictionless Data specs to package cell migration data and load it into Pandas for data analysis and creation of visualizations.
 image: /img/blog/cmso-logo.png
 description: Building standards for cell migration data in order to enable data sharing in the field.
+author: Paola Masuzzo
 ---
 
 Researchers worldwide try to understand how cells move, a process extremely important for many physiological and pathological conditions. [Cell migration](https://en.wikipedia.org/wiki/Cell_migration) is in fact involved in many processes, like wound healing,neuronal development and cancer invasion. The [Cell Migration Standardization Organization](https://cmso.science/) (CMSO) is a community building standards for cell migration data, in order to enable data sharing in the field. The organization has three main working groups:

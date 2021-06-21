@@ -9,15 +9,13 @@ image: /img/blog/pnnl.png
 description: Using goodtables to validate metadata stored as part of an biological application on GitHub.
 ---
 
-
 ## Context
 
 ### Problem We Were Trying To Solve
 
 Sam Payne and his team at the Pacific Northwest National Laboratory (PNNL) have designed an application called [Active Data Biology](https://adbio.pnnl.gov/) (ADBio) which is an interactive web-based suite of tools for analyzing high-throughput omics (a set of related fields of study in biology).  The goal is to visualize and analyze datasets while still enabling seamless collaboration between computational and non-computational domain experts.  The tool provides several views on the same data facilitating different avenues of investigation.
 
-One of the high level goals of ADBio was to make collaborative data analysis work in a similar manner to collaborative software development (versioned, asynchronous, flexible, sharable, global). You can read more of the motivation in the Open Knowledge International blog post
-[Git for Data Analysis – why version control is essential for collaboration and for gaining public trust](https://blog.okfn.org/2016/11/29/git-for-data-analysis-why-version-control-is-essential-collaboration-public-trust/) written by Sam Payne as part of the pilot.  To facilitate this goal, Sam and his team used version-controlled repositories as the storage mechanism for all required resources. Data, software (for conducting analyses), and insights (gained from these analyses) for the project all get checked into the same repository.  ADBio pulls data and software directly from the repository and serves up an interactive visualization for data exploration. Any insight you choose to record gets checked back into the repository.
+One of the high level goals of ADBio was to make collaborative data analysis work in a similar manner to collaborative software development (versioned, asynchronous, flexible, sharable, global). You can read more of the motivation in the Open Knowledge International blog post [Git for Data Analysis – why version control is essential for collaboration and for gaining public trust](https://blog.okfn.org/2016/11/29/git-for-data-analysis-why-version-control-is-essential-collaboration-public-trust/) written by Sam Payne as part of the pilot.  To facilitate this goal, Sam and his team used version-controlled repositories as the storage mechanism for all required resources. Data, software (for conducting analyses), and insights (gained from these analyses) for the project all get checked into the same repository.  ADBio pulls data and software directly from the repository and serves up an interactive visualization for data exploration. Any insight you choose to record gets checked back into the repository.
 
 ![ADBio](./adbio.png)
 
@@ -80,11 +78,11 @@ Up to this point, the dataset provided by PNNL was adequately described by our s
 
 ### Software
 
-goodtables had [existed](http://okfnlabs.org/blog/2015/02/20/introducing-goodtables.html) as a Python library and web application developed by Open Knowledge International to support the validation of tabular datasets both in terms of structure and also with respect to a published schema as described above. This software was put to good use in a local government context.
+Goodtables had [existed](http://okfnlabs.org/blog/2015/02/20/introducing-goodtables.html) as a Python library and web application developed by Open Knowledge International to support the validation of tabular datasets both in terms of structure and also with respect to a published schema as described above. This software was put to good use in a local government context.
 
 For this pilot, and in coordination with other work in the project, we took the opportunity to drastically improve the software to support the online, automated validation referenced in the above use case.  We took as inspiration the workflow in use in software development environments around the world---continuous automated testing---and applied to data.  This involved not only updating the Python library to reflect the specification development to date, but the design of a new data publishing workflow that is applicable beyond PNNL’s needs. It is designed to be extensible, so that custom checks and custom backends (e.g. other places where one might publish a dataset) can take advantage of this workflow.  For example, in addition to datasets stored on GitHub, the new goodtables supports the automated validation of datasets stored on S3 and we are currently working on validation of datasets stored on CKAN.
 
-goodtables supports validation of tabular data in GitHub repositories to solve the use case for Active Data Biology.  On every update to the dataset, a validation task is run on the stored data.
+Goodtables supports validation of tabular data in GitHub repositories to solve the use case for Active Data Biology.  On every update to the dataset, a validation task is run on the stored data.
 
 ## Review
 
@@ -94,7 +92,7 @@ The omics team at PNNL are still investigating the use of goodtables.io for thei
 
 > We created a schema and started testing it. So far so good! I think this is going to work for a lot of projects which want to store data in a repo.
 
-As a real test of the generality of goodtables, we also tried to apply it to another project. This second project is a public repository describing measurements of metabolites in ion mobility mass spectrometry. Here, we are again using flat files for structured data. The data is actually a library of information describing metabolites, and we know that the library will be growing. So it was very similar to the ADBio project, in that the curated data would be continually updated. (see <https://github.com/PNNL-Comp-Mass-Spec/MetabolomicsCCS> for the project itself, and <https://github.com/PNNL-Comp-Mass-Spec/metaboliteValidation> for a validation script that leverages goodtables)
+As a real test of the generality of goodtables, we also tried to apply it to another project. This second project is a public repository describing measurements of metabolites in ion mobility mass spectrometry. Here, we are again using flat files for structured data. The data is actually a library of information describing metabolites, and we know that the library will be growing. So it was very similar to the ADBio project, in that the curated data would be continually updated. (see <https://github.com/PNNL-Comp-Mass-Spec/MetabolomicsCCS> for the project itself, and <https://github.com/PNNL-Comp-Mass-Spec/metaboliteValidation> for a validation script that leverages goodtables).
 
 Of course, technical issues that they have encountered have been translated in GitHub issues and are being addressed:
 

@@ -19,7 +19,7 @@ You can package any kind of data as a Data Package.
 
 Recommended reading: Find out how to use Frictionless Data software to improve your data publishing workflow in our new and comprehensive [Frictionless Data Field Guide][field-guide].
 
-[field-guide]: /data-package
+[field-guide]: /tag/field-guide
 
 [dp-creator]: http://create.frictionlessdata.io
 

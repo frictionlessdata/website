@@ -6,7 +6,7 @@ category: contributing
 ---
 
 
-This guide introduces you to the Frictionless Data tool stack and how you can contribute to it.
+This guide introduces you to the Frictionless Data tool stack and how you can contribute to it. *Update note (2021): this blog is out of date. Please see the [contributing guide](/work-with-us/contribute/) for updated information.*
 
 <!-- more -->
 
@@ -30,12 +30,12 @@ We have prepared a variety of example and test data packages for use in developm
 
 This entity diagram gives an overview of how the main different objects fit together. The top row is a generic Data Package and the row below shows the case of Tabular Data Package.
 
-This guide will focus on [Tabular Data Packages][tdp] as that is the most commonly used form of Data Packages and is suited to most tools.
+This guide will focus on [Tabular Data Packages][spec-tdp] as that is the most commonly used form of Data Packages and is suited to most tools.
 
 ![overview of data packages and tabular data packages](./overview-of-data-packages.png)
 *overview of data packages and tabular data packages*
 
-This guide will assume you already have some high-level familiarity with the [Data Package family of specifications][dp-main]. Please a take a few minutes to take a look at the [overview][dp-main] if you are not yet familiar with those specs.
+This guide will assume you already have some high-level familiarity with the [Data Package family of specifications][spec-dp]. Please a take a few minutes to take a look at the [overview][dp-main] if you are not yet familiar with those specs.
 
 ## Implementing a Data Package Tool Stack
 
@@ -200,7 +200,7 @@ Following "Node" style we have partitioned the Javascript library into pieces, s
 Related blog post: <http://okfnlabs.org/blog/2017/10/05/frictionless-data-specs-v1-updates.html>
 
 [dp]: /data-package
-[dp-main]: /data-package
+[dp-main]: /introduction
 [tdp]: /data-package/#tabular-data-package
 [ts]: /table-schema/
 [ts-types]: https://specs.frictionlessdata.io/table-schema/#field-descriptors

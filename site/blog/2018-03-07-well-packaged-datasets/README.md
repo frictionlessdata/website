@@ -1,7 +1,7 @@
 ---
 title: Well packaged datasets
 date: 2018-03-07
-tags: ["Data Package Creator"]
+tags: ["Data Package Creator", "field-guide"]
 category: 
 image: /img/blog/well-packaged.png
 description: There's an art to creating a good collection of data. Improve the quality of your datasets; making use of schemas, metadata, and data packages.

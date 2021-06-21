@@ -7,6 +7,7 @@ interviewee: Ethan White
 subject_context: Data Retriever uses Frictionless Data specifications to generate and package metadata for publicly available data
 image: /img/blog/data-retriever-logo.png
 description: The Data Retriever is a package manager for data. It downloads, cleans, and stores publicly available data, so that analysts spend less time cleaning and managing data, and more time analyzing it.
+author: Ethan White
 ---
 
 [The Data Retriever](http://www.data-retriever.org/) automates the tasks of finding, downloading, and cleaning up publicly available data, and then stores them in a variety of databases and file formats. This lets data analysts spend less time cleaning up and managing data, and more time analyzing it.
@@ -47,5 +48,5 @@ Community contributions to our work are welcome. We work hard to make all of our
 [^tableschema]: Table Schema: [https://specs.frictionlessdata.io/table-schema](https://specs.frictionlessdata.io/table-schema)
 [^philosophy]: Design Philosophy: [/specs/#design-philosophy](https://specs.frictionlessdata.io/#design-philosophy)
 [^python]: Data Package-aware libraries in Python: <https://github.com/frictionlessdata/datapackage-py>, <https://github.com/frictionlessdata/tableschema-py>, <https://github.com/frictionlessdata/goodtables-py>
-[^version]: Data Package version field: [/specs/#version](https://specs.frictionlessdata.io/#version)
+[^version]: Data Package version field: [/specs/#version](https://specs.frictionlessdata.io/patterns/#data-package-version)
 [^yaml]: YAML Ain't Markup Language: <https://en.wikipedia.org/wiki/YAML>

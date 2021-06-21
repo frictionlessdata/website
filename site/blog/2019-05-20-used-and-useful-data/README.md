@@ -1,7 +1,7 @@
 ---
 title: Used and useful data
 date: 2019-05-20
-tags: ["Data Package Creator", "goodtables.io", "Command-line"]
+tags: ["Data Package Creator", "goodtables.io", "Command-line", "field-guide"]
 category:
 image: /img/blog/used.png
 description: Concerned that your data is just not being used? We've got some great tips, and best practices to improve the uptake in your data use
