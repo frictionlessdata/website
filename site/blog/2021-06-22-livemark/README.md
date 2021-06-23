@@ -3,7 +3,7 @@ title: Welcome Livemark - the New Frictionless Data Tool
 date: 2021-06-22
 tags: ["news"]
 category: news
-image: /img/blog/Livemark page.png
+image: /img/blog/livemark-page.png
 description: Introducing you to Livemark, the new Frictionless Data tool that allows you to publish data articles easily.
 author: Sara Petti
 ---
