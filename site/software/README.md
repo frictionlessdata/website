@@ -73,17 +73,6 @@ The Frictionless Data project provides data tools and platforms to work with dat
  </div>
 </div>
 
-<!-- DataHub.io -->
-<div class="w-full md:w-1/3 feature flex justify-center">
- <div class="px-8 text-center">
-   <a href="https://datahub.io/" target="_blank">
-     <img src="/img/software/datahub.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>DataHub.io</h3>
-   </a>
-   <p>A SaaS platform built on Frictionless Data that allows discovering, publishing, and sharing data.</p>
- </div>
-</div>
-
 <!-- Livemark -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
@@ -92,6 +81,17 @@ The Frictionless Data project provides data tools and platforms to work with dat
      <h3>Livemark</h3>
    </a>
    <p> Livemark is a static site generator that extends Markdown with interactive charts, tables, scripts, and more.</p>
+ </div>
+</div>
+
+<!-- DataHub.io -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://datahub.io/" target="_blank">
+     <img src="/img/software/datahub.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>DataHub.io</h3>
+   </a>
+   <p>A SaaS platform built on Frictionless Data that allows discovering, publishing, and sharing data.</p>
  </div>
 </div>
 
