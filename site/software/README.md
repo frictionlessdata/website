@@ -12,7 +12,7 @@ The Frictionless Data project provides a rich set of open source software for wo
 This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below and you will be redirected to the corresponding documentation site.
 :::
 
-## Code and Software Libraries
+## General Software
 
 The Frictionless Data project provides various frameworks and libraries for interacting with data. If you want to use or write Frictionless code, this section is for you.
 
@@ -55,23 +55,12 @@ The Frictionless Data project provides various frameworks and libraries for inte
 </div>
 </div>
 
-## Applications and Platforms
+## Specific Software
 
-The Frictionless Data project provides data tools and applications to work with data. If you prefer working with data using an interface or service, this section is for you.
+The Frictionless Data project provides data tools and platforms to work with data. If you prefer working with data using an interface or need a specific tool, this section is for you.
 
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
-
-<!-- DataHub.io -->
-<div class="w-full md:w-1/3 feature flex justify-center">
- <div class="px-8 text-center">
-   <a href="https://datahub.io/" target="_blank">
-     <img src="/img/software/datahub.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>DataHub.io</h3>
-   </a>
-   <p>A SaaS platform built on Frictionless Data that allows discovering, publishing, and sharing data.</p>
- </div>
-</div>
 
 <!-- Frictionless Repository -->
 <div class="w-full md:w-1/3 feature flex justify-center">
@@ -84,14 +73,25 @@ The Frictionless Data project provides data tools and applications to work with 
  </div>
 </div>
 
-<!-- Fricionless Application -->
-<div class="w-full md:w-1/3 feature flex justify-center" style="opacity:0.33">
+<!-- DataHub.io -->
+<div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="https://application.frictionlessdata.io" target="_blank">
-     <img src="/img/software/coming-soon.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>Frictionless Application</h3>
+   <a href="https://datahub.io/" target="_blank">
+     <img src="/img/software/datahub.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>DataHub.io</h3>
    </a>
-   <p>A visual application to describe, extract, validate, and transform tabular data.</p>
+   <p>A SaaS platform built on Frictionless Data that allows discovering, publishing, and sharing data.</p>
+ </div>
+</div>
+
+<!-- Livemark -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://livemark.frictionlessdata.io" target="_blank">
+     <img src="/img/software/livemark.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Livemark</h3>
+   </a>
+   <p> Livemark is a static site generator that extends Markdown with interactive charts, tables, scripts, and more.</p>
  </div>
 </div>
 
