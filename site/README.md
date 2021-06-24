@@ -24,7 +24,7 @@ features:
         <div class="text-center px-8">
           <a href="/software/" class="text-xl text-black hover:underline">
             <h3>Frictionless Software</h3>
-            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/software_crop.png" height="175"></img>
+            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/software.png"></img>
         </a>
           <p class="text-lg font-light pt-4">The Frictionless Data projects provides a rich set of open source tools and software in many programming languages for working with data.</p>
           <a href="/software/" class="text-base hover:underline">Read more &raquo;</a>
@@ -34,7 +34,7 @@ features:
         <div class="text-center px-8">
           <a href="/standards/" class="text-xl text-black hover:underline">
             <h3>Frictionless Standards</h3>
-            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/standards_crop.png" height="175"></img>
+            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/standards.png"></img>
         </a>
           <p class="text-lg font-light pt-4">The Frictionless Data project is built on top of the Frictionless Standards: a set of specifications that standardize working with various types of data.</p>
           <a href="/standards/" class="text-base hover:underline">Read more &raquo;</a>
