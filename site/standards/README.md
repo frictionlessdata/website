@@ -92,14 +92,14 @@ At the core of Frictionless is a set of patterns for describing data including D
 
 If you're looking for integrating a data standard. Here we provide some recommendations:
 
-### Collections
+### Set of Files
 
 If you have more than one file:
 
 - Frictionless provides [Data Package](https://specs.frictionlessdata.io/data-package/) for describing datasets. It's a simple container format for describing a coherent collection of data in a single "package". It provides the basis for convenient delivery, installation and management of datasets.
 - Frictionless provides [Fiscal Data Package](https://specs.frictionlessdata.io/fiscal-data-package/). It's a lightweight and user-oriented format for publishing and consuming fiscal data. Fiscal data packages are made of simple and universal components.
 
-### Individual Files
+### Individual File
 
 If you need to describe an individual file:
 
