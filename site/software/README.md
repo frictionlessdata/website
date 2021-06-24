@@ -105,8 +105,8 @@ quality data even though not having programming skills.
 
 If you like to write commands in the command-line interface:
 
-- Frictionless provides [Frictionless Framework](https://framework.frictionlessdata.io/) that is shipped with an ultimate command-line interface to describe, extract, validate, and transform data. Using the "frictionless" command you can achive many goals without writing Python code.
-- For data journalists and techical writers we have a project called [Livemark](https://livemark.frictionlessdata.io/). Using the "livemark" command you can publish a website powered by markdown articles.
+- Frictionless provides [Frictionless Framework](https://framework.frictionlessdata.io/) that is shipped with an ultimate command-line interface to describe, extract, validate, and transform data. Using the "frictionless" command you can achieve many goals without writing Python code.
+- For data journalists and technical writers we have a project called [Livemark](https://livemark.frictionlessdata.io/). Using the "livemark" command you can publish a website powered by markdown articles.
 
 ### High-level Programming
 
@@ -120,4 +120,4 @@ If you feel comfortable with programming:
 If you want to integrate Frictionless:
 
 - Frictionless provides [Frictionless Libraries](https://libraries.frictionlessdata.io/) that is our standards implementations written in 10 languages. It provides metadata validation and editing among with other low-level data operations like reading or writing tabular files.
-- For visual integrations we have [Frictionless Components](https://components.frictionlessdata.io/). This project exposes some usefull React components like a report or a schema that can be re-used in your application.
+- For visual integrations we have [Frictionless Components](https://components.frictionlessdata.io/). This project exposes some useful React components like a report or a schema that can be re-used in your application.
