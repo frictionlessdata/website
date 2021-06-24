@@ -110,7 +110,7 @@ and validated it, we can finally publish it.
 
 ## Step 3. Publish the data
 
-Our final step is to publish the dataset. The specifics instructions will vary depend on where you're publishing to. In this example, we'll see how to publish to a public [CKAN][ckan] instance, the [https://datahub.ckan.io][datahub]. If you want to use it and don't have an account yet, you can request one via [our community page][datahub:request-org]. Let's start.
+Our final step is to publish the dataset. The specifics instructions will vary depend on where you're publishing to. In this example, we'll see how to publish to a public [CKAN][ckan] instance, the [Datahub](https://old.datahub.io). If you want to use it and don't have an account yet, you can request one via [our community page][datahub:request-org]. *(Note: this example is now out of date. See the [CKAN docs](https://docs.ckan.org/en/2.9/) for more updated information*). Let's start.
 
 After you're logged in, go to the [datasets list page][datahub:dataset-list] and click on the `Import Data Package` button. On this form, click on "Upload", select the `datapackage.json` file we created in the previous step, and choose your organisation. We'll keep the visibility as private for now, so we can review the dataset before it's made public.
 
@@ -132,7 +132,7 @@ That's it! CKAN supports data packages via the [ckanext-datapackager][ckanext-da
 [ckan]: https://ckan.org
 [datahub]: https://datahub.ckan.io
 [datahub:request-org]: https://discuss.okfn.org/c/open-knowledge-labs/datahub
-[datahub:dataset-list]: https://datahub.ckan.io/dataset
+[datahub:dataset-list]: https://old.datahub.io/dataset
 [datahub:import-dp]: https://datahub.ckan.io/import_datapackage
 [datahub:dataset]: https://datahub.ckan.io/dataset/period-table-9896953431
 [ckanext-datapackager]: https://github.com/frictionlessdata/ckanext-datapackager

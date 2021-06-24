@@ -131,6 +131,7 @@ features:
   <small class="font-light text-xl">Frictionless Data project has been adopted by many organizations and individuals.</small>
   <hr class="mt-4">
   <div class="features flex flex-row flex-wrap lg:px-40">
+    <!-- Francisco Alves -->
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
         <img class="rounded-full" src="/img/home/francisco-alvez.png" height="100" />
@@ -138,6 +139,7 @@ features:
         <p>- Francisco Alves, Frictionless Contributor</p>
       </div>
     </div>
+    <!-- Simon Tyrell -->
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
         <img class="rounded-full" src="/img/home/simon-tyrrell.jpg" height="100" />
@@ -145,6 +147,7 @@ features:
         <p>- Simon Tyrrell, Frictionless Tool Fund Grantee</p>
       </div>
     </div>
+    <!-- Oleg Lavrovsky -->
     <div class="w-full md:w-1/3 feature flex justify-center">
       <div class="py-12 px-8 text-center">
         <img class="rounded-full" src="/img/home/oleg-lavrovsky.png" height="100" />
@@ -152,6 +155,22 @@ features:
         <p> - Oleg Lavrovsky, Frictionless Tool Fund Grantee </p>
       </div>
     </div>
+    <!-- Jen Thomas -->
+    <!-- <div class="w-full md:w-1/3 feature flex justify-center">
+      <div class="py-12 px-8 text-center">
+        <img class="rounded-full" src="/img/home/jen_thomas.jpeg" height="100" />
+        <p class="font-light text-lg">"Frictionless provides a very handy set of tools for wrangling and describing data in a reproducible way, allowing us to concentrate on using the data. The team and community are extremely helpful and supportive."</p>
+        <p> - Jen Thomas, Frictionless Contributor </p>
+      </div>
+    </div> -->
+    <!-- Karolína Bzdušek -->
+    <!-- <div class="w-full md:w-1/3 feature flex justify-center">
+      <div class="py-12 px-8 text-center">
+        <img class="rounded-full" src="/img/home/Bzdusek_Karolina.jpg" height="100" />
+        <p class="font-light text-lg">"In Cividi we are using Frictionless Framework as it tackles both data and metadata in a standardized manner. Standardization of metadata is essential for their discoverability and thus usage as well."</p>
+        <p> - Karolína Bzdušek, Frictionless Contributor </p>
+      </div>
+    </div> -->
   </div>
 </div>
 </div>
