@@ -277,7 +277,7 @@ const redirectList = [
   },
   {
     path: "/docs/data-package/",
-    redirect: "/introduction/",
+    redirect: "/standards",
   },
   {
     path: "/docs/table-schema/",
@@ -358,6 +358,10 @@ const redirectList = [
   {
     path: "/events/",
     redirect: "/work-with-us/events/",
+  },
+  {
+    path: "/table-schema",
+    redirect: "/standards",
   },
 ];
 
