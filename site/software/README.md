@@ -14,7 +14,7 @@ This document is an overview of the Frictionless Software - for more in-depth in
 
 ## Software Toolkit
 
-The Frictionless Data project provides various platforms and tools  for interacting with data. Here is a list of our core software:
+Here is a list of our core software:
 
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
@@ -59,7 +59,7 @@ The Frictionless Data project provides various platforms and tools  for interact
      <img src="/img/software/repository.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Repository</h3>
    </a>
-   <p>A Github Action allowing to validate tabular data on every commit to the repository.</p>
+   <p>A Github Action allowing you to validate tabular data on every commit to your repository.</p>
  </div>
 </div>
 
@@ -81,43 +81,36 @@ The Frictionless Data project provides various platforms and tools  for interact
      <img src="/img/software/livemark.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Livemark</h3>
    </a>
-   <p> Livemark is a static site generator that extends Markdown with interactive charts, tables, scripts, and more.</p>
+   <p> A static site generator that extends Markdown with interactive Frictionless charts, tables, scripts, and more.</p>
  </div>
 </div>
 
 </div>
 </div>
 
-## Software Guide
+## Which software is right for me?
 
-Choosing a right tool for the job might be challenging. Here we provide some recommendations:
+Choosing the right tool for the job can be challenging. Here are our recommendations:
 
-### Visual Interface
+### Visual Interfaces
 
-If you prefer to use visual interfaces Frictionless recommends:
+If you prefer to use a visual interface:
 
-- We're working on our brand-new Frictionless Application. It's going to be released in 2021 and while it's not available you can use [Data Package Creator](https://create.frictionlessdata.io/) as a data package visual interface and [Goodtables On-Demand](http://try.goodtables.io/) for data validation.
-- For ensuring data quality of your data in on Github Frictionless provides [Frictionless Repository](https://repository.frictionlessdata.io/). It's easy to enable it for a repository and it provides visual quality reports and validation statuses on Github.
-- For discovering, publishing, and sharing data we have [DataHub.io](https://datahub.io/). It's managed service so you can just sign-in and find, share and publish
-quality data even though not having programming skills.
+- **Frictionless Application (coming soon):** We're working on our brand-new Frictionless Application that will be released in 2021. Until then, you can use the visual interfaces [Data Package Creator](https://create.frictionlessdata.io/) to create and edit data packages and [Goodtables On-Demand](http://try.goodtables.io/) for data validation.
+- **Frictionless Repository:** For ensuring the quality of your data on Github, Frictionless provides [Frictionless Repository](https://repository.frictionlessdata.io/). This creates visual quality reports and validation statuses on Github everytime you commit your data.
+- **DataHub:** For discovering, publishing, and sharing data we have [DataHub.io](https://datahub.io/) which is built on Frictionless software. Using this software as a service, you can sign-in and find, share, and publish quality data.
 
-### Command-line Interface
+### Command-line Interfaces
 
 If you like to write commands in the command-line interface:
 
-- Frictionless provides [Frictionless Framework](https://framework.frictionlessdata.io/) that is shipped with an ultimate command-line interface to describe, extract, validate, and transform data. Using the "frictionless" command you can achieve many goals without writing Python code.
-- For data journalists and technical writers we have a project called [Livemark](https://livemark.frictionlessdata.io/). Using the "livemark" command you can publish a website powered by markdown articles.
+- **Frictionless Framework:** For describing, extracting, validating, and transforming your data, Frictionless provides the [Frictionless Framework's](https://framework.frictionlessdata.io/) command-line interface. Using the "frictionless" command you can achieve many goals without needing to write Python code.
+- **Livemark:** For data journalists and technical writers we have a project called [Livemark](https://livemark.frictionlessdata.io/). Using the "livemark" command in the CLI you can publish a website that incorporates Frictionless functions and is powered by markdown articles.
 
-### High-level Programming
+### Programming Languages
+If you want to use or write your own Frictionless code:
 
-If you feel comfortable with programming:
-
-- The [Frictionless Framework](https://framework.frictionlessdata.io/) is way to go if you need general data programming in Python. You can describe, extract, validate, and transform your data. It's also possible to extend the framework adding new validation checks, transform steps, and many more.
-- We have a lightweight version of the framework written in Javascript. [Frictionless Framework (JavaScript)](https://github.com/frictionlessdata/frictionless-js) is standardized "stream-plus-metadata" interface for accessing files and datasets, especially tabular ones (CSV, Excel).
-
-### Low-level Programming
-
-If you want to integrate Frictionless:
-
-- Frictionless provides [Frictionless Libraries](https://libraries.frictionlessdata.io/) that is our standards implementations written in 10 languages. It provides metadata validation and editing among with other low-level data operations like reading or writing tabular files.
-- For visual integrations we have [Frictionless Components](https://components.frictionlessdata.io/). This project exposes some useful React components like a report or a schema that can be re-used in your application.
+- **Frictionless Python Framework:** For general data programming in Python, the [Frictionless Framework](https://framework.frictionlessdata.io/) is the way to go. You can describe, extract, validate, and transform your data. It's also possible to extend the framework by adding new validation checks, transformation steps, etc.
+- **Javascript Framework:** We have a lightweight version of the Framework written in Javascript. [Frictionless Framework (JavaScript)](https://github.com/frictionlessdata/frictionless-js) is a standardized "stream-plus-metadata" interface for accessing files and datasets, especially tabular ones (CSV, Excel).
+- **Frictionless Libraries:** For Frictionless functions in other languages like R or Java, we have [Frictionless Libraries](https://libraries.frictionlessdata.io/). Each library provides metadata validation and editing along with other low-level data operations like reading or writing tabular files.
+- **Frictionless Components:** For adding Frictionless React components into your application, we created [Frictionless Components](https://components.frictionlessdata.io/). This project lets you integrate visual elements like validation reports, workflows, or schema editors into your application.
