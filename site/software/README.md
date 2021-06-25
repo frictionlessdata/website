@@ -96,7 +96,7 @@ Choosing the right tool for the job can be challenging. Here are our recommendat
 
 If you prefer to use a visual interface:
 
-- **Frictionless Application (coming soon):** We're working on our brand-new Frictionless Application that will be released in 2021. Until then, you can use the visual interfaces [Data Package Creator](https://create.frictionlessdata.io/) to create and edit data packages and [Goodtables On-Demand](http://try.goodtables.io/) for data validation.
+- **Frictionless Application (coming soon):** We're working on our brand-new Frictionless Application that will be released in 2021. Until then, you can use [Data Package Creator](https://create.frictionlessdata.io/) to create and edit data packages and [Goodtables On-Demand](http://try.goodtables.io/) for data validation.
 - **Frictionless Repository:** For ensuring the quality of your data on Github, Frictionless provides [Frictionless Repository](https://repository.frictionlessdata.io/). This creates visual quality reports and validation statuses on Github everytime you commit your data.
 - **Datahub:** For discovering, publishing, and sharing data we have [Datahub](https://datahub.io/) which is built on Frictionless software. Using this software as a service, you can sign-in and find, share, and publish quality data.
 
@@ -106,6 +106,7 @@ If you like to write commands in the command-line interface:
 
 - **Frictionless Framework:** For describing, extracting, validating, and transforming data, Frictionless provides the [Frictionless Framework's](https://framework.frictionlessdata.io/) command-line interface. Using the "frictionless" command you can achieve many goals without needing to write Python code.
 - **Livemark:** For data journalists and technical writers we have a project called [Livemark](https://livemark.frictionlessdata.io/). Using the "livemark" command in the CLI you can publish a website that incorporates Frictionless functions and is powered by markdown articles.
+- **Datahub:** Frictionless provides a command-line tool called [Data](https://datahub.io/docs/features/data-cli) which is an important part of the Datahub project. The "data" command is available for a JavaScript environment and it helps you to interact with data stored on Datahub.
 
 ### Programming Languages
 If you want to use or write your own Frictionless code:
