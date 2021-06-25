@@ -63,17 +63,6 @@ Here is a list of our core software:
  </div>
 </div>
 
-<!-- DataHub.io -->
-<div class="w-full md:w-1/3 feature flex justify-center">
- <div class="px-8 text-center">
-   <a href="https://datahub.io/" target="_blank">
-     <img src="/img/software/datahub.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>DataHub.io</h3>
-   </a>
-   <p>A SaaS platform built on Frictionless Data that allows discovering, publishing, and sharing data.</p>
- </div>
-</div>
-
 <!-- Livemark -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
@@ -81,7 +70,18 @@ Here is a list of our core software:
      <img src="/img/software/livemark.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Livemark</h3>
    </a>
-   <p> A static site generator that extends Markdown with interactive Frictionless charts, tables, scripts, and more.</p>
+   <p> A static site generator that extends Markdown with interactive charts, tables, scripts, and more.</p>
+ </div>
+</div>
+
+<!-- Datahub -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://datahub.io/" target="_blank">
+     <img src="/img/software/datahub.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Datahub</h3>
+   </a>
+   <p>A web platform built on Frictionless Data that allows discovering, publishing, and sharing data.</p>
  </div>
 </div>
 
