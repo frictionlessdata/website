@@ -48,7 +48,7 @@ Here is a list of our core software:
      <img src="/img/software/components.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Components</h3>
    </a>
-   <p>A set of React components that are quick to integrate into your application for working with data and metadata.</p>
+   <p>A set of React components for data and metadata that are quick to integrate into your application.</p>
  </div>
 </div>
 
