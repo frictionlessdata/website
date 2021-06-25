@@ -6,7 +6,7 @@ title: Frictionless Standards
 
 <big><strong>Lightweight yet comprehensive data specifications.</strong></big>
 
-The Frictionless Data project is built on top of the Frictionless Standards, which are a set of specifications created to standardize different aspects of working with data. For example, you can use the Standards to describe a collection of data resources or to share information about data types.
+The Frictionless Data project is built on top of the Frictionless Standards, which are a set of specifications created to standardize different aspects of working with data. For example, you can use the Standards to describe a collection of data files or to share information about data types.
 
 :::tip
 This document is an overview of the Frictionless Standards - for more in-depth information please visit [the specification site](https://specs.frictionlessdata.io/) or click on one of the standards below and you will be redirected to a corresponding specification.
@@ -14,7 +14,7 @@ This document is an overview of the Frictionless Standards - for more in-depth i
 
 ## Standards Toolkit
 
-At the core of Frictionless is a set of patterns for describing data including Data Package (for datasets), Data Resource (for files) and Table Schema (for tables). There are others for specific use cases.
+At the core of Frictionless is a set of patterns for describing data including Data Package (for datasets), Data Resource (for files), Table Schema (for tables), and also domain-specific extensions.
 
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
@@ -59,7 +59,7 @@ At the core of Frictionless is a set of patterns for describing data including D
      <img src="/img/standards/fiscal-data-package.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Fiscal Data Package</h3>
    </a>
-   <p>Fiscal Data Package is a format for publishing and consuming fiscal data.</p>
+   <p>Describe and publish tabular fiscal data.</p>
  </div>
 </div>
 
@@ -70,7 +70,7 @@ At the core of Frictionless is a set of patterns for describing data including D
      <img src="/img/standards/data-package-views.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Data Package Views</h3>
    </a>
-   <p>Describe views of data - leverages existing specifications like Vega.</p>
+   <p>Describe views of data by leveraging existing specifications like Vega.</p>
  </div>
 </div>
 
@@ -90,25 +90,24 @@ At the core of Frictionless is a set of patterns for describing data including D
 
 ## Which standard is right for me?
 
-If you're looking for integrating a data standard. Here we provide some recommendations:
+To help you pick a standard to use, we've categorized them according to how many files you are working with. 
 
 ### Set of Files
 
-If you have more than one file:
+If you have more than one file, use `Data Package`:
 
-- Frictionless provides [Data Package](https://specs.frictionlessdata.io/data-package/) for describing datasets. It's a simple container format for describing a coherent collection of data in a single "package". It provides the basis for convenient delivery, installation and management of datasets.
-- Frictionless provides [Fiscal Data Package](https://specs.frictionlessdata.io/fiscal-data-package/). It's a lightweight and user-oriented format for publishing and consuming fiscal data. Fiscal data packages are made of simple and universal components.
+- Use a [Data Package](https://specs.frictionlessdata.io/data-package/) for describing datasets of any file format. Data Package is a basic container format for describing a collection of data in a single "package". It provides a basis for convenient delivery, installation and management of datasets.
+- For fiscal data, use a [Fiscal Data Package](https://specs.frictionlessdata.io/fiscal-data-package/). This lightweight and user-oriented format is for publishing and consuming fiscal data.
 
 ### Individual File
 
-If you need to describe an individual file:
+If you need to describe an individual file, use `Data Resource`:
 
-- Frictionless provides [Data Resources](https://specs.frictionlessdata.io/data-resource/) for describing files. It's a simple format to describe and package a single data resource such as a individual table or file. It might be extended for specific use cases.
-- There is a Data Resource extension called [Tabular Data Resource](https://specs.frictionlessdata.io/tabular-data-resource/). It's simple format to describe a single tabular data resource such as a CSV file. It includes support both for metadata such as author and title and a schema to describe the data.
+- Use [Data Resource](https://specs.frictionlessdata.io/data-resource/) for describing individual files. Data Resource is a format to describe and package a single data resource of any file format, such as an individual table or file. It can also be extended for specific use cases.
+- For tabular data, use the Data Resource extension called [Tabular Data Resource](https://specs.frictionlessdata.io/tabular-data-resource/). Tabular Data Resource describes a single *tabular* data resource such as a CSV file. It includes support for metadata and schemas to describe the data content and structure.
+- To describe only the schema of a tabular data file, use [Table Schema](https://specs.frictionlessdata.io/table-schema/). Table Schema is a format to declare a schema for tabular data. The schema is designed to be expressible in JSON. You can have a schema as independent metadata or use it with a Tabular Data Resource.
+- To specify the CSV dialect within a schema, use [CSV Dialect](https://specs.frictionlessdata.io/csv-dialect/). This defines a format to describe the various dialects of CSV files in a language agnostic manner. This is important because CSV files might be published in different forms, making it harder to read the data without errors. CSV Dialect can be used with a Tabular Data Resource to provide additional information.
 
-### Similar Tabular Files
-
-If you need to describe a class of tabular files:
-
-- Frictionless provides [Table Schema](https://specs.frictionlessdata.io/table-schema/). It's a simple format to declare a schema for tabular data. The schema is designed to be expressible in JSON. You can have a schema as a independent metadata or use it with Tabular Data Resource.
-- Frictionless provides [CSV Dialect](https://specs.frictionlessdata.io/csv-dialect/). It defines a simple format to describe the various dialects of CSV files in a language agnostic manner. It's important because CSV files might be published in different forms making it harder to read it without errors.
+<a href="https://specs.frictionlessdata.io/" target="_blank">
+  <img src="/img/standards/specs-diagram.png" />
+</a>
