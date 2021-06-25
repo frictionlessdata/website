@@ -88,7 +88,7 @@ At the core of Frictionless is a set of patterns for describing data including D
 </div>
 </div>
 
-## Standards Guide
+## Which standard is right for me?
 
 If you're looking for integrating a data standard. Here we provide some recommendations:
 
