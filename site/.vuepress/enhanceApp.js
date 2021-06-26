@@ -296,10 +296,6 @@ const redirectList = [
     redirect: "/introduction/",
   },
   {
-    path: "/data-package/",
-    redirect: "/introduction/",
-  },
-  {
     path: "/tooling/application/",
     redirect: "/software/",
   },
@@ -358,6 +354,10 @@ const redirectList = [
   {
     path: "/table-schema",
     redirect: "/standards",
+  },
+  {
+    path: "/data-package/",
+    redirect: "/standards/",
   },
 ];
 
