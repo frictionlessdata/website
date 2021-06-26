@@ -5,7 +5,6 @@
   "scripts": {
     "build": "vuepress build site",
     "start": "vuepress dev site",
-    "docs": "bash scripts/docs.sh",
     "update": "ncu -u"
   },
   "devDependencies": {

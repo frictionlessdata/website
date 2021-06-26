@@ -16,11 +16,3 @@ $ npm start
 ## Deployment
 
 New commits into the master branch will be automatically deployed to GitHub Pages by a [workflow](.github/workflows/main.yml).
-
-## Documentation
-
-To update tooling documentation:
-
-```console
-$ npm run docs
-```
