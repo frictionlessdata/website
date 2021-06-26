@@ -90,18 +90,18 @@ At the core of Frictionless is a set of patterns for describing data including D
 
 ## Which standard is right for me?
 
-To help you pick a standard to use, we've categorized them according to how many files you are working with. 
+To help you pick a standard to use, we've categorized them according to how many files you are working with.
 
-### Set of Files
+### Collection of Files
 
-If you have more than one file, use `Data Package`:
+If you have more than one file:
 
 - Use a [Data Package](https://specs.frictionlessdata.io/data-package/) for describing datasets of any file format. Data Package is a basic container format for describing a collection of data in a single "package". It provides a basis for convenient delivery, installation and management of datasets.
-- For fiscal data, use a [Fiscal Data Package](https://specs.frictionlessdata.io/fiscal-data-package/). This lightweight and user-oriented format is for publishing and consuming fiscal data.
+- For fiscal data, use a [Fiscal Data Package](https://specs.frictionlessdata.io/fiscal-data-package/). This lightweight and user-oriented format is for publishing and consuming fiscal data. It concerns with how fiscal data should be packaged and providing means for publishers to best convey the meaning of the data - so it can be optimally used by consumers.
 
 ### Individual File
 
-If you need to describe an individual file, use `Data Resource`:
+If you need to describe an individual file:
 
 - Use [Data Resource](https://specs.frictionlessdata.io/data-resource/) for describing individual files. Data Resource is a format to describe and package a single data resource of any file format, such as an individual table or file. It can also be extended for specific use cases.
 - For tabular data, use the Data Resource extension called [Tabular Data Resource](https://specs.frictionlessdata.io/tabular-data-resource/). Tabular Data Resource describes a single *tabular* data resource such as a CSV file. It includes support for metadata and schemas to describe the data content and structure.
