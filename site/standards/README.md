@@ -90,7 +90,7 @@ At the core of Frictionless is a set of patterns for describing data including D
 
 ## Standards Overview
 
-For better understanding of the Frictionless Standards and relations among them please read a short standards overview written to introduce the concept of Data Packaing:
+For better understanding of the Frictionless Standards and relations among them please read a short standards overview written to introduce the concept of Data Packaging:
 
 ### Data Package
 
