@@ -164,7 +164,8 @@ A minimal example Data Package would look like this on disk:
 ```
 datapackage.json
 
-# a data file(s) (CSV in this case but could be any type of data). Data files may go either in data subdirectory or in the main directory
+# Data file(s) (CSV in this case but could be any type of data).
+# Data files may go either in data subdirectory or in the main directory
 data
 data/more-data.csv
 
