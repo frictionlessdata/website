@@ -38,8 +38,7 @@ jobs:
     - name: Build
       run: npm run build
     - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@releases/v3
+      uses: JamesIves/github-pages-deploy-action@v4
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        BRANCH: gh-pages
-        FOLDER: site/.vuepress/dist
+        branch: gh-pages
+        folder: site/.vuepress/dist
