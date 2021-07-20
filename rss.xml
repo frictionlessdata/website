@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Frictionless Data</title>
+        <link>https://frictionlessdata.io</link>
+        <description>Data software and standards</description>
+        <lastBuildDate>Tue, 20 Jul 2021 07:57:13 GMT</lastBuildDate>
+        <docs>http://blogs.law.harvard.edu/tech/rss</docs>
+        <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
+        <atom:link href="https://frictionlessdata.io/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Open Data Blend]]></title>
+            <link>https://frictionlessdata.io/blog/2021/07/12/open-data-blend/</link>
+            <guid>https://frictionlessdata.io/blog/2021/07/12/open-data-blend/</guid>
+            <pubDate>Mon, 12 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Open Data Blend  is a set of open data services that aim to make large and complex UK open data easier to analyse.]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/open-data-blend-home-page.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[A Bittersweet Ending to Frictionless Fellows Cohort 2]]></title>
+            <link>https://frictionlessdata.io/blog/2021/07/02/farewell-fellows/</link>
+            <guid>https://frictionlessdata.io/blog/2021/07/02/farewell-fellows/</guid>
+            <pubDate>Fri, 02 Jul 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[As a final assignment, the Fellows have written blogs reflecting upon their experiences and what they learned during the programme...]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/fellows-ending.jpg">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[A Short Case Study Involving Table Schema Frictionless Specs at the European Union]]></title>
+            <link>https://frictionlessdata.io/blog/2021/06/28/frictionless-specs-european-commission/</link>
+            <guid>https://frictionlessdata.io/blog/2021/06/28/frictionless-specs-european-commission/</guid>
+            <pubDate>Mon, 28 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Frictionless specifications are helping with simplifying data validation for applications in production at the European Union.]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/interoperability-test-bed-eu-commission.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Frictionless Data June 2021 Virtual Hangout]]></title>
+            <link>https://frictionlessdata.io/blog/2021/06/25/june-virtual-hangout/</link>
+            <guid>https://frictionlessdata.io/blog/2021/06/25/june-virtual-hangout/</guid>
+            <pubDate>Fri, 25 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[At our June Frictionless Data community call we had Nikhil Vats giving a presentation on Frictionless Package for InterMine...]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/june21-community-call.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Welcome Livemark - the New Frictionless Data Tool]]></title>
+            <link>https://frictionlessdata.io/blog/2021/06/22/livemark/</link>
+            <guid>https://frictionlessdata.io/blog/2021/06/22/livemark/</guid>
+            <pubDate>Tue, 22 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Introducing you to Livemark, the new Frictionless Data tool that allows you to publish data articles easily.]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/livemark-page.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Announcing New Changes to Our Website]]></title>
+            <link>https://frictionlessdata.io/blog/2021/06/16/new-changes-to-the-website/</link>
+            <guid>https://frictionlessdata.io/blog/2021/06/16/new-changes-to-the-website/</guid>
+            <pubDate>Wed, 16 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[We have finished making some new changes that we are very excited to tell you about!]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/fd-home.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Frictionless Data May 2021 Virtual Hangout]]></title>
+            <link>https://frictionlessdata.io/blog/2021/06/01/may-virtual-hangout/</link>
+            <guid>https://frictionlessdata.io/blog/2021/06/01/may-virtual-hangout/</guid>
+            <pubDate>Tue, 01 Jun 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[On our last Frictionless Data community call on May 29 we had Simon Tyrrell and Xingdong Bian from the Earlham Institute giving a presentation on Frictionless Data for Wheat.]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/may.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Frictionless Data April 2021 Virtual Hangout]]></title>
+            <link>https://frictionlessdata.io/blog/2021/05/03/april-virtual-hangout/</link>
+            <guid>https://frictionlessdata.io/blog/2021/05/03/april-virtual-hangout/</guid>
+            <pubDate>Mon, 03 May 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[On our last Frictionless Data community call on April 29 we had an interactive session with our great Frictionless Data Fellows.]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/april.png">
+            </enclosure>
+        </item>
+    </channel>
+</rss>

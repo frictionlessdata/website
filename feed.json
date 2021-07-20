@@ -1,0 +1,73 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Frictionless Data",
+    "home_page_url": "https://frictionlessdata.io",
+    "feed_url": "https://frictionlessdata.io/feed.json",
+    "description": "Data software and standards",
+    "items": [
+        {
+            "id": "https://frictionlessdata.io/blog/2021/07/12/open-data-blend/",
+            "url": "https://frictionlessdata.io/blog/2021/07/12/open-data-blend/",
+            "title": "Open Data Blend",
+            "summary": "Open Data Blend  is a set of open data services that aim to make large and complex UK open data easier to analyse.",
+            "image": "https://frictionlessdata.io/img/blog/open-data-blend-home-page.png",
+            "date_modified": "2021-07-12T00:00:00.000Z"
+        },
+        {
+            "id": "https://frictionlessdata.io/blog/2021/07/02/farewell-fellows/",
+            "url": "https://frictionlessdata.io/blog/2021/07/02/farewell-fellows/",
+            "title": "A Bittersweet Ending to Frictionless Fellows Cohort 2",
+            "summary": "As a final assignment, the Fellows have written blogs reflecting upon their experiences and what they learned during the programme...",
+            "image": "https://frictionlessdata.io/img/blog/fellows-ending.jpg",
+            "date_modified": "2021-07-02T00:00:00.000Z"
+        },
+        {
+            "id": "https://frictionlessdata.io/blog/2021/06/28/frictionless-specs-european-commission/",
+            "url": "https://frictionlessdata.io/blog/2021/06/28/frictionless-specs-european-commission/",
+            "title": "A Short Case Study Involving Table Schema Frictionless Specs at the European Union",
+            "summary": "The Frictionless specifications are helping with simplifying data validation for applications in production at the European Union.",
+            "image": "https://frictionlessdata.io/img/blog/interoperability-test-bed-eu-commission.png",
+            "date_modified": "2021-06-28T00:00:00.000Z"
+        },
+        {
+            "id": "https://frictionlessdata.io/blog/2021/06/25/june-virtual-hangout/",
+            "url": "https://frictionlessdata.io/blog/2021/06/25/june-virtual-hangout/",
+            "title": "Frictionless Data June 2021 Virtual Hangout",
+            "summary": "At our June Frictionless Data community call we had Nikhil Vats giving a presentation on Frictionless Package for InterMine...",
+            "image": "https://frictionlessdata.io/img/blog/june21-community-call.png",
+            "date_modified": "2021-06-25T00:00:00.000Z"
+        },
+        {
+            "id": "https://frictionlessdata.io/blog/2021/06/22/livemark/",
+            "url": "https://frictionlessdata.io/blog/2021/06/22/livemark/",
+            "title": "Welcome Livemark - the New Frictionless Data Tool",
+            "summary": "Introducing you to Livemark, the new Frictionless Data tool that allows you to publish data articles easily.",
+            "image": "https://frictionlessdata.io/img/blog/livemark-page.png",
+            "date_modified": "2021-06-22T00:00:00.000Z"
+        },
+        {
+            "id": "https://frictionlessdata.io/blog/2021/06/16/new-changes-to-the-website/",
+            "url": "https://frictionlessdata.io/blog/2021/06/16/new-changes-to-the-website/",
+            "title": "Announcing New Changes to Our Website",
+            "summary": "We have finished making some new changes that we are very excited to tell you about!",
+            "image": "https://frictionlessdata.io/img/blog/fd-home.png",
+            "date_modified": "2021-06-16T00:00:00.000Z"
+        },
+        {
+            "id": "https://frictionlessdata.io/blog/2021/06/01/may-virtual-hangout/",
+            "url": "https://frictionlessdata.io/blog/2021/06/01/may-virtual-hangout/",
+            "title": "Frictionless Data May 2021 Virtual Hangout",
+            "summary": "On our last Frictionless Data community call on May 29 we had Simon Tyrrell and Xingdong Bian from the Earlham Institute giving a presentation on Frictionless Data for Wheat.",
+            "image": "https://frictionlessdata.io/img/blog/may.png",
+            "date_modified": "2021-06-01T00:00:00.000Z"
+        },
+        {
+            "id": "https://frictionlessdata.io/blog/2021/05/03/april-virtual-hangout/",
+            "url": "https://frictionlessdata.io/blog/2021/05/03/april-virtual-hangout/",
+            "title": "Frictionless Data April 2021 Virtual Hangout",
+            "summary": "On our last Frictionless Data community call on April 29 we had an interactive session with our great Frictionless Data Fellows.",
+            "image": "https://frictionlessdata.io/img/blog/april.png",
+            "date_modified": "2021-05-03T00:00:00.000Z"
+        }
+    ]
+}
