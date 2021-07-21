@@ -271,6 +271,17 @@ The Frictionless Data project develops open source standards and software that c
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
 
+<!-- Open Data Blend -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2021/07/12/open-data-blend/" target="_blank">
+     <img src="/img/adoption/odb.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Open Data Blend</h3>
+   </a>
+   <p>Open Data Blend  is a set of open data services that aim to make large and complex UK open data easier to analyse.</p>
+ </div>
+</div>
+
 <!-- Data Curator -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
