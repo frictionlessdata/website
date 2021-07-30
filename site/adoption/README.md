@@ -461,7 +461,7 @@ The Frictionless Data project develops open source standards and software that c
 <!-- ISA² -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="" target="_blank">
+   <a href="/blog/2021/06/28/frictionless-specs-european-commission/" target="_blank">
      <img src="/img/adoption/european-commission.svg" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>European Commission</h3>
    </a>
