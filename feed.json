@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2021/08/02/apply-fellows/",
+            "url": "https://frictionlessdata.io/blog/2021/08/02/apply-fellows/",
+            "title": "Apply Now - become a Frictionless Data Reproducible Research Fellow",
+            "summary": "Apply today to join the Third Cohort of Frictionless Data Fellows!",
+            "image": "https://frictionlessdata.io/img/blog/fd_reproducible.png",
+            "date_modified": "2021-08-02T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2021/07/21/frictionless-repository/",
             "url": "https://frictionlessdata.io/blog/2021/07/21/frictionless-repository/",
             "title": "Frictionless Repository",
@@ -60,14 +68,6 @@
             "summary": "We have finished making some new changes that we are very excited to tell you about!",
             "image": "https://frictionlessdata.io/img/blog/fd-home.png",
             "date_modified": "2021-06-16T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/06/01/may-virtual-hangout/",
-            "url": "https://frictionlessdata.io/blog/2021/06/01/may-virtual-hangout/",
-            "title": "Frictionless Data May 2021 Virtual Hangout",
-            "summary": "On our last Frictionless Data community call on May 29 we had Simon Tyrrell and Xingdong Bian from the Earlham Institute giving a presentation on Frictionless Data for Wheat.",
-            "image": "https://frictionlessdata.io/img/blog/may.png",
-            "date_modified": "2021-06-01T00:00:00.000Z"
         }
     ]
 }
