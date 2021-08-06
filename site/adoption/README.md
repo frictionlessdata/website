@@ -121,7 +121,7 @@ We work closely with data researchers and institutions to help them integrate Fr
 <!-- Pacific Northwest National Laboratory - Active Data Biology -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="blog/2017/06/26/pacific-northwest-national-laboratory-active-data-biology/" target="_blank">
+   <a href="/blog/2017/06/26/pacific-northwest-national-laboratory-active-data-biology/" target="_blank">
      <img src="/img/blog/pnnl.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Pacific Northwest National Laboratory - Active Data Biology</h3>
    </a>
