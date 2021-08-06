@@ -1,6 +1,6 @@
 ---
 title: The first six community calls of 2021: a recap.
-date: 2021-07-06
+date: 2021-08-06
 tags: ['events', 'community-hangout']
 category: events
 image: /img/blog/community-call-pic.png
