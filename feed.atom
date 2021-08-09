@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frictionlessdata.io</id>
     <title>Frictionless Data</title>
-    <updated>2021-08-06T17:13:31.247Z</updated>
+    <updated>2021-08-09T15:21:09.282Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://frictionlessdata.io"/>
     <link rel="self" href="https://frictionlessdata.io/feed.atom"/>
     <subtitle>Data software and standards</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Frictionless Data and Dryad join forces to validate research data]]></title>
+        <id>https://frictionlessdata.io/blog/2021/08/09/dryad-pilot/</id>
+        <link href="https://frictionlessdata.io/blog/2021/08/09/dryad-pilot/">
+        </link>
+        <updated>2021-08-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A great way to share research data is to upload it to a repository, but how do we ensure that uploaded data doesn't have issues? Frictionless Data and Dryad join forces to revamp the upload page for the Dryad application, now including the Frictionless validation functionality to check for data quality.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[The first six community calls of 2021 - a recap.]]></title>
         <id>https://frictionlessdata.io/blog/2021/08/06/recap-community-calls/</id>
@@ -62,13 +70,5 @@
         </link>
         <updated>2021-06-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[At our June Frictionless Data community call we had Nikhil Vats giving a presentation on Frictionless Package for InterMine...]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Welcome Livemark - the New Frictionless Data Tool]]></title>
-        <id>https://frictionlessdata.io/blog/2021/06/22/livemark/</id>
-        <link href="https://frictionlessdata.io/blog/2021/06/22/livemark/">
-        </link>
-        <updated>2021-06-22T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Introducing you to Livemark, the new Frictionless Data tool that allows you to publish data articles easily.]]></summary>
     </entry>
 </feed>
