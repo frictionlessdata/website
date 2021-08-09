@@ -1,10 +1,10 @@
 ---
-title:  Frictionless Data and Dryad join forces to add Frictionless validation functionality to the Dryad data upload page
+title: Frictionless Data and Dryad join forces to validate research data
 date: 2021-08-09
 tags: ['pilot']
 category:
 image: /img/adoption/dryad.png
-description: A great way to share research data is to upload it to a repository, but simply uploading data is not the final step here. Ideally, the uploaded data will be of high quality. Frictionless Data and Dryad join forces to revamp the upload page for the Dryad application, now including the Frictionless validation functionality.
+description: A great way to share research data is to upload it to a repository, but how do we ensure that uploaded data doesn't have issues? Frictionless Data and Dryad join forces to revamp the upload page for the Dryad application, now including the Frictionless validation functionality to check for data quality.
 author: Daniella Lowenberg and Lilly Winfree 
 ---
 What happens to scientific data after it is generated? The answer is complicated - sometimes that data is shared with other researchers, sometimes it is hidden away on a private hard drive. Sharing research data is a key part of open science, the movement to make research more accessible and usable by everyone to drive faster advances in science. A great way to share research data is to upload it to a repository, but simply uploading data is not the final step here. Ideally, the uploaded data will be of high quality - that is, it won’t have errors or missing data, and it will have enough descriptive information that other researchers can also use it! Over the last 6 months, we collaborated with the data repository Dryad to make it easier for researchers to upload their high quality data for sharing.
