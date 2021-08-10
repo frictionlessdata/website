@@ -8,6 +8,10 @@ title: Events Calendar
 
 Frictionless Data calendar with a listing of our upcoming [events](/tag/events/) including webinars, virtual hangouts, etc.
 
+## Frictionless Hackathon
+
+Join the vibrant Frictionless Data community in October for a two-day virtual Hackathon! See all the details and register here: [https://frictionlessdata.io/hackathon](https://frictionlessdata.io/hackathon)
+
 ## Calendar
 
 :::tip

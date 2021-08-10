@@ -140,6 +140,7 @@ module.exports = {
         ],
       },
       { text: "Blog", link: "/blog/" },
+      { text: "Hackathon", link: "/hackathon/" },
     ],
   },
   plugins: [
