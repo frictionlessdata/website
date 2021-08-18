@@ -139,8 +139,8 @@ module.exports = {
           { text: "Chat", link: "https://discordapp.com/invite/Sewv6av" },
         ],
       },
-      { text: "Blog", link: "/blog/" },
       { text: "Hackathon", link: "/hackathon/" },
+      { text: "Blog", link: "/blog/" },
     ],
   },
   plugins: [
