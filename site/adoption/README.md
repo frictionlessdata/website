@@ -465,7 +465,7 @@ The Frictionless Data project develops open source standards and software that c
      <img src="/img/adoption/european-commission.svg" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>European Commission</h3>
    </a>
-   <p>The European Commission launched a <a href="https://www.itb.ec.europa.eu/csv/any/upload">CSV schema validator</a> using the tabular data package specification, as part of the ISA² Interoperability Testbed. </p>
+   <p>The European Commission launched a <a href="https://www.itb.ec.europa.eu/csv/any/upload" target="_blank">CSV schema validator</a> using the tabular data package specification, as part of the ISA² Interoperability Testbed. </p>
  </div>
 </div>
 
