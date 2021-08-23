@@ -2,7 +2,9 @@
 title: Frictionless Hackathon
 ---
 
-# Join the Frictionless Data community for a two-day virtual Hackathon in October!
+# Join the Frictionless Data community for a two-day virtual Hackathon in October! 
+
+> **Register your project here: https://forms.gle/brYDcP2Fugn74fgN6**
 
 
 ## What’s a hackathon? 
@@ -18,7 +20,7 @@ First of all, it will be fun! You’ll meet other Frictionless users and learn s
 The hackathon will be virtual and occur over 2 days in October (exact date is to be determined). The event will start in the morning European time on Day 1, and will end in the evening European time on Day 2. This will allow people from around the world to participate during a time that works for them. We will be using Github and Zoom to coordinate and work virtually. Teams will be able to form before the event occurs so you can start coordinating early and hit the ground running.
 
 ## Sign me up!
-Registration will open soon. There will be a form to propose project ideas, and also a registration form for attendees. The event will be free, and we will also have some scholarships for attendees that would otherwise be unable to attend. More details coming soon!
+Propose your project idea using this [form](https://forms.gle/brYDcP2Fugn74fgN6). Registration for attendees will open in September. The event will be free, and we will also have some scholarships for attendees that would otherwise be unable to attend. More details coming soon!
 
 ## I have questions...
 Please email us at frictionlessdata@okfn.org if you have questions or would like to support the Hackathon.
