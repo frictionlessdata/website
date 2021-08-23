@@ -472,11 +472,11 @@ The Frictionless Data project develops open source standards and software that c
 <!-- Validata -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a target="_blank">
+   <a href="/blog/2020/04/23/table-schema-catalog/" target="_blank">
      <img src="/img/adoption/validata.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Validata</h3>
    </a>
-   <p><a href="https://www.opendatafrance.net/" target="_blank">OpenDataFrance</a> created <a href="http://validata.fr/" target="_blank">Validata</a>, a platform for local public administration in France to validate CSV files on the web, using the tabular data package specification, as part of the <em lang="fr">Programme d'Investissements d'Avenir</em> (PIA2) program. One can validate against schemas defined in the French <a href="https://scdl.opendatafrance.net/docs/" target="_blank">SCDL</a> standards for local governments or choose a custom schema.</p>
+   <p><a href="https://www.opendatafrance.net/" target="_blank">OpenDataFrance</a> created <a href="http://validata.fr/" target="_blank">Validata</a>, a platform for local public administration in France to validate CSV files on the web, using the tabular data package specification.</p>
  </div>
 </div>
 
