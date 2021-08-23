@@ -2,7 +2,7 @@
 title: Frictionless Hackathon
 ---
 
-# Join the Frictionless Data community for a two-day virtual Hackathon in October! 
+# Join the Frictionless Data community for a two-day virtual Hackathon on 7-8 October! 
 
 > **Register your project here: https://forms.gle/brYDcP2Fugn74fgN6**
 
@@ -17,7 +17,7 @@ We’re looking for contributions of all sizes and skill levels! Some skills tha
 First of all, it will be fun! You’ll meet other Frictionless users and learn something new. This is also an opportunity where you’ll have the uninterrupted support of the Frictionless core team to help you realize your prototype. Also, there will be prizes (details to be announced later).
 
 ## When will the hackathon occur? 
-The hackathon will be virtual and occur over 2 days in October (exact date is to be determined). The event will start in the morning European time on Day 1, and will end in the evening European time on Day 2. This will allow people from around the world to participate during a time that works for them. We will be using Github and Zoom to coordinate and work virtually. Teams will be able to form before the event occurs so you can start coordinating early and hit the ground running.
+The hackathon will be virtual and occur on 7-8 October. The event will start in the morning European time on 7 October, and will end in the evening European time on 8 October (exact times will be announced later). This will allow people from around the world to participate during a time that works for them. We will be using Github and Zoom to coordinate and work virtually. Teams will be able to form before the event occurs so you can start coordinating early and hit the ground running.
 
 ## Sign me up!
 Propose your project idea using this [form](https://forms.gle/brYDcP2Fugn74fgN6). Registration for attendees will open in September. The event will be free, and we will also have some scholarships for attendees that would otherwise be unable to attend. More details coming soon!
