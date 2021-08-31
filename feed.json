@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2021/08/31/august-26-community-call/",
+            "url": "https://frictionlessdata.io/blog/2021/08/31/august-26-community-call/",
+            "title": "Frictionless Data 26 August 2021 Virtual Hangout",
+            "summary": "At our Frictionless Data community call we had Amber York and Adam Shepherd from BCO-DMO giving a presentation on Frictionless Data Pipelines for Ocean Science...",
+            "image": "https://frictionlessdata.io/img/blog/BCODMO-data-pipelines.png",
+            "date_modified": "2021-08-31T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2021/08/16/august-12-call/",
             "url": "https://frictionlessdata.io/blog/2021/08/16/august-12-call/",
             "title": "Frictionless Data 12 August 2021 Virtual Hangout",
@@ -52,22 +60,6 @@
             "summary": "Open Data Blend  is a set of open data services that aim to make large and complex UK open data easier to analyse.",
             "image": "https://frictionlessdata.io/img/blog/open-data-blend-home-page.png",
             "date_modified": "2021-07-12T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/07/02/farewell-fellows/",
-            "url": "https://frictionlessdata.io/blog/2021/07/02/farewell-fellows/",
-            "title": "A Bittersweet Ending to Frictionless Fellows Cohort 2",
-            "summary": "As a final assignment, the Fellows have written blogs reflecting upon their experiences and what they learned during the programme...",
-            "image": "https://frictionlessdata.io/img/blog/fellows-ending.jpg",
-            "date_modified": "2021-07-02T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/06/28/frictionless-specs-european-commission/",
-            "url": "https://frictionlessdata.io/blog/2021/06/28/frictionless-specs-european-commission/",
-            "title": "A Short Case Study Involving Table Schema Frictionless Specs at the European Union",
-            "summary": "The Frictionless specifications are helping with simplifying data validation for applications in production at the European Union.",
-            "image": "https://frictionlessdata.io/img/blog/interoperability-test-bed-eu-commission.png",
-            "date_modified": "2021-06-28T00:00:00.000Z"
         }
     ]
 }

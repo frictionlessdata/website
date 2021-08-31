@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frictionlessdata.io</id>
     <title>Frictionless Data</title>
-    <updated>2021-08-31T15:09:18.181Z</updated>
+    <updated>2021-08-31T15:13:45.811Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://frictionlessdata.io"/>
     <link rel="self" href="https://frictionlessdata.io/feed.atom"/>
     <subtitle>Data software and standards</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Frictionless Data 26 August 2021 Virtual Hangout]]></title>
+        <id>https://frictionlessdata.io/blog/2021/08/31/august-26-community-call/</id>
+        <link href="https://frictionlessdata.io/blog/2021/08/31/august-26-community-call/">
+        </link>
+        <updated>2021-08-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At our Frictionless Data community call we had Amber York and Adam Shepherd from BCO-DMO giving a presentation on Frictionless Data Pipelines for Ocean Science...]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Frictionless Data 12 August 2021 Virtual Hangout]]></title>
         <id>https://frictionlessdata.io/blog/2021/08/16/august-12-call/</id>
@@ -54,21 +62,5 @@
         </link>
         <updated>2021-07-12T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Open Data Blend  is a set of open data services that aim to make large and complex UK open data easier to analyse.]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Bittersweet Ending to Frictionless Fellows Cohort 2]]></title>
-        <id>https://frictionlessdata.io/blog/2021/07/02/farewell-fellows/</id>
-        <link href="https://frictionlessdata.io/blog/2021/07/02/farewell-fellows/">
-        </link>
-        <updated>2021-07-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[As a final assignment, the Fellows have written blogs reflecting upon their experiences and what they learned during the programme...]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[A Short Case Study Involving Table Schema Frictionless Specs at the European Union]]></title>
-        <id>https://frictionlessdata.io/blog/2021/06/28/frictionless-specs-european-commission/</id>
-        <link href="https://frictionlessdata.io/blog/2021/06/28/frictionless-specs-european-commission/">
-        </link>
-        <updated>2021-06-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[The Frictionless specifications are helping with simplifying data validation for applications in production at the European Union.]]></summary>
     </entry>
 </feed>
