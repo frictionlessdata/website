@@ -120,10 +120,8 @@ module.exports = {
       { text: "Software", link: "/software/" },
       { text: "Standards", link: "/standards/" },
       { text: "Adoption", link: "/adoption/" },
-      {
-        text: "People",
-        link: "/people/",
-      },
+      { text: "People", link: "/people/" },
+      { text: "Fellows", link: "https://fellows.frictionlessdata.io/" },
       {
         text: "Work With Us",
         ariaLabel: "Work With Us Menu",
