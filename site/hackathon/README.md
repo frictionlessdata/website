@@ -2,10 +2,9 @@
 title: Frictionless Hackathon
 ---
 
-# Join the Frictionless Data community for a two-day virtual Hackathon on 7-8 October! 
+# Join the Frictionless Data community for a two-day virtual Hackathon on 7-8 October!
 
-> **Register your project here: https://forms.gle/brYDcP2Fugn74fgN6**
-
+> Registration is now open using this form: [https://forms.gle/ZhrVfSBrNy2UPRZc9](https://forms.gle/ZhrVfSBrNy2UPRZc9)
 
 ## What’s a hackathon? 
 You’ll work within a group of other Frictionless users to create new project prototypes based on existing Frictionless open source code. For example, use the new [Livemark](https://livemark.frictionlessdata.io/) tool to create websites that display data-driven storytelling, or use Frictionless React [Components](https://components.frictionlessdata.io/) to add data validation to your application. 
@@ -20,7 +19,13 @@ First of all, it will be fun! You’ll meet other Frictionless users and learn s
 The hackathon will be virtual and occur on 7-8 October. The event will start in the morning European time on 7 October, and will end in the evening European time on 8 October (exact times will be announced later). This will allow people from around the world to participate during a time that works for them. We will be using Github and Zoom to coordinate and work virtually. Teams will be able to form before the event occurs so you can start coordinating early and hit the ground running.
 
 ## Sign me up!
-Propose your project idea using this [form](https://forms.gle/brYDcP2Fugn74fgN6). Registration for attendees will open in September. The event will be free, and we will also have some scholarships for attendees that would otherwise be unable to attend. More details coming soon!
+Use [this form](https://forms.gle/ZhrVfSBrNy2UPRZc9) to register. The event will be free, and we will also have some scholarships for attendees that would otherwise be unable to attend. Apply for a $300 scholarship using this [scholarship form](https://forms.gle/jwxVYjDYs31t1YmKA
+).
+
+## What projects will be at the Hackathon?
+Projects will range from a GeoJSON Plugin for frictionless-py, to  Python code to work with Datapackages in CKAN, to creating a static site to list all the Frictionless datasets on GitHub, to creating new tutorials for Frictionless code.
+All of the projects will be added to the event dashboard at [https://frictionless-hackathon.herokuapp.com/event/1#top](https://frictionless-hackathon.herokuapp.com/event/1#top), powered by [DribDat](https://dribdat.cc/). 
+Interested in working on your own project? Email us!
 
 ## I have questions...
 Please email us at frictionlessdata@okfn.org if you have questions or would like to support the Hackathon.
