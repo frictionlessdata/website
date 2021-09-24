@@ -6,6 +6,8 @@ title: Frictionless Hackathon
 
 > Registration is now open using this form: [https://forms.gle/ZhrVfSBrNy2UPRZc9](https://forms.gle/ZhrVfSBrNy2UPRZc9)
 
+> See the Participation Guide at the bottom for more info!
+
 ## What’s a hackathon? 
 You’ll work within a group of other Frictionless users to create new project prototypes based on existing Frictionless open source code. For example, use the new [Livemark](https://livemark.frictionlessdata.io/) tool to create websites that display data-driven storytelling, or use Frictionless React [Components](https://components.frictionlessdata.io/) to add data validation to your application. 
 
@@ -29,3 +31,9 @@ Interested in working on your own project? Email us!
 
 ## I have questions...
 Please email us at frictionlessdata@okfn.org if you have questions or would like to support the Hackathon.
+
+# Participation Guide
+
+([Here is a link to the Guide](https://docs.google.com/document/d/e/2PACX-1vReWY9N26SbveoCM7Ra4wEry8k7a5rCa3UzpBijfU_mmyME58DRDKmu0QUmx75mif4367IZdtLijFzO/pub))
+
+<iframe width="730" height="500" src="https://docs.google.com/document/d/e/2PACX-1vReWY9N26SbveoCM7Ra4wEry8k7a5rCa3UzpBijfU_mmyME58DRDKmu0QUmx75mif4367IZdtLijFzO/pub?embedded=true"></iframe>
