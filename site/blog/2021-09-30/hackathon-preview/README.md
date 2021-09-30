@@ -4,7 +4,7 @@ date: 2021-09-30
 tags: ['events']
 category: events
 image: /img/Frictionless_hackathon.png
-description: A sneak preview of the projects submitted, giving you all a few good reasons to register for the Frictionless Data Hackathon
+description: A sneak preview of the submitted projects to give you all a few good reasons to register for the Frictionless Data Hackathon
 author: Sara Petti
 ---
 The Frictionless Data Online Hackathon is fast approaching and we just can’t wait for it to start!
