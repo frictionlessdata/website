@@ -18,7 +18,7 @@ We’re looking for contributions of all sizes and skill levels! Some skills tha
 First of all, it will be fun! You’ll meet other Frictionless users and learn something new. This is also an opportunity where you’ll have the uninterrupted support of the Frictionless core team to help you realize your prototype. Also, there will be prizes (details to be announced later).
 
 ## When will the hackathon occur? 
-The hackathon will be virtual and occur on 7-8 October. The event will start in the morning European time on 7 October, and will end in the evening European time on 8 October (exact times will be announced later). This will allow people from around the world to participate during a time that works for them. We will be using Github and Zoom to coordinate and work virtually. Teams will be able to form before the event occurs so you can start coordinating early and hit the ground running.
+The hackathon will be virtual and occur on 7-8 October. The event will start at 9am CEST on 7 October, and will end at 6pm CEST on 8 October. This will allow people from around the world to participate during a time that works for them. We will be using Github and Zoom to coordinate and work virtually. Teams will be able to form before the event occurs so you can start coordinating early and hit the ground running.
 
 ## Sign me up!
 Use [this form](https://forms.gle/ZhrVfSBrNy2UPRZc9) to register. The event will be free, and we will also have some scholarships for attendees that would otherwise be unable to attend. Apply for a $300 scholarship using this [scholarship form](https://forms.gle/jwxVYjDYs31t1YmKA
