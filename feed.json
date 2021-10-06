@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2021/10/06/september-community-call/",
+            "url": "https://frictionlessdata.io/blog/2021/10/06/september-community-call/",
+            "title": "Frictionless Data September 2021 Virtual Hangout",
+            "summary": "At our Frictionless Data community call we had Daniella Lowenberg and Cassiano Reinert Novais dos Santos presenting the Frictionless Data integration into Dryad...",
+            "image": "https://frictionlessdata.io/img/blog/Community-call-Dryad.png",
+            "date_modified": "2021-10-06T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2021/09/30/hackathon-preview/",
             "url": "https://frictionlessdata.io/blog/2021/09/30/hackathon-preview/",
             "title": "Why you should join the Frictionless Data Hackathon",
@@ -52,14 +60,6 @@
             "summary": "Apply today to join the Third Cohort of Frictionless Data Fellows!",
             "image": "https://frictionlessdata.io/img/blog/fd_reproducible.png",
             "date_modified": "2021-08-02T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/07/21/frictionless-repository/",
-            "url": "https://frictionlessdata.io/blog/2021/07/21/frictionless-repository/",
-            "title": "Frictionless Repository",
-            "summary": "Introducing you to Repository, the new Frictionless Data tool that allows you to automate the validation workflows of your datasets.",
-            "image": "https://frictionlessdata.io/img/blog/Repository.png",
-            "date_modified": "2021-07-21T00:00:00.000Z"
         }
     ]
 }
