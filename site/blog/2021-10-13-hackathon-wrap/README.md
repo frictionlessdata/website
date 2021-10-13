@@ -18,7 +18,7 @@ It was also great to see participants who had never taken part in a hackathon be
 
 *”It was amazing to see a weightless tool used in development. I want to learn more about it and integrate it into my projects.”*
 
-Over 20 people signed up for the hackathon from Africa, Asia, Europe, South America and North America. The event ran from 7th to 8th October on our Discord server. The result of those 2 days of intense collaboration were four great projects: 
+Over 20 people signed up for the hackathon from Africa, Asia, Europe, South America and North America. We had a very diverse audience and saw a lot of new faces. The event ran from 7th to 8th October on our Discord server. The result of those 2 days of intense collaboration were four great projects: 
 
 ## DPCKAN
 The DPCKAN project was proposed by a team working on the data portal of the state of Minas Gerais in Brazil. To ensure quality metadata and automate the publishing process, the team decided to develop a tool that would allow publishing and updating datasets described with Frictionless Standards in a CKAN instance.
