@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2021/10/13/hackathon-wrap/",
+            "url": "https://frictionlessdata.io/blog/2021/10/13/hackathon-wrap/",
+            "title": "Wrapping up the Frictionless Hackathon",
+            "summary": "It's a wrap! Recap of the Frictionless Data Hackathon on 7-8 October",
+            "image": "https://frictionlessdata.io/img/Frictionless_hackathon.png",
+            "date_modified": "2021-10-13T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2021/10/06/september-community-call/",
             "url": "https://frictionlessdata.io/blog/2021/10/06/september-community-call/",
             "title": "Frictionless Data September 2021 Virtual Hangout",
@@ -52,14 +60,6 @@
             "summary": "Looking back at all that has happened in the Frictionless Community over these past 6 months.",
             "image": "https://frictionlessdata.io/img/blog/community-call-pic.png",
             "date_modified": "2021-08-06T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/08/02/apply-fellows/",
-            "url": "https://frictionlessdata.io/blog/2021/08/02/apply-fellows/",
-            "title": "Apply Now - become a Frictionless Data Reproducible Research Fellow",
-            "summary": "Apply today to join the Third Cohort of Frictionless Data Fellows!",
-            "image": "https://frictionlessdata.io/img/blog/fd_reproducible.png",
-            "date_modified": "2021-08-02T00:00:00.000Z"
         }
     ]
 }

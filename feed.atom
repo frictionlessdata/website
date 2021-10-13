@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frictionlessdata.io</id>
     <title>Frictionless Data</title>
-    <updated>2021-10-06T14:49:20.806Z</updated>
+    <updated>2021-10-13T16:51:22.172Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://frictionlessdata.io"/>
     <link rel="self" href="https://frictionlessdata.io/feed.atom"/>
     <subtitle>Data software and standards</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Wrapping up the Frictionless Hackathon]]></title>
+        <id>https://frictionlessdata.io/blog/2021/10/13/hackathon-wrap/</id>
+        <link href="https://frictionlessdata.io/blog/2021/10/13/hackathon-wrap/">
+        </link>
+        <updated>2021-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[It's a wrap! Recap of the Frictionless Data Hackathon on 7-8 October]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Frictionless Data September 2021 Virtual Hangout]]></title>
         <id>https://frictionlessdata.io/blog/2021/10/06/september-community-call/</id>
@@ -54,13 +62,5 @@
         </link>
         <updated>2021-08-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Looking back at all that has happened in the Frictionless Community over these past 6 months.]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Apply Now - become a Frictionless Data Reproducible Research Fellow]]></title>
-        <id>https://frictionlessdata.io/blog/2021/08/02/apply-fellows/</id>
-        <link href="https://frictionlessdata.io/blog/2021/08/02/apply-fellows/">
-        </link>
-        <updated>2021-08-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Apply today to join the Third Cohort of Frictionless Data Fellows!]]></summary>
     </entry>
 </feed>
