@@ -197,7 +197,7 @@ As part of the [Reproducible Research project](#frictionless-data-for-reproducib
 <!-- Analysis of spontaneous activity patterns in developing neural circuits using Frictionless Data tools -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
-   <a href="/blog/2021/01/18/schema-collaboration/" target="_blank">
+   <a href="/blog/2020/08/03/tool-fund-cambridge-neuro/" target="_blank">
      <img src="/img/blog/fd_reproducible.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Analysis of spontaneous activity patterns in developing neural circuits using Frictionless Data tools</h3>
    </a>
