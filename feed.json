@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2021/12/07/_3rd-cohort-fellows/",
+            "url": "https://frictionlessdata.io/blog/2021/12/07/_3rd-cohort-fellows/",
+            "title": "Meet the 3rd cohort of Frictionless Fellows!",
+            "summary": "Meet the 3rd cohort of Frictionless Fellows, a great bunch of early career researchers on their way to become champions for reproducibility and open science",
+            "image": "https://frictionlessdata.io/img/blog/fellows-cohort3.png",
+            "date_modified": "2021-12-07T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2021/11/23/november-community-call/",
             "url": "https://frictionlessdata.io/blog/2021/11/23/november-community-call/",
             "title": "Frictionless Data November 2021 Virtual Hangout",
@@ -52,14 +60,6 @@
             "summary": "At our Frictionless Data community call we had Amber York and Adam Shepherd from BCO-DMO giving a presentation on Frictionless Data Pipelines for Ocean Science...",
             "image": "https://frictionlessdata.io/img/blog/BCODMO-data-pipelines.png",
             "date_modified": "2021-08-31T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/08/16/august-12-call/",
-            "url": "https://frictionlessdata.io/blog/2021/08/16/august-12-call/",
-            "title": "Frictionless Data 12 August 2021 Virtual Hangout",
-            "summary": "At our Frictionless Data community call we had Dave Rowe giving a presentation on Frictionless Data for public libraries...",
-            "image": "https://frictionlessdata.io/img/blog/Libraries-Hacked.png",
-            "date_modified": "2021-08-16T00:00:00.000Z"
         }
     ]
 }
