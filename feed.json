@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2021/12/17/december-community-call/",
+            "url": "https://frictionlessdata.io/blog/2021/12/17/december-community-call/",
+            "title": "Frictionless Data December 2021 Virtual Hangout",
+            "summary": "At our Frictionless Data community call we had Keith Hughitt presenting some ideas around representing data processing flows as a DAG inside of a datapackage.json...",
+            "image": "https://frictionlessdata.io/img/blog/data-dag-blog.png",
+            "date_modified": "2021-12-17T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2021/12/07/_3rd-cohort-fellows/",
             "url": "https://frictionlessdata.io/blog/2021/12/07/_3rd-cohort-fellows/",
             "title": "Meet the 3rd cohort of Frictionless Fellows!",
@@ -52,14 +60,6 @@
             "summary": "A sneak preview of the submitted projects to give you all a few good reasons to register for the Frictionless Data Hackathon",
             "image": "https://frictionlessdata.io/img/Frictionless_hackathon.png",
             "date_modified": "2021-09-30T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/08/31/august-26-community-call/",
-            "url": "https://frictionlessdata.io/blog/2021/08/31/august-26-community-call/",
-            "title": "Frictionless Data 26 August 2021 Virtual Hangout",
-            "summary": "At our Frictionless Data community call we had Amber York and Adam Shepherd from BCO-DMO giving a presentation on Frictionless Data Pipelines for Ocean Science...",
-            "image": "https://frictionlessdata.io/img/blog/BCODMO-data-pipelines.png",
-            "date_modified": "2021-08-31T00:00:00.000Z"
         }
     ]
 }
