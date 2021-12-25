@@ -9,7 +9,7 @@ title: Frictionless Software
 The Frictionless Data project provides a rich set of open source software for working with data. There are tools, a visual application, and software for many programming platforms.
 
 :::tip
-This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below and you will be redirected to the corresponding documentation site.
+This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below. Please visit [the software site](https://software.frictionlessdata.io/) if you're interested in technical overview of the development process.
 :::
 
 ## Software Toolkit
