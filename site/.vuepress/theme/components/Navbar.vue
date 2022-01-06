@@ -38,6 +38,7 @@
       <a class="navbaricon" :href="$site.themeConfig.navbar_icon1_link" :title="$site.themeConfig.navbar_icon1_title" target="blank"><img class="px-2 w-5 pt-4" :src="$site.themeConfig.navbar_icon1_image"/></a>
       <a class="navbaricon" :href="$site.themeConfig.navbar_icon2_link" :title="$site.themeConfig.navbar_icon2_title" target="blank"><img class="px-2 w-5 pt-4" :src="$site.themeConfig.navbar_icon2_image"/></a>
       <a class="navbaricon" :href="$site.themeConfig.navbar_icon3_link" :title="$site.themeConfig.navbar_icon3_title" target="blank"><img class="px-2 w-5 pt-4" :src="$site.themeConfig.navbar_icon3_image"/></a>
+      <a class="navbaricon" :href="$site.themeConfig.navbar_icon4_link" :title="$site.themeConfig.navbar_icon4_title" target="blank"><img class="px-2 w-5 pt-4" :src="$site.themeConfig.navbar_icon4_image"/></a>
 
     </div>
   </header>
