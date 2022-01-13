@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/01/12/frictionless-dp-for-nih-cfde-project/",
+            "url": "https://frictionlessdata.io/blog/2022/01/12/frictionless-dp-for-nih-cfde-project/",
+            "title": "Frictionless data packages for the NIH CFDE project",
+            "summary": "The Frictionless Data team has been working with Dr. Philippe Rocca-Serra on increasing data set discoverability and highlighting how disparate data can be combined...",
+            "image": "https://frictionlessdata.io/img/blog/CFDE-logo.png",
+            "date_modified": "2022-01-12T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2021/12/17/december-community-call/",
             "url": "https://frictionlessdata.io/blog/2021/12/17/december-community-call/",
             "title": "Frictionless Data December 2021 Virtual Hangout",
@@ -52,14 +60,6 @@
             "summary": "At our Frictionless Data community call we had Daniella Lowenberg and Cassiano Reinert Novais dos Santos presenting the Frictionless Data integration into Dryad...",
             "image": "https://frictionlessdata.io/img/blog/Community-call-Dryad.png",
             "date_modified": "2021-10-06T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/09/30/hackathon-preview/",
-            "url": "https://frictionlessdata.io/blog/2021/09/30/hackathon-preview/",
-            "title": "Why you should join the Frictionless Data Hackathon",
-            "summary": "A sneak preview of the submitted projects to give you all a few good reasons to register for the Frictionless Data Hackathon",
-            "image": "https://frictionlessdata.io/img/Frictionless_hackathon.png",
-            "date_modified": "2021-09-30T00:00:00.000Z"
         }
     ]
 }

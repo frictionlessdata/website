@@ -4,10 +4,19 @@
         <title>Frictionless Data</title>
         <link>https://frictionlessdata.io</link>
         <description>Data software and standards</description>
-        <lastBuildDate>Thu, 13 Jan 2022 20:16:31 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 13 Jan 2022 22:56:27 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://frictionlessdata.io/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Frictionless data packages for the NIH CFDE project]]></title>
+            <link>https://frictionlessdata.io/blog/2022/01/12/frictionless-dp-for-nih-cfde-project/</link>
+            <guid>https://frictionlessdata.io/blog/2022/01/12/frictionless-dp-for-nih-cfde-project/</guid>
+            <pubDate>Wed, 12 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[The Frictionless Data team has been working with Dr. Philippe Rocca-Serra on increasing data set discoverability and highlighting how disparate data can be combined...]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/CFDE-logo.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[Frictionless Data December 2021 Virtual Hangout]]></title>
             <link>https://frictionlessdata.io/blog/2021/12/17/december-community-call/</link>
@@ -60,15 +69,6 @@
             <pubDate>Wed, 06 Oct 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[At our Frictionless Data community call we had Daniella Lowenberg and Cassiano Reinert Novais dos Santos presenting the Frictionless Data integration into Dryad...]]></description>
             <enclosure url="https://frictionlessdata.io/img/blog/Community-call-Dryad.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Why you should join the Frictionless Data Hackathon]]></title>
-            <link>https://frictionlessdata.io/blog/2021/09/30/hackathon-preview/</link>
-            <guid>https://frictionlessdata.io/blog/2021/09/30/hackathon-preview/</guid>
-            <pubDate>Thu, 30 Sep 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[A sneak preview of the submitted projects to give you all a few good reasons to register for the Frictionless Data Hackathon]]></description>
-            <enclosure url="https://frictionlessdata.io/img/Frictionless_hackathon.png">
             </enclosure>
         </item>
     </channel>
