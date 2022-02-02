@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/02/02/january-community-call/",
+            "url": "https://frictionlessdata.io/blog/2022/02/02/january-community-call/",
+            "title": "Frictionless Data January 2022 Virtual Hangout",
+            "summary": "At our Frictionless Data community call we heard a presentation on DPCKAN by Francisco Alves...",
+            "image": "https://frictionlessdata.io/img/blog/DPCKAN-blog.png",
+            "date_modified": "2022-02-02T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/01/18/frictionless-planet/",
             "url": "https://frictionlessdata.io/blog/2022/01/18/frictionless-planet/",
             "title": "Frictionless Planet – Save the Date",
@@ -44,22 +52,6 @@
             "summary": "At our Frictionless Data community call we had Peter Desmet presenting Frictionless Data exchange format for camera trapping data...",
             "image": "https://frictionlessdata.io/img/blog/November-community-call.png",
             "date_modified": "2021-11-23T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/11/03/october-community-call/",
-            "url": "https://frictionlessdata.io/blog/2021/11/03/october-community-call/",
-            "title": "Frictionless Data October 2021 Virtual Hangout",
-            "summary": "At our Frictionless Data community call we had Michael Amadi presenting Open Data Blend and their Frictionless Data journey...",
-            "image": "https://frictionlessdata.io/img/Open-data-blend.png",
-            "date_modified": "2021-11-03T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/10/13/hackathon-wrap/",
-            "url": "https://frictionlessdata.io/blog/2021/10/13/hackathon-wrap/",
-            "title": "Wrapping up the Frictionless Hackathon",
-            "summary": "It's a wrap! Recap of the Frictionless Data Hackathon on 7-8 October",
-            "image": "https://frictionlessdata.io/img/Frictionless_hackathon.png",
-            "date_modified": "2021-10-13T00:00:00.000Z"
         }
     ]
 }
