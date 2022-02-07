@@ -271,6 +271,17 @@ The Frictionless Data project develops open source standards and software that c
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
 
+<!-- Libraries Hacked -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="/blog/2022/02/07/libraries-hacked/" target="_blank">
+     <img src="/img/blog/libraries-hacked-logo.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Libraries Hacked</h3>
+   </a>
+   <p>Libraries hacked is a project started in 2014 to promote the use of open data in libraries.</p>
+ </div>
+</div>
+
 <!-- Open Data Blend -->
 <div class="w-full md:w-1/3 feature flex justify-center">
  <div class="px-8 text-center">
