@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/",
+            "url": "https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/",
+            "title": "Libraries Hacked",
+            "summary": "Libraries hacked is a project started in 2014 to promote the use of open data in libraries. That includes publishing data about libraries, as well as using other open datasets to enhance library data.",
+            "image": "https://frictionlessdata.io/img/blog/libraries-hacked-logo.png",
+            "date_modified": "2022-02-07T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/02/02/january-community-call/",
             "url": "https://frictionlessdata.io/blog/2022/02/02/january-community-call/",
             "title": "Frictionless Data January 2022 Virtual Hangout",
@@ -44,14 +52,6 @@
             "summary": "Meet the 3rd cohort of Frictionless Fellows, a great bunch of early career researchers on their way to become champions for reproducibility and open science",
             "image": "https://frictionlessdata.io/img/blog/fellows-cohort3.png",
             "date_modified": "2021-12-07T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/11/23/november-community-call/",
-            "url": "https://frictionlessdata.io/blog/2021/11/23/november-community-call/",
-            "title": "Frictionless Data November 2021 Virtual Hangout",
-            "summary": "At our Frictionless Data community call we had Peter Desmet presenting Frictionless Data exchange format for camera trapping data...",
-            "image": "https://frictionlessdata.io/img/blog/November-community-call.png",
-            "date_modified": "2021-11-23T00:00:00.000Z"
         }
     ]
 }
