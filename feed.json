@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/02/10/nasa-earth-mission-science/",
+            "url": "https://frictionlessdata.io/blog/2022/02/10/nasa-earth-mission-science/",
+            "title": "Frictionless response to NASA Earth mission science data processing",
+            "summary": "Why Frictionless Data would benefit the ESO mission science data processing in its effort to find a more integrated approach to enhance data architecture efficiency and promote the open science principles...",
+            "image": "https://frictionlessdata.io/img/blog/eclipse_epc.png",
+            "date_modified": "2022-02-10T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/",
             "url": "https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/",
             "title": "Libraries Hacked",
@@ -44,14 +52,6 @@
             "summary": "At our Frictionless Data community call we had Keith Hughitt presenting some ideas around representing data processing flows as a DAG inside of a datapackage.json...",
             "image": "https://frictionlessdata.io/img/blog/data-dag-blog.png",
             "date_modified": "2021-12-17T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/12/07/_3rd-cohort-fellows/",
-            "url": "https://frictionlessdata.io/blog/2021/12/07/_3rd-cohort-fellows/",
-            "title": "Meet the 3rd cohort of Frictionless Fellows!",
-            "summary": "Meet the 3rd cohort of Frictionless Fellows, a great bunch of early career researchers on their way to become champions for reproducibility and open science",
-            "image": "https://frictionlessdata.io/img/blog/fellows-cohort3.png",
-            "date_modified": "2021-12-07T00:00:00.000Z"
         }
     ]
 }

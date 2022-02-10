@@ -4,10 +4,19 @@
         <title>Frictionless Data</title>
         <link>https://frictionlessdata.io</link>
         <description>Data software and standards</description>
-        <lastBuildDate>Thu, 10 Feb 2022 19:39:49 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Feb 2022 19:47:43 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://frictionlessdata.io/feed.atom" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Frictionless response to NASA Earth mission science data processing]]></title>
+            <link>https://frictionlessdata.io/blog/2022/02/10/nasa-earth-mission-science/</link>
+            <guid>https://frictionlessdata.io/blog/2022/02/10/nasa-earth-mission-science/</guid>
+            <pubDate>Thu, 10 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Why Frictionless Data would benefit the ESO mission science data processing in its effort to find a more integrated approach to enhance data architecture efficiency and promote the open science principles...]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/eclipse_epc.png">
+            </enclosure>
+        </item>
         <item>
             <title><![CDATA[Libraries Hacked]]></title>
             <link>https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/</link>
@@ -51,15 +60,6 @@
             <pubDate>Fri, 17 Dec 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[At our Frictionless Data community call we had Keith Hughitt presenting some ideas around representing data processing flows as a DAG inside of a datapackage.json...]]></description>
             <enclosure url="https://frictionlessdata.io/img/blog/data-dag-blog.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Meet the 3rd cohort of Frictionless Fellows!]]></title>
-            <link>https://frictionlessdata.io/blog/2021/12/07/_3rd-cohort-fellows/</link>
-            <guid>https://frictionlessdata.io/blog/2021/12/07/_3rd-cohort-fellows/</guid>
-            <pubDate>Tue, 07 Dec 2021 00:00:00 GMT</pubDate>
-            <description><![CDATA[Meet the 3rd cohort of Frictionless Fellows, a great bunch of early career researchers on their way to become champions for reproducibility and open science]]></description>
-            <enclosure url="https://frictionlessdata.io/img/blog/fellows-cohort3.png">
             </enclosure>
         </item>
     </channel>
