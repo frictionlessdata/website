@@ -38,3 +38,5 @@ More info on this use case [here](https://frictionlessdata.io/blog/2021/08/09/dr
 ***
 
  Are there other ways you think Frictionless Data could help the ESO project? Let us know!
+ 
+*Image used: Antarctica Eclipsed. NASA image courtesy of the DSCOVR EPIC team. NASA Earth Observatory images by Joshua Stevens, using Landsat data from the U.S. Geological Survey. Story by Sara E. Pratt.*
