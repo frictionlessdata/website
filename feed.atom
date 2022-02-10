@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frictionlessdata.io</id>
     <title>Frictionless Data</title>
-    <updated>2022-02-07T19:46:21.944Z</updated>
+    <updated>2022-02-10T19:39:49.658Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://frictionlessdata.io"/>
     <link rel="self" href="https://frictionlessdata.io/feed.atom"/>
