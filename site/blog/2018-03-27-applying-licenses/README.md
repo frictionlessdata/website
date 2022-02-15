@@ -192,7 +192,7 @@ Sometimes data in a resource may be combined from multiple sources that are lice
 
 ```
 "licenses": [{
-    "name": "ODC-PDDL-1.0",
+    "name": "PDDL-1.0",
     "path": "http://opendatacommons.org/licenses/pddl/",
     "title": "Open Data Commons Public Domain Dedication and License v1.0"
   },
