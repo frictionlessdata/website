@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/03/03/community-call-february-2022/",
+            "url": "https://frictionlessdata.io/blog/2022/03/03/community-call-february-2022/",
+            "title": "Frictionless Data February 2022 Virtual Hangout",
+            "summary": "At our Frictionless Data community call we heard about the effort to standardise the WACZ format from Ilya Kreymer and Ed Summers...",
+            "image": "https://frictionlessdata.io/img/blog/Community-call-webrecorder.png",
+            "date_modified": "2022-03-03T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/02/10/nasa-earth-mission-science/",
             "url": "https://frictionlessdata.io/blog/2022/02/10/nasa-earth-mission-science/",
             "title": "Frictionless response to NASA Earth mission science data processing",
@@ -44,14 +52,6 @@
             "summary": "The Frictionless Data team has been working with Dr. Philippe Rocca-Serra on increasing data set discoverability and highlighting how disparate data can be combined...",
             "image": "https://frictionlessdata.io/img/blog/CFDE-logo.png",
             "date_modified": "2022-01-12T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2021/12/17/december-community-call/",
-            "url": "https://frictionlessdata.io/blog/2021/12/17/december-community-call/",
-            "title": "Frictionless Data December 2021 Virtual Hangout",
-            "summary": "At our Frictionless Data community call we had Keith Hughitt presenting some ideas around representing data processing flows as a DAG inside of a datapackage.json...",
-            "image": "https://frictionlessdata.io/img/blog/data-dag-blog.png",
-            "date_modified": "2021-12-17T00:00:00.000Z"
         }
     ]
 }
