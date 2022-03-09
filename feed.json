@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/03/09/save-our-planet/",
+            "url": "https://frictionlessdata.io/blog/2022/03/09/save-our-planet/",
+            "title": "Combining Data Skills, Knowledge, and Networks to Save our Planet",
+            "summary": "To start this year fresh and inspired, we convened two gatherings of climate researchers, activists, and organisations to brainstorm ways to collaborate to make open climate data more usable, accessible, and impactful...",
+            "image": "https://frictionlessdata.io/img/blog/facebook-color.png",
+            "date_modified": "2022-03-09T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/03/03/community-call-february-2022/",
             "url": "https://frictionlessdata.io/blog/2022/03/03/community-call-february-2022/",
             "title": "Frictionless Data February 2022 Virtual Hangout",
@@ -44,14 +52,6 @@
             "summary": "You are invited to a brainstorming session to discuss how to make open climate data more useful",
             "image": "https://frictionlessdata.io/img/blog/facebook-color.png",
             "date_modified": "2022-01-18T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/01/12/frictionless-dp-for-nih-cfde-project/",
-            "url": "https://frictionlessdata.io/blog/2022/01/12/frictionless-dp-for-nih-cfde-project/",
-            "title": "Frictionless data packages for the NIH CFDE project",
-            "summary": "The Frictionless Data team has been working with Dr. Philippe Rocca-Serra on increasing data set discoverability and highlighting how disparate data can be combined...",
-            "image": "https://frictionlessdata.io/img/blog/CFDE-logo.png",
-            "date_modified": "2022-01-12T00:00:00.000Z"
         }
     ]
 }
