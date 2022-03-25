@@ -21,7 +21,7 @@
               <a href="/guide/">{{ $site.themeConfig.footer_col2_row2 }}</a>
             </li>
             <li>
-              <a href="https://discordapp.com/invite/Sewv6av">{{ $site.themeConfig.footer_col2_row3 }}</a>
+              <a href="https://frictionlessdata.slack.com/messages/general">{{ $site.themeConfig.footer_col2_row3 }}</a>
             </li>
           </ul>
         </div>

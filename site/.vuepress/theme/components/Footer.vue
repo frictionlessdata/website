@@ -19,7 +19,7 @@
           <div class="footer-title font-normal text-xl pb-2 xs:pt-4"> {{ $site.themeConfig.footer_col2_title }} </div>
           <li class="pt-4"><a href="/support/" class=""> {{ $site.themeConfig.footer_col2_row1 }} </a><li>
           <li class="pt-4"><a href="/guide/" class=""> {{ $site.themeConfig.footer_col2_row2 }} </a></li>
-          <li class="pt-4"><a href="https://discordapp.com/invite/Sewv6av" class=""> {{ $site.themeConfig.footer_col2_row3 }} </a></li>
+          <li class="pt-4"><a href="https://frictionlessdata.slack.com/messages/general" class=""> {{ $site.themeConfig.footer_col2_row3 }} </a></li>
           <li class="pt-4"><a href="https://github.com/frictionlessdata/project/discussions" class=""> {{ $site.themeConfig.footer_col2_row4 }} </a></li>
         </div>
         <div class="box-border bottom-padding w-full sm:w-1/2 lg:w-1/5">
@@ -42,8 +42,8 @@
             </a>
           </li>
           <li class="pt-4">
-            <a href="https://discordapp.com/invite/Sewv6av" class="font-light text-base">
-              <img class="pr-2 align-middle social-link-icon" width="27" src="/img/home/discord.svg"></img>
+            <a href="https://frictionlessdata.slack.com/messages/general" class="font-light text-base">
+              <img class="pr-2 align-middle social-link-icon" width="27" src="/img/home/slack-icon.png"></img>
               {{ $site.themeConfig.footer_col4_row3 }}
             </a>
           </li>
