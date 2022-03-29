@@ -146,12 +146,6 @@ module.exports = {
   },
   plugins: [
     [
-      "@vuepress/plugin-google-analytics",
-      {
-        ga: "UA-33874954-38",
-      },
-    ],
-    [
       "@vuepress/blog",
       {
         directories: [

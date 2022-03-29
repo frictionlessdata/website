@@ -36,6 +36,14 @@
 
 <script>
 import Vue from "vue";
+import { VuePlausible } from 'vue-plausible'
+
+Vue.use(VuePlausible, {
+  domain: "frictionlessdata.io",
+  trackLocalhost: false,
+  enableAutoPageviews: true,
+  enableAutoOutboundTracking: true,
+})
 
 export default {
   computed: {
