@@ -207,6 +207,7 @@ module.exports = {
     ["@vuepress/back-to-top"],
   ],
   head: [
+    ["script", { src: "https://plausible.io/js/script.js", "data-domain": "frictionlessdata.io"}],
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],
     ["script", { src: "https://unpkg.com/svg.js@2.7.1" }],
   ],
