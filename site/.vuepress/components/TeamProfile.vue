@@ -40,7 +40,7 @@
             <span class="sr-only">Work</span>
           </dt>
           <div class="container pb-1">
-            <img src="https://image.flaticon.com/icons/png/512/86/86081.png" class="inline w-4 h-auto pt-1"/>
+            <img src="/img/suitcase.png" class="inline w-4 h-auto pt-1" alt="Work icons created by Freepik - Flaticon"/>
             <div class="inline pl-2" v-html="workHtml"></div>
           </div>
         </template>
@@ -66,7 +66,7 @@
             <span class="sr-only">City</span>
           </dt>
           <div class="container pb-0">
-            <img src="https://image.flaticon.com/icons/png/512/67/67347.png" class="inline w-4 h-auto"/>
+            <img src="/img/planet-earth.png" class="inline w-4 h-auto" alt="World icons created by Freepik - Flaticon"/>
             <div class="inline pl-2">
               {{ profile.city }}
             </div>
@@ -79,7 +79,7 @@
           </dt>
           <!-- TODO: this could now just be a v-for given that we refactored the code to remove using browser lang choice -->
           <div class="container inline-flex py-1">
-            <img src="https://image.flaticon.com/icons/png/512/115/115809.png" class="w-4 h-auto pt-1 pb-2"/>
+            <img src="/img/translation.png" class="w-4 h-auto pt-1 pb-2" alt="Extensible markup language icons created by Freepik - Flaticon"/>
             <div v-html="languageListHtml" class="pl-3">
             </div>
           </div>
