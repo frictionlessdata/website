@@ -146,6 +146,7 @@ var languageNameFor = {
   uk: 'Українська',
   no: 'Norwegian',
   it: 'Italian',
+  ne: 'Nepali'
 }
 
 

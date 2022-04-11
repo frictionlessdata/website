@@ -204,7 +204,7 @@ var team = [{
 	github: 'rufuspollock',
 	work: {
 		role: 'Creator',
-		org: 'Frictionless Data'
+		org: 'Frictionless Data, Datopian'
 	},
 	reposOfficial: [
 		'datopian/*'
@@ -219,7 +219,7 @@ team = team.concat([
 		github: 'lwinfree',
 		work: {
 			role: 'Product Manager',
-			org: 'Frictionless Data'
+			org: 'Frictionless Data, Open Knowledge Foundation'
 		},
 		reposOfficial: [
 			'okfn/*'
@@ -235,7 +235,7 @@ team = team.concat([
 		github: 'roll',
 		work: {
 			role: 'Technical Lead',
-			org: 'Frictionless Data'
+			org: 'Frictionless Data, Open Knowledge Foundation'
 		},
 		reposOfficial: [
 			'okfn/*'
@@ -262,12 +262,44 @@ team = team.concat([
 team = team.concat([
 	{
 		name: 'Sara Petti',
-		city: 'Hamburg, Germany',
+		city: 'Bologna, Italy',
 		languages: ['en', 'it'],
 		github: 'sapetti9',
 		work: {
 			role: 'Community Manager',
-			org: 'Frictionless Data'
+			org: 'Frictionless Data, Open Knowledge Foundation'
+		},
+		reposOfficial: [
+			'okfn/*'
+		]
+	}
+])
+
+team = team.concat([
+	{
+		name: 'Edgar Zanella Alvarenga',
+		city: 'Italy',
+		languages: ['en', 'pt'],
+		github: 'aivuk',
+		work: {
+			role: 'Developer',
+			org: 'Frictionless Data, Open Knowledge Foundation'
+		},
+		reposOfficial: [
+			'okfn/*'
+		]
+	}
+])
+
+team = team.concat([
+	{
+		name: 'Shashi Gharti',
+		city: 'Nepal',
+		languages: ['en', 'ne'],
+		github: 'shashigharti',
+		work: {
+			role: 'Junior Developer',
+			org: 'Frictionless Data, Open Knowledge Foundation'
 		},
 		reposOfficial: [
 			'okfn/*'
