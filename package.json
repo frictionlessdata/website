@@ -16,13 +16,16 @@
     "dotenv": "^10.0.0",
     "lodash": "^4.17.21",
     "markdown-it-footnote": "",
-    "mermaid": "^8.13.8",
-    "npm-check-updates": "^11.5.13",
+    "mermaid": "^9.0.0",
+    "npm-check-updates": "^12.5.8",
     "start-server-and-test": "^1.12.3",
-    "tailwindcss": "^1.1.4",
+    "tailwindcss": "^3.0.23",
     "vue-typed-js": "^0.1.2",
-    "vuepress": "^1.8.2",
+    "vuepress": "^1.9.7",
     "vuepress-plugin-dehydrate": "^1.1.5",
     "vuepress-plugin-feed": "^0.1.9"
+  },
+  "dependencies": {
+    "highlight.js": "^11.5.1"
   }
 }
