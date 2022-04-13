@@ -111,9 +111,6 @@ module.exports = {
     navbar_icon3_link: "https://github.com/frictionlessdata",
     navbar_icon3_image: "/img/home/github-icon.svg",
     navbar_icon3_title: "GitHub",
-    navbar_icon4_link: "https://matrix.to/#/#frictionless-data:matrix.org",
-    navbar_icon4_image: "/img/home/matrix.svg",
-    navbar_icon4_title: "Matrix",
     sidebar: "auto",
     nav: [
       {
@@ -138,7 +135,6 @@ module.exports = {
             link: "https://github.com/frictionlessdata/project/discussions",
           },
           { text: "Chat (Slack)", link: "https://frictionlessdata.slack.com/messages/general" },
-          { text: "Chat (Matrix)", link: "https://matrix.to/#/#frictionless-data:matrix.org" },
         ],
       },
       { text: "Blog", link: "/blog/" },
