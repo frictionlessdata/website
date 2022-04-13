@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frictionlessdata.io</id>
     <title>Frictionless Data</title>
-    <updated>2022-04-13T13:41:46.962Z</updated>
+    <updated>2022-04-13T16:21:34.847Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://frictionlessdata.io"/>
     <link rel="self" href="https://frictionlessdata.io/feed.atom"/>
@@ -17,8 +17,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Frictionless Data February 2022 Virtual Hangout]]></title>
-        <id>https://frictionlessdata.io/blog/2022/03/03/community-call-february-2022/</id>
-        <link href="https://frictionlessdata.io/blog/2022/03/03/community-call-february-2022/">
+        <id>https://frictionlessdata.io/blog/2022/03/03/community-call-february/</id>
+        <link href="https://frictionlessdata.io/blog/2022/03/03/community-call-february/">
         </link>
         <updated>2022-03-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[At our Frictionless Data community call we heard about the effort to standardise the WACZ format from Ilya Kreymer and Ed Summers...]]></summary>

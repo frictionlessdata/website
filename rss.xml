@@ -4,7 +4,7 @@
         <title>Frictionless Data</title>
         <link>https://frictionlessdata.io</link>
         <description>Data software and standards</description>
-        <lastBuildDate>Wed, 13 Apr 2022 13:41:46 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 13 Apr 2022 16:21:34 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://frictionlessdata.io/feed.atom" rel="self" type="application/rss+xml"/>
@@ -19,8 +19,8 @@
         </item>
         <item>
             <title><![CDATA[Frictionless Data February 2022 Virtual Hangout]]></title>
-            <link>https://frictionlessdata.io/blog/2022/03/03/community-call-february-2022/</link>
-            <guid>https://frictionlessdata.io/blog/2022/03/03/community-call-february-2022/</guid>
+            <link>https://frictionlessdata.io/blog/2022/03/03/community-call-february/</link>
+            <guid>https://frictionlessdata.io/blog/2022/03/03/community-call-february/</guid>
             <pubDate>Thu, 03 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[At our Frictionless Data community call we heard about the effort to standardise the WACZ format from Ilya Kreymer and Ed Summers...]]></description>
             <enclosure url="https://frictionlessdata.io/img/blog/Community-call-webrecorder.png">
