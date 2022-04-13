@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/04/13/march-community-call/",
+            "url": "https://frictionlessdata.io/blog/2022/04/13/march-community-call/",
+            "title": "Frictionless Data March 2022 Virtual Hangout",
+            "summary": "At our Frictionless Data community call we had a discussion with Johan Richer from Multi.coop around his theory of portal vs catalogue.",
+            "image": "https://frictionlessdata.io/img/blog/Data-cataloguing-multi.png",
+            "date_modified": "2022-04-13T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/03/09/save-our-planet/",
             "url": "https://frictionlessdata.io/blog/2022/03/09/save-our-planet/",
             "title": "Combining Data Skills, Knowledge, and Networks to Save our Planet",
@@ -44,14 +52,6 @@
             "summary": "At our Frictionless Data community call we heard a presentation on DPCKAN by Francisco Alves...",
             "image": "https://frictionlessdata.io/img/blog/DPCKAN-blog.png",
             "date_modified": "2022-02-02T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/01/18/frictionless-planet/",
-            "url": "https://frictionlessdata.io/blog/2022/01/18/frictionless-planet/",
-            "title": "Frictionless Planet – Save the Date",
-            "summary": "You are invited to a brainstorming session to discuss how to make open climate data more useful",
-            "image": "https://frictionlessdata.io/img/blog/facebook-color.png",
-            "date_modified": "2022-01-18T00:00:00.000Z"
         }
     ]
 }
