@@ -273,7 +273,7 @@ house-12.csv  house-16.csv  house-19.csv  house-21.csv  house-4.csv  house-7.csv
 
 ### Validating a data package using Goodtables
 
-Goodtables is a software family for tabular data validation. It's avialable as a Python library, a command line tool, [web application](https://try.goodtables.io/) and [continuous validation service](https://goodtables.io/).
+Goodtables is a software family for tabular data validation. It's available as a Python library, a command line tool, [web application](https://try.goodtables.io/) and [continuous validation service](https://goodtables.io/).
 
 The main features of Goodtables are:
 
@@ -313,7 +313,7 @@ On the figure above we have loaded the `refit-cleaned` data package into the Pac
 
 > Link to the published package: https://s3.eu-central-1.amazonaws.com/pilot-dm4t/pilot-dm4t/packages/refit-cleaned/datapackage.json
 
-In this section we will show how  data packages can be moved from one data storage system to another. This is posisbe because it has been containerised.
+In this section we will show how  data packages can be moved from one data storage system to another. This is possible because it has been containerised.
 
 One important feature of the `datapackage-pipelines` project that it works as a conveyor. We could push our data package not only to the local disc but to other destinations. For example to the Amazon S3:
 
