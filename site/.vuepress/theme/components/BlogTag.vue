@@ -1,6 +1,6 @@
 <template lang="html">
   <div>
-    <img class="w-4 h-4 inline text-lg" src="https://image.flaticon.com/icons/png/512/94/94699.png"/>
+    <img class="w-4 h-4 inline text-lg" src="/img/tag.png" alt="Price icons created by Pixel perfect - Flaticon"/>
     <router-link class="pl-2"
       v-for="tag in tags"
       :key="tag"
