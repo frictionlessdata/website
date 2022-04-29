@@ -3,7 +3,7 @@
 
 ## Community Support
 
-You can ask any questions in our [Slack Community Chat room](https://frictionlessdata.slack.com/messages/general). You can also start a thread in [GitHub Discussions](https://github.com/frictionlessdata/project/discussions). Frictionless is a big community that consists of people having different expertise in different domains. Feel free to ask us any questions!
+You can ask any questions in our [Slack Community Chat room](https://join.slack.com/t/frictionlessdata/shared_invite/zt-17kpbffnm-tRfDW_wJgOw8tJVLvZTrBg). You can also start a thread in [GitHub Discussions](https://github.com/frictionlessdata/project/discussions). Frictionless is a big community that consists of people having different expertise in different domains. Feel free to ask us any questions!
 
 ## School of Data
 
