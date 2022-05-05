@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frictionlessdata.io</id>
     <title>Frictionless Data</title>
-    <updated>2022-05-05T16:51:49.441Z</updated>
+    <updated>2022-05-05T18:51:24.897Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://frictionlessdata.io"/>
     <link rel="self" href="https://frictionlessdata.io/feed.atom"/>
     <subtitle>Data software and standards</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Frictionless Data April 2022 Virtual Hangout]]></title>
+        <id>https://frictionlessdata.io/blog/2022/05/05/april-community-call/</id>
+        <link href="https://frictionlessdata.io/blog/2022/05/05/april-community-call/">
+        </link>
+        <updated>2022-05-05T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At our Frictionless Data community call we had a discussion around open science best practices and the Turing Way with former Frictionless Fellow Anne Lee Steele...]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Frictionless Data March 2022 Virtual Hangout]]></title>
         <id>https://frictionlessdata.io/blog/2022/04/13/march-community-call/</id>
@@ -46,13 +54,5 @@
         </link>
         <updated>2022-02-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Libraries hacked is a project started in 2014 to promote the use of open data in libraries. That includes publishing data about libraries, as well as using other open datasets to enhance library data.]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Frictionless Data January 2022 Virtual Hangout]]></title>
-        <id>https://frictionlessdata.io/blog/2022/02/02/january-community-call/</id>
-        <link href="https://frictionlessdata.io/blog/2022/02/02/january-community-call/">
-        </link>
-        <updated>2022-02-02T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[At our Frictionless Data community call we heard a presentation on DPCKAN by Francisco Alves...]]></summary>
     </entry>
 </feed>
