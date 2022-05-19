@@ -535,6 +535,71 @@ toolFundPartners = toolFundPartners.concat([
 
 var fellows = [
 	{
+		name: 'Lindsay Gypin',
+		city: 'USA',
+		github: 'lagypin',
+		work: {
+      role: 'Reproducible Research Fellow 2021-2022'
+		},
+	}
+]
+fellows = fellows.concat([
+	{
+		name: 'Kevin Kidambasi',
+		city: 'Kenya',
+		github: 'KKidambasi',
+		work: {
+      role: 'Reproducible Research Fellow 2021-2022'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Melvin Ochieng',
+		city: 'Kenya',
+		github: 'IamMelvin5',
+		work: {
+      role: 'Reproducible Research Fellow 2021-2022'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Victoria Stanley',
+		city: 'Germany',
+		github: 'vyelnats',
+		work: {
+      role: 'Reproducible Research Fellow 2021-2022'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Zarena Syrgak',
+		city: 'Kazakhstan',
+		github: 'sarenaz',
+		work: {
+      role: 'Reproducible Research Fellow 2021-2022'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
+		name: 'Guo-Qiang Zhang',
+		city: 'Sweden',
+		github: 'zhangguoqianggu',
+		work: {
+      role: 'Reproducible Research Fellow 2021-2022'
+		},
+	}
+])
+
+fellows = fellows.concat([
+	{
 		name: 'Kate Bowie',
 		city: 'USA',
 		github: 'katebowie',
@@ -542,7 +607,8 @@ var fellows = [
       role: 'Reproducible Research Fellow 2020-2021'
 		},
 	}
-]
+])
+
 fellows = fellows.concat([
 	{
 		name: 'Katerina Drakoulaki',
