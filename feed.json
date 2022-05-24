@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/05/24/_2022-0524-tu-delft-training/",
+            "url": "https://frictionlessdata.io/blog/2022/05/24/_2022-0524-tu-delft-training/",
+            "title": "Workshop on FAIR and Frictionless Workflows for Tabular Data",
+            "summary": "Originally published on: https://community.data.4tu.nl/2022/05/19/workshop-on-fair-and-frictionless-workflows-for-tabular-data/",
+            "image": "https://frictionlessdata.io/img/blog/TUDelft-training.png",
+            "date_modified": "2022-05-24T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/05/05/april-community-call/",
             "url": "https://frictionlessdata.io/blog/2022/05/05/april-community-call/",
             "title": "Frictionless Data April 2022 Virtual Hangout",
@@ -44,14 +52,6 @@
             "summary": "Why Frictionless Data would benefit the ESO mission science data processing in its effort to find a more integrated approach to enhance data architecture efficiency and promote the open science principles...",
             "image": "https://frictionlessdata.io/img/blog/eclipse_epc.png",
             "date_modified": "2022-02-10T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/",
-            "url": "https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/",
-            "title": "Libraries Hacked",
-            "summary": "Libraries hacked is a project started in 2014 to promote the use of open data in libraries. That includes publishing data about libraries, as well as using other open datasets to enhance library data.",
-            "image": "https://frictionlessdata.io/img/blog/libraries-hacked-logo.png",
-            "date_modified": "2022-02-07T00:00:00.000Z"
         }
     ]
 }

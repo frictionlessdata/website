@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frictionlessdata.io</id>
     <title>Frictionless Data</title>
-    <updated>2022-05-24T09:54:31.574Z</updated>
+    <updated>2022-05-24T21:42:45.257Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://frictionlessdata.io"/>
     <link rel="self" href="https://frictionlessdata.io/feed.atom"/>
     <subtitle>Data software and standards</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Workshop on FAIR and Frictionless Workflows for Tabular Data]]></title>
+        <id>https://frictionlessdata.io/blog/2022/05/24/_2022-0524-tu-delft-training/</id>
+        <link href="https://frictionlessdata.io/blog/2022/05/24/_2022-0524-tu-delft-training/">
+        </link>
+        <updated>2022-05-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Originally published on: https://community.data.4tu.nl/2022/05/19/workshop-on-fair-and-frictionless-workflows-for-tabular-data/]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Frictionless Data April 2022 Virtual Hangout]]></title>
         <id>https://frictionlessdata.io/blog/2022/05/05/april-community-call/</id>
@@ -46,13 +54,5 @@
         </link>
         <updated>2022-02-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Why Frictionless Data would benefit the ESO mission science data processing in its effort to find a more integrated approach to enhance data architecture efficiency and promote the open science principles...]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Libraries Hacked]]></title>
-        <id>https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/</id>
-        <link href="https://frictionlessdata.io/blog/2022/02/07/libraries-hacked/">
-        </link>
-        <updated>2022-02-07T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Libraries hacked is a project started in 2014 to promote the use of open data in libraries. That includes publishing data about libraries, as well as using other open datasets to enhance library data.]]></summary>
     </entry>
 </feed>
