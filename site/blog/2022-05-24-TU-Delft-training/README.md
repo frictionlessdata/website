@@ -4,10 +4,10 @@ date: 2022-05-24
 tags: ['events']
 category: events
 image: /img/blog/TUDelft-training.png
-description: 
+description: On 28 and 29 April 4TU.ResearchData and the Frictionless Data team joined forces to organize an online workshop on “FAIR and frictionless workflows for tabular data”
 author: Paula Martinez Lavanchy
 ---
-Originally published on: https://community.data.4tu.nl/2022/05/19/workshop-on-fair-and-frictionless-workflows-for-tabular-data/
+*Originally published on: https://community.data.4tu.nl/2022/05/19/workshop-on-fair-and-frictionless-workflows-for-tabular-data/*
 
 4TU.ResearchData and Frictionless Data joined forces to organize the workshop [“FAIR and frictionless workflows for tabular data”](https://community.data.4tu.nl/2022/03/22/workshop-fair-and-frictionless-workflows-for-tabular-data-online/). The workshop took place on 28 and 29 April 2022 in an online format
 
