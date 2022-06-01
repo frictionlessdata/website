@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/06/01/deploy-solutions/",
+            "url": "https://frictionlessdata.io/blog/2022/06/01/deploy-solutions/",
+            "title": "Frictionless Data May 2022 Community Call",
+            "summary": "At our Frictionless Data community call we heard about citizen science and climate change solutions using Frictionless Data",
+            "image": "https://frictionlessdata.io/img/blog/Deploy-solutions.png",
+            "date_modified": "2022-06-01T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/05/24/tu-delft-training/",
             "url": "https://frictionlessdata.io/blog/2022/05/24/tu-delft-training/",
             "title": "Workshop on FAIR and Frictionless Workflows for Tabular Data",
@@ -44,14 +52,6 @@
             "summary": "At our Frictionless Data community call we heard about the effort to standardise the WACZ format from Ilya Kreymer and Ed Summers...",
             "image": "https://frictionlessdata.io/img/blog/Community-call-webrecorder.png",
             "date_modified": "2022-03-03T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/02/10/nasa-earth-mission-science/",
-            "url": "https://frictionlessdata.io/blog/2022/02/10/nasa-earth-mission-science/",
-            "title": "Frictionless response to NASA Earth mission science data processing",
-            "summary": "Why Frictionless Data would benefit the ESO mission science data processing in its effort to find a more integrated approach to enhance data architecture efficiency and promote the open science principles...",
-            "image": "https://frictionlessdata.io/img/blog/eclipse_epc.png",
-            "date_modified": "2022-02-10T00:00:00.000Z"
         }
     ]
 }
