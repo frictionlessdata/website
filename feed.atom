@@ -2,18 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frictionlessdata.io</id>
     <title>Frictionless Data</title>
-    <updated>2022-05-24T21:42:45.257Z</updated>
+    <updated>2022-06-01T07:20:15.835Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://frictionlessdata.io"/>
     <link rel="self" href="https://frictionlessdata.io/feed.atom"/>
     <subtitle>Data software and standards</subtitle>
     <entry>
         <title type="html"><![CDATA[Workshop on FAIR and Frictionless Workflows for Tabular Data]]></title>
-        <id>https://frictionlessdata.io/blog/2022/05/24/_2022-0524-tu-delft-training/</id>
-        <link href="https://frictionlessdata.io/blog/2022/05/24/_2022-0524-tu-delft-training/">
+        <id>https://frictionlessdata.io/blog/2022/05/24/tu-delft-training/</id>
+        <link href="https://frictionlessdata.io/blog/2022/05/24/tu-delft-training/">
         </link>
         <updated>2022-05-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Originally published on: https://community.data.4tu.nl/2022/05/19/workshop-on-fair-and-frictionless-workflows-for-tabular-data/]]></summary>
+        <summary type="html"><![CDATA[On 28 and 29 April 4TU.ResearchData and the Frictionless Data team joined forces to organize an online workshop on “FAIR and frictionless workflows for tabular data”]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Frictionless Data April 2022 Virtual Hangout]]></title>

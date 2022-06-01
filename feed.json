@@ -6,10 +6,10 @@
     "description": "Data software and standards",
     "items": [
         {
-            "id": "https://frictionlessdata.io/blog/2022/05/24/_2022-0524-tu-delft-training/",
-            "url": "https://frictionlessdata.io/blog/2022/05/24/_2022-0524-tu-delft-training/",
+            "id": "https://frictionlessdata.io/blog/2022/05/24/tu-delft-training/",
+            "url": "https://frictionlessdata.io/blog/2022/05/24/tu-delft-training/",
             "title": "Workshop on FAIR and Frictionless Workflows for Tabular Data",
-            "summary": "Originally published on: https://community.data.4tu.nl/2022/05/19/workshop-on-fair-and-frictionless-workflows-for-tabular-data/",
+            "summary": "On 28 and 29 April 4TU.ResearchData and the Frictionless Data team joined forces to organize an online workshop on “FAIR and frictionless workflows for tabular data”",
             "image": "https://frictionlessdata.io/img/blog/TUDelft-training.png",
             "date_modified": "2022-05-24T00:00:00.000Z"
         },
