@@ -8,7 +8,7 @@ This Code of Conduct applies to all the projects that Frictionless Data hosts/or
 
 ## This Code is applicable to
 * All public areas of participation, including but not limited to discussion forums, mailing lists, issue trackers, social media, and in-person venues such as conferences and workshops.
-* All private areas of participation, including but not limited to email and closed platforms such as Slack.
+* All private areas of participation, including but not limited to email and closed platforms such as Slack or Matrix.
 * Any project that Frictionless Data leads on or partners in.
 
 ## What we expect
