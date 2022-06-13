@@ -47,6 +47,12 @@
               {{ $site.themeConfig.footer_col4_row3 }}
             </a>
           </li>
+          <li class="pt-4">
+            <a href="https://matrix.to/#/#frictionlessdata:matrix.okfn.org" class="font-light text-base">
+              <img class="pr-2 align-middle social-link-icon" width="27" src="/img/home/matrix.svg"></img>
+              {{ $site.themeConfig.footer_col4_row4 }}
+            </a>
+          </li>
         </div>
       </div>
       </div>
