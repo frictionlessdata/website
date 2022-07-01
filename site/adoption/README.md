@@ -494,6 +494,13 @@ The Frictionless Data project develops open source standards and software that c
 </div>
 </div>
 
+## Find Frictionless Datasets
+Where can I find Frictionless Datasets? 
+- The Frictionless team maintains a list of Frictionless Datasets from GitHub on this site: data-package.frictionlessdata.io
+- You can find Frictionless Datasets on Zenodo by [searching for #frictionlessdata](https://zenodo.org/search?page=1&size=20&q=keywords:%22frictionlessdata%22)
+- There are several external databases that allow export of data as datapackages, including [datahub.io](https://datahub.io/), [data.world](https://data.world/), and [Intermine](http://intermine.org/). 
+*Don't see your database listed here? Let us know!*
+
 ## Grant-funded work
 
 ### Frictionless Data for Reproducible Research
