@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/07/04/june-community-call/",
+            "url": "https://frictionlessdata.io/blog/2022/07/04/june-community-call/",
+            "title": "Frictionless Data June 2022 Community Call",
+            "summary": "At our Frictionless Data community call we met the 3rd cohort of Frictionless Fellows",
+            "image": "https://frictionlessdata.io/img/blog/June-community-call.png",
+            "date_modified": "2022-07-04T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/06/01/deploy-solutions/",
             "url": "https://frictionlessdata.io/blog/2022/06/01/deploy-solutions/",
             "title": "Frictionless Data May 2022 Community Call",
@@ -44,14 +52,6 @@
             "summary": "To start this year fresh and inspired, we convened two gatherings of climate researchers, activists, and organisations to brainstorm ways to collaborate to make open climate data more usable, accessible, and impactful...",
             "image": "https://frictionlessdata.io/img/blog/facebook-color.png",
             "date_modified": "2022-03-09T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/03/03/community-call-february/",
-            "url": "https://frictionlessdata.io/blog/2022/03/03/community-call-february/",
-            "title": "Frictionless Data February 2022 Virtual Hangout",
-            "summary": "At our Frictionless Data community call we heard about the effort to standardise the WACZ format from Ilya Kreymer and Ed Summers...",
-            "image": "https://frictionlessdata.io/img/blog/Community-call-webrecorder.png",
-            "date_modified": "2022-03-03T00:00:00.000Z"
         }
     ]
 }
