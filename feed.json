@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/07/05/frictionless-planet-conversation/",
+            "url": "https://frictionlessdata.io/blog/2022/07/05/frictionless-planet-conversation/",
+            "title": "Frictionless Planet and Lacuna Fund discuss gaps in climate datasets for machine learning",
+            "summary": "On 24 June we hosted a conversation with the Lacuna Fund about datasets for climate change...",
+            "image": "https://frictionlessdata.io/img/blog/facebook-color.png",
+            "date_modified": "2022-07-05T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/07/04/june-community-call/",
             "url": "https://frictionlessdata.io/blog/2022/07/04/june-community-call/",
             "title": "Frictionless Data June 2022 Community Call",
@@ -36,22 +44,6 @@
             "summary": "At our Frictionless Data community call we had a discussion around open science best practices and the Turing Way with former Frictionless Fellow Anne Lee Steele...",
             "image": "https://frictionlessdata.io/img/blog/community-call-april-img.png",
             "date_modified": "2022-05-05T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/04/13/march-community-call/",
-            "url": "https://frictionlessdata.io/blog/2022/04/13/march-community-call/",
-            "title": "Frictionless Data March 2022 Virtual Hangout",
-            "summary": "At our Frictionless Data community call we had a discussion with Johan Richer from Multi.coop around his theory of portal vs catalogue.",
-            "image": "https://frictionlessdata.io/img/blog/Data-cataloguing-multi.png",
-            "date_modified": "2022-04-13T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/03/09/save-our-planet/",
-            "url": "https://frictionlessdata.io/blog/2022/03/09/save-our-planet/",
-            "title": "Combining Data Skills, Knowledge, and Networks to Save our Planet",
-            "summary": "To start this year fresh and inspired, we convened two gatherings of climate researchers, activists, and organisations to brainstorm ways to collaborate to make open climate data more usable, accessible, and impactful...",
-            "image": "https://frictionlessdata.io/img/blog/facebook-color.png",
-            "date_modified": "2022-03-09T00:00:00.000Z"
         }
     ]
 }
