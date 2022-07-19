@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/07/14/flatterer/",
+            "url": "https://frictionlessdata.io/blog/2022/07/14/flatterer/",
+            "title": "Announcing Flatterer: converting structured data into tabular data",
+            "summary": "In this blog post, we introduce Flatterer — a new tool that helps convert JSON into tabular data.",
+            "image": "https://frictionlessdata.io/img/blog/Flatterer.png",
+            "date_modified": "2022-07-14T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/07/05/frictionless-planet-conversation/",
             "url": "https://frictionlessdata.io/blog/2022/07/05/frictionless-planet-conversation/",
             "title": "Frictionless Planet and Lacuna Fund discuss gaps in climate datasets for machine learning",
@@ -36,14 +44,6 @@
             "summary": "On 28 and 29 April 4TU.ResearchData and the Frictionless Data team joined forces to organize an online workshop on “FAIR and frictionless workflows for tabular data”",
             "image": "https://frictionlessdata.io/img/blog/TUDelft-training.png",
             "date_modified": "2022-05-24T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/05/05/april-community-call/",
-            "url": "https://frictionlessdata.io/blog/2022/05/05/april-community-call/",
-            "title": "Frictionless Data April 2022 Virtual Hangout",
-            "summary": "At our Frictionless Data community call we had a discussion around open science best practices and the Turing Way with former Frictionless Fellow Anne Lee Steele...",
-            "image": "https://frictionlessdata.io/img/blog/community-call-april-img.png",
-            "date_modified": "2022-05-05T00:00:00.000Z"
         }
     ]
 }
