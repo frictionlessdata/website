@@ -1,10 +1,10 @@
 ---
-title: Announcing Flatterer: converting structured data into tabular data
+title: "Announcing Flatterer: converting structured data into tabular data"
 date: 2022-07-14
 tags: ["case-studies"]
 category: case-studies
 image: /img/blog/Flatterer.png
-description: In this blog post, we introduce Flatterer — a new tool that helps convert JSON into tabular data.
+description: "In this blog post, we introduce Flatterer — a new tool that helps convert JSON into tabular data."
 author: Open Data Services
 ---
 *Originally posted on: https://medium.com/opendatacoop/announcing-flatterer-converting-structured-data-into-tabular-data-c4652eae27c9*
