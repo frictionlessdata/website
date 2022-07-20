@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frictionlessdata.io</id>
     <title>Frictionless Data</title>
-    <updated>2022-07-19T14:01:42.756Z</updated>
+    <updated>2022-07-20T15:13:15.063Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://frictionlessdata.io"/>
     <link rel="self" href="https://frictionlessdata.io/feed.atom"/>
     <subtitle>Data software and standards</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Thank you from Lilly - A message to the community]]></title>
+        <id>https://frictionlessdata.io/blog/2022/07/20/lilly-message-to-community/</id>
+        <link href="https://frictionlessdata.io/blog/2022/07/20/lilly-message-to-community/">
+        </link>
+        <updated>2022-07-20T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[I’m writing to let you all know that this is my final week working on Frictionless Data with Open Knowledge Foundation...]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Announcing Flatterer: converting structured data into tabular data]]></title>
         <id>https://frictionlessdata.io/blog/2022/07/14/flatterer/</id>
@@ -38,13 +46,5 @@
         </link>
         <updated>2022-06-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[At our Frictionless Data community call we heard about citizen science and climate change solutions using Frictionless Data]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Workshop on FAIR and Frictionless Workflows for Tabular Data]]></title>
-        <id>https://frictionlessdata.io/blog/2022/05/24/tu-delft-training/</id>
-        <link href="https://frictionlessdata.io/blog/2022/05/24/tu-delft-training/">
-        </link>
-        <updated>2022-05-24T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[On 28 and 29 April 4TU.ResearchData and the Frictionless Data team joined forces to organize an online workshop on “FAIR and frictionless workflows for tabular data”]]></summary>
     </entry>
 </feed>

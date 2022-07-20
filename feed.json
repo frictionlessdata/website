@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/07/20/lilly-message-to-community/",
+            "url": "https://frictionlessdata.io/blog/2022/07/20/lilly-message-to-community/",
+            "title": "Thank you from Lilly - A message to the community",
+            "summary": "I’m writing to let you all know that this is my final week working on Frictionless Data with Open Knowledge Foundation...",
+            "image": "https://frictionlessdata.io/img/blog/fosdem2020.jpeg",
+            "date_modified": "2022-07-20T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/07/14/flatterer/",
             "url": "https://frictionlessdata.io/blog/2022/07/14/flatterer/",
             "title": "Announcing Flatterer: converting structured data into tabular data",
@@ -36,14 +44,6 @@
             "summary": "At our Frictionless Data community call we heard about citizen science and climate change solutions using Frictionless Data",
             "image": "https://frictionlessdata.io/img/blog/Deploy-solutions.png",
             "date_modified": "2022-06-01T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/05/24/tu-delft-training/",
-            "url": "https://frictionlessdata.io/blog/2022/05/24/tu-delft-training/",
-            "title": "Workshop on FAIR and Frictionless Workflows for Tabular Data",
-            "summary": "On 28 and 29 April 4TU.ResearchData and the Frictionless Data team joined forces to organize an online workshop on “FAIR and frictionless workflows for tabular data”",
-            "image": "https://frictionlessdata.io/img/blog/TUDelft-training.png",
-            "date_modified": "2022-05-24T00:00:00.000Z"
         }
     ]
 }
