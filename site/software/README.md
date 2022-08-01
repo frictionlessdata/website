@@ -26,7 +26,7 @@ Here is a list of our core software:
      <img src="/img/software/framework.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Framework</h3>
    </a>
-   <p>A framework to describe, extract, validate, and transform tabular data in <a href="https://framework.frictionlessdata.io/" target="_blank">CLI</a>, <a href="https://framework.frictionlessdata.io/" target="_blank">Python</a>, <a href="https://github.com/frictionlessdata/frictionless-js" target="_blank">JavaScript</a>, and <a href="https://docs.ropensci.org/frictionless/" target="_blank">R</a>.</p>
+   <p>A framework to describe, extract, validate, and transform tabular data in <a href="https://framework.frictionlessdata.io/" target="_blank">CLI</a>, <a href="https://framework.frictionlessdata.io/" target="_blank">Python</a>, <a href="https://github.com/frictionlessdata/frictionless-js" target="_blank">JavaScript</a>, <a href="https://docs.ropensci.org/frictionless/" target="_blank">R-Lang</a>.</p>
  </div>
 </div>
 
