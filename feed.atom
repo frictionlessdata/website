@@ -2,11 +2,19 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://frictionlessdata.io</id>
     <title>Frictionless Data</title>
-    <updated>2022-08-03T14:28:51.967Z</updated>
+    <updated>2022-08-04T07:14:47.298Z</updated>
     <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
     <link rel="alternate" href="https://frictionlessdata.io"/>
     <link rel="self" href="https://frictionlessdata.io/feed.atom"/>
     <subtitle>Data software and standards</subtitle>
+    <entry>
+        <title type="html"><![CDATA[Frictionless Data July 2022 Community Call]]></title>
+        <id>https://frictionlessdata.io/blog/2022/08/03/community-call-july-flatterer/</id>
+        <link href="https://frictionlessdata.io/blog/2022/08/03/community-call-july-flatterer/">
+        </link>
+        <updated>2022-08-03T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[At our Frictionless Data community call we heard about Flatterer, a tool he developed to convert JSON data into tabular data, from David Raznick...]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Thank you from Lilly - A message to the community]]></title>
         <id>https://frictionlessdata.io/blog/2022/07/20/lilly-message-to-community/</id>
@@ -38,13 +46,5 @@
         </link>
         <updated>2022-07-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[At our Frictionless Data community call we met the 3rd cohort of Frictionless Fellows]]></summary>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Frictionless Data May 2022 Community Call]]></title>
-        <id>https://frictionlessdata.io/blog/2022/06/01/deploy-solutions/</id>
-        <link href="https://frictionlessdata.io/blog/2022/06/01/deploy-solutions/">
-        </link>
-        <updated>2022-06-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[At our Frictionless Data community call we heard about citizen science and climate change solutions using Frictionless Data]]></summary>
     </entry>
 </feed>

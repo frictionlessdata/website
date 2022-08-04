@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/08/03/community-call-july-flatterer/",
+            "url": "https://frictionlessdata.io/blog/2022/08/03/community-call-july-flatterer/",
+            "title": "Frictionless Data July 2022 Community Call",
+            "summary": "At our Frictionless Data community call we heard about Flatterer, a tool he developed to convert JSON data into tabular data, from David Raznick...",
+            "image": "https://frictionlessdata.io/img/blog/july-community-call-flatterer.png",
+            "date_modified": "2022-08-03T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/07/20/lilly-message-to-community/",
             "url": "https://frictionlessdata.io/blog/2022/07/20/lilly-message-to-community/",
             "title": "Thank you from Lilly - A message to the community",
@@ -36,14 +44,6 @@
             "summary": "At our Frictionless Data community call we met the 3rd cohort of Frictionless Fellows",
             "image": "https://frictionlessdata.io/img/blog/June-community-call.png",
             "date_modified": "2022-07-04T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/06/01/deploy-solutions/",
-            "url": "https://frictionlessdata.io/blog/2022/06/01/deploy-solutions/",
-            "title": "Frictionless Data May 2022 Community Call",
-            "summary": "At our Frictionless Data community call we heard about citizen science and climate change solutions using Frictionless Data",
-            "image": "https://frictionlessdata.io/img/blog/Deploy-solutions.png",
-            "date_modified": "2022-06-01T00:00:00.000Z"
         }
     ]
 }
