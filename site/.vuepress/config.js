@@ -106,7 +106,8 @@ module.exports = {
     navbar_icon1_link: "https://matrix.to/#/#frictionlessdata:matrix.okfn.org",
     navbar_icon1_image: "/img/home/matrix.svg",
     navbar_icon1_title: "Matrix",
-    navbar_icon2_link: "https://join.slack.com/t/frictionlessdata/shared_invite/zt-17kpbffnm-tRfDW_wJgOw8tJVLvZTrBg",
+    navbar_icon2_link:
+      "https://join.slack.com/t/frictionlessdata/shared_invite/zt-17kpbffnm-tRfDW_wJgOw8tJVLvZTrBg",
     navbar_icon2_image: "/img/home/slack-icon.png",
     navbar_icon2_title: "Slack",
     navbar_icon3_link: "https://twitter.com/frictionlessd8a",
@@ -121,11 +122,19 @@ module.exports = {
         text: "Introduction",
         link: "/introduction/",
       },
-      { text: "Software", link: "/software/" },
-      { text: "Standards", link: "/standards/" },
+      { text: "Projects", link: "/projects/" },
       { text: "Adoption", link: "/adoption/" },
       { text: "People", link: "/people/" },
       { text: "Fellows", link: "https://fellows.frictionlessdata.io/" },
+      {
+        text: "Development",
+        ariaLabel: "Development Menu",
+        items: [
+          { text: "Design", link: "/development/design/" },
+          { text: "Roadmap", link: "/development/roadmap/" },
+          { text: "Process", link: "/development/process/" },
+        ],
+      },
       {
         text: "Work With Us",
         ariaLabel: "Work With Us Menu",
@@ -138,10 +147,18 @@ module.exports = {
             text: "Forum",
             link: "https://github.com/frictionlessdata/project/discussions",
           },
-          { text: "Chat (Slack)", link: "https://join.slack.com/t/frictionlessdata/shared_invite/zt-17kpbffnm-tRfDW_wJgOw8tJVLvZTrBg" },
-          { text: "Chat (Matrix)", link: "https://matrix.to/#/#frictionlessdata:matrix.okfn.org"},
+          {
+            text: "Chat (Slack)",
+            link:
+              "https://join.slack.com/t/frictionlessdata/shared_invite/zt-17kpbffnm-tRfDW_wJgOw8tJVLvZTrBg",
+          },
+          {
+            text: "Chat (Matrix)",
+            link: "https://matrix.to/#/#frictionlessdata:matrix.okfn.org",
+          },
         ],
       },
+      { text: "Universe", link: "/universe/" },
       { text: "Blog", link: "/blog/" },
     ],
   },
@@ -208,7 +225,13 @@ module.exports = {
     ["@vuepress/back-to-top"],
   ],
   head: [
-    ["script", { src: "https://plausible.io/js/script.js", "data-domain": "frictionlessdata.io"}],
+    [
+      "script",
+      {
+        src: "https://plausible.io/js/script.js",
+        "data-domain": "frictionlessdata.io",
+      },
+    ],
     ["script", { src: "https://unpkg.com/honeycomb-grid@3.1.3" }],
     ["script", { src: "https://unpkg.com/svg.js@2.7.1" }],
   ],

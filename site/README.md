@@ -17,30 +17,80 @@ features:
 
 <div class="banner p-8 text-black">
   <div class="inner-container">
-    <h1 class="text-center text-3xl font-normal">Frictionless Toolkit<br/><small class="font-light text-xl">Frictionless Data consists of two main parts, software and standards.<hr></small>
+    <h1 class="text-center text-3xl font-normal">Frictionless Projects<br/><small class="font-light text-xl">Open Source projects for working with data.<hr></small>
     </h1>
-    <div class="mx-auto flex flex-row flex-wrap lg:justify-between text-center justify-center mb-8">
-      <div class="sm:w-1/2 lg:w-1/2 flex flex-col">
-        <div class="text-center px-8">
-          <a href="/software/" class="text-xl text-black hover:underline">
-            <h3>Frictionless Software</h3>
-            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/software.png"></img>
-        </a>
-          <p class="text-lg font-light pt-4">The Frictionless Data projects provides a rich set of open source tools and software in many programming languages for working with data.</p>
-          <a href="/software/" class="text-base hover:underline">Read more &raquo;</a>
-        </div>
-      </div>
-      <div class="sm:w-1/2 lg:w-1/2 flex flex-col">
-        <div class="text-center px-8">
-          <a href="/standards/" class="text-xl text-black hover:underline">
-            <h3>Frictionless Standards</h3>
-            <img style="border:dashed 1px #555; padding: 10px; border-radius: 10px;" class="mx-auto" src="/img/home/standards.png"></img>
-        </a>
-          <p class="text-lg font-light pt-4">The Frictionless Data project is built on top of the Frictionless Standards: a set of specifications that standardize working with various types of data.</p>
-          <a href="/standards/" class="text-base hover:underline">Read more &raquo;</a>
-        </div>
-      </div>
-    </div>
+<div class="main-section black-text">
+<div class="features flex flex-row flex-wrap py-4">
+
+<!-- Frictionless Application -->
+<div class="w-full md:w-1/3 feature flex justify-center" style="opacity: 0.5">
+ <div class="px-8 text-center">
+   <a href="https://frictionlessdata.io/" target="_blank">
+     <img src="/img/software/components.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px" />
+     <h3>Frictionless Application (soon)</h3>
+   </a>
+   <p>Data management application for Browser and Desktop for working with tabular data.</p>
+ </div>
+</div>
+
+<!-- Frictionless Framework -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://framework.frictionlessdata.io" target="_blank">
+     <img src="/img/software/framework.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Framework</h3>
+   </a>
+   <p>Python framework to describe, extract, validate, and transform tabular data.</p>
+ </div>
+</div>
+
+<!-- Livemark -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://livemark.frictionlessdata.io" target="_blank">
+     <img src="/img/software/livemark.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Livemark</h3>
+   </a>
+   <p>Static site generator that extends Markdown with charts, tables, scripts, and more.</p>
+ </div>
+</div>
+
+<!-- Frictionless Repository -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://repository.frictionlessdata.io" target="_blank">
+     <img src="/img/software/repository.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Repository</h3>
+   </a>
+   <p>Github Action allowing you to validate tabular data on every commit to your repository.</p>
+ </div>
+</div>
+
+<!-- Frictionless Standards -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://specs.frictionlessdata.io" target="_blank">
+     <img src="/img/software/libraries.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Standards</h3>
+   </a>
+   <p>Lightweight yet comprehensive data standards as Data Package and Table Schema.</p>
+ </div>
+</div>
+
+<!-- Datahub -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://datahub.io/" target="_blank">
+     <img src="/img/software/datahub.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Datahub</h3>
+   </a>
+   <p>A web platform built on Frictionless Data that allows discovering, publishing, and sharing data.</p>
+ </div>
+</div>
+
+</div>
+</div>
+
   </div>
 </div>
 

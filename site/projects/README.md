@@ -1,23 +1,34 @@
 ---
-title: Frictionless Software
+title: Frictionless Projects
 ---
 
-# Frictionless Software
+# Frictionless Projects
 
-<big><strong>Open source software for working with data.</strong></big>
+<big><strong>Open source software and standards for working with data.</strong></big>
 
-The Frictionless Data project provides a rich set of open source software for working with data. There are tools, a visual application, and software for many programming platforms.
+The Frictionless Data project provides a rich set of open source software and standards for working with data. There are tools, a visual application, and software for many programming platforms.
 
 :::tip
 This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below. Please visit [the software site](https://software.frictionlessdata.io/) if you're interested in technical overview of the development process.
 :::
 
-## Software Toolkit
+## Software and Standards
 
-Here is a list of our core software:
+Open Source projects for working with data:
 
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
+
+<!-- Frictionless Application -->
+<div class="w-full md:w-1/3 feature flex justify-center" style="opacity: 0.5">
+ <div class="px-8 text-center">
+   <a href="https://frictionlessdata.io/" target="_blank">
+     <img src="/img/software/components.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px" />
+     <h3>Frictionless Application (soon)</h3>
+   </a>
+   <p>Data management application for Browser and Desktop for working with tabular data.</p>
+ </div>
+</div>
 
 <!-- Frictionless Framework -->
 <div class="w-full md:w-1/3 feature flex justify-center">
@@ -26,40 +37,7 @@ Here is a list of our core software:
      <img src="/img/software/framework.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Frictionless Framework</h3>
    </a>
-   <p>A framework to describe, extract, validate, and transform tabular data in <a href="https://framework.frictionlessdata.io/" target="_blank">CLI</a>, <a href="https://framework.frictionlessdata.io/" target="_blank">Python</a>, <a href="https://github.com/frictionlessdata/frictionless-js" target="_blank">JavaScript</a>, <a href="https://docs.ropensci.org/frictionless/" target="_blank">R-Lang</a>.</p>
- </div>
-</div>
-
-<!-- Frictionless Libraries -->
-<div class="w-full md:w-1/3 feature flex justify-center">
- <div class="px-8 text-center">
-   <a href="https://libraries.frictionlessdata.io" target="_blank">
-     <img src="/img/software/libraries.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>Frictionless Libraries</h3>
-   </a>
-   <p>A set of libraries implementing Frictionless Specifications for 10 programming languages.</p>
- </div>
-</div>
-
-<!-- Frictionless Components -->
-<div class="w-full md:w-1/3 feature flex justify-center">
- <div class="px-8 text-center">
-   <a href="https://components.frictionlessdata.io/" target="_blank">
-     <img src="/img/software/components.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>Frictionless Components</h3>
-   </a>
-   <p>A set of React components for data and metadata that are quick to integrate into your application.</p>
- </div>
-</div>
-
-<!-- Frictionless Repository -->
-<div class="w-full md:w-1/3 feature flex justify-center">
- <div class="px-8 text-center">
-   <a href="https://repository.frictionlessdata.io" target="_blank">
-     <img src="/img/software/repository.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
-     <h3>Frictionless Repository</h3>
-   </a>
-   <p>A Github Action allowing you to validate tabular data on every commit to your repository.</p>
+   <p>Python framework to describe, extract, validate, and transform tabular data.</p>
  </div>
 </div>
 
@@ -70,7 +48,29 @@ Here is a list of our core software:
      <img src="/img/software/livemark.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
      <h3>Livemark</h3>
    </a>
-   <p> A static site generator that extends Markdown with interactive charts, tables, scripts, and more.</p>
+   <p>Static site generator that extends Markdown with charts, tables, scripts, and more.</p>
+ </div>
+</div>
+
+<!-- Frictionless Repository -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://repository.frictionlessdata.io" target="_blank">
+     <img src="/img/software/repository.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Repository</h3>
+   </a>
+   <p>Github Action allowing you to validate tabular data on every commit to your repository.</p>
+ </div>
+</div>
+
+<!-- Frictionless Standards -->
+<div class="w-full md:w-1/3 feature flex justify-center">
+ <div class="px-8 text-center">
+   <a href="https://specs.frictionlessdata.io" target="_blank">
+     <img src="/img/software/libraries.png" style="width: 200px; border:dashed 1px #555; padding: 10px; border-radius: 10px;" />
+     <h3>Frictionless Standards</h3>
+   </a>
+   <p>Lightweight yet comprehensive data standards as Data Package and Table Schema.</p>
  </div>
 </div>
 
@@ -114,3 +114,23 @@ If you want to use or write your own Frictionless code:
 - **Frictionless Framework:** For general data programming in Python, the [Frictionless Framework](https://framework.frictionlessdata.io/) is the way to go. You can describe, extract, validate, and transform your data. It's also possible to extend the framework by adding new validation checks, transformation steps, etc. In addition, there is a lightweight version of the framework written in [JavaScript](https://github.com/frictionlessdata/frictionless-js).
 - **Frictionless Libraries:** For Frictionless functions in other languages like R or Java, we have [Frictionless Libraries](https://libraries.frictionlessdata.io/). Each library provides metadata validation and editing along with other low-level data operations like reading or writing tabular files.
 - **Frictionless Components:** For adding Frictionless React components into your application, we created [Frictionless Components](https://components.frictionlessdata.io/). This project lets you integrate visual elements like validation reports, workflows, or schema editors into your application.
+
+## Which standard is right for me?
+
+To help you pick a standard to use, we've categorized them according to how many files you are working with.
+
+### Collection of Files
+
+If you have more than one file:
+
+- **Data Package**: Use a [Data Package](https://specs.frictionlessdata.io/data-package/) for describing datasets of any file format. Data Package is a basic container format for describing a collection of data in a single "package". It provides a basis for convenient delivery, installation and management of datasets.
+- **Fiscal Data Package**: For fiscal data, use a [Fiscal Data Package](https://specs.frictionlessdata.io/fiscal-data-package/). This lightweight and user-oriented format is for publishing and consuming fiscal data. It concerns with how fiscal data should be packaged and providing means for publishers to best convey the meaning of the data - so it can be optimally used by consumers.
+
+### Individual File
+
+If you need to describe an individual file:
+
+- **Data Resource**: Use [Data Resource](https://specs.frictionlessdata.io/data-resource/) for describing individual files. Data Resource is a format to describe and package a single data resource of any file format, such as an individual table or file. It can also be extended for specific use cases.
+- **Tabular Data Resource**: For tabular data, use the Data Resource extension called [Tabular Data Resource](https://specs.frictionlessdata.io/tabular-data-resource/). Tabular Data Resource describes a single *tabular* data resource such as a CSV file. It includes support for metadata and schemas to describe the data content and structure.
+- **Table Schema**: To describe only the schema of a tabular data file, use [Table Schema](https://specs.frictionlessdata.io/table-schema/). Table Schema is a format to declare a schema for tabular data. The schema is designed to be expressible in JSON. You can have a schema as independent metadata or use it with a Tabular Data Resource.
+- **CSV Dialect**: To specify the CSV dialect within a schema, use [CSV Dialect](https://specs.frictionlessdata.io/csv-dialect/). This defines a format to describe the various dialects of CSV files in a language agnostic manner. This is important because CSV files might be published in different forms, making it harder to read the data without errors. CSV Dialect can be used with a Tabular Data Resource to provide additional information.
