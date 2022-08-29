@@ -130,7 +130,7 @@ module.exports = {
         text: "Development",
         ariaLabel: "Development Menu",
         items: [
-          { text: "Design", link: "/development/design/" },
+          { text: "Architecture", link: "/development/architecture/" },
           { text: "Roadmap", link: "/development/roadmap/" },
           { text: "Process", link: "/development/process/" },
         ],
