@@ -4,17 +4,17 @@ title: Frictionless Projects
 
 # Frictionless Projects
 
-<big><strong>Open source software and standards for working with data.</strong></big>
+<big><strong>Open source projects for working with data.</strong></big>
 
-The Frictionless Data project provides a rich set of open source software and standards for working with data. There are tools, a visual application, and software for many programming platforms.
+The Frictionless Data project provides a rich set of open source projects for working with data. There are tools, a visual application, and software for many programming platforms.
 
 :::tip
-This document is an overview of the Frictionless Software - for more in-depth information, please click on one of the software items below. Please visit [the software site](https://software.frictionlessdata.io/) if you're interested in technical overview of the development process.
+This document is an overview of the Frictionless Projects - for more in-depth information, please click on one of the projects below and you will be redirected to a corresponding documentation portal.
 :::
 
 ## Software and Standards
 
-Open Source projects for working with data:
+It's a list of core Frictionless Projects developed by the core Frictionless Team:
 
 <div class="main-section black-text">
 <div class="features flex flex-row flex-wrap py-4">
@@ -112,8 +112,7 @@ If you like to write commands in the command-line interface:
 If you want to use or write your own Frictionless code:
 
 - **Frictionless Framework:** For general data programming in Python, the [Frictionless Framework](https://framework.frictionlessdata.io/) is the way to go. You can describe, extract, validate, and transform your data. It's also possible to extend the framework by adding new validation checks, transformation steps, etc. In addition, there is a lightweight version of the framework written in [JavaScript](https://github.com/frictionlessdata/frictionless-js).
-- **Frictionless Libraries:** For Frictionless functions in other languages like R or Java, we have [Frictionless Libraries](https://libraries.frictionlessdata.io/). Each library provides metadata validation and editing along with other low-level data operations like reading or writing tabular files.
-- **Frictionless Components:** For adding Frictionless React components into your application, we created [Frictionless Components](https://components.frictionlessdata.io/). This project lets you integrate visual elements like validation reports, workflows, or schema editors into your application.
+- **Frictionless Universe:** For Frictionless implementations in other languages like R or Java and visual components, we have [Frictionless Universe](../universe/). Each library provides metadata validation and editing along with other low-level data operations like reading or writing tabular files.
 
 ## Which standard is right for me?
 
