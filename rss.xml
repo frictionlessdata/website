@@ -4,7 +4,7 @@
         <title>Frictionless Data</title>
         <link>https://frictionlessdata.io</link>
         <description>Data software and standards</description>
-        <lastBuildDate>Tue, 30 Aug 2022 13:16:55 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 30 Aug 2022 13:49:55 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>https://github.com/webmasterish/vuepress-plugin-feed</generator>
         <atom:link href="https://frictionlessdata.io/feed.atom" rel="self" type="application/rss+xml"/>
@@ -15,6 +15,15 @@
             <pubDate>Mon, 29 Aug 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[We are very excited to announce the beta release of Frictionless Framework v5]]></description>
             <enclosure url="https://frictionlessdata.io/img/blog/framework.png">
+            </enclosure>
+        </item>
+        <item>
+            <title><![CDATA[Frictionless Data August 2022 Community Call]]></title>
+            <link>https://frictionlessdata.io/blog/2022/08/03/community-call-github-integration/</link>
+            <guid>https://frictionlessdata.io/blog/2022/08/03/community-call-github-integration/</guid>
+            <pubDate>Wed, 03 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[At our Frictionless Data community call we had our very own Frictionless Data developer Shashi Gharti presenting to the community the new Frictionless GitHub integration...]]></description>
+            <enclosure url="https://frictionlessdata.io/img/blog/Shashis-presentation.png">
             </enclosure>
         </item>
         <item>
@@ -42,15 +51,6 @@
             <pubDate>Thu, 14 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[In this blog post, we introduce Flatterer — a new tool that helps convert JSON into tabular data.]]></description>
             <enclosure url="https://frictionlessdata.io/img/blog/Flatterer.png">
-            </enclosure>
-        </item>
-        <item>
-            <title><![CDATA[Frictionless Planet and Lacuna Fund discuss gaps in climate datasets for machine learning]]></title>
-            <link>https://frictionlessdata.io/blog/2022/07/05/frictionless-planet-conversation/</link>
-            <guid>https://frictionlessdata.io/blog/2022/07/05/frictionless-planet-conversation/</guid>
-            <pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[On 24 June we hosted a conversation with the Lacuna Fund about datasets for climate change...]]></description>
-            <enclosure url="https://frictionlessdata.io/img/blog/facebook-color.png">
             </enclosure>
         </item>
     </channel>
