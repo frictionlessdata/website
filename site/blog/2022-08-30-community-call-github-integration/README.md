@@ -34,5 +34,3 @@ Join our community on [Slack](https://join.slack.com/t/frictionlessdata/shared_i
 On a final note, here is the recording of the full call:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9_VwniN4JKE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
