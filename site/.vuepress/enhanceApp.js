@@ -359,6 +359,14 @@ const redirectList = [
     path: "/data-package/",
     redirect: "/standards/",
   },
+  {
+    path: "/software/",
+    redirect: "/projects/",
+  },
+  {
+    path: "/standards/",
+    redirect: "/projects/",
+  },
 ];
 
 export default ({ Vue, router }) => {
