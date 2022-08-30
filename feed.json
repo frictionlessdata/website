@@ -6,6 +6,14 @@
     "description": "Data software and standards",
     "items": [
         {
+            "id": "https://frictionlessdata.io/blog/2022/08/29/frictionless-framework-release/",
+            "url": "https://frictionlessdata.io/blog/2022/08/29/frictionless-framework-release/",
+            "title": "Welcome Frictionless Framework (v5)",
+            "summary": "We are very excited to announce the beta release of Frictionless Framework v5",
+            "image": "https://frictionlessdata.io/img/blog/framework.png",
+            "date_modified": "2022-08-29T00:00:00.000Z"
+        },
+        {
             "id": "https://frictionlessdata.io/blog/2022/08/03/community-call-july-flatterer/",
             "url": "https://frictionlessdata.io/blog/2022/08/03/community-call-july-flatterer/",
             "title": "Frictionless Data July 2022 Community Call",
@@ -36,14 +44,6 @@
             "summary": "On 24 June we hosted a conversation with the Lacuna Fund about datasets for climate change...",
             "image": "https://frictionlessdata.io/img/blog/facebook-color.png",
             "date_modified": "2022-07-05T00:00:00.000Z"
-        },
-        {
-            "id": "https://frictionlessdata.io/blog/2022/07/04/june-community-call/",
-            "url": "https://frictionlessdata.io/blog/2022/07/04/june-community-call/",
-            "title": "Frictionless Data June 2022 Community Call",
-            "summary": "At our Frictionless Data community call we met the 3rd cohort of Frictionless Fellows",
-            "image": "https://frictionlessdata.io/img/blog/June-community-call.png",
-            "date_modified": "2022-07-04T00:00:00.000Z"
         }
     ]
 }
