@@ -1,6 +1,6 @@
 ---
 title: Frictionless Data August 2022 Community Call 
-date: 2022-08-03
+date: 2022-08-30
 tags: ['events', 'community-hangout']
 category: events
 image: /img/blog/Shashis-presentation.png
