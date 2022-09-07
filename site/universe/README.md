@@ -26,7 +26,7 @@ Cummunity-driven projects based on Frictionless Software and Standards:
 - [datapackage-render-js](https://github.com/frictionlessdata/datapackage-render-js)
 - [frictionless-components](https://github.com/frictionlessdata/components)
 
-## R-Lang
+## R
 
 - [frictionless-r](https://github.com/frictionlessdata/frictionless-r)
 - [datapackage-r](https://github.com/frictionlessdata/datapackage-r)
