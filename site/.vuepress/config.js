@@ -76,6 +76,7 @@ module.exports = {
     logo: "/img/frictionless-color-full-logo.svg",
     // repo: "https://github.com/frictionlessdata",
     // repoLabel: "GitHub",
+    docsBranch: "main",
     docsRepo: "https://github.com/frictionlessdata/website",
     docsDir: "site",
     lastUpdated: "Last Updated",
