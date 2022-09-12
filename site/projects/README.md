@@ -112,7 +112,7 @@ If you like to write commands in the command-line interface:
 If you want to use or write your own Frictionless code:
 
 - **Frictionless Framework:** For general data programming in Python, the [Frictionless Framework](https://framework.frictionlessdata.io/) is the way to go. You can describe, extract, validate, and transform your data. It's also possible to extend the framework by adding new validation checks, transformation steps, etc. In addition, there is a lightweight version of the framework written in [JavaScript](https://github.com/frictionlessdata/frictionless-js).
-- **Frictionless Universe:** For Frictionless implementations in other languages like R or Java and visual components, we have [Frictionless Universe](../universe/). Each library provides metadata validation and editing along with other low-level data operations like reading or writing tabular files.
+- **Frictionless Universe:** For Frictionless implementations in other languages like [R](https://github.com/frictionlessdata/frictionless-r) or Java and visual components, we have [Frictionless Universe](../universe/). Each library provides metadata validation and editing along with other low-level data operations like reading or writing tabular files.
 
 ## Which standard is right for me?
 
